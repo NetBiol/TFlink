@@ -1,14 +1,14 @@
 import _ from 'lodash';
 
 var data_url_prefix = "";
-webix.DataDriver.csv.cell = "\t";
 
-webix.ready(function () {
+webix.ready(function() {
   var dtable = new webix.ui({
     container: "browsetable",
     id: "dtable",
     view: "datatable",
     css: "",
+    hidden: true,
     columns: [{
         id: "protein_name",
         map:"#data0#",
@@ -37,14 +37,13 @@ webix.ready(function () {
         id: "function",
         map: "#data3#",
         header: ["Function", {
-          content: "textFilter"
+          content: "selectFilter"
         }],
         adjust: true
       }
     ],
     resizeColumn: true,
     datatype: "csv",
-    url: data_url_prefix + 'data/nodes.csv',
     autoheight: true,
     autowidth: true,
     pager: {
@@ -84,14 +83,14 @@ webix.ready(function () {
     elements: species_select
   });
   $$("species_select_form").elements["species"].attachEvent("onChange", function (newv, oldv) {
-    console.log(data_url_prefix + "data/browse_tables/" + newv + "_browse" + ".tsv");
     $$("dtable").showProgress({
       type: "bottom",
       delay: 3000,
       hide: true
     });
     dtable.clearAll();
-    dtable.load(data_url_prefix + "data/browse_tables/" + newv + "_browse" + ".tsv");
+    dtable.load(data_url_prefix + "data/browse_tables/" + newv + "_browse" + ".csv", "csv");
+    $$("dtable").show();
     $$("dtable").refresh();
     // webix.message("Value changed from: "+oldv+" to: "+newv);
   });
