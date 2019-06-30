@@ -89,7 +89,7 @@ webix.ready(function() {
       hide: true
     });
     dtable.clearAll();
-    dtable.load(data_url_prefix + "data/browse_tables/" + newv + "_browse" + ".csv", "csv");
+    dtable.load(data_url_prefix + "data/browse_tables/" + newv + "_LT_browse" + ".csv", "csv");
     $$("dtable").show();
     $$("dtable").refresh();
     // webix.message("Value changed from: "+oldv+" to: "+newv);

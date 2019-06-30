@@ -1,5 +1,5 @@
 $(document).ready(function () {
-  targetTable = $('#target_data').val() ? webix.ui({
+  var targetTable = $('#target_data').val() ? webix.ui({
     container: "target_div",
     autowidth: true,
     rows: [{
@@ -53,11 +53,18 @@ $(document).ready(function () {
       autoheight: true,
       autowidth: true,
       datatype: "csv",
-      data: $('#target_data').val()
+      data: $('#target_data').val(),
+      pager: {
+        css: "",
+        template: "{common.prev()}{common.next()}Page {common.page()} from #limit#",
+        container: "target_paging",
+        size: 10,
+        group: 5
+      },
     }, ]
   }) : undefined;
 
-  tfTable = $('#tf_data').val() ? webix.ui({
+  var tfTable = $('#tf_data').val() ? webix.ui({
     container: "tf_div",
     autowidth: true,
     rows: [{
@@ -111,7 +118,14 @@ $(document).ready(function () {
       autoheight: true,
       autowidth: true,
       datatype: "csv",
-      data: $('#tf_data').val()
+      data: $('#tf_data').val(),
+      pager: {
+        css: "",
+        template: "{common.prev()}{common.next()}Page {common.page()} from #limit#",
+        container: "tf_paging",
+        size: 10,
+        group: 5
+      },
     }, ]
   }) : undefined;
   //   if ($(window).width() < 850) {
