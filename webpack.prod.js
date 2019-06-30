@@ -14,9 +14,9 @@ module.exports = merge(common, {
   },
 
   optimization: {
-    splitChunks: {
-      chunks: 'all'
-    },
+    // splitChunks: {
+    //   chunks: 'all'
+    // },
     minimizer: [
       new UglifyJsPlugin({
         cache: true,
