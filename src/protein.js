@@ -128,6 +128,72 @@ $(document).ready(function () {
       },
     }, ]
   }) : undefined;
+
+  var bindingSitesTable = $('#binding_sites_data').val() ? webix.ui({
+    container: "binding_sites_div",
+    autowidth: true,
+    rows: [{
+      id: "bindingSitesTable",
+      view: "datatable",
+      css: "",
+      columns: [{
+          id: "data0",
+          header: ["Protein name", {
+            content: "textFilter"
+          }],
+          css: "rank",
+          adjust: true
+        },
+        {
+          id: "data1",
+          header: ["Uniprot ID", {
+            content: "textFilter"
+          }],
+          adjust: true
+        },
+        {
+          id: "data2",
+          header: ["NCBI Gene ID", {
+            content: "textFilter"
+          }],
+          adjust: true
+        },
+        {
+          id: "data3",
+          header: ["Source database", {
+            content: "textFilter"
+          }],
+          adjust: true
+        },
+        {
+          id: "data4",
+          header: ["Detection method", {
+            content: "textFilter"
+          }],
+          adjust: true
+        },
+        {
+          id: "data5",
+          header: ["Publications", {
+            content: "textFilter"
+          }],
+          adjust: true
+        }
+      ],
+      autoheight: true,
+      autowidth: true,
+      datatype: "csv",
+      data: $('#binding_sites_data').val(),
+      pager: {
+        css: "",
+        template: "{common.prev()}{common.next()}Page {common.page()} from #limit#",
+        container: "binding_sites_paging",
+        size: 10,
+        group: 5
+      },
+    }, ]
+  }) : undefined;
+
   //   if ($(window).width() < 850) {
   //     $$('interactiontable').hideColumn("data2");
   //     $$('interactiontable').setColumnWidth("data0", 80);

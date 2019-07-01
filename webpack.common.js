@@ -8,7 +8,8 @@ module.exports = {
   entry: {
     main: path.join(__dirname, "src", "index.js"),
     browse: path.join(__dirname, "src", "browse.js"),
-    protein: path.join(__dirname, "src", "protein.js")
+    protein: path.join(__dirname, "src", "protein.js"),
+    download: path.join(__dirname, "src", "download.js")
   },
 
   output: {
