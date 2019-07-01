@@ -109,7 +109,7 @@ $(document).ready(function () {
         },
         {
           id: "data5",
-          header: ["Publications", {
+          header: ["Publication", {
             content: "textFilter"
           }],
           adjust: true
@@ -138,7 +138,7 @@ $(document).ready(function () {
       css: "",
       columns: [{
           id: "data0",
-          header: ["Protein name", {
+          header: ["TFLink ID", {
             content: "textFilter"
           }],
           css: "rank",
@@ -153,14 +153,14 @@ $(document).ready(function () {
         },
         {
           id: "data2",
-          header: ["NCBI Gene ID", {
+          header: ["Protein name", {
             content: "textFilter"
           }],
           adjust: true
         },
         {
           id: "data3",
-          header: ["Source database", {
+          header: ["Organism", {
             content: "textFilter"
           }],
           adjust: true
@@ -174,7 +174,49 @@ $(document).ready(function () {
         },
         {
           id: "data5",
-          header: ["Publications", {
+          header: ["Publication", {
+            content: "textFilter"
+          }],
+          adjust: true
+        },
+        {
+          id: "data6",
+          header: ["Source database", {
+            content: "textFilter"
+          }],
+          adjust: true
+        },
+        {
+          id: "data7",
+          header: ["Assembly", {
+            content: "textFilter"
+          }],
+          adjust: true
+        },
+        {
+          id: "data8",
+          header: ["Chr", {
+            content: "textFilter"
+          }],
+          adjust: true
+        },
+        {
+          id: "data9",
+          header: ["Start", {
+            content: "textFilter"
+          }],
+          adjust: true
+        },
+        {
+          id: "data10",
+          header: ["End", {
+            content: "textFilter"
+          }],
+          adjust: true
+        },
+        {
+          id: "data11",
+          header: ["Strand", {
             content: "textFilter"
           }],
           adjust: true

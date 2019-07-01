@@ -48,7 +48,7 @@ webix.ready(function() {
     autowidth: true,
     pager: {
       css: "",
-      template: "{common.prev()}{common.next()}Page {common.page()} from #limit#",
+      template: "{common.prev()}{common.next()}Page {common.page()} to #limit#",
       container: "paging_here",
       size: 25,
       group: 5
