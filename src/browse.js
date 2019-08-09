@@ -48,7 +48,7 @@ webix.ready(function() {
     autowidth: true,
     pager: {
       css: "",
-      template: "{common.prev()}{common.next()}Page {common.page()} to #limit#",
+      template: "{common.first()} {common.prev()} {common.pages()} {common.next()} {common.last()}",
       container: "paging_here",
       size: 25,
       group: 5
@@ -69,6 +69,7 @@ webix.ready(function() {
     },
     {
       view: "select",
+      css: "browse-select",
       name: "species",
       options: data_url_prefix + "data/spec_list.json"
     }
