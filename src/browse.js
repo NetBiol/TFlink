@@ -30,8 +30,7 @@ webix.ready(function() {
         map: "#data2#",
         header: ["NCBI Gene ID", {
           content: "textFilter"
-        }],
-        adjust: true
+        }]
       },
       {
         id: "function",
