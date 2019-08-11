@@ -56,7 +56,7 @@ $(document).ready(function () {
       data: $('#target_data').val(),
       pager: {
         css: "",
-        template: "{common.prev()}{common.next()}Page {common.page()} from #limit#",
+        template: "{common.first()} {common.prev()} {common.pages()} {common.next()} {common.last()}",
         container: "target_paging",
         size: 10,
         group: 5
@@ -121,7 +121,7 @@ $(document).ready(function () {
       data: $('#tf_data').val(),
       pager: {
         css: "",
-        template: "{common.prev()}{common.next()}Page {common.page()} from #limit#",
+        template: "{common.first()} {common.prev()} {common.pages()} {common.next()} {common.last()}",
         container: "tf_paging",
         size: 10,
         group: 5
@@ -146,77 +146,49 @@ $(document).ready(function () {
         },
         {
           id: "data1",
-          header: ["Uniprot ID", {
-            content: "textFilter"
-          }],
-          adjust: true
-        },
-        {
-          id: "data2",
-          header: ["Protein name", {
-            content: "textFilter"
-          }],
-          adjust: true
-        },
-        {
-          id: "data3",
-          header: ["Organism", {
-            content: "textFilter"
-          }],
-          adjust: true
-        },
-        {
-          id: "data4",
           header: ["Detection method", {
             content: "textFilter"
           }],
           adjust: true
         },
         {
-          id: "data5",
-          header: ["Publication", {
+          id: "data2",
+          header: ["Publication ", {
             content: "textFilter"
           }],
           adjust: true
         },
         {
-          id: "data6",
+          id: "data3",
           header: ["Source database", {
             content: "textFilter"
           }],
           adjust: true
         },
         {
-          id: "data7",
+          id: "data4",
           header: ["Assembly", {
             content: "textFilter"
           }],
           adjust: true
         },
         {
-          id: "data8",
-          header: ["Chr", {
+          id: "data5",
+          header: ["Chromosome", {
             content: "textFilter"
           }],
           adjust: true
         },
         {
-          id: "data9",
+          id: "data6",
           header: ["Start", {
             content: "textFilter"
           }],
           adjust: true
         },
         {
-          id: "data10",
+          id: "data7",
           header: ["End", {
-            content: "textFilter"
-          }],
-          adjust: true
-        },
-        {
-          id: "data11",
-          header: ["Strand", {
             content: "textFilter"
           }],
           adjust: true
@@ -228,7 +200,7 @@ $(document).ready(function () {
       data: $('#binding_sites_data').val(),
       pager: {
         css: "",
-        template: "{common.prev()}{common.next()}Page {common.page()} from #limit#",
+        template: "{common.first()} {common.prev()} {common.pages()} {common.next()} {common.last()}",
         container: "binding_sites_paging",
         size: 10,
         group: 5

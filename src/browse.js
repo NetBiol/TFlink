@@ -15,7 +15,7 @@ webix.ready(function() {
         header: ["Protein name", {
           content: "textFilter"
         }],
-        adjust: true
+        width: 200
       },
       {
         id: "uniprot_id",
@@ -23,14 +23,15 @@ webix.ready(function() {
         header: ["Uniprot ID", {
           content: "textFilter"
         }],
-        adjust: true
+        width: 150
       },
       {
         id: "ncbi_gene_id",
         map: "#data2#",
         header: ["NCBI Gene ID", {
           content: "textFilter"
-        }]
+        }],
+        width: 300
       },
       {
         id: "function",
@@ -38,7 +39,7 @@ webix.ready(function() {
         header: ["Function", {
           content: "selectFilter"
         }],
-        adjust: true
+        width: 280
       }
     ],
     resizeColumn: true,
