@@ -3,11 +3,12 @@
   <div class="uk-width-medium-1-1">
     <div class="uk-panel uk-panel-box uk-text-center">
       <h1>{{ .Params.protein_name }}</h1>
+      <hr class="" />
     </div>
   </div>
+  
 </div>
 
-<hr class="uk-grid-divider" />
 
 <div uk-grid>
   <div class="uk-width-2-5@m">
@@ -102,8 +103,10 @@
 </div>
 {{ end }}
 
+{{ if .Params.binding_sites }}
 <h2>Binding sites sequences of {{ .Params.protein_name }}</h2>
 {{ .Content }}
+{{ end }}
 
 {{ $script := .Site.Data.webpack.protein }}
 {{ with $script.js }}

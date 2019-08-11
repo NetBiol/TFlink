@@ -15,7 +15,7 @@ webix.ready(function() {
         header: ["Protein name", {
           content: "textFilter"
         }],
-        adjust: true
+        width: 200
       },
       {
         id: "uniprot_id",
@@ -23,7 +23,7 @@ webix.ready(function() {
         header: ["Uniprot ID", {
           content: "textFilter"
         }],
-        adjust: true
+        width: 150
       },
       {
         id: "ncbi_gene_id",
@@ -31,7 +31,7 @@ webix.ready(function() {
         header: ["NCBI Gene ID", {
           content: "textFilter"
         }],
-        adjust: true
+        width: 300
       },
       {
         id: "function",
@@ -39,7 +39,7 @@ webix.ready(function() {
         header: ["Function", {
           content: "selectFilter"
         }],
-        adjust: true
+        width: 280
       }
     ],
     resizeColumn: true,
@@ -48,7 +48,7 @@ webix.ready(function() {
     autowidth: true,
     pager: {
       css: "",
-      template: "{common.prev()}{common.next()}Page {common.page()} to #limit#",
+      template: "{common.first()} {common.prev()} {common.pages()} {common.next()} {common.last()}",
       container: "paging_here",
       size: 25,
       group: 5
@@ -69,6 +69,7 @@ webix.ready(function() {
     },
     {
       view: "select",
+      css: "browse-select",
       name: "species",
       options: data_url_prefix + "data/spec_list.json"
     }
