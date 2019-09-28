@@ -56,7 +56,7 @@ webix.ready(function() {
     hover: "browse_row_hover",
     on: {
       "onItemClick": function (id, e, trg) {
-        window.location.href = data_url_prefix + "protein/" + dtable.getItem(id.row).uniprot_id.toLowerCase() + "/";
+        window.open(data_url_prefix + "protein/" + dtable.getItem(id.row).uniprot_id.toLowerCase() + "/");
         // window.location.href = "uniprot.html";
         //webix.message("Click on row: "+dtable.getItem(id.row).uniprot);
       }
