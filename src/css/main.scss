@@ -14,6 +14,7 @@ a {
 
 .uk-container .navbar {
   background-color: #70adb5;
+  min-height: 60px;
   li:hover,
   li:focus {
     background-color: #0c3446;
@@ -22,7 +23,15 @@ a {
     color: #0c3446;
   }
   li a {
+    font-size: 1.2rem;
     color: white;
+    min-height: 60px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    line-height: 20px;
+  }
+  .uk-logo {
+    min-height: 60px;
   }
 }
 
@@ -34,11 +43,13 @@ h1 {
   color: #0c3446;
 }
 
-.uk-table thead {
-  background-color: #70adb5;
-  th {
-    color: white;
-    text-align: center;
+.uk-table {
+  thead {
+    background-color: #70adb5;
+    th {
+      color: white;
+      text-align: center;
+    }
   }
 }
 
@@ -47,8 +58,18 @@ hr {
   height: 3px;
 }
 
-td {
-  text-align: center;
+.statistics {
+  tr {
+    th:last-child, td:last-child {
+      padding-right: 10px;
+    }
+  }
+  th + th {
+    text-align: right;
+  }
+  td + td {
+    text-align: right;
+  }
 }
 
 .faq-table {
@@ -63,17 +84,20 @@ td {
   }
   tbody {
     td {
-      text-align: left;
       border: solid 1px #e5e5e5;
     }
   }
 }
 
-.anchor[id^='faq_'] {
+.anchor[id^="faq_"] {
   display: block;
   position: relative;
   top: -70px;
   visibility: hidden;
+}
+
+.margin-left {
+  margin-left: 2rem;
 }
 
 #return-to-top {
@@ -148,7 +172,8 @@ td {
 }
 
 #spinner {
-  background: url("/images/preloader.gif") no-repeat center center fixed $bgcolor;
+  background: url("/images/preloader.gif") no-repeat center center fixed
+    $bgcolor;
   position: absolute;
   height: 100%;
   width: 100%;
