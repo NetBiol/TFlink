@@ -1,5 +1,3 @@
-import _ from 'lodash';
-
 var data_url_prefix = "";
 
 webix.ready(function() {
@@ -39,7 +37,7 @@ webix.ready(function() {
         header: ["Function", {
           content: "selectFilter"
         }],
-        width: 280
+        width: 250
       }
     ],
     resizeColumn: true,
@@ -57,8 +55,6 @@ webix.ready(function() {
     on: {
       "onItemClick": function (id, e, trg) {
         window.open(data_url_prefix + "protein/" + dtable.getItem(id.row).uniprot_id.toLowerCase() + "/");
-        // window.location.href = "uniprot.html";
-        //webix.message("Click on row: "+dtable.getItem(id.row).uniprot);
       }
     }
   });
@@ -93,35 +89,5 @@ webix.ready(function() {
     dtable.load(data_url_prefix + "data/browse_tables/" + newv + "_LT_browse" + ".csv", "csv");
     $$("dtable").show();
     $$("dtable").refresh();
-    // webix.message("Value changed from: "+oldv+" to: "+newv);
   });
-  // $(window).resize(function () {
-  //   if ($(window).width() < 1050) {
-  //     dtable.hideColumn("numort");
-  //     dtable.hideColumn("numint");
-  //   }
-  //   if ($(window).width() >= 1050) {
-  //     dtable.showColumn("numort");
-  //     dtable.showColumn("numint");
-  //   }
-  //   if ($(window).width() < 850) {
-  //     dtable.setColumnWidth("uniprot", 80);
-  //     dtable.setColumnWidth("genename", 120);
-  //     dtable.setColumnWidth("locus", 120);
-  //   }
-  //   if ($(window).width() >= 850) {
-  //     dtable.setColumnWidth("uniprot", 150);
-  //     dtable.setColumnWidth("genename", 250);
-  //     dtable.setColumnWidth("locus", 250);
-  //   }
-  // });
-  // if ($(window).width() < 1050) {
-  //   dtable.hideColumn("numort");
-  //   dtable.hideColumn("numint");
-  // }
-  // if ($(window).width() < 850) {
-  //   dtable.setColumnWidth("uniprot", 80);
-  //   dtable.setColumnWidth("genename", 120);
-  //   dtable.setColumnWidth("locus", 120);
-  // }
 });

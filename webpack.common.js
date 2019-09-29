@@ -18,7 +18,8 @@ module.exports = {
   },
 
   module: {
-    rules: [{
+    rules: [
+      {
         test: /\.((png)|(eot)|(woff)|(woff2)|(ttf)|(svg)|(gif))(\?v=\d+\.\d+\.\d+)?$/,
         loader: "file-loader?name=/[hash].[ext]"
       },
@@ -40,14 +41,21 @@ module.exports = {
       {
         test: /\.(sa|sc|c)ss$/,
         exclude: /node_modules/,
-        use: ['style-loader', MiniCssExtractPlugin.loader, 'css-loader', 'postcss-loader', 'sass-loader']
+        use: [
+          "style-loader",
+          MiniCssExtractPlugin.loader,
+          "css-loader",
+          "postcss-loader",
+          "sass-loader"
+        ]
       }
     ]
   },
 
   plugins: [
     new webpack.ProvidePlugin({
-      fetch: "imports-loader?this=>global!exports-loader?global.fetch!whatwg-fetch"
+      fetch:
+        "imports-loader?this=>global!exports-loader?global.fetch!whatwg-fetch"
     }),
 
     new AssetsPlugin({
@@ -56,10 +64,12 @@ module.exports = {
       prettyPrint: true
     }),
 
-    new CopyWebpackPlugin([{
-      from: "./src/fonts/",
-      to: "fonts/",
-      flatten: true
-    }])
+    new CopyWebpackPlugin([
+      {
+        from: "./src/fonts/",
+        to: "fonts/",
+        flatten: true
+      }
+    ])
   ]
 };
