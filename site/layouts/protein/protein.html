@@ -6,9 +6,7 @@
       <hr class="" />
     </div>
   </div>
-  
 </div>
-
 
 <div uk-grid>
   <div class="uk-width-2-5@m">
@@ -18,14 +16,19 @@
       <dt>Uniprot Accession</dt>
       <dd>
         <a
-          id="uniprotac"
-          href="http://www.uniprot.org/uniprot/{{ .Params.uniprot_accession }}"
+          href="https://www.uniprot.org/uniprot/{{ .Params.uniprot_accession }}"
           target="_blank"
           >{{ .Params.uniprot_accession }}</a
         >
       </dd>
       <dt>NCBI Gene ID</dt>
-      <dd>{{ .Params.ncbi_gene_id }}</dd>
+      <dd>
+        <a
+          href="https://www.ncbi.nlm.nih.gov/gene/?term={{ .Params.uniprot_accession }}"
+          target="_blank"
+          >{{ .Params.ncbi_gene_id }}</a
+        >
+      </dd>
       <dt>Organism</dt>
       <dd>
         <i>{{ .Params.organism }}</i>
@@ -80,8 +83,7 @@
       value="{{ .Params.tfs | safeHTMLAttr }}"
     />
   </div>
-  <div class="uk-width-medium-1-2">
-  </div>
+  <div class="uk-width-medium-1-2"></div>
 </div>
 {{ end }}
 
@@ -98,13 +100,12 @@
       value="{{ .Params.binding_sites | safeHTMLAttr }}"
     />
   </div>
-  <div class="uk-width-medium-1-2">
-  </div>
+  <div class="uk-width-medium-1-2"></div>
 </div>
 {{ end }}
 
 {{ if .Params.binding_sites }}
-<h2>Binding sites sequences of {{ .Params.protein_name }}</h2>
+<h2>Binding site sequences of {{ .Params.protein_name }}</h2>
 {{ .Content }}
 {{ end }}
 
