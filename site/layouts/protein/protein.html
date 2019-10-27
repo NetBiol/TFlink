@@ -8,43 +8,51 @@
   </div>
 </div>
 
-<div uk-grid>
-  <div class="uk-width-2-5@m">
-    <dl class=" dl-horizontal">
-      <dt>Name</dt>
-      <dd>{{ .Params.protein_name }}</dd>
-      <dt>Uniprot Accession</dt>
-      <dd>
-        <a
-          href="https://www.uniprot.org/uniprot/{{ .Params.uniprot_accession }}"
-          target="_blank"
-          >{{ .Params.uniprot_accession }}</a
-        >
-      </dd>
-      <dt>NCBI Gene ID</dt>
-      <dd>
-        <a
-          href="https://www.ncbi.nlm.nih.gov/gene/?term={{ .Params.uniprot_accession }}"
-          target="_blank"
-          >{{ .Params.ncbi_gene_id }}</a
-        >
-      </dd>
-      <dt>Organism</dt>
-      <dd>
-        <i>{{ .Params.organism }}</i>
-      </dd>
-      <dt>Function</dt>
-      <dd>{{ .Params.function }}</dd>
-    </dl>
-  </div>
-  <div class="uk-width-auto@m">
-    <img src="" />
-  </div>
+<div uk-grid-small uk-text-left>
+  <dl class=" dl-horizontal">
+    <dt>Name</dt>
+    <dd>{{ .Params.protein_name }}</dd>
+    <dt>Uniprot Accession</dt>
+    <dd>
+      <a
+        href="https://www.uniprot.org/uniprot/{{ .Params.uniprot_accession }}"
+        target="_blank"
+        >{{ .Params.uniprot_accession }}</a
+      >
+    </dd>
+    <dt>NCBI Gene ID</dt>
+    <dd>
+      <a
+        href="https://www.ncbi.nlm.nih.gov/gene/?term={{ .Params.uniprot_accession }}"
+        target="_blank"
+        >{{ .Params.ncbi_gene_id }}</a
+      >
+    </dd>
+    <dt>Organism</dt>
+    <dd>
+      <i>{{ .Params.organism }}</i>
+    </dd>
+    <dt>Function</dt>
+    <dd>{{ .Params.function }}</dd>
+
+    {{ if .Params.orthologs }}
+    <input
+      id="ortholog_data"
+      type="hidden"
+      name="ortholog_data"
+      value="{{ .Params.orthologs | safeHTMLAttr }}"
+    />
+    <dt>Orthologs</dt>
+    <dd>
+      <ul id="ulOrtholog"></ul>
+    </dd>
+    {{ end }}
+  </dl>
 </div>
 
 {{ if .Params.targets }}
 <div class="uk-grid" data-uk-grid-margin>
-  <div class="uk-width-medium-1-2">
+  <div class="uk-width-5-6@l">
     <h2>Targets of {{ .Params.protein_name }}</h2>
     <div id="target_paging"></div>
     <div id="target_div"></div>
@@ -55,8 +63,8 @@
       value="{{ .Params.targets | safeHTMLAttr }}"
     />
   </div>
+  {{/*
   <div class="uk-width-medium-1-2">
-    {{/*
     <div id="interactionnetworkdiv" style="height: 453px;"></div>
     <div id="interactionnetworkcontrolldiv" style="width: 100%;"></div>
     <input
@@ -65,14 +73,14 @@
       name="interactionnetworkdata"
       value="{{ .Params.networkjson | safeJS }}"
     />
-    */}}
   </div>
+  */}}
 </div>
 {{ end }}
 
 {{ if .Params.tfs }}
 <div class="uk-grid" data-uk-grid-margin>
-  <div class="uk-width-medium-1-2">
+  <div class="uk-width-5-6@l">
     <h2>Transcription factors of {{ .Params.protein_name }}</h2>
     <div id="tf_paging"></div>
     <div id="tf_div"></div>
@@ -89,7 +97,7 @@
 
 {{ if .Params.binding_sites }}
 <div class="uk-grid" data-uk-grid-margin>
-  <div class="uk-width-medium-1-2">
+  <div class="uk-width-5-6@l">
     <h2>Binding sites of {{ .Params.protein_name }}</h2>
     <div id="binding_sites_paging"></div>
     <div id="binding_sites_div"></div>
@@ -100,7 +108,7 @@
       value="{{ .Params.binding_sites | safeHTMLAttr }}"
     />
   </div>
-  <div class="uk-width-medium-1-2"></div>
+  <div class="uk-width-5-6@l"></div>
 </div>
 {{ end }}
 

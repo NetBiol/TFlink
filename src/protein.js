@@ -2,7 +2,6 @@ $(document).ready(function() {
   var targetTable = $("#target_data").val()
     ? webix.ui({
         container: "target_div",
-        autowidth: true,
         rows: [
           {
             id: "targetTable",
@@ -39,6 +38,8 @@ $(document).ready(function() {
                     content: "textFilter"
                   }
                 ],
+                template:
+                  "<a href='https://www.ncbi.nlm.nih.gov/gene/?term=#data2#' target='_blank'>#data2#</a>",
                 adjust: true
               },
               {
@@ -49,7 +50,7 @@ $(document).ready(function() {
                     content: "textFilter"
                   }
                 ],
-                adjust: true
+                fillspace: true
               },
               {
                 id: "data4",
@@ -59,7 +60,7 @@ $(document).ready(function() {
                     content: "textFilter"
                   }
                 ],
-                adjust: true
+                fillspace: true
               },
               {
                 id: "data5",
@@ -73,7 +74,7 @@ $(document).ready(function() {
               }
             ],
             autoheight: true,
-            autowidth: true,
+            scroll: false,
             datatype: "csv",
             data: $("#target_data").val(),
             pager: {
@@ -141,7 +142,7 @@ $(document).ready(function() {
                     content: "textFilter"
                   }
                 ],
-                adjust: true
+                fillspace: true
               },
               {
                 id: "data4",
@@ -151,7 +152,7 @@ $(document).ready(function() {
                     content: "textFilter"
                   }
                 ],
-                adjust: true
+                fillspace: true
               },
               {
                 id: "data5",
@@ -165,7 +166,7 @@ $(document).ready(function() {
               }
             ],
             autoheight: true,
-            autowidth: true,
+            scroll: false,
             datatype: "csv",
             data: $("#tf_data").val(),
             pager: {
@@ -289,4 +290,9 @@ $(document).ready(function() {
         ]
       })
     : undefined;
+
+  const orthologs = $.parseJSON($("#ortholog_data").val());
+  $.each(orthologs, function(i, item) {
+    $("#ulOrtholog").append(`<li>${item.species}: ${item.id}</li>`);
+  });
 });
