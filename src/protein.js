@@ -292,7 +292,8 @@ $(document).ready(function() {
     : undefined;
 
   const orthologs = $.parseJSON($("#ortholog_data").val());
+  console.log(orthologs);
   $.each(orthologs, function(i, item) {
-    $("#ulOrtholog").append(`<li>${item.species}: ${item.id}</li>`);
+    $("#ulOrtholog").append(`<li>${item.species}: ${item.id.join(', ')}</li>`);
   });
 });
