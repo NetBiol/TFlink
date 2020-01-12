@@ -9,6 +9,7 @@ module.exports = {
     main: path.join(__dirname, "src", "index.js"),
     browse: path.join(__dirname, "src", "browse.js"),
     protein: path.join(__dirname, "src", "protein.js"),
+    network: path.join(__dirname, "src", "network.js"),
     download: path.join(__dirname, "src", "download.js"),
     scrollUp: path.join(__dirname, "src", "scrollup.js")
   },
