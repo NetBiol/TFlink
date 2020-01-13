@@ -1,23 +1,24 @@
 import cytoscape from "cytoscape";
 
+
+function createNodes(cy, dataId) {
+  const base_protein = $('#protein_name').text();
+  const nodes = $('#' + dataId)
+    .val()
+    .split('\n')
+    .map(row => row.split(',')[0]
+      .trim()
+    );
+  cy.add({ group: 'nodes', data: { id: base_protein } });
+  for (let node of nodes) {
+    cy.add({ group: 'nodes', data: { id: node } });
+    cy.add({ group: 'edges', data: { source: base_protein, target: node } });
+  }
+  cy.layout({ name: 'cose' }).run();
+}
+
 var cy = cytoscape({
   container: $("#interactionnetworkdiv"),
-
-  elements: [
-    // list of graph elements to start with
-    {
-      // node a
-      data: { id: "a" }
-    },
-    {
-      // node b
-      data: { id: "b" }
-    },
-    {
-      // edge ab
-      data: { id: "ab", source: "a", target: "b" }
-    }
-  ],
 
   style: [
     // the stylesheet for the graph
@@ -32,7 +33,7 @@ var cy = cytoscape({
     {
       selector: "edge",
       style: {
-        width: 3,
+        width: 2,
         "line-color": "#ccc",
         "target-arrow-color": "#ccc",
         "target-arrow-shape": "triangle"
@@ -44,3 +45,5 @@ var cy = cytoscape({
     name: "cose"
   }
 });
+
+createNodes(cy, 'target_data');
