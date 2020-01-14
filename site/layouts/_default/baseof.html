@@ -1,27 +1,27 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    {{ partial "header" . }}
-  </head>
 
-  <body>
-    {{ partial "navbar" . }}
+<head>
+  {{ partial "header" . }}
+</head>
 
-    <div
-      class="uk-container uk-container-expand uk-container-center uk-margin-large-bottom"
-    >
-      <div id="spinner"></div>
-      {{ block "main" . }}
-      {{ end }}
-    </div>
+<body>
+  {{ partial "navbar" . }}
 
-    {{ block "footer" . }}
-    {{ partial "footer" . }}
+  <div class="uk-container uk-container-expand uk-container-center uk-margin-large-bottom">
+    <div id="spinner"></div>
+    {{ block "main" . }}
     {{ end }}
+  </div>
 
-    {{ $script := .Site.Data.webpack.main }}
-    {{ with $script.js }}
-    <script src="{{ relURL . }}"></script>
-    {{ end }}
-  </body>
+  {{ block "footer" . }}
+  {{ partial "footer" . }}
+  {{ end }}
+
+  {{ $script := .Site.Data.webpack.main }}
+  {{ with $script.js }}
+  <script src="{{ relURL . }}"></script>
+  {{ end }}
+</body>
+
 </html>

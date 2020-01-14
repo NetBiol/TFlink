@@ -15,8 +15,8 @@
       <dd>{{ .Params.protein_name }}</dd>
       <dt>Uniprot Accession</dt>
       <dd>
-        <a href="https://www.uniprot.org/uniprot/{{ .Params.uniprot_accession }}"
-          target="_blank">{{ .Params.uniprot_accession }}</a>
+        <a href="https://www.uniprot.org/uniprot/{{ .Params.uniprot_accession }}" target="_blank"
+          id="uniprot-ac">{{ .Params.uniprot_accession }}</a>
       </dd>
       <dt>NCBI Gene ID</dt>
       <dd>
@@ -40,43 +40,45 @@
     </dl>
   </div>
 
-  <div class="uk-width-1-2@m">
-    <div id="interactionnetworkdiv" style="height: 453px;"></div>
-    <div id="interactionnetworkcontrolldiv" style="width: 100%;"></div>
-    <input id="interactionnetworkdata" type="hidden" name="interactionnetworkdata"
-      value="{{ .Params.networkjson | safeJS }}" />
-  </div>
 </div>
 
 <div class="uk-grid" data-uk-grid-margin>
-
 </div>
 
 {{ if .Params.targets }}
-<div class="uk-grid" data-uk-grid-margin>
-  <div class="uk-width-5-6@l">
+<div class="uk-grid">
+  <div class="uk-width-2-3@l">
     <h2>Targets of {{ .Params.protein_name }}</h2>
     <div id="target_paging"></div>
     <div id="target_div"></div>
     <input id="target_data" type="hidden" name="target_data" value="{{ .Params.targets | safeHTMLAttr }}" />
   </div>
+  <div class="uk-width-1-3@l">
+    <div id="target-network-div" style="height: 300px; width: 300px; border-style: solid; border-width: .1em;">
+    </div>
+    <div id="targetControlDiv"></div>
+  </div>
 </div>
 {{ end }}
 
 {{ if .Params.tfs }}
-<div class="uk-grid" data-uk-grid-margin>
-  <div class="uk-width-5-6@l">
+<div class=" uk-grid" data-uk-grid-margin>
+  <div class="uk-width-2-3@l">
     <h2>Transcription factors of {{ .Params.protein_name }}</h2>
     <div id="tf_paging"></div>
     <div id="tf_div"></div>
     <input id="tf_data" type="hidden" name="tf_data" value="{{ .Params.tfs | safeHTMLAttr }}" />
   </div>
-  <div class="uk-width-medium-1-2"></div>
+  <div class="uk-width-1-3@l">
+    <div id="tf-network-div" style="height: 300px; width: 300px; border-style: solid; border-width: .1em;">
+    </div>
+    <div id="tfControlDiv"></div>
+  </div>
 </div>
 {{ end }}
 
 {{ if .Params.binding_sites }}
-<div class="uk-grid" data-uk-grid-margin>
+<div class=" uk-grid" data-uk-grid-margin>
   <div class="uk-width-5-6@l">
     <h2>Binding sites of {{ .Params.protein_name }}</h2>
     <div id="binding_sites_paging"></div>
@@ -90,8 +92,11 @@
 
 {{ if .Params.binding_sites }}
 <h2>Binding site sequences of {{ .Params.protein_name }}</h2>
-{{ .Content }}
-{{ end }}
+<div class="binding-sites">
+  {{ .Content }}
+  {{ end }}
+</div>
+
 {{ $protein := .Site.Data.webpack.protein }}
 {{ $network := .Site.Data.webpack.network }}
 {{ with $protein.js }}
