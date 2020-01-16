@@ -6,5 +6,5 @@ then
 fi
 npm run build
 git push --delete origin gh-pages
-git add dist -f && git commit -m "Initial dist subtree commit"
+git add dist -f && git commit -m "deploy"
 git subtree push --prefix dist origin gh-pages
