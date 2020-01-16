@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<base href="/" />
+<title>TFLink</title>
+<link rel="stylesheet" href="https://cdn.webix.com/edge/webix.css" />
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.5/css/uikit.min.css"
+/>
+
+<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-touch-icon.png?v=jwEjQXwyNy">
+<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png?v=jwEjQXwyNy">
+<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png?v=jwEjQXwyNy">
+<link rel="manifest" href="/images/favicon/site.webmanifest?v=jwEjQXwyNy">
+<link rel="mask-icon" href="/images/favicon/safari-pinned-tab.svg?v=jwEjQXwyNy" color="#70adb5">
+<link rel="shortcut icon" href="/images/favicon/favicon.ico?v=jwEjQXwyNy">
+<meta name="msapplication-TileColor" content="#00aba9">
+<meta name="msapplication-config" content="/images/favicon/browserconfig.xml?v=jwEjQXwyNy">
+<meta name="theme-color" content="#ffffff">
+
+
+
+<link href="/main.f29f3.css" rel="stylesheet" />
+
+<script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"
+></script>
+<script src="https://cdn.webix.com/edge/webix.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.5/js/uikit.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.5/js/uikit-icons.min.js"></script>
+
+<script>
+  $(window).on('load', function() {
+    $('#spinner').fadeOut(300);
+  });
+</script>
+
+</head>
+
+<body>
+  <div class="net-top-navbar" uk-sticky>
+    <div class="uk-container uk-container-center uk-container-expand">
+        <nav class="uk-navbar uk-navbar-container navbar">
+            <a class="uk-navbar-item uk-logo" href="/"><img src="/images/favicon/favicon-32x32.png">Link</a>
+            <ul class="uk-navbar-nav">
+                <li id="nav_browse">
+                    <a href="/browse/">Browse</a>
+                </li>
+                <li id="nav_download">
+                  <a href="/download/">Download</a>
+              </li>
+              <li id="nav_faq">
+                <a href="/faq/">FAQ</a>
+            </li>
+            </ul>
+        </nav>
+    </div>
+</div>
+
+
+  <div class="uk-container uk-container-expand uk-container-center uk-margin-large-bottom">
+    <div id="spinner"></div>
+    
+<div class="uk-grid" data-uk-grid-margin>
+  <div class="uk-width-medium-1-1">
+    <div class="uk-panel uk-panel-box uk-text-center">
+      <h1 id="protein_name">Kr</h1>
+      <hr class="" />
+    </div>
+  </div>
+</div>
+
+<div class="uk-grid-small" uk-grid uk-text-left>
+  <div class="uk-width-1-2@m">
+    <dl class=" dl-horizontal">
+      <dt>Name</dt>
+      <dd>Kr</dd>
+      <dt>Uniprot Accession</dt>
+      <dd>
+        <a href="https://www.uniprot.org/uniprot/P07247" target="_blank"
+          id="uniprot-ac">P07247</a>
+      </dd>
+      <dt>NCBI Gene ID</dt>
+      <dd>
+        <a href="https://www.ncbi.nlm.nih.gov/gene/?term=38012"
+          target="_blank">38012</a>
+      </dd>
+      <dt>Organism</dt>
+      <dd>
+        <i>Drosophila melanogaster</i>
+      </dd>
+      <dt>Function</dt>
+      <dd>transcription factor and target gene</dd>
+
+      
+    </dl>
+  </div>
+
+</div>
+
+<div class="uk-grid" data-uk-grid-margin>
+</div>
+
+
+<div class="uk-grid">
+  <div class="uk-width-2-3@l">
+    <h2>Targets of Kr</h2>
+    <div id="target_paging"></div>
+    <div id="target_div"></div>
+    <input id="target_data" type="hidden" name="target_data" value="abd-A,P29555,42037,ORegAnno; REDfly,inferred by curator; DNase I footprinting,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=10644409%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;
+en,P02836,36240,ORegAnno; REDfly,inferred by curator; DNase I footprinting,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=1671661%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;
+eve,P06602,36039,ORegAnno; REDfly,inferred by curator; DNase I footprinting,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=2507923; 1683715%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;
+h,P14003,38995,ORegAnno; REDfly,inferred by curator; DNase I footprinting,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=7607084; 9250684; 9507113%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;
+hb,P05084,41032,ORegAnno; REDfly,inferred by curator; DNase I footprinting,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=2797150%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;
+kni,P10734,40287,ORegAnno; REDfly,inferred by curator; DNase I footprinting,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=7617036%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;
+ko,O18363,-,ORegAnno; REDfly,inferred by curator; DNase I footprinting,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=9311990%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;
+ko,Q6AWN7,-,ORegAnno; REDfly,inferred by curator; DNase I footprinting,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=9311990%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;
+ko,Q9VP79,40330,ORegAnno; REDfly,inferred by curator; DNase I footprinting,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=9311990%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;
+salm,P39770,34569,ORegAnno; REDfly,inferred by curator; DNase I footprinting,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=9376314%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;
+Ubx,P83949,42034,ORegAnno; REDfly,inferred by curator; DNase I footprinting,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=1687458%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;" />
+  </div>
+  <div class="uk-width-1-3@l">
+    <div id="target-network-div" style="height: 300px; width: 300px; border-style: solid; border-width: .1em;">
+    </div>
+    <div id="targetControlDiv"></div>
+  </div>
+</div>
+
+
+
+<div class=" uk-grid" data-uk-grid-margin>
+  <div class="uk-width-2-3@l">
+    <h2>Transcription factors of Kr</h2>
+    <div id="tf_paging"></div>
+    <div id="tf_div"></div>
+    <input id="tf_data" type="hidden" name="tf_data" value="bcd,P09081,40830,ORegAnno; REDfly,inferred by curator; DNase I footprinting,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=1348871; 2065664%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;
+fkh,P14734,43383,ORegAnno; REDfly,inferred by curator; DNase I footprinting,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=9755176%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;
+gt,P39572,31227,ORegAnno; REDfly,inferred by curator; DNase I footprinting,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=1576969%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;
+hb,P05084,41032,ORegAnno; REDfly,inferred by curator; DNase I footprinting,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=2065664%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;
+kni,P10734,40287,ORegAnno; REDfly,inferred by curator; DNase I footprinting,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=1348871%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;
+tll,P18102,43656,ORegAnno; REDfly,inferred by curator; DNase I footprinting,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=1348871%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;
+Trl,Q08605,2768981,ORegAnno; REDfly,inferred by curator; DNase I footprinting,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=1985916%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;" />
+  </div>
+  <div class="uk-width-1-3@l">
+    <div id="tf-network-div" style="height: 300px; width: 300px; border-style: solid; border-width: .1em;">
+    </div>
+    <div id="tfControlDiv"></div>
+  </div>
+</div>
+
+
+
+<div class=" uk-grid" data-uk-grid-margin>
+  <div class="uk-width-5-6@l">
+    <h2>Binding sites of Kr</h2>
+    <div id="binding_sites_paging"></div>
+    <div id="binding_sites_div"></div>
+    <input id="binding_sites_data" type="hidden" name="binding_sites_data"
+      value="TFLinkLT0008724,DNase I footprinting,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=10644409%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,REDfly,dm6,3R,16810747,16810769,-
+TFLinkLT0008725,DNase I footprinting,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=1671661%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,REDfly,dm6,2R,11528741,11528750,-
+TFLinkLT0008726,DNase I footprinting,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=2507923%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,REDfly,dm6,2R,9977715,9977724,-
+TFLinkLT0008727,DNase I footprinting,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=1683715%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,REDfly,dm6,2R,9977764,9977772,-
+TFLinkLT0008728,DNase I footprinting,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=1683715%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,REDfly,dm6,2R,9977799,9977809,-
+TFLinkLT0008729,DNase I footprinting,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=2507923%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,REDfly,dm6,2R,9977850,9977859,-
+TFLinkLT0008730,DNase I footprinting,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=1683715%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,REDfly,dm6,2R,9977971,9977979,-
+TFLinkLT0008731,DNase I footprinting,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=1683715%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,REDfly,dm6,2R,9977997,9978005,-
+TFLinkLT0008732,DNase I footprinting,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=1683715%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,REDfly,dm6,2R,9978008,9978017,-
+TFLinkLT0008733,DNase I footprinting,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=2507923%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,REDfly,dm6,2R,9978038,9978047,-
+TFLinkLT0008734,DNase I footprinting,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=1683715%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,REDfly,dm6,2R,9978113,9978133,-
+TFLinkLT0008735,DNase I footprinting,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=1683715%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,REDfly,dm6,2R,9978141,9978186,-
+TFLinkLT0008736,DNase I footprinting,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=2507923%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,REDfly,dm6,2R,9978232,9978242,-
+TFLinkLT0008737,DNase I footprinting,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=2507923%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,REDfly,dm6,2R,9978283,9978292,-
+TFLinkLT0008738,DNase I footprinting,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=2507923%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,REDfly,dm6,2R,9978326,9978336,-
+TFLinkLT0008739,DNase I footprinting,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=9250684%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,REDfly,dm6,3L,8665368,8665377,-
+TFLinkLT0008740,DNase I footprinting,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=9250684%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,REDfly,dm6,3L,8665518,8665527,-
+TFLinkLT0008741,DNase I footprinting,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=9250684%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,REDfly,dm6,3L,8665574,8665583,-
+TFLinkLT0008742,DNase I footprinting,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=9250684%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,REDfly,dm6,3L,8665640,8665649,-
+TFLinkLT0008743,DNase I footprinting,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=9250684%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,REDfly,dm6,3L,8665876,8665885,-
+TFLinkLT0008744,DNase I footprinting,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=7607084%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,REDfly,dm6,3L,8666882,8666891,-
+TFLinkLT0008745,DNase I footprinting,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=7607084%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,REDfly,dm6,3L,8666910,8666919,-
+TFLinkLT0008746,DNase I footprinting,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=7607084%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,REDfly,dm6,3L,8666935,8666944,-
+TFLinkLT0008747,DNase I footprinting,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=7607084%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,REDfly,dm6,3L,8666973,8666982,-
+TFLinkLT0008748,DNase I footprinting,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=9507113%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,REDfly,dm6,3L,8667057,8667064,-
+TFLinkLT0008749,DNase I footprinting,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=7607084%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,REDfly,dm6,3L,8667173,8667182,-
+TFLinkLT0008750,DNase I footprinting,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=7607084%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,REDfly,dm6,3L,8667199,8667208,-
+TFLinkLT0008751,DNase I footprinting,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=7607084%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,REDfly,dm6,3L,8667306,8667315,-
+TFLinkLT0008752,DNase I footprinting,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=7607084%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,REDfly,dm6,3L,8670140,8670159,-
+TFLinkLT0008753,DNase I footprinting,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=7607084%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,REDfly,dm6,3L,8670262,8670314,-
+TFLinkLT0008754,DNase I footprinting,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=2797150%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,REDfly,dm6,3R,8694959,8694970,-
+TFLinkLT0008755,DNase I footprinting,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=2797150%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,REDfly,dm6,3R,8695276,8695287,-
+TFLinkLT0008756,DNase I footprinting,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=7617036%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,REDfly,dm6,3L,20696532,20696549,-
+TFLinkLT0008757,DNase I footprinting,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=7617036%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,REDfly,dm6,3L,20696601,20696624,-
+TFLinkLT0008758,DNase I footprinting,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=7617036%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,REDfly,dm6,3L,20696664,20696683,-
+TFLinkLT0008759,DNase I footprinting,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=7617036%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,REDfly,dm6,3L,20696696,20696714,-
+TFLinkLT0008760,DNase I footprinting,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=7617036%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,REDfly,dm6,3L,20696719,20696739,-
+TFLinkLT0008761,DNase I footprinting,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=9311990%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,REDfly,dm6,3L,21088152,21088164,-
+TFLinkLT0008762,DNase I footprinting,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=9311990%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,REDfly,dm6,3L,21088237,21088247,-
+TFLinkLT0008763,DNase I footprinting,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=9311990%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,REDfly,dm6,3L,21088387,21088398,-
+TFLinkLT0008764,DNase I footprinting,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=9376314%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,REDfly,dm6,2L,11456018,11456054,-
+TFLinkLT0008765,DNase I footprinting,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=9376314%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,REDfly,dm6,2L,11455986,11456005,-
+TFLinkLT0008766,DNase I footprinting,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=9376314%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,REDfly,dm6,2L,11455800,11455833,-
+TFLinkLT0008767,DNase I footprinting,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=9376314%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,REDfly,dm6,2L,11455642,11455654,-
+TFLinkLT0008768,DNase I footprinting,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=1687458%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,REDfly,dm6,3R,16773258,16773267,-
+TFLinkLT0009769,inferred by curator,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=9376314%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,ORegAnno,dm6,chr2L,11455642,11455654,&#43;
+TFLinkLT0009777,inferred by curator,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=9376314%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,ORegAnno,dm6,chr2L,11455800,11455833,&#43;
+TFLinkLT0009782,inferred by curator,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=9376314%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,ORegAnno,dm6,chr2L,11455986,11456005,&#43;
+TFLinkLT0009783,inferred by curator,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=9376314%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,ORegAnno,dm6,chr2L,11456018,11456054,&#43;
+TFLinkLT0009884,inferred by curator,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=2507923%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,ORegAnno,dm6,chr2R,9977715,9977724,&#43;
+TFLinkLT0009885,inferred by curator,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=1683715%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,ORegAnno,dm6,chr2R,9977764,9977772,&#43;
+TFLinkLT0009886,inferred by curator,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=1683715%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,ORegAnno,dm6,chr2R,9977799,9977809,&#43;
+TFLinkLT0009888,inferred by curator,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=2507923%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,ORegAnno,dm6,chr2R,9977850,9977859,&#43;
+TFLinkLT0009892,inferred by curator,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=1683715%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,ORegAnno,dm6,chr2R,9977971,9977979,&#43;
+TFLinkLT0009893,inferred by curator,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=1683715%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,ORegAnno,dm6,chr2R,9977997,9978005,&#43;
+TFLinkLT0009894,inferred by curator,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=1683715%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,ORegAnno,dm6,chr2R,9978008,9978017,&#43;
+TFLinkLT0009896,inferred by curator,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=2507923%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,ORegAnno,dm6,chr2R,9978038,9978047,&#43;
+TFLinkLT0009897,inferred by curator,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=1683715%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,ORegAnno,dm6,chr2R,9978113,9978133,&#43;
+TFLinkLT0009899,inferred by curator,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=1683715%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,ORegAnno,dm6,chr2R,9978141,9978186,&#43;
+TFLinkLT0009903,inferred by curator,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=2507923%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,ORegAnno,dm6,chr2R,9978232,9978242,&#43;
+TFLinkLT0009904,inferred by curator,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=2507923%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,ORegAnno,dm6,chr2R,9978283,9978292,&#43;
+TFLinkLT0009906,inferred by curator,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=2507923%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,ORegAnno,dm6,chr2R,9978326,9978336,&#43;
+TFLinkLT0009953,inferred by curator,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=1671661%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,ORegAnno,dm6,chr2R,11528741,11528750,&#43;
+TFLinkLT0010106,inferred by curator,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=9250684%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,ORegAnno,dm6,chr3L,8665368,8665377,&#43;
+TFLinkLT0010112,inferred by curator,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=9250684%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,ORegAnno,dm6,chr3L,8665518,8665527,&#43;
+TFLinkLT0010114,inferred by curator,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=9250684%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,ORegAnno,dm6,chr3L,8665574,8665583,&#43;
+TFLinkLT0010116,inferred by curator,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=9250684%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,ORegAnno,dm6,chr3L,8665640,8665649,&#43;
+TFLinkLT0010125,inferred by curator,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=9250684%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,ORegAnno,dm6,chr3L,8665876,8665885,&#43;
+TFLinkLT0010133,inferred by curator,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=7607084%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,ORegAnno,dm6,chr3L,8666882,8666891,&#43;
+TFLinkLT0010137,inferred by curator,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=7607084%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,ORegAnno,dm6,chr3L,8666910,8666919,&#43;
+TFLinkLT0010139,inferred by curator,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=7607084%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,ORegAnno,dm6,chr3L,8666935,8666944,&#43;
+TFLinkLT0010141,inferred by curator,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=7607084%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,ORegAnno,dm6,chr3L,8666973,8666982,&#43;
+TFLinkLT0010144,inferred by curator,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=9507113%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,ORegAnno,dm6,chr3L,8667057,8667064,&#43;
+TFLinkLT0010145,inferred by curator,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=7607084%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,ORegAnno,dm6,chr3L,8667173,8667182,&#43;
+TFLinkLT0010148,inferred by curator,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=7607084%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,ORegAnno,dm6,chr3L,8667199,8667208,&#43;
+TFLinkLT0010154,inferred by curator,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=7607084%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,ORegAnno,dm6,chr3L,8667306,8667315,&#43;
+TFLinkLT0010156,inferred by curator,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=7607084%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,ORegAnno,dm6,chr3L,8670140,8670159,&#43;
+TFLinkLT0010157,inferred by curator,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=7607084%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,ORegAnno,dm6,chr3L,8670262,8670314,&#43;
+TFLinkLT0010242,inferred by curator,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=7617036%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,ORegAnno,dm6,chr3L,20696532,20696549,&#43;
+TFLinkLT0010247,inferred by curator,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=7617036%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,ORegAnno,dm6,chr3L,20696601,20696624,&#43;
+TFLinkLT0010250,inferred by curator,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=7617036%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,ORegAnno,dm6,chr3L,20696664,20696683,&#43;
+TFLinkLT0010252,inferred by curator,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=7617036%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,ORegAnno,dm6,chr3L,20696696,20696714,&#43;
+TFLinkLT0010253,inferred by curator,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=7617036%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,ORegAnno,dm6,chr3L,20696719,20696739,&#43;
+TFLinkLT0010286,inferred by curator,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=9311990%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,ORegAnno,dm6,chr3L,21088152,21088164,&#43;
+TFLinkLT0010287,inferred by curator,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=9311990%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,ORegAnno,dm6,chr3L,21088237,21088247,&#43;
+TFLinkLT0010288,inferred by curator,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=9311990%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,ORegAnno,dm6,chr3L,21088387,21088398,&#43;
+TFLinkLT0010456,inferred by curator,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=2797150%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,ORegAnno,dm6,chr3R,8694959,8694970,&#43;
+TFLinkLT0010458,inferred by curator,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=2797150%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,ORegAnno,dm6,chr3R,8695276,8695287,&#43;
+TFLinkLT0010596,inferred by curator,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=1687458%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,ORegAnno,dm6,chr3R,16773258,16773267,&#43;
+TFLinkLT0010619,inferred by curator,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=10644409%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,ORegAnno,dm6,chr3R,16810747,16810769,&#43;" />
+  </div>
+  <div class="uk-width-5-6@l"></div>
+</div>
+
+
+
+<h2>Binding site sequences of Kr</h2>
+<div class="binding-sites">
+  <p>&gt;TFLinkLT0008724;P07247;Kr;dm6;3R:16810747.0-16810769.0<br />
+AGTGCGTGAAAGGGTGAAGCTAC<br />
+&gt;TFLinkLT0008725;P07247;Kr;dm6;2R:11528741.0-11528750.0<br />
+TTAACCAGTT<br />
+&gt;TFLinkLT0008726;P07247;Kr;dm6;2R:9977715.0-9977724.0<br />
+ATAACCCAAT<br />
+&gt;TFLinkLT0008727;P07247;Kr;dm6;2R:9977764.0-9977772.0<br />
+TTACCCGGT<br />
+&gt;TFLinkLT0008728;P07247;Kr;dm6;2R:9977799.0-9977809.0<br />
+TAACTGGGACA<br />
+&gt;TFLinkLT0008729;P07247;Kr;dm6;2R:9977850.0-9977859.0<br />
+TTAATCCGTT<br />
+&gt;TFLinkLT0008730;P07247;Kr;dm6;2R:9977971.0-9977979.0<br />
+TAACACGCT<br />
+&gt;TFLinkLT0008731;P07247;Kr;dm6;2R:9977997.0-9978005.0<br />
+AGACGGAAT<br />
+&gt;TFLinkLT0008732;P07247;Kr;dm6;2R:9978008.0-9978017.0<br />
+AGGGACCCTG<br />
+&gt;TFLinkLT0008733;P07247;Kr;dm6;2R:9978038.0-9978047.0<br />
+ACCGGGTTGC<br />
+&gt;TFLinkLT0008734;P07247;Kr;dm6;2R:9978113.0-9978133.0<br />
+TGGGATTAGCCAAGGGCTTGA<br />
+&gt;TFLinkLT0008735;P07247;Kr;dm6;2R:9978141.0-9978186.0<br />
+TCCAATCCCGATCCCTAGCCCGATCCCAATCCCAATCCCAATCCCT<br />
+&gt;TFLinkLT0008736;P07247;Kr;dm6;2R:9978232.0-9978242.0<br />
+GAAGGGATTAG<br />
+&gt;TFLinkLT0008737;P07247;Kr;dm6;2R:9978283.0-9978292.0<br />
+ACTGGGTTAT<br />
+&gt;TFLinkLT0008738;P07247;Kr;dm6;2R:9978326.0-9978336.0<br />
+TTAACCCGTTT<br />
+&gt;TFLinkLT0008739;P07247;Kr;dm6;3L:8665368.0-8665377.0<br />
+GTCACTCCTT<br />
+&gt;TFLinkLT0008740;P07247;Kr;dm6;3L:8665518.0-8665527.0<br />
+TTAACTCAGC<br />
+&gt;TFLinkLT0008741;P07247;Kr;dm6;3L:8665574.0-8665583.0<br />
+TTTCCCTGCC<br />
+&gt;TFLinkLT0008742;P07247;Kr;dm6;3L:8665640.0-8665649.0<br />
+GAAACCCTTT<br />
+&gt;TFLinkLT0008743;P07247;Kr;dm6;3L:8665876.0-8665885.0<br />
+AAAGGGTTCG<br />
+&gt;TFLinkLT0008744;P07247;Kr;dm6;3L:8666882.0-8666891.0<br />
+AACGGGTTTT<br />
+&gt;TFLinkLT0008745;P07247;Kr;dm6;3L:8666910.0-8666919.0<br />
+TTAAGCCTTT<br />
+&gt;TFLinkLT0008746;P07247;Kr;dm6;3L:8666935.0-8666944.0<br />
+CTGACCCGTT<br />
+&gt;TFLinkLT0008747;P07247;Kr;dm6;3L:8666973.0-8666982.0<br />
+TTCGGGTTCT<br />
+&gt;TFLinkLT0008748;P07247;Kr;dm6;3L:8667057.0-8667064.0<br />
+AAAATGTT<br />
+&gt;TFLinkLT0008749;P07247;Kr;dm6;3L:8667173.0-8667182.0<br />
+AAAGGCTTAA<br />
+&gt;TFLinkLT0008750;P07247;Kr;dm6;3L:8667199.0-8667208.0<br />
+TTGGTGTTAA<br />
+&gt;TFLinkLT0008751;P07247;Kr;dm6;3L:8667306.0-8667315.0<br />
+AAAGGGTTTT<br />
+&gt;TFLinkLT0008752;P07247;Kr;dm6;3L:8670140.0-8670159.0<br />
+GTAAAAACTCTTTGCGAATC<br />
+&gt;TFLinkLT0008753;P07247;Kr;dm6;3L:8670262.0-8670314.0<br />
+TAATCCGTGGAAACTCTAAACTCTATCCCAGAGAGAACCTCTTTCGGCGCGAG<br />
+&gt;TFLinkLT0008754;P07247;Kr;dm6;3R:8694959.0-8694970.0<br />
+TGCGGGACTTAA<br />
+&gt;TFLinkLT0008755;P07247;Kr;dm6;3R:8695276.0-8695287.0<br />
+AAGGGGCATTTA<br />
+&gt;TFLinkLT0008756;P07247;Kr;dm6;3L:20696532.0-20696549.0<br />
+GTAACCCTTTTAAAAGTC<br />
+&gt;TFLinkLT0008757;P07247;Kr;dm6;3L:20696601.0-20696624.0<br />
+CTTAACTCTTTTTATGAATATTTA<br />
+&gt;TFLinkLT0008758;P07247;Kr;dm6;3L:20696664.0-20696683.0<br />
+CTGTTTAACCCTTTTATGCC<br />
+&gt;TFLinkLT0008759;P07247;Kr;dm6;3L:20696696.0-20696714.0<br />
+GCTTAACCCTTTTATGGGC<br />
+&gt;TFLinkLT0008760;P07247;Kr;dm6;3L:20696719.0-20696739.0<br />
+ATTGTACCAAAAGGGTTGTTC<br />
+&gt;TFLinkLT0008761;P07247;Kr;dm6;3L:21088152.0-21088164.0<br />
+AAAAGGGGACTGT<br />
+&gt;TFLinkLT0008762;P07247;Kr;dm6;3L:21088237.0-21088247.0<br />
+TCTACCCTTTT<br />
+&gt;TFLinkLT0008763;P07247;Kr;dm6;3L:21088387.0-21088398.0<br />
+AAAAAGGGTAAT<br />
+&gt;TFLinkLT0008764;P07247;Kr;dm6;2L:11456018.0-11456054.0<br />
+TTAAGCAAAGGAGTGTCATAGAAATGGGTGAAATTCT<br />
+&gt;TFLinkLT0008765;P07247;Kr;dm6;2L:11455986.0-11456005.0<br />
+GAAATTTGTGCCATCCTTTT<br />
+&gt;TFLinkLT0008766;P07247;Kr;dm6;2L:11455800.0-11455833.0<br />
+CAGCCATTACCCTTTTGTTGGCCAAAGGATTTGT<br />
+&gt;TFLinkLT0008767;P07247;Kr;dm6;2L:11455642.0-11455654.0<br />
+TCGAAGGGATTAT<br />
+&gt;TFLinkLT0008768;P07247;Kr;dm6;3R:16773258.0-16773267.0<br />
+AAAGGGTCAC<br />
+&gt;TFLinkLT0009769;P07247;Kr;dm6;chr2L:11455642.0-11455654.0<br />
+CGAAGGGATTAT<br />
+&gt;TFLinkLT0009777;P07247;Kr;dm6;chr2L:11455800.0-11455833.0<br />
+AGCCATTACCCTTTTGTTGGCCAAAGGATTTGT<br />
+&gt;TFLinkLT0009782;P07247;Kr;dm6;chr2L:11455986.0-11456005.0<br />
+AAATTTGTGCCATCCTTTT<br />
+&gt;TFLinkLT0009783;P07247;Kr;dm6;chr2L:11456018.0-11456054.0<br />
+TAAGCAAAGGAGTGTCATAGAAATGGGTGAAATTCT<br />
+&gt;TFLinkLT0009884;P07247;Kr;dm6;chr2R:9977715.0-9977724.0<br />
+TAACCCAAT<br />
+&gt;TFLinkLT0009885;P07247;Kr;dm6;chr2R:9977764.0-9977772.0<br />
+TACCCGGT<br />
+&gt;TFLinkLT0009886;P07247;Kr;dm6;chr2R:9977799.0-9977809.0<br />
+AACTGGGACA<br />
+&gt;TFLinkLT0009888;P07247;Kr;dm6;chr2R:9977850.0-9977859.0<br />
+TAATCCGTT<br />
+&gt;TFLinkLT0009892;P07247;Kr;dm6;chr2R:9977971.0-9977979.0<br />
+AACACGCT<br />
+&gt;TFLinkLT0009893;P07247;Kr;dm6;chr2R:9977997.0-9978005.0<br />
+GACGGAAT<br />
+&gt;TFLinkLT0009894;P07247;Kr;dm6;chr2R:9978008.0-9978017.0<br />
+GGGACCCTG<br />
+&gt;TFLinkLT0009896;P07247;Kr;dm6;chr2R:9978038.0-9978047.0<br />
+CCGGGTTGC<br />
+&gt;TFLinkLT0009897;P07247;Kr;dm6;chr2R:9978113.0-9978133.0<br />
+GGGATTAGCCAAGGGCTTGA<br />
+&gt;TFLinkLT0009899;P07247;Kr;dm6;chr2R:9978141.0-9978186.0<br />
+CCAATCCCGATCCCTAGCCCGATCCCAATCCCAATCCCAATCCCT<br />
+&gt;TFLinkLT0009903;P07247;Kr;dm6;chr2R:9978232.0-9978242.0<br />
+AAGGGATTAG<br />
+&gt;TFLinkLT0009904;P07247;Kr;dm6;chr2R:9978283.0-9978292.0<br />
+CTGGGTTAT<br />
+&gt;TFLinkLT0009906;P07247;Kr;dm6;chr2R:9978326.0-9978336.0<br />
+TAACCCGTTT<br />
+&gt;TFLinkLT0009953;P07247;Kr;dm6;chr2R:11528741.0-11528750.0<br />
+TAACCAGTT<br />
+&gt;TFLinkLT0010106;P07247;Kr;dm6;chr3L:8665368.0-8665377.0<br />
+TCACTCCTT<br />
+&gt;TFLinkLT0010112;P07247;Kr;dm6;chr3L:8665518.0-8665527.0<br />
+TAACTCAGC<br />
+&gt;TFLinkLT0010114;P07247;Kr;dm6;chr3L:8665574.0-8665583.0<br />
+TTCCCTGCC<br />
+&gt;TFLinkLT0010116;P07247;Kr;dm6;chr3L:8665640.0-8665649.0<br />
+AAACCCTTT<br />
+&gt;TFLinkLT0010125;P07247;Kr;dm6;chr3L:8665876.0-8665885.0<br />
+AAGGGTTCG<br />
+&gt;TFLinkLT0010133;P07247;Kr;dm6;chr3L:8666882.0-8666891.0<br />
+ACGGGTTTT<br />
+&gt;TFLinkLT0010137;P07247;Kr;dm6;chr3L:8666910.0-8666919.0<br />
+TAAGCCTTT<br />
+&gt;TFLinkLT0010139;P07247;Kr;dm6;chr3L:8666935.0-8666944.0<br />
+TGACCCGTT<br />
+&gt;TFLinkLT0010141;P07247;Kr;dm6;chr3L:8666973.0-8666982.0<br />
+TCGGGTTCT<br />
+&gt;TFLinkLT0010144;P07247;Kr;dm6;chr3L:8667057.0-8667064.0<br />
+AAATGTT<br />
+&gt;TFLinkLT0010145;P07247;Kr;dm6;chr3L:8667173.0-8667182.0<br />
+AAGGCTTAA<br />
+&gt;TFLinkLT0010148;P07247;Kr;dm6;chr3L:8667199.0-8667208.0<br />
+TGGTGTTAA<br />
+&gt;TFLinkLT0010154;P07247;Kr;dm6;chr3L:8667306.0-8667315.0<br />
+AAGGGTTTT<br />
+&gt;TFLinkLT0010156;P07247;Kr;dm6;chr3L:8670140.0-8670159.0<br />
+TAAAAACTCTTTGCGAATC<br />
+&gt;TFLinkLT0010157;P07247;Kr;dm6;chr3L:8670262.0-8670314.0<br />
+AATCCGTGGAAACTCTAAACTCTATCCCAGAGAGAACCTCTTTCGGCGCGAG<br />
+&gt;TFLinkLT0010242;P07247;Kr;dm6;chr3L:20696532.0-20696549.0<br />
+TAACCCTTTTAAAAGTC<br />
+&gt;TFLinkLT0010247;P07247;Kr;dm6;chr3L:20696601.0-20696624.0<br />
+TTAACTCTTTTTATGAATATTTA<br />
+&gt;TFLinkLT0010250;P07247;Kr;dm6;chr3L:20696664.0-20696683.0<br />
+TGTTTAACCCTTTTATGCC<br />
+&gt;TFLinkLT0010252;P07247;Kr;dm6;chr3L:20696696.0-20696714.0<br />
+CTTAACCCTTTTATGGGC<br />
+&gt;TFLinkLT0010253;P07247;Kr;dm6;chr3L:20696719.0-20696739.0<br />
+TTGTACCAAAAGGGTTGTTC<br />
+&gt;TFLinkLT0010286;P07247;Kr;dm6;chr3L:21088152.0-21088164.0<br />
+AAAGGGGACTGT<br />
+&gt;TFLinkLT0010287;P07247;Kr;dm6;chr3L:21088237.0-21088247.0<br />
+CTACCCTTTT<br />
+&gt;TFLinkLT0010288;P07247;Kr;dm6;chr3L:21088387.0-21088398.0<br />
+AAAAGGGTAAT<br />
+&gt;TFLinkLT0010456;P07247;Kr;dm6;chr3R:8694959.0-8694970.0<br />
+GCGGGACTTAA<br />
+&gt;TFLinkLT0010458;P07247;Kr;dm6;chr3R:8695276.0-8695287.0<br />
+AGGGGCATTTA<br />
+&gt;TFLinkLT0010596;P07247;Kr;dm6;chr3R:16773258.0-16773267.0<br />
+AAGGGTCAC<br />
+&gt;TFLinkLT0010619;P07247;Kr;dm6;chr3R:16810747.0-16810769.0<br />
+GTGCGTGAAAGGGTGAAGCTAC</p>
+
+  
+</div>
+
+
+
+
+<script src="/protein.f29f3.js"></script>
+
+
+<script src="/network.f29f3.js"></script>
+
+
+  </div>
+
+  
+  <footer></footer>
+
+  
+
+  
+  
+  <script src="/main.f29f3.js"></script>
+  
+</body>
+
+</html>
