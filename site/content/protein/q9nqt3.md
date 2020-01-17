@@ -1,0 +1,20 @@
+---
+type: protein
+layout: protein
+title: Q9NQT3
+protein_name: HBA1
+uniprot_accession: Q9NQT3
+ncbi_gene_id: '-'
+organism: Homo sapiens
+function: target gene
+tfs: 'ATRX,P46100,546,TRRUST,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=7697714%5Buid%5D"
+  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>
+
+  GATA1,P15976,2623,TRRUST,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=12609092;
+  20564185%5Buid%5D" target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>
+
+  KLF4,O43474,9314,TRRUST,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=20331458%5Buid%5D"
+  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>'
+targets: ''
+binding_sites: ''
+---

@@ -1,0 +1,24 @@
+---
+type: protein
+layout: protein
+title: Q3UPW2
+protein_name: Elf3
+uniprot_accession: Q3UPW2
+ncbi_gene_id: '13710'
+organism: Mus musculus
+function: transcription factor and target gene
+tfs: 'Nfkb1,P25799,18033,TRRUST,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=18475289%5Buid%5D"
+  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>'
+targets: 'Angpt1,O08538,11600,TRRUST,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=14715662%5Buid%5D"
+  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>
+
+  Tgfb1,P04202,21803,TRRUST,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=10644990%5Buid%5D"
+  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>
+
+  Tgfbr2,Q62312,21813,TRRUST,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=20054123;
+  14976186; 20079749%5Buid%5D" target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>
+
+  Tlr11,Q6R5P0,239081,TRRUST,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=19801549%5Buid%5D"
+  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>'
+binding_sites: ''
+---

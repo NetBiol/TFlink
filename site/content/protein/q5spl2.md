@@ -1,0 +1,14 @@
+---
+type: protein
+layout: protein
+title: Q5SPL2
+protein_name: Phf12
+uniprot_accession: Q5SPL2
+ncbi_gene_id: '268448'
+organism: Mus musculus
+function: transcription factor
+tfs: ''
+targets: 'Lgals4,Q8K419,16855,TRRUST,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=11390640%5Buid%5D"
+  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>'
+binding_sites: ''
+---

@@ -1,0 +1,14 @@
+---
+type: protein
+layout: protein
+title: Q9ESY2
+protein_name: Pfkfb3
+uniprot_accession: Q9ESY2
+ncbi_gene_id: '-'
+organism: Mus musculus
+function: target gene
+tfs: 'Hif1a,Q61221,15251,TRRUST,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=14623077%5Buid%5D"
+  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>'
+targets: ''
+binding_sites: ''
+---
