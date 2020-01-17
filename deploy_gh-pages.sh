@@ -5,4 +5,5 @@ then
     exit 1;
 fi
 npm run build
+git add dist -f && git commit -m "deploy"
 npm run deploy
