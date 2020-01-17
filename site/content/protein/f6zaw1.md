@@ -1,0 +1,14 @@
+---
+type: protein
+layout: protein
+title: F6ZAW1
+protein_name: Cald1
+uniprot_accession: F6ZAW1
+ncbi_gene_id: '-'
+organism: Mus musculus
+function: target gene
+tfs: 'Sox4,Q06831,20677,TRRUST,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=24046453%5Buid%5D"
+  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>'
+targets: ''
+binding_sites: ''
+---

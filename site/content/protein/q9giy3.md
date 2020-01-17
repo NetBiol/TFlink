@@ -1,0 +1,31 @@
+---
+type: protein
+layout: protein
+title: Q9GIY3
+protein_name: HLA-DRB1
+uniprot_accession: Q9GIY3
+ncbi_gene_id: '-'
+organism: Homo sapiens
+function: target gene
+tfs: 'CIITA,P33076,4261,TRRUST,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=10886240%5Buid%5D"
+  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>
+
+  ILF3,Q12906,3609,TRRUST,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=7651394%5Buid%5D"
+  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>
+
+  RFX5,P48382,5993,GTRD; TRRUST; ReMap,chromatin immunoprecipitation assay; inferred
+  by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=18723135; 11258423%5Buid%5D"
+  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>
+
+  RFXANK,O14593,8625,GTRD; TRRUST,chromatin immunoprecipitation assay; inferred by
+  curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=11258423%5Buid%5D"
+  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>
+
+  RFXAP,O00287,5994,TRRUST,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=11258423;
+  18723135%5Buid%5D" target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>
+
+  VDR,P11473,7421,TRRUST,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=19956544%5Buid%5D"
+  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>'
+targets: ''
+binding_sites: ''
+---
