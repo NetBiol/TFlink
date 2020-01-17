@@ -5,6 +5,4 @@ then
     exit 1;
 fi
 npm run build
-git push --delete origin gh-pages
-git add dist -f && git commit -m "deploy"
-git subtree push --prefix dist origin gh-pages
+npm run deploy
