@@ -48,76 +48,81 @@ $(document).ready(function () {
   const cyLayout = { name: 'cose-bilkent' };
   const cyWheelSensitivity = 0.5;
 
-  let cyTarget = cytoscape({
+  let cyTarget = $('#target-network-div').length ? cytoscape({
     container: $('#target-network-div'),
     style: cyStyle,
     layout: cyLayout,
     wheelSensitivity: cyWheelSensitivity,
-  });
-  let cyTf = cytoscape({
+  }) : null;
+  let cyTf = $('#tf-network-div').length ? cytoscape({
     container: $('#tf-network-div'),
     style: cyStyle,
     layout: cyLayout,
     wheelSensitivity: cyWheelSensitivity,
-  });
+  }) : null;
 
-  const targetControlDiv = webix.ui({
-    container: 'targetControlDiv',
-    css: { 'background-color': 'transparent !important' },
-    view: 'form',
-    borderless: true,
-    paddingY: 5,
-    paddingX: 10,
-    cols: [
-      {
-        view: "button", type: 'icon', icon: 'wxi-download', width: 35, value: "Download image", tooltip: true,
-        click: function () {
-          webix.html.download(cyTarget.png(), "TFLink_" + $('#uniprot-ac').text() + ".png")
-        }
-      },
-      {
-        view: 'button', type: 'icon', icon: 'wxi-sync', width: 35, value: "Fit network", tooltip: true,
-        click: function () { cyTarget.fit() }
-      },
-      {
-        view: 'button', type: 'icon', icon: 'wxi-plus', width: 35, value: "Zoom +", tooltip: true,
-        click: function () { cyTarget.zoom(cyTarget.zoom() + 0.5) }
-      },
-      {
-        view: 'button', type: 'icon', icon: 'wxi-minus', width: 35, value: "Zoom -", tooltip: true,
-        click: function () { cyTarget.zoom(cyTarget.zoom() - 0.5) }
-      },
-    ]
-  });
-  const tfControlDiv = webix.ui({
-    container: 'tfControlDiv',
-    css: { 'background-color': 'transparent !important' },
-    view: 'form',
-    borderless: true,
-    paddingY: 5,
-    paddingX: 10,
-    cols: [
-      {
-        view: "button", type: 'icon', icon: 'wxi-download', width: 35, value: "Download image", tooltip: true,
-        click: function () {
-          webix.html.download(cyTf.png(), "TFLink_" + $('#uniprot-ac').text() + ".png")
-        }
-      },
-      {
-        view: 'button', type: 'icon', icon: 'wxi-sync', width: 35, value: "Fit network", tooltip: true,
-        click: function () { cyTf.fit() }
-      },
-      {
-        view: 'button', type: 'icon', icon: 'wxi-plus', width: 35, value: "Zoom +", tooltip: true,
-        click: function () { cyTf.zoom(cyTf.zoom() + 0.5) }
-      },
-      {
-        view: 'button', type: 'icon', icon: 'wxi-minus', width: 35, value: "Zoom -", tooltip: true,
-        click: function () { cyTf.zoom(cyTf.zoom() - 0.5) }
-      },
-    ]
-  });
+  if (cyTarget) {
+    createNodes(cyTarget, 'target_data');
+    const targetControlDiv = webix.ui({
+      container: 'targetControlDiv',
+      css: { 'background-color': 'transparent !important' },
+      view: 'form',
+      borderless: true,
+      paddingY: 5,
+      paddingX: 10,
+      cols: [
+        {
+          view: "button", type: 'icon', icon: 'wxi-download', width: 35, value: "Download image", tooltip: true,
+          click: function () {
+            webix.html.download(cyTarget.png(), "TFLink_" + $('#uniprot-ac').text() + ".png")
+          }
+        },
+        {
+          view: 'button', type: 'icon', icon: 'wxi-sync', width: 35, value: "Fit network", tooltip: true,
+          click: function () { cyTarget.fit() }
+        },
+        {
+          view: 'button', type: 'icon', icon: 'wxi-plus', width: 35, value: "Zoom +", tooltip: true,
+          click: function () { cyTarget.zoom(cyTarget.zoom() + 0.5) }
+        },
+        {
+          view: 'button', type: 'icon', icon: 'wxi-minus', width: 35, value: "Zoom -", tooltip: true,
+          click: function () { cyTarget.zoom(cyTarget.zoom() - 0.5) }
+        },
+      ]
+    });
+  }
 
-  createNodes(cyTarget, 'target_data');
-  createNodes(cyTf, 'tf_data');
+  if (cyTf) {
+    createNodes(cyTf, 'tf_data');
+    const tfControlDiv = webix.ui({
+      container: 'tfControlDiv',
+      css: { 'background-color': 'transparent !important' },
+      view: 'form',
+      borderless: true,
+      paddingY: 5,
+      paddingX: 10,
+      cols: [
+        {
+          view: "button", type: 'icon', icon: 'wxi-download', width: 35, value: "Download image", tooltip: true,
+          click: function () {
+            webix.html.download(cyTf.png(), "TFLink_" + $('#uniprot-ac').text() + ".png")
+          }
+        },
+        {
+          view: 'button', type: 'icon', icon: 'wxi-sync', width: 35, value: "Fit network", tooltip: true,
+          click: function () { cyTf.fit() }
+        },
+        {
+          view: 'button', type: 'icon', icon: 'wxi-plus', width: 35, value: "Zoom +", tooltip: true,
+          click: function () { cyTf.zoom(cyTf.zoom() + 0.5) }
+        },
+        {
+          view: 'button', type: 'icon', icon: 'wxi-minus', width: 35, value: "Zoom -", tooltip: true,
+          click: function () { cyTf.zoom(cyTf.zoom() - 0.5) }
+        },
+      ]
+    });
+  }
+
 })
