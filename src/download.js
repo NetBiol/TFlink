@@ -25,14 +25,14 @@ const speciesList = [{
 }]
 
 var species_select = [{
-    view: "label",
-    label: "Select a species:"
-  },
-  {
-    view: "select",
-    name: "species",
-    options: speciesList
-  }
+  view: "label",
+  label: "Select a species:"
+},
+{
+  view: "select",
+  name: "species",
+  options: speciesList
+}
 ];
 var species_select_form = new webix.ui({
   css: "",
@@ -92,7 +92,12 @@ $$("species_select_form").elements["species"].attachEvent("onChange", function (
     htmlSS += `<p><a href="${url}"><i>${speciesList[index].value}</i> small-scale ${formats[i]}</a></p>`;
   }
   for (let i = 0; i < typesLS.length; i++) {
-    let url = `/data/download/${species + typesLS[i]}`;
+    let url = '';
+    if (species == 'Homo_sapiens' && i == 4) {
+      url = 'https://media.githubusercontent.com/media/NetBiol/TFlink/master/site/static/data/download/Homo_sapiens_LS_bindingSites.gz';
+    } else {
+      url = `/data/download/${species + typesLS[i]}`;
+    }
     if (i == 3) htmlLS += '<p>&nbsp;</p>'
     htmlLS += `<p><a href="${url}"><i>${speciesList[index].value}</i> large-scale ${formats[i]}</a></p>`;
   };
