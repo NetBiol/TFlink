@@ -3,8 +3,9 @@ import coseBilkent from 'cytoscape-cose-bilkent';
 
 $(document).ready(function () {
   cytoscape.use(coseBilkent);
+  const baseId = 'node0'
 
-  function createNodes(cy, dataId) {
+  function createNodes(cy, dataId, target = false) {
     const base_protein = $('#protein_name').text();
     const nodes = $('#' + dataId)
       .val()
@@ -12,11 +13,14 @@ $(document).ready(function () {
       .map(row => row.split(',')[0]
         .trim()
       );
-    cy.add({ group: 'nodes', data: { id: base_protein } });
-    cy.nodes(`[id = '${base_protein}']`).style('background-color', '#f0506e');
+    // cy.nodes(`[id = '${baseId}']`).style('background-color', '#f0506e');
+    cy.add({ group: 'nodes', data: { id: baseId, name: base_protein } });
+    let nodeId = 1;
     for (let node of nodes) {
-      cy.add({ group: 'nodes', data: { id: node } });
-      cy.add({ group: 'edges', data: { source: base_protein, target: node } });
+      cy.add({ group: 'nodes', data: { id: `node${nodeId}`, name: node } });
+      target ?
+        cy.add({ group: 'edges', data: { source: baseId, target: `node${nodeId++}` } })
+        : cy.add({ group: 'edges', data: { source: `node${nodeId++}`, target: baseId } });
     }
     cy.layout({ name: 'cose-bilkent' }).run();
   }
@@ -27,8 +31,7 @@ $(document).ready(function () {
       style: {
         'height': 40,
         'width': function (ele) { return ele.data('id').length * 10 + 20 },
-        'background-color': '#70adb5',
-        'label': 'data(id)',
+        'label': 'data(name)',
         'text-halign': 'center',
         'text-valign': 'center'
       }
@@ -62,7 +65,19 @@ $(document).ready(function () {
   }) : null;
 
   if (cyTarget) {
-    createNodes(cyTarget, 'target_data');
+    cyTarget.style()
+      .selector('node')
+      .style({
+        'background-color': '#70adb5'
+      });
+    cyTarget.style()
+      .selector(`[id = '${baseId}']`)
+      .style({
+        'background-color': '#f0506e'
+      })
+      .update();
+
+    createNodes(cyTarget, 'target_data', true);
     const targetControlDiv = webix.ui({
       container: 'targetControlDiv',
       css: { 'background-color': 'transparent !important' },
@@ -94,6 +109,17 @@ $(document).ready(function () {
   }
 
   if (cyTf) {
+    cyTf.style()
+      .selector('node')
+      .style({
+        'background-color': '#f0506e'
+      });
+    cyTf.style()
+      .selector(`[id = '${baseId}']`)
+      .style({
+        'background-color': '#70adb5'
+      })
+      .update();
     createNodes(cyTf, 'tf_data');
     const tfControlDiv = webix.ui({
       container: 'tfControlDiv',
