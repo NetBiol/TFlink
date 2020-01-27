@@ -7,13 +7,15 @@ uniprot_accession: Q9UHP3
 ncbi_gene_id: '29761'
 organism: Homo sapiens
 function: target gene
-tfs: 'FOXP3,Q9BZS1,50943,GTRD; HTRI; TRRUST,chromatin immunoprecipitation assay; inferred
-  by curator; chromatin immunoprecipitation array,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=20554955;
-  23395819%5Buid%5D" target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>
+orthologs: '[{"species": "Mus musculus", "id": ["P57080"]}, {"species": "Rattus norvegicus", "id": ["D4ACD3"]}]'
+tfs: 'FOXP3,Q9BZS1,50943,GTRD; HTRI; TRRUST,chromatin immunoprecipitation array; chromatin
+  immunoprecipitation assay; inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=20554955%5Buid%5D+OR+23395819%5Buid%5D+OR+27924024%5Buid%5D+OR+22900683%5Buid%5D+OR+29087512%5Buid%5D"
+  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>
 
-  E2F4,Q16254,1874,GTRD; TRED; PAZAR; ORegAnno; ReMap,chromatin immunoprecipitation
-  assay; inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=18971253%5Buid%5D"
+  E2F4,Q16254,1874,GTRD; PAZAR; ReMap; TRED,chromatin immunoprecipitation assay; inferred
+  by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=18971253%5Buid%5D+OR+27924024%5Buid%5D+OR+18971253%5Buid%5D+OR+29126285%5Buid%5D+OR+17202159%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>'
 targets: ''
 binding_sites: ''
+
 ---

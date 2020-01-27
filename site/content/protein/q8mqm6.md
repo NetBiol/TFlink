@@ -7,8 +7,10 @@ uniprot_accession: Q8MQM6
 ncbi_gene_id: '-'
 organism: Drosophila melanogaster
 function: target gene
-tfs: 'Ubx,P83949,42034,REDfly,electrophoretic mobility shift assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=17174297%5Buid%5D"
+orthologs: ''
+tfs: 'Ubx,P83949,42034,REDfly,electrophoretic mobility shift assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=17174297%5Buid%5D+OR+20965965%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>'
 targets: ''
 binding_sites: ''
+
 ---

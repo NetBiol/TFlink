@@ -2,16 +2,18 @@
 type: protein
 layout: protein
 title: Q9ZZW4
-protein_name: Q0142 YEAST
+protein_name: Q0142_YEAST
 uniprot_accession: Q9ZZW4
 ncbi_gene_id: '-'
 organism: Saccharomyces cerevisiae
 function: target gene
-tfs: 'MSN2,P33748,855053.0,Yeastract,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=18753408%5Buid%5D"
+orthologs: ''
+tfs: 'MSN2,P33748,855053.0,Yeastract,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=18753408%5Buid%5D+OR+24170807%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>
 
-  MSN4,P33749,853803.0,Yeastract,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=18753408%5Buid%5D"
+  MSN4,P33749,853803.0,Yeastract,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=18753408%5Buid%5D+OR+24170807%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>'
 targets: ''
 binding_sites: ''
+
 ---

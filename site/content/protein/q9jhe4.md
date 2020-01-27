@@ -7,8 +7,10 @@ uniprot_accession: Q9JHE4
 ncbi_gene_id: '53897'
 organism: Mus musculus
 function: target gene
-tfs: 'Ctcfl,A2APF3,664799,TRRUST,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=20231363%5Buid%5D"
+orthologs: '[{"species": "Homo sapiens", "id": ["Q99999"]}, {"species": "Rattus norvegicus", "id": ["D3ZCT9"]}]'
+tfs: 'Ctcfl,A2APF3,664799,TRRUST,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=20231363%5Buid%5D+OR+29087512%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>'
 targets: ''
 binding_sites: ''
+
 ---

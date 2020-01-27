@@ -7,17 +7,21 @@ uniprot_accession: Q8NHY0
 ncbi_gene_id: '124872'
 organism: Homo sapiens
 function: target gene
-tfs: 'ESR1,P03372,2099,TRED; ReMap,chromatin immunoprecipitation assay; inferred by
-  curator,&ensp;<a href="-" target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>
+orthologs: '[{"species": "Mus musculus", "id": ["Q09199"]}]'
+tfs: 'ESR1,P03372,2099,ReMap; TRED,chromatin immunoprecipitation assay; inferred by
+  curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D+OR+17202159%5Buid%5D"
+  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>
 
-  MYC,P01106,4609,GTRD; TRED; ReMap,chromatin immunoprecipitation assay; inferred
-  by curator,&ensp;<a href="-" target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>
+  MYC,P01106,4609,GTRD; ReMap; TRED,chromatin immunoprecipitation assay; inferred
+  by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D+OR+29126285%5Buid%5D+OR+17202159%5Buid%5D"
+  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>
 
-  USF1,P22415,7391,TRED,inferred by curator,&ensp;<a href="-" target="_blank"><i uk-icon="icon:
-  link"></i>Pubmed</a>
+  USF1,P22415,7391,TRED,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=17202159%5Buid%5D"
+  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>
 
-  USF2,Q15853,7392,TRED,inferred by curator,&ensp;<a href="-" target="_blank"><i uk-icon="icon:
-  link"></i>Pubmed</a>'
+  USF2,Q15853,7392,TRED,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=17202159%5Buid%5D"
+  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>'
 targets: ''
 binding_sites: ''
+
 ---

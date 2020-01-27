@@ -7,11 +7,13 @@ uniprot_accession: A0A2R8VHF9
 ncbi_gene_id: '17880'
 organism: Mus musculus
 function: target gene
-tfs: 'Sp1,O89090,20683,TRED,inferred by curator,&ensp;<a href="-" target="_blank"><i
-  uk-icon="icon: link"></i>Pubmed</a>
+orthologs: '[{"species": "Drosophila melanogaster", "id": ["A0A0B4JD95"]}, {"species": "Caenorhabditis elegans", "id": ["Q20641"]}, {"species": "Homo sapiens", "id": ["<a href=\"/protein/p35749\">P35749</a>"]}, {"species": "Rattus norvegicus", "id": ["A0A0G2K6S9"]}]'
+tfs: 'Sp1,O89090,20683,TRED,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=17202159%5Buid%5D"
+  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>
 
-  Nfic,P70255,18029,TRED,inferred by curator,&ensp;<a href="-" target="_blank"><i
-  uk-icon="icon: link"></i>Pubmed</a>'
+  Nfic,P70255,18029,TRED,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=17202159%5Buid%5D"
+  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>'
 targets: ''
 binding_sites: ''
+
 ---

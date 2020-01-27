@@ -7,8 +7,10 @@ uniprot_accession: Q9DBA9
 ncbi_gene_id: '14884'
 organism: Mus musculus
 function: transcription factor
+orthologs: ''
 tfs: ''
-targets: 'Keap1,Q9Z2X8,50868,TRRUST,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=20173742%5Buid%5D"
+targets: 'Keap1,Q9Z2X8,50868,TRRUST,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=20173742%5Buid%5D+OR+29087512%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>'
 binding_sites: ''
+
 ---

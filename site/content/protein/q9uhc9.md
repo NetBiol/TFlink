@@ -7,13 +7,15 @@ uniprot_accession: Q9UHC9
 ncbi_gene_id: '29881'
 organism: Homo sapiens
 function: target gene
-tfs: 'SREBF2,Q12772,6721,GTRD; HTRI; TRRUST; ReMap,chromatin immunoprecipitation assay;
-  inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=21527728;
-  20460578; 21123766%5Buid%5D" target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>
+orthologs: '[{"species": "Mus musculus", "id": ["Z4YJC9"]}, {"species": "Rattus norvegicus", "id": ["Q6T3U3"]}, {"species": "Saccharomyces cerevisiae", "id": ["<a href=\"/protein/q12200\">Q12200</a>"]}]'
+tfs: 'SREBF2,Q12772,6721,GTRD; HTRI; ReMap; TFactS_via_DoRothea; TRRUST,chromatin
+  immunoprecipitation assay; inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=21123766%5Buid%5D+OR+18080173%5Buid%5D+OR+21527728%5Buid%5D+OR+20460578%5Buid%5D+OR+27924024%5Buid%5D+OR+22900683%5Buid%5D+OR+29126285%5Buid%5D+OR+22761861%5Buid%5D+OR+31340985%5Buid%5D+OR+29087512%5Buid%5D"
+  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>
 
-  HNF4A,P41235,3172,GTRD; PAZAR; ORegAnno; TRRUST; ReMap,chromatin immunoprecipitation
-  assay; inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=18971253;
-  21123766%5Buid%5D" target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>'
+  HNF4A,P41235,3172,GTRD; PAZAR; ReMap; TFactS_via_DoRothea; TRRUST,chromatin immunoprecipitation
+  assay; inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=18080173%5Buid%5D+OR+21123766%5Buid%5D+OR+18971253%5Buid%5D+OR+27924024%5Buid%5D+OR+18971253%5Buid%5D+OR+29126285%5Buid%5D+OR+22761861%5Buid%5D+OR+31340985%5Buid%5D+OR+29087512%5Buid%5D"
+  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>'
 targets: ''
 binding_sites: ''
+
 ---

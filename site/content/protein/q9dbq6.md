@@ -7,8 +7,11 @@ uniprot_accession: Q9DBQ6
 ncbi_gene_id: '18018'
 organism: Mus musculus
 function: target gene
+orthologs: ''
 tfs: 'Jun,P05627,16476,GTRD; TRED,chromatin immunoprecipitation assay; inferred by
-  curator,&ensp;<a href="-" target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>'
+  curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D+OR+17202159%5Buid%5D"
+  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>'
 targets: ''
 binding_sites: ''
+
 ---

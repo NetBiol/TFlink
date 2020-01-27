@@ -7,15 +7,16 @@ uniprot_accession: Q7KHG2
 ncbi_gene_id: '35555'
 organism: Drosophila melanogaster
 function: transcription factor and target gene
-tfs: 'jing,Q7KHG2,35555,REDfly,DNase I footprinting,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=11014815%5Buid%5D"
+orthologs: ''
+tfs: 'jing,Q7KHG2,35555,REDfly,DNase I footprinting,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=11014815%5Buid%5D+OR+20965965%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>
 
-  Deaf1,Q24180,40164,ORegAnno,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=11014815%5Buid%5D"
+  Deaf1,Q24180,40164,ORegAnno,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=11014815%5Buid%5D+OR+26578589%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>
 
-  Dfd,P07548,40832,ORegAnno,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=11014815%5Buid%5D"
+  Dfd,P07548,40832,ORegAnno,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=11014815%5Buid%5D+OR+26578589%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>'
-targets: 'jing,Q7KHG2,35555,REDfly,DNase I footprinting,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=11014815%5Buid%5D"
+targets: 'jing,Q7KHG2,35555,REDfly,DNase I footprinting,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=11014815%5Buid%5D+OR+20965965%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>'
 binding_sites: 'TFLinkLT0008679,DNase I footprinting,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=11014815%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,REDfly,dm6,2R,6501800,6501809,-
@@ -52,5 +53,6 @@ binding_sites: 'TFLinkLT0008679,DNase I footprinting,&ensp;<a href="https://www.
 
   TFLinkLT0008690,DNase I footprinting,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=11014815%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,REDfly,dm6,2R,6502220,6502231,-'
+
 ---
 \>TFLinkLT0008679;Q7KHG2;jing;dm6;2R:6501800.0-6501809.0\GCTCGTCGGA\\>TFLinkLT0008680;Q7KHG2;jing;dm6;2R:6501822.0-6501874.0\AAACGAACGGCAGTTCGTTGCCTTCGTTCTTGCTTCGCGTGCTTCGTATCTTG\\>TFLinkLT0008681;Q7KHG2;jing;dm6;2R:6501905.0-6501914.0\TTCGGCTGGC\\>TFLinkLT0008682;Q7KHG2;jing;dm6;2R:6501938.0-6501962.0\CGTCGGCTACCTCTTCGGGTGGGGC\\>TFLinkLT0008683;Q7KHG2;jing;dm6;2R:6501966.0-6501978.0\AGCGCTCGGTCCA\\>TFLinkLT0008684;Q7KHG2;jing;dm6;2R:6501998.0-6502014.0\CACTCGTCAGTCAGTCG\\>TFLinkLT0008685;Q7KHG2;jing;dm6;2R:6502043.0-6502054.0\TTTTCGTGGGGA\\>TFLinkLT0008686;Q7KHG2;jing;dm6;2R:6502086.0-6502097.0\GTTTCGGAATTC\\>TFLinkLT0008687;Q7KHG2;jing;dm6;2R:6502131.0-6502138.0\TTAATTTG\\>TFLinkLT0008688;Q7KHG2;jing;dm6;2R:6502152.0-6502165.0\TGGCGGCTATTAAG\\>TFLinkLT0008689;Q7KHG2;jing;dm6;2R:6502177.0-6502189.0\CTACATTAATTAT\\>TFLinkLT0008690;Q7KHG2;jing;dm6;2R:6502220.0-6502231.0\CGCGATAAGTAA\

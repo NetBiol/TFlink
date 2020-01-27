@@ -7,14 +7,16 @@ uniprot_accession: Q8BIA3
 ncbi_gene_id: '210719'
 organism: Mus musculus
 function: transcription factor
+orthologs: ''
 tfs: ''
-targets: 'Myod1,P10085,17927,TRRUST,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=24814716%5Buid%5D"
+targets: 'Myod1,P10085,17927,TRRUST,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=24814716%5Buid%5D+OR+29087512%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>
 
-  Scx,Q64124,20289,TRRUST,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=25332192%5Buid%5D"
+  Scx,Q64124,20289,TRRUST,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=25332192%5Buid%5D+OR+29087512%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>
 
-  Tgfb2,P27090,21808,TRRUST,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=25332192%5Buid%5D"
+  Tgfb2,P27090,21808,TRRUST,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=25332192%5Buid%5D+OR+29087512%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>'
 binding_sites: ''
+
 ---
