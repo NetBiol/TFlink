@@ -1,38 +1,71 @@
-const speciesList = [{
-  "id": 0,
-  "value": "Select an organism"
-}, {
-  "id": "Caenorhabditis_elegans",
-  "value": "Caenorhabditis elegans"
-}, {
-  "id": "Danio_rerio",
-  "value": "Danio rerio"
-}, {
-  "id": "Drosophila_melanogaster",
-  "value": "Drosophila melanogaster"
-}, {
-  "id": "Homo_sapiens",
-  "value": "Homo sapiens"
-}, {
-  "id": "Mus_musculus",
-  "value": "Mus musculus"
-}, {
-  "id": "Rattus_norvegicus",
-  "value": "Rattus norvegicus"
-}, {
-  "id": "Saccharomyces_cerevisiae",
-  "value": "Saccharomyces cerevisiae"
-}]
+const speciesList = [
+  {
+    id: 0,
+    value: "Select an organism"
+  },
+  {
+    id: "Caenorhabditis_elegans",
+    value: "Caenorhabditis elegans"
+  },
+  {
+    id: "Danio_rerio",
+    value: "Danio rerio"
+  },
+  {
+    id: "Drosophila_melanogaster",
+    value: "Drosophila melanogaster"
+  },
+  {
+    id: "Homo_sapiens",
+    value: "Homo sapiens"
+  },
+  {
+    id: "Mus_musculus",
+    value: "Mus musculus"
+  },
+  {
+    id: "Rattus_norvegicus",
+    value: "Rattus norvegicus"
+  },
+  {
+    id: "Saccharomyces_cerevisiae",
+    value: "Saccharomyces cerevisiae"
+  }
+];
 
-var species_select = [{
-  view: "label",
-  label: "Select a species:"
-},
-{
-  view: "select",
-  name: "species",
-  options: speciesList
-}
+const formats = [
+  "interaction table",
+  "interaction MITAB",
+  "interaction GMT",
+  "binding site table",
+  "binding site sequences"
+];
+
+const ssDownloadFormats = [
+  "ss_interaction_table",
+  "ss_interaction_mitab",
+  "ss_interaction_gmt",
+  "ss_binding_site_table",
+  "ss_binding_site_sequence"
+];
+const lsDownloadFormats = [
+  "ls_interaction_table",
+  "ls_interaction_mitab",
+  "ls_interaction_gmt",
+  "ls_binding_site_table",
+  "ls_binding_site_sequence"
+];
+
+var species_select = [
+  {
+    view: "label",
+    label: "Select a species:"
+  },
+  {
+    view: "select",
+    name: "species",
+    options: speciesList
+  }
 ];
 var species_select_form = new webix.ui({
   css: "",
@@ -44,63 +77,46 @@ var species_select_form = new webix.ui({
   elements: species_select
 });
 
-const formats = [
-  'interaction table',
-  'interaction MITAB',
-  'interaction GMT',
-  'binding site table',
-  'binding site sequences'
-]
+let downloadFiles = {};
+$.getJSON("/data/download_files.json", function(json) {
+  downloadFiles = json;
+});
 
-const typesSS = [
-  '_interactions_SS_simpleFormat.csv',
-  '_interactions_SS_mitab.tsv',
-  '_interactions_SS_GMT.gmt',
-  '_bindingSites_SS_annotation.csv',
-  '_SS_bindingSites.fasta'
-]
+$$("species_select_form").elements["species"].attachEvent("onChange", function(
+  species
+) {
+  let htmlSS = "<h3>Small-scale</h3>";
+  let htmlLS = "<h3>Large-scale</h3>";
+  const index = speciesList.findIndex(function(item, i) {
+    return item.id === species;
+  });
 
-const typesLS = [
-  '_interactions_LS_simpleFormat.csv.gz',
-  '_interactions_LS_mitab.csv.gz',
-  '_interactions_LS_GMT.gmt',
-  '_bindingSites_LS_annotation.csv',
-  '_LS_bindingSites.fasta'
-]
-
-function UrlExists(url, cb) {
-  jQuery.ajax({
-    url: url,
-    dataType: 'text',
-    type: 'GET',
-    complete: function (xhr) {
-      if (typeof cb === 'function')
-        cb.apply(this, [xhr.status]);
+  ssDownloadFormats.forEach((key, i) => {
+    if (!downloadFiles[species].hasOwnProperty(key)) {
+      htmlSS += "<p>&nbsp;</p>";
+      return;
     }
-  });
-}
 
-$$("species_select_form").elements["species"].attachEvent("onChange", function (species) {
-  let htmlSS = '<h3>Small-scale</h3>';
-  let htmlLS = '<h3>Large-scale</h3>';
-  const index = speciesList.findIndex(function (item, i) {
-    return item.id === species
-  });
-  for (let i = 0; i < typesSS.length; i++) {
-    let url = `/data/download/${species + typesSS[i]}`;
-    if (i == 3) htmlSS += '<p>&nbsp;</p>'
+    let url = downloadFiles[species][key].startsWith("http")
+      ? downloadFiles[species][key]
+      : (url = `/data/download/${species}_${downloadFiles[species][key]}`);
+
+    if (i == 3) htmlSS += "<p>&nbsp;</p>";
     htmlSS += `<p><a href="${url}"><i>${speciesList[index].value}</i> small-scale ${formats[i]}</a></p>`;
-  }
-  for (let i = 0; i < typesLS.length; i++) {
-    let url = '';
-    if (species == 'Homo_sapiens' && i == 4) {
-      url = 'https://media.githubusercontent.com/media/NetBiol/TFlink/master/site/static/data/download/Homo_sapiens_LS_bindingSites.gz';
-    } else {
-      url = `/data/download/${species + typesLS[i]}`;
+  });
+  lsDownloadFormats.forEach((key, i) => {
+    if (!downloadFiles[species].hasOwnProperty(key)) {
+      htmlLS += "<p>&nbsp;</p>";
+      return;
     }
-    if (i == 3) htmlLS += '<p>&nbsp;</p>'
+
+    let url = downloadFiles[species][key].startsWith("http")
+      ? downloadFiles[species][key]
+      : (url = `/data/download/${species}_${downloadFiles[species][key]}`);
+
+    if (i == 3) htmlLS += "<p>&nbsp;</p>";
     htmlLS += `<p><a href="${url}"><i>${speciesList[index].value}</i> large-scale ${formats[i]}</a></p>`;
-  };
+  });
 
   $("#download_div_ss").html(htmlSS);
   $("#download_div_ls").html(htmlLS);
