@@ -1,7 +1,7 @@
 import cytoscape from 'cytoscape';
 import coseBilkent from 'cytoscape-cose-bilkent';
 
-$(document).ready(function() {
+$(document).ready(function () {
   cytoscape.use(coseBilkent);
   const baseId = 'node0';
 
@@ -11,42 +11,61 @@ $(document).ready(function() {
       .val()
       .split('\n')
       .map(row => row.split(',')[0].trim());
-    const selfRegulating = nodes.every((val, i, arr) => val === arr[0]);
-    cy.add({ group: 'nodes', data: { id: baseId, name: base_protein } });
+    const selfRegulating = nodes.some((val) => val === base_protein);
+    cy.add({
+      group: 'nodes',
+      data: {
+        id: baseId,
+        name: base_protein
+      }
+    });
     let nodeId = 1;
     for (let node of nodes) {
-      if (cy.nodes(`[name = "${node}"]`).length > 1) continue;
-
-      if (selfRegulating) {
+      if (cy.nodes(`[name = "${node}"]`).length) {
         cy.add({
           group: 'edges',
-          data: { source: baseId, target: baseId }
+          data: {
+            source: baseId,
+            target: baseId
+          }
         });
       } else {
-        cy.add({ group: 'nodes', data: { id: `node${nodeId}`, name: node } });
+        cy.add({
+          group: 'nodes',
+          data: {
+            id: `node${nodeId}`,
+            name: node
+          }
+        });
 
-        if (target) {
+        target
+          ?
           cy.add({
             group: 'edges',
-            data: { source: baseId, target: `node${nodeId++}` }
-          });
-        } else {
+            data: {
+              source: baseId,
+              target: `node${nodeId++}`
+            }
+          }) :
           cy.add({
             group: 'edges',
-            data: { source: `node${nodeId++}`, target: baseId }
+            data: {
+              source: `node${nodeId++}`,
+              target: baseId
+            }
           });
-        }
       }
     }
-    cy.layout({ name: 'cose-bilkent' }).run();
+    cy.layout({
+      name: 'cose-bilkent'
+    }).run();
   }
 
-  const cyStyle = [
-    {
+  const cyStyle = [{
       selector: 'node',
       style: {
         height: 40,
-        width: function(ele) {
+        width: function (ele) {
           return ele.data('id').length * 10 + 20;
         },
         label: 'data(name)',
@@ -66,25 +85,27 @@ $(document).ready(function() {
       }
     }
   ];
-  const cyLayout = { name: 'cose-bilkent' };
+  const cyLayout = {
+    name: 'cose-bilkent'
+  };
   const cyWheelSensitivity = 0.5;
 
-  let cyTarget = $('#target-network-div').length
-    ? cytoscape({
-        container: $('#target-network-div'),
-        style: cyStyle,
-        layout: cyLayout,
-        wheelSensitivity: cyWheelSensitivity
-      })
-    : null;
-  let cyTf = $('#tf-network-div').length
-    ? cytoscape({
-        container: $('#tf-network-div'),
-        style: cyStyle,
-        layout: cyLayout,
-        wheelSensitivity: cyWheelSensitivity
-      })
-    : null;
+  let cyTarget = $('#target-network-div').length ?
+    cytoscape({
+      container: $('#target-network-div'),
+      style: cyStyle,
+      layout: cyLayout,
+      wheelSensitivity: cyWheelSensitivity
+    }) :
+    null;
+  let cyTf = $('#tf-network-div').length ?
+    cytoscape({
+      container: $('#tf-network-div'),
+      style: cyStyle,
+      layout: cyLayout,
+      wheelSensitivity: cyWheelSensitivity
+    }) :
+    null;
 
   if (cyTarget) {
     cyTarget
@@ -104,20 +125,21 @@ $(document).ready(function() {
     createNodes(cyTarget, 'target_data', true);
     const targetControlDiv = webix.ui({
       container: 'targetControlDiv',
-      css: { 'background-color': 'transparent !important' },
+      css: {
+        'background-color': 'transparent !important'
+      },
       view: 'form',
       borderless: true,
       paddingY: 5,
       paddingX: 10,
-      cols: [
-        {
+      cols: [{
           view: 'button',
           type: 'icon',
           icon: 'wxi-download',
           width: 35,
           value: 'Download image',
           tooltip: true,
-          click: function() {
+          click: function () {
             webix.html.download(
               cyTarget.png(),
               'TFLink_' + $('#uniprot-ac').text() + '.png'
@@ -131,7 +153,7 @@ $(document).ready(function() {
           width: 35,
           value: 'Fit network',
           tooltip: true,
-          click: function() {
+          click: function () {
             cyTarget.fit();
           }
         },
@@ -142,7 +164,7 @@ $(document).ready(function() {
           width: 35,
           value: 'Zoom +',
           tooltip: true,
-          click: function() {
+          click: function () {
             cyTarget.zoom(cyTarget.zoom() + 0.5);
           }
         },
@@ -153,7 +175,7 @@ $(document).ready(function() {
           width: 35,
           value: 'Zoom -',
           tooltip: true,
-          click: function() {
+          click: function () {
             cyTarget.zoom(cyTarget.zoom() - 0.5);
           }
         }
@@ -178,20 +200,21 @@ $(document).ready(function() {
     createNodes(cyTf, 'tf_data');
     const tfControlDiv = webix.ui({
       container: 'tfControlDiv',
-      css: { 'background-color': 'transparent !important' },
+      css: {
+        'background-color': 'transparent !important'
+      },
       view: 'form',
       borderless: true,
       paddingY: 5,
       paddingX: 10,
-      cols: [
-        {
+      cols: [{
           view: 'button',
           type: 'icon',
           icon: 'wxi-download',
           width: 35,
           value: 'Download image',
           tooltip: true,
-          click: function() {
+          click: function () {
             webix.html.download(
               cyTf.png(),
               'TFLink_' + $('#uniprot-ac').text() + '.png'
@@ -205,7 +228,7 @@ $(document).ready(function() {
           width: 35,
           value: 'Fit network',
           tooltip: true,
-          click: function() {
+          click: function () {
             cyTf.fit();
           }
         },
@@ -216,7 +239,7 @@ $(document).ready(function() {
           width: 35,
           value: 'Zoom +',
           tooltip: true,
-          click: function() {
+          click: function () {
             cyTf.zoom(cyTf.zoom() + 0.5);
           }
         },
@@ -227,7 +250,7 @@ $(document).ready(function() {
           width: 35,
           value: 'Zoom -',
           tooltip: true,
-          click: function() {
+          click: function () {
             cyTf.zoom(cyTf.zoom() - 0.5);
           }
         }
