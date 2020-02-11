@@ -1,7 +1,7 @@
 import cytoscape from 'cytoscape';
 import coseBilkent from 'cytoscape-cose-bilkent';
 
-$(document).ready(function () {
+$(document).ready(function() {
   cytoscape.use(coseBilkent);
   const baseId = 'node0';
 
@@ -11,7 +11,7 @@ $(document).ready(function () {
       .val()
       .split('\n')
       .map(row => row.split(',')[0].trim());
-    const selfRegulating = nodes.some((val) => val === base_protein);
+    const uniqueNodes = [...new Set(nodes)];
     cy.add({
       group: 'nodes',
       data: {
@@ -20,7 +20,7 @@ $(document).ready(function () {
       }
     });
     let nodeId = 1;
-    for (let node of nodes) {
+    for (let node of uniqueNodes) {
       if (cy.nodes(`[name = "${node}"]`).length) {
         cy.add({
           group: 'edges',
@@ -39,21 +39,20 @@ $(document).ready(function () {
         });
 
         target
-          ?
-          cy.add({
-            group: 'edges',
-            data: {
-              source: baseId,
-              target: `node${nodeId++}`
-            }
-          }) :
-          cy.add({
-            group: 'edges',
-            data: {
-              source: `node${nodeId++}`,
-              target: baseId
-            }
-          });
+          ? cy.add({
+              group: 'edges',
+              data: {
+                source: baseId,
+                target: `node${nodeId++}`
+              }
+            })
+          : cy.add({
+              group: 'edges',
+              data: {
+                source: `node${nodeId++}`,
+                target: baseId
+              }
+            });
       }
     }
     cy.layout({
@@ -61,11 +60,12 @@ $(document).ready(function () {
     }).run();
   }
 
-  const cyStyle = [{
+  const cyStyle = [
+    {
       selector: 'node',
       style: {
         height: 40,
-        width: function (ele) {
+        width: function(ele) {
           return ele.data('id').length * 10 + 20;
         },
         label: 'data(name)',
@@ -90,22 +90,22 @@ $(document).ready(function () {
   };
   const cyWheelSensitivity = 0.5;
 
-  let cyTarget = $('#target-network-div').length ?
-    cytoscape({
-      container: $('#target-network-div'),
-      style: cyStyle,
-      layout: cyLayout,
-      wheelSensitivity: cyWheelSensitivity
-    }) :
-    null;
-  let cyTf = $('#tf-network-div').length ?
-    cytoscape({
-      container: $('#tf-network-div'),
-      style: cyStyle,
-      layout: cyLayout,
-      wheelSensitivity: cyWheelSensitivity
-    }) :
-    null;
+  let cyTarget = $('#target-network-div').length
+    ? cytoscape({
+        container: $('#target-network-div'),
+        style: cyStyle,
+        layout: cyLayout,
+        wheelSensitivity: cyWheelSensitivity
+      })
+    : null;
+  let cyTf = $('#tf-network-div').length
+    ? cytoscape({
+        container: $('#tf-network-div'),
+        style: cyStyle,
+        layout: cyLayout,
+        wheelSensitivity: cyWheelSensitivity
+      })
+    : null;
 
   if (cyTarget) {
     cyTarget
@@ -132,14 +132,15 @@ $(document).ready(function () {
       borderless: true,
       paddingY: 5,
       paddingX: 10,
-      cols: [{
+      cols: [
+        {
           view: 'button',
           type: 'icon',
           icon: 'wxi-download',
           width: 35,
           value: 'Download image',
           tooltip: true,
-          click: function () {
+          click: function() {
             webix.html.download(
               cyTarget.png(),
               'TFLink_' + $('#uniprot-ac').text() + '.png'
@@ -153,7 +154,7 @@ $(document).ready(function () {
           width: 35,
           value: 'Fit network',
           tooltip: true,
-          click: function () {
+          click: function() {
             cyTarget.fit();
           }
         },
@@ -164,7 +165,7 @@ $(document).ready(function () {
           width: 35,
           value: 'Zoom +',
           tooltip: true,
-          click: function () {
+          click: function() {
             cyTarget.zoom(cyTarget.zoom() + 0.5);
           }
         },
@@ -175,7 +176,7 @@ $(document).ready(function () {
           width: 35,
           value: 'Zoom -',
           tooltip: true,
-          click: function () {
+          click: function() {
             cyTarget.zoom(cyTarget.zoom() - 0.5);
           }
         }
@@ -207,14 +208,15 @@ $(document).ready(function () {
       borderless: true,
       paddingY: 5,
       paddingX: 10,
-      cols: [{
+      cols: [
+        {
           view: 'button',
           type: 'icon',
           icon: 'wxi-download',
           width: 35,
           value: 'Download image',
           tooltip: true,
-          click: function () {
+          click: function() {
             webix.html.download(
               cyTf.png(),
               'TFLink_' + $('#uniprot-ac').text() + '.png'
@@ -228,7 +230,7 @@ $(document).ready(function () {
           width: 35,
           value: 'Fit network',
           tooltip: true,
-          click: function () {
+          click: function() {
             cyTf.fit();
           }
         },
@@ -239,7 +241,7 @@ $(document).ready(function () {
           width: 35,
           value: 'Zoom +',
           tooltip: true,
-          click: function () {
+          click: function() {
             cyTf.zoom(cyTf.zoom() + 0.5);
           }
         },
@@ -250,7 +252,7 @@ $(document).ready(function () {
           width: 35,
           value: 'Zoom -',
           tooltip: true,
-          click: function () {
+          click: function() {
             cyTf.zoom(cyTf.zoom() - 0.5);
           }
         }
