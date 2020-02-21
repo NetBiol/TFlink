@@ -1,53 +1,55 @@
 {{ define "main" }}
 
-<div id="species_select_div"></div>
-<p></p>
-<div class="uk-grid" data-uk-grid-margin>
-  <div id="download_div_ss" class="uk-width-1-3@s"></div>
-  <div id="download_div_ls" class="uk-width-1-3@s"></div>
-</div>
+<section class="uk-container uk-container-small">
+  <span class="title"><h1>Download</h1></span>
+  <hr />
+  <div id="species_select_div"></div>
+  <p></p>
+  <div class="uk-grid" data-uk-grid-margin>
+    <div id="download_div_ss" class="uk-width-1-3@s"></div>
+    <div id="download_div_ls" class="uk-width-1-3@s"></div>
+  </div>
 
-<p>&nbsp;</p>
+  <p>&nbsp;</p>
 
-<section>
-  <div class="uk-container uk-container-small uk-align-left">
+  <div>
     <h3>Description</h3>
     <ul>
       <li>
-        <strong>Interaction tables</strong> are comma separated tables <i>(csv)</i> of transcription factor - target
-        gene interactions that
-        contain either interactions validated by small-scale experiments (small-scale interaction table) or large-scale
-        experiments (large-scale interaction table), along with the following data: <i>Uniprot IDs</i>, protein names,
-        <i>NCBI
-          Gene IDs</i> of the transcription factors and the target genes; the names of the detection methods; the
-        <i>Pubmed
-          IDs</i>
-        of the original publications; the name of the organism and the source database.
+        <strong>Interaction tables</strong> are comma separated tables
+        <i>(csv)</i> of transcription factor - target gene interactions that
+        contain either interactions validated by small-scale experiments
+        (small-scale interaction table) or large-scale experiments (large-scale
+        interaction table), along with the following data: <i>Uniprot IDs</i>,
+        protein names, <i>NCBI Gene IDs</i> of the transcription factors and the
+        target genes; the names of the detection methods; the
+        <i>Pubmed IDs</i>
+        of the original publications; the name of the organism and the source
+        database.
       </li>
       <li>
-        <strong>Interaction MITABs</strong> contain transcription factor - target gene interactions in <i>HUPO-PSI MITAB
-          2.8</i> format. Format
-        description and a header for <i>MITAB</i> tables can be found in the <i>FAQ</i>.
-
+        <strong>Interaction MITABs</strong> contain transcription factor -
+        target gene interactions in <i>HUPO-PSI MITAB 2.8</i> format. Format
+        description and a header for <i>MITAB</i> tables can be found in the
+        <i>FAQ</i>.
       </li>
       <li>
-        <strong>Binding site tables</strong> are comma separated tables <i>(csv)</i> of binding site annotations that
-        contain
-        the unique internal <i>TFLink IDs</i> of binding sites; <i>Uniprot IDs</i> and protein names of the
-        transcription factors; the
-        names of the detection method; <i>Pubmed IDs</i> of the original publications; the organism and the source
-        database;
-        the version of the genome assembly; the name of the chromosome; the start and end coordinates of site; and the
-        strand.
-
+        <strong>Binding site tables</strong> are comma separated tables
+        <i>(csv)</i> of binding site annotations that contain the unique
+        internal <i>TFLink IDs</i> of binding sites; <i>Uniprot IDs</i> and
+        protein names of the transcription factors; the names of the detection
+        method; <i>Pubmed IDs</i> of the original publications; the organism and
+        the source database; the version of the genome assembly; the name of the
+        chromosome; the start and end coordinates of site; and the strand.
       </li>
       <li>
-        <strong>Binding site sequence files</strong> are <i>fasta</i> files containing the DNA sequences of the
-        transcription factor binding sites. The header of each sequence contains the unique internal <i>TFLink ID</i> of
-        the
-        binding site; the <i>Uniprot ID</i> and protein name of the transcription factor, the version of the genome
-        assembly;
-        the name of the chromosome; and the the start and end coordinates of site.
+        <strong>Binding site sequence files</strong> are <i>fasta</i> files
+        containing the DNA sequences of the transcription factor binding sites.
+        The header of each sequence contains the unique internal
+        <i>TFLink ID</i> of the binding site; the <i>Uniprot ID</i> and protein
+        name of the transcription factor, the version of the genome assembly;
+        the name of the chromosome; and the the start and end coordinates of
+        site.
       </li>
     </ul>
   </div>
@@ -57,8 +59,6 @@
   $('#nav_download').addClass('navbar-active');
 </script>
 
-{{ $script := .Site.Data.webpack.download }}
-{{ with $script.js }}
+{{ $script := .Site.Data.webpack.download }} {{ with $script.js }}
 <script src="{{ relURL . }}"></script>
-{{ end }}
-{{ end }}
+{{ end }} {{ end }}
