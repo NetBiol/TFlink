@@ -16,6 +16,7 @@ $(document).ready(function() {
                     content: 'textFilter'
                   }
                 ],
+                template: "<a href='/protein/#data1#/'>#data0#</a>",
                 adjust: true
               },
               {
@@ -108,6 +109,7 @@ $(document).ready(function() {
                     content: 'textFilter'
                   }
                 ],
+                template: "<a href='/protein/#data1#/'>#data0#</a>",
                 adjust: true
               },
               {
