@@ -16,7 +16,11 @@ $(document).ready(function() {
                     content: 'textFilter'
                   }
                 ],
-                template: "<a href='/protein/#data1#/'>#data0#</a>",
+                template: function(obj) {
+                  return `<a href='/protein/${obj.data1.toLowerCase()}/'>${
+                    obj.data0
+                  }</a>`;
+                },
                 adjust: true
               },
               {
