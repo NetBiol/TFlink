@@ -1,1 +1,2 @@
-import "./css/main.scss";
+import UIkit from 'uikit';
+import './css/main.scss';

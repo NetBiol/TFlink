@@ -1,122 +1,122 @@
-var data_url_prefix = "";
+var data_url_prefix = '';
 
-webix.ready(function() {
+webix.ready(function () {
   var dtable = new webix.ui({
-    container: "browsetable",
-    id: "dtable",
-    view: "datatable",
-    css: "",
+    container: 'browsetable',
+    id: 'dtable',
+    view: 'datatable',
+    css: '',
     hidden: true,
     columns: [
       {
-        id: "protein_name",
-        map: "#data0#",
+        id: 'protein_name',
+        map: '#data0#',
         header: [
-          "Protein name",
+          'Protein name',
           {
-            content: "textFilter"
-          }
+            content: 'textFilter',
+          },
         ],
-        width: 200
+        width: 200,
       },
       {
-        id: "uniprot_id",
-        map: "#data1#",
+        id: 'uniprot_id',
+        map: '#data1#',
         header: [
-          "Uniprot ID",
+          'Uniprot ID',
           {
-            content: "textFilter"
-          }
+            content: 'textFilter',
+          },
         ],
-        width: 150
+        width: 150,
       },
       {
-        id: "ncbi_gene_id",
-        map: "#data2#",
+        id: 'ncbi_gene_id',
+        map: '#data2#',
         header: [
-          "NCBI Gene ID",
+          'NCBI Gene ID',
           {
-            content: "textFilter"
-          }
+            content: 'textFilter',
+          },
         ],
-        width: 300
+        width: 300,
       },
       {
-        id: "function",
-        map: "#data3#",
+        id: 'function',
+        map: '#data3#',
         header: [
-          "Function",
+          'Function',
           {
-            content: "selectFilter"
-          }
+            content: 'selectFilter',
+          },
         ],
-        width: 250
-      }
+        width: 250,
+      },
     ],
     resizeColumn: true,
-    datatype: "csv",
+    datatype: 'csv',
     autoheight: true,
     autowidth: true,
     pager: {
-      css: "",
+      css: '',
       template:
-        "{common.first()} {common.prev()} {common.pages()} {common.next()} {common.last()}",
-      container: "paging_here",
+        '{common.first()} {common.prev()} {common.pages()} {common.next()} {common.last()}',
+      container: 'paging_here',
       size: 25,
-      group: 5
+      group: 5,
     },
-    hover: "browse_row_hover",
+    hover: 'browse_row_hover',
     on: {
-      onItemClick: function(id, e, trg) {
+      onItemClick: function (id, e, trg) {
         window.open(
           data_url_prefix +
-            "protein/" +
+            'protein/' +
             dtable.getItem(id.row).uniprot_id.toLowerCase() +
-            "/"
+            '/'
         );
-      }
-    }
+      },
+    },
   });
-  webix.extend($$("dtable"), webix.ProgressBar);
+  webix.extend($$('dtable'), webix.ProgressBar);
   var species_select = [
     {
-      view: "label",
-      label: "Select a species:"
+      view: 'label',
+      label: 'Select a species:',
     },
     {
-      view: "select",
-      css: "browse-select",
-      name: "species",
-      options: data_url_prefix + "data/spec_list.json"
-    }
+      view: 'select',
+      css: 'browse-select',
+      name: 'species',
+      options: data_url_prefix + 'data/spec_list.json',
+    },
   ];
   var species_select_form = new webix.ui({
-    css: "",
-    container: "species_select_div",
-    id: "species_select_form",
-    view: "form",
+    css: '',
+    container: 'species_select_div',
+    id: 'species_select_form',
+    view: 'form',
     scroll: false,
     width: 300,
-    elements: species_select
+    elements: species_select,
   });
-  $$("species_select_form").elements["species"].attachEvent(
-    "onChange",
-    function(newv, oldv) {
-      $$("dtable").showProgress({
-        type: "bottom",
+  $$('species_select_form').elements['species'].attachEvent(
+    'onChange',
+    function (newv, oldv) {
+      $$('dtable').showProgress({
+        type: 'bottom',
         delay: 3000,
-        hide: true
+        hide: true,
       });
       dtable.clearAll();
       dtable.load(
         data_url_prefix +
-          "data/browse_tables/browse_table_v03_" +
+          'data/browse_tables/browse_table_v03_' +
           newv +
-          ".csv",
-        "csv"
+          '.csv',
+        'csv'
       );
-      $$("dtable").show();
-      $$("dtable").refresh();
+      $$('dtable').show();
+      $$('dtable').refresh();
     }
   );
 });
