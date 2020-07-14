@@ -1,4 +1,4 @@
-$(document).ready(function() {
+$(document).ready(function () {
   var targetTable = $('#target_data').val()
     ? webix.ui({
         container: 'target_div',
@@ -13,70 +13,70 @@ $(document).ready(function() {
                 header: [
                   'Protein name',
                   {
-                    content: 'textFilter'
-                  }
+                    content: 'textFilter',
+                  },
                 ],
-                template: function(obj) {
+                template: function (obj) {
                   return `<a href='/protein/${obj.data1.toLowerCase()}/'>${
                     obj.data0
                   }</a>`;
                 },
-                adjust: true
+                adjust: true,
               },
               {
                 id: 'data1',
                 header: [
                   'Uniprot ID',
                   {
-                    content: 'textFilter'
-                  }
+                    content: 'textFilter',
+                  },
                 ],
                 template:
                   "<a href='https://www.uniprot.org/uniprot/#data1#' target='_blank'>#data1#</a>",
-                adjust: true
+                adjust: true,
               },
               {
                 id: 'data2',
                 header: [
                   'NCBI Gene ID',
                   {
-                    content: 'textFilter'
-                  }
+                    content: 'textFilter',
+                  },
                 ],
                 template:
                   "<a href='https://www.ncbi.nlm.nih.gov/gene/?term=#data2#' target='_blank'>#data2#</a>",
-                adjust: true
+                adjust: true,
               },
               {
                 id: 'data3',
                 header: [
                   'Source database',
                   {
-                    content: 'textFilter'
-                  }
+                    content: 'textFilter',
+                  },
                 ],
-                adjust: true
+                adjust: true,
               },
               {
                 id: 'data4',
                 header: [
                   'Detection method',
                   {
-                    content: 'textFilter'
-                  }
+                    content: 'textFilter',
+                  },
                 ],
-                fillspace: true
+                fillspace: true,
               },
               {
                 id: 'data5',
                 header: [
                   'Publication',
                   {
-                    content: 'textFilter'
-                  }
+                    content: 'textFilter',
+                  },
                 ],
-                adjust: true
-              }
+                adjust: true,
+              },
             ],
             autoheight: true,
             scroll: false,
@@ -88,10 +88,10 @@ $(document).ready(function() {
                 '{common.first()} {common.prev()} {common.pages()} {common.next()} {common.last()}',
               container: 'target_paging',
               size: 10,
-              group: 5
-            }
-          }
-        ]
+              group: 5,
+            },
+          },
+        ],
       })
     : undefined;
 
@@ -110,70 +110,70 @@ $(document).ready(function() {
                 header: [
                   'Protein name',
                   {
-                    content: 'textFilter'
-                  }
+                    content: 'textFilter',
+                  },
                 ],
-                template: function(obj) {
+                template: function (obj) {
                   return `<a href='/protein/${obj.data1.toLowerCase()}/'>${
                     obj.data0
                   }</a>`;
                 },
-                adjust: true
+                adjust: true,
               },
               {
                 id: 'data1',
                 header: [
                   'Uniprot ID',
                   {
-                    content: 'textFilter'
-                  }
+                    content: 'textFilter',
+                  },
                 ],
                 template:
                   "<a href='https://www.uniprot.org/uniprot/#data1#' target='_blank'>#data1#</a>",
-                adjust: true
+                adjust: true,
               },
               {
                 id: 'data2',
                 header: [
                   'NCBI Gene ID',
                   {
-                    content: 'textFilter'
-                  }
+                    content: 'textFilter',
+                  },
                 ],
                 template:
                   "<a href='https://www.ncbi.nlm.nih.gov/gene/?term=#data2#' target='_blank'>#data2#</a>",
-                adjust: true
+                adjust: true,
               },
               {
                 id: 'data3',
                 header: [
                   'Source database',
                   {
-                    content: 'textFilter'
-                  }
+                    content: 'textFilter',
+                  },
                 ],
-                adjust: true
+                adjust: true,
               },
               {
                 id: 'data4',
                 header: [
                   'Detection method',
                   {
-                    content: 'textFilter'
-                  }
+                    content: 'textFilter',
+                  },
                 ],
-                fillspace: true
+                fillspace: true,
               },
               {
                 id: 'data5',
                 header: [
                   'Publication',
                   {
-                    content: 'textFilter'
-                  }
+                    content: 'textFilter',
+                  },
                 ],
-                adjust: true
-              }
+                adjust: true,
+              },
             ],
             autoheight: true,
             scroll: false,
@@ -185,10 +185,10 @@ $(document).ready(function() {
                 '{common.first()} {common.prev()} {common.pages()} {common.next()} {common.last()}',
               container: 'tf_paging',
               size: 10,
-              group: 5
-            }
-          }
-        ]
+              group: 5,
+            },
+          },
+        ],
       })
     : undefined;
 
@@ -207,82 +207,82 @@ $(document).ready(function() {
                 header: [
                   'TFLink ID',
                   {
-                    content: 'textFilter'
-                  }
+                    content: 'textFilter',
+                  },
                 ],
                 css: 'rank',
-                adjust: true
+                adjust: true,
               },
               {
                 id: 'data1',
                 header: [
                   'Detection method',
                   {
-                    content: 'textFilter'
-                  }
+                    content: 'textFilter',
+                  },
                 ],
-                adjust: true
+                adjust: true,
               },
               {
                 id: 'data2',
                 header: [
                   'Publication ',
                   {
-                    content: 'textFilter'
-                  }
+                    content: 'textFilter',
+                  },
                 ],
-                adjust: true
+                adjust: true,
               },
               {
                 id: 'data3',
                 header: [
                   'Source database',
                   {
-                    content: 'textFilter'
-                  }
+                    content: 'textFilter',
+                  },
                 ],
-                adjust: true
+                adjust: true,
               },
               {
                 id: 'data4',
                 header: [
                   'Assembly',
                   {
-                    content: 'textFilter'
-                  }
+                    content: 'textFilter',
+                  },
                 ],
-                adjust: true
+                adjust: true,
               },
               {
                 id: 'data5',
                 header: [
                   'Chromosome',
                   {
-                    content: 'textFilter'
-                  }
+                    content: 'textFilter',
+                  },
                 ],
-                adjust: true
+                adjust: true,
               },
               {
                 id: 'data6',
                 header: [
                   'Start',
                   {
-                    content: 'textFilter'
-                  }
+                    content: 'textFilter',
+                  },
                 ],
-                adjust: true
+                adjust: true,
               },
               {
                 id: 'data7',
                 header: [
                   'End',
                   {
-                    content: 'textFilter'
-                  }
+                    content: 'textFilter',
+                  },
                 ],
-                adjust: true
-              }
+                adjust: true,
+              },
             ],
             autoheight: true,
             autowidth: true,
@@ -294,19 +294,37 @@ $(document).ready(function() {
                 '{common.first()} {common.prev()} {common.pages()} {common.next()} {common.last()}',
               container: 'binding_sites_paging',
               size: 10,
-              group: 5
-            }
-          }
-        ]
+              group: 5,
+            },
+          },
+        ],
       })
     : undefined;
 
   if ($('#ortholog_data').val()) {
     const orthologs = $.parseJSON($('#ortholog_data').val());
-    $.each(orthologs, function(i, item) {
+    $.each(orthologs, function (i, item) {
       $('#ulOrtholog').append(
         `<li>${item.species}: ${item.id.join(', ')}</li>`
       );
     });
   }
+
+  let speciesList = [];
+  $.ajax({
+    url: '/data/spec_list.json',
+    dataType: 'json',
+    success: function (json) {
+      speciesList = json;
+    },
+    async: false,
+  });
+
+  const organism = $('#organism').text();
+  const index = speciesList.findIndex(function (item, i) {
+    return item.value === organism;
+  });
+  const species = speciesList[index].id;
+  let siluette = `<img src="/images/siluettes/${species}.svg" />`;
+  $('#species_siluette').html(siluette);
 });
