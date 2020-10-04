@@ -110,9 +110,9 @@ webix.ready(function () {
       dtable.clearAll();
       dtable.load(
         data_url_prefix +
-          'data/browse_tables/browse_table_v03_' +
+          'data/browse_tables/' +
           newv +
-          '.csv',
+          '_LT_browse_update.csv',
         'csv'
       );
       $$('dtable').show();
