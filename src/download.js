@@ -35,7 +35,7 @@ $(document).ready(function () {
   var species_select = [
     {
       view: 'label',
-      label: 'Select a species:',
+      label: 'Select an organism:',
     },
     {
       view: 'select',
