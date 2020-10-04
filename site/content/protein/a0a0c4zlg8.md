@@ -8,22 +8,22 @@ ncbi_gene_id: '-'
 organism: Homo sapiens
 function: target gene
 orthologs: ''
-tfs: 'ETS1,P14921,2113,TRRUST,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=1535773%5Buid%5D+OR+2237431%5Buid%5D+OR+29087512%5Buid%5D"
+tfs: 'SP2,Q02086,6668,TRRUST,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29087512%5Buid%5D+OR+1341900%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>
 
-  GATA3,P23771,2625,TRRUST,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=11385613%5Buid%5D+OR+29087512%5Buid%5D"
+  GATA3,P23771,2625,TRRUST,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29087512%5Buid%5D+OR+11385613%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>
 
-  POU2F1,P14859,5451,TRRUST,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=11385613%5Buid%5D+OR+29087512%5Buid%5D"
+  SP3,Q02447,6670,TRRUST,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29087512%5Buid%5D+OR+1341900%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>
 
-  POU2F2,P09086,5452,TRRUST,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=11385613%5Buid%5D+OR+29087512%5Buid%5D"
+  POU2F2,P09086,5452,TRRUST,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29087512%5Buid%5D+OR+11385613%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>
 
-  SP2,Q02086,6668,TRRUST,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=1341900%5Buid%5D+OR+29087512%5Buid%5D"
+  ETS1,P14921,2113,TRRUST,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=2237431%5Buid%5D+OR+1535773%5Buid%5D+OR+29087512%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>
 
-  SP3,Q02447,6670,TRRUST,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=1341900%5Buid%5D+OR+29087512%5Buid%5D"
+  POU2F1,P14859,5451,TRRUST,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29087512%5Buid%5D+OR+11385613%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>'
 targets: ''
 binding_sites: ''

@@ -9,13 +9,13 @@ organism: Mus musculus
 function: transcription factor
 orthologs: ''
 tfs: ''
-targets: 'Myf5,P24699,17877,TRRUST,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=21525034%5Buid%5D+OR+29087512%5Buid%5D"
+targets: 'Myf5,P24699,17877,TRRUST,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29087512%5Buid%5D+OR+21525034%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>
 
-  Myod1,P10085,17927,TRRUST,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=21525034%5Buid%5D+OR+29087512%5Buid%5D"
+  Myod1,P10085,17927,TRRUST,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29087512%5Buid%5D+OR+21525034%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>
 
-  Pax3,P24610,18505,TRRUST,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=21525034%5Buid%5D+OR+29087512%5Buid%5D"
+  Pax3,P24610,18505,TRRUST,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29087512%5Buid%5D+OR+21525034%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>'
 binding_sites: ''
 

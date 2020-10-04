@@ -9,16 +9,16 @@ organism: Drosophila melanogaster
 function: transcription factor
 orthologs: ''
 tfs: ''
-targets: 'en,P02836,36240,REDfly,electrophoretic mobility shift assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=16155187%5Buid%5D+OR+20965965%5Buid%5D"
+targets: 'Ubx,P83949,42034,REDfly,electrophoretic mobility shift assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=16155187%5Buid%5D+OR+20965965%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>
 
-  Ubx,P83949,42034,REDfly,electrophoretic mobility shift assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=16155187%5Buid%5D+OR+20965965%5Buid%5D"
+  en,P02836,36240,REDfly,electrophoretic mobility shift assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=16155187%5Buid%5D+OR+20965965%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>'
-binding_sites: 'TFLinkLT0009337,electrophoretic mobility shift assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=16155187%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,REDfly,dm6,2R,11528354,11528359,-
+binding_sites: 'TFLinkLT09283156,electrophoretic mobility shift assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=16155187;20965965%5Buid%5D"
+  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,REDfly,dm6,2R,11528354,11528359,NA
 
-  TFLinkLT0009338,electrophoretic mobility shift assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=16155187%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,REDfly,dm6,3R,16764327,16764332,-'
+  TFLinkLT09283158,electrophoretic mobility shift assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=16155187;20965965%5Buid%5D"
+  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,REDfly,dm6,3R,16764327,16764332,NA'
 
 ---
-\>TFLinkLT0009337;Q9VCB2;Spps;dm6;2R:11528354.0-11528359.0\GGGGCG\\>TFLinkLT0009338;Q9VCB2;Spps;dm6;3R:16764327.0-16764332.0\GGGGCG\
+\>TFLinkLT09283156;Q9VCB2;Spps;dm6;2R:11528354-11528359\GGGGCG\\>TFLinkLT09283158;Q9VCB2;Spps;dm6;3R:16764327-16764332\GGGGCG\

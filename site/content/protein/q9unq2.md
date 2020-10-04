@@ -7,9 +7,17 @@ uniprot_accession: Q9UNQ2
 ncbi_gene_id: '27292'
 organism: Homo sapiens
 function: target gene
-orthologs: '[{"species": "Drosophila melanogaster", "id": ["Q9VAQ5"]}, {"species": "Caenorhabditis elegans", "id": ["Q09522"]}, {"species": "Mus musculus", "id": ["Q9D0D4"]}, {"species": "Rattus norvegicus", "id": ["G3V7R8"]}, {"species": "Saccharomyces cerevisiae", "id": ["<a href=\"/protein/p41819\">P41819</a>"]}]'
+orthologs: '[{"species": "Drosophila melanogaster", "id": ["Q9VAQ5"]}, {"species": "Caenorhabditis elegans", "id": ["Q09522"]}, {"species": "Mus musculus", "id": ["Q9D0D4"]}, {"species": "Rattus norvegicus", "id": ["G3V7R8"]}, {"species": "Saccharomyces cerevisiae", "id": ["P41819"]}]'
 tfs: 'STAT1,P42224,6772,GTRD; ORegAnno; ReMap,chromatin immunoprecipitation assay;
-  inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=22951020%5Buid%5D+OR+27924024%5Buid%5D+OR+26578589%5Buid%5D+OR+29126285%5Buid%5D"
+  inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=22951020%5Buid%5D+OR+29126285%5Buid%5D+OR+27924024%5Buid%5D+OR+26578589%5Buid%5D"
+  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>
+
+  ETS1,P14921,2113,GTRD; HTRI; ORegAnno; PAZAR; ReMap,chromatin immunoprecipitation
+  assay; inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D+OR+26578589%5Buid%5D+OR+20019798%5Buid%5D+OR+27924024%5Buid%5D+OR+18971253%5Buid%5D+OR+22900683%5Buid%5D"
+  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>
+
+  E2F4,Q16254,1874,GTRD; HTRI; ORegAnno; PAZAR; ReMap,chromatin immunoprecipitation
+  array; chromatin immunoprecipitation assay; inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D+OR+26578589%5Buid%5D+OR+18971253%5Buid%5D+OR+27924024%5Buid%5D+OR+17531812%5Buid%5D+OR+22900683%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>'
 targets: ''
 binding_sites: ''

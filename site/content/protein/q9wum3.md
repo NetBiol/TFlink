@@ -8,8 +8,8 @@ ncbi_gene_id: '23789'
 organism: Mus musculus
 function: target gene
 orthologs: '[{"species": "Drosophila melanogaster", "id": ["A0A0B4KEU5"]}, {"species": "Caenorhabditis elegans", "id": ["Q21624"]}, {"species": "Homo sapiens", "id": ["Q9BR76"]}, {"species": "Rattus norvegicus", "id": ["G3V940"]}]'
-tfs: 'Wt1,P22561,-,GTRD; TRRUST,chromatin immunoprecipitation assay; inferred by curator,&ensp;<a
-  href="https://www.ncbi.nlm.nih.gov/pubmed/?term=23562652%5Buid%5D+OR+27924024%5Buid%5D+OR+29087512%5Buid%5D"
+tfs: 'Wt1,P22561,,GTRD; TRRUST,chromatin immunoprecipitation assay; inferred by curator,&ensp;<a
+  href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29087512%5Buid%5D+OR+27924024%5Buid%5D+OR+23562652%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>'
 targets: ''
 binding_sites: ''

@@ -8,7 +8,8 @@ ncbi_gene_id: '13863'
 organism: Mus musculus
 function: target gene
 orthologs: '[{"species": "Rattus norvegicus", "id": ["P06911"]}]'
-tfs: 'Foxa2,P35583,15376,TRRUST,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=16467259%5Buid%5D+OR+17589789%5Buid%5D+OR+16414179%5Buid%5D+OR+29087512%5Buid%5D"
+tfs: 'Foxa2,P35583,15376,GTRD; TRRUST,chromatin immunoprecipitation assay; inferred
+  by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=17589789%5Buid%5D+OR+16414179%5Buid%5D+OR+27924024%5Buid%5D+OR+16467259%5Buid%5D+OR+29087512%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>'
 targets: ''
 binding_sites: ''

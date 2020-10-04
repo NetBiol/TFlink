@@ -9,10 +9,11 @@ organism: Drosophila melanogaster
 function: transcription factor
 orthologs: ''
 tfs: ''
-targets: 'ng1,P23938,31300,REDfly,one hybrid,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=22037703%5Buid%5D+OR+20965965%5Buid%5D"
+targets: 'ATPsynbeta,Q05825,43829,REDfly,electrophoretic mobility shift assay,&ensp;<a
+  href="https://www.ncbi.nlm.nih.gov/pubmed/?term=20965965%5Buid%5D+OR+16120280%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>'
-binding_sites: 'TFLinkLT0009237,one hybrid,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=22037703%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,REDfly,dm6,X,3242656,3242737,-'
+binding_sites: 'TFLinkLT09283142,electrophoretic mobility shift assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=16120280;20965965%5Buid%5D"
+  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,REDfly,dm6,4,1031693,1031701,NA'
 
 ---
-\>TFLinkLT0009237;Q9VQS7;sob;dm6;X:3242656.0-3242737.0\CTCAAAAAAGAAGACTGTCACTCACTATAAGCGAAAGGTCAAGAGGCCAAAGAAGGTCAGGAAAATCACAAGGAGAAGGG\GT\
+\>TFLinkLT09283142;Q9VQS7;sob;dm6;4:1031693-1031701\GTATATATA\

@@ -8,9 +8,25 @@ ncbi_gene_id: '9337'
 organism: Homo sapiens
 function: transcription factor and target gene
 orthologs: '[{"species": "Drosophila melanogaster", "id": ["Q8I0I5"]}, {"species": "Caenorhabditis elegans", "id": ["Q17345"]}, {"species": "Mus musculus", "id": ["Q9D8X5"]}, {"species": "Rattus norvegicus", "id": ["Q5U2U9"]}]'
-tfs: 'FOXO1,Q12778,2308,TFactS_via_DoRothea,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=12351634%5Buid%5D+OR+22761861%5Buid%5D+OR+31340985%5Buid%5D"
+tfs: 'FOXO1,Q12778,2308,GTRD; TFactS_via_DoRothea,chromatin immunoprecipitation assay;
+  inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=22761861%5Buid%5D+OR+27924024%5Buid%5D+OR+12351634%5Buid%5D"
+  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>
+
+  FOXA1,P55317,3169,GTRD; HTRI; ORegAnno; PAZAR; ReMap,chromatin immunoprecipitation
+  assay; inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D+OR+21878914%5Buid%5D+OR+26578589%5Buid%5D+OR+18971253%5Buid%5D+OR+27924024%5Buid%5D+OR+22900683%5Buid%5D"
+  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>
+
+  ETS1,P14921,2113,GTRD; HTRI; ORegAnno; PAZAR; ReMap,chromatin immunoprecipitation
+  assay; inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D+OR+26578589%5Buid%5D+OR+20019798%5Buid%5D+OR+27924024%5Buid%5D+OR+18971253%5Buid%5D+OR+22900683%5Buid%5D"
+  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>
+
+  E2F4,Q16254,1874,GTRD; HTRI; ORegAnno; PAZAR; ReMap,chromatin immunoprecipitation
+  array; chromatin immunoprecipitation assay; inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D+OR+26578589%5Buid%5D+OR+18971253%5Buid%5D+OR+27924024%5Buid%5D+OR+17531812%5Buid%5D+OR+22900683%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>'
-targets: 'MSMB,P08118,4477,TRRUST,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=15937477%5Buid%5D+OR+29087512%5Buid%5D"
+targets: 'PXMP2,Q9NR77,5827,TRRUST,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=15937477%5Buid%5D+OR+29087512%5Buid%5D"
+  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>
+
+  MSMB,P08118,4477,TRRUST,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=15937477%5Buid%5D+OR+29087512%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>
 
   PMP22,Q01453,5376,TRRUST,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=15937477%5Buid%5D+OR+29087512%5Buid%5D"

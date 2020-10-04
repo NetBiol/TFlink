@@ -8,8 +8,16 @@ ncbi_gene_id: '23390'
 organism: Homo sapiens
 function: target gene
 orthologs: '[{"species": "Drosophila melanogaster", "id": ["Q9VUW9"]}, {"species": "Mus musculus", "id": ["Q80TN5"]}, {"species": "Rattus norvegicus", "id": ["E9PTT0"]}]'
-tfs: 'YY1,P25490,7528,GTRD; ORegAnno; ReMap,chromatin immunoprecipitation assay; inferred
-  by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=22951020%5Buid%5D+OR+27924024%5Buid%5D+OR+26578589%5Buid%5D+OR+29126285%5Buid%5D"
+tfs: 'GATA2,P23769,2624,GTRD; HTRI; ORegAnno; PAZAR,chromatin immunoprecipitation
+  assay; inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=26578589%5Buid%5D+OR+19941826%5Buid%5D+OR+18971253%5Buid%5D+OR+27924024%5Buid%5D+OR+22900683%5Buid%5D"
+  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>
+
+  YY1,P25490,7528,GTRD; ORegAnno; ReMap,chromatin immunoprecipitation assay; inferred
+  by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=22951020%5Buid%5D+OR+29126285%5Buid%5D+OR+27924024%5Buid%5D+OR+26578589%5Buid%5D"
+  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>
+
+  ETS1,P14921,2113,GTRD; HTRI; ORegAnno; PAZAR; ReMap,chromatin immunoprecipitation
+  assay; inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D+OR+26578589%5Buid%5D+OR+20019798%5Buid%5D+OR+27924024%5Buid%5D+OR+18971253%5Buid%5D+OR+22900683%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>'
 targets: ''
 binding_sites: ''

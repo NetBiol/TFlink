@@ -9,7 +9,11 @@ organism: Homo sapiens
 function: target gene
 orthologs: '[{"species": "Drosophila melanogaster", "id": ["Q9VSS2"]}, {"species": "Caenorhabditis elegans", "id": ["Q20822"]}, {"species": "Mus musculus", "id": ["Q8BMA6"]}, {"species": "Rattus norvegicus", "id": ["B2RYI2"]}, {"species": "Saccharomyces cerevisiae", "id": ["<a href=\"/protein/p38687\">P38687</a>"]}]'
 tfs: 'YY1,P25490,7528,GTRD; ORegAnno; ReMap,chromatin immunoprecipitation assay; inferred
-  by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=22951020%5Buid%5D+OR+27924024%5Buid%5D+OR+26578589%5Buid%5D+OR+29126285%5Buid%5D"
+  by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=22951020%5Buid%5D+OR+29126285%5Buid%5D+OR+27924024%5Buid%5D+OR+26578589%5Buid%5D"
+  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>
+
+  ETS1,P14921,2113,GTRD; HTRI; ORegAnno; PAZAR; ReMap,chromatin immunoprecipitation
+  assay; inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D+OR+26578589%5Buid%5D+OR+20019798%5Buid%5D+OR+27924024%5Buid%5D+OR+18971253%5Buid%5D+OR+22900683%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>'
 targets: ''
 binding_sites: ''

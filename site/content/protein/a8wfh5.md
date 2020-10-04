@@ -2,9 +2,9 @@
 type: protein
 layout: protein
 title: A8WFH5
-protein_name: A8WFH5_CAEEL
+protein_name: '-'
 uniprot_accession: A8WFH5
-ncbi_gene_id: '181010'
+ncbi_gene_id: '-'
 organism: Caenorhabditis elegans
 function: target gene
 orthologs: '[{"species": "Drosophila melanogaster", "id": ["M9PF73"]}]'

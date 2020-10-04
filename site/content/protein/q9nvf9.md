@@ -8,8 +8,8 @@ ncbi_gene_id: '55224'
 organism: Homo sapiens
 function: target gene
 orthologs: '[{"species": "Mus musculus", "id": ["A7MCT6"]}, {"species": "Rattus norvegicus", "id": ["D3ZRW8"]}]'
-tfs: 'CTCF,P49711,10664,GTRD; PAZAR; ReMap; TRRUST,chromatin immunoprecipitation assay;
-  inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=18632798%5Buid%5D+OR+18971253%5Buid%5D+OR+27924024%5Buid%5D+OR+18971253%5Buid%5D+OR+29126285%5Buid%5D+OR+29087512%5Buid%5D"
+tfs: 'CTCF,P49711,10664,GTRD; ORegAnno; PAZAR; ReMap; TRRUST,chromatin immunoprecipitation
+  assay; inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D+OR+26578589%5Buid%5D+OR+18971253%5Buid%5D+OR+27924024%5Buid%5D+OR+29087512%5Buid%5D+OR+18632798%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>'
 targets: ''
 binding_sites: ''

@@ -9,11 +9,16 @@ organism: Drosophila melanogaster
 function: transcription factor
 orthologs: '[{"species": "Homo sapiens", "id": ["Q5T0B9"]}, {"species": "Mus musculus", "id": ["B1ASA5"]}, {"species": "Rattus norvegicus", "id": ["D4A633"]}]'
 tfs: ''
-targets: 'en,P02836,36240,REDfly,electrophoretic mobility shift assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=16155187%5Buid%5D+OR+20965965%5Buid%5D"
+targets: 'Ubx,P83949,42034,REDfly,electrophoretic mobility shift assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=16155187%5Buid%5D+OR+20965965%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>
 
-  Ubx,P83949,42034,REDfly,electrophoretic mobility shift assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=16155187%5Buid%5D+OR+20965965%5Buid%5D"
+  en,P02836,36240,REDfly,electrophoretic mobility shift assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=16155187%5Buid%5D+OR+20965965%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>'
-binding_sites: ''
+binding_sites: 'TFLinkLT09281071,electrophoretic mobility shift assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=16155187;20965965%5Buid%5D"
+  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,REDfly,dm6,2R,11528354,11528359,NA
+
+  TFLinkLT09281074,electrophoretic mobility shift assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=16155187;20965965%5Buid%5D"
+  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,REDfly,dm6,3R,16764327,16764332,NA'
 
 ---
+\>TFLinkLT09281071;Q9VPQ5;cbt;dm6;2R:11528354-11528359\GGGGCG\\>TFLinkLT09281074;Q9VPQ5;cbt;dm6;3R:16764327-16764332\GGGGCG\

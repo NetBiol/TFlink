@@ -8,12 +8,24 @@ ncbi_gene_id: '11124'
 organism: Homo sapiens
 function: target gene
 orthologs: '[{"species": "Drosophila melanogaster", "id": ["A0A0B4LFH2"]}, {"species": "Mus musculus", "id": ["P54731"]}, {"species": "Rattus norvegicus", "id": ["F1LSQ0"]}]'
-tfs: 'NFKB1,P19838,4790,ReMap; TRRUST,chromatin immunoprecipitation assay; inferred
-  by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=17046979%5Buid%5D+OR+29126285%5Buid%5D+OR+29087512%5Buid%5D"
+tfs: 'NFKB1,P19838,4790,GTRD; ReMap; TRRUST,chromatin immunoprecipitation assay; inferred
+  by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D+OR+29087512%5Buid%5D+OR+17046979%5Buid%5D+OR+27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>
 
   RELA,Q04206,5970,GTRD; ReMap; TRRUST,chromatin immunoprecipitation assay; inferred
-  by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=17046979%5Buid%5D+OR+27924024%5Buid%5D+OR+29126285%5Buid%5D+OR+29087512%5Buid%5D"
+  by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D+OR+29087512%5Buid%5D+OR+17046979%5Buid%5D+OR+27924024%5Buid%5D"
+  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>
+
+  ETS1,P14921,2113,GTRD; HTRI; ORegAnno; PAZAR; ReMap,chromatin immunoprecipitation
+  assay; inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D+OR+26578589%5Buid%5D+OR+20019798%5Buid%5D+OR+27924024%5Buid%5D+OR+18971253%5Buid%5D+OR+22900683%5Buid%5D"
+  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>
+
+  E2F4,Q16254,1874,GTRD; HTRI; ORegAnno; PAZAR; ReMap,chromatin immunoprecipitation
+  array; chromatin immunoprecipitation assay; inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D+OR+26578589%5Buid%5D+OR+18971253%5Buid%5D+OR+27924024%5Buid%5D+OR+17531812%5Buid%5D+OR+22900683%5Buid%5D"
+  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>
+
+  GATA2,P23769,2624,GTRD; HTRI; ORegAnno; PAZAR; ReMap,chromatin immunoprecipitation
+  assay; inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D+OR+26578589%5Buid%5D+OR+19941826%5Buid%5D+OR+18971253%5Buid%5D+OR+27924024%5Buid%5D+OR+22900683%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>'
 targets: ''
 binding_sites: ''

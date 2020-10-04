@@ -8,7 +8,8 @@ ncbi_gene_id: '54713'
 organism: Mus musculus
 function: target gene
 orthologs: ''
-tfs: 'Rnf2,Q9CQJ4,19821,TRRUST,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=25344075%5Buid%5D+OR+29087512%5Buid%5D"
+tfs: 'Rnf2,Q9CQJ4,19821,GTRD; TRRUST,chromatin immunoprecipitation assay; inferred
+  by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29087512%5Buid%5D+OR+27924024%5Buid%5D+OR+25344075%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>'
 targets: ''
 binding_sites: ''

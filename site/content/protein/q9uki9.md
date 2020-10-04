@@ -9,10 +9,10 @@ organism: Homo sapiens
 function: transcription factor
 orthologs: '[{"species": "Mus musculus", "id": ["H3BJT4"]}, {"species": "Rattus norvegicus", "id": ["G3V754"]}]'
 tfs: ''
-targets: 'SPRR2A,P35326,6700,TRED; TRRUST,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=8816448%5Buid%5D+OR+17202159%5Buid%5D+OR+29087512%5Buid%5D"
+targets: 'CDK11B,P21127,984,TFactS_via_DoRothea,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=22761861%5Buid%5D+OR+15656972%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>
 
-  CDK11B,P21127,984,TFactS_via_DoRothea,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=15656972%5Buid%5D+OR+22761861%5Buid%5D+OR+31340985%5Buid%5D"
+  SPRR2A,P35326,6700,TRED; TRRUST,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=17202159%5Buid%5D+OR+29087512%5Buid%5D+OR+8816448%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>'
 binding_sites: ''
 

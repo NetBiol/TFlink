@@ -6,9 +6,15 @@ protein_name: NPAS3
 uniprot_accession: Q8IXF0
 ncbi_gene_id: '64067'
 organism: Homo sapiens
-function: transcription factor
+function: transcription factor and target gene
 orthologs: ''
-tfs: ''
+tfs: 'GATA2,P23769,2624,GTRD; HTRI; ORegAnno; PAZAR,chromatin immunoprecipitation
+  assay; inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=26578589%5Buid%5D+OR+19941826%5Buid%5D+OR+18971253%5Buid%5D+OR+27924024%5Buid%5D+OR+22900683%5Buid%5D"
+  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>
+
+  NR1I2,O75469,8856,HTRI,chromatin immunoprecipitation assay; inferred by curator,&ensp;<a
+  href="https://www.ncbi.nlm.nih.gov/pubmed/?term=19129222%5Buid%5D+OR+22900683%5Buid%5D"
+  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>'
 targets: 'VGF,O15240,7425,TRRUST,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=21709683%5Buid%5D+OR+29087512%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>'
 binding_sites: ''

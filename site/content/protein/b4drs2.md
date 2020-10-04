@@ -2,9 +2,9 @@
 type: protein
 layout: protein
 title: B4DRS2
-protein_name: B4DRS2_HUMAN
+protein_name: '-'
 uniprot_accession: B4DRS2
-ncbi_gene_id: '3851'
+ncbi_gene_id: '-'
 organism: Homo sapiens
 function: target gene
 orthologs: ''

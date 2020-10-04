@@ -9,19 +9,22 @@ organism: Mus musculus
 function: transcription factor
 orthologs: '[{"species": "Homo sapiens", "id": ["<a href=\"/protein/q9uih9\">Q9UIH9</a>"]}, {"species": "Rattus norvegicus", "id": ["Q5FVT6"]}]'
 tfs: ''
-targets: 'Acss1,Q99NB1,68738,TRRUST,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=14960588%5Buid%5D+OR+29087512%5Buid%5D"
+targets: 'Mcm2,P97310,17216,TRRUST,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=22538816%5Buid%5D+OR+29087512%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>
 
-  Clcnkb,Q9WUB6,56365,TRRUST,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=10982849%5Buid%5D+OR+11473619%5Buid%5D+OR+29087512%5Buid%5D"
+  Rbp3,P49194,19661,TRRUST,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29087512%5Buid%5D+OR+15277472%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>
 
-  Mcm2,P97310,17216,TRRUST,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=22538816%5Buid%5D+OR+29087512%5Buid%5D"
+  Serpina3k,P07759,20714,TRRUST,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=22538816%5Buid%5D+OR+29087512%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>
 
-  Rbp3,P49194,19661,TRRUST,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=15277472%5Buid%5D+OR+29087512%5Buid%5D"
+  Rho,P15409,212541,TRRUST,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29087512%5Buid%5D+OR+15277472%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>
 
-  Rho,P15409,212541,TRRUST,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=15277472%5Buid%5D+OR+29087512%5Buid%5D"
+  Acss1,Q99NB1,68738,TRRUST,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=14960588%5Buid%5D+OR+29087512%5Buid%5D"
+  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>
+
+  Clcnkb,Q9WUB6,56365,TRRUST,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=11473619%5Buid%5D+OR+10982849%5Buid%5D+OR+29087512%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>'
 binding_sites: ''
 

@@ -11,12 +11,13 @@ orthologs: '[{"species": "Homo sapiens", "id": ["<a href=\"/protein/q66k89\">Q66
 tfs: 'Bmi1,P25916,12151,TRRUST,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=21088222%5Buid%5D+OR+29087512%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>
 
-  Tp53,P02340,22059,TRRUST,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=10644996%5Buid%5D+OR+29087512%5Buid%5D"
+  Tp53,P02340,22059,GTRD; TRRUST,chromatin immunoprecipitation assay; inferred by
+  curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=10644996%5Buid%5D+OR+29087512%5Buid%5D+OR+27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>'
-targets: 'Ccna2,P51943,12428,TRRUST,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=11283272%5Buid%5D+OR+29087512%5Buid%5D"
+targets: 'Ids,Q08890,15931,TRRUST,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=20231279%5Buid%5D+OR+29087512%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>
 
-  Ids,Q08890,15931,TRRUST,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=20231279%5Buid%5D+OR+29087512%5Buid%5D"
+  Ccna2,P51943,12428,TRRUST,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29087512%5Buid%5D+OR+11283272%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>'
 binding_sites: ''
 

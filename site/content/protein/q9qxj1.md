@@ -9,10 +9,10 @@ organism: Mus musculus
 function: transcription factor
 orthologs: ''
 tfs: ''
-targets: 'Lrp1,Q91ZX7,16971,TRRUST,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=17920016%5Buid%5D+OR+29087512%5Buid%5D"
+targets: 'Notch1,Q01705,18128,TRRUST,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=22199353%5Buid%5D+OR+29087512%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>
 
-  Notch1,Q01705,18128,TRRUST,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=22199353%5Buid%5D+OR+29087512%5Buid%5D"
+  Lrp1,Q91ZX7,16971,TRRUST,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=17920016%5Buid%5D+OR+29087512%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>'
 binding_sites: ''
 

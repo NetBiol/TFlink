@@ -4,7 +4,7 @@ layout: protein
 title: A0A0K3ATA0
 protein_name: daf-3
 uniprot_accession: A0A0K3ATA0
-ncbi_gene_id: '180431'
+ncbi_gene_id: '-'
 organism: Caenorhabditis elegans
 function: transcription factor
 orthologs: ''

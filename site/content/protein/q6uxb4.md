@@ -8,14 +8,15 @@ ncbi_gene_id: '339390'
 organism: Homo sapiens
 function: target gene
 orthologs: '[{"species": "Mus musculus", "id": ["Q8BNX1"]}, {"species": "Rattus norvegicus", "id": ["A0A0G2JU13"]}]'
-tfs: 'MYB,P10242,4602,TRRUST,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=19111020%5Buid%5D+OR+29087512%5Buid%5D"
+tfs: 'RUNX3,Q13761,864,TRRUST,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29087512%5Buid%5D+OR+19111020%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>
 
-  RUNX3,Q13761,864,TRRUST,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=19111020%5Buid%5D+OR+29087512%5Buid%5D"
+  MYB,P10242,4602,GTRD; TRRUST,chromatin immunoprecipitation assay; inferred by curator,&ensp;<a
+  href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29087512%5Buid%5D+OR+27924024%5Buid%5D+OR+19111020%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>
 
   SPI1,P17947,6688,GTRD; ReMap; TFe_via_DoRothEA; TRRUST,chromatin immunoprecipitation
-  assay; inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=19111020%5Buid%5D+OR+27924024%5Buid%5D+OR+29126285%5Buid%5D+OR+22458515%5Buid%5D+OR+31340985%5Buid%5D+OR+29087512%5Buid%5D"
+  assay; inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D+OR+22458515%5Buid%5D+OR+27924024%5Buid%5D+OR+29087512%5Buid%5D+OR+19111020%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>'
 targets: ''
 binding_sites: ''

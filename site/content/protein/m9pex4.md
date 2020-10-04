@@ -9,17 +9,25 @@ organism: Drosophila melanogaster
 function: transcription factor
 orthologs: ''
 tfs: ''
-targets: 'Tm1,P06754,41852,REDfly,experimental interaction detection,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=9409684%5Buid%5D+OR+20965965%5Buid%5D"
+targets: 'Tm1,P06754,41852,REDfly,experimental interaction detection,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=20965965%5Buid%5D+OR+9409684%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>
 
-  Tm1,P49455,41852,REDfly,experimental interaction detection,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=9409684%5Buid%5D+OR+20965965%5Buid%5D"
+  Prm,P35415,39002,REDfly,electrophoretic mobility shift assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=20965965%5Buid%5D+OR+15817225%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>
 
-  Prm,P35415,39002,REDfly,electrophoretic mobility shift assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=15817225%5Buid%5D+OR+20965965%5Buid%5D"
+  Tm1,P49455,41852,REDfly,experimental interaction detection,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=20965965%5Buid%5D+OR+9409684%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>
 
-  Prm,P35416,39002,REDfly,electrophoretic mobility shift assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=15817225%5Buid%5D+OR+20965965%5Buid%5D"
+  Prm,P35416,39002,REDfly,electrophoretic mobility shift assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=20965965%5Buid%5D+OR+15817225%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>'
-binding_sites: ''
+binding_sites: 'TFLinkLT09282863,electrophoretic mobility shift assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=15817225;20965965%5Buid%5D"
+  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,REDfly,dm6,3L,8738741,8738747,NA
+
+  TFLinkLT09282878,experimental interaction detection,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=9409684;20965965%5Buid%5D"
+  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,REDfly,dm6,3R,15310701,15310710,NA
+
+  TFLinkLT09282891,experimental interaction detection,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=9409684;20965965%5Buid%5D"
+  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,REDfly,dm6,3R,15310711,15310722,NA'
 
 ---
+\>TFLinkLT09282863;M9PEX4;Pdp1;dm6;3L:8738741-8738747\CAATTTT\\>TFLinkLT09282878;M9PEX4;Pdp1;dm6;3R:15310701-15310710\CGCTTATAAG\\>TFLinkLT09282891;M9PEX4;Pdp1;dm6;3R:15310711-15310722\GAATTTTGTAAC\

@@ -8,7 +8,10 @@ ncbi_gene_id: '-'
 organism: Homo sapiens
 function: target gene
 orthologs: ''
-tfs: 'SP1,P08047,6667,TRRUST,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=18329191%5Buid%5D+OR+29087512%5Buid%5D"
+tfs: 'DAND5,Q8N907,199699,TRRUST,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=18329191%5Buid%5D+OR+29087512%5Buid%5D"
+  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>
+
+  SP1,P08047,6667,TRRUST,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=18329191%5Buid%5D+OR+29087512%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>
 
   SP3,Q02447,6670,TRRUST,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=18329191%5Buid%5D+OR+29087512%5Buid%5D"

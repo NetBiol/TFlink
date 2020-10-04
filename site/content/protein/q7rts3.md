@@ -6,10 +6,12 @@ protein_name: PTF1A
 uniprot_accession: Q7RTS3
 ncbi_gene_id: '256297'
 organism: Homo sapiens
-function: transcription factor
+function: transcription factor and target gene
 orthologs: '[{"species": "Mus musculus", "id": ["<a href=\"/protein/q9qx98\">Q9QX98</a>"]}, {"species": "Rattus norvegicus", "id": ["Q64305"]}]'
-tfs: ''
-targets: 'CEL,P19835,-,TRRUST,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=11023822%5Buid%5D+OR+29087512%5Buid%5D"
+tfs: 'PRDM14,Q9GZV8,63978,HTRI; ORegAnno; PAZAR; ReMap,chromatin immunoprecipitation
+  assay; inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D+OR+26578589%5Buid%5D+OR+20953172%5Buid%5D+OR+18971253%5Buid%5D+OR+22900683%5Buid%5D"
+  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>'
+targets: 'CEL,P19835,,TRRUST,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=11023822%5Buid%5D+OR+29087512%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>'
 binding_sites: ''
 

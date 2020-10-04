@@ -9,7 +9,14 @@ organism: Homo sapiens
 function: target gene
 orthologs: ''
 tfs: 'CEBPB,P17676,1051,HTRI; TRRUST,electrophoretic mobility shift assay; inferred
-  by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=10855690%5Buid%5D+OR+22900683%5Buid%5D+OR+29087512%5Buid%5D"
+  by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=10855690%5Buid%5D+OR+29087512%5Buid%5D+OR+22900683%5Buid%5D"
+  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>
+
+  NFIC,P08651,4782,GTRD; HTRI,chromatin immunoprecipitation assay; electrophoretic
+  mobility shift assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D+OR+22900683%5Buid%5D+OR+10715552%5Buid%5D"
+  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>
+
+  TFAP2A,P05549,7020,HTRI,electrophoretic mobility shift assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=22900683%5Buid%5D+OR+10715552%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>'
 targets: ''
 binding_sites: ''

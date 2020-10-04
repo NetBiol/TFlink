@@ -10,7 +10,24 @@ function: transcription factor
 orthologs: ''
 tfs: ''
 targets: 'rpr,Q24475,40015,REDfly,electrophoretic mobility shift assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=19282966%5Buid%5D+OR+20965965%5Buid%5D"
+  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>
+
+  Socs36E,Q8WTC2,,REDfly,electrophoretic mobility shift assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=20965965%5Buid%5D+OR+23583584%5Buid%5D"
+  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>
+
+  Socs36E,Q8INY1,35085,REDfly,electrophoretic mobility shift assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=20965965%5Buid%5D+OR+23583584%5Buid%5D"
+  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>
+
+  Socs36E,Q9VJA1,35085,REDfly,electrophoretic mobility shift assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=20965965%5Buid%5D+OR+23583584%5Buid%5D"
+  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>
+
+  Socs36E,Q86P82,,REDfly,electrophoretic mobility shift assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=20965965%5Buid%5D+OR+23583584%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>'
-binding_sites: ''
+binding_sites: 'TFLinkLT09280528,electrophoretic mobility shift assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=19282966;20965965%5Buid%5D"
+  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,REDfly,dm6,3L,18400727,18400733,NA
+
+  TFLinkLT09280536,electrophoretic mobility shift assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=23583584;20965965%5Buid%5D"
+  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,REDfly,dm6,2L,18151991,18152000,NA'
 
 ---
+\>TFLinkLT09280528;Q8MLR4;apt;dm6;3L:18400727-18400733\TAAGATT\\>TFLinkLT09280536;Q8MLR4;apt;dm6;2L:18151991-18152000\ATTCCAATTA\

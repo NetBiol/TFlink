@@ -8,10 +8,13 @@ ncbi_gene_id: '57379'
 organism: Homo sapiens
 function: target gene
 orthologs: '[{"species": "Mus musculus", "id": ["<a href=\"/protein/q9wve0\">Q9WVE0</a>"]}, {"species": "Rattus norvegicus", "id": ["G3V7Y8"]}]'
-tfs: 'TCF3,P15923,6929,TRRUST,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=18203819%5Buid%5D+OR+29087512%5Buid%5D"
+tfs: 'STAT4,Q14765,6775,TRED,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=17202159%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>
 
-  STAT4,Q14765,6775,TRED,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=17202159%5Buid%5D"
+  TCF3,P15923,6929,TRRUST,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29087512%5Buid%5D+OR+18203819%5Buid%5D"
+  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>
+
+  TCF7L1,Q9HCS4,83439,TRRUST,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29087512%5Buid%5D+OR+18203819%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>'
 targets: ''
 binding_sites: ''

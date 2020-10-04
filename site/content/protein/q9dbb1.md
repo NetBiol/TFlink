@@ -12,10 +12,10 @@ tfs: 'Ets2,P15037,23872,TRRUST,inferred by curator,&ensp;<a href="https://www.nc
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>
 
   Etv4,P28322,18612,GTRD; TRRUST,chromatin immunoprecipitation assay; inferred by
-  curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=20346941%5Buid%5D+OR+27924024%5Buid%5D+OR+29087512%5Buid%5D"
+  curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29087512%5Buid%5D+OR+27924024%5Buid%5D+OR+20346941%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>
 
-  Six1,Q62231,20471,TRRUST,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=14614133%5Buid%5D+OR+22945933%5Buid%5D+OR+29087512%5Buid%5D"
+  Six1,Q62231,20471,TRRUST,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29087512%5Buid%5D+OR+22945933%5Buid%5D+OR+14614133%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>'
 targets: ''
 binding_sites: ''

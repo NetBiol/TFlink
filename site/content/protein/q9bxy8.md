@@ -8,8 +8,8 @@ ncbi_gene_id: '84707'
 organism: Homo sapiens
 function: target gene
 orthologs: ''
-tfs: 'JUN,P05412,3725,ReMap; TRRUST,chromatin immunoprecipitation assay; inferred
-  by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=21384344%5Buid%5D+OR+29126285%5Buid%5D+OR+29087512%5Buid%5D"
+tfs: 'JUN,P05412,3725,GTRD; ReMap; TRRUST,chromatin immunoprecipitation assay; inferred
+  by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=21384344%5Buid%5D+OR+29087512%5Buid%5D+OR+29126285%5Buid%5D+OR+27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>'
 targets: ''
 binding_sites: ''

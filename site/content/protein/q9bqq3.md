@@ -1,0 +1,17 @@
+---
+type: protein
+layout: protein
+title: Q9BQQ3
+protein_name: GORASP1
+uniprot_accession: Q9BQQ3
+ncbi_gene_id: '64689'
+organism: Homo sapiens
+function: target gene
+orthologs: ''
+tfs: 'NR1I2,O75469,8856,HTRI,chromatin immunoprecipitation assay; inferred by curator,&ensp;<a
+  href="https://www.ncbi.nlm.nih.gov/pubmed/?term=19129222%5Buid%5D+OR+22900683%5Buid%5D"
+  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>'
+targets: ''
+binding_sites: ''
+
+---

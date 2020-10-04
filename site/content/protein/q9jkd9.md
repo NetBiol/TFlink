@@ -9,7 +9,7 @@ organism: Mus musculus
 function: transcription factor
 orthologs: '[{"species": "Homo sapiens", "id": ["Q9Y2Y4"]}, {"species": "Rattus norvegicus", "id": ["D4A2U2"]}]'
 tfs: ''
-targets: 'Ciita,P79621,12265,TRRUST,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=22851713%5Buid%5D+OR+29087512%5Buid%5D"
+targets: 'Ciita,P79621,12265,TRRUST,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29087512%5Buid%5D+OR+22851713%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>'
 binding_sites: ''
 

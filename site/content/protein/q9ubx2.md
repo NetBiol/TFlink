@@ -4,7 +4,7 @@ layout: protein
 title: Q9UBX2
 protein_name: DUX4
 uniprot_accession: Q9UBX2
-ncbi_gene_id: 100288687;107987484;107987485;107987486;107987487
+ncbi_gene_id: '100288687'
 organism: Homo sapiens
 function: transcription factor and target gene
 orthologs: ''

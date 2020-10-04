@@ -9,11 +9,12 @@ organism: Mus musculus
 function: transcription factor
 orthologs: '[{"species": "Rattus norvegicus", "id": ["D4A3N9"]}]'
 tfs: ''
-targets: 'Ccnd2,P30280,12444,TRRUST,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=20831799%5Buid%5D+OR+29087512%5Buid%5D"
+targets: 'Stat5a,P42230,20850,GTRD; TRRUST,chromatin immunoprecipitation assay; inferred
+  by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=19269284%5Buid%5D+OR+29087512%5Buid%5D+OR+27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>
 
-  Stat5a,P42230,20850,GTRD; TRRUST,chromatin immunoprecipitation assay; inferred by
-  curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=19269284%5Buid%5D+OR+27924024%5Buid%5D+OR+29087512%5Buid%5D"
+  Ccnd2,P30280,12444,GTRD; TRRUST,chromatin immunoprecipitation assay; inferred by
+  curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29087512%5Buid%5D+OR+27924024%5Buid%5D+OR+20831799%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>'
 binding_sites: ''
 

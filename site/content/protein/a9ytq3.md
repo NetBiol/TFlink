@@ -9,7 +9,11 @@ organism: Homo sapiens
 function: target gene
 orthologs: '[{"species": "Mus musculus", "id": ["A0A0R4J1D3"]}, {"species": "Rattus norvegicus", "id": ["Q75NT5"]}]'
 tfs: 'AHR,P35869,196,GTRD; TRRUST,chromatin immunoprecipitation assay; inferred by
-  curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=18848529%5Buid%5D+OR+27924024%5Buid%5D+OR+29087512%5Buid%5D"
+  curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=18848529%5Buid%5D+OR+29087512%5Buid%5D+OR+27924024%5Buid%5D"
+  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>
+
+  FOXA1,P55317,3169,GTRD; HTRI; ORegAnno; PAZAR; ReMap,chromatin immunoprecipitation
+  assay; inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D+OR+21878914%5Buid%5D+OR+26578589%5Buid%5D+OR+18971253%5Buid%5D+OR+27924024%5Buid%5D+OR+22900683%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>'
 targets: ''
 binding_sites: ''
