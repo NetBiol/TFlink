@@ -1,19 +1,21 @@
 $(document).ready(function () {
-  var targetTable = $('#target_data').val()
+  const multiIdPattern = /(.*); ?(.*)/;
+
+  var targetTable = $("#target_data").val()
     ? webix.ui({
-        container: 'target_div',
+        container: "target_div",
         rows: [
           {
-            id: 'targetTable',
-            view: 'datatable',
-            css: '',
+            id: "targetTable",
+            view: "datatable",
+            css: "",
             columns: [
               {
-                id: 'data0',
+                id: "data0",
                 header: [
-                  'Protein name',
+                  "Protein name",
                   {
-                    content: 'textFilter',
+                    content: "textFilter",
                   },
                 ],
                 template: function (obj) {
@@ -24,11 +26,11 @@ $(document).ready(function () {
                 adjust: true,
               },
               {
-                id: 'data1',
+                id: "data1",
                 header: [
-                  'Uniprot ID',
+                  "Uniprot ID",
                   {
-                    content: 'textFilter',
+                    content: "textFilter",
                   },
                 ],
                 template:
@@ -36,43 +38,45 @@ $(document).ready(function () {
                 adjust: true,
               },
               {
-                id: 'data2',
+                id: "data2",
                 header: [
-                  'NCBI Gene ID',
+                  "NCBI Gene ID",
                   {
-                    content: 'textFilter',
+                    content: "textFilter",
                   },
                 ],
-                template:
-                  "<a href='https://www.ncbi.nlm.nih.gov/gene/?term=#data2#' target='_blank'>#data2#</a>",
+                template: function (obj) {
+                  const multiIdReplaced = obj.data2.replace(multiIdPattern, "$1+OR+$2");
+                  return `<a href='https://www.ncbi.nlm.nih.gov/gene/?term=${multiIdReplaced}' target='_blank'>${obj.data2}</a>`;
+                },
                 adjust: true,
               },
               {
-                id: 'data3',
+                id: "data3",
                 header: [
-                  'Source database',
+                  "Source database",
                   {
-                    content: 'textFilter',
+                    content: "textFilter",
                   },
                 ],
                 adjust: true,
               },
               {
-                id: 'data4',
+                id: "data4",
                 header: [
-                  'Detection method',
+                  "Detection method",
                   {
-                    content: 'textFilter',
+                    content: "textFilter",
                   },
                 ],
                 fillspace: true,
               },
               {
-                id: 'data5',
+                id: "data5",
                 header: [
-                  'Publication',
+                  "Publication",
                   {
-                    content: 'textFilter',
+                    content: "textFilter",
                   },
                 ],
                 adjust: true,
@@ -80,13 +84,13 @@ $(document).ready(function () {
             ],
             autoheight: true,
             scroll: false,
-            datatype: 'csv',
-            data: $('#target_data').val(),
+            datatype: "csv",
+            data: $("#target_data").val(),
             pager: {
-              css: '',
+              css: "",
               template:
-                '{common.first()} {common.prev()} {common.pages()} {common.next()} {common.last()}',
-              container: 'target_paging',
+                "{common.first()} {common.prev()} {common.pages()} {common.next()} {common.last()}",
+              container: "target_paging",
               size: 10,
               group: 5,
             },
@@ -95,22 +99,22 @@ $(document).ready(function () {
       })
     : undefined;
 
-  var tfTable = $('#tf_data').val()
+  var tfTable = $("#tf_data").val()
     ? webix.ui({
-        container: 'tf_div',
+        container: "tf_div",
         autowidth: true,
         rows: [
           {
-            id: 'tfTable',
-            view: 'datatable',
-            css: '',
+            id: "tfTable",
+            view: "datatable",
+            css: "",
             columns: [
               {
-                id: 'data0',
+                id: "data0",
                 header: [
-                  'Protein name',
+                  "Protein name",
                   {
-                    content: 'textFilter',
+                    content: "textFilter",
                   },
                 ],
                 template: function (obj) {
@@ -121,11 +125,11 @@ $(document).ready(function () {
                 adjust: true,
               },
               {
-                id: 'data1',
+                id: "data1",
                 header: [
-                  'Uniprot ID',
+                  "Uniprot ID",
                   {
-                    content: 'textFilter',
+                    content: "textFilter",
                   },
                 ],
                 template:
@@ -133,43 +137,45 @@ $(document).ready(function () {
                 adjust: true,
               },
               {
-                id: 'data2',
+                id: "data2",
                 header: [
-                  'NCBI Gene ID',
+                  "NCBI Gene ID",
                   {
-                    content: 'textFilter',
+                    content: "textFilter",
                   },
                 ],
-                template:
-                  "<a href='https://www.ncbi.nlm.nih.gov/gene/?term=#data2#' target='_blank'>#data2#</a>",
+                template: function (obj) {
+                  const multiIdReplaced = obj.data2.replace(multiIdPattern, "$1+OR+$2");
+                  return `<a href='https://www.ncbi.nlm.nih.gov/gene/?term=${multiIdReplaced}' target='_blank'>${obj.data2}</a>`;
+                },
                 adjust: true,
               },
               {
-                id: 'data3',
+                id: "data3",
                 header: [
-                  'Source database',
+                  "Source database",
                   {
-                    content: 'textFilter',
+                    content: "textFilter",
                   },
                 ],
                 adjust: true,
               },
               {
-                id: 'data4',
+                id: "data4",
                 header: [
-                  'Detection method',
+                  "Detection method",
                   {
-                    content: 'textFilter',
+                    content: "textFilter",
                   },
                 ],
                 fillspace: true,
               },
               {
-                id: 'data5',
+                id: "data5",
                 header: [
-                  'Publication',
+                  "Publication",
                   {
-                    content: 'textFilter',
+                    content: "textFilter",
                   },
                 ],
                 adjust: true,
@@ -177,13 +183,13 @@ $(document).ready(function () {
             ],
             autoheight: true,
             scroll: false,
-            datatype: 'csv',
-            data: $('#tf_data').val(),
+            datatype: "csv",
+            data: $("#tf_data").val(),
             pager: {
-              css: '',
+              css: "",
               template:
-                '{common.first()} {common.prev()} {common.pages()} {common.next()} {common.last()}',
-              container: 'tf_paging',
+                "{common.first()} {common.prev()} {common.pages()} {common.next()} {common.last()}",
+              container: "tf_paging",
               size: 10,
               group: 5,
             },
@@ -192,93 +198,93 @@ $(document).ready(function () {
       })
     : undefined;
 
-  var bindingSitesTable = $('#binding_sites_data').val()
+  var bindingSitesTable = $("#binding_sites_data").val()
     ? webix.ui({
-        container: 'binding_sites_div',
+        container: "binding_sites_div",
         autowidth: true,
         rows: [
           {
-            id: 'bindingSitesTable',
-            view: 'datatable',
-            css: '',
+            id: "bindingSitesTable",
+            view: "datatable",
+            css: "",
             columns: [
               {
-                id: 'data0',
+                id: "data0",
                 header: [
-                  'TFLink ID',
+                  "TFLink ID",
                   {
-                    content: 'textFilter',
+                    content: "textFilter",
                   },
                 ],
-                css: 'rank',
+                css: "rank",
                 adjust: true,
               },
               {
-                id: 'data1',
+                id: "data1",
                 header: [
-                  'Detection method',
+                  "Detection method",
                   {
-                    content: 'textFilter',
-                  },
-                ],
-                adjust: true,
-              },
-              {
-                id: 'data2',
-                header: [
-                  'Publication ',
-                  {
-                    content: 'textFilter',
+                    content: "textFilter",
                   },
                 ],
                 adjust: true,
               },
               {
-                id: 'data3',
+                id: "data2",
                 header: [
-                  'Source database',
+                  "Publication ",
                   {
-                    content: 'textFilter',
+                    content: "textFilter",
                   },
                 ],
                 adjust: true,
               },
               {
-                id: 'data4',
+                id: "data3",
                 header: [
-                  'Assembly',
+                  "Source database",
                   {
-                    content: 'textFilter',
+                    content: "textFilter",
                   },
                 ],
                 adjust: true,
               },
               {
-                id: 'data5',
+                id: "data4",
                 header: [
-                  'Chromosome',
+                  "Assembly",
                   {
-                    content: 'textFilter',
+                    content: "textFilter",
                   },
                 ],
                 adjust: true,
               },
               {
-                id: 'data6',
+                id: "data5",
                 header: [
-                  'Start',
+                  "Chromosome",
                   {
-                    content: 'textFilter',
+                    content: "textFilter",
                   },
                 ],
                 adjust: true,
               },
               {
-                id: 'data7',
+                id: "data6",
                 header: [
-                  'End',
+                  "Start",
                   {
-                    content: 'textFilter',
+                    content: "textFilter",
+                  },
+                ],
+                adjust: true,
+              },
+              {
+                id: "data7",
+                header: [
+                  "End",
+                  {
+                    content: "textFilter",
                   },
                 ],
                 adjust: true,
@@ -286,13 +292,13 @@ $(document).ready(function () {
             ],
             autoheight: true,
             autowidth: true,
-            datatype: 'csv',
-            data: $('#binding_sites_data').val(),
+            datatype: "csv",
+            data: $("#binding_sites_data").val(),
             pager: {
-              css: '',
+              css: "",
               template:
-                '{common.first()} {common.prev()} {common.pages()} {common.next()} {common.last()}',
-              container: 'binding_sites_paging',
+                "{common.first()} {common.prev()} {common.pages()} {common.next()} {common.last()}",
+              container: "binding_sites_paging",
               size: 10,
               group: 5,
             },
@@ -301,30 +307,30 @@ $(document).ready(function () {
       })
     : undefined;
 
-  if ($('#ortholog_data').val()) {
-    const orthologs = $.parseJSON($('#ortholog_data').val());
+  if ($("#ortholog_data").val()) {
+    const orthologs = $.parseJSON($("#ortholog_data").val());
     $.each(orthologs, function (i, item) {
-      $('#ulOrtholog').append(
-        `<li>${item.species}: ${item.id.join(', ')}</li>`
+      $("#ulOrtholog").append(
+        `<li>${item.species}: ${item.id.join(", ")}</li>`
       );
     });
   }
 
   let speciesList = [];
   $.ajax({
-    url: '/data/spec_list.json',
-    dataType: 'json',
+    url: "/data/spec_list.json",
+    dataType: "json",
     success: function (json) {
       speciesList = json;
     },
     async: false,
   });
 
-  const organism = $('#organism').text();
+  const organism = $("#organism").text();
   const index = speciesList.findIndex(function (item, i) {
     return item.value === organism;
   });
   const species = speciesList[index].id;
   let siluette = `<img src="/images/siluettes/${species}.svg" />`;
-  $('#species_siluette').html(siluette);
+  $("#species_siluette").html(siluette);
 });
