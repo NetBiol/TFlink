@@ -333,4 +333,6 @@ $(document).ready(function () {
   const species = speciesList[index].id;
   let siluette = `<img src="/images/siluettes/${species}.svg" />`;
   $("#species_siluette").html(siluette);
+
+  $("a").attr("target", "_blank");
 });
