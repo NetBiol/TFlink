@@ -24,6 +24,7 @@ $(document).ready(function () {
                   }</a>`;
                 },
                 adjust: true,
+                tooltip:false
               },
               {
                 id: "data1",
@@ -36,6 +37,7 @@ $(document).ready(function () {
                 template:
                   "<a href='https://www.uniprot.org/uniprot/#data1#' target='_blank'>#data1#</a>",
                 adjust: true,
+                tooltip:false
               },
               {
                 id: "data2",
@@ -50,6 +52,7 @@ $(document).ready(function () {
                   return `<a href='https://www.ncbi.nlm.nih.gov/gene/?term=${multiIdReplaced}' target='_blank'>${obj.data2}</a>`;
                 },
                 adjust: true,
+                tooltip:false
               },
               {
                 id: "data3",
@@ -80,8 +83,10 @@ $(document).ready(function () {
                   },
                 ],
                 adjust: true,
+                tooltip:false
               },
             ],
+            tooltip:true,
             autoheight: true,
             scroll: false,
             datatype: "csv",
@@ -123,6 +128,7 @@ $(document).ready(function () {
                   }</a>`;
                 },
                 adjust: true,
+                tooltip:false
               },
               {
                 id: "data1",
@@ -135,6 +141,7 @@ $(document).ready(function () {
                 template:
                   "<a href='https://www.uniprot.org/uniprot/#data1#' target='_blank'>#data1#</a>",
                 adjust: true,
+                tooltip:false
               },
               {
                 id: "data2",
@@ -149,6 +156,7 @@ $(document).ready(function () {
                   return `<a href='https://www.ncbi.nlm.nih.gov/gene/?term=${multiIdReplaced}' target='_blank'>${obj.data2}</a>`;
                 },
                 adjust: true,
+                tooltip:false
               },
               {
                 id: "data3",
@@ -179,8 +187,10 @@ $(document).ready(function () {
                   },
                 ],
                 adjust: true,
+                tooltip:false
               },
             ],
+            tooltip:true,
             autoheight: true,
             scroll: false,
             datatype: "csv",
