@@ -80,7 +80,7 @@ $(document).ready(function() {
       selector: "edge",
       style: {
         width: 2,
-        "curve-style": "bezier",
+        "curve-style": "haystack",
         "line-color": "#ccc",
         "target-arrow-color": "#ccc",
         "target-arrow-shape": "triangle"
