@@ -8,6 +8,7 @@ $(document).ready(function () {
           {
             id: "targetTable",
             view: "datatable",
+            fixedRowHeight: false,
             css: "",
             columns: [
               {
@@ -24,7 +25,8 @@ $(document).ready(function () {
                   }</a>`;
                 },
                 adjust: true,
-                tooltip:false
+                maxWidth: 200,
+                tooltip: false,
               },
               {
                 id: "data1",
@@ -37,7 +39,8 @@ $(document).ready(function () {
                 template:
                   "<a href='https://www.uniprot.org/uniprot/#data1#' target='_blank'>#data1#</a>",
                 adjust: true,
-                tooltip:false
+                maxWidth: 200,
+                tooltip: false,
               },
               {
                 id: "data2",
@@ -52,7 +55,8 @@ $(document).ready(function () {
                   return `<a href='https://www.ncbi.nlm.nih.gov/gene/?term=${multiIdReplaced}' target='_blank'>${obj.data2}</a>`;
                 },
                 adjust: true,
-                tooltip:false
+                maxWidth: 200,
+                tooltip: false,
               },
               {
                 id: "data3",
@@ -62,7 +66,8 @@ $(document).ready(function () {
                     content: "textFilter",
                   },
                 ],
-                adjust: true,
+                maxWidth: 300,
+                fillspace: 1,
               },
               {
                 id: "data4",
@@ -72,7 +77,8 @@ $(document).ready(function () {
                     content: "textFilter",
                   },
                 ],
-                fillspace: true,
+                maxWidth: 400,
+                fillspace: 1,
               },
               {
                 id: "data5",
@@ -82,12 +88,18 @@ $(document).ready(function () {
                     content: "textFilter",
                   },
                 ],
-                adjust: true,
-                tooltip:false
+                width: 110,
+                tooltip: false,
               },
             ],
-            tooltip:true,
+            tooltip: true,
             autoheight: true,
+            resizeColumn: true,
+            on: {
+              onresize: webix.once(function () {
+                this.adjustRowHeight("data0", true);
+              }),
+            },
             scroll: false,
             datatype: "csv",
             data: $("#target_data").val(),
@@ -107,7 +119,6 @@ $(document).ready(function () {
   var tfTable = $("#tf_data").val()
     ? webix.ui({
         container: "tf_div",
-        autowidth: true,
         rows: [
           {
             id: "tfTable",
@@ -128,7 +139,8 @@ $(document).ready(function () {
                   }</a>`;
                 },
                 adjust: true,
-                tooltip:false
+                maxWidth: 200,
+                tooltip: false,
               },
               {
                 id: "data1",
@@ -141,7 +153,8 @@ $(document).ready(function () {
                 template:
                   "<a href='https://www.uniprot.org/uniprot/#data1#' target='_blank'>#data1#</a>",
                 adjust: true,
-                tooltip:false
+                maxWidth: 200,
+                tooltip: false,
               },
               {
                 id: "data2",
@@ -152,11 +165,15 @@ $(document).ready(function () {
                   },
                 ],
                 template: function (obj) {
-                  const multiIdReplaced = obj.data2.replace(multiIdPattern, "$1+OR+$2");
+                  const multiIdReplaced = obj.data2.replace(
+                    multiIdPattern,
+                    "$1+OR+$2"
+                  );
                   return `<a href='https://www.ncbi.nlm.nih.gov/gene/?term=${multiIdReplaced}' target='_blank'>${obj.data2}</a>`;
                 },
                 adjust: true,
-                tooltip:false
+                maxWidth: 200,
+                tooltip: false,
               },
               {
                 id: "data3",
@@ -167,6 +184,8 @@ $(document).ready(function () {
                   },
                 ],
                 adjust: true,
+                maxWidth: 300,
+                fillspace: 1,
               },
               {
                 id: "data4",
@@ -176,7 +195,8 @@ $(document).ready(function () {
                     content: "textFilter",
                   },
                 ],
-                fillspace: true,
+                maxWidth: 400,
+                fillspace: 1,
               },
               {
                 id: "data5",
@@ -187,11 +207,13 @@ $(document).ready(function () {
                   },
                 ],
                 adjust: true,
-                tooltip:false
+                width: 110,
+                tooltip: false,
               },
             ],
-            tooltip:true,
+            tooltip: true,
             autoheight: true,
+            resizeColumn: true,
             scroll: false,
             datatype: "csv",
             data: $("#tf_data").val(),
@@ -302,6 +324,7 @@ $(document).ready(function () {
             ],
             autoheight: true,
             autowidth: true,
+            resizeColumn: true,
             datatype: "csv",
             data: $("#binding_sites_data").val(),
             pager: {
