@@ -1,5 +1,5 @@
 $(document).ready(function () {
-  const multiIdPattern = /(.*); ?(.*)/;
+  const multiIdPattern = /(; ?)/gi;
 
   var targetTable = $("#target_data").val()
     ? webix.ui({
@@ -25,6 +25,7 @@ $(document).ready(function () {
                   }</a>`;
                 },
                 adjust: true,
+                minWidth: 115,
                 maxWidth: 200,
                 tooltip: false,
               },
@@ -51,7 +52,11 @@ $(document).ready(function () {
                   },
                 ],
                 template: function (obj) {
-                  const multiIdReplaced = obj.data2.replace(multiIdPattern, "$1+OR+$2");
+                  if (obj.data2 === "-") return "-";
+                  const multiIdReplaced = obj.data2.replace(
+                    multiIdPattern,
+                    "+OR+"
+                  );
                   return `<a href='https://www.ncbi.nlm.nih.gov/gene/?term=${multiIdReplaced}' target='_blank'>${obj.data2}</a>`;
                 },
                 adjust: true,
@@ -139,6 +144,7 @@ $(document).ready(function () {
                   }</a>`;
                 },
                 adjust: true,
+                minWidth: 115,
                 maxWidth: 200,
                 tooltip: false,
               },
@@ -165,9 +171,10 @@ $(document).ready(function () {
                   },
                 ],
                 template: function (obj) {
+                  if (obj.data2 === "-") return "-";
                   const multiIdReplaced = obj.data2.replace(
                     multiIdPattern,
-                    "$1+OR+$2"
+                    "+OR+"
                   );
                   return `<a href='https://www.ncbi.nlm.nih.gov/gene/?term=${multiIdReplaced}' target='_blank'>${obj.data2}</a>`;
                 },
