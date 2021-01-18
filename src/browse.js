@@ -6,7 +6,6 @@ webix.ready(function () {
     id: 'dtable',
     view: 'datatable',
     css: '',
-    hidden: true,
     columns: [
       {
         id: 'protein_name',
@@ -53,6 +52,7 @@ webix.ready(function () {
         width: 250,
       },
     ],
+    url: data_url_prefix + 'data/browse_tables/all_species_LT_browse_update.csv',
     resizeColumn: true,
     datatype: 'csv',
     autoheight: true,
