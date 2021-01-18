@@ -77,7 +77,7 @@ $(document).ready(function () {
 
         let url = downloadFiles[species][key].startsWith('http')
           ? downloadFiles[species][key]
-          : (url = `/data/download/${species}_${downloadFiles[species][key]}`);
+          : (url = `/data/download/TFLink_${species}_${downloadFiles[species][key]}`);
 
         htmlSS += `<p><a href="${url}"><i>${speciesList[index].value}</i> small-scale ${formats[i]}</a></p>`;
       });
@@ -90,7 +90,7 @@ $(document).ready(function () {
 
         let url = downloadFiles[species][key].startsWith('http')
           ? downloadFiles[species][key]
-          : (url = `/data/download/${species}_${downloadFiles[species][key]}`);
+          : (url = `/data/download/TFLink_${species}_${downloadFiles[species][key]}`);
 
         htmlLS += `<p><a href="${url}"><i>${speciesList[index].value}</i> large-scale ${formats[i]}</a></p>`;
       });
