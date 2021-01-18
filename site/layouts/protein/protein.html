@@ -23,7 +23,7 @@
         {{ if eq .Params.ncbi_gene_id "-" }}
         -
         {{ else }}
-          <a href="https://www.ncbi.nlm.nih.gov/gene/?term={{ replaceRE `(.*); ?(.*)` `$1 OR $2` .Params.ncbi_gene_id }}"
+          <a href="https://www.ncbi.nlm.nih.gov/gene/?term={{ replaceRE `(; ?)` ` OR ` .Params.ncbi_gene_id }}"
           target="_blank">{{ .Params.ncbi_gene_id }}</a>
         {{ end }}
       </dd>
