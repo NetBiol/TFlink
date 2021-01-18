@@ -8,7 +8,7 @@ $(document).ready(function() {
   const tfId = "tf_data";
 
   function createNodes(cy, dataId, target = false) {
-    const base_protein = $("#protein_name").text();
+    const base_protein = $("#protein_name").text().split(';')[0];
     const nodes = $("#" + dataId)
       .val()
       .split("\n")
@@ -32,6 +32,7 @@ $(document).ready(function() {
           }
         });
       } else {
+        node = node.split(';')[0];
         cy.add({
           group: "nodes",
           data: {
