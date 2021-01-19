@@ -11,7 +11,7 @@ webix.ready(function () {
         id: 'protein_name',
         map: '#data0#',
         header: [
-          'Protein name',
+          'Name',
           {
             content: 'textFilter',
           },
@@ -81,7 +81,7 @@ webix.ready(function () {
   var species_select = [
     {
       view: 'label',
-      label: 'Select a species:',
+      label: 'Select an organism:',
     },
     {
       view: 'select',
