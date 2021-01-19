@@ -1,6 +1,24 @@
 $(document).ready(function () {
   const multiIdPattern = /(; ?)/gi;
 
+  let speciesList = [];
+  $.ajax({
+    url: "/data/spec_list.json",
+    dataType: "json",
+    success: function (json) {
+      speciesList = json;
+    },
+    async: false,
+  });
+
+  const organism = $("#organism").text();
+  const index = speciesList.findIndex(function (item, i) {
+    return item.value === organism;
+  });
+  const species = speciesList[index].id;
+  let siluette = `<img src="/images/siluettes/${species}.svg" />`;
+  $("#species_siluette").html(siluette);
+
   var targetTable = $("#target_data").val()
     ? webix.ui({
         container: "target_div",
@@ -21,7 +39,9 @@ $(document).ready(function () {
                 ],
                 template: function (obj) {
                   return `<a href='/protein/${obj.data1.toLowerCase()}/'>${
-                    obj.data0
+                    organism === "Caenorhabditis elegans"
+                      ? obj.data0.toUpperCase()
+                      : obj.data0
                   }</a>`;
                 },
                 adjust: true,
@@ -140,7 +160,9 @@ $(document).ready(function () {
                 ],
                 template: function (obj) {
                   return `<a href='/protein/${obj.data1.toLowerCase()}/'>${
-                    obj.data0
+                    organism === "Caenorhabditis elegans"
+                      ? obj.data0.toUpperCase()
+                      : obj.data0
                   }</a>`;
                 },
                 adjust: true,
@@ -355,24 +377,6 @@ $(document).ready(function () {
       );
     });
   }
-
-  let speciesList = [];
-  $.ajax({
-    url: "/data/spec_list.json",
-    dataType: "json",
-    success: function (json) {
-      speciesList = json;
-    },
-    async: false,
-  });
-
-  const organism = $("#organism").text();
-  const index = speciesList.findIndex(function (item, i) {
-    return item.value === organism;
-  });
-  const species = speciesList[index].id;
-  let siluette = `<img src="/images/siluettes/${species}.svg" />`;
-  $("#species_siluette").html(siluette);
 
   $("a").attr("target", "_blank");
 });
