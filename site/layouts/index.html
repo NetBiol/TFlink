@@ -1,5 +1,11 @@
 {{ define "main" }}
 
+{{ $statistics_ss_file := "/static/data/statistics_ss.csv" }}
+{{ $statistics_ls_file := "/static/data/statistics_ls.csv" }}
+{{ $sep := ";" }}
+{{ $statistics_ss := getCSV $sep $statistics_ss_file }}
+{{ $statistics_ls := getCSV $sep $statistics_ls_file }}
+
 <div class="uk-cover-container uk-height-medium">
   <img src="/images/nyitokep_logoval_4.png" alt="" uk-cover />
 </div>
@@ -51,7 +57,8 @@
         </div>
       </div>
     </section>
-    <hr />
+    <hr />    
+
     <section class="uk-container">
       <div class="uk-grid-small" uk-grid>
         <div class="uk-card uk-card-body">
@@ -69,92 +76,21 @@
               </tr>
             </thead>
             <tbody>
-              <tr>
-                <td><i>Homo sapiens</i></td>
-                <td class="siluette">
-                  <img src="/images/siluettes/Homo_sapiens.svg" />
-                </td>
-                <td>841</td>
-                <td>4,805</td>
-                <td>17,239</td>
-                <td>35,484</td>
-                <td>35,718</td>
-              </tr>
-              <tr>
-                <td><i>Mus musculus</i></td>
-                <td class="siluette">
-                  <img src="/images/siluettes/Mus_musculus.svg" />
-                </td>
-                <td>947</td>
-                <td>2,842</td>
-                <td>10,000</td>
-                <td>10,560</td>
-                <td>10,612</td>
-              </tr>
-              <tr>
-                <td><i>Rattus norvegicus</i></td>
-                <td class="siluette">
-                  <img src="/images/siluettes/Rattus_norvegicus.svg" />
-                </td>
-                <td>7</td>
-                <td>6</td>
-                <td>9</td>
-                <td>189</td>
-                <td>206</td>
-              </tr>
-              <tr>
-                <td><i>Danio rerio</i></td>
-                <td class="siluette">
-                  <img src="/images/siluettes/Danio_rerio.svg" />
-                </td>
-                <td>0</td>
-                <td>0</td>
-                <td>0</td>
-                <td>0</td>
-                <td>0</td>
-              </tr>
-              <tr>
-                <td><i>Drosophila melanogaster</i></td>
-                <td class="siluette">
-                  <img src="/images/siluettes/Drosophila_melanogaster.svg" />
-                </td>
-                <td>284</td>
-                <td>404</td>
-                <td>1,409</td>
-                <td>4,012</td>
-                <td>7,027</td>
-              </tr>
-              <tr>
-                <td><i>Caenorhabditis elegans</i></td>
-                <td class="siluette">
-                  <img src="/images/siluettes/Caenorhabditis_elegans.svg" />
-                </td>
-                <td>28</td>
-                <td>114</td>
-                <td>143</td>
-                <td>117</td>
-                <td>144</td>
-              </tr>
-              <tr>
-                <td><i>Saccharomyces cerevisiae</i></td>
-                <td class="siluette">
-                  <img src="/images/siluettes/Saccharomyces_cerevisiae.svg" />
-                </td>
-                <td>191</td>
-                <td>2,166</td>
-                <td>5,349</td>
-                <td>5</td>
-                <td>5</td>
-              </tr>
-              <tr>
-                <td>Total</td>
-                <td></td>
-                <td>2,298</td>
-                <td>10,337</td>
-                <td>34,149</td>
-                <td>50,367</td>
-                <td>53,712</td>
-              </tr>
+              {{ range $i, $row:= $statistics_ss }}
+                <tr>
+                  <td>{{ index $row 0 }}</td>
+                  {{ if ne $i 7}}
+                    <td class="siluette">
+                      <img src="{{ printf `/images/siluettes/%s.svg` (replace (index $row 0) ` ` `_`) }}" />
+                    </td>
+                  {{ else }}
+                    <td></td>
+                  {{ end }}
+                  {{ range after 1 $row }}
+                    <td>{{ lang.NumFmt 0 (int (index .)) "- . ," }}</td>
+                  {{ end }} 
+                </tr>
+              {{ end }} 
             </tbody>
           </table>
         </div>
@@ -178,92 +114,21 @@
               </tr>
             </thead>
             <tbody>
-              <tr>
-                <td><i>Homo sapiens</i></td>
-                <td class="siluette">
-                  <img src="/images/siluettes/Homo_sapiens.svg" />
-                </td>
-                <td>1363</td>
-                <td>20,562</td>
-                <td>6,872,866</td>
-                <td>9,006,448</td>
-                <td>9,020,594</td>
-              </tr>
-              <tr>
-                <td><i>Mus musculus</i></td>
-                <td class="siluette">
-                  <img src="/images/siluettes/Mus_musculus.svg" />
-                </td>
-                <td>744</td>
-                <td>27,744</td>
-                <td>5,488,111</td>
-                <td>8,148,98</td>
-                <td>836,659</td>
-              </tr>
-              <tr>
-                <td><i>Rattus norvegicus</i></td>
-                <td class="siluette">
-                  <img src="/images/siluettes/Rattus_norvegicus.svg" />
-                </td>
-                <td>60</td>
-                <td>17,859</td>
-                <td>116,933</td>
-                <td>0</td>
-                <td>244</td>
-              </tr>
-              <tr>
-                <td><i>Danio rerio</i></td>
-                <td class="siluette">
-                  <img src="/images/siluettes/Danio_rerio.svg" />
-                </td>
-                <td>20</td>
-                <td>24,428</td>
-                <td>53,081</td>
-                <td>0</td>
-                <td>0</td>
-              </tr>
-              <tr>
-                <td><i>Drosophila melanogaster</i></td>
-                <td class="siluette">
-                  <img src="/images/siluettes/Drosophila_melanogaster.svg" />
-                </td>
-                <td>609</td>
-                <td>29,585</td>
-                <td>792,827</td>
-                <td>90,873</td>
-                <td>91,179</td>
-              </tr>
-              <tr>
-                <td><i>Caenorhabditis elegans</i></td>
-                <td class="siluette">
-                  <img src="/images/siluettes/Caenorhabditis_elegans.svg" />
-                </td>
-                <td>317</td>
-                <td>20,222</td>
-                <td>447,931</td>
-                <td>33,449</td>
-                <td>33,608</td>
-              </tr>
-              <tr>
-                <td><i>Saccharomyces cerevisiae</i></td>
-                <td class="siluette">
-                  <img src="/images/siluettes/Saccharomyces_cerevisiae.svg" />
-                </td>
-                <td>318</td>
-                <td>6,549</td>
-                <td>232,409</td>
-                <td>0</td>
-                <td>0</td>
-              </tr>
-              <tr>
-                <td>Total</td>
-                <td></td>
-                <td>3,431</td>
-                <td>146,949</td>
-                <td>14,004,158</td>
-                <td>9,945,668</td>
-                <td>9,982,284</td>
-              </tr>
+              {{ range $i, $row:= $statistics_ls }}
+                <tr>
+                  <td>{{ index $row 0 }}</td>
+                  {{ if ne $i 7}}
+                    <td class="siluette">
+                      <img src="{{ printf `/images/siluettes/%s.svg` (replace (index $row 0) ` ` `_`) }}" />
+                    </td>
+                  {{ else }}
+                    <td></td>
+                  {{ end }}
+                  {{ range after 1 $row }}
+                    <td>{{ lang.NumFmt 0 (int (index .)) "- . ," }}</td>
+                  {{ end }} 
+                </tr>
+              {{ end }} 
             </tbody>
           </table>
         </div>
