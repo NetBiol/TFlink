@@ -8,55 +8,74 @@ webix.ready(function () {
     css: '',
     columns: [
       {
-        id: 'protein_name',
+        id: 'Organism',
         map: '#data0#',
+        header: [
+          'Organism',
+          {
+            content: 'selectFilter',
+          },
+        ],
+        width: 200,
+        tooltip: false
+      },
+      {
+        id: 'protein_name',
+        map: '#data1#',
         header: [
           'Name',
           {
             content: 'textFilter',
           },
         ],
-        width: 200,
+        adjust: true,
+        minWidth: 115,
+        maxWidth: 200,
+        fillspace: true
       },
       {
         id: 'uniprot_id',
-        map: '#data1#',
+        map: '#data2#',
         header: [
           'Uniprot ID',
           {
             content: 'textFilter',
           },
         ],
-        width: 150,
+        width: 110,
+        tooltip: false
       },
       {
         id: 'ncbi_gene_id',
-        map: '#data2#',
+        map: '#data3#',
         header: [
           'NCBI Gene ID',
           {
             content: 'textFilter',
           },
         ],
-        width: 300,
+        width: 140
       },
       {
         id: 'function',
-        map: '#data3#',
+        map: '#data4#',
         header: [
           'Function',
           {
             content: 'selectFilter',
           },
         ],
-        width: 250,
+        width: 260,
+        tooltip: false
       },
     ],
     url: data_url_prefix + 'data/browse_tables/all_species_LT_browse_update.csv',
     resizeColumn: true,
     datatype: 'csv',
+    fixedRowHeight: false,
     autoheight: true,
-    autowidth: true,
+    scroll: false,
+    tooltip: true,
     pager: {
       css: '',
       template:
@@ -67,6 +86,9 @@ webix.ready(function () {
     },
     hover: 'browse_row_hover',
     on: {
+      onresize: webix.once(function () {
+        this.adjustRowHeight("data1", true);
+      }),
       onItemClick: function (id, e, trg) {
         window.open(
           data_url_prefix +
@@ -77,46 +99,4 @@ webix.ready(function () {
       },
     },
   });
-  webix.extend($$('dtable'), webix.ProgressBar);
-  var species_select = [
-    {
-      view: 'label',
-      label: 'Select an organism:',
-    },
-    {
-      view: 'select',
-      css: 'browse-select',
-      name: 'species',
-      options: data_url_prefix + 'data/spec_list.json',
-    },
-  ];
-  var species_select_form = new webix.ui({
-    css: '',
-    container: 'species_select_div',
-    id: 'species_select_form',
-    view: 'form',
-    scroll: false,
-    width: 300,
-    elements: species_select,
-  });
-  $$('species_select_form').elements['species'].attachEvent(
-    'onChange',
-    function (newv, oldv) {
-      $$('dtable').showProgress({
-        type: 'bottom',
-        delay: 3000,
-        hide: true,
-      });
-      dtable.clearAll();
-      dtable.load(
-        data_url_prefix +
-          'data/browse_tables/' +
-          newv +
-          '_LT_browse_update.csv',
-        'csv'
-      );
-      $$('dtable').show();
-      $$('dtable').refresh();
-    }
-  );
 });
