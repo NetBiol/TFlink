@@ -17,7 +17,7 @@ webix.ready(function () {
           },
         ],
         width: 200,
-        tooltip: false
+        tooltip: false,
       },
       {
         id: 'protein_name',
@@ -31,7 +31,7 @@ webix.ready(function () {
         adjust: true,
         minWidth: 115,
         maxWidth: 200,
-        fillspace: true
+        fillspace: true,
       },
       {
         id: 'uniprot_id',
@@ -43,7 +43,7 @@ webix.ready(function () {
           },
         ],
         width: 110,
-        tooltip: false
+        tooltip: false,
       },
       {
         id: 'ncbi_gene_id',
@@ -54,7 +54,7 @@ webix.ready(function () {
             content: 'textFilter',
           },
         ],
-        width: 140
+        width: 140,
       },
       {
         id: 'function',
@@ -86,9 +86,6 @@ webix.ready(function () {
     },
     hover: 'browse_row_hover',
     on: {
-      onresize: webix.once(function () {
-        this.adjustRowHeight("data1", true);
-      }),
       onItemClick: function (id, e, trg) {
         window.open(
           data_url_prefix +
@@ -97,6 +94,6 @@ webix.ready(function () {
             '/'
         );
       },
-    },
+    }
   });
 });
