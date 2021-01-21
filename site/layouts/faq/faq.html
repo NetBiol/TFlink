@@ -424,7 +424,7 @@
         <tr>
           {{ with index $row 0 }}
             <td rowspan={{ . }}>
-              <a {{ printf "href=%q" (index $row 1) | safeHTMLAttr }}>
+              <a {{ printf `href=%q target="_blank"` (index $row 1) | safeHTMLAttr }}>
                 {{ index $row 2 }}
               </a>
             </td>
@@ -497,7 +497,6 @@
 
 <script>
   $('#nav_faq').addClass('navbar-active');
-  $("a").attr("target", "_blank");
 </script>
 
 {{ $script := .Site.Data.webpack.scrollUp }}
