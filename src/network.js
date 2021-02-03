@@ -63,6 +63,68 @@ $(document).ready(function() {
     }).run();
   }
 
+  function createControlDiv(cy, container) {
+    webix.ui({
+      container: container,
+      css: {
+        "background-color": "transparent !important"
+      },
+      view: "form",
+      borderless: true,
+      paddingY: 5,
+      paddingX: 10,
+      cols: [
+        {
+          view: "button",
+          type: "icon",
+          icon: "wxi-download",
+          width: 35,
+          value: "Download image",
+          tooltip: true,
+          click: function() {
+            webix.html.download(
+              cy.png(),
+              "TFLink_" + $("#uniprot-ac").text() + ".png"
+            );
+          }
+        },
+        {
+          view: "button",
+          type: "icon",
+          icon: "wxi-sync",
+          width: 35,
+          value: "Fit network",
+          tooltip: true,
+          click: function() {
+            cy.fit();
+          }
+        },
+        {
+          view: "button",
+          type: "icon",
+          icon: "wxi-plus",
+          width: 35,
+          value: "Zoom +",
+          tooltip: true,
+          click: function() {
+            cy.zoom(cy.zoom() + 0.5);
+          }
+        },
+        {
+          view: "button",
+          type: "icon",
+          icon: "wxi-minus",
+          width: 35,
+          value: "Zoom -",
+          tooltip: true,
+          click: function() {
+            cy.zoom(cy.zoom() - 0.5);
+          }
+        }
+      ]
+    });
+  }
+
   const cyStyle = [
     {
       selector: "node",
@@ -129,65 +191,7 @@ $(document).ready(function() {
       .update();
 
     createNodes(cyTarget, targetId, true);
-    const targetControlDiv = webix.ui({
-      container: "targetControlDiv",
-      css: {
-        "background-color": "transparent !important"
-      },
-      view: "form",
-      borderless: true,
-      paddingY: 5,
-      paddingX: 10,
-      cols: [
-        {
-          view: "button",
-          type: "icon",
-          icon: "wxi-download",
-          width: 35,
-          value: "Download image",
-          tooltip: true,
-          click: function() {
-            webix.html.download(
-              cyTarget.png(),
-              "TFLink_" + $("#uniprot-ac").text() + ".png"
-            );
-          }
-        },
-        {
-          view: "button",
-          type: "icon",
-          icon: "wxi-sync",
-          width: 35,
-          value: "Fit network",
-          tooltip: true,
-          click: function() {
-            cyTarget.fit();
-          }
-        },
-        {
-          view: "button",
-          type: "icon",
-          icon: "wxi-plus",
-          width: 35,
-          value: "Zoom +",
-          tooltip: true,
-          click: function() {
-            cyTarget.zoom(cyTarget.zoom() + 0.5);
-          }
-        },
-        {
-          view: "button",
-          type: "icon",
-          icon: "wxi-minus",
-          width: 35,
-          value: "Zoom -",
-          tooltip: true,
-          click: function() {
-            cyTarget.zoom(cyTarget.zoom() - 0.5);
-          }
-        }
-      ]
-    });
+    createControlDiv(cyTarget, "targetControlDiv");
   }
 
   if (cyTf) {
@@ -205,64 +209,6 @@ $(document).ready(function() {
       })
       .update();
     createNodes(cyTf, tfId);
-    const tfControlDiv = webix.ui({
-      container: "tfControlDiv",
-      css: {
-        "background-color": "transparent !important"
-      },
-      view: "form",
-      borderless: true,
-      paddingY: 5,
-      paddingX: 10,
-      cols: [
-        {
-          view: "button",
-          type: "icon",
-          icon: "wxi-download",
-          width: 35,
-          value: "Download image",
-          tooltip: true,
-          click: function() {
-            webix.html.download(
-              cyTf.png(),
-              "TFLink_" + $("#uniprot-ac").text() + ".png"
-            );
-          }
-        },
-        {
-          view: "button",
-          type: "icon",
-          icon: "wxi-sync",
-          width: 35,
-          value: "Fit network",
-          tooltip: true,
-          click: function() {
-            cyTf.fit();
-          }
-        },
-        {
-          view: "button",
-          type: "icon",
-          icon: "wxi-plus",
-          width: 35,
-          value: "Zoom +",
-          tooltip: true,
-          click: function() {
-            cyTf.zoom(cyTf.zoom() + 0.5);
-          }
-        },
-        {
-          view: "button",
-          type: "icon",
-          icon: "wxi-minus",
-          width: 35,
-          value: "Zoom -",
-          tooltip: true,
-          click: function() {
-            cyTf.zoom(cyTf.zoom() - 0.5);
-          }
-        }
-      ]
-    });
+    createControlDiv(cyTf, "tfControlDiv");
   }
 });
