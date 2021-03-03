@@ -20,7 +20,7 @@ $(document).ready(function () {
                   },
                 ],
                 template: function (obj) {
-                  return `<a href='/protein/${obj.data1.toLowerCase()}/'>${
+                  return `<a href='/protein/${obj.data1.toLowerCase()}/' target='_blank'>${
                     obj.data0
                   }</a>`;
                 },
@@ -94,6 +94,17 @@ $(document).ready(function () {
                   },
                 ],
                 width: 110,
+                tooltip: false,
+              },
+              {
+                id: "data6",
+                header: [
+                  "Small-scale evidence",
+                  {
+                    content: "selectFilter",
+                  },
+                ],
+                adjust: true,
                 tooltip: false,
               },
             ],
@@ -139,7 +150,7 @@ $(document).ready(function () {
                   },
                 ],
                 template: function (obj) {
-                  return `<a href='/protein/${obj.data1.toLowerCase()}/'>${
+                  return `<a href='/protein/${obj.data1.toLowerCase()}/' target='_blank'>${
                     obj.data0
                   }</a>`;
                 },
@@ -215,6 +226,17 @@ $(document).ready(function () {
                 ],
                 adjust: true,
                 width: 110,
+                tooltip: false,
+              },
+              {
+                id: "data6",
+                header: [
+                  "Small-scale evidence",
+                  {
+                    content: "selectFilter",
+                  },
+                ],
+                adjust: true,
                 tooltip: false,
               },
             ],
@@ -291,9 +313,9 @@ $(document).ready(function () {
               {
                 id: "data4",
                 header: [
-                  "Assembly",
+                  "Small-scale evidence",
                   {
-                    content: "textFilter",
+                    content: "selectFilter",
                   },
                 ],
                 adjust: true,
@@ -301,7 +323,7 @@ $(document).ready(function () {
               {
                 id: "data5",
                 header: [
-                  "Chromosome",
+                  "Assembly",
                   {
                     content: "textFilter",
                   },
@@ -311,7 +333,7 @@ $(document).ready(function () {
               {
                 id: "data6",
                 header: [
-                  "Start",
+                  "Chromosome",
                   {
                     content: "textFilter",
                   },
@@ -320,6 +342,16 @@ $(document).ready(function () {
               },
               {
                 id: "data7",
+                header: [
+                  "Start",
+                  {
+                    content: "textFilter",
+                  },
+                ],
+                adjust: true,
+              },
+              {
+                id: "data8",
                 header: [
                   "End",
                   {
@@ -374,5 +406,5 @@ $(document).ready(function () {
   let siluette = `<img src="/images/siluettes/${species}.svg" />`;
   $("#species_siluette").html(siluette);
 
-  $("a").attr("target", "_blank");
+  $(".target-blank a").attr("target", "_blank");
 });
