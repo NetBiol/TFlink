@@ -6,74 +6,55 @@ webix.ready(function () {
     css: "",
     columns: [
       {
-        id: "Organism",
-        map: "#data0#",
-        header: [
-          "Organism",
-          {
-            content: "selectFilter",
-          },
-        ],
-        width: 200,
-        tooltip: false,
-      },
-      {
         id: "protein_name",
-        map: "#data1#",
+        map: "#data0#",
         header: [
           "Name",
           {
             content: "textFilter",
           },
         ],
-        adjust: true,
-        minWidth: 115,
-        maxWidth: 200,
-        fillspace: true,
+        width: 200,
       },
       {
         id: "uniprot_id",
-        map: "#data2#",
+        map: "#data1#",
         header: [
           "Uniprot ID",
           {
             content: "textFilter",
           },
         ],
-        width: 110,
-        tooltip: false,
+        width: 150,
       },
       {
         id: "ncbi_gene_id",
-        map: "#data3#",
+        map: "#data2#",
         header: [
           "NCBI Gene ID",
           {
             content: "textFilter",
           },
         ],
-        width: 140,
+        width: 300,
       },
       {
         id: "function",
-        map: "#data4#",
+        map: "#data3#",
         header: [
           "Function",
           {
             content: "selectFilter",
           },
         ],
-        width: 260,
-        tooltip: false,
+        width: 250,
       },
     ],
     url: "data/browse_tables/all_species_LT_browse_update.csv",
     resizeColumn: true,
     datatype: "csv",
-    fixedRowHeight: false,
     autoheight: true,
-    scroll: false,
-    tooltip: true,
+    autowidth: true,
     pager: {
       css: "",
       template:
@@ -91,4 +72,45 @@ webix.ready(function () {
       },
     },
   });
+  webix.extend($$("dtable"), webix.ProgressBar);
+  var species_select = [
+    {
+      view: "label",
+      label: "Select an organism:",
+    },
+    {
+      view: "select",
+      css: "browse-select",
+      name: "species",
+      options: "data/spec_list.json",
+    },
+  ];
+  var species_select_form = new webix.ui({
+    css: "",
+    container: "species_select_div",
+    id: "species_select_form",
+    view: "form",
+    scroll: false,
+    width: 300,
+    elements: species_select,
+  });
+  $$("species_select_form").elements["species"].attachEvent(
+    "onChange",
+    function (newv, oldv) {
+      $$("dtable").showProgress({
+        type: "bottom",
+        delay: 3000,
+        hide: true,
+      });
+      dtable.clearAll();
+      dtable.load(
+          "data/browse_tables/" +
+          newv +
+          "_LT_browse_update.csv",
+        "csv"
+      );
+      $$("dtable").show();
+      $$("dtable").refresh();
+    }
+  );
 });
