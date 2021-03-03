@@ -4,6 +4,7 @@ webix.ready(function () {
     id: "dtable",
     view: "datatable",
     css: "",
+    hidden: true,
     columns: [
       {
         id: "protein_name",
