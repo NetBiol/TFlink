@@ -14,7 +14,7 @@ webix.ready(function () {
             content: "textFilter",
           },
         ],
-        width: 200,
+        width: 150,
       },
       {
         id: "uniprot_id",
@@ -36,7 +36,7 @@ webix.ready(function () {
             content: "textFilter",
           },
         ],
-        width: 300,
+        width: 150,
       },
       {
         id: "function",
@@ -49,8 +49,24 @@ webix.ready(function () {
         ],
         width: 250,
       },
+      {
+        id: "ss_evidence",
+        map: "#data4#",
+        header: [
+          "Small-scale evidence",
+          {
+            content: "selectFilter",
+          },
+        ],
+        width: 165,
+      },
+      {
+        id: "number_of_interactions",
+        map: "#data5#",
+        header: ["Number of interactions"],
+        adjust: "header",
+      },
     ],
-    url: "data/browse_tables/all_species_LT_browse_update.csv",
     resizeColumn: true,
     datatype: "csv",
     autoheight: true,
@@ -103,12 +119,7 @@ webix.ready(function () {
         hide: true,
       });
       dtable.clearAll();
-      dtable.load(
-          "data/browse_tables/" +
-          newv +
-          "_LT_browse_update.csv",
-        "csv"
-      );
+      dtable.load("data/browse_tables/" + newv + "_browse.csv", "csv");
       $$("dtable").show();
       $$("dtable").refresh();
     }
