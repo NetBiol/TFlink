@@ -318,7 +318,7 @@ $(document).ready(function () {
                     content: "selectFilter",
                   },
                 ],
-                adjust: true,
+                width: 165,
               },
               {
                 id: "data5",
