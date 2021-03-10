@@ -10,7 +10,8 @@ function: transcription factor
 orthologs: ''
 tfs: ''
 targets: 'Keap1,Q9Z2X8,50868,TRRUST,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29087512%5Buid%5D+OR+20173742%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>'
+  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,Yes'
 binding_sites: ''
+binding_sites_ls: ''
 
 ---

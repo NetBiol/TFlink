@@ -1,0 +1,38 @@
+---
+type: protein
+layout: protein
+title: Q8ITY9
+protein_name: '-'
+uniprot_accession: Q8ITY9
+ncbi_gene_id: '175422'
+organism: Caenorhabditis elegans
+function: target gene
+orthologs: ''
+tfs: 'lin-61,B2D6M2,172467,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
+  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+
+  efl-1,G5EF11,180133,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
+  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+
+  pros-1,P34522,176137,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
+  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+
+  lin-13,Q11107,176083,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
+  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+
+  elt-1,P28515,177794,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
+  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+
+  blmp-1,Q93560,172917,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
+  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+
+  mtl-2,P17512,179899,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
+  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+
+  kle-2,P34341,176116,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
+  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No'
+targets: ''
+binding_sites: ''
+binding_sites_ls: ''
+
+---

@@ -1,0 +1,32 @@
+---
+type: protein
+layout: protein
+title: Q7TQU0
+protein_name: Olfr1535
+uniprot_accession: Q7TQU0
+ncbi_gene_id: '404335'
+organism: Mus musculus
+function: target gene
+orthologs: ''
+tfs: 'Jun,P05627,16476,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
+  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+
+  Irf8,P23611,15900,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
+  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+
+  Runx1,Q03347,,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
+  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+
+  Med1,Q925J9,19014,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
+  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+
+  Nr3c1,P06537,,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
+  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+
+  Ezh2,Q61188,14056,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
+  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No'
+targets: ''
+binding_sites: ''
+binding_sites_ls: ''
+
+---

@@ -9,8 +9,9 @@ organism: Mus musculus
 function: target gene
 orthologs: ''
 tfs: 'Six3,Q62233,20473,TRRUST,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=20890044%5Buid%5D+OR+29087512%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>'
+  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,Yes'
 targets: ''
 binding_sites: ''
+binding_sites_ls: ''
 
 ---

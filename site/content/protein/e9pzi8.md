@@ -1,0 +1,17 @@
+---
+type: protein
+layout: protein
+title: E9PZI8
+protein_name: Gm7233
+uniprot_accession: E9PZI8
+ncbi_gene_id: '-'
+organism: Mus musculus
+function: target gene
+orthologs: ''
+tfs: 'Cebpa,P53566,12606,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
+  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No'
+targets: ''
+binding_sites: ''
+binding_sites_ls: ''
+
+---

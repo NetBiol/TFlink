@@ -1,0 +1,20 @@
+---
+type: protein
+layout: protein
+title: Q9XUM6
+protein_name: bath-34
+uniprot_accession: Q9XUM6
+ncbi_gene_id: '24104971'
+organism: Caenorhabditis elegans
+function: target gene
+orthologs: ''
+tfs: 'nfya-1,G5EEG1,181368,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
+  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+
+  lsy-2,Q9N5S3,180522,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
+  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No'
+targets: ''
+binding_sites: ''
+binding_sites_ls: ''
+
+---

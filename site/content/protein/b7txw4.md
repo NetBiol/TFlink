@@ -1,0 +1,17 @@
+---
+type: protein
+layout: protein
+title: B7TXW4
+protein_name: LOC689757
+uniprot_accession: B7TXW4
+ncbi_gene_id: '689757'
+organism: Rattus norvegicus
+function: target gene
+orthologs: ''
+tfs: 'Satb1,Q5U2Y2,316164,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
+  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No'
+targets: ''
+binding_sites: ''
+binding_sites_ls: ''
+
+---

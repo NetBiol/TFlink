@@ -1,0 +1,17 @@
+---
+type: protein
+layout: protein
+title: V6CKK1
+protein_name: '-'
+uniprot_accession: V6CKK1
+ncbi_gene_id: '259887'
+organism: Caenorhabditis elegans
+function: target gene
+orthologs: ''
+tfs: 'tdp-1,D0VWM8,174436,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
+  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No'
+targets: ''
+binding_sites: ''
+binding_sites_ls: ''
+
+---

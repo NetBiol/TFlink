@@ -1,0 +1,17 @@
+---
+type: protein
+layout: protein
+title: Q9QXI3
+protein_name: Gpr26
+uniprot_accession: Q9QXI3
+ncbi_gene_id: '192153'
+organism: Rattus norvegicus
+function: target gene
+orthologs: ''
+tfs: 'Rest,O54963,83618,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
+  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No'
+targets: ''
+binding_sites: ''
+binding_sites_ls: ''
+
+---

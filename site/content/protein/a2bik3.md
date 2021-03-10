@@ -1,0 +1,17 @@
+---
+type: protein
+layout: protein
+title: A2BIK3
+protein_name: b3gnt2l
+uniprot_accession: A2BIK3
+ncbi_gene_id: '797513'
+organism: Danio rerio
+function: target gene
+orthologs: ''
+tfs: 'foxh1,Q9I9E1,57930,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
+  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No'
+targets: ''
+binding_sites: ''
+binding_sites_ls: ''
+
+---

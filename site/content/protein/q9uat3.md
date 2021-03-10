@@ -1,0 +1,20 @@
+---
+type: protein
+layout: protein
+title: Q9UAT3
+protein_name: mct-2
+uniprot_accession: Q9UAT3
+ncbi_gene_id: 182056;189489
+organism: Caenorhabditis elegans
+function: target gene
+orthologs: ''
+tfs: 'tra-1,P34708,,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
+  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+
+  zip-8,P46505,175924,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
+  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No'
+targets: ''
+binding_sites: ''
+binding_sites_ls: ''
+
+---

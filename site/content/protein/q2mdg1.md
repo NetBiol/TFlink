@@ -1,0 +1,20 @@
+---
+type: protein
+layout: protein
+title: Q2MDG1
+protein_name: Rhox4c
+uniprot_accession: Q2MDG1
+ncbi_gene_id: '434759'
+organism: Mus musculus
+function: target gene
+orthologs: ''
+tfs: 'Trim28,Q62318,21849,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
+  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+
+  Baz1b,Q9Z277,22385,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
+  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No'
+targets: ''
+binding_sites: ''
+binding_sites_ls: ''
+
+---

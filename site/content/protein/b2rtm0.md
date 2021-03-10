@@ -9,23 +9,21 @@ organism: Mus musculus
 function: target gene
 orthologs: ''
 tfs: 'Irf3,P70671,54131,TRRUST,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29087512%5Buid%5D+OR+11278666%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>
+  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,Yes
 
   Irf7,P70434,54123,TRRUST,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29087512%5Buid%5D+OR+11278666%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>
+  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,Yes
 
   Irf2,P23906,16363,TRRUST,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29087512%5Buid%5D+OR+12738767%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>
-
-  Cux1,P70403,,TRRUST,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29087512%5Buid%5D+OR+12891711%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>
+  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,Yes
 
   Irf1,P15314,16362,TRRUST,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29087512%5Buid%5D+OR+11278666%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>
+  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,Yes
 
   Cux1,P53564,13047,TRRUST,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29087512%5Buid%5D+OR+12891711%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>'
+  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,Yes'
 targets: ''
 binding_sites: ''
+binding_sites_ls: ''
 
 ---

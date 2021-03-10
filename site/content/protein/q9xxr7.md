@@ -1,0 +1,20 @@
+---
+type: protein
+layout: protein
+title: Q9XXR7
+protein_name: sru-9
+uniprot_accession: Q9XXR7
+ncbi_gene_id: '189920'
+organism: Caenorhabditis elegans
+function: target gene
+orthologs: ''
+tfs: 'snpc-4,P91868,172711,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
+  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+
+  snpc-1.1,Q17694,174255,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
+  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No'
+targets: ''
+binding_sites: ''
+binding_sites_ls: ''
+
+---

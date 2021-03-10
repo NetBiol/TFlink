@@ -1,0 +1,20 @@
+---
+type: protein
+layout: protein
+title: Q7TRU9
+protein_name: Olfr487
+uniprot_accession: Q7TRU9
+ncbi_gene_id: '258042'
+organism: Mus musculus
+function: target gene
+orthologs: ''
+tfs: 'Vdr,P48281,22337,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
+  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+
+  Nr1d1,Q3UV55,217166,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
+  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No'
+targets: ''
+binding_sites: ''
+binding_sites_ls: ''
+
+---

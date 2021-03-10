@@ -9,11 +9,12 @@ organism: Mus musculus
 function: target gene
 orthologs: ''
 tfs: 'Ar,P19091,11835,TRED,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=17202159%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>
+  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,Yes
 
   Pou2f1,P25425,18986,TRED,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=17202159%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>'
+  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,Yes'
 targets: ''
 binding_sites: ''
+binding_sites_ls: ''
 
 ---

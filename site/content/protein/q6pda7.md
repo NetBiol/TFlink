@@ -1,0 +1,20 @@
+---
+type: protein
+layout: protein
+title: Q6PDA7
+protein_name: SPAG11A
+uniprot_accession: Q6PDA7
+ncbi_gene_id: 10407;653423
+organism: Homo sapiens
+function: target gene
+orthologs: ''
+tfs: 'AR,P10275,367,HTRI,chromatin immunoprecipitation array,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=22900683%5Buid%5D+OR+20610535%5Buid%5D"
+  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+
+  YBX1,P67809,4904,HTRI,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=19151767%5Buid%5D+OR+22900683%5Buid%5D"
+  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No'
+targets: ''
+binding_sites: ''
+binding_sites_ls: ''
+
+---

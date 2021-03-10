@@ -1,0 +1,17 @@
+---
+type: protein
+layout: protein
+title: Q6NUX9
+protein_name: timp2b
+uniprot_accession: Q6NUX9
+ncbi_gene_id: '406650'
+organism: Danio rerio
+function: target gene
+orthologs: ''
+tfs: 'smad2,Q9I9P9,30639,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
+  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No'
+targets: ''
+binding_sites: ''
+binding_sites_ls: ''
+
+---

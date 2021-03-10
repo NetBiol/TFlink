@@ -1,0 +1,20 @@
+---
+type: protein
+layout: protein
+title: Q8SXV8
+protein_name: '-'
+uniprot_accession: Q8SXV8
+ncbi_gene_id: '-'
+organism: Drosophila melanogaster
+function: target gene
+orthologs: ''
+tfs: 'lark,Q94901,38811,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
+  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+
+  pds5,A1Z8S6,36286,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
+  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No'
+targets: ''
+binding_sites: ''
+binding_sites_ls: ''
+
+---

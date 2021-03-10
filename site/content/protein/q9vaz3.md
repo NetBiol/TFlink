@@ -9,14 +9,15 @@ organism: Drosophila melanogaster
 function: target gene
 orthologs: ''
 tfs: 'Xbp1,Q8MLW7,44226,REDfly,electrophoretic mobility shift assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=20965965%5Buid%5D+OR+22427741%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>
+  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,Yes
 
   acj6,P24350,47080,REDfly,electrophoretic mobility shift assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=20965965%5Buid%5D+OR+22427741%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>
+  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,Yes
 
-  Xbp1,Q5BI44,44226,REDfly,electrophoretic mobility shift assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=20965965%5Buid%5D+OR+22427741%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>'
+  Myc,Q9W4S7,31310,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
+  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No'
 targets: ''
 binding_sites: ''
+binding_sites_ls: ''
 
 ---

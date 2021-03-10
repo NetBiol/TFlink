@@ -9,17 +9,18 @@ organism: Homo sapiens
 function: target gene
 orthologs: ''
 tfs: 'PPARA,Q07869,5465,TRRUST,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29087512%5Buid%5D+OR+11564716%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>
+  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,Yes
 
   RXRA,P19793,6256,TRRUST,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29087512%5Buid%5D+OR+11564716%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>
+  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,Yes
 
   KLF6,Q99612,1316,TRRUST,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=21799854%5Buid%5D+OR+29087512%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>
+  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,Yes
 
   MTA3,Q9BTC8,57504,TRRUST,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=23510993%5Buid%5D+OR+29087512%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>'
+  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,Yes'
 targets: ''
 binding_sites: ''
+binding_sites_ls: ''
 
 ---
