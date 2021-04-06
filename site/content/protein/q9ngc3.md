@@ -286,6 +286,9 @@ tfs: 'CHES-1-like,Q9W3Q5,31678,GTRD,chromatin immunoprecipitation assay,&ensp;<a
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No'
 targets: ''
 binding_sites: ''
+tfs_download: ''
+targets_download: ''
+bindingSites_download: ''
 binding_sites_ls: ''
 
 ---

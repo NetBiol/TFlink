@@ -253,6 +253,9 @@ targets: 'Sox17,Q61473,20671,TRRUST,inferred by curator,&ensp;<a href="https://w
   Sftpc,P21841,,TRRUST,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29087512%5Buid%5D+OR+17347682%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,Yes'
 binding_sites: ''
+tfs_download: ''
+targets_download: ''
+bindingSites_download: ''
 binding_sites_ls: ''
 
 ---

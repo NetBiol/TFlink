@@ -13,6 +13,9 @@ targets: 'Rho,A0A0G2JSY7,24717,ORegAnno; PAZAR,inferred by curator,&ensp;<a href
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No'
 binding_sites: 'TFLinkLT10035919,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=18971253%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,ORegAnno,Yes,rn6,chr4,147832045,147832062,+'
+tfs_download: ''
+targets_download: ''
+bindingSites_download: ''
 binding_sites_ls: ''
 
 ---

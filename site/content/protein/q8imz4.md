@@ -107,6 +107,9 @@ targets: 'rpr,Q24475,40015,REDfly,one hybrid,&ensp;<a href="https://www.ncbi.nlm
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No'
 binding_sites: 'TFLinkLT09282745,one hybrid,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=10778860;20965965%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,REDfly,Yes,dm6,3L,18403256,18403277,NA'
+tfs_download: ''
+targets_download: ''
+bindingSites_download: ''
 binding_sites_ls: ''
 
 ---

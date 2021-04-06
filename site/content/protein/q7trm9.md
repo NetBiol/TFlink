@@ -51,6 +51,9 @@ tfs: 'Runx2,Q08775,12393,TRRUST,inferred by curator,&ensp;<a href="https://www.n
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No'
 targets: ''
 binding_sites: ''
+tfs_download: ''
+targets_download: ''
+bindingSites_download: ''
 binding_sites_ls: ''
 
 ---

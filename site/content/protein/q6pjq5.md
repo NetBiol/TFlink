@@ -97,6 +97,9 @@ targets: 'GTPBP4,Q9BZE4,23560,GTRD,chromatin immunoprecipitation assay,&ensp;<a 
   SSR2,P43308,6746,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No'
 binding_sites: ''
+tfs_download: ''
+targets_download: ''
+bindingSites_download: ''
 binding_sites_ls: ''
 
 ---

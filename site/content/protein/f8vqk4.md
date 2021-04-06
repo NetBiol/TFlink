@@ -280,6 +280,9 @@ tfs: 'Tet1,Q3URK3,,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No'
 targets: ''
 binding_sites: ''
+tfs_download: ''
+targets_download: ''
+bindingSites_download: ''
 binding_sites_ls: ''
 
 ---

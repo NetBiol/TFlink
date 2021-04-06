@@ -30,6 +30,9 @@ targets: 'Scnn1a,Q61180,20276,TRRUST,inferred by curator,&ensp;<a href="https://
   Sgk1,Q9WVC6,20393,TRRUST,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=24491541%5Buid%5D+OR+29087512%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,Yes'
 binding_sites: ''
+tfs_download: ''
+targets_download: ''
+bindingSites_download: ''
 binding_sites_ls: ''
 
 ---

@@ -127,6 +127,9 @@ tfs: 'RORC,P51449,6097,KEGG_via_DoRothEA; TRRUST,inferred by curator,&ensp;<a hr
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No'
 targets: ''
 binding_sites: ''
+tfs_download: ''
+targets_download: ''
+bindingSites_download: ''
 binding_sites_ls: ''
 
 ---

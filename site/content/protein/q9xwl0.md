@@ -79,6 +79,9 @@ targets: 'rpl-35,P34662,176097,GTRD,chromatin immunoprecipitation assay,&ensp;<a
   eel-1,Q9GUP2,177084,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No'
 binding_sites: ''
+tfs_download: ''
+targets_download: ''
+bindingSites_download: ''
 binding_sites_ls: ''
 
 ---

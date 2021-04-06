@@ -309,6 +309,9 @@ tfs: 'attf-5,Q22173,3565014,GTRD,chromatin immunoprecipitation assay,&ensp;<a hr
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No'
 targets: ''
 binding_sites: ''
+tfs_download: ''
+targets_download: ''
+bindingSites_download: ''
 binding_sites_ls: ''
 
 ---

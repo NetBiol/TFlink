@@ -111,6 +111,9 @@ tfs: 'Nup98-96,Q9VCH5,42816,GTRD,chromatin immunoprecipitation assay,&ensp;<a hr
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No'
 targets: ''
 binding_sites: ''
+tfs_download: ''
+targets_download: ''
+bindingSites_download: ''
 binding_sites_ls: ''
 
 ---

@@ -92,6 +92,9 @@ targets: 'Or98a,Q9VAZ3,43341,REDfly,electrophoretic mobility shift assay,&ensp;<
   Or67c,Q9VT90,39189,REDfly,electrophoretic mobility shift assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=20965965%5Buid%5D+OR+22427741%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,Yes'
 binding_sites: ''
+tfs_download: ''
+targets_download: ''
+bindingSites_download: ''
 binding_sites_ls: ''
 
 ---

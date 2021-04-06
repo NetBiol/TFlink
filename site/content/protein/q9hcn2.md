@@ -240,6 +240,9 @@ tfs: 'TP53,P04637,7157,GTRD; IntAct_via_DoRothEA; KEGG_via_DoRothEA; ReMap,chrom
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No'
 targets: ''
 binding_sites: ''
+tfs_download: ''
+targets_download: ''
+bindingSites_download: ''
 binding_sites_ls: ''
 
 ---

@@ -160,6 +160,9 @@ tfs: 'anon-63BC-T3,Q960J7,38388,GTRD,chromatin immunoprecipitation assay,&ensp;<
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No'
 targets: ''
 binding_sites: ''
+tfs_download: ''
+targets_download: ''
+bindingSites_download: ''
 binding_sites_ls: ''
 
 ---

@@ -175,6 +175,9 @@ targets: 'myo,Q9V4F4,43811,GTRD,chromatin immunoprecipitation assay,&ensp;<a hre
   4E-T,Q8IH18,43836,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No'
 binding_sites: ''
+tfs_download: ''
+targets_download: ''
+bindingSites_download: ''
 binding_sites_ls: ''
 
 ---

@@ -72,6 +72,9 @@ binding_sites: 'TFLinkLT09282050,electrophoretic mobility shift assay,&ensp;<a h
 
   TFLinkLT09282068,experimental interaction detection,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=17224261;20965965%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,REDfly,Yes,dm6,3L,15046268,15046273,NA'
+tfs_download: ''
+targets_download: ''
+bindingSites_download: ''
 binding_sites_ls: ''
 
 ---

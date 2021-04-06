@@ -226,6 +226,9 @@ binding_sites: 'TFLinkLT02035674,one hybrid,&ensp;<a href="https://www.ncbi.nlm.
 
   TFLinkLT02035696,one hybrid,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=18585360%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,jaspar,Yes,-,-,-,-,-'
+tfs_download: ''
+targets_download: ''
+bindingSites_download: ''
 binding_sites_ls: ''
 
 ---

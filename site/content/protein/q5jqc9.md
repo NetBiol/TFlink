@@ -161,6 +161,9 @@ tfs: 'GLI2,P10070,2736,TFactS_via_DoRothea,inferred by curator,&ensp;<a href="ht
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No'
 targets: ''
 binding_sites: ''
+tfs_download: ''
+targets_download: ''
+bindingSites_download: ''
 binding_sites_ls: ''
 
 ---

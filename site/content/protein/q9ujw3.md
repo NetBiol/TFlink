@@ -243,6 +243,9 @@ tfs: 'ELF1,P32519,1997,ReMap,chromatin immunoprecipitation assay,&ensp;<a href="
 targets: 'TDG,Q13569,6996,TRRUST,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=20428781%5Buid%5D+OR+29087512%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,Yes'
 binding_sites: ''
+tfs_download: ''
+targets_download: ''
+bindingSites_download: ''
 binding_sites_ls: ''
 
 ---

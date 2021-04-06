@@ -250,6 +250,9 @@ targets: 'D19B,Q9VRV4,38717,GTRD,chromatin immunoprecipitation assay,&ensp;<a hr
   Dmel\CG12299,Q9VKQ7,34483,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No'
 binding_sites: ''
+tfs_download: ''
+targets_download: ''
+bindingSites_download: ''
 binding_sites_ls: ''
 
 ---

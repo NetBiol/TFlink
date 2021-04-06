@@ -272,6 +272,9 @@ targets: 'Dmel\CG10467,Q9VRU1,38697,GTRD,chromatin immunoprecipitation assay,&en
   Ih,A1Z9N7,36589,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No'
 binding_sites: ''
+tfs_download: ''
+targets_download: ''
+bindingSites_download: ''
 binding_sites_ls: ''
 
 ---

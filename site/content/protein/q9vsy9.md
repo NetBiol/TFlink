@@ -137,6 +137,9 @@ targets: 'sev,P13368,32039,REDfly,experimental interaction detection,&ensp;<a hr
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,Yes'
 binding_sites: 'TFLinkLT09282680,experimental interaction detection,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=23213364;20965965%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,REDfly,Yes,dm6,X,11086298,11086309,NA'
+tfs_download: ''
+targets_download: ''
+bindingSites_download: ''
 binding_sites_ls: ''
 
 ---

@@ -273,6 +273,9 @@ targets: 'Ndg,A1Z877,36089,REDfly,electrophoretic mobility shift assay,&ensp;<a 
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No'
 binding_sites: 'TFLinkLT09282079,electrophoretic mobility shift assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=22378636;20965965%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,REDfly,Yes,dm6,2R,10316054,10316066,NA'
+tfs_download: ''
+targets_download: ''
+bindingSites_download: ''
 binding_sites_ls: ''
 
 ---

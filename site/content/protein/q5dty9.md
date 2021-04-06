@@ -137,6 +137,9 @@ tfs: 'Atoh1,P48985,11921,GTRD; ORegAnno; PAZAR,chromatin immunoprecipitation ass
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No'
 targets: ''
 binding_sites: ''
+tfs_download: ''
+targets_download: ''
+bindingSites_download: ''
 binding_sites_ls: ''
 
 ---

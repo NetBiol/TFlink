@@ -306,24 +306,6 @@ tfs: 'msl-1,P50535,35121,GTRD,chromatin immunoprecipitation assay,&ensp;<a href=
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
 
   dl,P15330,35047,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
-
-  msl-2,P50534,33565,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
-
-  psq,A1Z8A6,36118,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
-
-  hth,O46339,41273,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
-
-  Orc2,Q24168,41703,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
-
-  Top3beta,O96651,31565,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
-
-  shep,Q8MSV2,38605,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No'
 targets: 'ct,P10180,44540,REDfly,electrophoretic mobility shift assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29714689%5Buid%5D+OR+20965965%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,Yes
@@ -658,82 +640,10 @@ binding_sites: 'TFLinkLT09282748,electrophoretic mobility shift assay,&ensp;<a h
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,jaspar,No,dm,chr2R,18579137,18579150,-
 
   TFLinkLT06253246,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=9118222%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,jaspar,No,dm,chr3R,12590010,12590023,+
-
-  TFLinkLT06253247,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=9118222%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,jaspar,No,dm,chr3L,506164,506177,+
-
-  TFLinkLT06253248,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=9118222%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,jaspar,No,dm,chr3R,16118817,16118830,-
-
-  TFLinkLT06253249,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=9118222%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,jaspar,No,dm,chrX,19390261,19390274,+
-
-  TFLinkLT06253250,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=9118222%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,jaspar,No,dm,chrX,15899330,15899343,+
-
-  TFLinkLT06253251,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=9118222%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,jaspar,No,dm,chr2L,13549374,13549387,-
-
-  TFLinkLT06253252,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=9118222%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,jaspar,No,dm,chr3R,10481008,10481021,+
-
-  TFLinkLT06253253,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=9118222%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,jaspar,No,dm,chrX,16538967,16538980,+
-
-  TFLinkLT06253254,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=9118222%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,jaspar,No,dm,chr3L,16705528,16705541,-
-
-  TFLinkLT06253255,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=9118222%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,jaspar,No,dm,chr3R,10501002,10501015,+
-
-  TFLinkLT06253256,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=9118222%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,jaspar,No,dm,chr3L,378199,378212,+
-
-  TFLinkLT06253257,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=9118222%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,jaspar,No,dm,chr3R,11482008,11482021,+
-
-  TFLinkLT06253258,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=9118222%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,jaspar,No,dm,chr3L,132162,132175,+
-
-  TFLinkLT06253259,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=9118222%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,jaspar,No,dm,chr3R,10920615,10920628,+
-
-  TFLinkLT06253260,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=9118222%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,jaspar,No,dm,chr2R,11726243,11726256,-
-
-  TFLinkLT06253261,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=9118222%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,jaspar,No,dm,chr3R,4753162,4753175,-
-
-  TFLinkLT06253262,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=9118222%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,jaspar,No,dm,chr3L,18218380,18218393,-
-
-  TFLinkLT06253263,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=9118222%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,jaspar,No,dm,chr3R,23407700,23407713,-
-
-  TFLinkLT06253264,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=9118222%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,jaspar,No,dm,chr2R,12744665,12744678,-
-
-  TFLinkLT06253265,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=9118222%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,jaspar,No,dm,chr3R,12377906,12377919,+
-
-  TFLinkLT06253266,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=9118222%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,jaspar,No,dm,chr2L,16287045,16287058,+
-
-  TFLinkLT06253267,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=9118222%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,jaspar,No,dm,chr2L,490417,490430,-
-
-  TFLinkLT06253268,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=9118222%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,jaspar,No,dm,chr2R,15758389,15758402,+
-
-  TFLinkLT06253269,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=9118222%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,jaspar,No,dm,chrX,7951139,7951152,+
-
-  TFLinkLT06253270,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=9118222%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,jaspar,No,dm,chr2L,249143,249156,-
-
-  TFLinkLT06253271,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=9118222%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,jaspar,No,dm,chr3L,21269964,21269977,+'
+  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,jaspar,No,dm,chr3R,12590010,12590023,+'
+tfs_download: tfs_of_Q8IMA8.tsv
+targets_download: ''
+bindingSites_download: bindingSites_of_Q8IMA8.tsv
 binding_sites_ls: Q8IMA8_HT.fasta
 
 ---

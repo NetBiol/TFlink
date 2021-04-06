@@ -281,6 +281,9 @@ targets: 'Pou5f1,P20263,18999,ORegAnno; PAZAR,inferred by curator,&ensp;<a href=
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No'
 binding_sites: 'TFLinkLT10015618,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=18971253%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,ORegAnno,Yes,mm10,chr17,35504003,35504020,+'
+tfs_download: ''
+targets_download: ''
+bindingSites_download: ''
 binding_sites_ls: ''
 
 ---

@@ -240,6 +240,9 @@ tfs: 'MYC,P01106,4609,GTRD; HTRI; TRED,chromatin immunoprecipitation assay; infe
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No'
 targets: ''
 binding_sites: ''
+tfs_download: ''
+targets_download: ''
+bindingSites_download: ''
 binding_sites_ls: ''
 
 ---

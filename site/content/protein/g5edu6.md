@@ -15,6 +15,9 @@ tfs: 'atf-2,Q21361,174399,ORegAnno,inferred by curator,&ensp;<a href="https://ww
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,Yes'
 targets: ''
 binding_sites: ''
+tfs_download: ''
+targets_download: ''
+bindingSites_download: ''
 binding_sites_ls: ''
 
 ---

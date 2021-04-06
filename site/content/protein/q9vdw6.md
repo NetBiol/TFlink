@@ -165,6 +165,9 @@ binding_sites: 'TFLinkLT09281545,experimental interaction detection,&ensp;<a hre
 
   TFLinkLT09281561,experimental interaction detection,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=17652079;20965965%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,REDfly,Yes,dm6,2R,11687152,11687156,NA'
+tfs_download: ''
+targets_download: ''
+bindingSites_download: ''
 binding_sites_ls: ''
 
 ---

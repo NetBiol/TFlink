@@ -275,6 +275,9 @@ tfs: 'Nrl,P54846,18185,TRRUST,inferred by curator,&ensp;<a href="https://www.ncb
 targets: 'Rho,P15409,212541,TRRUST,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=15689355%5Buid%5D+OR+29087512%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,Yes'
 binding_sites: ''
+tfs_download: ''
+targets_download: ''
+bindingSites_download: ''
 binding_sites_ls: Q9QXZ7_HT.fasta
 
 ---

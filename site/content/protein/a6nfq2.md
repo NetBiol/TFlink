@@ -107,6 +107,9 @@ tfs: 'AR,P10275,367,GTRD; HTRI,chromatin immunoprecipitation array; chromatin im
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No'
 targets: ''
 binding_sites: ''
+tfs_download: ''
+targets_download: ''
+bindingSites_download: ''
 binding_sites_ls: ''
 
 ---

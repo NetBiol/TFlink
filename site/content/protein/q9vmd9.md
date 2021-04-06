@@ -70,6 +70,9 @@ tfs: 'pan,Q8IMA8,43769,REDfly,DNase I footprinting; electrophoretic mobility shi
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No'
 targets: ''
 binding_sites: ''
+tfs_download: ''
+targets_download: ''
+bindingSites_download: ''
 binding_sites_ls: ''
 
 ---

@@ -366,14 +366,11 @@ targets: 'CG13390-RA,Q8SXX3,,GTRD,chromatin immunoprecipitation assay,&ensp;<a h
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
 
   -,F6J1V2,,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
-
-  -,Q9VSY4,39086,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
-
-  Fkbp13,Q6NL72,,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No'
 binding_sites: ''
+tfs_download: ''
+targets_download: targets_of_Q9VGK1.tsv
+bindingSites_download: ''
 binding_sites_ls: ''
 
 ---

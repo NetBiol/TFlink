@@ -160,6 +160,9 @@ targets: 'Chro,Q86BS3,40508,GTRD,chromatin immunoprecipitation assay,&ensp;<a hr
   -,A9YHM3,,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No'
 binding_sites: ''
+tfs_download: ''
+targets_download: ''
+bindingSites_download: ''
 binding_sites_ls: ''
 
 ---

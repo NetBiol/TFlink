@@ -284,6 +284,9 @@ tfs: 'TAL1,P17542,6886,GTRD; ReMap,chromatin immunoprecipitation assay,&ensp;<a 
 targets: 'CEL,P19835,,TRRUST,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=11023822%5Buid%5D+OR+29087512%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,Yes'
 binding_sites: ''
+tfs_download: ''
+targets_download: ''
+bindingSites_download: ''
 binding_sites_ls: ''
 
 ---

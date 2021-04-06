@@ -193,6 +193,9 @@ tfs: 'Irf4,Q64287,16364,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="
 targets: 'Mmp3,P28862,17392,TRRUST,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29087512%5Buid%5D+OR+10995766%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,Yes'
 binding_sites: ''
+tfs_download: ''
+targets_download: ''
+bindingSites_download: ''
 binding_sites_ls: ''
 
 ---

@@ -222,6 +222,9 @@ tfs: 'HEXIM1,O94992,10614,GTRD; ReMap,chromatin immunoprecipitation assay,&ensp;
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No'
 targets: ''
 binding_sites: ''
+tfs_download: ''
+targets_download: ''
+bindingSites_download: ''
 binding_sites_ls: ''
 
 ---

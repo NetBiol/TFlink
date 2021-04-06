@@ -311,6 +311,9 @@ tfs: 'FOXP3,Q9BZS1,50943,GTRD; HTRI,chromatin immunoprecipitation array; chromat
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No'
 targets: ''
 binding_sites: ''
+tfs_download: ''
+targets_download: ''
+bindingSites_download: ''
 binding_sites_ls: ''
 
 ---

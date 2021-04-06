@@ -93,6 +93,9 @@ tfs: 'Lef1,P27782,16842,TRRUST,inferred by curator,&ensp;<a href="https://www.nc
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No'
 targets: ''
 binding_sites: ''
+tfs_download: ''
+targets_download: ''
+bindingSites_download: ''
 binding_sites_ls: ''
 
 ---

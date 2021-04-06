@@ -77,6 +77,9 @@ targets: 'RpS3A,P55830,43768,GTRD,chromatin immunoprecipitation assay,&ensp;<a h
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No'
 binding_sites: 'TFLinkLT09283003,affinity technology,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=31948474;20965965%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,REDfly,Yes,dm6,3L,3814080,3814098,NA'
+tfs_download: ''
+targets_download: ''
+bindingSites_download: ''
 binding_sites_ls: ''
 
 ---

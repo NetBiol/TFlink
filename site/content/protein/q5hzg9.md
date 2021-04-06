@@ -208,6 +208,9 @@ tfs: 'Mtf2,Q02395,17765,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="
 targets: 'Olig1,Q9JKN5,50914,TRRUST,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29087512%5Buid%5D+OR+22355521%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,Yes'
 binding_sites: ''
+tfs_download: ''
+targets_download: ''
+bindingSites_download: ''
 binding_sites_ls: ''
 
 ---

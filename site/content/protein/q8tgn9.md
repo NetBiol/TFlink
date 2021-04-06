@@ -90,6 +90,9 @@ tfs: 'RLM1,Q12224,856016,Yeastract,tag visualisation by enzyme assay,&ensp;<a hr
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No'
 targets: ''
 binding_sites: ''
+tfs_download: ''
+targets_download: ''
+bindingSites_download: ''
 binding_sites_ls: ''
 
 ---

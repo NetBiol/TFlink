@@ -12,6 +12,9 @@ tfs: 'Klf9,O35739,,TRRUST,inferred by curator,&ensp;<a href="https://www.ncbi.nl
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,Yes'
 targets: ''
 binding_sites: ''
+tfs_download: ''
+targets_download: ''
+bindingSites_download: ''
 binding_sites_ls: ''
 
 ---

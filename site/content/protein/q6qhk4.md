@@ -243,6 +243,9 @@ targets: 'TCF3,P15923,6929,TRRUST,inferred by curator,&ensp;<a href="https://www
   TCF7L1,Q9HCS4,83439,TRRUST,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29087512%5Buid%5D+OR+18499083%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,Yes'
 binding_sites: ''
+tfs_download: ''
+targets_download: ''
+bindingSites_download: ''
 binding_sites_ls: ''
 
 ---

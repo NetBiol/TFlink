@@ -43,6 +43,9 @@ tfs: 'unc-30,P52906,178265,GTRD; ORegAnno,chromatin immunoprecipitation assay; i
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No'
 targets: ''
 binding_sites: ''
+tfs_download: ''
+targets_download: ''
+bindingSites_download: ''
 binding_sites_ls: ''
 
 ---

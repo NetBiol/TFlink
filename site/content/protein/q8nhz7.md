@@ -22,6 +22,9 @@ targets: 'FANK1,Q8TC84,92565,GTRD,chromatin immunoprecipitation assay,&ensp;<a h
   NOL7,Q9UMY1,51406,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No'
 binding_sites: ''
+tfs_download: ''
+targets_download: ''
+bindingSites_download: ''
 binding_sites_ls: ''
 
 ---

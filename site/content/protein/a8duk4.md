@@ -128,6 +128,9 @@ tfs: 'Nfe2,Q07279,18022,GTRD; TRRUST,chromatin immunoprecipitation assay; inferr
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No'
 targets: ''
 binding_sites: ''
+tfs_download: ''
+targets_download: ''
+bindingSites_download: ''
 binding_sites_ls: ''
 
 ---

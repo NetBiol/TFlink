@@ -65,6 +65,9 @@ binding_sites: 'TFLinkLT10035821,inferred by curator,&ensp;<a href="https://www.
 
   TFLinkLT10035855,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=18971253%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,ORegAnno,Yes,rn6,chrX,51286607,51286614,+'
+tfs_download: ''
+targets_download: ''
+bindingSites_download: ''
 binding_sites_ls: ''
 
 ---

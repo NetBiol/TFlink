@@ -158,6 +158,9 @@ binding_sites: 'TFLinkLT09282609,electrophoretic mobility shift assay,&ensp;<a h
 
   TFLinkLT09282606,one hybrid,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=22037703;20965965%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,REDfly,No,dm6,X,3242656,3242737,NA'
+tfs_download: ''
+targets_download: ''
+bindingSites_download: ''
 binding_sites_ls: Q9VMR2_HT.fasta
 
 ---

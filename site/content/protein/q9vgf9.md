@@ -129,6 +129,9 @@ tfs: 'BEAF-32,Q7JN06,36645,ORegAnno,inferred by curator,&ensp;<a href="https://w
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No'
 targets: ''
 binding_sites: ''
+tfs_download: ''
+targets_download: ''
+bindingSites_download: ''
 binding_sites_ls: ''
 
 ---

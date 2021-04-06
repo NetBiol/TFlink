@@ -102,6 +102,9 @@ tfs: 'SMAD3,P84022,4088,TRED,inferred by curator,&ensp;<a href="https://www.ncbi
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No'
 targets: ''
 binding_sites: ''
+tfs_download: ''
+targets_download: ''
+bindingSites_download: ''
 binding_sites_ls: ''
 
 ---

@@ -252,6 +252,9 @@ tfs: 'FOS,P01100,2353,GTRD; ORegAnno; PAZAR; ReMap; TRED; TRRUST,chromatin immun
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No'
 targets: ''
 binding_sites: ''
+tfs_download: ''
+targets_download: ''
+bindingSites_download: ''
 binding_sites_ls: ''
 
 ---
