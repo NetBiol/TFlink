@@ -156,8 +156,7 @@ $(document).ready(function() {
   const cyWheelSensitivity = 0.5;
 
   let cyTarget =
-    $("#target-network-div").length &&
-    $("#targets-below-100").offsetParent !== null
+    $("#target-network-div").length
       ? cytoscape({
           container: $("#target-network-div"),
           style: cyStyle,
@@ -166,7 +165,7 @@ $(document).ready(function() {
         })
       : null;
   let cyTf =
-    $("#tf-network-div").length && $("#tfs-below-100").offsetParent !== null
+    $("#tf-network-div").length
       ? cytoscape({
           container: $("#tf-network-div"),
           style: cyStyle,
