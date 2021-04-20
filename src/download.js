@@ -85,37 +85,39 @@ $(document).ready(function () {
         return item.id === species;
       });
 
+      const breakpoint = 5;
+
       ssDownloadFormats.forEach((key, i) => {
-        if (i == 3) htmlSS += '<p>&nbsp;</p>';
+        if (i == breakpoint) htmlSS += '<p>&nbsp;</p>';
         if (!downloadFiles[species].hasOwnProperty(key)) {
           htmlSS += '<p>&nbsp; <br/> &nbsp;</p>';
           return;
         }
         let url = `${cdnUrl}_${species}_${downloadFiles[species][key]}`;
 
-        htmlSS += `<p><a href="${url}"><i>${speciesList[index].value}</i> small-scale ${formats[i]}</a></p>`;
+        htmlSS += `<p><a href="${url}" target="_blank"><i>${speciesList[index].value}</i> small-scale ${formats[i]}</a></p>`;
       });
 
       lsDownloadFormats.forEach((key, i) => {
-        if (i == 3) htmlLS += '<p>&nbsp;</p>';
+        if (i == breakpoint) htmlLS += '<p>&nbsp;</p>';
         if (!downloadFiles[species].hasOwnProperty(key)) {
           htmlLS += '<p>&nbsp; <br/> &nbsp;</p>';
           return;
         }
         let url = `${cdnUrl}_${species}_${downloadFiles[species][key]}`;
 
-        htmlLS += `<p><a href="${url}"><i>${speciesList[index].value}</i> large-scale ${formats[i]}</a></p>`;
+        htmlLS += `<p><a href="${url}" target="_blank"><i>${speciesList[index].value}</i> large-scale ${formats[i]}</a></p>`;
       });
 
       allDownloadFormats.forEach((key, i) => {
-        if (i == 3) htmlAll += '<p>&nbsp;</p>';
+        if (i == breakpoint) htmlAll += '<p>&nbsp;</p>';
         if (!downloadFiles[species].hasOwnProperty(key)) {
           htmlAll += '<p>&nbsp; <br/> &nbsp;</p>';
           return;
         }
         let url = `${cdnUrl}_${species}_${downloadFiles[species][key]}`;
 
-        htmlAll += `<p><a href="${url}"><i>${speciesList[index].value}</i> small and large-scale ${formats[i]}</a></p>`;
+        htmlAll += `<p><a href="${url}" target="_blank"><i>${speciesList[index].value}</i> small and large-scale ${formats[i]}</a></p>`;
       });
 
       let siluette = `<img src="/images/siluettes/${species}.svg" />`;
