@@ -66,6 +66,7 @@ webix.ready(function () {
         map: "#data5#",
         header: ["Number of interactions"],
         adjust: "header",
+        sort: "int"
       },
     ],
     resizeColumn: true,
