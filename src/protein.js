@@ -98,13 +98,13 @@ $(document).ready(function () {
               },
               {
                 id: "data6",
+                width: 170,
                 header: [
                   "Small-scale evidence",
                   {
                     content: "selectFilter",
                   },
                 ],
-                adjust: true,
                 tooltip: false,
               },
             ],
@@ -230,13 +230,13 @@ $(document).ready(function () {
               },
               {
                 id: "data6",
+                width: 170,
                 header: [
                   "Small-scale evidence",
                   {
                     content: "selectFilter",
                   },
                 ],
-                adjust: true,
                 tooltip: false,
               },
             ],
@@ -262,7 +262,6 @@ $(document).ready(function () {
   var bindingSitesTable = $("#binding_sites_data").val()
     ? webix.ui({
         container: "binding_sites_div",
-        autowidth: true,
         rows: [
           {
             id: "bindingSitesTable",
@@ -362,7 +361,8 @@ $(document).ready(function () {
               },
             ],
             autoheight: true,
-            autowidth: true,
+            // autowidth: true,
+            scroll: false,
             resizeColumn: true,
             datatype: "csv",
             data: $("#binding_sites_data").val(),
