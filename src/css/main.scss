@@ -56,8 +56,8 @@ h1 {
   color: #0c3446;
 }
 
-#return-to-top { 
-  cursor: pointer; 
+#return-to-top {
+  cursor: pointer;
 }
 
 .uk-table {
@@ -82,11 +82,30 @@ hr {
       padding-right: 10px;
     }
   }
-  th + th {
-    text-align: right;
-  }
-  td + td {
-    text-align: right;
+  tbody {
+    tr {
+      &:nth-child(6n + 1) {
+        background-color: #f8f8f8;
+        border-top: 1px solid #e5e5e5;
+        td:nth-child(-n + 2) {
+          border-bottom: 1px solid #e5e5e5;
+        }
+      }
+      &:nth-child(6n + 2) {
+        background-color: #f8f8f8;
+      }
+      &:nth-child(6n + 3) {
+        background-color: #f8f8f8;
+        border-bottom: 1px solid #e5e5e5;
+      }
+      &:not(:nth-last-child(3)) {
+        &:nth-child(3n + 1) {
+          td:first-child {
+            font-style: italic;
+          }
+        }
+      }
+    }
   }
 }
 

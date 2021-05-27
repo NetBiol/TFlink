@@ -1,10 +1,8 @@
 {{ define "main" }}
 
-{{ $statistics_ss_file := "/static/data/statistics_ss.csv" }}
-{{ $statistics_ls_file := "/static/data/statistics_ls.csv" }}
+{{ $statistics_file := "/static/data/statistics.csv" }}
 {{ $sep := ";" }}
-{{ $statistics_ss := getCSV $sep $statistics_ss_file }}
-{{ $statistics_ls := getCSV $sep $statistics_ls_file }}
+{{ $statistics := getCSV $sep $statistics_file }}
 
 <div class="uk-cover-container uk-height-medium">
   <img src="/images/nyitokep_logoval_4.png" alt="" uk-cover />
@@ -64,69 +62,38 @@
       <div class="uk-grid-small" uk-grid>
         <div class="uk-card uk-card-body">
           <h2 class="">Statistics of small scale data</h2>
-          <table class="uk-table uk-table-striped uk-table-justify statistics">
+          <table class="uk-table uk-table-justify statistics">
             <thead>
               <tr>
                 <th class="uk-table-expand">Organism</th>
                 <th class=""></th>
-                <th class=""># of TFs</th>
-                <th class="uk-table-expand"># of target genes</th>
-                <th class="uk-table-expand"># of interactions</th>
-                <th class="uk-table-expand"># of binding sites</th>
-                <th class="uk-table-expand"># of binding site sequences</th>
+                <th class="uk-table-expand">Scale</th>
+                <th class="">Nr. of TFs</th>
+                <th class="">Nr. of target genes</th>
+                <th class="">Nr. of interactions</th>
+                <th class="">Nr. of binding sites</th>
+                <th class="">Nr. of binding sequences</th>
               </tr>
             </thead>
             <tbody>
-              {{ range $i, $row:= $statistics_ss }}
+              {{ range $i, $row:= (after 1 $statistics) }}
                 <tr>
-                  <td>{{ index $row 0 }}</td>
-                  {{ if ne $i 7}}
-                    <td class="siluette">
+                  {{ $rowspan:= 1 }}
+                  {{ if eq (mod $i 3) 0 }}
+                    {{ $rowspan = 3 }}
+                    <td class="stat-organism" style="vertical-align: middle" rowspan=3>{{ index $row 0 }}</td>
+                  {{ end }}
+                  {{ if (and (lt $i 21) (eq (mod $i 3) 0))}}
+                    <td rowspan={{$rowspan}} class="siluette">
                       <img src="{{ printf `/images/siluettes/%s.svg` (replace (index $row 0) ` ` `_`) }}" />
                     </td>
-                  {{ else }}
+                  {{ end }}
+                  {{ if gt $i 20 }}
                     <td></td>
                   {{ end }}
-                  {{ range after 1 $row }}
-                    <td>{{ lang.NumFmt 0 (int (index .)) "- . ," }}</td>
-                  {{ end }} 
-                </tr>
-              {{ end }} 
-            </tbody>
-          </table>
-        </div>
-      </div>
-
-      <p></p>
-
-      <div class="uk-grid-small" uk-grid>
-        <div class="uk-card uk-card-body">
-          <h2 class="">Statistics of large scale data</h2>
-          <table class="uk-table uk-table-striped uk-table uk-table-justify statistics">
-            <thead>
-              <tr>
-                <th class="uk-table-expand">Organism</th>
-                <th></th>
-                <th class=""># of TFs</th>
-                <th class="uk-table-expand"># of target genes</th>
-                <th class="uk-table-expand"># of interactions</th>
-                <th class="uk-table-expand"># of binding sites</th>
-                <th class="uk-table-expand"># of binding site sequences</th>
-              </tr>
-            </thead>
-            <tbody>
-              {{ range $i, $row:= $statistics_ls }}
-                <tr>
-                  <td>{{ index $row 0 }}</td>
-                  {{ if ne $i 7}}
-                    <td class="siluette">
-                      <img src="{{ printf `/images/siluettes/%s.svg` (replace (index $row 0) ` ` `_`) }}" />
-                    </td>
-                  {{ else }}
-                    <td></td>
-                  {{ end }}
-                  {{ range after 1 $row }}
-                    <td>{{ lang.NumFmt 0 (int (index .)) "- . ," }}</td>
+                  <td align="center">{{ index $row 1 }}</td>
+                  {{ range after 2 $row }}
+                    <td align="right">{{ lang.NumFmt 0 (int (index .)) "- . ," }}</td>
                   {{ end }} 
                 </tr>
               {{ end }} 
