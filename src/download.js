@@ -15,7 +15,7 @@ $(document).ready(function () {
     'interaction MITAB',
     'interaction GMT uniprotID',
     'interaction GMT NCBI GeneID',
-    'interaction GMT protein name',
+    'interaction GMT gene name',
     'binding site table',
     'binding site sequences',
   ];
