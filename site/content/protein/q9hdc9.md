@@ -7,6 +7,7 @@ uniprot_accession: Q9HDC9
 ncbi_gene_id: '57136'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '493'
 orthologs: ''
 tfs: 'STAG2,Q8N3U4,10735,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

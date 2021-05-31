@@ -7,6 +7,7 @@ uniprot_accession: Q8TBY8
 ncbi_gene_id: '83449'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '248'
 orthologs: ''
 tfs: 'LYL1,P12980,4066,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

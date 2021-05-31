@@ -7,6 +7,7 @@ uniprot_accession: Q0PNE2
 ncbi_gene_id: '54859'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '493'
 orthologs: ''
 tfs: 'MGA,Q8IWI9,23269,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

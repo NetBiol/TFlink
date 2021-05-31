@@ -7,6 +7,7 @@ uniprot_accession: Q9UHD0
 ncbi_gene_id: '29949'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '213'
 orthologs: ''
 tfs: 'FOXA1,P55317,3169,GTRD; ORegAnno; PAZAR; ReMap,chromatin immunoprecipitation
   assay; inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D+OR+18971253%5Buid%5D+OR+27924024%5Buid%5D+OR+26578589%5Buid%5D"

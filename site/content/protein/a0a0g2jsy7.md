@@ -7,6 +7,7 @@ uniprot_accession: A0A0G2JSY7
 ncbi_gene_id: '24717'
 organism: Rattus norvegicus
 function: target gene
+number_of_interactions: '3'
 orthologs: ''
 tfs: 'Nrl,D4ACF4,290221,ORegAnno; PAZAR,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=18971253%5Buid%5D+OR+26578589%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

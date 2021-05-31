@@ -7,6 +7,7 @@ uniprot_accession: P0DPB4
 ncbi_gene_id: '30953'
 organism: Mus musculus
 function: target gene
+number_of_interactions: '345'
 orthologs: ''
 tfs: 'Pcgf2,P23798,22658,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

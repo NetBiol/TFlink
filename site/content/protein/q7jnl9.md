@@ -7,6 +7,7 @@ uniprot_accession: Q7JNL9
 ncbi_gene_id: '36001'
 organism: Drosophila melanogaster
 function: target gene
+number_of_interactions: '45'
 orthologs: ''
 tfs: 'ato,P48987,40975,REDfly,electrophoretic mobility shift assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=20965965%5Buid%5D+OR+17296729%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,Yes

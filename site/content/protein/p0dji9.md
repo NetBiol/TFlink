@@ -7,6 +7,7 @@ uniprot_accession: P0DJI9
 ncbi_gene_id: '6289'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '95'
 orthologs: ''
 tfs: 'RELA,Q04206,5970,GTRD; ReMap; TFactS_via_DoRothea; TRED; TRRUST,chromatin immunoprecipitation
   assay; inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D+OR+8244997%5Buid%5D+OR+22761861%5Buid%5D+OR+27924024%5Buid%5D+OR+17202159%5Buid%5D+OR+29087512%5Buid%5D"

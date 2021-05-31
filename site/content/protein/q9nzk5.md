@@ -7,6 +7,7 @@ uniprot_accession: Q9NZK5
 ncbi_gene_id: '51816'
 organism: Homo sapiens
 function: transcription factor and target gene
+number_of_interactions: '1054'
 orthologs: '[{"species": "Drosophila melanogaster", "id": ["Q7KGG1", "<a href=\"/protein/q9vvk4\">Q9VVK4</a>", "<a href=\"/protein/q9vvk5\">Q9VVK5</a>"]}]'
 tfs: 'E2F1,Q01094,1869,TRED,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=17202159%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,Yes

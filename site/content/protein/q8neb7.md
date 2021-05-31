@@ -7,6 +7,7 @@ uniprot_accession: Q8NEB7
 ncbi_gene_id: '84519'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '258'
 orthologs: ''
 tfs: 'TFEB,P19484,7942,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

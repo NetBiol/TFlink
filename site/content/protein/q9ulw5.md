@@ -7,6 +7,7 @@ uniprot_accession: Q9ULW5
 ncbi_gene_id: '25837'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '465'
 orthologs: '[{"species": "Caenorhabditis elegans", "id": ["<a href=\"/protein/g5efa6\">G5EFA6</a>"]}, {"species": "Mus musculus", "id": ["<a href=\"/protein/q504m8\">Q504M8</a>"]}, {"species": "Rattus norvegicus", "id": ["<a href=\"/protein/p51156\">P51156</a>"]}]'
 tfs: 'BHLHA15,Q7RTS1,168620,IntAct_via_DoRothEA,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=24234451%5Buid%5D+OR+20038531%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,Yes

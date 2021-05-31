@@ -7,6 +7,7 @@ uniprot_accession: A8JRB8
 ncbi_gene_id: '43102'
 organism: Drosophila melanogaster
 function: target gene
+number_of_interactions: '15'
 orthologs: ''
 tfs: 'tHMG1,Q9VCZ5,42650,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

@@ -7,6 +7,7 @@ uniprot_accession: A0A1B0GWH6
 ncbi_gene_id: '-'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '120'
 orthologs: ''
 tfs: 'DEK,P35659,7913,ReMap,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

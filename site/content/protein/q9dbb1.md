@@ -7,6 +7,7 @@ uniprot_accession: Q9DBB1
 ncbi_gene_id: '67603'
 organism: Mus musculus
 function: target gene
+number_of_interactions: '356'
 orthologs: '[{"species": "Drosophila melanogaster", "id": ["<a href=\"/protein/q9vvw5\">Q9VVW5</a>"]}, {"species": "Homo sapiens", "id": ["<a href=\"/protein/q16828\">Q16828</a>"]}, {"species": "Rattus norvegicus", "id": ["<a href=\"/protein/q64346\">Q64346</a>"]}]'
 tfs: 'Ets2,P15037,23872,TRRUST,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=18321244%5Buid%5D+OR+29087512%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,Yes

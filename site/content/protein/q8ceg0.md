@@ -7,6 +7,7 @@ uniprot_accession: Q8CEG0
 ncbi_gene_id: '208098'
 organism: Mus musculus
 function: target gene
+number_of_interactions: '59'
 orthologs: '[{"species": "Homo sapiens", "id": ["<a href=\"/protein/q96qz0\">Q96QZ0</a>"]}, {"species": "Rattus norvegicus", "id": ["<a href=\"/protein/p60572\">P60572</a>"]}]'
 tfs: 'Runx2,Q08775,12393,GTRD; TRRUST,chromatin immunoprecipitation assay; inferred
   by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29087512%5Buid%5D+OR+27924024%5Buid%5D+OR+21915903%5Buid%5D"

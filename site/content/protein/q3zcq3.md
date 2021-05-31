@@ -7,6 +7,7 @@ uniprot_accession: Q3ZCQ3
 ncbi_gene_id: '400451'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '498'
 orthologs: '[{"species": "Mus musculus", "id": ["<a href=\"/protein/q8k064\">Q8K064</a>"]}, {"species": "Rattus norvegicus", "id": ["D4A4W1"]}]'
 tfs: 'ERG,P11308,2078,GTRD; IntAct_via_DoRothEA; ReMap,chromatin immunoprecipitation
   assay; inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D+OR+20478527%5Buid%5D+OR+27924024%5Buid%5D+OR+24234451%5Buid%5D"

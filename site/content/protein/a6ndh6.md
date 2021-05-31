@@ -7,6 +7,7 @@ uniprot_accession: A6NDH6
 ncbi_gene_id: '403274'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '11'
 orthologs: ''
 tfs: 'FOXA2,Q9Y261,3170,ReMap,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

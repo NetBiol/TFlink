@@ -7,6 +7,7 @@ uniprot_accession: Q3TIR1
 ncbi_gene_id: '66975'
 organism: Mus musculus
 function: target gene
+number_of_interactions: '342'
 orthologs: ''
 tfs: 'Nkx3-2,P97503,12020,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

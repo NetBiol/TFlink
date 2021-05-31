@@ -7,6 +7,7 @@ uniprot_accession: Q8TGU0
 ncbi_gene_id: '1466455'
 organism: Saccharomyces cerevisiae
 function: target gene
+number_of_interactions: '71'
 orthologs: ''
 tfs: 'SWI4,P25302,856847,Yeastract,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=24170807%5Buid%5D+OR+19124666%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

@@ -7,6 +7,7 @@ uniprot_accession: Q6ZQV5
 ncbi_gene_id: '388507'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '256'
 orthologs: ''
 tfs: 'GATA6,Q92908,2627,GTRD; ReMap,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D+OR+27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

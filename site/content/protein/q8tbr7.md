@@ -7,6 +7,7 @@ uniprot_accession: Q8TBR7
 ncbi_gene_id: '79850'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '348'
 orthologs: '[{"species": "Mus musculus", "id": ["<a href=\"/protein/q5nd56\">Q5ND56</a>"]}, {"species": "Rattus norvegicus", "id": ["<a href=\"/protein/d3zkw7\">D3ZKW7</a>"]}]'
 tfs: 'ZIC1,Q15915,7545,TRRUST,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29087512%5Buid%5D+OR+20713527%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,Yes

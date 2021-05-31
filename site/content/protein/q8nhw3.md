@@ -7,6 +7,7 @@ uniprot_accession: Q8NHW3
 ncbi_gene_id: '389692'
 organism: Homo sapiens
 function: transcription factor and target gene
+number_of_interactions: '487'
 orthologs: '[{"species": "Mus musculus", "id": ["<a href=\"/protein/q8cf90\">Q8CF90</a>"]}, {"species": "Rattus norvegicus", "id": ["<a href=\"/protein/d3znt6\">D3ZNT6</a>"]}]'
 tfs: 'ATF6,P18850,22926,TRRUST,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29087512%5Buid%5D+OR+18450959%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,Yes

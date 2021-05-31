@@ -7,6 +7,7 @@ uniprot_accession: Q9UHP3
 ncbi_gene_id: '29761'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '440'
 orthologs: '[{"species": "Mus musculus", "id": ["<a href=\"/protein/p57080\">P57080</a>"]}, {"species": "Rattus norvegicus", "id": ["<a href=\"/protein/d4acd3\">D4ACD3</a>"]}]'
 tfs: 'E2F4,Q16254,1874,GTRD; ORegAnno; PAZAR; ReMap; TRED,chromatin immunoprecipitation
   assay; inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D+OR+26578589%5Buid%5D+OR+18971253%5Buid%5D+OR+27924024%5Buid%5D+OR+17202159%5Buid%5D"

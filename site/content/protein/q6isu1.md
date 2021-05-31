@@ -7,6 +7,7 @@ uniprot_accession: Q6ISU1
 ncbi_gene_id: '171558'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '106'
 orthologs: ''
 tfs: 'SPI1,P17947,6688,ReMap; TRED,chromatin immunoprecipitation assay; inferred by
   curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D+OR+17202159%5Buid%5D"

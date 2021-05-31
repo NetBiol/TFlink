@@ -7,6 +7,7 @@ uniprot_accession: Q8NGQ2
 ncbi_gene_id: '219952'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '38'
 orthologs: ''
 tfs: 'SPI1,P17947,6688,ReMap,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

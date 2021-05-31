@@ -7,6 +7,7 @@ uniprot_accession: Q8IVM8
 ncbi_gene_id: '114571'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '93'
 orthologs: '[{"species": "Rattus norvegicus", "id": ["<a href=\"/protein/o70609\">O70609</a>"]}]'
 tfs: 'HNF1A,P20823,6927,HTRI; TRRUST,chromatin immunoprecipitation assay; electrophoretic
   mobility shift assay; inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=20829431%5Buid%5D+OR+29087512%5Buid%5D+OR+22900683%5Buid%5D"

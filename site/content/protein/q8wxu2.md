@@ -7,6 +7,7 @@ uniprot_accession: Q8WXU2
 ncbi_gene_id: '161582'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '363'
 orthologs: '[{"species": "Mus musculus", "id": ["<a href=\"/protein/q8r368\">Q8R368</a>", "<a href=\"/protein/e9pyu5\">E9PYU5</a>"]}, {"species": "Rattus norvegicus", "id": ["<a href=\"/protein/q5vjs5\">Q5VJS5</a>"]}]'
 tfs: 'PARP1,P09874,142,GTRD; TRRUST,chromatin immunoprecipitation assay; inferred
   by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29087512%5Buid%5D+OR+18445785%5Buid%5D+OR+27924024%5Buid%5D"

@@ -7,6 +7,7 @@ uniprot_accession: Q6MZQ0
 ncbi_gene_id: '79899'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '377'
 orthologs: ''
 tfs: 'ARID1B,Q8NFD5,57492,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

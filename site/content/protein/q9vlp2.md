@@ -7,6 +7,7 @@ uniprot_accession: Q9VLP2
 ncbi_gene_id: '34143'
 organism: Drosophila melanogaster
 function: target gene
+number_of_interactions: '14'
 orthologs: ''
 tfs: 'Med,O62609,43725,REDfly,electrophoretic mobility shift assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=20965965%5Buid%5D+OR+30476189%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,Yes

@@ -7,6 +7,7 @@ uniprot_accession: A6NCL1
 ncbi_gene_id: '647309'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '249'
 orthologs: ''
 tfs: 'GATA3,P23771,2625,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

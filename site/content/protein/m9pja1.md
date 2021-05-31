@@ -7,6 +7,7 @@ uniprot_accession: M9PJA1
 ncbi_gene_id: '3771905'
 organism: Drosophila melanogaster
 function: target gene
+number_of_interactions: '55'
 orthologs: ''
 tfs: 'Nep2,A0A0B4K692,40588,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

@@ -7,6 +7,7 @@ uniprot_accession: Q6UWV2
 ncbi_gene_id: '196264'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '384'
 orthologs: ''
 tfs: 'NKX2-2,O95096,4821,ReMap,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

@@ -7,6 +7,7 @@ uniprot_accession: Q8NHB8
 ncbi_gene_id: '402135'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '11'
 orthologs: ''
 tfs: 'ZNF750,Q32MQ0,79755,ReMap,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

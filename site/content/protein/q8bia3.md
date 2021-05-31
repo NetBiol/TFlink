@@ -7,6 +7,7 @@ uniprot_accession: Q8BIA3
 ncbi_gene_id: '210719'
 organism: Mus musculus
 function: transcription factor
+number_of_interactions: '3'
 orthologs: ''
 tfs: ''
 targets: 'Scx,Q64124,20289,TRRUST,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29087512%5Buid%5D+OR+25332192%5Buid%5D"

@@ -7,6 +7,7 @@ uniprot_accession: Q5HYK9
 ncbi_gene_id: '63934'
 organism: Homo sapiens
 function: transcription factor and target gene
+number_of_interactions: '383'
 orthologs: ''
 tfs: 'CTCFL,Q8NI51,140690,ReMap,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

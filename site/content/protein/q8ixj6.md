@@ -7,6 +7,7 @@ uniprot_accession: Q8IXJ6
 ncbi_gene_id: '22933'
 organism: Homo sapiens
 function: transcription factor and target gene
+number_of_interactions: '549'
 orthologs: ''
 tfs: 'ATF4,P18848,468,GTRD; TRRUST,chromatin immunoprecipitation assay; inferred by
   curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=21801305%5Buid%5D+OR+29087512%5Buid%5D+OR+27924024%5Buid%5D"

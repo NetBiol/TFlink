@@ -7,6 +7,7 @@ uniprot_accession: Q6EIG7
 ncbi_gene_id: '93978'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '54'
 orthologs: ''
 tfs: 'NANOG,Q9H9S0,79923,ReMap,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

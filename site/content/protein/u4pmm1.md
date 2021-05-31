@@ -7,6 +7,7 @@ uniprot_accession: U4PMM1
 ncbi_gene_id: '176982'
 organism: Caenorhabditis elegans
 function: target gene
+number_of_interactions: '91'
 orthologs: ''
 tfs: 'ceh-82,O16748,185766,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

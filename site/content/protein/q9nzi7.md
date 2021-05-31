@@ -7,6 +7,7 @@ uniprot_accession: Q9NZI7
 ncbi_gene_id: '7342'
 organism: Homo sapiens
 function: transcription factor and target gene
+number_of_interactions: '2590'
 orthologs: '[{"species": "Mus musculus", "id": ["<a href=\"/protein/q811s7\">Q811S7</a>"]}, {"species": "Rattus norvegicus", "id": ["<a href=\"/protein/d4a030\">D4A030</a>"]}]'
 tfs: 'E2F2,Q14209,1870,TRED,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=17202159%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,Yes

@@ -7,6 +7,7 @@ uniprot_accession: Q9UHI8
 ncbi_gene_id: '9510'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '390'
 orthologs: '[{"species": "Caenorhabditis elegans", "id": ["Q22580"]}, {"species": "Mus musculus", "id": ["<a href=\"/protein/p97857\">P97857</a>"]}, {"species": "Rattus norvegicus", "id": ["<a href=\"/protein/q68ej2\">Q68EJ2</a>"]}]'
 tfs: 'EZH2,Q15910,2146,GTRD; ReMap; TRRUST,chromatin immunoprecipitation assay; inferred
   by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=22514714%5Buid%5D+OR+29087512%5Buid%5D+OR+29126285%5Buid%5D+OR+27924024%5Buid%5D"

@@ -7,6 +7,7 @@ uniprot_accession: Q9NRM7
 ncbi_gene_id: '26524'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '472'
 orthologs: '[{"species": "Mus musculus", "id": ["G3UXG3", "G3UY78"]}, {"species": "Rattus norvegicus", "id": ["<a href=\"/protein/a0a0g2k4a8\">A0A0G2K4A8</a>"]}]'
 tfs: 'ZNF823,P16415,55552,ReMap; TRRUST,chromatin immunoprecipitation assay; inferred
   by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=20335167%5Buid%5D+OR+29087512%5Buid%5D+OR+29126285%5Buid%5D"

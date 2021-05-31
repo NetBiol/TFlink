@@ -7,6 +7,7 @@ uniprot_accession: D4AEM3
 ncbi_gene_id: '-'
 organism: Rattus norvegicus
 function: target gene
+number_of_interactions: '1'
 orthologs: ''
 tfs: 'Egr1,P08154,24330,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No'

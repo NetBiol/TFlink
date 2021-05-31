@@ -7,6 +7,7 @@ uniprot_accession: Q6JEL2
 ncbi_gene_id: '317719'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '139'
 orthologs: ''
 tfs: 'STAG1,Q8WVM7,10274,ReMap,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

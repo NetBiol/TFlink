@@ -7,6 +7,7 @@ uniprot_accession: Q9HBU9
 ncbi_gene_id: '64091'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '169'
 orthologs: ''
 tfs: 'MAZ,P56270,4150,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

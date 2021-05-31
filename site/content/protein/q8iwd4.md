@@ -7,6 +7,7 @@ uniprot_accession: Q8IWD4
 ncbi_gene_id: '150275'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '520'
 orthologs: ''
 tfs: 'BRIP1,Q9BX63,83990,ReMap,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

@@ -7,6 +7,7 @@ uniprot_accession: Q9WUB6
 ncbi_gene_id: '56365'
 organism: Mus musculus
 function: target gene
+number_of_interactions: '75'
 orthologs: '[{"species": "Rattus norvegicus", "id": ["<a href=\"/protein/g3v7b3\">G3V7B3</a>"]}]'
 tfs: 'Maz,P56671,,TRRUST,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=11473619%5Buid%5D+OR+10982849%5Buid%5D+OR+29087512%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,Yes

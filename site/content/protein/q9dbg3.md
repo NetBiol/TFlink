@@ -7,6 +7,7 @@ uniprot_accession: Q9DBG3
 ncbi_gene_id: '71770'
 organism: Mus musculus
 function: target gene
+number_of_interactions: '419'
 orthologs: ''
 tfs: 'Sigmar1,O55242,18391,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

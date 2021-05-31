@@ -7,6 +7,7 @@ uniprot_accession: Q8VBV8
 ncbi_gene_id: '107477'
 organism: Mus musculus
 function: target gene
+number_of_interactions: '39'
 orthologs: ''
 tfs: 'Spi1,P17433,20375,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

@@ -7,6 +7,7 @@ uniprot_accession: Q9CQV4
 ncbi_gene_id: '67998'
 organism: Mus musculus
 function: target gene
+number_of_interactions: '338'
 orthologs: ''
 tfs: 'Sin3b,Q62141,20467,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

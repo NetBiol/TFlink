@@ -7,6 +7,7 @@ uniprot_accession: Q9WTV7
 ncbi_gene_id: '19820'
 organism: Mus musculus
 function: target gene
+number_of_interactions: '247'
 orthologs: '[{"species": "Homo sapiens", "id": ["<a href=\"/protein/q9nvw2\">Q9NVW2</a>"]}, {"species": "Rattus norvegicus", "id": ["Q4V889"]}]'
 tfs: 'Rbpj,P31266,19664,GTRD; TRRUST,chromatin immunoprecipitation assay; inferred
   by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D+OR+29087512%5Buid%5D+OR+11013082%5Buid%5D"

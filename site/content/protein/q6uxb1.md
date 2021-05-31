@@ -7,6 +7,7 @@ uniprot_accession: Q6UXB1
 ncbi_gene_id: '388555'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '65'
 orthologs: ''
 tfs: 'TP53,P04637,7157,GTRD; ORegAnno; PAZAR,chromatin immunoprecipitation assay;
   inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=18971253%5Buid%5D+OR+27924024%5Buid%5D+OR+26578589%5Buid%5D"

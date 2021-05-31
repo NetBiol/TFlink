@@ -7,6 +7,7 @@ uniprot_accession: Q8TGS9
 ncbi_gene_id: '1466498'
 organism: Saccharomyces cerevisiae
 function: target gene
+number_of_interactions: '22'
 orthologs: ''
 tfs: 'RGT1,P32862,853828,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

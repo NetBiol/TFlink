@@ -7,6 +7,7 @@ uniprot_accession: Q3KRB8
 ncbi_gene_id: '89839'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '461'
 orthologs: ''
 tfs: 'BARX2,Q9UMQ3,8538,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

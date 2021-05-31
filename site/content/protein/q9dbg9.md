@@ -7,6 +7,7 @@ uniprot_accession: Q9DBG9
 ncbi_gene_id: '76281'
 organism: Mus musculus
 function: transcription factor and target gene
+number_of_interactions: '275'
 orthologs: '[{"species": "Caenorhabditis elegans", "id": ["<a href=\"/protein/q09506\">Q09506</a>"]}, {"species": "Homo sapiens", "id": ["<a href=\"/protein/o14907\">O14907</a>"]}, {"species": "Rattus norvegicus", "id": ["<a href=\"/protein/q4qqv1\">Q4QQV1</a>"]}]'
 tfs: 'Zmiz1,Q6P1E1,328365,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

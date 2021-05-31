@@ -7,6 +7,7 @@ uniprot_accession: Q9NSC2
 ncbi_gene_id: '6299'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '283'
 orthologs: '[{"species": "Drosophila melanogaster", "id": ["<a href=\"/protein/q9vkh3\">Q9VKH3</a>"]}, {"species": "Mus musculus", "id": ["Q6P5E3"]}, {"species": "Rattus norvegicus", "id": ["<a href=\"/protein/d3zif4\">D3ZIF4</a>"]}]'
 tfs: 'E2F2,Q14209,1870,TRED,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=17202159%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,Yes

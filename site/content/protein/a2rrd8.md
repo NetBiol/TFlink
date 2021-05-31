@@ -7,6 +7,7 @@ uniprot_accession: A2RRD8
 ncbi_gene_id: '162967'
 organism: Homo sapiens
 function: transcription factor and target gene
+number_of_interactions: '1790'
 orthologs: ''
 tfs: 'SETDB1,Q15047,9869,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

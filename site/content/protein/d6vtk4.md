@@ -7,6 +7,7 @@ uniprot_accession: D6VTK4
 ncbi_gene_id: '850518'
 organism: Saccharomyces cerevisiae
 function: target gene
+number_of_interactions: '82'
 orthologs: ''
 tfs: 'MOT3,P54785,855092,Yeastract,array technology/partial DNA sequence identification
   by hybridization; reverse transcription pcr,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=24170807%5Buid%5D+OR+16880382%5Buid%5D+OR+20439496%5Buid%5D"

@@ -7,6 +7,7 @@ uniprot_accession: Q9HAW9
 ncbi_gene_id: '54576'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '23'
 orthologs: ''
 tfs: 'HNF1A,P20823,6927,HTRI; TRRUST,electrophoretic mobility shift assay; inferred
   by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29087512%5Buid%5D+OR+22900683%5Buid%5D+OR+15044625%5Buid%5D"

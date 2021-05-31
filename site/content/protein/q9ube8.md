@@ -7,6 +7,7 @@ uniprot_accession: Q9UBE8
 ncbi_gene_id: '51701'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '515'
 orthologs: '[{"species": "Drosophila melanogaster", "id": ["Q8T030"]}, {"species": "Caenorhabditis elegans", "id": ["<a href=\"/protein/q9u9y8\">Q9U9Y8</a>"]}, {"species": "Mus musculus", "id": ["<a href=\"/protein/o54949\">O54949</a>"]}, {"species": "Rattus norvegicus", "id": ["<a href=\"/protein/d3zsz3\">D3ZSZ3</a>"]}]'
 tfs: 'STAT3,P40763,6774,GTRD; ReMap; TRRUST,chromatin immunoprecipitation assay; inferred
   by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=15764709%5Buid%5D+OR+29087512%5Buid%5D+OR+29126285%5Buid%5D+OR+27924024%5Buid%5D"

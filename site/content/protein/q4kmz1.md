@@ -7,6 +7,7 @@ uniprot_accession: Q4KMZ1
 ncbi_gene_id: '55721'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '412'
 orthologs: ''
 tfs: 'SIN3B,O75182,23309,GTRD; ReMap,chromatin immunoprecipitation assay,&ensp;<a
   href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D+OR+27924024%5Buid%5D"

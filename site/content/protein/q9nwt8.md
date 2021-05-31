@@ -7,6 +7,7 @@ uniprot_accession: Q9NWT8
 ncbi_gene_id: '54998'
 organism: Homo sapiens
 function: transcription factor and target gene
+number_of_interactions: '676'
 orthologs: '[{"species": "Mus musculus", "id": ["<a href=\"/protein/q9dcj7\">Q9DCJ7</a>"]}]'
 tfs: 'MTA3,Q9BTC8,57504,GTRD; IntAct_via_DoRothEA; ReMap,chromatin immunoprecipitation
   assay; inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=26028330%5Buid%5D+OR+29126285%5Buid%5D+OR+27924024%5Buid%5D+OR+24234451%5Buid%5D"

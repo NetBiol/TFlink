@@ -7,6 +7,7 @@ uniprot_accession: Q8WYA1
 ncbi_gene_id: '56938'
 organism: Homo sapiens
 function: transcription factor and target gene
+number_of_interactions: '350'
 orthologs: '[{"species": "Mus musculus", "id": ["<a href=\"/protein/q2vpd4\">Q2VPD4</a>"]}, {"species": "Rattus norvegicus", "id": ["A0A0G2K1T7"]}]'
 tfs: 'TRIM22,Q8IYM9,10346,ReMap,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

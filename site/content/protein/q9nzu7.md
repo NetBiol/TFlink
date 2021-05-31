@@ -7,6 +7,7 @@ uniprot_accession: Q9NZU7
 ncbi_gene_id: '9478'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '371'
 orthologs: ''
 tfs: 'IGLV5-37,A0A075B6J1,,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

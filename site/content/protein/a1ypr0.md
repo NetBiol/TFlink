@@ -7,6 +7,7 @@ uniprot_accession: A1YPR0
 ncbi_gene_id: '201501'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '353'
 orthologs: ''
 tfs: 'p65,O43245,,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

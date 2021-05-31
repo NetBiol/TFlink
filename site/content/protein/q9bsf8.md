@@ -7,6 +7,7 @@ uniprot_accession: Q9BSF8
 ncbi_gene_id: '84280'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '502'
 orthologs: ''
 tfs: 'ZNF18,P17022,7566,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

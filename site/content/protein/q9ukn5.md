@@ -7,6 +7,7 @@ uniprot_accession: Q9UKN5
 ncbi_gene_id: '11108'
 organism: Homo sapiens
 function: transcription factor and target gene
+number_of_interactions: '1011'
 orthologs: ''
 tfs: 'AFF4,Q9UHB7,27125,GTRD; ReMap,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D+OR+27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

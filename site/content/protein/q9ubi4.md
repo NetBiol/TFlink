@@ -7,6 +7,7 @@ uniprot_accession: Q9UBI4
 ncbi_gene_id: '9399'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '543'
 orthologs: ''
 tfs: 'RARA,P10276,5914,GTRD; ReMap,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D+OR+27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

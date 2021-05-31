@@ -7,6 +7,7 @@ uniprot_accession: B1AUH1
 ncbi_gene_id: '19273'
 organism: Mus musculus
 function: target gene
+number_of_interactions: '294'
 orthologs: '[{"species": "Homo sapiens", "id": ["<a href=\"/protein/q92729\">Q92729</a>"]}, {"species": "Rattus norvegicus", "id": ["<a href=\"/protein/f1mag7\">F1MAG7</a>"]}]'
 tfs: 'Rara,P11416,19401,GTRD; TRRUST,chromatin immunoprecipitation assay; inferred
   by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D+OR+29087512%5Buid%5D+OR+9224660%5Buid%5D"

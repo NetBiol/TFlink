@@ -7,6 +7,7 @@ uniprot_accession: Q9BVP2
 ncbi_gene_id: '26354'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '518'
 orthologs: '[{"species": "Mus musculus", "id": ["<a href=\"/protein/q8ci11\">Q8CI11</a>"]}, {"species": "Rattus norvegicus", "id": ["<a href=\"/protein/q811s9\">Q811S9</a>"]}, {"species": "Saccharomyces cerevisiae", "id": ["<a href=\"/protein/p40010\">P40010</a>"]}]'
 tfs: 'MYC,P01106,4609,GTRD; HTRI; ReMap; TFactS_via_DoRothea; TRED,chromatin immunoprecipitation
   assay; inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D+OR+12747840%5Buid%5D+OR+22761861%5Buid%5D+OR+27924024%5Buid%5D+OR+17202159%5Buid%5D+OR+22900683%5Buid%5D"

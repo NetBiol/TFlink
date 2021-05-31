@@ -7,6 +7,7 @@ uniprot_accession: Q5SXJ3
 ncbi_gene_id: '237911'
 organism: Mus musculus
 function: transcription factor and target gene
+number_of_interactions: '298'
 orthologs: '[{"species": "Homo sapiens", "id": ["<a href=\"/protein/q9bx63\">Q9BX63</a>"]}, {"species": "Rattus norvegicus", "id": ["<a href=\"/protein/a0a0g2k475\">A0A0G2K475</a>"]}]'
 tfs: 'Sp1,O89090,20683,GTRD; TRRUST,chromatin immunoprecipitation assay; inferred
   by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29087512%5Buid%5D+OR+27924024%5Buid%5D+OR+11530014%5Buid%5D"

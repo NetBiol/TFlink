@@ -7,6 +7,7 @@ uniprot_accession: Q9EQW6
 ncbi_gene_id: '50913'
 organism: Mus musculus
 function: transcription factor and target gene
+number_of_interactions: '11866'
 orthologs: '[{"species": "Homo sapiens", "id": ["<a href=\"/protein/q13516\">Q13516</a>"]}, {"species": "Rattus norvegicus", "id": ["<a href=\"/protein/g3v612\">G3V612</a>"]}]'
 tfs: 'Rbpj,P31266,19664,TRRUST,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29087512%5Buid%5D+OR+19501584%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,Yes

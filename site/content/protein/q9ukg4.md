@@ -7,6 +7,7 @@ uniprot_accession: Q9UKG4
 ncbi_gene_id: '26266'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '178'
 orthologs: '[{"species": "Mus musculus", "id": ["<a href=\"/protein/q8bz82\">Q8BZ82</a>"]}, {"species": "Rattus norvegicus", "id": ["Q5EC47"]}]'
 tfs: 'DAND5,Q8N907,199699,TRRUST,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=23485456%5Buid%5D+OR+29087512%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,Yes

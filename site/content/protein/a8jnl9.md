@@ -7,6 +7,7 @@ uniprot_accession: A8JNL9
 ncbi_gene_id: '38716'
 organism: Drosophila melanogaster
 function: transcription factor and target gene
+number_of_interactions: '88'
 orthologs: ''
 tfs: 'Nipped-B,Q7PLI2,3355136,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

@@ -7,6 +7,7 @@ uniprot_accession: Q0VDD7
 ncbi_gene_id: '79173'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '463'
 orthologs: ''
 tfs: 'BMPR1A,P36894,657,ReMap,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

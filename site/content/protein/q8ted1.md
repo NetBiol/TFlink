@@ -7,6 +7,7 @@ uniprot_accession: Q8TED1
 ncbi_gene_id: '493869'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '265'
 orthologs: ''
 tfs: 'GTF2F1,P35269,2962,GTRD; ReMap,chromatin immunoprecipitation assay,&ensp;<a
   href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D+OR+27924024%5Buid%5D"

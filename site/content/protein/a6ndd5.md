@@ -7,6 +7,7 @@ uniprot_accession: A6NDD5
 ncbi_gene_id: '646658'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '203'
 orthologs: ''
 tfs: 'EGR2,P11161,1959,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

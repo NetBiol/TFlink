@@ -7,6 +7,7 @@ uniprot_accession: Q7RTV0
 ncbi_gene_id: '84844'
 organism: Homo sapiens
 function: transcription factor and target gene
+number_of_interactions: '8275'
 orthologs: ''
 tfs: 'ARID1A,O14497,8289,GTRD; ReMap,chromatin immunoprecipitation assay,&ensp;<a
   href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D+OR+27924024%5Buid%5D"

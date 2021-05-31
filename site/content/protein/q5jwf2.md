@@ -7,6 +7,7 @@ uniprot_accession: Q5JWF2
 ncbi_gene_id: '2778'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '626'
 orthologs: ''
 tfs: 'YY1,P25490,7528,GTRD; ReMap; TRRUST,chromatin immunoprecipitation assay; inferred
   by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29087512%5Buid%5D+OR+29126285%5Buid%5D+OR+27924024%5Buid%5D+OR+18458536%5Buid%5D"

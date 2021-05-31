@@ -7,6 +7,7 @@ uniprot_accession: B1ASL3
 ncbi_gene_id: '22163'
 organism: Mus musculus
 function: target gene
+number_of_interactions: '77'
 orthologs: ''
 tfs: 'Rxra,P28700,20181,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

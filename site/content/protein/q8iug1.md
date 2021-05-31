@@ -7,6 +7,7 @@ uniprot_accession: Q8IUG1
 ncbi_gene_id: '81850'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '38'
 orthologs: ''
 tfs: 'MYOD1,P15172,4654,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

@@ -7,6 +7,7 @@ uniprot_accession: Q8BSK8
 ncbi_gene_id: '72508'
 organism: Mus musculus
 function: target gene
+number_of_interactions: '357'
 orthologs: '[{"species": "Drosophila melanogaster", "id": ["<a href=\"/protein/q94533\">Q94533</a>"]}, {"species": "Caenorhabditis elegans", "id": ["<a href=\"/protein/q21694\">Q21694</a>"]}, {"species": "Homo sapiens", "id": ["<a href=\"/protein/p23443\">P23443</a>"]}, {"species": "Rattus norvegicus", "id": ["<a href=\"/protein/p67999\">P67999</a>"]}]'
 tfs: 'Ikbkb,O88351,16150,TRRUST,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29087512%5Buid%5D+OR+19433583%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,Yes

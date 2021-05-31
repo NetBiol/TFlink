@@ -7,6 +7,7 @@ uniprot_accession: Q5BKR2
 ncbi_gene_id: '97086'
 organism: Mus musculus
 function: target gene
+number_of_interactions: '158'
 orthologs: ''
 tfs: 'Hif1a,Q61221,15251,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

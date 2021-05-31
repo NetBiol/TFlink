@@ -7,6 +7,7 @@ uniprot_accession: Q9DCS3
 ncbi_gene_id: '26922'
 organism: Mus musculus
 function: target gene
+number_of_interactions: '334'
 orthologs: '[{"species": "Drosophila melanogaster", "id": ["<a href=\"/protein/q9v6u9\">Q9V6U9</a>"]}, {"species": "Caenorhabditis elegans", "id": ["<a href=\"/protein/o45903\">O45903</a>"]}, {"species": "Homo sapiens", "id": ["<a href=\"/protein/q9bv79\">Q9BV79</a>"]}, {"species": "Rattus norvegicus", "id": ["<a href=\"/protein/a0a140tae6\">A0A140TAE6</a>"]}, {"species": "Saccharomyces cerevisiae", "id": ["<a href=\"/protein/p38071\">P38071</a>"]}]'
 tfs: 'Ppara,P23204,19013,GTRD; TRED,chromatin immunoprecipitation assay; inferred
   by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D+OR+17202159%5Buid%5D"

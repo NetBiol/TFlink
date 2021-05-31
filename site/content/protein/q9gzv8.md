@@ -7,6 +7,7 @@ uniprot_accession: Q9GZV8
 ncbi_gene_id: '63978'
 organism: Homo sapiens
 function: transcription factor and target gene
+number_of_interactions: '8227'
 orthologs: '[{"species": "Mus musculus", "id": ["<a href=\"/protein/e9q3t6\">E9Q3T6</a>"]}, {"species": "Rattus norvegicus", "id": ["<a href=\"/protein/d3zi87\">D3ZI87</a>"]}]'
 tfs: 'PMEPA1,Q969W9,56937,ReMap,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

@@ -7,6 +7,7 @@ uniprot_accession: Q9BZE2
 ncbi_gene_id: '83480'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '374'
 orthologs: '[{"species": "Drosophila melanogaster", "id": ["<a href=\"/protein/q9w282\">Q9W282</a>"]}, {"species": "Caenorhabditis elegans", "id": ["<a href=\"/protein/q09524\">Q09524</a>"]}, {"species": "Mus musculus", "id": ["Q9D0F7"]}, {"species": "Rattus norvegicus", "id": ["B0BN58"]}, {"species": "Saccharomyces cerevisiae", "id": ["<a href=\"/protein/p31115\">P31115</a>"]}]'
 tfs: 'E2F1,Q01094,1869,GTRD; ReMap; TRED,chromatin immunoprecipitation assay; inferred
   by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D+OR+27924024%5Buid%5D+OR+17202159%5Buid%5D"

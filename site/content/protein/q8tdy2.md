@@ -7,6 +7,7 @@ uniprot_accession: Q8TDY2
 ncbi_gene_id: '9821'
 organism: Homo sapiens
 function: transcription factor and target gene
+number_of_interactions: '412'
 orthologs: '[{"species": "Caenorhabditis elegans", "id": ["CAEEL19186"]}, {"species": "Rattus norvegicus", "id": ["<a href=\"/protein/d3zhk4\">D3ZHK4</a>"]}]'
 tfs: 'TFAP4,Q01664,7023,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

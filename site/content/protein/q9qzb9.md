@@ -7,6 +7,7 @@ uniprot_accession: Q9QZB9
 ncbi_gene_id: '59288'
 organism: Mus musculus
 function: target gene
+number_of_interactions: '371'
 orthologs: ''
 tfs: 'Fezf2,Q9ESP5,54713,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

@@ -7,6 +7,7 @@ uniprot_accession: A8JUV3
 ncbi_gene_id: '32321'
 organism: Drosophila melanogaster
 function: target gene
+number_of_interactions: '62'
 orthologs: ''
 tfs: 'Top3beta,O96651,31565,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

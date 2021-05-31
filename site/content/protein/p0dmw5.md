@@ -7,6 +7,7 @@ uniprot_accession: P0DMW5
 ncbi_gene_id: 399668;644596
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '302'
 orthologs: ''
 tfs: 'RFX5,P48382,5993,ReMap,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

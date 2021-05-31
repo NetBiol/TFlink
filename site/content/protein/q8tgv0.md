@@ -7,6 +7,7 @@ uniprot_accession: Q8TGV0
 ncbi_gene_id: '1466430'
 organism: Saccharomyces cerevisiae
 function: target gene
+number_of_interactions: '6'
 orthologs: ''
 tfs: 'GCR2,Q01722,855522,Yeastract,array technology/partial DNA sequence identification
   by hybridization,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=21119627%5Buid%5D+OR+20393576%5Buid%5D+OR+24170807%5Buid%5D"

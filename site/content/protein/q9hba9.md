@@ -7,6 +7,7 @@ uniprot_accession: Q9HBA9
 ncbi_gene_id: '219595'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '1'
 orthologs: ''
 tfs: 'JUN,P05412,3725,TRED,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=17202159%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,Yes'

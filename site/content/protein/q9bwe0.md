@@ -7,6 +7,7 @@ uniprot_accession: Q9BWE0
 ncbi_gene_id: '29803'
 organism: Homo sapiens
 function: transcription factor and target gene
+number_of_interactions: '601'
 orthologs: ''
 tfs: 'HMG20A,Q9NP66,10363,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

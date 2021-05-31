@@ -7,6 +7,7 @@ uniprot_accession: Q5SVZ6
 ncbi_gene_id: '79830'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '332'
 orthologs: '[{"species": "Mus musculus", "id": ["A2A7T8"]}, {"species": "Rattus norvegicus", "id": ["<a href=\"/protein/g3v9x1\">G3V9X1</a>"]}]'
 tfs: 'E2F1,Q01094,1869,GTRD; TRED,chromatin immunoprecipitation assay; inferred by
   curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D+OR+17202159%5Buid%5D"

@@ -7,6 +7,7 @@ uniprot_accession: Q9CYA0
 ncbi_gene_id: '76737'
 organism: Mus musculus
 function: target gene
+number_of_interactions: '366'
 orthologs: '[{"species": "Caenorhabditis elegans", "id": ["<a href=\"/protein/q19267\">Q19267</a>"]}, {"species": "Homo sapiens", "id": ["<a href=\"/protein/q6uxh1\">Q6UXH1</a>"]}, {"species": "Rattus norvegicus", "id": ["<a href=\"/protein/q4g063\">Q4G063</a>"]}]'
 tfs: 'Smad5,P97454,17129,TRRUST,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=24019898%5Buid%5D+OR+29087512%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,Yes

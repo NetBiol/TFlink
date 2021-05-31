@@ -7,6 +7,7 @@ uniprot_accession: Q9BWU1
 ncbi_gene_id: '23097'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '533'
 orthologs: ''
 tfs: 'BCLAF1,Q9NYF8,9774,ReMap,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

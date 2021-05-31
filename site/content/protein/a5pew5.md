@@ -7,6 +7,7 @@ uniprot_accession: A5PEW5
 ncbi_gene_id: '179427'
 organism: Caenorhabditis elegans
 function: target gene
+number_of_interactions: '5'
 orthologs: ''
 tfs: 'unc-86,P13528,176157,ORegAnno,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=14529613%5Buid%5D+OR+26578589%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,Yes

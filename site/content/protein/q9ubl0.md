@@ -7,6 +7,7 @@ uniprot_accession: Q9UBL0
 ncbi_gene_id: '10777'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '251'
 orthologs: ''
 tfs: 'SPI1,P17947,6688,GTRD; ORegAnno; PAZAR,chromatin immunoprecipitation assay;
   inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=18971253%5Buid%5D+OR+27924024%5Buid%5D+OR+26578589%5Buid%5D"

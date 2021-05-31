@@ -7,6 +7,7 @@ uniprot_accession: Q8VFE6
 ncbi_gene_id: '18354'
 organism: Mus musculus
 function: target gene
+number_of_interactions: '28'
 orthologs: '[{"species": "Rattus norvegicus", "id": ["D3ZL22", "<a href=\"/protein/d4ab86\">D4AB86</a>"]}]'
 tfs: 'Rela,Q04207,19697,TRED,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=17202159%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,Yes

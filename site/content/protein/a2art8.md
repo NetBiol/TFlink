@@ -7,6 +7,7 @@ uniprot_accession: A2ART8
 ncbi_gene_id: '640543'
 organism: Mus musculus
 function: target gene
+number_of_interactions: '29'
 orthologs: ''
 tfs: 'Esr1,P19785,13982,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

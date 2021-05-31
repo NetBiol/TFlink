@@ -7,6 +7,7 @@ uniprot_accession: Q9BQE3
 ncbi_gene_id: '84790'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '607'
 orthologs: ''
 tfs: 'TP53,P04637,7157,GTRD; IntAct_via_DoRothEA; ReMap,chromatin immunoprecipitation
   assay; inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D+OR+20227041%5Buid%5D+OR+27924024%5Buid%5D+OR+24234451%5Buid%5D"

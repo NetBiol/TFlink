@@ -7,6 +7,7 @@ uniprot_accession: Q9JLL0
 ncbi_gene_id: '50766'
 organism: Mus musculus
 function: target gene
+number_of_interactions: '249'
 orthologs: '[{"species": "Caenorhabditis elegans", "id": ["<a href=\"/protein/g5ef34\">G5EF34</a>"]}, {"species": "Homo sapiens", "id": ["<a href=\"/protein/q9nzv1\">Q9NZV1</a>"]}, {"species": "Rattus norvegicus", "id": ["<a href=\"/protein/d4aek3\">D4AEK3</a>"]}]'
 tfs: 'E2f2,P56931,242705,TRED,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=17202159%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,Yes

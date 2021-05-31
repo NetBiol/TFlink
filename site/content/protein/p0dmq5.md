@@ -7,6 +7,7 @@ uniprot_accession: P0DMQ5
 ncbi_gene_id: '100505573'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '320'
 orthologs: ''
 tfs: 'PML,P29590,5371,ReMap,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

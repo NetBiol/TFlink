@@ -7,6 +7,7 @@ uniprot_accession: Q9BSY4
 ncbi_gene_id: '84269'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '470'
 orthologs: ''
 tfs: 'ZKSCAN1,P17029,7586,GTRD; ReMap,chromatin immunoprecipitation assay,&ensp;<a
   href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D+OR+27924024%5Buid%5D"

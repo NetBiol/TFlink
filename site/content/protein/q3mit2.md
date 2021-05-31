@@ -7,6 +7,7 @@ uniprot_accession: Q3MIT2
 ncbi_gene_id: '150962'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '562'
 orthologs: ''
 tfs: 'YY2,O15391,404281,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

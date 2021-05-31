@@ -7,6 +7,7 @@ uniprot_accession: Q9NZI8
 ncbi_gene_id: '10642'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '436'
 orthologs: '[{"species": "Drosophila melanogaster", "id": ["E1JJM0"]}, {"species": "Mus musculus", "id": ["<a href=\"/protein/o88477\">O88477</a>"]}, {"species": "Rattus norvegicus", "id": ["<a href=\"/protein/q8cgx0\">Q8CGX0</a>"]}]'
 tfs: 'MYC,P01106,4609,GTRD; HTRI; ReMap; TRRUST,chromatin immunoprecipitation array;
   chromatin immunoprecipitation assay; inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D+OR+21252116%5Buid%5D+OR+27924024%5Buid%5D+OR+18414489%5Buid%5D+OR+29087512%5Buid%5D+OR+22900683%5Buid%5D"

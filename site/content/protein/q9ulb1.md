@@ -7,6 +7,7 @@ uniprot_accession: Q9ULB1
 ncbi_gene_id: '9378'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '313'
 orthologs: '[{"species": "Drosophila melanogaster", "id": ["A0A0B4KH61"]}, {"species": "Caenorhabditis elegans", "id": ["<a href=\"/protein/i2haj6\">I2HAJ6</a>"]}, {"species": "Mus musculus", "id": ["<a href=\"/protein/q9cs84\">Q9CS84</a>"]}]'
 tfs: 'TCF4,P15884,6925,GTRD; ReMap; TRRUST,chromatin immunoprecipitation assay; inferred
   by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29087512%5Buid%5D+OR+22777675%5Buid%5D+OR+29126285%5Buid%5D+OR+27924024%5Buid%5D"

@@ -7,6 +7,7 @@ uniprot_accession: Q9UDW1
 ncbi_gene_id: '29796'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '467'
 orthologs: ''
 tfs: 'GMEB1,Q9Y692,10691,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

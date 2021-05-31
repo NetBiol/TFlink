@@ -7,6 +7,7 @@ uniprot_accession: Q9JKJ9
 ncbi_gene_id: '56050'
 organism: Mus musculus
 function: target gene
+number_of_interactions: '293'
 orthologs: '[{"species": "Homo sapiens", "id": ["<a href=\"/protein/q9nyl5\">Q9NYL5</a>"]}, {"species": "Rattus norvegicus", "id": ["<a href=\"/protein/d4ae09\">D4AE09</a>"]}]'
 tfs: 'Hnf1a,P22361,21405,GTRD; TRRUST,chromatin immunoprecipitation assay; inferred
   by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=14599559%5Buid%5D+OR+29087512%5Buid%5D+OR+27924024%5Buid%5D"

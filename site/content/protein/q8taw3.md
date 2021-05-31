@@ -7,6 +7,7 @@ uniprot_accession: Q8TAW3
 ncbi_gene_id: '79891'
 organism: Homo sapiens
 function: transcription factor and target gene
+number_of_interactions: '286'
 orthologs: ''
 tfs: 'NOTCH1,P46531,4851,ReMap,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

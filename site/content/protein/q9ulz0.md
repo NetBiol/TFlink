@@ -7,6 +7,7 @@ uniprot_accession: Q9ULZ0
 ncbi_gene_id: 102723655;102723713;102724101;102724127;24150;653550;729264;729355
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '8'
 orthologs: ''
 tfs: 'PRDM14,Q9GZV8,63978,ORegAnno; PAZAR,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=18971253%5Buid%5D+OR+26578589%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

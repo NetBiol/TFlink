@@ -7,6 +7,7 @@ uniprot_accession: Q8CGV4
 ncbi_gene_id: '107605'
 organism: Mus musculus
 function: target gene
+number_of_interactions: '98'
 orthologs: '[{"species": "Homo sapiens", "id": ["<a href=\"/protein/o75452\">O75452</a>"]}, {"species": "Rattus norvegicus", "id": ["<a href=\"/protein/f7fhr5\">F7FHR5</a>"]}]'
 tfs: 'Jun,P05627,16476,GTRD; TRED,chromatin immunoprecipitation assay; inferred by
   curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D+OR+17202159%5Buid%5D"

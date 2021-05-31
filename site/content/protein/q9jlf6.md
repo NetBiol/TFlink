@@ -7,6 +7,7 @@ uniprot_accession: Q9JLF6
 ncbi_gene_id: '21816'
 organism: Mus musculus
 function: target gene
+number_of_interactions: '10'
 orthologs: ''
 tfs: 'Ar,P19091,11835,TRED,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=17202159%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,Yes

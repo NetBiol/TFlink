@@ -7,6 +7,7 @@ uniprot_accession: Q8NCC3
 ncbi_gene_id: '23659'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '487'
 orthologs: ''
 tfs: 'IRF2,P14316,3660,GTRD; ReMap,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D+OR+27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

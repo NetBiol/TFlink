@@ -7,6 +7,7 @@ uniprot_accession: Q8IZJ1
 ncbi_gene_id: '219699'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '403'
 orthologs: '[{"species": "Drosophila melanogaster", "id": ["<a href=\"/protein/q95tu8\">Q95TU8</a>"]}, {"species": "Caenorhabditis elegans", "id": ["<a href=\"/protein/q26261\">Q26261</a>"]}, {"species": "Mus musculus", "id": ["<a href=\"/protein/q8k1s3\">Q8K1S3</a>"]}, {"species": "Rattus norvegicus", "id": ["<a href=\"/protein/f1lne2\">F1LNE2</a>"]}]'
 tfs: 'TP53,P04637,7157,GTRD; ReMap; TRED,chromatin immunoprecipitation assay; inferred
   by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D+OR+27924024%5Buid%5D+OR+17202159%5Buid%5D"

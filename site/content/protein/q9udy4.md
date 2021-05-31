@@ -7,6 +7,7 @@ uniprot_accession: Q9UDY4
 ncbi_gene_id: '11080'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '641'
 orthologs: '[{"species": "Mus musculus", "id": ["<a href=\"/protein/q9d832\">Q9D832</a>"]}, {"species": "Rattus norvegicus", "id": ["<a href=\"/protein/q5xip0\">Q5XIP0</a>"]}, {"species": "Saccharomyces cerevisiae", "id": ["<a href=\"/protein/p25294\">P25294</a>"]}]'
 tfs: 'YY1,P25490,7528,GTRD; ReMap; TFactS_via_DoRothea; TRRUST,chromatin immunoprecipitation
   assay; inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D+OR+21345358%5Buid%5D+OR+22761861%5Buid%5D+OR+15782117%5Buid%5D+OR+27924024%5Buid%5D+OR+29087512%5Buid%5D"

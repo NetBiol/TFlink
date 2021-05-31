@@ -7,6 +7,7 @@ uniprot_accession: Q9NRZ9
 ncbi_gene_id: '3070'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '357'
 orthologs: ''
 tfs: 'E2F1,Q01094,1869,GTRD; TFactS_via_DoRothea,chromatin immunoprecipitation assay;
   inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=21453717%5Buid%5D+OR+22761861%5Buid%5D+OR+27924024%5Buid%5D"

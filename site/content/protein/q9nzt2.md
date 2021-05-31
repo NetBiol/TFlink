@@ -7,6 +7,7 @@ uniprot_accession: Q9NZT2
 ncbi_gene_id: '11054'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '398'
 orthologs: '[{"species": "Mus musculus", "id": ["<a href=\"/protein/q99pg2\">Q99PG2</a>"]}, {"species": "Rattus norvegicus", "id": ["Q3MID9"]}]'
 tfs: 'E2F4,Q16254,1874,ORegAnno; PAZAR; TRED,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=17202159%5Buid%5D+OR+18971253%5Buid%5D+OR+26578589%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,Yes

@@ -7,6 +7,7 @@ uniprot_accession: Q6UXN9
 ncbi_gene_id: '80335'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '546'
 orthologs: '[{"species": "Drosophila melanogaster", "id": ["<a href=\"/protein/q9vln1\">Q9VLN1</a>"]}, {"species": "Caenorhabditis elegans", "id": ["<a href=\"/protein/q18403\">Q18403</a>"]}, {"species": "Mus musculus", "id": ["<a href=\"/protein/q8bfq4\">Q8BFQ4</a>"]}, {"species": "Rattus norvegicus", "id": ["<a href=\"/protein/m0r565\">M0R565</a>"]}, {"species": "Saccharomyces cerevisiae", "id": ["<a href=\"/protein/p36104\">P36104</a>"]}]'
 tfs: 'YY1,P25490,7528,GTRD; ORegAnno; ReMap,chromatin immunoprecipitation assay; inferred
   by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=22951020%5Buid%5D+OR+29126285%5Buid%5D+OR+27924024%5Buid%5D+OR+26578589%5Buid%5D"

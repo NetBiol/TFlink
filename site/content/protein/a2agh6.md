@@ -7,6 +7,7 @@ uniprot_accession: A2AGH6
 ncbi_gene_id: '59024'
 organism: Mus musculus
 function: transcription factor and target gene
+number_of_interactions: '13843'
 orthologs: ''
 tfs: 'Taf2,Q8C176,,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

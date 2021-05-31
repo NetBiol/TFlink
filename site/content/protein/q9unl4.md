@@ -7,6 +7,7 @@ uniprot_accession: Q9UNL4
 ncbi_gene_id: '51147'
 organism: Homo sapiens
 function: transcription factor and target gene
+number_of_interactions: '545'
 orthologs: '[{"species": "Drosophila melanogaster", "id": ["Q8IP71"]}, {"species": "Caenorhabditis elegans", "id": ["<a href=\"/protein/a3qmd7\">A3QMD7</a>"]}, {"species": "Mus musculus", "id": ["<a href=\"/protein/q8c0d7\">Q8C0D7</a>"]}, {"species": "Rattus norvegicus", "id": ["<a href=\"/protein/a1l130\">A1L130</a>"]}, {"species": "Saccharomyces cerevisiae", "id": ["<a href=\"/protein/p38806\">P38806</a>"]}]'
 tfs: 'RUNX3,Q13761,864,GTRD; ReMap; TRRUST,chromatin immunoprecipitation assay; inferred
   by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29087512%5Buid%5D+OR+17956589%5Buid%5D+OR+29126285%5Buid%5D+OR+27924024%5Buid%5D"

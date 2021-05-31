@@ -7,6 +7,7 @@ uniprot_accession: C0HKQ7
 ncbi_gene_id: 43596;43597
 organism: Drosophila melanogaster
 function: target gene
+number_of_interactions: '6'
 orthologs: ''
 tfs: 'Dif,P98149,35045,REDfly,electrophoretic mobility shift assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=20965965%5Buid%5D+OR+8345514%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,Yes

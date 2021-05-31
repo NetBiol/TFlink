@@ -7,6 +7,7 @@ uniprot_accession: Q8WTP8
 ncbi_gene_id: '64782'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '450'
 orthologs: ''
 tfs: 'EGR1,P18146,1958,ReMap,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

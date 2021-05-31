@@ -7,6 +7,7 @@ uniprot_accession: Q8BGD7
 ncbi_gene_id: '225872'
 organism: Mus musculus
 function: transcription factor and target gene
+number_of_interactions: '5448'
 orthologs: '[{"species": "Homo sapiens", "id": ["<a href=\"/protein/q8ium7\">Q8IUM7</a>"]}, {"species": "Rattus norvegicus", "id": ["Q8CJH6"]}]'
 tfs: 'Rest,Q8VIG1,19712,GTRD; TRRUST,chromatin immunoprecipitation assay; inferred
   by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D+OR+29087512%5Buid%5D+OR+24291638%5Buid%5D"

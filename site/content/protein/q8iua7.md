@@ -7,6 +7,7 @@ uniprot_accession: Q8IUA7
 ncbi_gene_id: '10350'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '126'
 orthologs: ''
 tfs: 'SMARCA4,P51532,6597,GTRD; ORegAnno; PAZAR; ReMap,chromatin immunoprecipitation
   assay; inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D+OR+18971253%5Buid%5D+OR+27924024%5Buid%5D+OR+26578589%5Buid%5D"

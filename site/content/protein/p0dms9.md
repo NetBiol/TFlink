@@ -7,6 +7,7 @@ uniprot_accession: P0DMS9
 ncbi_gene_id: '57413'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '229'
 orthologs: ''
 tfs: 'SMAD1,Q15797,4086,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

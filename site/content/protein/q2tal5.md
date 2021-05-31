@@ -7,6 +7,7 @@ uniprot_accession: Q2TAL5
 ncbi_gene_id: '342527'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '196'
 orthologs: ''
 tfs: 'GRHL2,Q6ISB3,79977,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

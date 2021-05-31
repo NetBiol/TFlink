@@ -7,6 +7,7 @@ uniprot_accession: Q8VEF1
 ncbi_gene_id: '52857'
 organism: Mus musculus
 function: target gene
+number_of_interactions: '335'
 orthologs: ''
 tfs: 'Smad4,P97471,17128,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

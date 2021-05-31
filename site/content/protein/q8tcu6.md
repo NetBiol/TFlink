@@ -7,6 +7,7 @@ uniprot_accession: Q8TCU6
 ncbi_gene_id: '57580'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '473'
 orthologs: ''
 tfs: 'AHR,P35869,196,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

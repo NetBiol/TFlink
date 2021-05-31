@@ -7,6 +7,7 @@ uniprot_accession: Q9GZZ1
 ncbi_gene_id: '80218'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '525'
 orthologs: ''
 tfs: 'FGFR1,P11362,2260,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

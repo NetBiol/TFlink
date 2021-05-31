@@ -7,6 +7,7 @@ uniprot_accession: Q9UKA8
 ncbi_gene_id: '11123'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '439'
 orthologs: ''
 tfs: 'NANOG,Q9H9S0,79923,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

@@ -7,6 +7,7 @@ uniprot_accession: K7ERU9
 ncbi_gene_id: '-'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '529'
 orthologs: ''
 tfs: 'ZBTB42,B2RXF5,100128927,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

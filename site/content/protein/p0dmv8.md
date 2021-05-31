@@ -7,6 +7,7 @@ uniprot_accession: P0DMV8
 ncbi_gene_id: 3303;3304
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '602'
 orthologs: '[{"species": "Rattus norvegicus", "id": ["<a href=\"/protein/p0dmw0\">P0DMW0</a>"]}]'
 tfs: 'NFIC,P08651,4782,GTRD; ReMap; TRED,chromatin immunoprecipitation assay; inferred
   by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D+OR+27924024%5Buid%5D+OR+17202159%5Buid%5D"

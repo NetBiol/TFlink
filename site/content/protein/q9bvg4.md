@@ -7,6 +7,7 @@ uniprot_accession: Q9BVG4
 ncbi_gene_id: '51260'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '249'
 orthologs: '[{"species": "Mus musculus", "id": ["<a href=\"/protein/q9d0b6\">Q9D0B6</a>"]}, {"species": "Rattus norvegicus", "id": ["G3V6C3"]}]'
 tfs: 'YY1,P25490,7528,GTRD; ORegAnno; ReMap,chromatin immunoprecipitation assay; inferred
   by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=22951020%5Buid%5D+OR+29126285%5Buid%5D+OR+27924024%5Buid%5D+OR+26578589%5Buid%5D"

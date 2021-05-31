@@ -7,6 +7,7 @@ uniprot_accession: Q3TYJ1
 ncbi_gene_id: '20508'
 organism: Mus musculus
 function: target gene
+number_of_interactions: '88'
 orthologs: '[{"species": "Drosophila melanogaster", "id": ["<a href=\"/protein/o17444\">O17444</a>"]}, {"species": "Caenorhabditis elegans", "id": ["P34711"]}, {"species": "Homo sapiens", "id": ["<a href=\"/protein/q16572\">Q16572</a>"]}]'
 tfs: 'Ar,P19091,11835,TRED,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=17202159%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,Yes

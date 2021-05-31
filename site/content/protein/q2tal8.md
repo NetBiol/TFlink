@@ -7,6 +7,7 @@ uniprot_accession: Q2TAL8
 ncbi_gene_id: '54870'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '558'
 orthologs: ''
 tfs: 'THAP11,Q96EK4,57215,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

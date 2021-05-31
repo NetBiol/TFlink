@@ -7,6 +7,7 @@ uniprot_accession: Q9BTE7
 ncbi_gene_id: '84259'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '516'
 orthologs: ''
 tfs: 'BRD1,O95696,23774,ReMap,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

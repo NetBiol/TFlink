@@ -7,6 +7,7 @@ uniprot_accession: A6NED2
 ncbi_gene_id: '91433'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '532'
 orthologs: ''
 tfs: 'RBM34,P42696,23029,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

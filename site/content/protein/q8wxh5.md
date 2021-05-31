@@ -7,6 +7,7 @@ uniprot_accession: Q8WXH5
 ncbi_gene_id: '122809'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '576'
 orthologs: ''
 tfs: 'PPARG,P37231,5468,GTRD; ReMap; TRRUST,chromatin immunoprecipitation assay; inferred
   by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=20357037%5Buid%5D+OR+29087512%5Buid%5D+OR+29126285%5Buid%5D+OR+27924024%5Buid%5D"

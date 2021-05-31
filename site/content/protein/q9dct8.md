@@ -7,6 +7,7 @@ uniprot_accession: Q9DCT8
 ncbi_gene_id: '68337'
 organism: Mus musculus
 function: target gene
+number_of_interactions: '283'
 orthologs: '[{"species": "Drosophila melanogaster", "id": ["Q966T5"]}, {"species": "Homo sapiens", "id": ["<a href=\"/protein/p52943\">P52943</a>"]}, {"species": "Rattus norvegicus", "id": ["<a href=\"/protein/p36201\">P36201</a>"]}]'
 tfs: 'Stat3,P42227,20848,GTRD; TRED,chromatin immunoprecipitation assay; inferred
   by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D+OR+17202159%5Buid%5D"

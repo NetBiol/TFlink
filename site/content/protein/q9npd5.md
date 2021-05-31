@@ -7,6 +7,7 @@ uniprot_accession: Q9NPD5
 ncbi_gene_id: '28234'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '105'
 orthologs: '[{"species": "Drosophila melanogaster", "id": ["Q9W270"]}, {"species": "Mus musculus", "id": ["<a href=\"/protein/q9jjl3\">Q9JJL3</a>"]}, {"species": "Rattus norvegicus", "id": ["<a href=\"/protein/q9qzx8\">Q9QZX8</a>"]}]'
 tfs: 'NR1H4,Q96RI1,9971,TRRUST,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29087512%5Buid%5D+OR+16741617%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,Yes

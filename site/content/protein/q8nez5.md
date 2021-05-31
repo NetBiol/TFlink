@@ -7,6 +7,7 @@ uniprot_accession: Q8NEZ5
 ncbi_gene_id: '26263'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '576'
 orthologs: ''
 tfs: 'GRHL2,Q6ISB3,79977,GTRD; ReMap,chromatin immunoprecipitation assay,&ensp;<a
   href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D+OR+27924024%5Buid%5D"

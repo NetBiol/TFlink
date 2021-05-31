@@ -7,6 +7,7 @@ uniprot_accession: Q9BZE0
 ncbi_gene_id: '84662'
 organism: Homo sapiens
 function: transcription factor and target gene
+number_of_interactions: '5480'
 orthologs: ''
 tfs: 'BRD4,O60885,23476,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

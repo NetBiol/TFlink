@@ -7,6 +7,7 @@ uniprot_accession: A8KAG1
 ncbi_gene_id: '54865'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '4'
 orthologs: ''
 tfs: 'MYC,P01106,4609,HTRI,chromatin immunoprecipitation array,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=22900683%5Buid%5D+OR+18414489%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

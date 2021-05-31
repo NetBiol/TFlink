@@ -7,6 +7,7 @@ uniprot_accession: Q6PGP7
 ncbi_gene_id: '9652'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '527'
 orthologs: ''
 tfs: 'BMI1,P35226,100532731; 648,GTRD,chromatin immunoprecipitation assay,&ensp;<a
   href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D" target="_blank"><i

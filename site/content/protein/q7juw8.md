@@ -7,6 +7,7 @@ uniprot_accession: Q7JUW8
 ncbi_gene_id: '36250'
 organism: Drosophila melanogaster
 function: target gene
+number_of_interactions: '3'
 orthologs: ''
 tfs: 'tgo,O15945,41084,REDfly,experimental interaction detection,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=17652079%5Buid%5D+OR+20965965%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,Yes

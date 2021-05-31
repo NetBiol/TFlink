@@ -7,6 +7,7 @@ uniprot_accession: Q8WUB8
 ncbi_gene_id: '55274'
 organism: Homo sapiens
 function: transcription factor and target gene
+number_of_interactions: '407'
 orthologs: '[{"species": "Caenorhabditis elegans", "id": ["<a href=\"/protein/q2a950\">Q2A950</a>"]}, {"species": "Mus musculus", "id": ["<a href=\"/protein/k4di61\">K4DI61</a>"]}, {"species": "Rattus norvegicus", "id": ["<a href=\"/protein/a0a0g2k3m7\">A0A0G2K3M7</a>"]}]'
 tfs: 'STAT1,P42224,6772,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

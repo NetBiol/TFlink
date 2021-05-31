@@ -7,6 +7,7 @@ uniprot_accession: E9PZM4
 ncbi_gene_id: '244059'
 organism: Mus musculus
 function: transcription factor and target gene
+number_of_interactions: '4448'
 orthologs: ''
 tfs: 'Pknox1,O70477,18771,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

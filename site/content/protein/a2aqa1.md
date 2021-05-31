@@ -7,6 +7,7 @@ uniprot_accession: A2AQA1
 ncbi_gene_id: '545471'
 organism: Mus musculus
 function: target gene
+number_of_interactions: '116'
 orthologs: ''
 tfs: 'Smad1,P70340,17125,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

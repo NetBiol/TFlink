@@ -7,6 +7,7 @@ uniprot_accession: Q9HCU0
 ncbi_gene_id: '57124'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '222'
 orthologs: ''
 tfs: 'FOXP2,O15409,93986,GTRD; ReMap,chromatin immunoprecipitation assay,&ensp;<a
   href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D+OR+27924024%5Buid%5D"

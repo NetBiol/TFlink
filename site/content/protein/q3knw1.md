@@ -7,6 +7,7 @@ uniprot_accession: Q3KNW1
 ncbi_gene_id: '333929'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '360'
 orthologs: '[{"species": "Mus musculus", "id": ["<a href=\"/protein/q9qy31\">Q9QY31</a>"]}, {"species": "Rattus norvegicus", "id": ["<a href=\"/protein/d3zyq2\">D3ZYQ2</a>"]}]'
 tfs: 'RUNX2,Q13950,860,GTRD; TRRUST,chromatin immunoprecipitation assay; inferred
   by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29087512%5Buid%5D+OR+27924024%5Buid%5D+OR+22641097%5Buid%5D"

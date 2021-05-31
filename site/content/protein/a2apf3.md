@@ -7,6 +7,7 @@ uniprot_accession: A2APF3
 ncbi_gene_id: '664799'
 organism: Mus musculus
 function: transcription factor and target gene
+number_of_interactions: '9665'
 orthologs: '[{"species": "Rattus norvegicus", "id": ["D3ZQ48"]}]'
 tfs: 'Stag2,O35638,20843,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

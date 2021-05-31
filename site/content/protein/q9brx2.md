@@ -7,6 +7,7 @@ uniprot_accession: Q9BRX2
 ncbi_gene_id: '53918'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '328'
 orthologs: '[{"species": "Drosophila melanogaster", "id": ["<a href=\"/protein/p48612\">P48612</a>"]}, {"species": "Caenorhabditis elegans", "id": ["<a href=\"/protein/p50444\">P50444</a>"]}, {"species": "Mus musculus", "id": ["<a href=\"/protein/q80x73\">Q80X73</a>"]}, {"species": "Rattus norvegicus", "id": ["<a href=\"/protein/q5xip1\">Q5XIP1</a>"]}, {"species": "Saccharomyces cerevisiae", "id": ["<a href=\"/protein/p33309\">P33309</a>"]}]'
 tfs: 'DAND5,Q8N907,199699,ReMap; TRRUST,chromatin immunoprecipitation assay; inferred
   by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29087512%5Buid%5D+OR+29126285%5Buid%5D+OR+17669516%5Buid%5D"

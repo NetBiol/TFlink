@@ -7,6 +7,7 @@ uniprot_accession: Q9NPC8
 ncbi_gene_id: '10736'
 organism: Homo sapiens
 function: transcription factor and target gene
+number_of_interactions: '4021'
 orthologs: ''
 tfs: 'CASZ1,Q86V15,54897,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

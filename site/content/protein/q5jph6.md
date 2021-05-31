@@ -7,6 +7,7 @@ uniprot_accession: Q5JPH6
 ncbi_gene_id: '124454'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '586'
 orthologs: '[{"species": "Drosophila melanogaster", "id": ["<a href=\"/protein/q9vv59\">Q9VV59</a>"]}, {"species": "Mus musculus", "id": ["<a href=\"/protein/q9cxj1\">Q9CXJ1</a>"]}, {"species": "Rattus norvegicus", "id": ["<a href=\"/protein/m0rai4\">M0RAI4</a>"]}, {"species": "Saccharomyces cerevisiae", "id": ["<a href=\"/protein/p48525\">P48525</a>"]}]'
 tfs: 'STAT1,P42224,6772,GTRD; ORegAnno; ReMap,chromatin immunoprecipitation assay;
   inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=22951020%5Buid%5D+OR+29126285%5Buid%5D+OR+27924024%5Buid%5D+OR+26578589%5Buid%5D"

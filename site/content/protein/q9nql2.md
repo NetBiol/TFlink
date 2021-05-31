@@ -7,6 +7,7 @@ uniprot_accession: Q9NQL2
 ncbi_gene_id: '58528'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '307'
 orthologs: ''
 tfs: 'KLF1,Q13351,10661,GTRD; ReMap,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D+OR+27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

@@ -7,6 +7,7 @@ uniprot_accession: Q8WYH8
 ncbi_gene_id: '84289'
 organism: Homo sapiens
 function: transcription factor and target gene
+number_of_interactions: '577'
 orthologs: '[{"species": "Drosophila melanogaster", "id": ["Q8IP71"]}, {"species": "Caenorhabditis elegans", "id": ["<a href=\"/protein/a3qmd7\">A3QMD7</a>"]}, {"species": "Mus musculus", "id": ["<a href=\"/protein/q9d8y8\">Q9D8Y8</a>"]}, {"species": "Rattus norvegicus", "id": ["<a href=\"/protein/b2rz71\">B2RZ71</a>"]}, {"species": "Saccharomyces cerevisiae", "id": ["<a href=\"/protein/p38806\">P38806</a>"]}]'
 tfs: 'BRPF1,P55201,7862,TRRUST,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=18794358%5Buid%5D+OR+29087512%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,Yes

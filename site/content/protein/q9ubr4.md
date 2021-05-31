@@ -7,6 +7,7 @@ uniprot_accession: Q9UBR4
 ncbi_gene_id: '8022'
 organism: Homo sapiens
 function: transcription factor and target gene
+number_of_interactions: '302'
 orthologs: '[{"species": "Mus musculus", "id": ["<a href=\"/protein/p50481\">P50481</a>"]}, {"species": "Rattus norvegicus", "id": ["<a href=\"/protein/g3v9e7\">G3V9E7</a>"]}]'
 tfs: 'SOX2,P48431,6657,TRRUST,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29087512%5Buid%5D+OR+18407919%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,Yes

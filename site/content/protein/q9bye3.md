@@ -7,6 +7,7 @@ uniprot_accession: Q9BYE3
 ncbi_gene_id: '84648'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '64'
 orthologs: ''
 tfs: 'NFE2L1,Q14494,4779,ReMap,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

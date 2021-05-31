@@ -7,6 +7,7 @@ uniprot_accession: Q8IYU8
 ncbi_gene_id: '221154'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '530'
 orthologs: '[{"species": "Caenorhabditis elegans", "id": ["<a href=\"/protein/q18874\">Q18874</a>"]}, {"species": "Mus musculus", "id": ["<a href=\"/protein/q8cd10\">Q8CD10</a>"]}, {"species": "Rattus norvegicus", "id": ["<a href=\"/protein/f1lmj8\">F1LMJ8</a>"]}]'
 tfs: 'YY1,P25490,7528,GTRD; ORegAnno; ReMap,chromatin immunoprecipitation assay; inferred
   by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=22951020%5Buid%5D+OR+29126285%5Buid%5D+OR+27924024%5Buid%5D+OR+26578589%5Buid%5D"

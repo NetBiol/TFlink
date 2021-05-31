@@ -7,6 +7,7 @@ uniprot_accession: Q9VHG3
 ncbi_gene_id: '41105'
 organism: Drosophila melanogaster
 function: transcription factor and target gene
+number_of_interactions: '23'
 orthologs: ''
 tfs: 'fkh,P14734,43383,REDfly,genetic interference,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=20965965%5Buid%5D+OR+16914497%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,Yes

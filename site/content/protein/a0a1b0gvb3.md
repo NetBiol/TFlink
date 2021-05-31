@@ -7,6 +7,7 @@ uniprot_accession: A0A1B0GVB3
 ncbi_gene_id: '-'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '56'
 orthologs: ''
 tfs: 'HMGA1,P17096,3159,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

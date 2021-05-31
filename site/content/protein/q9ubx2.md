@@ -7,6 +7,7 @@ uniprot_accession: Q9UBX2
 ncbi_gene_id: '100288687'
 organism: Homo sapiens
 function: transcription factor and target gene
+number_of_interactions: '3324'
 orthologs: ''
 tfs: 'PITX1,P78337,5307,TRRUST,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=23206257%5Buid%5D+OR+29087512%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,Yes

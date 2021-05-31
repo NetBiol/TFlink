@@ -7,6 +7,7 @@ uniprot_accession: Q7RTS3
 ncbi_gene_id: '256297'
 organism: Homo sapiens
 function: transcription factor and target gene
+number_of_interactions: '92'
 orthologs: '[{"species": "Mus musculus", "id": ["<a href=\"/protein/q9qx98\">Q9QX98</a>"]}, {"species": "Rattus norvegicus", "id": ["Q64305"]}]'
 tfs: 'TAL1,P17542,6886,GTRD; ReMap,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D+OR+27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

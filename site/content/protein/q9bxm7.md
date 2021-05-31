@@ -7,6 +7,7 @@ uniprot_accession: Q9BXM7
 ncbi_gene_id: '65018'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '457'
 orthologs: '[{"species": "Mus musculus", "id": ["<a href=\"/protein/q99mq3\">Q99MQ3</a>"]}, {"species": "Rattus norvegicus", "id": ["<a href=\"/protein/b5dfg1\">B5DFG1</a>"]}]'
 tfs: 'RELA,Q04206,5970,GTRD; ORegAnno; ReMap,chromatin immunoprecipitation assay;
   inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D+OR+25108683%5Buid%5D+OR+27924024%5Buid%5D+OR+26578589%5Buid%5D"

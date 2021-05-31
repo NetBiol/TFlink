@@ -7,6 +7,7 @@ uniprot_accession: Q9NRZ5
 ncbi_gene_id: '56895'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '377'
 orthologs: '[{"species": "Mus musculus", "id": ["<a href=\"/protein/q8k4x7\">Q8K4X7</a>"]}, {"species": "Rattus norvegicus", "id": ["A0A0G2JWH4"]}, {"species": "Saccharomyces cerevisiae", "id": ["<a href=\"/protein/q12185\">Q12185</a>"]}]'
 tfs: 'E2F2,Q14209,1870,TRED,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=17202159%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,Yes

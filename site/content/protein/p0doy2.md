@@ -7,6 +7,7 @@ uniprot_accession: P0DOY2
 ncbi_gene_id: '-'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '37'
 orthologs: ''
 tfs: 'TSC22D4,Q9Y3Q8,81628,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

@@ -7,6 +7,7 @@ uniprot_accession: Q9VPQ5
 ncbi_gene_id: '33224'
 organism: Drosophila melanogaster
 function: transcription factor and target gene
+number_of_interactions: '41'
 orthologs: '[{"species": "Homo sapiens", "id": ["<a href=\"/protein/q5t0b9\">Q5T0B9</a>"]}, {"species": "Mus musculus", "id": ["<a href=\"/protein/b1asa5\">B1ASA5</a>"]}, {"species": "Rattus norvegicus", "id": ["<a href=\"/protein/d4a633\">D4A633</a>"]}]'
 tfs: 'Nelf-E,P92204,38982,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

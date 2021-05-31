@@ -7,6 +7,7 @@ uniprot_accession: Q8NGQ5
 ncbi_gene_id: '219956'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '35'
 orthologs: ''
 tfs: 'MYCN,P04198,4613,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

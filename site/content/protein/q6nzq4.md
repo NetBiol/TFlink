@@ -7,6 +7,7 @@ uniprot_accession: Q6NZQ4
 ncbi_gene_id: '55982'
 organism: Mus musculus
 function: target gene
+number_of_interactions: '380'
 orthologs: '[{"species": "Homo sapiens", "id": ["<a href=\"/protein/q6zw49\">Q6ZW49</a>"]}, {"species": "Rattus norvegicus", "id": ["D3ZSX6"]}]'
 tfs: 'Nupr1,Q9WTK0,56312,TRRUST,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29087512%5Buid%5D+OR+11940591%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,Yes

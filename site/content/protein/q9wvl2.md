@@ -7,6 +7,7 @@ uniprot_accession: Q9WVL2
 ncbi_gene_id: '-'
 organism: Mus musculus
 function: transcription factor
+number_of_interactions: '8794'
 orthologs: ''
 tfs: ''
 targets: 'Pdcd1,Q02242,18566,GTRD; TRRUST,chromatin immunoprecipitation assay; inferred

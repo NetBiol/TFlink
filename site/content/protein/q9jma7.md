@@ -7,6 +7,7 @@ uniprot_accession: Q9JMA7
 ncbi_gene_id: 100041375;53973
 organism: Mus musculus
 function: target gene
+number_of_interactions: '7'
 orthologs: '[{"species": "Rattus norvegicus", "id": ["<a href=\"/protein/q06884\">Q06884</a>"]}, {"species": "Saccharomyces cerevisiae", "id": ["<a href=\"/protein/p21595\">P21595</a>"]}]'
 tfs: 'Hnf4a,P49698,15378,TRRUST,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29087512%5Buid%5D+OR+12514743%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,Yes

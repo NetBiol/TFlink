@@ -7,6 +7,7 @@ uniprot_accession: Q8IWY4
 ncbi_gene_id: '80274'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '300'
 orthologs: ''
 tfs: 'HSF1,Q00613,3297,GTRD; ReMap,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D+OR+27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

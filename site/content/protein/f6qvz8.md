@@ -7,6 +7,7 @@ uniprot_accession: F6QVZ8
 ncbi_gene_id: '258231'
 organism: Mus musculus
 function: target gene
+number_of_interactions: '1'
 orthologs: ''
 tfs: 'Foxa1,P35582,15375,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No'

@@ -7,6 +7,7 @@ uniprot_accession: P0DOV2
 ncbi_gene_id: '15951'
 organism: Mus musculus
 function: transcription factor and target gene
+number_of_interactions: '155'
 orthologs: '[{"species": "Rattus norvegicus", "id": ["<a href=\"/protein/q5u2r8\">Q5U2R8</a>"]}]'
 tfs: 'Nkx2-5,P42582,18091,TRRUST,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29087512%5Buid%5D+OR+16556596%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,Yes

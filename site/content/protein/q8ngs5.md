@@ -7,6 +7,7 @@ uniprot_accession: Q8NGS5
 ncbi_gene_id: '138804'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '9'
 orthologs: ''
 tfs: 'NCOA1,Q15788,8648,ReMap,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

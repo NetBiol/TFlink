@@ -7,6 +7,7 @@ uniprot_accession: Q8TGS5
 ncbi_gene_id: '1466507'
 organism: Saccharomyces cerevisiae
 function: target gene
+number_of_interactions: '16'
 orthologs: ''
 tfs: 'IXR1,P33417,853836,Yeastract,array technology/partial DNA sequence identification
   by hybridization,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29449612%5Buid%5D+OR+24170807%5Buid%5D"

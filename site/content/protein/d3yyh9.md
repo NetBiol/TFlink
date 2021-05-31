@@ -7,6 +7,7 @@ uniprot_accession: D3YYH9
 ncbi_gene_id: '-'
 organism: Mus musculus
 function: target gene
+number_of_interactions: '34'
 orthologs: ''
 tfs: 'Mybl1,P51960,17864,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

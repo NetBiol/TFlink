@@ -7,6 +7,7 @@ uniprot_accession: Q9UHB9
 ncbi_gene_id: '6730'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '537'
 orthologs: '[{"species": "Drosophila melanogaster", "id": ["<a href=\"/protein/q9vss2\">Q9VSS2</a>"]}, {"species": "Caenorhabditis elegans", "id": ["<a href=\"/protein/q20822\">Q20822</a>"]}, {"species": "Mus musculus", "id": ["<a href=\"/protein/q8bma6\">Q8BMA6</a>"]}, {"species": "Rattus norvegicus", "id": ["B2RYI2"]}, {"species": "Saccharomyces cerevisiae", "id": ["<a href=\"/protein/p38687\">P38687</a>"]}]'
 tfs: 'YY1,P25490,7528,GTRD; ORegAnno; ReMap,chromatin immunoprecipitation assay; inferred
   by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=22951020%5Buid%5D+OR+29126285%5Buid%5D+OR+27924024%5Buid%5D+OR+26578589%5Buid%5D"

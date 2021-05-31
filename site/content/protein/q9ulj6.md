@@ -7,6 +7,7 @@ uniprot_accession: Q9ULJ6
 ncbi_gene_id: '57178'
 organism: Homo sapiens
 function: transcription factor and target gene
+number_of_interactions: '6606'
 orthologs: '[{"species": "Mus musculus", "id": ["<a href=\"/protein/q6p1e1\">Q6P1E1</a>"]}, {"species": "Rattus norvegicus", "id": ["<a href=\"/protein/d4ae97\">D4AE97</a>"]}]'
 tfs: 'AR,P10275,367,GTRD; HTRI; ReMap; TRED,chromatin immunoprecipitation array; chromatin
   immunoprecipitation assay; inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D+OR+20610535%5Buid%5D+OR+27924024%5Buid%5D+OR+17202159%5Buid%5D+OR+22900683%5Buid%5D"

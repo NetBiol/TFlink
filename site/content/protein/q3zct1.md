@@ -7,6 +7,7 @@ uniprot_accession: Q3ZCT1
 ncbi_gene_id: '339324'
 organism: Homo sapiens
 function: transcription factor and target gene
+number_of_interactions: '1253'
 orthologs: ''
 tfs: 'CDK7,P50613,1022,GTRD; ReMap,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D+OR+27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

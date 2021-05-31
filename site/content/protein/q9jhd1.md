@@ -7,6 +7,7 @@ uniprot_accession: Q9JHD1
 ncbi_gene_id: '18519'
 organism: Mus musculus
 function: transcription factor and target gene
+number_of_interactions: '303'
 orthologs: '[{"species": "Drosophila melanogaster", "id": ["<a href=\"/protein/q9vtz1\">Q9VTZ1</a>"]}, {"species": "Homo sapiens", "id": ["<a href=\"/protein/q92831\">Q92831</a>"]}]'
 tfs: 'Zeb1,Q64318,21417,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

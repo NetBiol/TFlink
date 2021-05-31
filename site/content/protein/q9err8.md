@@ -7,6 +7,7 @@ uniprot_accession: Q9ERR8
 ncbi_gene_id: '79233'
 organism: Mus musculus
 function: transcription factor and target gene
+number_of_interactions: '896'
 orthologs: ''
 tfs: 'Hnf4a,P49698,15378,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

@@ -7,6 +7,7 @@ uniprot_accession: Q9NWV4
 ncbi_gene_id: '54987'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '564'
 orthologs: '[{"species": "Drosophila melanogaster", "id": ["<a href=\"/protein/a1z9a2\">A1Z9A2</a>"]}, {"species": "Caenorhabditis elegans", "id": ["Q9BI88"]}, {"species": "Mus musculus", "id": ["<a href=\"/protein/q8bhg2\">Q8BHG2</a>"]}, {"species": "Rattus norvegicus", "id": ["<a href=\"/protein/q498r7\">Q498R7</a>"]}, {"species": "Saccharomyces cerevisiae", "id": ["<a href=\"/protein/p25654\">P25654</a>"]}]'
 tfs: 'E2F2,Q14209,1870,TRED,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=17202159%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,Yes

@@ -7,6 +7,7 @@ uniprot_accession: Q8BIH0
 ncbi_gene_id: '269003'
 organism: Mus musculus
 function: transcription factor
+number_of_interactions: '3470'
 orthologs: ''
 tfs: ''
 targets: 'Aldh7a1,Q9DBF1,110695,GTRD,chromatin immunoprecipitation assay,&ensp;<a

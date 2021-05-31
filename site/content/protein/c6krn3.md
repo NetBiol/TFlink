@@ -7,6 +7,7 @@ uniprot_accession: C6KRN3
 ncbi_gene_id: '173123'
 organism: Caenorhabditis elegans
 function: target gene
+number_of_interactions: '56'
 orthologs: ''
 tfs: 'elt-2,Q10655,181250,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

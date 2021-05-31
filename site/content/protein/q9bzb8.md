@@ -7,6 +7,7 @@ uniprot_accession: Q9BZB8
 ncbi_gene_id: '64506'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '335'
 orthologs: ''
 tfs: 'EZH2,Q15910,2146,GTRD; ReMap; TRRUST,chromatin immunoprecipitation assay; inferred
   by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29087512%5Buid%5D+OR+23788032%5Buid%5D+OR+29126285%5Buid%5D+OR+27924024%5Buid%5D"

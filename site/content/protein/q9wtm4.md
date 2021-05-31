@@ -7,6 +7,7 @@ uniprot_accession: Q9WTM4
 ncbi_gene_id: '18025'
 organism: Mus musculus
 function: transcription factor and target gene
+number_of_interactions: '140'
 orthologs: '[{"species": "Homo sapiens", "id": ["<a href=\"/protein/q9y4a8\">Q9Y4A8</a>"]}, {"species": "Rattus norvegicus", "id": ["D4A7S7"]}]'
 tfs: 'Zbtb17,Q60821,22642,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

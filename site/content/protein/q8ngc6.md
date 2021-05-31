@@ -7,6 +7,7 @@ uniprot_accession: Q8NGC6
 ncbi_gene_id: '390436'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '49'
 orthologs: ''
 tfs: 'CBFA2T3,O75081,863,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

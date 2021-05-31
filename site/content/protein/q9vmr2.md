@@ -7,6 +7,7 @@ uniprot_accession: Q9VMR2
 ncbi_gene_id: '33770'
 organism: Drosophila melanogaster
 function: transcription factor and target gene
+number_of_interactions: '47'
 orthologs: ''
 tfs: 'tin,P22711,42536,REDfly,electrophoretic mobility shift assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=20965965%5Buid%5D+OR+21108319%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,Yes

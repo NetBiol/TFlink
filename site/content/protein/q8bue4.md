@@ -7,6 +7,7 @@ uniprot_accession: Q8BUE4
 ncbi_gene_id: '71361'
 organism: Mus musculus
 function: target gene
+number_of_interactions: '209'
 orthologs: '[{"species": "Homo sapiens", "id": ["<a href=\"/protein/q9brq8\">Q9BRQ8</a>"]}, {"species": "Rattus norvegicus", "id": ["<a href=\"/protein/d4aa14\">D4AA14</a>"]}]'
 tfs: 'Spi1,P17433,20375,GTRD; TRED,chromatin immunoprecipitation assay; inferred by
   curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D+OR+17202159%5Buid%5D"

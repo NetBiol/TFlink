@@ -7,6 +7,7 @@ uniprot_accession: Q9UBT6
 ncbi_gene_id: '51426'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '543'
 orthologs: '[{"species": "Rattus norvegicus", "id": ["<a href=\"/protein/a0a0g2k4l7\">A0A0G2K4L7</a>"]}]'
 tfs: 'HSF1,Q00613,3297,GTRD; ReMap; TRRUST,chromatin immunoprecipitation assay; inferred
   by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D+OR+29087512%5Buid%5D+OR+22227292%5Buid%5D+OR+27924024%5Buid%5D"

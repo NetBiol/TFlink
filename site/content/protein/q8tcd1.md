@@ -7,6 +7,7 @@ uniprot_accession: Q8TCD1
 ncbi_gene_id: '497661'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '563'
 orthologs: ''
 tfs: 'ATF7IP,Q6VMQ6,55729,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

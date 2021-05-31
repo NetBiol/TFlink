@@ -7,6 +7,7 @@ uniprot_accession: J3QMC7
 ncbi_gene_id: '628324'
 organism: Mus musculus
 function: target gene
+number_of_interactions: '142'
 orthologs: ''
 tfs: 'Meis1,Q60954,17268,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

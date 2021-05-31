@@ -7,6 +7,7 @@ uniprot_accession: A2VCK2
 ncbi_gene_id: '149069'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '167'
 orthologs: ''
 tfs: 'CTCF,P49711,10664,GTRD; ReMap,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D+OR+27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

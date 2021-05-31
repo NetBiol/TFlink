@@ -7,6 +7,7 @@ uniprot_accession: Q6PGQ7
 ncbi_gene_id: '79866'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '487'
 orthologs: ''
 tfs: 'E2F4,Q16254,1874,GTRD; HTRI; ORegAnno; PAZAR; ReMap,chromatin immunoprecipitation
   array; chromatin immunoprecipitation assay; electrophoretic mobility shift assay;

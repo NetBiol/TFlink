@@ -7,6 +7,7 @@ uniprot_accession: Q9BQT8
 ncbi_gene_id: '89874'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '316'
 orthologs: '[{"species": "Drosophila melanogaster", "id": ["<a href=\"/protein/q9v3t2\">Q9V3T2</a>"]}, {"species": "Caenorhabditis elegans", "id": ["<a href=\"/protein/o62347\">O62347</a>"]}, {"species": "Mus musculus", "id": ["<a href=\"/protein/q8bz09\">Q8BZ09</a>"]}, {"species": "Rattus norvegicus", "id": ["A0A140TAF1"]}]'
 tfs: 'WT1,P19544,7490,TRED,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=17202159%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,Yes

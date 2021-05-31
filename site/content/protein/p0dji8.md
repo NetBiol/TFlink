@@ -7,6 +7,7 @@ uniprot_accession: P0DJI8
 ncbi_gene_id: '6288'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '123'
 orthologs: ''
 tfs: 'NFKB1,P19838,4790,GTRD; TRRUST,chromatin immunoprecipitation assay; inferred
   by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D+OR+29087512%5Buid%5D+OR+23391827%5Buid%5D"

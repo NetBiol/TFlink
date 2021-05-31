@@ -7,6 +7,7 @@ uniprot_accession: Q8WXI4
 ncbi_gene_id: '26027'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '348'
 orthologs: ''
 tfs: 'MITF,O75030,4286,GTRD; ORegAnno; PAZAR,chromatin immunoprecipitation assay;
   inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=18971253%5Buid%5D+OR+27924024%5Buid%5D+OR+26578589%5Buid%5D"

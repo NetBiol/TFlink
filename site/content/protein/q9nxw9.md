@@ -7,6 +7,7 @@ uniprot_accession: Q9NXW9
 ncbi_gene_id: '54784'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '490'
 orthologs: '[{"species": "Drosophila melanogaster", "id": ["<a href=\"/protein/q9vl81\">Q9VL81</a>"]}, {"species": "Caenorhabditis elegans", "id": ["<a href=\"/protein/q8mnt9\">Q8MNT9</a>"]}, {"species": "Mus musculus", "id": ["<a href=\"/protein/q9d8f1\">Q9D8F1</a>"]}, {"species": "Rattus norvegicus", "id": ["<a href=\"/protein/b2gv83\">B2GV83</a>"]}]'
 tfs: 'E2F1,Q01094,1869,GTRD; ReMap; TRED,chromatin immunoprecipitation assay; inferred
   by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D+OR+27924024%5Buid%5D+OR+17202159%5Buid%5D"

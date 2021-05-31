@@ -7,6 +7,7 @@ uniprot_accession: Q7KJA9
 ncbi_gene_id: '35486'
 organism: Drosophila melanogaster
 function: transcription factor and target gene
+number_of_interactions: '57'
 orthologs: ''
 tfs: 'pzg,Q9VP57,40351,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

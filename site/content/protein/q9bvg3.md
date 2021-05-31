@@ -7,6 +7,7 @@ uniprot_accession: Q9BVG3
 ncbi_gene_id: '55223'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '377'
 orthologs: ''
 tfs: 'CDK8,P49336,1024,ReMap,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

@@ -7,6 +7,7 @@ uniprot_accession: Q9WUH2
 ncbi_gene_id: '16876'
 organism: Mus musculus
 function: target gene
+number_of_interactions: '192'
 orthologs: '[{"species": "Homo sapiens", "id": ["<a href=\"/protein/q9nq69\">Q9NQ69</a>"]}, {"species": "Rattus norvegicus", "id": ["<a href=\"/protein/q80w90\">Q80W90</a>"]}]'
 tfs: 'Gbx2,P48031,14472,TRRUST,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29087512%5Buid%5D+OR+23136391%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,Yes

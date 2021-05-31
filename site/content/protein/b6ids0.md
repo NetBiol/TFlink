@@ -7,6 +7,7 @@ uniprot_accession: B6IDS0
 ncbi_gene_id: '42536'
 organism: Drosophila melanogaster
 function: transcription factor
+number_of_interactions: '50'
 orthologs: ''
 tfs: ''
 targets: 'Chro,Q86BS3,40508,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"

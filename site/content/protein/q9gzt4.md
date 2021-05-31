@@ -7,6 +7,7 @@ uniprot_accession: Q9GZT4
 ncbi_gene_id: '63826'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '409'
 orthologs: '[{"species": "Caenorhabditis elegans", "id": ["<a href=\"/protein/q93968\">Q93968</a>"]}, {"species": "Mus musculus", "id": ["<a href=\"/protein/q9qzx7\">Q9QZX7</a>"]}, {"species": "Rattus norvegicus", "id": ["Q76EQ0"]}, {"species": "Saccharomyces cerevisiae", "id": ["<a href=\"/protein/p36007\">P36007</a>"]}]'
 tfs: 'FOS,P01100,2353,GTRD; TRED; TRRUST,chromatin immunoprecipitation assay; inferred
   by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=17202159%5Buid%5D+OR+15681805%5Buid%5D+OR+29087512%5Buid%5D+OR+27924024%5Buid%5D"

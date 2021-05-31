@@ -7,6 +7,7 @@ uniprot_accession: Q9UBY9
 ncbi_gene_id: '27129'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '155'
 orthologs: ''
 tfs: 'CEBPA,P49715,1050,GTRD; ORegAnno; PAZAR,chromatin immunoprecipitation assay;
   inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=18971253%5Buid%5D+OR+27924024%5Buid%5D+OR+26578589%5Buid%5D"

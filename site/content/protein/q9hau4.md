@@ -7,6 +7,7 @@ uniprot_accession: Q9HAU4
 ncbi_gene_id: '64750'
 organism: Homo sapiens
 function: transcription factor and target gene
+number_of_interactions: '484'
 orthologs: '[{"species": "Drosophila melanogaster", "id": ["<a href=\"/protein/q9v853\">Q9V853</a>"]}, {"species": "Mus musculus", "id": ["<a href=\"/protein/a2a5z6\">A2A5Z6</a>"]}, {"species": "Rattus norvegicus", "id": ["<a href=\"/protein/f1m3f2\">F1M3F2</a>"]}]'
 tfs: 'MCM7,P33993,4176,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

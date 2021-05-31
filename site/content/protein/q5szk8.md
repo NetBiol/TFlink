@@ -7,6 +7,7 @@ uniprot_accession: Q5SZK8
 ncbi_gene_id: '341640'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '230'
 orthologs: ''
 tfs: 'TFAP2C,Q92754,7022,GTRD; HTRI; IntAct_via_DoRothEA; PAZAR; ReMap,chromatin immunoprecipitation
   assay; inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D+OR+24234451%5Buid%5D+OR+20629094%5Buid%5D+OR+18971253%5Buid%5D+OR+27924024%5Buid%5D+OR+24835590%5Buid%5D+OR+22900683%5Buid%5D"

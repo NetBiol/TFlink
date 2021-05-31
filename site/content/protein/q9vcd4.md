@@ -7,6 +7,7 @@ uniprot_accession: Q9VCD4
 ncbi_gene_id: '42857'
 organism: Drosophila melanogaster
 function: target gene
+number_of_interactions: '42'
 orthologs: ''
 tfs: 'Dmel\CG10669,Q9VBR9,43069,GTRD,chromatin immunoprecipitation assay,&ensp;<a
   href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D" target="_blank"><i

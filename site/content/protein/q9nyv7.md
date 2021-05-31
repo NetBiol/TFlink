@@ -7,6 +7,7 @@ uniprot_accession: Q9NYV7
 ncbi_gene_id: '50833'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '16'
 orthologs: ''
 tfs: 'GATA2,P23769,2624,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

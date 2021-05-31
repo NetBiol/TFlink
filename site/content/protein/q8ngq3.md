@@ -7,6 +7,7 @@ uniprot_accession: Q8NGQ3
 ncbi_gene_id: '219958'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '4'
 orthologs: ''
 tfs: 'TP73,O15350,7161,HTRI,chromatin immunoprecipitation array,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=22900683%5Buid%5D+OR+19558638%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

@@ -7,6 +7,7 @@ uniprot_accession: Q6IBW4
 ncbi_gene_id: '29781'
 organism: Homo sapiens
 function: transcription factor and target gene
+number_of_interactions: '11316'
 orthologs: ''
 tfs: 'SNAI2,O43623,6591,GTRD; ReMap,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D+OR+27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

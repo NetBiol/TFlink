@@ -7,6 +7,7 @@ uniprot_accession: Q8VDK3
 ncbi_gene_id: '13711'
 organism: Mus musculus
 function: transcription factor and target gene
+number_of_interactions: '10902'
 orthologs: '[{"species": "Rattus norvegicus", "id": ["D4A3N9"]}]'
 tfs: 'Stat1,P42225,,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

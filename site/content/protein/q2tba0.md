@@ -7,6 +7,7 @@ uniprot_accession: Q2TBA0
 ncbi_gene_id: '131377'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '142'
 orthologs: ''
 tfs: 'JUNB,P17275,3726,ReMap,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

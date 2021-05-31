@@ -7,6 +7,7 @@ uniprot_accession: Q9UBK8
 ncbi_gene_id: '4552'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '483'
 orthologs: '[{"species": "Caenorhabditis elegans", "id": ["<a href=\"/protein/q17574\">Q17574</a>"]}, {"species": "Mus musculus", "id": ["<a href=\"/protein/a0a0r4j0g9\">A0A0R4J0G9</a>"]}, {"species": "Rattus norvegicus", "id": ["<a href=\"/protein/q498r1\">Q498R1</a>"]}]'
 tfs: 'TFAP2A,P05549,7020,GTRD; TRED,chromatin immunoprecipitation assay; inferred
   by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D+OR+17202159%5Buid%5D"

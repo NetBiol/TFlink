@@ -7,6 +7,7 @@ uniprot_accession: Q9ULK4
 ncbi_gene_id: '9439'
 organism: Homo sapiens
 function: transcription factor and target gene
+number_of_interactions: '717'
 orthologs: ''
 tfs: 'E4F1,Q66K89,1877,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

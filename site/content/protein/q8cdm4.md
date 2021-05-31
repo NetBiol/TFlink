@@ -7,6 +7,7 @@ uniprot_accession: Q8CDM4
 ncbi_gene_id: '211936'
 organism: Mus musculus
 function: target gene
+number_of_interactions: '335'
 orthologs: ''
 tfs: 'Lin28a,Q8K3Y3,83557,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

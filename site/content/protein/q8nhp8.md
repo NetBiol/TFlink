@@ -7,6 +7,7 @@ uniprot_accession: Q8NHP8
 ncbi_gene_id: '196463'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '448'
 orthologs: ''
 tfs: 'ZNF280D,Q6N043,54816,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

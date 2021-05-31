@@ -7,6 +7,7 @@ uniprot_accession: Q9BXR5
 ncbi_gene_id: '81793'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '161'
 orthologs: '[{"species": "Drosophila melanogaster", "id": ["<a href=\"/protein/q9vle6\">Q9VLE6</a>"]}]'
 tfs: 'RXRA,P19793,6256,TRRUST,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=24373795%5Buid%5D+OR+29087512%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,Yes

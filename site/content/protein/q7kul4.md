@@ -7,6 +7,7 @@ uniprot_accession: Q7KUL4
 ncbi_gene_id: '2768974'
 organism: Drosophila melanogaster
 function: transcription factor and target gene
+number_of_interactions: '15'
 orthologs: '[{"species": "Homo sapiens", "id": ["<a href=\"/protein/p56179\">P56179</a>"]}, {"species": "Mus musculus", "id": ["<a href=\"/protein/p70397\">P70397</a>"]}]'
 tfs: 'grh,P13002,37038,REDfly,electrophoretic mobility shift assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=20965965%5Buid%5D+OR+22216201%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,Yes

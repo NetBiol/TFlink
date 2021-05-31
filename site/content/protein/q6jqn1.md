@@ -7,6 +7,7 @@ uniprot_accession: Q6JQN1
 ncbi_gene_id: '80724'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '550'
 orthologs: '[{"species": "Caenorhabditis elegans", "id": ["<a href=\"/protein/o01590\">O01590</a>"]}, {"species": "Mus musculus", "id": ["<a href=\"/protein/q8k370\">Q8K370</a>"]}, {"species": "Rattus norvegicus", "id": ["<a href=\"/protein/f1lsp2\">F1LSP2</a>"]}]'
 tfs: 'AR,P10275,367,DoRothEA; GTRD; ReMap,chromatin immunoprecipitation assay; inferred
   by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=31340985%5Buid%5D+OR+29126285%5Buid%5D+OR+17721441%5Buid%5D+OR+27924024%5Buid%5D"

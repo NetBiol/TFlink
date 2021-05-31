@@ -7,6 +7,7 @@ uniprot_accession: Q6MZM0
 ncbi_gene_id: '341208'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '92'
 orthologs: ''
 tfs: 'SOX2,P48431,6657,ReMap,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

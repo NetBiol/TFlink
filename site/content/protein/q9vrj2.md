@@ -7,6 +7,7 @@ uniprot_accession: Q9VRJ2
 ncbi_gene_id: '38596'
 organism: Drosophila melanogaster
 function: target gene
+number_of_interactions: '26'
 orthologs: ''
 tfs: 'Myc,Q9W4S7,31310,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

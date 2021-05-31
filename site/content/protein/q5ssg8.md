@@ -7,6 +7,7 @@ uniprot_accession: Q5SSG8
 ncbi_gene_id: '394263'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '49'
 orthologs: ''
 tfs: 'NR1H3,Q13133,10062,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

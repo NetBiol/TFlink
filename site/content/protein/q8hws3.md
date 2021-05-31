@@ -7,6 +7,7 @@ uniprot_accession: Q8HWS3
 ncbi_gene_id: '222546'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '158'
 orthologs: ''
 tfs: 'CTBP2,P56545,1488,ReMap,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

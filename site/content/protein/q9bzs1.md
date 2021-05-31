@@ -7,6 +7,7 @@ uniprot_accession: Q9BZS1
 ncbi_gene_id: '50943'
 organism: Homo sapiens
 function: transcription factor and target gene
+number_of_interactions: '6189'
 orthologs: '[{"species": "Mus musculus", "id": ["<a href=\"/protein/q99jb6\">Q99JB6</a>"]}, {"species": "Rattus norvegicus", "id": ["D4Q8I2"]}]'
 tfs: 'IRF1,P10914,3659,IntAct_via_DoRothEA; TRRUST,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29087512%5Buid%5D+OR+18641303%5Buid%5D+OR+24234451%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,Yes

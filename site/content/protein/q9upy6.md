@@ -7,6 +7,7 @@ uniprot_accession: Q9UPY6
 ncbi_gene_id: '10810'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '287'
 orthologs: '[{"species": "Drosophila melanogaster", "id": ["Q9VKM2"]}, {"species": "Caenorhabditis elegans", "id": ["<a href=\"/protein/q9xvk6\">Q9XVK6</a>"]}, {"species": "Mus musculus", "id": ["<a href=\"/protein/q8vhi6\">Q8VHI6</a>"]}, {"species": "Rattus norvegicus", "id": ["<a href=\"/protein/m0r7f3\">M0R7F3</a>"]}]'
 tfs: 'HIF1A,Q16665,3091,GTRD; ReMap; TRRUST,chromatin immunoprecipitation assay; inferred
   by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29087512%5Buid%5D+OR+29126285%5Buid%5D+OR+27924024%5Buid%5D+OR+22581642%5Buid%5D"

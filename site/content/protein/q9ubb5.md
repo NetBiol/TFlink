@@ -7,6 +7,7 @@ uniprot_accession: Q9UBB5
 ncbi_gene_id: '8932'
 organism: Homo sapiens
 function: transcription factor and target gene
+number_of_interactions: '7265'
 orthologs: '[{"species": "Rattus norvegicus", "id": ["<a href=\"/protein/d4a986\">D4A986</a>"]}]'
 tfs: 'HINFP,Q9BQA5,25988,TRRUST,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29087512%5Buid%5D+OR+11553631%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,Yes

@@ -7,6 +7,7 @@ uniprot_accession: Q8TEQ0
 ncbi_gene_id: '92017'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '516'
 orthologs: ''
 tfs: 'ONECUT2,O95948,9480,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

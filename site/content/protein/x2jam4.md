@@ -7,6 +7,7 @@ uniprot_accession: X2JAM4
 ncbi_gene_id: '38306'
 organism: Drosophila melanogaster
 function: target gene
+number_of_interactions: '70'
 orthologs: ''
 tfs: 'Tet,M9NEY8,38347,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

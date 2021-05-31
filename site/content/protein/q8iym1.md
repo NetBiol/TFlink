@@ -7,6 +7,7 @@ uniprot_accession: Q8IYM1
 ncbi_gene_id: '124404'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '154'
 orthologs: ''
 tfs: 'KLF9,Q13886,687,ReMap,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

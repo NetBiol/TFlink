@@ -7,6 +7,7 @@ uniprot_accession: Q3UYG1
 ncbi_gene_id: '434778'
 organism: Mus musculus
 function: target gene
+number_of_interactions: '108'
 orthologs: ''
 tfs: 'Setd1a,E9PYH6,233904,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

@@ -7,6 +7,7 @@ uniprot_accession: Q8BHG1
 ncbi_gene_id: '230598'
 organism: Mus musculus
 function: transcription factor and target gene
+number_of_interactions: '907'
 orthologs: ''
 tfs: 'Smc5,Q8CG46,226026,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

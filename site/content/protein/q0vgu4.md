@@ -7,6 +7,7 @@ uniprot_accession: Q0VGU4
 ncbi_gene_id: '381677'
 organism: Mus musculus
 function: target gene
+number_of_interactions: '317'
 orthologs: ''
 tfs: 'Foxa2,P35583,15376,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

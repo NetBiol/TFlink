@@ -7,6 +7,7 @@ uniprot_accession: Q9NVP2
 ncbi_gene_id: '55723'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '557'
 orthologs: '[{"species": "Caenorhabditis elegans", "id": ["<a href=\"/protein/q17603\">Q17603</a>"]}, {"species": "Mus musculus", "id": ["<a href=\"/protein/q9dap7\">Q9DAP7</a>"]}, {"species": "Rattus norvegicus", "id": ["<a href=\"/protein/b0bn69\">B0BN69</a>"]}]'
 tfs: 'E2F5,Q15329,1875,TFactS_via_DoRothea,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=22761861%5Buid%5D+OR+17328667%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,Yes

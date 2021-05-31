@@ -7,6 +7,7 @@ uniprot_accession: Q8JZL2
 ncbi_gene_id: '207911'
 organism: Mus musculus
 function: target gene
+number_of_interactions: '88'
 orthologs: '[{"species": "Homo sapiens", "id": ["<a href=\"/protein/q99705\">Q99705</a>"]}, {"species": "Rattus norvegicus", "id": ["P97639"]}]'
 tfs: 'Foxa2,P35583,15376,TRRUST,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=19956259%5Buid%5D+OR+29087512%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,Yes

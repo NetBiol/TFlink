@@ -7,6 +7,7 @@ uniprot_accession: Q8WUJ0
 ncbi_gene_id: '6815'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '465'
 orthologs: ''
 tfs: 'KDM2B,Q8NHM5,84678,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

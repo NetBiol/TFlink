@@ -7,6 +7,7 @@ uniprot_accession: Q8BWY3
 ncbi_gene_id: '225363'
 organism: Mus musculus
 function: target gene
+number_of_interactions: '332'
 orthologs: '[{"species": "Drosophila melanogaster", "id": ["<a href=\"/protein/q9vph7\">Q9VPH7</a>"]}, {"species": "Caenorhabditis elegans", "id": ["CAEEL14274"]}, {"species": "Homo sapiens", "id": ["<a href=\"/protein/p62495\">P62495</a>"]}, {"species": "Rattus norvegicus", "id": ["<a href=\"/protein/q5u2q7\">Q5U2Q7</a>"]}, {"species": "Saccharomyces cerevisiae", "id": ["<a href=\"/protein/p12385\">P12385</a>"]}]'
 tfs: 'Myb,P06876,17863,TRED,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=17202159%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,Yes

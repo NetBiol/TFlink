@@ -7,6 +7,7 @@ uniprot_accession: Q8TBY9
 ncbi_gene_id: '144406'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '380'
 orthologs: ''
 tfs: 'SCRT2,Q9NQ03,85508,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

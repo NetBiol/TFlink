@@ -7,6 +7,7 @@ uniprot_accession: Q8BUN5
 ncbi_gene_id: '17127'
 organism: Mus musculus
 function: transcription factor and target gene
+number_of_interactions: '13877'
 orthologs: '[{"species": "Drosophila melanogaster", "id": ["<a href=\"/protein/o96660\">O96660</a>"]}, {"species": "Homo sapiens", "id": ["<a href=\"/protein/p84022\">P84022</a>"]}, {"species": "Rattus norvegicus", "id": ["<a href=\"/protein/p84025\">P84025</a>"]}]'
 tfs: 'Tp53,P02340,22059,GTRD; TRRUST,chromatin immunoprecipitation assay; inferred
   by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29087512%5Buid%5D+OR+21900401%5Buid%5D+OR+27924024%5Buid%5D"

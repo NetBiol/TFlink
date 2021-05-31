@@ -7,6 +7,7 @@ uniprot_accession: A0AVK6
 ncbi_gene_id: '79733'
 organism: Homo sapiens
 function: transcription factor and target gene
+number_of_interactions: '15158'
 orthologs: '[{"species": "Mus musculus", "id": ["<a href=\"/protein/q58fa4\">Q58FA4</a>"]}, {"species": "Rattus norvegicus", "id": ["<a href=\"/protein/a0a0a0my11\">A0A0A0MY11</a>"]}]'
 tfs: 'E2F1,Q01094,1869,GTRD; IntAct_via_DoRothEA; ReMap,chromatin immunoprecipitation
   assay; inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D+OR+18202719%5Buid%5D+OR+16179649%5Buid%5D+OR+24234451%5Buid%5D+OR+27924024%5Buid%5D"

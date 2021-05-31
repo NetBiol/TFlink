@@ -7,6 +7,7 @@ uniprot_accession: Q9NPI1
 ncbi_gene_id: '29117'
 organism: Homo sapiens
 function: transcription factor and target gene
+number_of_interactions: '7444'
 orthologs: '[{"species": "Caenorhabditis elegans", "id": ["<a href=\"/protein/q17581\">Q17581</a>"]}, {"species": "Mus musculus", "id": ["<a href=\"/protein/o88665\">O88665</a>"]}, {"species": "Rattus norvegicus", "id": ["<a href=\"/protein/a0a0g2jtm7\">A0A0G2JTM7</a>"]}]'
 tfs: 'SP1,P08047,6667,GTRD; HTRI; ReMap; TRRUST,chromatin immunoprecipitation assay;
   electrophoretic mobility shift assay; inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D+OR+19111069%5Buid%5D+OR+27924024%5Buid%5D+OR+29087512%5Buid%5D+OR+16792505%5Buid%5D+OR+22900683%5Buid%5D"

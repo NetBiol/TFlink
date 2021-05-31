@@ -7,6 +7,7 @@ uniprot_accession: Q6PJW8
 ncbi_gene_id: '163882'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '513'
 orthologs: ''
 tfs: 'ESR1,P03372,2099,GTRD; HTRI; ReMap,chromatin immunoprecipitation array; chromatin
   immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D+OR+29126285%5Buid%5D+OR+22900683%5Buid%5D+OR+18414489%5Buid%5D"

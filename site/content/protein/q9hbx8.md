@@ -7,6 +7,7 @@ uniprot_accession: Q9HBX8
 ncbi_gene_id: '59352'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '336'
 orthologs: ''
 tfs: 'NEUROG2,Q9H2A3,63973,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

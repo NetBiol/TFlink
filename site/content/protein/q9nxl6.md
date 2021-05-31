@@ -7,6 +7,7 @@ uniprot_accession: Q9NXL6
 ncbi_gene_id: '54847'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '281'
 orthologs: '[{"species": "Caenorhabditis elegans", "id": ["<a href=\"/protein/q9gyf0\">Q9GYF0</a>"]}, {"species": "Mus musculus", "id": ["<a href=\"/protein/q6axf6\">Q6AXF6</a>"]}, {"species": "Rattus norvegicus", "id": ["<a href=\"/protein/d4a117\">D4A117</a>"]}]'
 tfs: 'STAT6,P42226,6778,TRRUST,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29087512%5Buid%5D+OR+18342537%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,Yes

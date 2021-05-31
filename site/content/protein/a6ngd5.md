@@ -7,6 +7,7 @@ uniprot_accession: A6NGD5
 ncbi_gene_id: '-'
 organism: Homo sapiens
 function: transcription factor and target gene
+number_of_interactions: '163'
 orthologs: ''
 tfs: 'EZH2,Q15910,2146,GTRD; ReMap,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D+OR+27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

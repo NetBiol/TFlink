@@ -7,6 +7,7 @@ uniprot_accession: Q6DIC0
 ncbi_gene_id: '67155'
 organism: Mus musculus
 function: transcription factor
+number_of_interactions: '165'
 orthologs: ''
 tfs: ''
 targets: 'Calm1,P0DP26,12313; 12314; 12315,TRRUST,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29087512%5Buid%5D+OR+23963727%5Buid%5D"

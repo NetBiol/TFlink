@@ -7,6 +7,7 @@ uniprot_accession: Q8NDH3
 ncbi_gene_id: '79716'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '318'
 orthologs: '[{"species": "Drosophila melanogaster", "id": ["Q9V3D8"]}, {"species": "Caenorhabditis elegans", "id": ["<a href=\"/protein/p34629\">P34629</a>"]}, {"species": "Mus musculus", "id": ["<a href=\"/protein/q6nsr8\">Q6NSR8</a>"]}, {"species": "Rattus norvegicus", "id": ["<a href=\"/protein/d4a3e2\">D4A3E2</a>"]}]'
 tfs: 'E2F2,Q14209,1870,TRED,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=17202159%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,Yes

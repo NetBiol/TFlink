@@ -7,6 +7,7 @@ uniprot_accession: Q9CPR7
 ncbi_gene_id: '66641'
 organism: Mus musculus
 function: target gene
+number_of_interactions: '344'
 orthologs: ''
 tfs: 'Srebf1,Q9WTN3,20787,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

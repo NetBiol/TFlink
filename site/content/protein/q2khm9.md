@@ -7,6 +7,7 @@ uniprot_accession: Q2KHM9
 ncbi_gene_id: '9851'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '532'
 orthologs: ''
 tfs: 'ARID4B,Q4LE39,51742,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

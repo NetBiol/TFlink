@@ -7,6 +7,7 @@ uniprot_accession: Q9BYR4
 ncbi_gene_id: '85290'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '38'
 orthologs: ''
 tfs: 'TCF4,P15884,6925,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

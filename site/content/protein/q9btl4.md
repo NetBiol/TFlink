@@ -7,6 +7,7 @@ uniprot_accession: Q9BTL4
 ncbi_gene_id: '9592'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '609'
 orthologs: '[{"species": "Mus musculus", "id": ["<a href=\"/protein/p17950\">P17950</a>"]}]'
 tfs: 'MYC,P01106,4609,GTRD; HTRI; ReMap; TRED,chromatin immunoprecipitation array;
   chromatin immunoprecipitation assay; inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D+OR+27924024%5Buid%5D+OR+18414489%5Buid%5D+OR+17202159%5Buid%5D+OR+22900683%5Buid%5D"

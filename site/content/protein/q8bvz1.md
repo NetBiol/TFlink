@@ -7,6 +7,7 @@ uniprot_accession: Q8BVZ1
 ncbi_gene_id: '66968'
 organism: Mus musculus
 function: target gene
+number_of_interactions: '185'
 orthologs: '[{"species": "Drosophila melanogaster", "id": ["<a href=\"/protein/q9vci3\">Q9VCI3</a>"]}, {"species": "Homo sapiens", "id": ["<a href=\"/protein/q00g26\">Q00G26</a>"]}, {"species": "Rattus norvegicus", "id": ["<a href=\"/protein/m0r7z9\">M0R7Z9</a>"]}]'
 tfs: 'Pparg,P37238,19016,GTRD; TRRUST,chromatin immunoprecipitation assay; inferred
   by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29087512%5Buid%5D+OR+27924024%5Buid%5D+OR+20643096%5Buid%5D"

@@ -7,6 +7,7 @@ uniprot_accession: Q9NXL9
 ncbi_gene_id: '254394'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '483'
 orthologs: '[{"species": "Rattus norvegicus", "id": ["<a href=\"/protein/k3w4u8\">K3W4U8</a>"]}]'
 tfs: 'E2F1,Q01094,1869,GTRD; ORegAnno; PAZAR; ReMap; TRED,chromatin immunoprecipitation
   assay; inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D+OR+26578589%5Buid%5D+OR+18971253%5Buid%5D+OR+27924024%5Buid%5D+OR+17202159%5Buid%5D"

@@ -7,6 +7,7 @@ uniprot_accession: Q8IZD2
 ncbi_gene_id: '55904'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '601'
 orthologs: '[{"species": "Mus musculus", "id": ["<a href=\"/protein/q3ug20\">Q3UG20</a>"]}, {"species": "Rattus norvegicus", "id": ["<a href=\"/protein/a0a0g2jwf0\">A0A0G2JWF0</a>"]}]'
 tfs: 'GATA3,P23771,2625,GTRD; IntAct_via_DoRothEA; PAZAR; ReMap,chromatin immunoprecipitation
   assay; inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D+OR+24234451%5Buid%5D+OR+26028330%5Buid%5D+OR+18971253%5Buid%5D+OR+27924024%5Buid%5D"

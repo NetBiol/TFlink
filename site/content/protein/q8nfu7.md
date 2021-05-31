@@ -7,6 +7,7 @@ uniprot_accession: Q8NFU7
 ncbi_gene_id: '80312'
 organism: Homo sapiens
 function: transcription factor and target gene
+number_of_interactions: '1583'
 orthologs: ''
 tfs: 'GLIS3,Q8NEA6,169792,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

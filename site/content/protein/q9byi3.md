@@ -7,6 +7,7 @@ uniprot_accession: Q9BYI3
 ncbi_gene_id: '84668'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '464'
 orthologs: ''
 tfs: 'DEAF1,O75398,10522,GTRD; ReMap,chromatin immunoprecipitation assay,&ensp;<a
   href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D+OR+27924024%5Buid%5D"

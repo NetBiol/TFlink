@@ -7,6 +7,7 @@ uniprot_accession: Q9UKD1
 ncbi_gene_id: '26205'
 organism: Homo sapiens
 function: transcription factor and target gene
+number_of_interactions: '7727'
 orthologs: ''
 tfs: 'ZFP42,Q96MM3,132625,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

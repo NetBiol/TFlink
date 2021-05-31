@@ -7,6 +7,7 @@ uniprot_accession: Q8WTW4
 ncbi_gene_id: '10641'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '486'
 orthologs: '[{"species": "Drosophila melanogaster", "id": ["<a href=\"/protein/q9vxa0\">Q9VXA0</a>"]}, {"species": "Mus musculus", "id": ["<a href=\"/protein/q9wue4\">Q9WUE4</a>"]}, {"species": "Rattus norvegicus", "id": ["<a href=\"/protein/d3zpn1\">D3ZPN1</a>"]}]'
 tfs: 'MYC,P01106,4609,GTRD; ReMap; TRED,chromatin immunoprecipitation assay; inferred
   by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D+OR+27924024%5Buid%5D+OR+17202159%5Buid%5D"

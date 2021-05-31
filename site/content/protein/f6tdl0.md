@@ -7,6 +7,7 @@ uniprot_accession: F6TDL0
 ncbi_gene_id: '110117499'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '65'
 orthologs: ''
 tfs: 'HSF1,Q00613,3297,ReMap,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

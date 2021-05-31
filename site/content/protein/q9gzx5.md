@@ -7,6 +7,7 @@ uniprot_accession: Q9GZX5
 ncbi_gene_id: '59348'
 organism: Homo sapiens
 function: transcription factor and target gene
+number_of_interactions: '1776'
 orthologs: ''
 tfs: 'E2F1,Q01094,1869,GTRD; ORegAnno; PAZAR; TFactS_via_DoRothea; TRRUST,chromatin
   immunoprecipitation assay; inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=20713352%5Buid%5D+OR+26578589%5Buid%5D+OR+22761861%5Buid%5D+OR+18971253%5Buid%5D+OR+27924024%5Buid%5D+OR+22768064%5Buid%5D+OR+29087512%5Buid%5D"

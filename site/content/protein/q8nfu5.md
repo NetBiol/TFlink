@@ -7,6 +7,7 @@ uniprot_accession: Q8NFU5
 ncbi_gene_id: '253430'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '446'
 orthologs: ''
 tfs: 'LMO2,P25791,4005,ReMap,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

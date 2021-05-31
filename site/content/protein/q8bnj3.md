@@ -7,6 +7,7 @@ uniprot_accession: Q8BNJ3
 ncbi_gene_id: '226518'
 organism: Mus musculus
 function: target gene
+number_of_interactions: '225'
 orthologs: '[{"species": "Homo sapiens", "id": ["<a href=\"/protein/q9bzq4\">Q9BZQ4</a>"]}, {"species": "Rattus norvegicus", "id": ["<a href=\"/protein/f1lpz7\">F1LPZ7</a>"]}]'
 tfs: 'Creb1,Q01147,12912,GTRD; TRRUST,chromatin immunoprecipitation assay; inferred
   by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=22027994%5Buid%5D+OR+29087512%5Buid%5D+OR+27924024%5Buid%5D"

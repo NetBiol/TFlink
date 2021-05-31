@@ -7,6 +7,7 @@ uniprot_accession: Q9NZQ3
 ncbi_gene_id: '51517'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '377'
 orthologs: ''
 tfs: 'EGR1,P18146,1958,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

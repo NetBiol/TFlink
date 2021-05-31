@@ -7,6 +7,7 @@ uniprot_accession: Q9JHH5
 ncbi_gene_id: '56066'
 organism: Mus musculus
 function: target gene
+number_of_interactions: '5'
 orthologs: ''
 tfs: 'Irf1,P15314,16362,TRRUST,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=17202361%5Buid%5D+OR+29087512%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,Yes

@@ -7,6 +7,7 @@ uniprot_accession: A0A1W2PRN6
 ncbi_gene_id: '-'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '13'
 orthologs: ''
 tfs: 'TEAD4,Q15561,7004,ReMap,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

@@ -7,6 +7,7 @@ uniprot_accession: B2RVY9
 ncbi_gene_id: '381339'
 organism: Mus musculus
 function: target gene
+number_of_interactions: '65'
 orthologs: ''
 tfs: 'Pex2,P55098,19302,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

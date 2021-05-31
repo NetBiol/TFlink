@@ -7,6 +7,7 @@ uniprot_accession: Q9QYB1
 ncbi_gene_id: '29876'
 organism: Mus musculus
 function: target gene
+number_of_interactions: '310'
 orthologs: '[{"species": "Drosophila melanogaster", "id": ["<a href=\"/protein/q9vy78\">Q9VY78</a>"]}, {"species": "Caenorhabditis elegans", "id": ["<a href=\"/protein/o45405\">O45405</a>"]}, {"species": "Homo sapiens", "id": ["<a href=\"/protein/q9y696\">Q9Y696</a>"]}, {"species": "Rattus norvegicus", "id": ["<a href=\"/protein/g3v8c4\">G3V8C4</a>"]}]'
 tfs: 'Creb1,Q01147,12912,GTRD; TRED,chromatin immunoprecipitation assay; inferred
   by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D+OR+17202159%5Buid%5D"

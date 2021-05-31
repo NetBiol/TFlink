@@ -7,6 +7,7 @@ uniprot_accession: Q9HCE5
 ncbi_gene_id: '57721'
 organism: Homo sapiens
 function: transcription factor and target gene
+number_of_interactions: '548'
 orthologs: ''
 tfs: 'ZBTB7A,O95365,51341,GTRD; ReMap,chromatin immunoprecipitation assay,&ensp;<a
   href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D+OR+27924024%5Buid%5D"

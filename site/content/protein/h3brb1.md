@@ -7,6 +7,7 @@ uniprot_accession: H3BRB1
 ncbi_gene_id: '-'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '635'
 orthologs: ''
 tfs: 'CREBBP,Q92793,1387,GTRD; ReMap,chromatin immunoprecipitation assay,&ensp;<a
   href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D+OR+27924024%5Buid%5D"

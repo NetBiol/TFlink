@@ -7,6 +7,7 @@ uniprot_accession: D4ACF4
 ncbi_gene_id: '290221'
 organism: Rattus norvegicus
 function: transcription factor
+number_of_interactions: '1'
 orthologs: ''
 tfs: ''
 targets: 'Rho,A0A0G2JSY7,24717,ORegAnno; PAZAR,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=18971253%5Buid%5D+OR+26578589%5Buid%5D"

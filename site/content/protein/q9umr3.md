@@ -7,6 +7,7 @@ uniprot_accession: Q9UMR3
 ncbi_gene_id: '57057'
 organism: Homo sapiens
 function: transcription factor and target gene
+number_of_interactions: '219'
 orthologs: '[{"species": "Mus musculus", "id": ["<a href=\"/protein/q9es03\">Q9ES03</a>"]}, {"species": "Rattus norvegicus", "id": ["<a href=\"/protein/a0a0g2kah3\">A0A0G2KAH3</a>"]}]'
 tfs: 'NCOR1,O75376,9611,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

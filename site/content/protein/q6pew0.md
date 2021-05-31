@@ -7,6 +7,7 @@ uniprot_accession: Q6PEW0
 ncbi_gene_id: '221191'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '47'
 orthologs: ''
 tfs: 'CEBPA,P49715,1050,ORegAnno; PAZAR,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=18971253%5Buid%5D+OR+26578589%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

@@ -7,6 +7,7 @@ uniprot_accession: Q1HDU4
 ncbi_gene_id: '216445'
 organism: Mus musculus
 function: target gene
+number_of_interactions: '144'
 orthologs: ''
 tfs: 'Isx,A1A546,71597,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

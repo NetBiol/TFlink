@@ -7,6 +7,7 @@ uniprot_accession: Q8NDW4
 ncbi_gene_id: '57209'
 organism: Homo sapiens
 function: transcription factor and target gene
+number_of_interactions: '470'
 orthologs: ''
 tfs: 'BRD2,P25440,6046,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

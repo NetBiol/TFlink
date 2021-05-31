@@ -7,6 +7,7 @@ uniprot_accession: Q9WTQ5
 ncbi_gene_id: '83397'
 organism: Mus musculus
 function: target gene
+number_of_interactions: '156'
 orthologs: '[{"species": "Homo sapiens", "id": ["<a href=\"/protein/q02952\">Q02952</a>"]}, {"species": "Rattus norvegicus", "id": ["<a href=\"/protein/q5qd51\">Q5QD51</a>"]}, {"species": "Saccharomyces cerevisiae", "id": ["<a href=\"/protein/q03661\">Q03661</a>"]}]'
 tfs: 'Gtf2i,Q9ESZ8,14886,TRRUST,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29087512%5Buid%5D+OR+20568114%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,Yes

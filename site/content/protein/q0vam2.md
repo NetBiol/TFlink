@@ -7,6 +7,7 @@ uniprot_accession: Q0VAM2
 ncbi_gene_id: '153020'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '385'
 orthologs: ''
 tfs: 'E2F1,Q01094,1869,GTRD; ORegAnno; PAZAR; ReMap; TRRUST,chromatin immunoprecipitation
   assay; inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=18396012%5Buid%5D+OR+29126285%5Buid%5D+OR+26578589%5Buid%5D+OR+18971253%5Buid%5D+OR+27924024%5Buid%5D+OR+29087512%5Buid%5D"

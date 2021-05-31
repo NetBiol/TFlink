@@ -7,6 +7,7 @@ uniprot_accession: A2BDX4
 ncbi_gene_id: '241794'
 organism: Mus musculus
 function: target gene
+number_of_interactions: '141'
 orthologs: ''
 tfs: 'Gata2,O09100,14461,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

@@ -7,6 +7,7 @@ uniprot_accession: Q9ERV7
 ncbi_gene_id: '57913'
 organism: Mus musculus
 function: target gene
+number_of_interactions: '282'
 orthologs: '[{"species": "Homo sapiens", "id": ["<a href=\"/protein/q9hb75\">Q9HB75</a>"]}, {"species": "Rattus norvegicus", "id": ["D3ZZY5"]}]'
 tfs: 'Tp53,P02340,22059,GTRD; TRED,chromatin immunoprecipitation assay; inferred by
   curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D+OR+17202159%5Buid%5D"

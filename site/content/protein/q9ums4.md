@@ -7,6 +7,7 @@ uniprot_accession: Q9UMS4
 ncbi_gene_id: '27339'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '488'
 orthologs: ''
 tfs: 'CUX1,P39880,1523,ReMap,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

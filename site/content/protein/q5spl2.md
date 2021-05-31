@@ -7,6 +7,7 @@ uniprot_accession: Q5SPL2
 ncbi_gene_id: '268448'
 organism: Mus musculus
 function: transcription factor and target gene
+number_of_interactions: '388'
 orthologs: '[{"species": "Drosophila melanogaster", "id": ["<a href=\"/protein/q9w410\">Q9W410</a>"]}, {"species": "Homo sapiens", "id": ["<a href=\"/protein/q96qt6\">Q96QT6</a>"]}, {"species": "Rattus norvegicus", "id": ["<a href=\"/protein/f1lm99\">F1LM99</a>"]}]'
 tfs: 'Purb,O35295,19291,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

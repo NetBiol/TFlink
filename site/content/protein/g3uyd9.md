@@ -7,6 +7,7 @@ uniprot_accession: G3UYD9
 ncbi_gene_id: '100502736'
 organism: Mus musculus
 function: target gene
+number_of_interactions: '69'
 orthologs: ''
 tfs: 'Neurod1,Q60867,18012,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

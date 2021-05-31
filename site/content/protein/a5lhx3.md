@@ -7,6 +7,7 @@ uniprot_accession: A5LHX3
 ncbi_gene_id: '122706'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '45'
 orthologs: ''
 tfs: 'KDM5B,Q9UGL1,10765,ReMap,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

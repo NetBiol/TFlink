@@ -7,6 +7,7 @@ uniprot_accession: A0A0B4KGF6
 ncbi_gene_id: '40950'
 organism: Drosophila melanogaster
 function: target gene
+number_of_interactions: '33'
 orthologs: ''
 tfs: 'nej,M9MS40,43856,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

@@ -7,6 +7,7 @@ uniprot_accession: Q9UHC6
 ncbi_gene_id: '26047'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '480'
 orthologs: '[{"species": "Drosophila melanogaster", "id": ["<a href=\"/protein/q94887\">Q94887</a>"]}, {"species": "Caenorhabditis elegans", "id": ["Q19617"]}, {"species": "Mus musculus", "id": ["E9QNF7"]}]'
 tfs: 'FOXP2,O15409,93986,HTRI; TRRUST,chromatin immunoprecipitation assay; inferred
   by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=18987363%5Buid%5D+OR+18987364%5Buid%5D+OR+29087512%5Buid%5D+OR+19582487%5Buid%5D+OR+22900683%5Buid%5D"

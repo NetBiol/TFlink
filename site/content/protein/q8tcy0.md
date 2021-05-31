@@ -7,6 +7,7 @@ uniprot_accession: Q8TCY0
 ncbi_gene_id: '-'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '28'
 orthologs: ''
 tfs: 'HNF4A,P41235,3172,ORegAnno; PAZAR; ReMap,chromatin immunoprecipitation assay;
   inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D+OR+18971253%5Buid%5D+OR+26578589%5Buid%5D"

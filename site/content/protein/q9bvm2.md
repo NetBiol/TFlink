@@ -7,6 +7,7 @@ uniprot_accession: Q9BVM2
 ncbi_gene_id: '25911'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '506'
 orthologs: '[{"species": "Drosophila melanogaster", "id": ["<a href=\"/protein/q9w0m5\">Q9W0M5</a>"]}, {"species": "Mus musculus", "id": ["<a href=\"/protein/q8bpa8\">Q8BPA8</a>"]}, {"species": "Rattus norvegicus", "id": ["<a href=\"/protein/q6aym4\">Q6AYM4</a>"]}]'
 tfs: 'E2F1,Q01094,1869,GTRD; ReMap; TRED,chromatin immunoprecipitation assay; inferred
   by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D+OR+27924024%5Buid%5D+OR+17202159%5Buid%5D"

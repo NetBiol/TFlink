@@ -7,6 +7,7 @@ uniprot_accession: Q6PCN7
 ncbi_gene_id: '20585'
 organism: Mus musculus
 function: transcription factor and target gene
+number_of_interactions: '309'
 orthologs: '[{"species": "Homo sapiens", "id": ["<a href=\"/protein/q14527\">Q14527</a>"]}, {"species": "Rattus norvegicus", "id": ["<a href=\"/protein/a0a0g2jvh5\">A0A0G2JVH5</a>"]}]'
 tfs: 'Smad3,Q8BUN5,17127,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

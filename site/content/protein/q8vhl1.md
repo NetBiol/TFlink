@@ -7,6 +7,7 @@ uniprot_accession: Q8VHL1
 ncbi_gene_id: '73251'
 organism: Mus musculus
 function: target gene
+number_of_interactions: '249'
 orthologs: '[{"species": "Homo sapiens", "id": ["<a href=\"/protein/q8wts6\">Q8WTS6</a>"]}, {"species": "Rattus norvegicus", "id": ["<a href=\"/protein/d4ade5\">D4ADE5</a>"]}]'
 tfs: 'Xbp1,O35426,22433,TRRUST,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29087512%5Buid%5D+OR+24452638%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,Yes

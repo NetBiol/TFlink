@@ -7,6 +7,7 @@ uniprot_accession: Q9UIM3
 ncbi_gene_id: '63943'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '424'
 orthologs: ''
 tfs: 'RFX3,P48380,5991,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

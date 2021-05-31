@@ -7,6 +7,7 @@ uniprot_accession: Q8IMK1
 ncbi_gene_id: '318566'
 organism: Drosophila melanogaster
 function: target gene
+number_of_interactions: '54'
 orthologs: ''
 tfs: 'TfIIA-L,P52654,43284,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

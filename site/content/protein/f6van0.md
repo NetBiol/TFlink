@@ -7,6 +7,7 @@ uniprot_accession: F6VAN0
 ncbi_gene_id: '226641'
 organism: Mus musculus
 function: transcription factor and target gene
+number_of_interactions: '400'
 orthologs: '[{"species": "Homo sapiens", "id": ["<a href=\"/protein/p18850\">P18850</a>"]}, {"species": "Rattus norvegicus", "id": ["<a href=\"/protein/g3v909\">G3V909</a>"]}]'
 tfs: 'Runx2,Q08775,12393,GTRD; TRRUST,chromatin immunoprecipitation assay; inferred
   by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=22102412%5Buid%5D+OR+29087512%5Buid%5D+OR+27924024%5Buid%5D"

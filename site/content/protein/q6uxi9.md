@@ -7,6 +7,7 @@ uniprot_accession: Q6UXI9
 ncbi_gene_id: '255743'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '235'
 orthologs: ''
 tfs: 'GATA2,P23769,2624,GTRD; HTRI,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=19941826%5Buid%5D+OR+27924024%5Buid%5D+OR+22900683%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

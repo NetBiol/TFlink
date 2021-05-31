@@ -7,6 +7,7 @@ uniprot_accession: Q9VGF9
 ncbi_gene_id: '41446'
 organism: Drosophila melanogaster
 function: target gene
+number_of_interactions: '40'
 orthologs: '[{"species": "Homo sapiens", "id": ["<a href=\"/protein/q96gd4\">Q96GD4</a>", "HUMAN19185"]}, {"species": "Caenorhabditis elegans", "id": ["<a href=\"/protein/o01427\">O01427</a>", "<a href=\"/protein/g5edl3\">G5EDL3</a>"]}, {"species": "Mus musculus", "id": ["<a href=\"/protein/p97477\">P97477</a>", "A0A140LIP1"]}, {"species": "Rattus norvegicus", "id": ["D4AD76", "<a href=\"/protein/o55099\">O55099</a>", "Q3MHU2"]}, {"species": "Saccharomyces cerevisiae", "id": ["<a href=\"/protein/p38991\">P38991</a>"]}]'
 tfs: 'BEAF-32,Q7JN06,36645,ORegAnno,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=9001253%5Buid%5D+OR+26578589%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,Yes

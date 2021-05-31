@@ -7,6 +7,7 @@ uniprot_accession: Q8IYX8
 ncbi_gene_id: '285753'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '524'
 orthologs: ''
 tfs: 'HOXC8,P31273,3224,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

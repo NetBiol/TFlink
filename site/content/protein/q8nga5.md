@@ -7,6 +7,7 @@ uniprot_accession: Q8NGA5
 ncbi_gene_id: '126541'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '22'
 orthologs: ''
 tfs: 'MAFK,O60675,7975,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

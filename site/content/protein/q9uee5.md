@@ -7,6 +7,7 @@ uniprot_accession: Q9UEE5
 ncbi_gene_id: '9263'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '474'
 orthologs: ''
 tfs: 'HIRA,P54198,7290,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

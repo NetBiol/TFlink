@@ -7,6 +7,7 @@ uniprot_accession: Q9BQE9
 ncbi_gene_id: '9275'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '528'
 orthologs: ''
 tfs: 'KDM4C,Q9H3R0,23081,ReMap,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

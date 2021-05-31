@@ -7,6 +7,7 @@ uniprot_accession: Q9NNW5
 ncbi_gene_id: '11180'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '521'
 orthologs: ''
 tfs: 'RXRA,P19793,6256,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

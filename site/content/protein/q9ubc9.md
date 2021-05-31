@@ -7,6 +7,7 @@ uniprot_accession: Q9UBC9
 ncbi_gene_id: '6707'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '80'
 orthologs: '[{"species": "Rattus norvegicus", "id": ["<a href=\"/protein/d3zhq6\">D3ZHQ6</a>"]}]'
 tfs: 'FOS,P01100,2353,GTRD; ORegAnno; PAZAR; ReMap; TRED; TRRUST,chromatin immunoprecipitation
   assay; inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D+OR+9889002%5Buid%5D+OR+26578589%5Buid%5D+OR+18971253%5Buid%5D+OR+27924024%5Buid%5D+OR+17202159%5Buid%5D+OR+29087512%5Buid%5D"

@@ -7,6 +7,7 @@ uniprot_accession: Q8NFX7
 ncbi_gene_id: '29091'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '260'
 orthologs: ''
 tfs: 'FOS,P01100,2353,ORegAnno; PAZAR,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=18971253%5Buid%5D+OR+26578589%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

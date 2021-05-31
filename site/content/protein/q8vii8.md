@@ -7,6 +7,7 @@ uniprot_accession: Q8VII8
 ncbi_gene_id: '-'
 organism: Mus musculus
 function: transcription factor
+number_of_interactions: '7'
 orthologs: ''
 tfs: ''
 targets: 'Scnn1a,Q61180,20276,TRRUST,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29087512%5Buid%5D+OR+24026182%5Buid%5D"

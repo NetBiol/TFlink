@@ -7,6 +7,7 @@ uniprot_accession: Q9NVM1
 ncbi_gene_id: '55194'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '331'
 orthologs: ''
 tfs: 'ZNF175,Q9Y473,7728,ReMap,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

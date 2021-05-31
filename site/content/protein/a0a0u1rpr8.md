@@ -7,6 +7,7 @@ uniprot_accession: A0A0U1RPR8
 ncbi_gene_id: '14918'
 organism: Mus musculus
 function: target gene
+number_of_interactions: '25'
 orthologs: ''
 tfs: 'Cebpa,P53566,12606,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

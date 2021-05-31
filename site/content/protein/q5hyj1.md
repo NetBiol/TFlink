@@ -7,6 +7,7 @@ uniprot_accession: Q5HYJ1
 ncbi_gene_id: '253017'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '35'
 orthologs: ''
 tfs: 'HES1,Q14469,3280,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

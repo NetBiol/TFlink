@@ -7,6 +7,7 @@ uniprot_accession: Q8WVX3
 ncbi_gene_id: '401152'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '182'
 orthologs: ''
 tfs: 'CTCF,P49711,10664,GTRD; ORegAnno,chromatin immunoprecipitation assay; inferred
   by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=22951020%5Buid%5D+OR+26578589%5Buid%5D+OR+27924024%5Buid%5D"

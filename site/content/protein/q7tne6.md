@@ -7,6 +7,7 @@ uniprot_accession: Q7TNE6
 ncbi_gene_id: 100039227;100039293;278672
 organism: Mus musculus
 function: transcription factor and target gene
+number_of_interactions: '199'
 orthologs: ''
 tfs: 'Cdx2,P43241,12591,ORegAnno; PAZAR,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=18971253%5Buid%5D+OR+26578589%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

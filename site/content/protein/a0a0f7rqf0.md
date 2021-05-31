@@ -7,6 +7,7 @@ uniprot_accession: A0A0F7RQF0
 ncbi_gene_id: '94027'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '4'
 orthologs: ''
 tfs: 'PPARA,Q07869,5465,TRRUST,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29087512%5Buid%5D+OR+11564716%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,Yes

@@ -7,6 +7,7 @@ uniprot_accession: Q9NXS2
 ncbi_gene_id: '54814'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '516'
 orthologs: ''
 tfs: 'ARID2,Q68CP9,196528,GTRD; ReMap,chromatin immunoprecipitation assay,&ensp;<a
   href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D+OR+27924024%5Buid%5D"

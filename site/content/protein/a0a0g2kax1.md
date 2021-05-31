@@ -7,6 +7,7 @@ uniprot_accession: A0A0G2KAX1
 ncbi_gene_id: '290279'
 organism: Rattus norvegicus
 function: target gene
+number_of_interactions: '7'
 orthologs: ''
 tfs: 'Egr2,P51774,114090,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

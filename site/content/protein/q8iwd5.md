@@ -7,6 +7,7 @@ uniprot_accession: Q8IWD5
 ncbi_gene_id: '162387'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '134'
 orthologs: '[{"species": "Mus musculus", "id": ["<a href=\"/protein/q8r3n2\">Q8R3N2</a>"]}, {"species": "Rattus norvegicus", "id": ["<a href=\"/protein/d4a757\">D4A757</a>"]}]'
 tfs: 'E2F2,Q14209,1870,TRED,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=17202159%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,Yes

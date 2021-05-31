@@ -7,6 +7,7 @@ uniprot_accession: Q9UQR1
 ncbi_gene_id: '7707'
 organism: Homo sapiens
 function: transcription factor and target gene
+number_of_interactions: '2847'
 orthologs: '[{"species": "Mus musculus", "id": ["<a href=\"/protein/q61624\">Q61624</a>"]}, {"species": "Rattus norvegicus", "id": ["<a href=\"/protein/q62806\">Q62806</a>"]}]'
 tfs: 'ID1,P41134,3397,TRRUST,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=21606196%5Buid%5D+OR+29087512%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,Yes

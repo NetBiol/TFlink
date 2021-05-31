@@ -7,6 +7,7 @@ uniprot_accession: Q7LFL8
 ncbi_gene_id: '51523'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '485'
 orthologs: '[{"species": "Mus musculus", "id": ["<a href=\"/protein/q91wa4\">Q91WA4</a>"]}, {"species": "Rattus norvegicus", "id": ["<a href=\"/protein/q5xiq3\">Q5XIQ3</a>", "F8WFL6"]}]'
 tfs: 'WT1,P19544,7490,GTRD; TRRUST,chromatin immunoprecipitation assay; inferred by
   curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=20220130%5Buid%5D+OR+29087512%5Buid%5D+OR+27924024%5Buid%5D"

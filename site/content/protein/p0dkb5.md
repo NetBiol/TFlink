@@ -7,6 +7,7 @@ uniprot_accession: P0DKB5
 ncbi_gene_id: '100507050'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '151'
 orthologs: ''
 tfs: 'SMARCA4,P51532,6597,GTRD; ReMap,chromatin immunoprecipitation assay,&ensp;<a
   href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D+OR+27924024%5Buid%5D"

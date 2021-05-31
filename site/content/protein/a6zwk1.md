@@ -7,6 +7,7 @@ uniprot_accession: A6ZWK1
 ncbi_gene_id: '-'
 organism: Saccharomyces cerevisiae
 function: transcription factor
+number_of_interactions: '77'
 orthologs: ''
 tfs: ''
 targets: 'CAF40,P53829,855428,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"

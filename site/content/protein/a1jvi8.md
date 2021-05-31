@@ -7,6 +7,7 @@ uniprot_accession: A1JVI8
 ncbi_gene_id: '664783'
 organism: Mus musculus
 function: transcription factor
+number_of_interactions: '2551'
 orthologs: ''
 tfs: ''
 targets: 'Clic1,Q9Z1Q5,114584,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"

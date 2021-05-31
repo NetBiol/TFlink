@@ -7,6 +7,7 @@ uniprot_accession: Q6UXU6
 ncbi_gene_id: '162461'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '254'
 orthologs: ''
 tfs: 'KCNH2,Q12809,3757,ReMap,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

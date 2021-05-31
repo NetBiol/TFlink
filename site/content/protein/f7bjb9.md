@@ -7,6 +7,7 @@ uniprot_accession: F7BJB9
 ncbi_gene_id: '338467'
 organism: Mus musculus
 function: transcription factor and target gene
+number_of_interactions: '2767'
 orthologs: ''
 tfs: 'Foxk1,P42128,17425,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

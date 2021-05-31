@@ -7,6 +7,7 @@ uniprot_accession: Q9CQV6
 ncbi_gene_id: '67443'
 organism: Mus musculus
 function: target gene
+number_of_interactions: '359'
 orthologs: '[{"species": "Caenorhabditis elegans", "id": ["CAEEL11588"]}, {"species": "Homo sapiens", "id": ["<a href=\"/protein/a6nce7\">A6NCE7</a>", "<a href=\"/protein/q9gzq8\">Q9GZQ8</a>"]}, {"species": "Rattus norvegicus", "id": ["A0A0G2K9Q7", "<a href=\"/protein/q62625\">Q62625</a>"]}]'
 tfs: 'E2f4,Q8R0K9,104394,GTRD; TRRUST,chromatin immunoprecipitation assay; inferred
   by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29087512%5Buid%5D+OR+27924024%5Buid%5D+OR+18830406%5Buid%5D"

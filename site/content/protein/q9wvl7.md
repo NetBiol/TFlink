@@ -7,6 +7,7 @@ uniprot_accession: Q9WVL7
 ncbi_gene_id: '20309'
 organism: Mus musculus
 function: target gene
+number_of_interactions: '36'
 orthologs: ''
 tfs: 'Fos,P01101,14281,TRRUST,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29087512%5Buid%5D+OR+12218154%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,Yes

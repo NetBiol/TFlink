@@ -7,6 +7,7 @@ uniprot_accession: Q9HBG4
 ncbi_gene_id: '50617'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '188'
 orthologs: ''
 tfs: 'STAT5B,P51692,6777,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

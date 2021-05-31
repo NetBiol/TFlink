@@ -7,6 +7,7 @@ uniprot_accession: Q8NDQ6
 ncbi_gene_id: '163255'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '426'
 orthologs: ''
 tfs: 'E2F1,Q01094,1869,GTRD; TRED,chromatin immunoprecipitation assay; inferred by
   curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D+OR+17202159%5Buid%5D"

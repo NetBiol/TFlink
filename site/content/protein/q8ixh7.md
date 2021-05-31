@@ -7,6 +7,7 @@ uniprot_accession: Q8IXH7
 ncbi_gene_id: '51497'
 organism: Homo sapiens
 function: transcription factor and target gene
+number_of_interactions: '510'
 orthologs: ''
 tfs: 'TBX21,Q9UL17,30009,ReMap; TRRUST,chromatin immunoprecipitation assay; inferred
   by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=21930963%5Buid%5D+OR+29087512%5Buid%5D+OR+29126285%5Buid%5D"

@@ -7,6 +7,7 @@ uniprot_accession: Q3TTC2
 ncbi_gene_id: '100073351'
 organism: Mus musculus
 function: transcription factor and target gene
+number_of_interactions: '286'
 orthologs: ''
 tfs: 'Ppargc1a,O70343,19017,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

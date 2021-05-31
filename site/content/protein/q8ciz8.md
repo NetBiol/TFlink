@@ -7,6 +7,7 @@ uniprot_accession: Q8CIZ8
 ncbi_gene_id: '22371'
 organism: Mus musculus
 function: target gene
+number_of_interactions: '5'
 orthologs: ''
 tfs: 'Kcnh2,O35219,16511,TRRUST,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29087512%5Buid%5D+OR+19359602%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,Yes

@@ -7,6 +7,7 @@ uniprot_accession: Q5JPI9
 ncbi_gene_id: '399818'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '532'
 orthologs: ''
 tfs: 'SMAD5,Q99717,4090,GTRD; ReMap,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D+OR+27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

@@ -7,6 +7,7 @@ uniprot_accession: Q8BKT7
 ncbi_gene_id: '107829'
 organism: Mus musculus
 function: transcription factor
+number_of_interactions: '6'
 orthologs: ''
 tfs: ''
 targets: 'Zmym6,Q8BS54,100177,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"

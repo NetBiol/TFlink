@@ -7,6 +7,7 @@ uniprot_accession: Q5HYM0
 ncbi_gene_id: '340554'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '29'
 orthologs: ''
 tfs: 'TRPS1,Q9UHF7,7227,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

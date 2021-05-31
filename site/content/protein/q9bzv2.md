@@ -7,6 +7,7 @@ uniprot_accession: Q9BZV2
 ncbi_gene_id: '80704'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '228'
 orthologs: '[{"species": "Caenorhabditis elegans", "id": ["<a href=\"/protein/q17766\">Q17766</a>"]}, {"species": "Mus musculus", "id": ["<a href=\"/protein/q99pl8\">Q99PL8</a>"]}, {"species": "Rattus norvegicus", "id": ["A0A0G2K171"]}]'
 tfs: 'SP3,Q02447,6670,TRRUST,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29087512%5Buid%5D+OR+15217784%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,Yes

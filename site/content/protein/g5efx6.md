@@ -7,6 +7,7 @@ uniprot_accession: G5EFX6
 ncbi_gene_id: '181562'
 organism: Caenorhabditis elegans
 function: target gene
+number_of_interactions: '7'
 orthologs: ''
 tfs: 'capg-1,G5EFJ4,172521,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

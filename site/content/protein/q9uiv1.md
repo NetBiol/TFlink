@@ -7,6 +7,7 @@ uniprot_accession: Q9UIV1
 ncbi_gene_id: '29883'
 organism: Homo sapiens
 function: transcription factor and target gene
+number_of_interactions: '536'
 orthologs: '[{"species": "Drosophila melanogaster", "id": ["Q8I0I5"]}, {"species": "Caenorhabditis elegans", "id": ["<a href=\"/protein/q17345\">Q17345</a>"]}, {"species": "Mus musculus", "id": ["<a href=\"/protein/q60809\">Q60809</a>"]}, {"species": "Rattus norvegicus", "id": ["<a href=\"/protein/b3dma5\">B3DMA5</a>"]}]'
 tfs: 'KLF5,Q13887,688,GTRD; ReMap,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D+OR+27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

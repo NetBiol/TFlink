@@ -7,6 +7,7 @@ uniprot_accession: Q8BRH4
 ncbi_gene_id: '-'
 organism: Mus musculus
 function: transcription factor
+number_of_interactions: '10627'
 orthologs: ''
 tfs: ''
 targets: 'Trim41,Q5NCC3,211007,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"

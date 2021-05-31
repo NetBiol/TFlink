@@ -7,6 +7,7 @@ uniprot_accession: Q6IEG0
 ncbi_gene_id: '154007'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '423'
 orthologs: ''
 tfs: 'TFDP1,Q14186,7027,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

@@ -7,6 +7,7 @@ uniprot_accession: Q9BUK6
 ncbi_gene_id: '55154'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '497'
 orthologs: ''
 tfs: 'GTF2B,Q00403,2959,ReMap,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

@@ -7,6 +7,7 @@ uniprot_accession: Q8WWI1
 ncbi_gene_id: '4008'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '457'
 orthologs: ''
 tfs: 'SRF,P11831,6722,GTRD; TRRUST,chromatin immunoprecipitation assay; inferred by
   curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29087512%5Buid%5D+OR+27924024%5Buid%5D+OR+21670154%5Buid%5D"

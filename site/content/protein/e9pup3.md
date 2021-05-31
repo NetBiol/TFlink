@@ -7,6 +7,7 @@ uniprot_accession: E9PUP3
 ncbi_gene_id: '240215'
 organism: Mus musculus
 function: target gene
+number_of_interactions: '59'
 orthologs: '[{"species": "Homo sapiens", "id": ["<a href=\"/protein/q96q91\">Q96Q91</a>"]}, {"species": "Rattus norvegicus", "id": ["F1LR96"]}]'
 tfs: 'Esrrb,Q61539,26380,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

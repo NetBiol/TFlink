@@ -7,6 +7,7 @@ uniprot_accession: Q3ZAQ7
 ncbi_gene_id: '203547'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '327'
 orthologs: ''
 tfs: 'CDK7,P50613,1022,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

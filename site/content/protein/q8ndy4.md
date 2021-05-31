@@ -7,6 +7,7 @@ uniprot_accession: Q8NDY4
 ncbi_gene_id: '259283'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '207'
 orthologs: ''
 tfs: 'BCL6,P41182,604,GTRD; ReMap,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D+OR+27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

@@ -7,6 +7,7 @@ uniprot_accession: Q9JJL3
 ncbi_gene_id: '28253'
 organism: Mus musculus
 function: target gene
+number_of_interactions: '68'
 orthologs: '[{"species": "Homo sapiens", "id": ["<a href=\"/protein/q9npd5\">Q9NPD5</a>", "F5H094", "<a href=\"/protein/g3v0h7\">G3V0H7</a>", "<a href=\"/protein/q9y6l6\">Q9Y6L6</a>"]}, {"species": "Rattus norvegicus", "id": ["<a href=\"/protein/q9qzx8\">Q9QZX8</a>"]}]'
 tfs: 'Hnf1a,P22361,21405,TRRUST,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=19181614%5Buid%5D+OR+15322262%5Buid%5D+OR+29087512%5Buid%5D+OR+11483603%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,Yes

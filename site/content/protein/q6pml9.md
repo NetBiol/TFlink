@@ -7,6 +7,7 @@ uniprot_accession: Q6PML9
 ncbi_gene_id: '10463'
 organism: Homo sapiens
 function: transcription factor and target gene
+number_of_interactions: '6032'
 orthologs: ''
 tfs: 'CDK2,P24941,1017,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

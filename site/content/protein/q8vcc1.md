@@ -7,6 +7,7 @@ uniprot_accession: Q8VCC1
 ncbi_gene_id: '15446'
 organism: Mus musculus
 function: target gene
+number_of_interactions: '193'
 orthologs: '[{"species": "Drosophila melanogaster", "id": ["B7Z061"]}, {"species": "Homo sapiens", "id": ["<a href=\"/protein/p15428\">P15428</a>"]}, {"species": "Rattus norvegicus", "id": ["<a href=\"/protein/o08699\">O08699</a>"]}]'
 tfs: 'Creb1,Q01147,12912,GTRD; TRED,chromatin immunoprecipitation assay; inferred
   by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D+OR+17202159%5Buid%5D"

@@ -7,6 +7,7 @@ uniprot_accession: A2AMW3
 ncbi_gene_id: '14404'
 organism: Mus musculus
 function: target gene
+number_of_interactions: '80'
 orthologs: '[{"species": "Drosophila melanogaster", "id": ["<a href=\"/protein/q9va38\">Q9VA38</a>"]}, {"species": "Rattus norvegicus", "id": ["A0A0G2KA77"]}]'
 tfs: 'Tp53,P02340,22059,TRRUST,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29087512%5Buid%5D+OR+23474441%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,Yes

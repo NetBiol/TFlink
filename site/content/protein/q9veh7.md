@@ -7,6 +7,7 @@ uniprot_accession: Q9VEH7
 ncbi_gene_id: '42120'
 organism: Drosophila melanogaster
 function: target gene
+number_of_interactions: '22'
 orthologs: ''
 tfs: 'Jarid2,Q9VT00,39103,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

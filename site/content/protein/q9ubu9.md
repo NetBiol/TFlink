@@ -7,6 +7,7 @@ uniprot_accession: Q9UBU9
 ncbi_gene_id: '10482'
 organism: Homo sapiens
 function: transcription factor and target gene
+number_of_interactions: '552'
 orthologs: ''
 tfs: 'ZNF316,A6NFI3,100131017,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

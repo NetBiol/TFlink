@@ -7,6 +7,7 @@ uniprot_accession: Q8TBC4
 ncbi_gene_id: '9039'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '356'
 orthologs: ''
 tfs: 'ZHX2,Q9Y6X8,22882,ReMap,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

@@ -7,6 +7,7 @@ uniprot_accession: Q9NZL9
 ncbi_gene_id: '27430'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '500'
 orthologs: '[{"species": "Mus musculus", "id": ["<a href=\"/protein/q99lb6\">Q99LB6</a>"]}, {"species": "Rattus norvegicus", "id": ["<a href=\"/protein/q5u2r0\">Q5U2R0</a>"]}]'
 tfs: 'DAND5,Q8N907,199699,ReMap; TRRUST,chromatin immunoprecipitation assay; inferred
   by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=11337507%5Buid%5D+OR+29087512%5Buid%5D+OR+29126285%5Buid%5D"

@@ -7,6 +7,7 @@ uniprot_accession: Q5VST6
 ncbi_gene_id: '51104'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '532'
 orthologs: ''
 tfs: 'SCRT1,Q9BWW7,83482,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

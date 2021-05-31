@@ -7,6 +7,7 @@ uniprot_accession: B1ATL7
 ncbi_gene_id: '100130613'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '14'
 orthologs: ''
 tfs: 'BRD4,O60885,23476,ReMap,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

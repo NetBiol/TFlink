@@ -7,6 +7,7 @@ uniprot_accession: A6NGR9
 ncbi_gene_id: '642475'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '341'
 orthologs: ''
 tfs: 'ARID2,Q68CP9,196528,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

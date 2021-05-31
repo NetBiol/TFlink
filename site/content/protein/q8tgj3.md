@@ -7,6 +7,7 @@ uniprot_accession: Q8TGJ3
 ncbi_gene_id: '1466516'
 organism: Saccharomyces cerevisiae
 function: target gene
+number_of_interactions: '8'
 orthologs: '[{"species": "Drosophila melanogaster", "id": ["<a href=\"/protein/q9vwh8\">Q9VWH8</a>"]}, {"species": "Homo sapiens", "id": ["<a href=\"/protein/q8tbq9\">Q8TBQ9</a>"]}, {"species": "Mus musculus", "id": ["<a href=\"/protein/q9cr64\">Q9CR64</a>"]}, {"species": "Rattus norvegicus", "id": ["D3ZKR8"]}]'
 tfs: 'TBF1,Q02457,855975,Yeastract,chromatin immunoprecipitation array,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=20231876%5Buid%5D+OR+24170807%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

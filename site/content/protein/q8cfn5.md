@@ -7,6 +7,7 @@ uniprot_accession: Q8CFN5
 ncbi_gene_id: '17260'
 organism: Mus musculus
 function: transcription factor and target gene
+number_of_interactions: '14378'
 orthologs: ''
 tfs: 'Spi1,P17433,20375,GTRD; TRRUST,chromatin immunoprecipitation assay; inferred
   by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=19169261%5Buid%5D+OR+29087512%5Buid%5D+OR+27924024%5Buid%5D"

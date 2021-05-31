@@ -7,6 +7,7 @@ uniprot_accession: Q5VTD9
 ncbi_gene_id: '8328'
 organism: Homo sapiens
 function: transcription factor and target gene
+number_of_interactions: '11031'
 orthologs: ''
 tfs: 'GFI1,Q99684,2672,FANTOM4_via_DoRothEA; GTRD; HTRI,chromatin immunoprecipitation
   assay; inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=19522008%5Buid%5D+OR+20211142%5Buid%5D+OR+27924024%5Buid%5D+OR+15718298%5Buid%5D+OR+22900683%5Buid%5D"

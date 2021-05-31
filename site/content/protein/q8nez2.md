@@ -7,6 +7,7 @@ uniprot_accession: Q8NEZ2
 ncbi_gene_id: '137492'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '498'
 orthologs: ''
 tfs: 'SOX4,Q06945,6659,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

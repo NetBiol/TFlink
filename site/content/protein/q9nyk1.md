@@ -7,6 +7,7 @@ uniprot_accession: Q9NYK1
 ncbi_gene_id: '51284'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '97'
 orthologs: '[{"species": "Mus musculus", "id": ["<a href=\"/protein/p58681\">P58681</a>"]}, {"species": "Rattus norvegicus", "id": ["<a href=\"/protein/a5h2z9\">A5H2Z9</a>"]}]'
 tfs: 'NFKB1,P19838,4790,TRRUST,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=16423052%5Buid%5D+OR+20658750%5Buid%5D+OR+29087512%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,Yes

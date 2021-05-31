@@ -7,6 +7,7 @@ uniprot_accession: Q9NXV2
 ncbi_gene_id: '54442'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '663'
 orthologs: ''
 tfs: 'MBD1,Q9UIS9,4152,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

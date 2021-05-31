@@ -7,6 +7,7 @@ uniprot_accession: Q9JKU8
 ncbi_gene_id: '110648'
 organism: Mus musculus
 function: target gene
+number_of_interactions: '113'
 orthologs: '[{"species": "Homo sapiens", "id": ["<a href=\"/protein/q8te12\">Q8TE12</a>"]}, {"species": "Rattus norvegicus", "id": ["<a href=\"/protein/f1lrj8\">F1LRJ8</a>"]}]'
 tfs: 'Lbx1,P52955,16814,TRRUST,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=12358782%5Buid%5D+OR+29087512%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,Yes

@@ -7,6 +7,7 @@ uniprot_accession: Q8NFJ5
 ncbi_gene_id: '9052'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '417'
 orthologs: '[{"species": "Mus musculus", "id": ["<a href=\"/protein/g5e8c3\">G5E8C3</a>"]}, {"species": "Rattus norvegicus", "id": ["<a href=\"/protein/a1a5r2\">A1A5R2</a>"]}]'
 tfs: 'RARA,P10276,5914,GTRD; HTRI; ORegAnno; PAZAR; TFe_via_DoRothEA,chromatin immunoprecipitation
   assay; inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=22458515%5Buid%5D+OR+26578589%5Buid%5D+OR+18971253%5Buid%5D+OR+27924024%5Buid%5D+OR+19279407%5Buid%5D+OR+22900683%5Buid%5D"

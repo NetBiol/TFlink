@@ -7,6 +7,7 @@ uniprot_accession: Q9HBE5
 ncbi_gene_id: '50615'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '304'
 orthologs: '[{"species": "Mus musculus", "id": ["<a href=\"/protein/q9jhx3\">Q9JHX3</a>"]}, {"species": "Rattus norvegicus", "id": ["Q5EBB1"]}]'
 tfs: 'SP1,P08047,6667,GTRD; HTRI; ReMap,affinity chromatography technology; chromatin
   immunoprecipitation assay; electrophoretic mobility shift assay; inferred by curator,&ensp;<a

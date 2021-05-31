@@ -7,6 +7,7 @@ uniprot_accession: Q9UKT4
 ncbi_gene_id: '26271'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '512'
 orthologs: '[{"species": "Mus musculus", "id": ["<a href=\"/protein/q7tsg3\">Q7TSG3</a>"]}, {"species": "Rattus norvegicus", "id": ["<a href=\"/protein/b0bna4\">B0BNA4</a>"]}]'
 tfs: 'E2F1,Q01094,1869,GTRD; ReMap; TFactS_via_DoRothea,chromatin immunoprecipitation
   assay; inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=22761861%5Buid%5D+OR+18439978%5Buid%5D+OR+29126285%5Buid%5D+OR+27924024%5Buid%5D"

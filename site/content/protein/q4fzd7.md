@@ -7,6 +7,7 @@ uniprot_accession: Q4FZD7
 ncbi_gene_id: '216166'
 organism: Mus musculus
 function: target gene
+number_of_interactions: '171'
 orthologs: ''
 tfs: 'Tfap2c,Q61312,21420,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

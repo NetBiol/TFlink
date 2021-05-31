@@ -7,6 +7,7 @@ uniprot_accession: Q9WTN3
 ncbi_gene_id: '20787'
 organism: Mus musculus
 function: transcription factor and target gene
+number_of_interactions: '12002'
 orthologs: ''
 tfs: 'Tp53,P02340,22059,GTRD; TRRUST,chromatin immunoprecipitation assay; inferred
   by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D+OR+29087512%5Buid%5D+OR+12734185%5Buid%5D"

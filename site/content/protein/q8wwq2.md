@@ -7,6 +7,7 @@ uniprot_accession: Q8WWQ2
 ncbi_gene_id: '60495'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '135'
 orthologs: '[{"species": "Mus musculus", "id": ["<a href=\"/protein/b2ry83\">B2RY83</a>"]}]'
 tfs: 'BTN3A2,P78410,11118,TRRUST,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29087512%5Buid%5D+OR+17312387%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,Yes

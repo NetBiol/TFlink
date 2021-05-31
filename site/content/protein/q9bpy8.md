@@ -7,6 +7,7 @@ uniprot_accession: Q9BPY8
 ncbi_gene_id: '84525'
 organism: Homo sapiens
 function: transcription factor and target gene
+number_of_interactions: '185'
 orthologs: '[{"species": "Mus musculus", "id": ["<a href=\"/protein/q8r1h0\">Q8R1H0</a>"]}, {"species": "Rattus norvegicus", "id": ["Q78ZR5"]}]'
 tfs: 'HSF1,Q00613,3297,GTRD; TRRUST,chromatin immunoprecipitation assay; inferred
   by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=22669480%5Buid%5D+OR+29087512%5Buid%5D+OR+27924024%5Buid%5D"

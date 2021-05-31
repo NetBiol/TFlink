@@ -7,6 +7,7 @@ uniprot_accession: Q9GZN1
 ncbi_gene_id: '64431'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '453'
 orthologs: '[{"species": "Drosophila melanogaster", "id": ["<a href=\"/protein/p45890\">P45890</a>"]}, {"species": "Caenorhabditis elegans", "id": ["<a href=\"/protein/q09443\">Q09443</a>"]}, {"species": "Mus musculus", "id": ["<a href=\"/protein/a0a0r4j009\">A0A0R4J009</a>"]}, {"species": "Rattus norvegicus", "id": ["<a href=\"/protein/b2ryq1\">B2RYQ1</a>"]}]'
 tfs: 'MTA3,Q9BTC8,57504,IntAct_via_DoRothEA,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=26028330%5Buid%5D+OR+24234451%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,Yes

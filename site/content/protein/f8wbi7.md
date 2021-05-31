@@ -7,6 +7,7 @@ uniprot_accession: F8WBI7
 ncbi_gene_id: '-'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '528'
 orthologs: ''
 tfs: 'GATAD1,Q8WUU5,57798,GTRD; ReMap,chromatin immunoprecipitation assay,&ensp;<a
   href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D+OR+27924024%5Buid%5D"

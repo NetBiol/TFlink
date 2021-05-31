@@ -7,6 +7,7 @@ uniprot_accession: Q8TDS5
 ncbi_gene_id: '165140'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '82'
 orthologs: ''
 tfs: 'SPIB,Q01892,6689,ReMap,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

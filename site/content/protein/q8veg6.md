@@ -7,6 +7,7 @@ uniprot_accession: Q8VEG6
 ncbi_gene_id: '231464'
 organism: Mus musculus
 function: target gene
+number_of_interactions: '360'
 orthologs: ''
 tfs: 'Nucks1,Q80XU3,98415,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

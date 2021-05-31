@@ -7,6 +7,7 @@ uniprot_accession: Q9NVE4
 ncbi_gene_id: '55231'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '399'
 orthologs: ''
 tfs: 'OCA2,Q04671,4948,ReMap,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

@@ -7,6 +7,7 @@ uniprot_accession: Q5SVM0
 ncbi_gene_id: '666317'
 organism: Mus musculus
 function: target gene
+number_of_interactions: '13'
 orthologs: ''
 tfs: 'Yap1,P46938,22601,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

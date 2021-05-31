@@ -7,6 +7,7 @@ uniprot_accession: Q5VYX0
 ncbi_gene_id: '55328'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '192'
 orthologs: '[{"species": "Mus musculus", "id": ["<a href=\"/protein/a0a0r4j156\">A0A0R4J156</a>"]}, {"species": "Rattus norvegicus", "id": ["<a href=\"/protein/q5u2w9\">Q5U2W9</a>"]}]'
 tfs: 'ZNF148,Q9UQR1,7707,IntAct_via_DoRothEA; ORegAnno,inferred by curator,&ensp;<a
   href="https://www.ncbi.nlm.nih.gov/pubmed/?term=26578589%5Buid%5D+OR+25295465%5Buid%5D+OR+24234451%5Buid%5D"

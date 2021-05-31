@@ -7,6 +7,7 @@ uniprot_accession: F8VPP0
 ncbi_gene_id: '432769'
 organism: Mus musculus
 function: transcription factor and target gene
+number_of_interactions: '647'
 orthologs: ''
 tfs: 'Hdac1,O09106,433759,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

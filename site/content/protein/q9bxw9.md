@@ -7,6 +7,7 @@ uniprot_accession: Q9BXW9
 ncbi_gene_id: '2177'
 organism: Homo sapiens
 function: transcription factor and target gene
+number_of_interactions: '5822'
 orthologs: '[{"species": "Drosophila melanogaster", "id": ["<a href=\"/protein/q8myl1\">Q8MYL1</a>"]}, {"species": "Caenorhabditis elegans", "id": ["<a href=\"/protein/q9u2h4\">Q9U2H4</a>"]}, {"species": "Mus musculus", "id": ["<a href=\"/protein/q80v62\">Q80V62</a>"]}, {"species": "Rattus norvegicus", "id": ["A0A0G2K5U0"]}]'
 tfs: 'E2F1,Q01094,1869,GTRD; ReMap; TFactS_via_DoRothea,chromatin immunoprecipitation
   assay; inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=22761861%5Buid%5D+OR+27924024%5Buid%5D+OR+29126285%5Buid%5D+OR+18438432%5Buid%5D"

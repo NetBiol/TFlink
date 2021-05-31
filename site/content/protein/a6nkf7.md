@@ -7,6 +7,7 @@ uniprot_accession: A6NKF7
 ncbi_gene_id: '643965'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '121'
 orthologs: ''
 tfs: 'MAFK,O60675,7975,ReMap,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

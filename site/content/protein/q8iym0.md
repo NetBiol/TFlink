@@ -7,6 +7,7 @@ uniprot_accession: Q8IYM0
 ncbi_gene_id: '84070'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '94'
 orthologs: ''
 tfs: 'MCM7,P33993,4176,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

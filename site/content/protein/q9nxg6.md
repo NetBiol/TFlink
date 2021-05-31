@@ -7,6 +7,7 @@ uniprot_accession: Q9NXG6
 ncbi_gene_id: '54681'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '434'
 orthologs: '[{"species": "Mus musculus", "id": ["<a href=\"/protein/q8bg58\">Q8BG58</a>"]}, {"species": "Rattus norvegicus", "id": ["<a href=\"/protein/d3zjg3\">D3ZJG3</a>"]}]'
 tfs: 'HIF1A,Q16665,3091,GTRD; ReMap; TRED,chromatin immunoprecipitation assay; inferred
   by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D+OR+27924024%5Buid%5D+OR+17202159%5Buid%5D"

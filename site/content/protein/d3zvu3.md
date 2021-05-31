@@ -7,6 +7,7 @@ uniprot_accession: D3ZVU3
 ncbi_gene_id: '299766'
 organism: Rattus norvegicus
 function: transcription factor
+number_of_interactions: '1'
 orthologs: ''
 tfs: ''
 targets: 'Myf6,P19335,25714,ORegAnno; PAZAR,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=18971253%5Buid%5D+OR+26578589%5Buid%5D"

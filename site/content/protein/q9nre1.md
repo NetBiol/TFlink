@@ -7,6 +7,7 @@ uniprot_accession: Q9NRE1
 ncbi_gene_id: '56547'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '117'
 orthologs: ''
 tfs: 'ESR1,P03372,2099,GTRD; TRED,chromatin immunoprecipitation assay; inferred by
   curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D+OR+17202159%5Buid%5D"

@@ -7,6 +7,7 @@ uniprot_accession: Q8VGU5
 ncbi_gene_id: '259041'
 organism: Mus musculus
 function: target gene
+number_of_interactions: '49'
 orthologs: ''
 tfs: 'Tfap2c,Q61312,21420,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

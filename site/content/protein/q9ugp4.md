@@ -7,6 +7,7 @@ uniprot_accession: Q9UGP4
 ncbi_gene_id: '8994'
 organism: Homo sapiens
 function: transcription factor and target gene
+number_of_interactions: '526'
 orthologs: '[{"species": "Mus musculus", "id": ["<a href=\"/protein/q9qxd8\">Q9QXD8</a>"]}, {"species": "Rattus norvegicus", "id": ["<a href=\"/protein/b5deh0\">B5DEH0</a>"]}]'
 tfs: 'MBL2,P11226,4153,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

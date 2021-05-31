@@ -7,6 +7,7 @@ uniprot_accession: Q9GZV9
 ncbi_gene_id: '8074'
 organism: Homo sapiens
 function: transcription factor and target gene
+number_of_interactions: '61'
 orthologs: '[{"species": "Mus musculus", "id": ["<a href=\"/protein/q9epc2\">Q9EPC2</a>"]}, {"species": "Rattus norvegicus", "id": ["Q8VI82"]}]'
 tfs: 'CBX2,Q14781,84733,ReMap,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

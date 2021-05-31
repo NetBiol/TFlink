@@ -7,6 +7,7 @@ uniprot_accession: B2RXM6
 ncbi_gene_id: '433099'
 organism: Mus musculus
 function: target gene
+number_of_interactions: '30'
 orthologs: ''
 tfs: 'Gata1,P17679,14460,GTRD; ORegAnno; PAZAR,chromatin immunoprecipitation assay;
   inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=18971253%5Buid%5D+OR+27924024%5Buid%5D+OR+26578589%5Buid%5D"

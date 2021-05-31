@@ -7,6 +7,7 @@ uniprot_accession: Q8CGV2
 ncbi_gene_id: '216343'
 organism: Mus musculus
 function: target gene
+number_of_interactions: '246'
 orthologs: '[{"species": "Caenorhabditis elegans", "id": ["G5EED8"]}, {"species": "Homo sapiens", "id": ["<a href=\"/protein/q8iwu9\">Q8IWU9</a>"]}, {"species": "Rattus norvegicus", "id": ["<a href=\"/protein/q8cgu9\">Q8CGU9</a>"]}]'
 tfs: 'Ascl1,Q02067,17172,GTRD; TRRUST,chromatin immunoprecipitation assay; inferred
   by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29087512%5Buid%5D+OR+27924024%5Buid%5D+OR+19542360%5Buid%5D"

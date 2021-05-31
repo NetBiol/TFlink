@@ -7,6 +7,7 @@ uniprot_accession: Q7KZF4
 ncbi_gene_id: '27044'
 organism: Homo sapiens
 function: transcription factor and target gene
+number_of_interactions: '2188'
 orthologs: '[{"species": "Drosophila melanogaster", "id": ["<a href=\"/protein/q9w0s7\">Q9W0S7</a>"]}, {"species": "Caenorhabditis elegans", "id": ["<a href=\"/protein/q19328\">Q19328</a>"]}, {"species": "Mus musculus", "id": ["<a href=\"/protein/q78py7\">Q78PY7</a>"]}, {"species": "Rattus norvegicus", "id": ["<a href=\"/protein/q66x93\">Q66X93</a>"]}]'
 tfs: 'NFKB2,Q00653,4791,GTRD; ReMap; TRRUST,chromatin immunoprecipitation assay; inferred
   by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D+OR+29087512%5Buid%5D+OR+29126285%5Buid%5D+OR+20363924%5Buid%5D"

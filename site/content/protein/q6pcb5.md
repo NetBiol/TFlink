@@ -7,6 +7,7 @@ uniprot_accession: Q6PCB5
 ncbi_gene_id: '222194'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '550'
 orthologs: ''
 tfs: 'SOX5,P35711,6660,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

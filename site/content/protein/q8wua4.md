@@ -7,6 +7,7 @@ uniprot_accession: Q8WUA4
 ncbi_gene_id: '2976'
 organism: Homo sapiens
 function: transcription factor and target gene
+number_of_interactions: '3714'
 orthologs: '[{"species": "Mus musculus", "id": ["<a href=\"/protein/q3uu56\">Q3UU56</a>", "<a href=\"/protein/q8bl74\">Q8BL74</a>"]}, {"species": "Rattus norvegicus", "id": ["<a href=\"/protein/a0a0g2k679\">A0A0G2K679</a>"]}]'
 tfs: 'NFIC,P08651,4782,GTRD; ReMap; TRED; TRRUST,chromatin immunoprecipitation assay;
   inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D+OR+27924024%5Buid%5D+OR+11118217%5Buid%5D+OR+17202159%5Buid%5D+OR+29087512%5Buid%5D"

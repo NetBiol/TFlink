@@ -7,6 +7,7 @@ uniprot_accession: Q3SXD2
 ncbi_gene_id: '434729'
 organism: Mus musculus
 function: target gene
+number_of_interactions: '17'
 orthologs: ''
 tfs: 'Dmc1,Q61880,13404,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

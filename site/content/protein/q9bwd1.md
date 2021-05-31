@@ -7,6 +7,7 @@ uniprot_accession: Q9BWD1
 ncbi_gene_id: '39'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '451'
 orthologs: '[{"species": "Drosophila melanogaster", "id": ["<a href=\"/protein/q9w0h6\">Q9W0H6</a>"]}, {"species": "Mus musculus", "id": ["<a href=\"/protein/q80x81\">Q80X81</a>", "<a href=\"/protein/q8cay6\">Q8CAY6</a>"]}, {"species": "Rattus norvegicus", "id": ["<a href=\"/protein/a0a0g2jub4\">A0A0G2JUB4</a>", "A0A096MJY8"]}]'
 tfs: 'HNF1A,P20823,6927,TRRUST,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=16274362%5Buid%5D+OR+29087512%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,Yes

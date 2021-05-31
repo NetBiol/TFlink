@@ -7,6 +7,7 @@ uniprot_accession: Q8IZT6
 ncbi_gene_id: '259266'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '351'
 orthologs: '[{"species": "Mus musculus", "id": ["<a href=\"/protein/q8cj27\">Q8CJ27</a>"]}, {"species": "Rattus norvegicus", "id": ["<a href=\"/protein/d3zzq1\">D3ZZQ1</a>"]}]'
 tfs: 'BRCA1,P38398,672,GTRD; ReMap; TRRUST,chromatin immunoprecipitation assay; inferred
   by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29087512%5Buid%5D+OR+29126285%5Buid%5D+OR+27924024%5Buid%5D+OR+16123590%5Buid%5D"

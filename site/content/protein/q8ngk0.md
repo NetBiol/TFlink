@@ -7,6 +7,7 @@ uniprot_accession: Q8NGK0
 ncbi_gene_id: '81282'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '14'
 orthologs: ''
 tfs: 'SPI1,P17947,6688,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

@@ -7,6 +7,7 @@ uniprot_accession: Q5RIS0
 ncbi_gene_id: '433719'
 organism: Mus musculus
 function: target gene
+number_of_interactions: '10'
 orthologs: ''
 tfs: 'Nr5a2,P45448,26424,ORegAnno; PAZAR,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=18971253%5Buid%5D+OR+26578589%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

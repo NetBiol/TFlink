@@ -7,6 +7,7 @@ uniprot_accession: Q9VHM6
 ncbi_gene_id: '41039'
 organism: Drosophila melanogaster
 function: transcription factor
+number_of_interactions: '23'
 orthologs: ''
 tfs: ''
 targets: 'spok,A8Y592,5740359,REDfly,electrophoretic mobility shift assay,&ensp;<a

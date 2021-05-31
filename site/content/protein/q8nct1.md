@@ -7,6 +7,7 @@ uniprot_accession: Q8NCT1
 ncbi_gene_id: '91947'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '469'
 orthologs: '[{"species": "Caenorhabditis elegans", "id": ["<a href=\"/protein/o17981\">O17981</a>", "<a href=\"/protein/q9xtu0\">Q9XTU0</a>"]}, {"species": "Mus musculus", "id": ["<a href=\"/protein/a0a0b4j1f4\">A0A0B4J1F4</a>"]}, {"species": "Rattus norvegicus", "id": ["A0A0G2K4V0"]}]'
 tfs: 'GATA2,P23769,2624,GTRD; HTRI; ORegAnno; ReMap,chromatin immunoprecipitation
   assay; inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D+OR+26578589%5Buid%5D+OR+22951020%5Buid%5D+OR+19941826%5Buid%5D+OR+27924024%5Buid%5D+OR+22900683%5Buid%5D"

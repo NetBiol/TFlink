@@ -7,6 +7,7 @@ uniprot_accession: A6NJB7
 ncbi_gene_id: '284338'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '219'
 orthologs: '[{"species": "Mus musculus", "id": ["<a href=\"/protein/b2rw88\">B2RW88</a>"]}, {"species": "Rattus norvegicus", "id": ["D3ZED7"]}]'
 tfs: 'GATA2,P23769,2624,GTRD; HTRI; ORegAnno; ReMap,chromatin immunoprecipitation
   assay; inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D+OR+26578589%5Buid%5D+OR+22951020%5Buid%5D+OR+19941826%5Buid%5D+OR+27924024%5Buid%5D+OR+22900683%5Buid%5D"

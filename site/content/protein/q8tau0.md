@@ -7,6 +7,7 @@ uniprot_accession: Q8TAU0
 ncbi_gene_id: '159296'
 organism: Homo sapiens
 function: transcription factor and target gene
+number_of_interactions: '625'
 orthologs: '[{"species": "Mus musculus", "id": ["<a href=\"/protein/p97334\">P97334</a>"]}, {"species": "Rattus norvegicus", "id": ["<a href=\"/protein/d3zzc9\">D3ZZC9</a>"]}]'
 tfs: 'NFATC1,O95644,4772,IntAct_via_DoRothEA,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=24234451%5Buid%5D+OR+21803625%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,Yes

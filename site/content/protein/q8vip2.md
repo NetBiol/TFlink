@@ -7,6 +7,7 @@ uniprot_accession: Q8VIP2
 ncbi_gene_id: '171078'
 organism: Rattus norvegicus
 function: transcription factor
+number_of_interactions: '3804'
 orthologs: ''
 tfs: ''
 targets: 'H1-1,D4A3K5,291145,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"

@@ -7,6 +7,7 @@ uniprot_accession: Q8TCZ2
 ncbi_gene_id: '83692'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '340'
 orthologs: ''
 tfs: 'SREBF2,Q12772,6721,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

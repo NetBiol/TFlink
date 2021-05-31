@@ -7,6 +7,7 @@ uniprot_accession: P0DPF3
 ncbi_gene_id: '400818'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '239'
 orthologs: ''
 tfs: 'SOX13,Q9UN79,9580,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

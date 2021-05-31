@@ -7,6 +7,7 @@ uniprot_accession: Q5TIE3
 ncbi_gene_id: '127731'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '151'
 orthologs: ''
 tfs: 'HNRNPL,P14866,3191,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

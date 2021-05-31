@@ -7,6 +7,7 @@ uniprot_accession: Q5JVX7
 ncbi_gene_id: '400757'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '107'
 orthologs: ''
 tfs: 'SMC1A,Q14683,8243,ReMap,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

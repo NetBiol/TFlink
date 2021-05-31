@@ -7,6 +7,7 @@ uniprot_accession: A2AVB0
 ncbi_gene_id: '258842'
 organism: Mus musculus
 function: target gene
+number_of_interactions: '23'
 orthologs: ''
 tfs: 'Tfe3,Q64092,209446,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

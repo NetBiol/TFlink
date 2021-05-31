@@ -7,6 +7,7 @@ uniprot_accession: Q9DBH0
 ncbi_gene_id: '66894'
 organism: Mus musculus
 function: target gene
+number_of_interactions: '274'
 orthologs: ''
 tfs: 'Sox9,Q04887,20682,GTRD; TRRUST,chromatin immunoprecipitation assay; inferred
   by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29087512%5Buid%5D+OR+21170031%5Buid%5D+OR+27924024%5Buid%5D"

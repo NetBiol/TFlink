@@ -7,6 +7,7 @@ uniprot_accession: Q9UPY5
 ncbi_gene_id: '23657'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '475'
 orthologs: '[{"species": "Mus musculus", "id": ["A0A0B4J1P7"]}, {"species": "Rattus norvegicus", "id": ["<a href=\"/protein/d4adu2\">D4ADU2</a>"]}]'
 tfs: 'DNMT3B,Q9UBC3,1789,GTRD; IntAct_via_DoRothEA; ReMap,chromatin immunoprecipitation
   assay; inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=24234451%5Buid%5D+OR+29126285%5Buid%5D+OR+27924024%5Buid%5D+OR+22094255%5Buid%5D"

@@ -7,6 +7,7 @@ uniprot_accession: Q9QYK7
 ncbi_gene_id: '29864'
 organism: Mus musculus
 function: target gene
+number_of_interactions: '312'
 orthologs: '[{"species": "Drosophila melanogaster", "id": ["<a href=\"/protein/q8sx35\">Q8SX35</a>"]}, {"species": "Homo sapiens", "id": ["<a href=\"/protein/q9y3c5\">Q9Y3C5</a>"]}, {"species": "Rattus norvegicus", "id": ["<a href=\"/protein/a0a0g2jzp9\">A0A0G2JZP9</a>"]}]'
 tfs: 'Ets1,P27577,23871,GTRD; TRED; TRRUST,chromatin immunoprecipitation assay; inferred
   by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=17202159%5Buid%5D+OR+29087512%5Buid%5D+OR+27924024%5Buid%5D+OR+15707580%5Buid%5D"

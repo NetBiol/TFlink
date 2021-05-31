@@ -7,6 +7,7 @@ uniprot_accession: Q6ZWX6
 ncbi_gene_id: '13665'
 organism: Mus musculus
 function: target gene
+number_of_interactions: '329'
 orthologs: '[{"species": "Drosophila melanogaster", "id": ["<a href=\"/protein/p41374\">P41374</a>"]}, {"species": "Caenorhabditis elegans", "id": ["<a href=\"/protein/q9bku3\">Q9BKU3</a>"]}, {"species": "Homo sapiens", "id": ["<a href=\"/protein/p05198\">P05198</a>"]}, {"species": "Rattus norvegicus", "id": ["<a href=\"/protein/p68101\">P68101</a>"]}, {"species": "Saccharomyces cerevisiae", "id": ["<a href=\"/protein/p20459\">P20459</a>"]}]'
 tfs: 'Myc,P01108,17869,GTRD; TRED,chromatin immunoprecipitation assay; inferred by
   curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D+OR+17202159%5Buid%5D"

@@ -7,6 +7,7 @@ uniprot_accession: Q9NRA1
 ncbi_gene_id: '56034'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '362'
 orthologs: '[{"species": "Mus musculus", "id": ["<a href=\"/protein/q8ci19\">Q8CI19</a>"]}, {"species": "Rattus norvegicus", "id": ["<a href=\"/protein/q9eqx6\">Q9EQX6</a>"]}]'
 tfs: 'SMAD1,Q15797,4086,GTRD; TRED,chromatin immunoprecipitation assay; inferred by
   curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D+OR+17202159%5Buid%5D"

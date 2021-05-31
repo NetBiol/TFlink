@@ -7,6 +7,7 @@ uniprot_accession: Q9VLU2
 ncbi_gene_id: '34093'
 organism: Drosophila melanogaster
 function: target gene
+number_of_interactions: '27'
 orthologs: ''
 tfs: 'Mef2,P40791,36032,REDfly,electrophoretic mobility shift assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=20965965%5Buid%5D+OR+18627097%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,Yes

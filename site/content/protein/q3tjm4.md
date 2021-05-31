@@ -7,6 +7,7 @@ uniprot_accession: Q3TJM4
 ncbi_gene_id: '320394'
 organism: Mus musculus
 function: target gene
+number_of_interactions: '304'
 orthologs: ''
 tfs: 'Kdm1a,Q6ZQ88,99982,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

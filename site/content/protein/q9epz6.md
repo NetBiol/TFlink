@@ -7,6 +7,7 @@ uniprot_accession: Q9EPZ6
 ncbi_gene_id: '76365'
 organism: Mus musculus
 function: transcription factor and target gene
+number_of_interactions: '2'
 orthologs: ''
 tfs: 'Meox1,P32442,17285,TRRUST,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29087512%5Buid%5D+OR+19520072%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,Yes'

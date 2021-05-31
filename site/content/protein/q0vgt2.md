@@ -7,6 +7,7 @@ uniprot_accession: Q0VGT2
 ncbi_gene_id: '14633'
 organism: Mus musculus
 function: transcription factor and target gene
+number_of_interactions: '835'
 orthologs: '[{"species": "Homo sapiens", "id": ["<a href=\"/protein/p10070\">P10070</a>"]}, {"species": "Rattus norvegicus", "id": ["<a href=\"/protein/f1m2b7\">F1M2B7</a>"]}]'
 tfs: 'Foxa2,P35583,15376,GTRD; TRRUST,chromatin immunoprecipitation assay; inferred
   by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29087512%5Buid%5D+OR+21093585%5Buid%5D+OR+27924024%5Buid%5D"

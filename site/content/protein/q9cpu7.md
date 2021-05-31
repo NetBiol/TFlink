@@ -7,6 +7,7 @@ uniprot_accession: Q9CPU7
 ncbi_gene_id: '67731'
 organism: Mus musculus
 function: target gene
+number_of_interactions: '269'
 orthologs: '[{"species": "Drosophila melanogaster", "id": ["<a href=\"/protein/q9vtm4\">Q9VTM4</a>"]}, {"species": "Caenorhabditis elegans", "id": ["<a href=\"/protein/o45323\">O45323</a>"]}, {"species": "Homo sapiens", "id": ["<a href=\"/protein/q969p5\">Q969P5</a>"]}, {"species": "Rattus norvegicus", "id": ["<a href=\"/protein/g3v6z4\">G3V6Z4</a>"]}]'
 tfs: 'Bcl3,Q9Z2F6,12051,TRRUST,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=21249144%5Buid%5D+OR+29087512%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,Yes

@@ -7,6 +7,7 @@ uniprot_accession: Q6UXF1
 ncbi_gene_id: '66000'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '276'
 orthologs: ''
 tfs: 'NR3C1,P04150,2908,GTRD; ReMap,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D+OR+27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

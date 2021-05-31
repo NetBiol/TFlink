@@ -7,6 +7,7 @@ uniprot_accession: Q9BXW6
 ncbi_gene_id: '114876'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '425'
 orthologs: ''
 tfs: 'ZNF280A,P59817,129025,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

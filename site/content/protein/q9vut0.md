@@ -7,6 +7,7 @@ uniprot_accession: Q9VUT0
 ncbi_gene_id: '39708'
 organism: Drosophila melanogaster
 function: target gene
+number_of_interactions: '6'
 orthologs: ''
 tfs: 'z,P09956,31230,ORegAnno,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=26578589%5Buid%5D+OR+2501151%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,Yes

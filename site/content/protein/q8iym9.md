@@ -7,6 +7,7 @@ uniprot_accession: Q8IYM9
 ncbi_gene_id: '10346'
 organism: Homo sapiens
 function: transcription factor and target gene
+number_of_interactions: '9335'
 orthologs: '[{"species": "Mus musculus", "id": ["E9PYZ4", "J3QNR8"]}]'
 tfs: 'EP300,Q09472,2033,GTRD; TRRUST,chromatin immunoprecipitation assay; inferred
   by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29087512%5Buid%5D+OR+27924024%5Buid%5D+OR+23670564%5Buid%5D"

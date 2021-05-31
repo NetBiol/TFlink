@@ -7,6 +7,7 @@ uniprot_accession: Q9NSC5
 ncbi_gene_id: '9454'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '347'
 orthologs: '[{"species": "Mus musculus", "id": ["<a href=\"/protein/q99jp6\">Q99JP6</a>"]}, {"species": "Rattus norvegicus", "id": ["<a href=\"/protein/q9z2x5\">Q9Z2X5</a>"]}]'
 tfs: 'CEBPA,P49715,1050,GTRD; ORegAnno; PAZAR; TRED; TRRUST,chromatin immunoprecipitation
   assay; inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=26578589%5Buid%5D+OR+14645007%5Buid%5D+OR+18971253%5Buid%5D+OR+27924024%5Buid%5D+OR+17202159%5Buid%5D+OR+29087512%5Buid%5D"

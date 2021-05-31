@@ -7,6 +7,7 @@ uniprot_accession: A6NIK2
 ncbi_gene_id: '390205'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '189'
 orthologs: ''
 tfs: 'SAP30,O75446,8819,ReMap,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

@@ -7,6 +7,7 @@ uniprot_accession: H3BMG3
 ncbi_gene_id: '100287482'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '317'
 orthologs: ''
 tfs: 'U2AF2,P26368,11338,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

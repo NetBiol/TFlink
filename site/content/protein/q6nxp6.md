@@ -7,6 +7,7 @@ uniprot_accession: Q6NXP6
 ncbi_gene_id: '122945'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '43'
 orthologs: ''
 tfs: 'HOXB13,Q92826,10481,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

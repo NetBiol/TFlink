@@ -7,6 +7,7 @@ uniprot_accession: Q9NZI5
 ncbi_gene_id: '29841'
 organism: Homo sapiens
 function: transcription factor and target gene
+number_of_interactions: '1815'
 orthologs: '[{"species": "Mus musculus", "id": ["E9QMF0"]}, {"species": "Rattus norvegicus", "id": ["A0A0G2JTY1"]}]'
 tfs: 'HDAC3,O15379,8841,GTRD; TRRUST,chromatin immunoprecipitation assay; inferred
   by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=24419085%5Buid%5D+OR+29087512%5Buid%5D+OR+27924024%5Buid%5D"

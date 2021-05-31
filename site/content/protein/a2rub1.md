@@ -7,6 +7,7 @@ uniprot_accession: A2RUB1
 ncbi_gene_id: '284071'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '225'
 orthologs: ''
 tfs: 'KMT2B,Q9UMN6,9757,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

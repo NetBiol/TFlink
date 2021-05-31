@@ -7,6 +7,7 @@ uniprot_accession: Q8VCF0
 ncbi_gene_id: '228607'
 organism: Mus musculus
 function: target gene
+number_of_interactions: '289'
 orthologs: '[{"species": "Drosophila melanogaster", "id": ["<a href=\"/protein/a1zb24\">A1ZB24</a>"]}, {"species": "Homo sapiens", "id": ["<a href=\"/protein/q7z434\">Q7Z434</a>"]}, {"species": "Rattus norvegicus", "id": ["<a href=\"/protein/q66hg9\">Q66HG9</a>"]}]'
 tfs: 'Smurf2,A2A5Z6,66313,TRRUST,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=24729608%5Buid%5D+OR+29087512%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,Yes

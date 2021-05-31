@@ -7,6 +7,7 @@ uniprot_accession: Q5SWU9
 ncbi_gene_id: '107476'
 organism: Mus musculus
 function: target gene
+number_of_interactions: '388'
 orthologs: '[{"species": "Drosophila melanogaster", "id": ["Q7JV23"]}, {"species": "Homo sapiens", "id": ["<a href=\"/protein/q13085\">Q13085</a>"]}, {"species": "Rattus norvegicus", "id": ["<a href=\"/protein/a0a0g2k5g8\">A0A0G2K5G8</a>"]}]'
 tfs: 'Sp3,O70494,20687,TRRUST,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=8576128%5Buid%5D+OR+29087512%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,Yes

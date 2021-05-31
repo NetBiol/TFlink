@@ -7,6 +7,7 @@ uniprot_accession: Q9HAF1
 ncbi_gene_id: '64769'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '507'
 orthologs: '[{"species": "Mus musculus", "id": ["<a href=\"/protein/q2vpq9\">Q2VPQ9</a>"]}, {"species": "Rattus norvegicus", "id": ["<a href=\"/protein/b0bnb4\">B0BNB4</a>"]}]'
 tfs: 'BRPF1,P55201,7862,TRRUST,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=18794358%5Buid%5D+OR+29087512%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,Yes

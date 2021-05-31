@@ -7,6 +7,7 @@ uniprot_accession: Q8TBJ4
 ncbi_gene_id: '54886'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '234'
 orthologs: '[{"species": "Caenorhabditis elegans", "id": ["<a href=\"/protein/q22250\">Q22250</a>"]}, {"species": "Mus musculus", "id": ["<a href=\"/protein/q8bfz2\">Q8BFZ2</a>"]}, {"species": "Rattus norvegicus", "id": ["<a href=\"/protein/f1lr11\">F1LR11</a>"]}]'
 tfs: 'TP53,P04637,7157,GTRD; TRED; TRRUST,chromatin immunoprecipitation assay; inferred
   by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=17202159%5Buid%5D+OR+29087512%5Buid%5D+OR+27924024%5Buid%5D+OR+12135761%5Buid%5D"

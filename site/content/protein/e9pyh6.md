@@ -7,6 +7,7 @@ uniprot_accession: E9PYH6
 ncbi_gene_id: '233904'
 organism: Mus musculus
 function: transcription factor and target gene
+number_of_interactions: '12984'
 orthologs: '[{"species": "Homo sapiens", "id": ["<a href=\"/protein/o15047\">O15047</a>"]}, {"species": "Rattus norvegicus", "id": ["<a href=\"/protein/a0a0g2k6t6\">A0A0G2K6T6</a>"]}]'
 tfs: 'Etv4,P28322,18612,GTRD; TRED,chromatin immunoprecipitation assay; inferred by
   curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D+OR+17202159%5Buid%5D"

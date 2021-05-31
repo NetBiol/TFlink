@@ -7,6 +7,7 @@ uniprot_accession: Q9BXU9
 ncbi_gene_id: '83698'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '179'
 orthologs: ''
 tfs: 'MYCN,P04198,4613,HTRI; ReMap,chromatin immunoprecipitation assay; inferred by
   curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D+OR+22900683%5Buid%5D+OR+16093321%5Buid%5D"

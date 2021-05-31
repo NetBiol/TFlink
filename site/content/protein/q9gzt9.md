@@ -7,6 +7,7 @@ uniprot_accession: Q9GZT9
 ncbi_gene_id: '54583'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '243'
 orthologs: '[{"species": "Mus musculus", "id": ["<a href=\"/protein/q91ye3\">Q91YE3</a>"]}, {"species": "Rattus norvegicus", "id": ["<a href=\"/protein/a0a0g2jz28\">A0A0G2JZ28</a>"]}]'
 tfs: 'HIF1A,Q16665,3091,GTRD; ORegAnno; PAZAR; TRED; TRRUST,chromatin immunoprecipitation
   assay; inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=22075993%5Buid%5D+OR+26578589%5Buid%5D+OR+12839937%5Buid%5D+OR+18971253%5Buid%5D+OR+27924024%5Buid%5D+OR+17202159%5Buid%5D+OR+29087512%5Buid%5D"

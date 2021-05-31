@@ -7,6 +7,7 @@ uniprot_accession: Q5DTT2
 ncbi_gene_id: '73728'
 organism: Mus musculus
 function: target gene
+number_of_interactions: '162'
 orthologs: '[{"species": "Homo sapiens", "id": ["<a href=\"/protein/a5pkw4\">A5PKW4</a>"]}, {"species": "Rattus norvegicus", "id": ["<a href=\"/protein/g3v8j5\">G3V8J5</a>"]}]'
 tfs: 'Bcl3,Q9Z2F6,12051,TRED,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=17202159%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,Yes

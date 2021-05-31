@@ -7,6 +7,7 @@ uniprot_accession: A1ZAP8
 ncbi_gene_id: '36924'
 organism: Drosophila melanogaster
 function: target gene
+number_of_interactions: '15'
 orthologs: ''
 tfs: 'Raf,P11346,31221,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

@@ -7,6 +7,7 @@ uniprot_accession: Q5XIL4
 ncbi_gene_id: '282843'
 organism: Rattus norvegicus
 function: target gene
+number_of_interactions: '7'
 orthologs: ''
 tfs: 'Sox9,F1LYL9,140586,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

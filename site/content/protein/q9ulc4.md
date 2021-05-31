@@ -7,6 +7,7 @@ uniprot_accession: Q9ULC4
 ncbi_gene_id: '28985'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '351'
 orthologs: '[{"species": "Drosophila melanogaster", "id": ["<a href=\"/protein/q9w445\">Q9W445</a>"]}, {"species": "Caenorhabditis elegans", "id": ["<a href=\"/protein/q8mxh7\">Q8MXH7</a>"]}, {"species": "Mus musculus", "id": ["<a href=\"/protein/q9db27\">Q9DB27</a>"]}, {"species": "Rattus norvegicus", "id": ["<a href=\"/protein/q4g009\">Q4G009</a>"]}, {"species": "Saccharomyces cerevisiae", "id": ["<a href=\"/protein/p89886\">P89886</a>"]}]'
 tfs: 'DAND5,Q8N907,199699,TRRUST,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=12938157%5Buid%5D+OR+29087512%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,Yes

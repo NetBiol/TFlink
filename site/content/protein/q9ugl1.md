@@ -7,6 +7,7 @@ uniprot_accession: Q9UGL1
 ncbi_gene_id: '10765'
 organism: Homo sapiens
 function: transcription factor and target gene
+number_of_interactions: '16573'
 orthologs: '[{"species": "Drosophila melanogaster", "id": ["<a href=\"/protein/q9vmj7\">Q9VMJ7</a>"]}, {"species": "Mus musculus", "id": ["<a href=\"/protein/q80y84\">Q80Y84</a>"]}, {"species": "Rattus norvegicus", "id": ["<a href=\"/protein/a0a0g2k6g9\">A0A0G2K6G9</a>"]}]'
 tfs: 'PAX9,P55771,5083,TRED,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=17202159%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,Yes

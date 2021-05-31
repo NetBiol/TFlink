@@ -7,6 +7,7 @@ uniprot_accession: Q9UKX5
 ncbi_gene_id: '22801'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '226'
 orthologs: '[{"species": "Mus musculus", "id": ["<a href=\"/protein/a0a0b4j1f0\">A0A0B4J1F0</a>"]}, {"species": "Rattus norvegicus", "id": ["F1LUU1"]}]'
 tfs: 'SMAD2,Q15796,4087,TFactS_via_DoRothea,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=22761861%5Buid%5D+OR+19913614%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,Yes

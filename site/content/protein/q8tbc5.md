@@ -7,6 +7,7 @@ uniprot_accession: Q8TBC5
 ncbi_gene_id: '65982'
 organism: Homo sapiens
 function: transcription factor and target gene
+number_of_interactions: '343'
 orthologs: ''
 tfs: 'SMC1A,Q14683,8243,GTRD; ReMap,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D+OR+27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

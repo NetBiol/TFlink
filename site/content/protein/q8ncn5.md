@@ -7,6 +7,7 @@ uniprot_accession: Q8NCN5
 ncbi_gene_id: '55066'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '351'
 orthologs: ''
 tfs: 'NELFA,Q9H3P2,7469,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

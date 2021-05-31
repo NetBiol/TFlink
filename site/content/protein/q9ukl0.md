@@ -7,6 +7,7 @@ uniprot_accession: Q9UKL0
 ncbi_gene_id: '23186'
 organism: Homo sapiens
 function: transcription factor and target gene
+number_of_interactions: '14977'
 orthologs: ''
 tfs: 'TERF2,Q15554,7014,ReMap,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

@@ -7,6 +7,7 @@ uniprot_accession: Q7TPM3
 ncbi_gene_id: '56631'
 organism: Mus musculus
 function: target gene
+number_of_interactions: '285'
 orthologs: ''
 tfs: 'Mta2,Q9R190,23942,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

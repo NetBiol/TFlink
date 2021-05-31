@@ -7,6 +7,7 @@ uniprot_accession: Q6AYM4
 ncbi_gene_id: '294004'
 organism: Rattus norvegicus
 function: target gene
+number_of_interactions: '8'
 orthologs: ''
 tfs: 'Hdac3,Q6P6W3,84578,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

@@ -7,6 +7,7 @@ uniprot_accession: Q5JPI3
 ncbi_gene_id: '285237'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '563'
 orthologs: ''
 tfs: 'ZBED1,O96006,9189,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

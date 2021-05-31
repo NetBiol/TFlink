@@ -7,6 +7,7 @@ uniprot_accession: Q6PAJ1
 ncbi_gene_id: '110279'
 organism: Mus musculus
 function: target gene
+number_of_interactions: '233'
 orthologs: '[{"species": "Homo sapiens", "id": ["<a href=\"/protein/p11274\">P11274</a>"]}, {"species": "Rattus norvegicus", "id": ["<a href=\"/protein/f1lxf1\">F1LXF1</a>"]}]'
 tfs: 'Irf8,P23611,15900,GTRD; TRRUST,chromatin immunoprecipitation assay; inferred
   by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=12933588%5Buid%5D+OR+29087512%5Buid%5D+OR+27924024%5Buid%5D"

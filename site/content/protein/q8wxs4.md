@@ -7,6 +7,7 @@ uniprot_accession: Q8WXS4
 ncbi_gene_id: '140738'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '394'
 orthologs: ''
 tfs: 'TWIST1,Q15672,7291,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

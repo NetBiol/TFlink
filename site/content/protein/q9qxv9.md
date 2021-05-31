@@ -7,6 +7,7 @@ uniprot_accession: Q9QXV9
 ncbi_gene_id: '24063'
 organism: Mus musculus
 function: target gene
+number_of_interactions: '318'
 orthologs: '[{"species": "Homo sapiens", "id": ["<a href=\"/protein/o43609\">O43609</a>"]}, {"species": "Rattus norvegicus", "id": ["<a href=\"/protein/b5dfh3\">B5DFH3</a>"]}]'
 tfs: 'Pax3,P24610,18505,TRRUST,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29087512%5Buid%5D+OR+18593883%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,Yes

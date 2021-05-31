@@ -7,6 +7,7 @@ uniprot_accession: Q6GTX8
 ncbi_gene_id: '3903'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '208'
 orthologs: ''
 tfs: 'MYC,P01106,4609,GTRD; HTRI; TRED,chromatin immunoprecipitation assay; inferred
   by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=17202159%5Buid%5D+OR+12747840%5Buid%5D+OR+27924024%5Buid%5D+OR+22900683%5Buid%5D"

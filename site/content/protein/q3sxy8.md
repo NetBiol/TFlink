@@ -7,6 +7,7 @@ uniprot_accession: Q3SXY8
 ncbi_gene_id: '200894'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '399'
 orthologs: ''
 tfs: 'ASXL1,Q8IXJ9,171023,ReMap,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

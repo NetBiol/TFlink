@@ -7,6 +7,7 @@ uniprot_accession: Q9UIW2
 ncbi_gene_id: '5361'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '134'
 orthologs: '[{"species": "Drosophila melanogaster", "id": ["DROME18366"]}, {"species": "Caenorhabditis elegans", "id": ["U4PRY7"]}, {"species": "Mus musculus", "id": ["<a href=\"/protein/p70206\">P70206</a>"]}, {"species": "Rattus norvegicus", "id": ["<a href=\"/protein/d3z981\">D3Z981</a>"]}]'
 tfs: 'AR,P10275,367,GTRD; ReMap; TRRUST,chromatin immunoprecipitation assay; inferred
   by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29087512%5Buid%5D+OR+29126285%5Buid%5D+OR+27924024%5Buid%5D+OR+23318417%5Buid%5D"

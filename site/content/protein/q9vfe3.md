@@ -7,6 +7,7 @@ uniprot_accession: Q9VFE3
 ncbi_gene_id: '45247'
 organism: Drosophila melanogaster
 function: target gene
+number_of_interactions: '39'
 orthologs: '[{"species": "Homo sapiens", "id": ["E9PNU0"]}, {"species": "Caenorhabditis elegans", "id": ["<a href=\"/protein/g5edb8\">G5EDB8</a>"]}, {"species": "Mus musculus", "id": ["A0A0A0MQJ5"]}, {"species": "Rattus norvegicus", "id": ["<a href=\"/protein/b0k022\">B0K022</a>"]}, {"species": "Saccharomyces cerevisiae", "id": ["<a href=\"/protein/p23968\">P23968</a>"]}]'
 tfs: 'ey,O18381,43812,REDfly,electrophoretic mobility shift assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=20965965%5Buid%5D+OR+16533912%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,Yes

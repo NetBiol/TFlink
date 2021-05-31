@@ -7,6 +7,7 @@ uniprot_accession: Q8VEZ1
 ncbi_gene_id: '258338'
 organism: Mus musculus
 function: target gene
+number_of_interactions: '20'
 orthologs: ''
 tfs: 'Pax6,P63015,18508,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

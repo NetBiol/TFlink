@@ -7,6 +7,7 @@ uniprot_accession: Q8TAE8
 ncbi_gene_id: '90480'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '448'
 orthologs: '[{"species": "Drosophila melanogaster", "id": ["<a href=\"/protein/q9vp13\">Q9VP13</a>"]}, {"species": "Caenorhabditis elegans", "id": ["<a href=\"/protein/p90915\">P90915</a>"]}, {"species": "Mus musculus", "id": ["<a href=\"/protein/q9cr59\">Q9CR59</a>"]}, {"species": "Rattus norvegicus", "id": ["<a href=\"/protein/q5xjw2\">Q5XJW2</a>"]}]'
 tfs: 'YY1,P25490,7528,GTRD; ORegAnno; ReMap,chromatin immunoprecipitation assay; inferred
   by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=22951020%5Buid%5D+OR+29126285%5Buid%5D+OR+27924024%5Buid%5D+OR+26578589%5Buid%5D"

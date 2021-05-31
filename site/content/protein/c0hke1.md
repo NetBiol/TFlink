@@ -7,6 +7,7 @@ uniprot_accession: C0HKE1
 ncbi_gene_id: 319164;319165;319166;319167;319170;319171;319172;319191;665433
 organism: Mus musculus
 function: target gene
+number_of_interactions: '416'
 orthologs: ''
 tfs: 'Tp53,P02340,22059,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

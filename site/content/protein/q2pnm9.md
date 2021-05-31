@@ -7,6 +7,7 @@ uniprot_accession: Q2PNM9
 ncbi_gene_id: '-'
 organism: Drosophila melanogaster
 function: transcription factor
+number_of_interactions: '19'
 orthologs: ''
 tfs: ''
 targets: 'CG17981,Q7KUG8,2768958,GTRD,chromatin immunoprecipitation assay,&ensp;<a

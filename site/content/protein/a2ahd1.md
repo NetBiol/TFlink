@@ -7,6 +7,7 @@ uniprot_accession: A2AHD1
 ncbi_gene_id: '22403'
 organism: Mus musculus
 function: target gene
+number_of_interactions: '114'
 orthologs: ''
 tfs: 'Atoh1,P48985,11921,ORegAnno; PAZAR,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=18971253%5Buid%5D+OR+26578589%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

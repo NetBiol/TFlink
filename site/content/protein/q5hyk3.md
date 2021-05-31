@@ -7,6 +7,7 @@ uniprot_accession: Q5HYK3
 ncbi_gene_id: '84274'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '608'
 orthologs: '[{"species": "Drosophila melanogaster", "id": ["<a href=\"/protein/q9vyf8\">Q9VYF8</a>"]}, {"species": "Caenorhabditis elegans", "id": ["<a href=\"/protein/p34666\">P34666</a>"]}, {"species": "Mus musculus", "id": ["<a href=\"/protein/q9cxi0\">Q9CXI0</a>"]}, {"species": "Rattus norvegicus", "id": ["<a href=\"/protein/q4g064\">Q4G064</a>"]}, {"species": "Saccharomyces cerevisiae", "id": ["<a href=\"/protein/p49017\">P49017</a>"]}]'
 tfs: 'YY1,P25490,7528,GTRD; ORegAnno; ReMap,chromatin immunoprecipitation assay; inferred
   by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=22951020%5Buid%5D+OR+29126285%5Buid%5D+OR+27924024%5Buid%5D+OR+26578589%5Buid%5D"

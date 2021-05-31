@@ -7,6 +7,7 @@ uniprot_accession: Q9UGU0
 ncbi_gene_id: '6942'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '170'
 orthologs: ''
 tfs: 'PRDM14,Q9GZV8,63978,ReMap,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

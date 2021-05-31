@@ -7,6 +7,7 @@ uniprot_accession: Q5VTT5
 ncbi_gene_id: '127294'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '355'
 orthologs: ''
 tfs: 'AFF4,Q9UHB7,27125,ReMap,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

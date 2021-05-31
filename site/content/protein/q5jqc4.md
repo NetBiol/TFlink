@@ -8,6 +8,7 @@ uniprot_accession: Q5JQC4
 ncbi_gene_id: 100507170;255313;653282;728036;728042;728049;728062;728072;728075;728082;728090;728096
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '4'
 orthologs: ''
 tfs: 'TRIM28,Q13263,10155,ORegAnno; PAZAR,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=18971253%5Buid%5D+OR+26578589%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

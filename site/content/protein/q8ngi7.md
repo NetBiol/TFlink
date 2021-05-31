@@ -7,6 +7,7 @@ uniprot_accession: Q8NGI7
 ncbi_gene_id: '390201'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '28'
 orthologs: ''
 tfs: 'GATA1,P15976,2623,GTRD; HTRI; ReMap,chromatin immunoprecipitation assay,&ensp;<a
   href="https://www.ncbi.nlm.nih.gov/pubmed/?term=19941826%5Buid%5D+OR+27924024%5Buid%5D+OR+29126285%5Buid%5D+OR+22900683%5Buid%5D"

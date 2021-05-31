@@ -7,6 +7,7 @@ uniprot_accession: Q9NQR9
 ncbi_gene_id: '57818'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '44'
 orthologs: '[{"species": "Drosophila melanogaster", "id": ["<a href=\"/protein/q9vqh1\">Q9VQH1</a>"]}, {"species": "Mus musculus", "id": ["<a href=\"/protein/q9z186\">Q9Z186</a>"]}]'
 tfs: 'USF1,P22415,7391,ReMap; TRED,chromatin immunoprecipitation assay; inferred by
   curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D+OR+17202159%5Buid%5D"

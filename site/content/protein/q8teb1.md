@@ -7,6 +7,7 @@ uniprot_accession: Q8TEB1
 ncbi_gene_id: '80344'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '618'
 orthologs: '[{"species": "Drosophila melanogaster", "id": ["<a href=\"/protein/q7jyq4\">Q7JYQ4</a>"]}, {"species": "Caenorhabditis elegans", "id": ["<a href=\"/protein/p90794\">P90794</a>"]}, {"species": "Mus musculus", "id": ["D3Z4U8"]}, {"species": "Rattus norvegicus", "id": ["<a href=\"/protein/q5m9g8\">Q5M9G8</a>"]}]'
 tfs: 'MYC,P01106,4609,GTRD; ReMap; TRED,chromatin immunoprecipitation assay; inferred
   by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D+OR+27924024%5Buid%5D+OR+17202159%5Buid%5D"

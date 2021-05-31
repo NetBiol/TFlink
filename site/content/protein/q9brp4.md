@@ -7,6 +7,7 @@ uniprot_accession: Q9BRP4
 ncbi_gene_id: '80227'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '520'
 orthologs: ''
 tfs: 'GATAD1,Q8WUU5,57798,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

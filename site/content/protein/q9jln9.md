@@ -7,6 +7,7 @@ uniprot_accession: Q9JLN9
 ncbi_gene_id: '56717'
 organism: Mus musculus
 function: target gene
+number_of_interactions: '293'
 orthologs: '[{"species": "Drosophila melanogaster", "id": ["<a href=\"/protein/q9vk45\">Q9VK45</a>"]}, {"species": "Caenorhabditis elegans", "id": ["CAEEL00842"]}, {"species": "Homo sapiens", "id": ["<a href=\"/protein/p42345\">P42345</a>"]}, {"species": "Rattus norvegicus", "id": ["<a href=\"/protein/p42346\">P42346</a>"]}, {"species": "Saccharomyces cerevisiae", "id": ["<a href=\"/protein/p35169\">P35169</a>", "<a href=\"/protein/p32600\">P32600</a>"]}]'
 tfs: 'Eya2,O08575,14049,TRRUST,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29087512%5Buid%5D+OR+22197309%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,Yes

@@ -7,6 +7,7 @@ uniprot_accession: Q9QXZ7
 ncbi_gene_id: '23958'
 organism: Mus musculus
 function: transcription factor and target gene
+number_of_interactions: '89'
 orthologs: '[{"species": "Drosophila melanogaster", "id": ["<a href=\"/protein/a1za01\">A1ZA01</a>"]}, {"species": "Homo sapiens", "id": ["<a href=\"/protein/q9y5x4\">Q9Y5X4</a>"]}, {"species": "Rattus norvegicus", "id": ["M0R4U8"]}]'
 tfs: 'Nrl,P54846,18185,TRRUST,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29087512%5Buid%5D+OR+18294621%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,Yes

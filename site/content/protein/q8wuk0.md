@@ -7,6 +7,7 @@ uniprot_accession: Q8WUK0
 ncbi_gene_id: '114971'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '419'
 orthologs: ''
 tfs: 'ZEB1,P37275,6935,GTRD; ReMap,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D+OR+27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

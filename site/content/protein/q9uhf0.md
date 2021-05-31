@@ -7,6 +7,7 @@ uniprot_accession: Q9UHF0
 ncbi_gene_id: '6866'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '104'
 orthologs: '[{"species": "Mus musculus", "id": ["<a href=\"/protein/p55099\">P55099</a>"]}, {"species": "Rattus norvegicus", "id": ["G3V6J3"]}]'
 tfs: 'REST,Q13127,5978,TRRUST,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29087512%5Buid%5D+OR+19539370%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,Yes

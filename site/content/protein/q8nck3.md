@@ -7,6 +7,7 @@ uniprot_accession: Q8NCK3
 ncbi_gene_id: '220992'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '366'
 orthologs: ''
 tfs: 'TRIM24,O15164,8805,GTRD; ReMap,chromatin immunoprecipitation assay,&ensp;<a
   href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D+OR+27924024%5Buid%5D"

@@ -7,6 +7,7 @@ uniprot_accession: Q9UBY0
 ncbi_gene_id: '6549'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '291'
 orthologs: '[{"species": "Caenorhabditis elegans", "id": ["<a href=\"/protein/h2l039\">H2L039</a>", "<a href=\"/protein/p35449\">P35449</a>"]}, {"species": "Mus musculus", "id": ["<a href=\"/protein/q3zas0\">Q3ZAS0</a>"]}, {"species": "Rattus norvegicus", "id": ["<a href=\"/protein/p48763\">P48763</a>"]}]'
 tfs: 'SP3,Q02447,6670,HTRI; TRRUST,chromatin immunoprecipitation assay; electrophoretic
   mobility shift assay; inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29087512%5Buid%5D+OR+22900683%5Buid%5D+OR+17561809%5Buid%5D"

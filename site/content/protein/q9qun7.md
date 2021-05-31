@@ -7,6 +7,7 @@ uniprot_accession: Q9QUN7
 ncbi_gene_id: '24088'
 organism: Mus musculus
 function: target gene
+number_of_interactions: '4'
 orthologs: ''
 tfs: 'Nfkb1,P25799,18033,TRED; TRRUST,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=17202159%5Buid%5D+OR+11254708%5Buid%5D+OR+29087512%5Buid%5D+OR+11739511%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,Yes

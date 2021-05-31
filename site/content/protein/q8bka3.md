@@ -7,6 +7,7 @@ uniprot_accession: Q8BKA3
 ncbi_gene_id: '68955'
 organism: Mus musculus
 function: target gene
+number_of_interactions: '211'
 orthologs: '[{"species": "Homo sapiens", "id": ["<a href=\"/protein/a7md48\">A7MD48</a>"]}, {"species": "Rattus norvegicus", "id": ["<a href=\"/protein/f1m2t7\">F1M2T7</a>"]}]'
 tfs: 'Rest,Q8VIG1,19712,GTRD; TRRUST,chromatin immunoprecipitation assay; inferred
   by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=21884984%5Buid%5D+OR+29087512%5Buid%5D+OR+27924024%5Buid%5D"

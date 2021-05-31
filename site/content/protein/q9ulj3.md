@@ -7,6 +7,7 @@ uniprot_accession: Q9ULJ3
 ncbi_gene_id: '49854'
 organism: Homo sapiens
 function: transcription factor and target gene
+number_of_interactions: '2401'
 orthologs: ''
 tfs: 'ASXL1,Q8IXJ9,171023,ReMap,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

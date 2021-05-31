@@ -7,6 +7,7 @@ uniprot_accession: Q9UBS8
 ncbi_gene_id: '9604'
 organism: Homo sapiens
 function: transcription factor and target gene
+number_of_interactions: '475'
 orthologs: '[{"species": "Caenorhabditis elegans", "id": ["<a href=\"/protein/q20871\">Q20871</a>", "<a href=\"/protein/q20874\">Q20874</a>"]}, {"species": "Mus musculus", "id": ["MOUSE19372"]}, {"species": "Rattus norvegicus", "id": ["<a href=\"/protein/q3zau6\">Q3ZAU6</a>"]}]'
 tfs: 'TWIST1,Q15672,7291,GTRD; ReMap,chromatin immunoprecipitation assay,&ensp;<a
   href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D+OR+27924024%5Buid%5D"

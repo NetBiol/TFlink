@@ -7,6 +7,7 @@ uniprot_accession: Q9BXJ0
 ncbi_gene_id: '114902'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '119'
 orthologs: '[{"species": "Mus musculus", "id": ["<a href=\"/protein/q8k479\">Q8K479</a>"]}, {"species": "Rattus norvegicus", "id": ["<a href=\"/protein/q5fvh0\">Q5FVH0</a>"]}]'
 tfs: 'HNF4A,P41235,3172,HTRI; TRRUST,chromatin immunoprecipitation assay; electrophoretic
   mobility shift assay; inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=22900683%5Buid%5D+OR+29087512%5Buid%5D+OR+20621834%5Buid%5D"

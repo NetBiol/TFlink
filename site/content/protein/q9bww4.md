@@ -7,6 +7,7 @@ uniprot_accession: Q9BWW4
 ncbi_gene_id: '23648'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '487'
 orthologs: ''
 tfs: 'RING1,Q06587,6015,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

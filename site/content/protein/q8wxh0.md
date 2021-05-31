@@ -7,6 +7,7 @@ uniprot_accession: Q8WXH0
 ncbi_gene_id: '23224'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '452'
 orthologs: '[{"species": "Drosophila melanogaster", "id": ["M9MRD4"]}, {"species": "Caenorhabditis elegans", "id": ["<a href=\"/protein/q9n4m4\">Q9N4M4</a>"]}]'
 tfs: 'E2F1,Q01094,1869,GTRD; ORegAnno; PAZAR; ReMap; TRED,chromatin immunoprecipitation
   assay; inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D+OR+26578589%5Buid%5D+OR+18971253%5Buid%5D+OR+27924024%5Buid%5D+OR+17202159%5Buid%5D"

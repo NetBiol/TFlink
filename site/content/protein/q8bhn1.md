@@ -7,6 +7,7 @@ uniprot_accession: Q8BHN1
 ncbi_gene_id: '353170'
 organism: Mus musculus
 function: target gene
+number_of_interactions: '250'
 orthologs: '[{"species": "Caenorhabditis elegans", "id": ["<a href=\"/protein/q22666\">Q22666</a>"]}, {"species": "Homo sapiens", "id": ["<a href=\"/protein/q9nuq3\">Q9NUQ3</a>"]}]'
 tfs: 'Sp1,O89090,20683,GTRD; TRRUST,chromatin immunoprecipitation assay; inferred
   by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29087512%5Buid%5D+OR+27924024%5Buid%5D+OR+23463631%5Buid%5D"

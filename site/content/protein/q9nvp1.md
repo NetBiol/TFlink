@@ -7,6 +7,7 @@ uniprot_accession: Q9NVP1
 ncbi_gene_id: '8886'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '611'
 orthologs: '[{"species": "Drosophila melanogaster", "id": ["<a href=\"/protein/q9vd51\">Q9VD51</a>"]}, {"species": "Caenorhabditis elegans", "id": ["O61815"]}, {"species": "Mus musculus", "id": ["<a href=\"/protein/q8k363\">Q8K363</a>"]}, {"species": "Rattus norvegicus", "id": ["<a href=\"/protein/q5xhy0\">Q5XHY0</a>"]}, {"species": "Saccharomyces cerevisiae", "id": ["<a href=\"/protein/q03532\">Q03532</a>"]}]'
 tfs: 'SMARCC1,Q92922,6599,GTRD; IntAct_via_DoRothEA; ReMap,chromatin immunoprecipitation
   assay; inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D+OR+27924024%5Buid%5D+OR+24234451%5Buid%5D+OR+24434208%5Buid%5D"

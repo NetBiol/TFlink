@@ -7,6 +7,7 @@ uniprot_accession: Q9GZN4
 ncbi_gene_id: '64063'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '318'
 orthologs: ''
 tfs: 'CDK6,Q00534,1021,ReMap,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

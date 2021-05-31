@@ -7,6 +7,7 @@ uniprot_accession: A6NNY8
 ncbi_gene_id: '389856'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '368'
 orthologs: ''
 tfs: 'PAX7,P23759,5081,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

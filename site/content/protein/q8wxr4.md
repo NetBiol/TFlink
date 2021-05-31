@@ -7,6 +7,7 @@ uniprot_accession: Q8WXR4
 ncbi_gene_id: '140469'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '141'
 orthologs: ''
 tfs: 'NR3C1,P04150,2908,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

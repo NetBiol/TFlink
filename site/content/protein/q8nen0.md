@@ -7,6 +7,7 @@ uniprot_accession: Q8NEN0
 ncbi_gene_id: '84071'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '427'
 orthologs: ''
 tfs: 'HOXA4,Q00056,3201,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

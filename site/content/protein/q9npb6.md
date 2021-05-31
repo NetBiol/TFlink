@@ -7,6 +7,7 @@ uniprot_accession: Q9NPB6
 ncbi_gene_id: '50855'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '468'
 orthologs: ''
 tfs: 'BRPF3,Q9ULD4,27154,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

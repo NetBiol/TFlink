@@ -7,6 +7,7 @@ uniprot_accession: Q9BWL3
 ncbi_gene_id: '25912'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '619'
 orthologs: ''
 tfs: 'MAFB,Q9Y5Q3,9935,GTRD; ReMap,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D+OR+27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

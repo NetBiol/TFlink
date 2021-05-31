@@ -7,6 +7,7 @@ uniprot_accession: A8MUM7
 ncbi_gene_id: '148003'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '12'
 orthologs: ''
 tfs: 'BRD4,O60885,23476,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

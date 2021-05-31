@@ -7,6 +7,7 @@ uniprot_accession: Q8SYJ2
 ncbi_gene_id: '317928'
 organism: Drosophila melanogaster
 function: target gene
+number_of_interactions: '31'
 orthologs: ''
 tfs: 'Dmel\CG17802,Q8SX40,42143,GTRD,chromatin immunoprecipitation assay,&ensp;<a
   href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D" target="_blank"><i

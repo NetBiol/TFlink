@@ -7,6 +7,7 @@ uniprot_accession: Q9VZN4
 ncbi_gene_id: '38436'
 organism: Drosophila melanogaster
 function: transcription factor and target gene
+number_of_interactions: '25'
 orthologs: '[{"species": "Homo sapiens", "id": ["<a href=\"/protein/p0cg23\">P0CG23</a>"]}, {"species": "Caenorhabditis elegans", "id": ["<a href=\"/protein/q9xyd3\">Q9XYD3</a>"]}, {"species": "Saccharomyces cerevisiae", "id": ["<a href=\"/protein/p08153\">P08153</a>"]}]'
 tfs: 'Su(var)205,P05205,34119,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

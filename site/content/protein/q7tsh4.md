@@ -7,6 +7,7 @@ uniprot_accession: Q7TSH4
 ncbi_gene_id: '101565'
 organism: Mus musculus
 function: target gene
+number_of_interactions: '301'
 orthologs: ''
 tfs: 'Tbl1x,Q9QXE7,21372,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

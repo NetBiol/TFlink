@@ -7,6 +7,7 @@ uniprot_accession: P0DPI2
 ncbi_gene_id: '8209'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '77'
 orthologs: ''
 tfs: 'NONO,Q15233,4841,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

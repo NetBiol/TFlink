@@ -7,6 +7,7 @@ uniprot_accession: Q9EPQ7
 ncbi_gene_id: '170460'
 organism: Mus musculus
 function: target gene
+number_of_interactions: '299'
 orthologs: '[{"species": "Homo sapiens", "id": ["<a href=\"/protein/q9nsy2\">Q9NSY2</a>"]}, {"species": "Rattus norvegicus", "id": ["<a href=\"/protein/d3zn38\">D3ZN38</a>"]}]'
 tfs: 'Xbp1,O35426,22433,GTRD; TRRUST,chromatin immunoprecipitation assay; inferred
   by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29087512%5Buid%5D+OR+27924024%5Buid%5D+OR+23053693%5Buid%5D"

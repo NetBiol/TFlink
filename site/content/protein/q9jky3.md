@@ -7,6 +7,7 @@ uniprot_accession: Q9JKY3
 ncbi_gene_id: '64619'
 organism: Rattus norvegicus
 function: transcription factor
+number_of_interactions: '10'
 orthologs: ''
 tfs: ''
 targets: 'Mme,P07861,24590,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"

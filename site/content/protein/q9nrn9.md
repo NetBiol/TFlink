@@ -7,6 +7,7 @@ uniprot_accession: Q9NRN9
 ncbi_gene_id: '29081'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '528'
 orthologs: ''
 tfs: 'GFI1B,Q5VTD9,8328,ReMap,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

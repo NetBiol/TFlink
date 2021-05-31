@@ -7,6 +7,7 @@ uniprot_accession: Q8BID6
 ncbi_gene_id: '72147'
 organism: Mus musculus
 function: target gene
+number_of_interactions: '220'
 orthologs: ''
 tfs: 'Rara,P11416,19401,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

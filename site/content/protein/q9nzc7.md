@@ -7,6 +7,7 @@ uniprot_accession: Q9NZC7
 ncbi_gene_id: '51741'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '539'
 orthologs: '[{"species": "Drosophila melanogaster", "id": ["<a href=\"/protein/q9vlu5\">Q9VLU5</a>"]}, {"species": "Caenorhabditis elegans", "id": ["<a href=\"/protein/q19062\">Q19062</a>", "<a href=\"/protein/o45680\">O45680</a>", "<a href=\"/protein/q9xu55\">Q9XU55</a>", "<a href=\"/protein/q9uaw2\">Q9UAW2</a>"]}, {"species": "Mus musculus", "id": ["<a href=\"/protein/q91wl8\">Q91WL8</a>"]}]'
 tfs: 'E2F1,Q01094,1869,GTRD; ORegAnno; PAZAR; ReMap; TRRUST,chromatin immunoprecipitation
   assay; inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D+OR+26578589%5Buid%5D+OR+18971253%5Buid%5D+OR+27924024%5Buid%5D+OR+29087512%5Buid%5D+OR+15044096%5Buid%5D"

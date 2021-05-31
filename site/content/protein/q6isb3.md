@@ -7,6 +7,7 @@ uniprot_accession: Q6ISB3
 ncbi_gene_id: '79977'
 organism: Homo sapiens
 function: transcription factor and target gene
+number_of_interactions: '11265'
 orthologs: '[{"species": "Mus musculus", "id": ["<a href=\"/protein/q8k5c0\">Q8K5C0</a>"]}, {"species": "Rattus norvegicus", "id": ["<a href=\"/protein/b5dei9\">B5DEI9</a>"]}]'
 tfs: 'ZEB1,P37275,6935,GTRD; ReMap; TRRUST,chromatin immunoprecipitation assay; inferred
   by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=23814079%5Buid%5D+OR+29087512%5Buid%5D+OR+29126285%5Buid%5D+OR+27924024%5Buid%5D"

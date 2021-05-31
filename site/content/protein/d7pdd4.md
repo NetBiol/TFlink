@@ -7,6 +7,7 @@ uniprot_accession: D7PDD4
 ncbi_gene_id: '106722'
 organism: Mus musculus
 function: target gene
+number_of_interactions: '47'
 orthologs: ''
 tfs: 'Lhx3,P50481,16871,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

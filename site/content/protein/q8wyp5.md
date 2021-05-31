@@ -7,6 +7,7 @@ uniprot_accession: Q8WYP5
 ncbi_gene_id: '25909'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '575'
 orthologs: ''
 tfs: 'BCL11B,Q9C0K0,64919,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

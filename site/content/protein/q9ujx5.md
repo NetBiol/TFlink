@@ -7,6 +7,7 @@ uniprot_accession: Q9UJX5
 ncbi_gene_id: '29945'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '455'
 orthologs: '[{"species": "Drosophila melanogaster", "id": ["<a href=\"/protein/q9w395\">Q9W395</a>"]}, {"species": "Mus musculus", "id": ["<a href=\"/protein/q91w96\">Q91W96</a>"]}, {"species": "Rattus norvegicus", "id": ["<a href=\"/protein/d3zub7\">D3ZUB7</a>"]}]'
 tfs: 'YBX1,P67809,4904,HTRI; TRRUST,chromatin immunoprecipitation assay; inferred
   by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=20596676%5Buid%5D+OR+29087512%5Buid%5D+OR+19151767%5Buid%5D+OR+22900683%5Buid%5D"

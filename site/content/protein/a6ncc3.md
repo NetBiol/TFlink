@@ -7,6 +7,7 @@ uniprot_accession: A6NCC3
 ncbi_gene_id: '728047'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '1'
 orthologs: ''
 tfs: 'AR,P10275,367,HTRI,chromatin immunoprecipitation array,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=22900683%5Buid%5D+OR+20610535%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No'

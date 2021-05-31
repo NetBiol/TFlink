@@ -7,6 +7,7 @@ uniprot_accession: Q9UHF7
 ncbi_gene_id: '7227'
 organism: Homo sapiens
 function: transcription factor and target gene
+number_of_interactions: '17766'
 orthologs: '[{"species": "Mus musculus", "id": ["G3UW90"]}, {"species": "Rattus norvegicus", "id": ["<a href=\"/protein/d3zem6\">D3ZEM6</a>"]}]'
 tfs: 'AR,P10275,367,GTRD; HTRI; ReMap; TRED; TRRUST,chromatin immunoprecipitation
   array; chromatin immunoprecipitation assay; inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=15613454%5Buid%5D+OR+20610535%5Buid%5D+OR+29126285%5Buid%5D+OR+27924024%5Buid%5D+OR+17202159%5Buid%5D+OR+29087512%5Buid%5D+OR+22900683%5Buid%5D"

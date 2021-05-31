@@ -7,6 +7,7 @@ uniprot_accession: Q9QZB6
 ncbi_gene_id: '18124'
 organism: Mus musculus
 function: transcription factor and target gene
+number_of_interactions: '311'
 orthologs: ''
 tfs: 'Nfkb1,P25799,18033,TRRUST,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29087512%5Buid%5D+OR+19843184%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,Yes

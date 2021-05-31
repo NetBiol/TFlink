@@ -7,6 +7,7 @@ uniprot_accession: F6RCF6
 ncbi_gene_id: '-'
 organism: Mus musculus
 function: target gene
+number_of_interactions: '305'
 orthologs: ''
 tfs: 'Bcl11b,Q99PV8,58208,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

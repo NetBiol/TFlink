@@ -7,6 +7,7 @@ uniprot_accession: Q9CQJ4
 ncbi_gene_id: '19821'
 organism: Mus musculus
 function: transcription factor and target gene
+number_of_interactions: '17022'
 orthologs: '[{"species": "Drosophila melanogaster", "id": ["<a href=\"/protein/q9vb08\">Q9VB08</a>"]}, {"species": "Homo sapiens", "id": ["<a href=\"/protein/q99496\">Q99496</a>"]}, {"species": "Rattus norvegicus", "id": ["A0A0G2JTP7"]}]'
 tfs: 'Kdm1a,Q6ZQ88,99982,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

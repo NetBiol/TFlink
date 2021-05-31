@@ -7,6 +7,7 @@ uniprot_accession: Q8NGR4
 ncbi_gene_id: '392391'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '32'
 orthologs: ''
 tfs: 'PADI2,Q9Y2J8,11240,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

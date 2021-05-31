@@ -7,6 +7,7 @@ uniprot_accession: Q9UGI6
 ncbi_gene_id: '3782'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '336'
 orthologs: ''
 tfs: 'JUN,P05412,3725,GTRD; ReMap; TRED,chromatin immunoprecipitation assay; inferred
   by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D+OR+27924024%5Buid%5D+OR+17202159%5Buid%5D"

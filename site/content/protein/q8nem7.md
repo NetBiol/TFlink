@@ -7,6 +7,7 @@ uniprot_accession: Q8NEM7
 ncbi_gene_id: '55578'
 organism: Homo sapiens
 function: transcription factor and target gene
+number_of_interactions: '1686'
 orthologs: ''
 tfs: 'MYCN,P04198,4613,GTRD; ReMap,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D+OR+27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

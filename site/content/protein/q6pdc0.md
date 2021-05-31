@@ -7,6 +7,7 @@ uniprot_accession: Q6PDC0
 ncbi_gene_id: '242819'
 organism: Mus musculus
 function: target gene
+number_of_interactions: '191'
 orthologs: ''
 tfs: 'Tet1,Q3URK3,,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

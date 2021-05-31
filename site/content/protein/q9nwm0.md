@@ -7,6 +7,7 @@ uniprot_accession: Q9NWM0
 ncbi_gene_id: '54498'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '388'
 orthologs: ''
 tfs: 'GLI3,P10071,2737,TRRUST,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=15072830%5Buid%5D+OR+29087512%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,Yes

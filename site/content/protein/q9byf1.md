@@ -7,6 +7,7 @@ uniprot_accession: Q9BYF1
 ncbi_gene_id: '59272'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '149'
 orthologs: '[{"species": "Caenorhabditis elegans", "id": ["<a href=\"/protein/q18581\">Q18581</a>"]}, {"species": "Mus musculus", "id": ["<a href=\"/protein/q8r0i0\">Q8R0I0</a>"]}, {"species": "Rattus norvegicus", "id": ["D3ZYK4"]}]'
 tfs: 'HIF1A,Q16665,3091,GTRD; ReMap; TRRUST,chromatin immunoprecipitation assay; inferred
   by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29087512%5Buid%5D+OR+29126285%5Buid%5D+OR+27924024%5Buid%5D+OR+19592460%5Buid%5D"

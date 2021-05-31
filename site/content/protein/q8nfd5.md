@@ -7,6 +7,7 @@ uniprot_accession: Q8NFD5
 ncbi_gene_id: '57492'
 organism: Homo sapiens
 function: transcription factor and target gene
+number_of_interactions: '6560'
 orthologs: '[{"species": "Drosophila melanogaster", "id": ["<a href=\"/protein/q8in94\">Q8IN94</a>"]}, {"species": "Caenorhabditis elegans", "id": ["<a href=\"/protein/j7sa49\">J7SA49</a>"]}, {"species": "Mus musculus", "id": ["<a href=\"/protein/e9q4n7\">E9Q4N7</a>"]}, {"species": "Rattus norvegicus", "id": ["<a href=\"/protein/f1lnp1\">F1LNP1</a>"]}]'
 tfs: 'RERE,Q9P2R6,473,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

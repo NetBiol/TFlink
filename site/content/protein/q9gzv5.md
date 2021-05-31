@@ -7,6 +7,7 @@ uniprot_accession: Q9GZV5
 ncbi_gene_id: '25937'
 organism: Homo sapiens
 function: transcription factor and target gene
+number_of_interactions: '496'
 orthologs: '[{"species": "Mus musculus", "id": ["<a href=\"/protein/q9epk5\">Q9EPK5</a>"]}, {"species": "Rattus norvegicus", "id": ["<a href=\"/protein/q4v7e6\">Q4V7E6</a>"]}]'
 tfs: 'SS18,Q15532,6760,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

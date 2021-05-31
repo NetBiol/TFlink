@@ -7,6 +7,7 @@ uniprot_accession: A4QPB2
 ncbi_gene_id: '91355'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '310'
 orthologs: ''
 tfs: 'PBX1,P40424,5087,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

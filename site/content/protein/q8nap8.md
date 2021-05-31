@@ -7,6 +7,7 @@ uniprot_accession: Q8NAP8
 ncbi_gene_id: '728116'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '253'
 orthologs: ''
 tfs: 'NANOG,Q9H9S0,79923,GTRD; ReMap,chromatin immunoprecipitation assay,&ensp;<a
   href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D+OR+27924024%5Buid%5D"

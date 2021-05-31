@@ -7,6 +7,7 @@ uniprot_accession: Q9XTN4
 ncbi_gene_id: '31665'
 organism: Drosophila melanogaster
 function: transcription factor and target gene
+number_of_interactions: '1920'
 orthologs: ''
 tfs: 'Mad,P42003,33529,GTRD; REDfly,chromatin immunoprecipitation assay; electrophoretic
   mobility shift assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=20965965%5Buid%5D+OR+18506030%5Buid%5D+OR+27924024%5Buid%5D+OR+17610966%5Buid%5D"

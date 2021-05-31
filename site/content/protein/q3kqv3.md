@@ -7,6 +7,7 @@ uniprot_accession: Q3KQV3
 ncbi_gene_id: '126375'
 organism: Homo sapiens
 function: transcription factor and target gene
+number_of_interactions: '6510'
 orthologs: ''
 tfs: 'ERG,P11308,2078,GTRD; ReMap,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D+OR+27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

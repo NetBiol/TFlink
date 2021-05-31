@@ -7,6 +7,7 @@ uniprot_accession: A6NNA5
 ncbi_gene_id: '644168'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '156'
 orthologs: ''
 tfs: 'EP400,Q96L91,57634,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

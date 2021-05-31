@@ -7,6 +7,7 @@ uniprot_accession: Q9ZZX0
 ncbi_gene_id: '854599'
 organism: Saccharomyces cerevisiae
 function: target gene
+number_of_interactions: '8'
 orthologs: ''
 tfs: 'PIP2,P52960,854545,Yeastract,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=24170807%5Buid%5D+OR+30073202%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

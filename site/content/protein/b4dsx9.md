@@ -7,6 +7,7 @@ uniprot_accession: B4DSX9
 ncbi_gene_id: '1056'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '9'
 orthologs: ''
 tfs: 'USF1,P22415,7391,TRED,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=17202159%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,Yes

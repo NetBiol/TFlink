@@ -7,6 +7,7 @@ uniprot_accession: Q8BSF4
 ncbi_gene_id: '320951'
 organism: Mus musculus
 function: target gene
+number_of_interactions: '381'
 orthologs: ''
 tfs: 'Nfya,P23708,18044,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

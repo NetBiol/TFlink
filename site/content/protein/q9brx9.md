@@ -7,6 +7,7 @@ uniprot_accession: Q9BRX9
 ncbi_gene_id: '84292'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '549'
 orthologs: ''
 tfs: 'ATF7,P17544,11016,GTRD; ReMap,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D+OR+27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

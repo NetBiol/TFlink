@@ -7,6 +7,7 @@ uniprot_accession: P0DMU9
 ncbi_gene_id: '102723631'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '79'
 orthologs: ''
 tfs: 'SSRP1,Q08945,6749,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

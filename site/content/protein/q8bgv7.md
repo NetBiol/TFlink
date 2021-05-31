@@ -7,6 +7,7 @@ uniprot_accession: Q8BGV7
 ncbi_gene_id: '233877'
 organism: Mus musculus
 function: target gene
+number_of_interactions: '330'
 orthologs: '[{"species": "Homo sapiens", "id": ["<a href=\"/protein/q8wz19\">Q8WZ19</a>"]}, {"species": "Rattus norvegicus", "id": ["<a href=\"/protein/q7tq24\">Q7TQ24</a>"]}]'
 tfs: 'Sp1,O89090,20683,GTRD; TRRUST,chromatin immunoprecipitation assay; inferred
   by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=15757666%5Buid%5D+OR+29087512%5Buid%5D+OR+27924024%5Buid%5D"

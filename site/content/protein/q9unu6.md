@@ -7,6 +7,7 @@ uniprot_accession: Q9UNU6
 ncbi_gene_id: '1582'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '122'
 orthologs: '[{"species": "Mus musculus", "id": ["<a href=\"/protein/a0a0r4j0n7\">A0A0R4J0N7</a>"]}, {"species": "Rattus norvegicus", "id": ["<a href=\"/protein/g3v8j2\">G3V8J2</a>"]}]'
 tfs: 'HNF4A,P41235,3172,GTRD; IntAct_via_DoRothEA; ORegAnno; PAZAR,chromatin immunoprecipitation
   assay; inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=24234451%5Buid%5D+OR+26578589%5Buid%5D+OR+15550563%5Buid%5D+OR+18971253%5Buid%5D+OR+27924024%5Buid%5D+OR+15933209%5Buid%5D"

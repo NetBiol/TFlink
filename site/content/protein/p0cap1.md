@@ -7,6 +7,7 @@ uniprot_accession: P0CAP1
 ncbi_gene_id: 100820829;145781;81488
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '254'
 orthologs: ''
 tfs: 'PBX4,Q9BYU1,80714,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

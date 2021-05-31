@@ -7,6 +7,7 @@ uniprot_accession: Q9HCN2
 ncbi_gene_id: '63970'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '76'
 orthologs: ''
 tfs: 'TP53,P04637,7157,GTRD; IntAct_via_DoRothEA; KEGG_via_DoRothEA; ReMap,chromatin
   immunoprecipitation assay; inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D+OR+17719542%5Buid%5D+OR+24234451%5Buid%5D+OR+27899662%5Buid%5D+OR+27924024%5Buid%5D"

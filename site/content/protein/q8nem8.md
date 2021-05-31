@@ -7,6 +7,7 @@ uniprot_accession: Q8NEM8
 ncbi_gene_id: '340351'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '435'
 orthologs: ''
 tfs: 'STAT5A,P42229,6776,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

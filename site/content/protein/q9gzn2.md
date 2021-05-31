@@ -7,6 +7,7 @@ uniprot_accession: Q9GZN2
 ncbi_gene_id: '60436'
 organism: Homo sapiens
 function: transcription factor and target gene
+number_of_interactions: '6414'
 orthologs: '[{"species": "Mus musculus", "id": ["<a href=\"/protein/q8c0y1\">Q8C0Y1</a>"]}, {"species": "Rattus norvegicus", "id": ["M0RCY5", "<a href=\"/protein/b5del6\">B5DEL6</a>"]}]'
 tfs: 'HDAC4,P56524,9759,TRRUST,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29087512%5Buid%5D+OR+17610967%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,Yes

@@ -7,6 +7,7 @@ uniprot_accession: Q8TBE0
 ncbi_gene_id: '22893'
 organism: Homo sapiens
 function: transcription factor and target gene
+number_of_interactions: '411'
 orthologs: ''
 tfs: 'AFF4,Q9UHB7,27125,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

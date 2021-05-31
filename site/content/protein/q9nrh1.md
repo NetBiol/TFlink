@@ -7,6 +7,7 @@ uniprot_accession: Q9NRH1
 ncbi_gene_id: '57002'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '518'
 orthologs: ''
 tfs: 'ZFP42,Q96MM3,132625,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

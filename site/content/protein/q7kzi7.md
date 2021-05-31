@@ -7,6 +7,7 @@ uniprot_accession: Q7KZI7
 ncbi_gene_id: '2011'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '491'
 orthologs: '[{"species": "Caenorhabditis elegans", "id": ["<a href=\"/protein/q9tw45\">Q9TW45</a>"]}, {"species": "Rattus norvegicus", "id": ["A0A0G2K6X6"]}]'
 tfs: 'TP53,P04637,7157,GTRD; IntAct_via_DoRothEA; ReMap,chromatin immunoprecipitation
   assay; inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D+OR+20227041%5Buid%5D+OR+27924024%5Buid%5D+OR+24234451%5Buid%5D"

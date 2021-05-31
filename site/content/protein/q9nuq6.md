@@ -7,6 +7,7 @@ uniprot_accession: Q9NUQ6
 ncbi_gene_id: '26010'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '469'
 orthologs: ''
 tfs: 'MLLT1,Q03111,4298,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

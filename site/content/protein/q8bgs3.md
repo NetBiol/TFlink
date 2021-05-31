@@ -7,6 +7,7 @@ uniprot_accession: Q8BGS3
 ncbi_gene_id: '74570'
 organism: Mus musculus
 function: transcription factor and target gene
+number_of_interactions: '717'
 orthologs: ''
 tfs: 'Taf12,Q8VE65,66464,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

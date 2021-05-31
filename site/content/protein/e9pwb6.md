@@ -7,6 +7,7 @@ uniprot_accession: E9PWB6
 ncbi_gene_id: '17833'
 organism: Mus musculus
 function: target gene
+number_of_interactions: '36'
 orthologs: ''
 tfs: 'Dand5,Q76LW6,23863,TRRUST,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=14570593%5Buid%5D+OR+29087512%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,Yes

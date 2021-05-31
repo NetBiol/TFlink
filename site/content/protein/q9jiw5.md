@@ -7,6 +7,7 @@ uniprot_accession: Q9JIW5
 ncbi_gene_id: '55994'
 organism: Mus musculus
 function: transcription factor and target gene
+number_of_interactions: '144'
 orthologs: '[{"species": "Caenorhabditis elegans", "id": ["<a href=\"/protein/q02330\">Q02330</a>"]}, {"species": "Homo sapiens", "id": ["<a href=\"/protein/o15198\">O15198</a>"]}, {"species": "Rattus norvegicus", "id": ["<a href=\"/protein/g3v603\">G3V603</a>"]}]'
 tfs: 'Tet1,Q3URK3,,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

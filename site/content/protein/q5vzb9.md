@@ -7,6 +7,7 @@ uniprot_accession: Q5VZB9
 ncbi_gene_id: '63951'
 organism: Homo sapiens
 function: transcription factor and target gene
+number_of_interactions: '177'
 orthologs: ''
 tfs: 'GRHL2,Q6ISB3,79977,ReMap,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

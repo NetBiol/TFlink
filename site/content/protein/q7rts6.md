@@ -7,6 +7,7 @@ uniprot_accession: Q7RTS6
 ncbi_gene_id: '92736'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '367'
 orthologs: ''
 tfs: 'BICRA,Q9NZM4,29998,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

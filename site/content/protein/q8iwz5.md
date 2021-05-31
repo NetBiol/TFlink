@@ -7,6 +7,7 @@ uniprot_accession: Q8IWZ5
 ncbi_gene_id: '287015'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '27'
 orthologs: ''
 tfs: 'GATA2,P23769,2624,HTRI; ORegAnno; PAZAR,chromatin immunoprecipitation assay;
   inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=19941826%5Buid%5D+OR+18971253%5Buid%5D+OR+22900683%5Buid%5D+OR+26578589%5Buid%5D"

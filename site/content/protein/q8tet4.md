@@ -7,6 +7,7 @@ uniprot_accession: Q8TET4
 ncbi_gene_id: '2595'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '580'
 orthologs: ''
 tfs: 'GLI3,P10071,2737,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

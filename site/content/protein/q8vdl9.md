@@ -7,6 +7,7 @@ uniprot_accession: Q8VDL9
 ncbi_gene_id: '83396'
 organism: Mus musculus
 function: transcription factor and target gene
+number_of_interactions: '279'
 orthologs: '[{"species": "Homo sapiens", "id": ["<a href=\"/protein/q9bze0\">Q9BZE0</a>"]}, {"species": "Rattus norvegicus", "id": ["<a href=\"/protein/d3zia9\">D3ZIA9</a>"]}]'
 tfs: 'Tfap2a,P34056,21418,GTRD; TRED,chromatin immunoprecipitation assay; inferred
   by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D+OR+17202159%5Buid%5D"

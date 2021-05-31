@@ -7,6 +7,7 @@ uniprot_accession: Q9BRH9
 ncbi_gene_id: '90987'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '457'
 orthologs: ''
 tfs: 'ATF3,P18847,467,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

@@ -7,6 +7,7 @@ uniprot_accession: Q0VAF6
 ncbi_gene_id: '342898'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '208'
 orthologs: ''
 tfs: 'NR5A2,O00482,2494,ReMap,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

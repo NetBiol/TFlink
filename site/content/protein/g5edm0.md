@@ -7,6 +7,7 @@ uniprot_accession: G5EDM0
 ncbi_gene_id: '180023'
 organism: Caenorhabditis elegans
 function: target gene
+number_of_interactions: '52'
 orthologs: ''
 tfs: 'lin-53,P90916,172802,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

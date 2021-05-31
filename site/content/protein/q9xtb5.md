@@ -7,6 +7,7 @@ uniprot_accession: Q9XTB5
 ncbi_gene_id: '175058'
 organism: Caenorhabditis elegans
 function: transcription factor and target gene
+number_of_interactions: '93'
 orthologs: ''
 tfs: 'sma-9,Q22190,181271,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

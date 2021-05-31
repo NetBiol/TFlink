@@ -7,6 +7,7 @@ uniprot_accession: Q8CGV9
 ncbi_gene_id: '243931'
 organism: Mus musculus
 function: transcription factor
+number_of_interactions: '1'
 orthologs: ''
 tfs: ''
 targets: 'Myog,P12979,17928,TRRUST,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=21543328%5Buid%5D+OR+29087512%5Buid%5D"

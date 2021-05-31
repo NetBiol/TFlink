@@ -7,6 +7,7 @@ uniprot_accession: Q8IXL6
 ncbi_gene_id: '56975'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '312'
 orthologs: ''
 tfs: 'ZEB1,P37275,6935,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

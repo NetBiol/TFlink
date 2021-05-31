@@ -7,6 +7,7 @@ uniprot_accession: Q9CPS8
 ncbi_gene_id: '67080'
 organism: Mus musculus
 function: target gene
+number_of_interactions: '262'
 orthologs: ''
 tfs: 'Pax3,P24610,18505,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

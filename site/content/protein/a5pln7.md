@@ -7,6 +7,7 @@ uniprot_accession: A5PLN7
 ncbi_gene_id: '25854'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '252'
 orthologs: ''
 tfs: 'DMC1,Q14565,11144,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

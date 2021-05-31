@@ -7,6 +7,7 @@ uniprot_accession: Q8VIJ6
 ncbi_gene_id: '71514'
 organism: Mus musculus
 function: transcription factor and target gene
+number_of_interactions: '368'
 orthologs: '[{"species": "Homo sapiens", "id": ["<a href=\"/protein/p23246\">P23246</a>"]}, {"species": "Rattus norvegicus", "id": ["<a href=\"/protein/a0a0g2k8k0\">A0A0G2K8K0</a>"]}]'
 tfs: 'Hnrnpu,Q8VEK3,51810,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

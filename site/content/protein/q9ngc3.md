@@ -7,6 +7,7 @@ uniprot_accession: Q9NGC3
 ncbi_gene_id: '34803'
 organism: Drosophila melanogaster
 function: target gene
+number_of_interactions: '92'
 orthologs: ''
 tfs: 'CHES-1-like,Q9W3Q5,31678,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

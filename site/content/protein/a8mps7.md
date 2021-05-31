@@ -7,6 +7,7 @@ uniprot_accession: A8MPS7
 ncbi_gene_id: '150223'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '435'
 orthologs: ''
 tfs: 'MAFF,Q9ULX9,23764,ReMap,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

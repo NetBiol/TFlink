@@ -7,6 +7,7 @@ uniprot_accession: Q8IZM8
 ncbi_gene_id: '-'
 organism: Homo sapiens
 function: transcription factor and target gene
+number_of_interactions: '2171'
 orthologs: ''
 tfs: 'DAND5,Q8N907,199699,ReMap,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

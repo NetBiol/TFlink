@@ -7,6 +7,7 @@ uniprot_accession: Q8TBZ0
 ncbi_gene_id: '256309'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '319'
 orthologs: ''
 tfs: 'SMARCC1,Q92922,6599,GTRD; ReMap,chromatin immunoprecipitation assay,&ensp;<a
   href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D+OR+27924024%5Buid%5D"

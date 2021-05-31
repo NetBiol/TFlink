@@ -7,6 +7,7 @@ uniprot_accession: Q7RTP6
 ncbi_gene_id: '57553'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '566'
 orthologs: ''
 tfs: 'IRF2,P14316,3660,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

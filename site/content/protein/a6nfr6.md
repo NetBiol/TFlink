@@ -7,6 +7,7 @@ uniprot_accession: A6NFR6
 ncbi_gene_id: '285679'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '35'
 orthologs: ''
 tfs: 'KDM1A,O60341,23028,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

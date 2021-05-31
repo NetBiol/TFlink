@@ -7,6 +7,7 @@ uniprot_accession: Q9UPZ6
 ncbi_gene_id: '221981'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '233'
 orthologs: ''
 tfs: 'RBBP5,Q15291,5929,ReMap,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

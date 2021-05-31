@@ -7,6 +7,7 @@ uniprot_accession: Q9NVG8
 ncbi_gene_id: '54662'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '587'
 orthologs: ''
 tfs: 'NFATC1,O95644,4772,GTRD; ReMap,chromatin immunoprecipitation assay,&ensp;<a
   href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D+OR+27924024%5Buid%5D"

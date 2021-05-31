@@ -7,6 +7,7 @@ uniprot_accession: Q8CIV7
 ncbi_gene_id: '107586'
 organism: Mus musculus
 function: transcription factor and target gene
+number_of_interactions: '730'
 orthologs: '[{"species": "Homo sapiens", "id": ["<a href=\"/protein/q9brp0\">Q9BRP0</a>"]}, {"species": "Rattus norvegicus", "id": ["<a href=\"/protein/d4a5u5\">D4A5U5</a>"]}]'
 tfs: 'Smad5,P97454,17129,TRRUST,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29087512%5Buid%5D+OR+23319585%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,Yes

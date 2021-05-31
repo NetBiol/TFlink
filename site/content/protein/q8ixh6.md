@@ -7,6 +7,7 @@ uniprot_accession: Q8IXH6
 ncbi_gene_id: '58476'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '420'
 orthologs: ''
 tfs: 'FXR2,P51116,9513,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

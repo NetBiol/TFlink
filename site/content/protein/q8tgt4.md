@@ -7,6 +7,7 @@ uniprot_accession: Q8TGT4
 ncbi_gene_id: '1466532'
 organism: Saccharomyces cerevisiae
 function: target gene
+number_of_interactions: '3'
 orthologs: ''
 tfs: 'GCN4,P03069,856709,Yeastract,array technology/partial DNA sequence identification
   by hybridization; full identification by RNA sequencing,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=21119627%5Buid%5D+OR+24170807%5Buid%5D+OR+30354837%5Buid%5D"

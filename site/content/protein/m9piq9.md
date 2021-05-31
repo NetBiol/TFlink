@@ -7,6 +7,7 @@ uniprot_accession: M9PIQ9
 ncbi_gene_id: '326240'
 organism: Drosophila melanogaster
 function: target gene
+number_of_interactions: '10'
 orthologs: ''
 tfs: 'ZIPIC,Q9VAB8,43566,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

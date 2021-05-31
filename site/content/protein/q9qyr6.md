@@ -7,6 +7,7 @@ uniprot_accession: Q9QYR6
 ncbi_gene_id: '17754'
 organism: Mus musculus
 function: target gene
+number_of_interactions: '279'
 orthologs: ''
 tfs: 'Rfx1,P48377,19724,GTRD; TRRUST,chromatin immunoprecipitation assay; inferred
   by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=12411430%5Buid%5D+OR+29087512%5Buid%5D+OR+27924024%5Buid%5D"

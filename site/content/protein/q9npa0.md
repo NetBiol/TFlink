@@ -7,6 +7,7 @@ uniprot_accession: Q9NPA0
 ncbi_gene_id: '56851'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '543'
 orthologs: ''
 tfs: 'SFMBT1,Q9UHJ3,51460,ReMap,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

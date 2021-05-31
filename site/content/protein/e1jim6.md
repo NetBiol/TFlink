@@ -7,6 +7,7 @@ uniprot_accession: E1JIM6
 ncbi_gene_id: '41988'
 organism: Drosophila melanogaster
 function: target gene
+number_of_interactions: '41'
 orthologs: ''
 tfs: 'Dll,P20009,37973,REDfly,electrophoretic mobility shift assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=20965965%5Buid%5D+OR+20727877%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,Yes

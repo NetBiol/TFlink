@@ -7,6 +7,7 @@ uniprot_accession: B7ZBB8
 ncbi_gene_id: '648791'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '262'
 orthologs: ''
 tfs: 'TFAP4,Q01664,7023,ReMap,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

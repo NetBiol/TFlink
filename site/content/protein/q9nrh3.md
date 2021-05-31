@@ -7,6 +7,7 @@ uniprot_accession: Q9NRH3
 ncbi_gene_id: '27175'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '418'
 orthologs: '[{"species": "Caenorhabditis elegans", "id": ["<a href=\"/protein/p34475\">P34475</a>"]}, {"species": "Mus musculus", "id": ["<a href=\"/protein/q8vck3\">Q8VCK3</a>"]}, {"species": "Rattus norvegicus", "id": ["<a href=\"/protein/f1luw9\">F1LUW9</a>"]}, {"species": "Saccharomyces cerevisiae", "id": ["<a href=\"/protein/p53378\">P53378</a>"]}]'
 tfs: 'MYC,P01106,4609,GTRD; HTRI; ReMap; TRED,chromatin immunoprecipitation assay;
   inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D+OR+12747840%5Buid%5D+OR+27924024%5Buid%5D+OR+17202159%5Buid%5D+OR+22900683%5Buid%5D"

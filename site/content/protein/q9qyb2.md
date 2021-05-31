@@ -7,6 +7,7 @@ uniprot_accession: Q9QYB2
 ncbi_gene_id: '13134'
 organism: Mus musculus
 function: transcription factor and target gene
+number_of_interactions: '115'
 orthologs: '[{"species": "Homo sapiens", "id": ["<a href=\"/protein/q9ui36\">Q9UI36</a>"]}, {"species": "Rattus norvegicus", "id": ["<a href=\"/protein/f1m0y6\">F1M0Y6</a>"]}]'
 tfs: 'Ep300,B2RWS6,328572,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

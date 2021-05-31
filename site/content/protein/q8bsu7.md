@@ -7,6 +7,7 @@ uniprot_accession: Q8BSU7
 ncbi_gene_id: '208228'
 organism: Mus musculus
 function: target gene
+number_of_interactions: '318'
 orthologs: ''
 tfs: 'Satb1,Q60611,20230,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

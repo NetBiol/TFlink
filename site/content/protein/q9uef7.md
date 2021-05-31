@@ -7,6 +7,7 @@ uniprot_accession: Q9UEF7
 ncbi_gene_id: '9365'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '131'
 orthologs: '[{"species": "Mus musculus", "id": ["<a href=\"/protein/o35082\">O35082</a>"]}, {"species": "Rattus norvegicus", "id": ["<a href=\"/protein/a0a0h2uh96\">A0A0H2UH96</a>"]}]'
 tfs: 'HMGA1,P17096,3159,TRRUST,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29087512%5Buid%5D+OR+15378028%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,Yes

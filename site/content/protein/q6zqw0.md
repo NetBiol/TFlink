@@ -7,6 +7,7 @@ uniprot_accession: Q6ZQW0
 ncbi_gene_id: '169355'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '60'
 orthologs: '[{"species": "Mus musculus", "id": ["<a href=\"/protein/q8r0v5\">Q8R0V5</a>"]}, {"species": "Rattus norvegicus", "id": ["A0A0N4SWI7"]}, {"species": "Saccharomyces cerevisiae", "id": ["<a href=\"/protein/p47125\">P47125</a>"]}]'
 tfs: 'PTMA,P06454,5757,TRRUST,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29087512%5Buid%5D+OR+21575365%5Buid%5D+OR+21176371%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,Yes

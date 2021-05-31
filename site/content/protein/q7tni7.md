@@ -7,6 +7,7 @@ uniprot_accession: Q7TNI7
 ncbi_gene_id: '257630'
 organism: Mus musculus
 function: target gene
+number_of_interactions: '65'
 orthologs: '[{"species": "Homo sapiens", "id": ["<a href=\"/protein/q96pd4\">Q96PD4</a>"]}, {"species": "Rattus norvegicus", "id": ["<a href=\"/protein/a0a0h2uhj7\">A0A0H2UHJ7</a>"]}]'
 tfs: 'Etv5,Q9CXC9,104156,TRRUST,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=24486067%5Buid%5D+OR+29087512%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,Yes

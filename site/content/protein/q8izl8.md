@@ -7,6 +7,7 @@ uniprot_accession: Q8IZL8
 ncbi_gene_id: '27043'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '504'
 orthologs: ''
 tfs: 'ESR1,P03372,2099,GTRD; HTRI; TRED; TRRUST,chromatin immunoprecipitation assay;
   inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=21878914%5Buid%5D+OR+15087130%5Buid%5D+OR+27924024%5Buid%5D+OR+17202159%5Buid%5D+OR+29087512%5Buid%5D+OR+22900683%5Buid%5D"

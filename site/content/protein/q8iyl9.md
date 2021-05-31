@@ -7,6 +7,7 @@ uniprot_accession: Q8IYL9
 ncbi_gene_id: '8477'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '98'
 orthologs: ''
 tfs: 'FOXP3,Q9BZS1,50943,GTRD; HTRI,chromatin immunoprecipitation array; chromatin
   immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D+OR+22900683%5Buid%5D+OR+20554955%5Buid%5D"

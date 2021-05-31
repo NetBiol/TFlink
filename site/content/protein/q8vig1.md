@@ -7,6 +7,7 @@ uniprot_accession: Q8VIG1
 ncbi_gene_id: '19712'
 organism: Mus musculus
 function: transcription factor and target gene
+number_of_interactions: '11606'
 orthologs: '[{"species": "Homo sapiens", "id": ["<a href=\"/protein/q13127\">Q13127</a>"]}, {"species": "Rattus norvegicus", "id": ["D4A7T2"]}]'
 tfs: 'Smarca4,Q3TKT4,20586,GTRD; TRRUST,chromatin immunoprecipitation assay; inferred
   by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=19056910%5Buid%5D+OR+29087512%5Buid%5D+OR+27924024%5Buid%5D"

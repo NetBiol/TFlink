@@ -7,6 +7,7 @@ uniprot_accession: Q9NTJ3
 ncbi_gene_id: '10051'
 organism: Homo sapiens
 function: transcription factor and target gene
+number_of_interactions: '505'
 orthologs: '[{"species": "Drosophila melanogaster", "id": ["<a href=\"/protein/q9v3a7\">Q9V3A7</a>"]}, {"species": "Caenorhabditis elegans", "id": ["<a href=\"/protein/p48996\">P48996</a>", "<a href=\"/protein/q20060\">Q20060</a>"]}, {"species": "Mus musculus", "id": ["E9Q2X6"]}, {"species": "Rattus norvegicus", "id": ["<a href=\"/protein/f1mad9\">F1MAD9</a>"]}, {"species": "Saccharomyces cerevisiae", "id": ["<a href=\"/protein/q12267\">Q12267</a>"]}]'
 tfs: 'E2F4,Q16254,1874,GTRD; HTRI; ORegAnno; PAZAR; ReMap; TRED,chromatin immunoprecipitation
   array; chromatin immunoprecipitation assay; inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D+OR+26578589%5Buid%5D+OR+18971253%5Buid%5D+OR+27924024%5Buid%5D+OR+17531812%5Buid%5D+OR+17202159%5Buid%5D+OR+22900683%5Buid%5D"

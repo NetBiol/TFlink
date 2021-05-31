@@ -7,6 +7,7 @@ uniprot_accession: Q9UBJ2
 ncbi_gene_id: '225'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '264'
 orthologs: '[{"species": "Drosophila melanogaster", "id": ["<a href=\"/protein/q7jun3\">Q7JUN3</a>"]}, {"species": "Caenorhabditis elegans", "id": ["<a href=\"/protein/o45730\">O45730</a>"]}, {"species": "Mus musculus", "id": ["<a href=\"/protein/a0a0r4j0u5\">A0A0R4J0U5</a>"]}, {"species": "Rattus norvegicus", "id": ["<a href=\"/protein/g3v7z6\">G3V7Z6</a>"]}]'
 tfs: 'TFAP2A,P05549,7020,TRED,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=17202159%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,Yes

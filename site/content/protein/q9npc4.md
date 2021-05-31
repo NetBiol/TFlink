@@ -7,6 +7,7 @@ uniprot_accession: Q9NPC4
 ncbi_gene_id: '53947'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '133'
 orthologs: ''
 tfs: 'ESR1,P03372,2099,GTRD; HTRI; ReMap,chromatin immunoprecipitation assay,&ensp;<a
   href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D+OR+29126285%5Buid%5D+OR+22900683%5Buid%5D+OR+21878914%5Buid%5D"

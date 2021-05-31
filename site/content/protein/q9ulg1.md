@@ -7,6 +7,7 @@ uniprot_accession: Q9ULG1
 ncbi_gene_id: '54617'
 organism: Homo sapiens
 function: transcription factor and target gene
+number_of_interactions: '7368'
 orthologs: '[{"species": "Drosophila melanogaster", "id": ["<a href=\"/protein/q9vdy1\">Q9VDY1</a>"]}, {"species": "Mus musculus", "id": ["<a href=\"/protein/q6zpv2\">Q6ZPV2</a>"]}, {"species": "Rattus norvegicus", "id": ["D4A6Q6"]}]'
 tfs: 'YY1,P25490,7528,GTRD; ReMap; TRRUST,chromatin immunoprecipitation assay; inferred
   by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D+OR+29087512%5Buid%5D+OR+29126285%5Buid%5D+OR+17721549%5Buid%5D"

@@ -7,6 +7,7 @@ uniprot_accession: Q9BYJ9
 ncbi_gene_id: '54915'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '506'
 orthologs: ''
 tfs: 'EHMT2,Q96KQ7,10919,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

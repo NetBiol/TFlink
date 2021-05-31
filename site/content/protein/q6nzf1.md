@@ -7,6 +7,7 @@ uniprot_accession: Q6NZF1
 ncbi_gene_id: '70579'
 organism: Mus musculus
 function: transcription factor and target gene
+number_of_interactions: '1490'
 orthologs: ''
 tfs: 'Chaf1b,Q9D0N7,110749,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

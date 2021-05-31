@@ -7,6 +7,7 @@ uniprot_accession: Q9GZQ8
 ncbi_gene_id: '81631'
 organism: Homo sapiens
 function: transcription factor and target gene
+number_of_interactions: '714'
 orthologs: '[{"species": "Caenorhabditis elegans", "id": ["CAEEL11588"]}, {"species": "Mus musculus", "id": ["<a href=\"/protein/q9cqv6\">Q9CQV6</a>"]}]'
 tfs: 'TFDP3,Q5H9I0,51270,TRRUST,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=22482402%5Buid%5D+OR+29087512%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,Yes

@@ -7,6 +7,7 @@ uniprot_accession: Q8BGT0
 ncbi_gene_id: '14628'
 organism: Mus musculus
 function: target gene
+number_of_interactions: '347'
 orthologs: '[{"species": "Caenorhabditis elegans", "id": ["<a href=\"/protein/q09322\">Q09322</a>"]}, {"species": "Homo sapiens", "id": ["<a href=\"/protein/q86wc4\">Q86WC4</a>"]}, {"species": "Rattus norvegicus", "id": ["<a href=\"/protein/q4qqu9\">Q4QQU9</a>"]}]'
 tfs: 'Mitf,Q08874,17342,GTRD; TRRUST,chromatin immunoprecipitation assay; inferred
   by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=17105730%5Buid%5D+OR+29087512%5Buid%5D+OR+27924024%5Buid%5D"

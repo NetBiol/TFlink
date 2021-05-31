@@ -7,6 +7,7 @@ uniprot_accession: Q8IXW0
 ncbi_gene_id: '256329'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '439'
 orthologs: ''
 tfs: 'HEXIM1,O94992,10614,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

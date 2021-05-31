@@ -7,6 +7,7 @@ uniprot_accession: Q8CHK4
 ncbi_gene_id: '81601'
 organism: Mus musculus
 function: transcription factor and target gene
+number_of_interactions: '5566'
 orthologs: '[{"species": "Drosophila melanogaster", "id": ["<a href=\"/protein/q960x4\">Q960X4</a>"]}, {"species": "Caenorhabditis elegans", "id": ["<a href=\"/protein/q9tyu5\">Q9TYU5</a>"]}, {"species": "Homo sapiens", "id": ["<a href=\"/protein/q92993\">Q92993</a>"]}, {"species": "Rattus norvegicus", "id": ["<a href=\"/protein/a0a0g2ka75\">A0A0G2KA75</a>"]}, {"species": "Saccharomyces cerevisiae", "id": ["<a href=\"/protein/q08649\">Q08649</a>"]}]'
 tfs: 'Elf4,Q9Z2U4,56501,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

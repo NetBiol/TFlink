@@ -7,6 +7,7 @@ uniprot_accession: Q8NEA6
 ncbi_gene_id: '169792'
 organism: Homo sapiens
 function: transcription factor and target gene
+number_of_interactions: '4847'
 orthologs: '[{"species": "Mus musculus", "id": ["Q0GE24"]}, {"species": "Rattus norvegicus", "id": ["<a href=\"/protein/d4a314\">D4A314</a>"]}]'
 tfs: 'HNF1A,P20823,6927,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

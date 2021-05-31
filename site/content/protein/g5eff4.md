@@ -7,6 +7,7 @@ uniprot_accession: G5EFF4
 ncbi_gene_id: '172435'
 organism: Caenorhabditis elegans
 function: transcription factor
+number_of_interactions: '1841'
 orthologs: ''
 tfs: ''
 targets: '-,Q21816,180861,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"

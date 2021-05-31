@@ -7,6 +7,7 @@ uniprot_accession: Q6GPH4
 ncbi_gene_id: '54739'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '159'
 orthologs: '[{"species": "Mus musculus", "id": ["<a href=\"/protein/q5nbu8\">Q5NBU8</a>"]}, {"species": "Rattus norvegicus", "id": ["<a href=\"/protein/d3zpq3\">D3ZPQ3</a>"]}]'
 tfs: 'STAT1,P42224,6772,GTRD; TRRUST,chromatin immunoprecipitation assay; inferred
   by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29087512%5Buid%5D+OR+18035482%5Buid%5D+OR+27924024%5Buid%5D"

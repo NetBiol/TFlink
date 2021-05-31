@@ -7,6 +7,7 @@ uniprot_accession: A6NJU9
 ncbi_gene_id: '613037'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '3'
 orthologs: ''
 tfs: 'CTCF,P49711,10664,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

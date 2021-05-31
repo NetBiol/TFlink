@@ -7,6 +7,7 @@ uniprot_accession: Q9UHX3
 ncbi_gene_id: '30817'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '281'
 orthologs: ''
 tfs: 'FOXM1,Q08050,2305,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

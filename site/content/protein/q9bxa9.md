@@ -7,6 +7,7 @@ uniprot_accession: Q9BXA9
 ncbi_gene_id: '27164'
 organism: Homo sapiens
 function: transcription factor and target gene
+number_of_interactions: '3921'
 orthologs: '[{"species": "Drosophila melanogaster", "id": ["<a href=\"/protein/p39770\">P39770</a>"]}, {"species": "Mus musculus", "id": ["<a href=\"/protein/q62255\">Q62255</a>"]}, {"species": "Rattus norvegicus", "id": ["D4A024"]}]'
 tfs: 'HDAC2,Q92769,3066,ReMap,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

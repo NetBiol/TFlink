@@ -7,6 +7,7 @@ uniprot_accession: A0JPK9
 ncbi_gene_id: '-'
 organism: Rattus norvegicus
 function: transcription factor
+number_of_interactions: '1'
 orthologs: ''
 tfs: ''
 targets: 'Myog,P20428,29148,ORegAnno; PAZAR,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=18971253%5Buid%5D+OR+26578589%5Buid%5D"

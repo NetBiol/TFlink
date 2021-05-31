@@ -7,6 +7,7 @@ uniprot_accession: C9JXX5
 ncbi_gene_id: '143678'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '126'
 orthologs: ''
 tfs: 'TFAP2A,P05549,7020,GTRD; ReMap,chromatin immunoprecipitation assay,&ensp;<a
   href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D+OR+27924024%5Buid%5D"

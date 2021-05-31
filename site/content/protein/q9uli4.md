@@ -7,6 +7,7 @@ uniprot_accession: Q9ULI4
 ncbi_gene_id: '26153'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '300'
 orthologs: ''
 tfs: 'SUZ12,Q15022,23512,GTRD; ReMap,chromatin immunoprecipitation assay,&ensp;<a
   href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D+OR+27924024%5Buid%5D"

@@ -7,6 +7,7 @@ uniprot_accession: Q9JJN1
 ncbi_gene_id: '56636'
 organism: Mus musculus
 function: target gene
+number_of_interactions: '109'
 orthologs: '[{"species": "Homo sapiens", "id": ["<a href=\"/protein/q9nsa1\">Q9NSA1</a>"]}, {"species": "Rattus norvegicus", "id": ["<a href=\"/protein/q8vi80\">Q8VI80</a>"]}]'
 tfs: 'Nfil3,O08750,18030,TRRUST,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29087512%5Buid%5D+OR+23283977%5Buid%5D+OR+20851878%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,Yes

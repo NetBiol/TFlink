@@ -7,6 +7,7 @@ uniprot_accession: B2RWS6
 ncbi_gene_id: '328572'
 organism: Mus musculus
 function: transcription factor and target gene
+number_of_interactions: '16621'
 orthologs: '[{"species": "Homo sapiens", "id": ["<a href=\"/protein/q09472\">Q09472</a>"]}]'
 tfs: 'Crebbp,P45481,,GTRD; TRRUST,chromatin immunoprecipitation assay; inferred by
   curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29087512%5Buid%5D+OR+15154850%5Buid%5D+OR+27924024%5Buid%5D"

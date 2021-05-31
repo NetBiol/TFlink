@@ -7,6 +7,7 @@ uniprot_accession: Q9NRD8
 ncbi_gene_id: '50506'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '110'
 orthologs: ''
 tfs: 'STAT1,P42224,6772,GTRD; IntAct_via_DoRothEA; PAZAR,chromatin immunoprecipitation
   assay; inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=24234451%5Buid%5D+OR+18971253%5Buid%5D+OR+27924024%5Buid%5D+OR+21321110%5Buid%5D"

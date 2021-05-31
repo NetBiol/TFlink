@@ -7,6 +7,7 @@ uniprot_accession: Q8NDX2
 ncbi_gene_id: '246213'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '139'
 orthologs: ''
 tfs: 'SPDEF,O95238,25803,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

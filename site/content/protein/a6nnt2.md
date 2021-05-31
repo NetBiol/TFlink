@@ -7,6 +7,7 @@ uniprot_accession: A6NNT2
 ncbi_gene_id: '342346'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '57'
 orthologs: ''
 tfs: 'AR,P10275,367,HTRI; ReMap,chromatin immunoprecipitation array; chromatin immunoprecipitation
   assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=22900683%5Buid%5D+OR+29126285%5Buid%5D+OR+20610535%5Buid%5D"

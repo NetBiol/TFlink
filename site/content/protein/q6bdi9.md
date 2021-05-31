@@ -7,6 +7,7 @@ uniprot_accession: Q6BDI9
 ncbi_gene_id: '387849'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '94'
 orthologs: ''
 tfs: 'HOXB13,Q92826,10481,GTRD; ReMap,chromatin immunoprecipitation assay,&ensp;<a
   href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D+OR+27924024%5Buid%5D"

@@ -7,6 +7,7 @@ uniprot_accession: Q9UBC1
 ncbi_gene_id: '4795'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '538'
 orthologs: ''
 tfs: 'TCF3,P15923,6929,GTRD; HTRI; ReMap,chromatin immunoprecipitation assay; electrophoretic
   mobility shift assay; inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=15473256%5Buid%5D+OR+27924024%5Buid%5D+OR+29126285%5Buid%5D+OR+22900683%5Buid%5D"

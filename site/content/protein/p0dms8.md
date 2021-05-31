@@ -7,6 +7,7 @@ uniprot_accession: P0DMS8
 ncbi_gene_id: '140'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '190'
 orthologs: '[{"species": "Mus musculus", "id": ["<a href=\"/protein/q3u4c5\">Q3U4C5</a>"]}, {"species": "Rattus norvegicus", "id": ["P28647"]}]'
 tfs: 'NFKB1,P19838,4790,GTRD; TRRUST,chromatin immunoprecipitation assay; inferred
   by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29087512%5Buid%5D+OR+27924024%5Buid%5D+OR+17216675%5Buid%5D"

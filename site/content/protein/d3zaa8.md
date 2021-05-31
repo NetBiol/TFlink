@@ -7,6 +7,7 @@ uniprot_accession: D3ZAA8
 ncbi_gene_id: '498004'
 organism: Rattus norvegicus
 function: target gene
+number_of_interactions: '6'
 orthologs: ''
 tfs: 'Hmgb2,P52925,29395; 498072,GTRD,chromatin immunoprecipitation assay,&ensp;<a
   href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D" target="_blank"><i

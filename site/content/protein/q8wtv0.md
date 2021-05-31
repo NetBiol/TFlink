@@ -7,6 +7,7 @@ uniprot_accession: Q8WTV0
 ncbi_gene_id: '949'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '491'
 orthologs: '[{"species": "Caenorhabditis elegans", "id": ["<a href=\"/protein/q09606\">Q09606</a>"]}, {"species": "Mus musculus", "id": ["<a href=\"/protein/q61009\">Q61009</a>"]}, {"species": "Rattus norvegicus", "id": ["<a href=\"/protein/p97943\">P97943</a>"]}]'
 tfs: 'STAT1,P42224,6772,GTRD; PAZAR; ReMap; TRRUST,chromatin immunoprecipitation assay;
   inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=17998316%5Buid%5D+OR+29126285%5Buid%5D+OR+18971253%5Buid%5D+OR+27924024%5Buid%5D+OR+29087512%5Buid%5D"

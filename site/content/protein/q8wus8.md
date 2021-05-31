@@ -7,6 +7,7 @@ uniprot_accession: Q8WUS8
 ncbi_gene_id: '93517'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '218'
 orthologs: ''
 tfs: 'E2F6,O75461,1876,ReMap,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

@@ -7,6 +7,7 @@ uniprot_accession: D3YWJ0
 ncbi_gene_id: '100503545'
 organism: Mus musculus
 function: target gene
+number_of_interactions: '178'
 orthologs: ''
 tfs: 'Hdac1,O09106,433759,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

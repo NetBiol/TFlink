@@ -7,6 +7,7 @@ uniprot_accession: Q8TCB6
 ncbi_gene_id: '143503'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '50'
 orthologs: ''
 tfs: 'MLLT1,Q03111,4298,ReMap,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

@@ -7,6 +7,7 @@ uniprot_accession: A8MTZ7
 ncbi_gene_id: '728858'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '34'
 orthologs: ''
 tfs: 'ARNT,P27540,405,ReMap,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

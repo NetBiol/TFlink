@@ -7,6 +7,7 @@ uniprot_accession: Q8IXU6
 ncbi_gene_id: '54733'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '506'
 orthologs: ''
 tfs: 'NEUROD1,Q13562,4760,GTRD; ReMap,chromatin immunoprecipitation assay,&ensp;<a
   href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D+OR+27924024%5Buid%5D"

@@ -7,6 +7,7 @@ uniprot_accession: Q3TKT4
 ncbi_gene_id: '20586'
 organism: Mus musculus
 function: transcription factor and target gene
+number_of_interactions: '17396'
 orthologs: '[{"species": "Drosophila melanogaster", "id": ["<a href=\"/protein/p25439\">P25439</a>"]}, {"species": "Caenorhabditis elegans", "id": ["<a href=\"/protein/g5ef53\">G5EF53</a>"]}, {"species": "Homo sapiens", "id": ["A0A0A0MT49"]}, {"species": "Rattus norvegicus", "id": ["<a href=\"/protein/g3v790\">G3V790</a>"]}, {"species": "Saccharomyces cerevisiae", "id": ["<a href=\"/protein/p32597\">P32597</a>"]}]'
 tfs: 'Sin3a,Q60520,20466,GTRD; TRRUST,chromatin immunoprecipitation assay; inferred
   by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=16800816%5Buid%5D+OR+29087512%5Buid%5D+OR+27924024%5Buid%5D"

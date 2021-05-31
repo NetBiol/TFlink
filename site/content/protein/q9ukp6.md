@@ -7,6 +7,7 @@ uniprot_accession: Q9UKP6
 ncbi_gene_id: '2837'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '98'
 orthologs: ''
 tfs: 'MEIS1,O00470,4211,ReMap,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

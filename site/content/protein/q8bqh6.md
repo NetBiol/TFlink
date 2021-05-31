@@ -7,6 +7,7 @@ uniprot_accession: Q8BQH6
 ncbi_gene_id: '242603'
 organism: Mus musculus
 function: target gene
+number_of_interactions: '98'
 orthologs: ''
 tfs: 'Lyl1,P27792,17095,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

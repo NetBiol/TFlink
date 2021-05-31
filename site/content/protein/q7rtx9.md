@@ -7,6 +7,7 @@ uniprot_accession: Q7RTX9
 ncbi_gene_id: '151473'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '207'
 orthologs: '[{"species": "Mus musculus", "id": ["<a href=\"/protein/q8k1c7\">Q8K1C7</a>"]}, {"species": "Rattus norvegicus", "id": ["<a href=\"/protein/a0a0g2k058\">A0A0G2K058</a>"]}]'
 tfs: 'E2F1,Q01094,1869,GTRD; TRED,chromatin immunoprecipitation assay; inferred by
   curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D+OR+17202159%5Buid%5D"

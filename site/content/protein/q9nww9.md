@@ -7,6 +7,7 @@ uniprot_accession: Q9NWW9
 ncbi_gene_id: '54979'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '159'
 orthologs: ''
 tfs: 'NKX2-1,P43699,7080,ReMap,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

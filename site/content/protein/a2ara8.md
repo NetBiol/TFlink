@@ -7,6 +7,7 @@ uniprot_accession: A2ARA8
 ncbi_gene_id: '241226'
 organism: Mus musculus
 function: target gene
+number_of_interactions: '236'
 orthologs: '[{"species": "Caenorhabditis elegans", "id": ["<a href=\"/protein/p34446\">P34446</a>"]}, {"species": "Homo sapiens", "id": ["<a href=\"/protein/p53708\">P53708</a>"]}, {"species": "Rattus norvegicus", "id": ["<a href=\"/protein/b5deg1\">B5DEG1</a>"]}]'
 tfs: 'Mycn,P03966,18109,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

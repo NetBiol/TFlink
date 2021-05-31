@@ -7,6 +7,7 @@ uniprot_accession: Q9HBE1
 ncbi_gene_id: '23598'
 organism: Homo sapiens
 function: transcription factor and target gene
+number_of_interactions: '6516'
 orthologs: ''
 tfs: 'EGR2,P11161,1959,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

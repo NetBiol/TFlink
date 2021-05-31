@@ -7,6 +7,7 @@ uniprot_accession: Q6ZMZ0
 ncbi_gene_id: '127544'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '521'
 orthologs: ''
 tfs: 'SAP130,Q9H0E3,79595,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

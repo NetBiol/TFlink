@@ -7,6 +7,7 @@ uniprot_accession: Q8IUR5
 ncbi_gene_id: '83857'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '295'
 orthologs: ''
 tfs: 'TBX2,Q13207,6909,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

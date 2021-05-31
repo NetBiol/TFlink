@@ -7,6 +7,7 @@ uniprot_accession: F1QDF2
 ncbi_gene_id: '-'
 organism: Danio rerio
 function: transcription factor
+number_of_interactions: '3018'
 orthologs: ''
 tfs: ''
 targets: 'sh2b1,A2RUZ0,558152,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"

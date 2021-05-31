@@ -7,6 +7,7 @@ uniprot_accession: B5THE2
 ncbi_gene_id: '232714'
 organism: Mus musculus
 function: target gene
+number_of_interactions: '99'
 orthologs: ''
 tfs: 'Cdx2,P43241,12591,GTRD; ORegAnno; PAZAR; TRRUST,chromatin immunoprecipitation
   assay; inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=26578589%5Buid%5D+OR+18971253%5Buid%5D+OR+27924024%5Buid%5D+OR+20425755%5Buid%5D+OR+29087512%5Buid%5D"

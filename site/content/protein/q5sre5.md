@@ -7,6 +7,7 @@ uniprot_accession: Q5SRE5
 ncbi_gene_id: '23511'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '546'
 orthologs: '[{"species": "Drosophila melanogaster", "id": ["A1Z945"]}, {"species": "Mus musculus", "id": ["<a href=\"/protein/q6zqh8\">Q6ZQH8</a>"]}, {"species": "Rattus norvegicus", "id": ["F1LRC6"]}]'
 tfs: 'USF1,P22415,7391,GTRD; ORegAnno; ReMap,chromatin immunoprecipitation assay;
   inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=22951020%5Buid%5D+OR+29126285%5Buid%5D+OR+27924024%5Buid%5D+OR+26578589%5Buid%5D"

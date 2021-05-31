@@ -7,6 +7,7 @@ uniprot_accession: Q8WTU2
 ncbi_gene_id: '136853'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '364'
 orthologs: ''
 tfs: 'ESRRA,P11474,2101,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

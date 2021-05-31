@@ -7,6 +7,7 @@ uniprot_accession: P0DPD6
 ncbi_gene_id: 110599583;9718
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '553'
 orthologs: '[{"species": "Drosophila melanogaster", "id": ["<a href=\"/protein/q9w5y0\">Q9W5Y0</a>"]}, {"species": "Mus musculus", "id": ["MOUSE15436", "<a href=\"/protein/b2rqr8\">B2RQR8</a>"]}, {"species": "Rattus norvegicus", "id": ["<a href=\"/protein/d4a4u1\">D4A4U1</a>"]}]'
 tfs: 'TP53,P04637,7157,GTRD; IntAct_via_DoRothEA,chromatin immunoprecipitation assay;
   inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=20227041%5Buid%5D+OR+27924024%5Buid%5D+OR+24234451%5Buid%5D"

@@ -7,6 +7,7 @@ uniprot_accession: Q9NTG7
 ncbi_gene_id: '23410'
 organism: Homo sapiens
 function: transcription factor and target gene
+number_of_interactions: '524'
 orthologs: '[{"species": "Mus musculus", "id": ["<a href=\"/protein/q8r104\">Q8R104</a>"]}, {"species": "Rattus norvegicus", "id": ["<a href=\"/protein/c6zii9\">C6ZII9</a>"]}, {"species": "Saccharomyces cerevisiae", "id": ["<a href=\"/protein/p53686\">P53686</a>"]}]'
 tfs: 'TET2,Q6N021,54790,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

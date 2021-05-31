@@ -7,6 +7,7 @@ uniprot_accession: Q9DCJ7
 ncbi_gene_id: '66077'
 organism: Mus musculus
 function: target gene
+number_of_interactions: '353'
 orthologs: '[{"species": "Homo sapiens", "id": ["<a href=\"/protein/q9nwt8\">Q9NWT8</a>"]}]'
 tfs: 'Ppara,P23204,19013,GTRD; TRED,chromatin immunoprecipitation assay; inferred
   by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D+OR+17202159%5Buid%5D"

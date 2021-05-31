@@ -7,6 +7,7 @@ uniprot_accession: Q9JIM1
 ncbi_gene_id: '63959'
 organism: Mus musculus
 function: target gene
+number_of_interactions: '387'
 orthologs: '[{"species": "Homo sapiens", "id": ["<a href=\"/protein/q99808\">Q99808</a>"]}, {"species": "Rattus norvegicus", "id": ["<a href=\"/protein/o54698\">O54698</a>"]}, {"species": "Saccharomyces cerevisiae", "id": ["<a href=\"/protein/p31381\">P31381</a>"]}]'
 tfs: 'Tfap2a,P34056,21418,GTRD; TRED,chromatin immunoprecipitation assay; inferred
   by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D+OR+17202159%5Buid%5D"

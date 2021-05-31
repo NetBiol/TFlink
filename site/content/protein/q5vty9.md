@@ -7,6 +7,7 @@ uniprot_accession: Q5VTY9
 ncbi_gene_id: '55733'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '368'
 orthologs: '[{"species": "Drosophila melanogaster", "id": ["<a href=\"/protein/q9vzu2\">Q9VZU2</a>"]}, {"species": "Caenorhabditis elegans", "id": ["<a href=\"/protein/o18241\">O18241</a>"]}, {"species": "Mus musculus", "id": ["<a href=\"/protein/q8bmt9\">Q8BMT9</a>"]}, {"species": "Rattus norvegicus", "id": ["M0R7X5"]}]'
 tfs: 'SOX2,P48431,6657,GTRD; IntAct_via_DoRothEA; PAZAR,chromatin immunoprecipitation
   assay; inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=24234451%5Buid%5D+OR+18971253%5Buid%5D+OR+27924024%5Buid%5D+OR+24525231%5Buid%5D"

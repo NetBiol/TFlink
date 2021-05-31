@@ -7,6 +7,7 @@ uniprot_accession: D3ZBT4
 ncbi_gene_id: 100909856;362591
 organism: Rattus norvegicus
 function: transcription factor
+number_of_interactions: '1'
 orthologs: ''
 tfs: ''
 targets: 'Mt1,P02803,24567,ORegAnno; PAZAR,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=18971253%5Buid%5D+OR+26578589%5Buid%5D"

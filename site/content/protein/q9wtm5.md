@@ -7,6 +7,7 @@ uniprot_accession: Q9WTM5
 ncbi_gene_id: '20174'
 organism: Mus musculus
 function: transcription factor and target gene
+number_of_interactions: '1872'
 orthologs: '[{"species": "Drosophila melanogaster", "id": ["<a href=\"/protein/q9v3k3\">Q9V3K3</a>"]}, {"species": "Caenorhabditis elegans", "id": ["<a href=\"/protein/q9gzh2\">Q9GZH2</a>"]}, {"species": "Homo sapiens", "id": ["<a href=\"/protein/q9y230\">Q9Y230</a>"]}, {"species": "Rattus norvegicus", "id": ["<a href=\"/protein/g3v8t5\">G3V8T5</a>"]}, {"species": "Saccharomyces cerevisiae", "id": ["<a href=\"/protein/q12464\">Q12464</a>"]}]'
 tfs: 'Mafg,O54790,17134,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

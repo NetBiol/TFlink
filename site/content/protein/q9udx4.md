@@ -7,6 +7,7 @@ uniprot_accession: Q9UDX4
 ncbi_gene_id: '266629'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '80'
 orthologs: ''
 tfs: 'IRF1,P10914,3659,TRRUST,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29087512%5Buid%5D+OR+18694960%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,Yes

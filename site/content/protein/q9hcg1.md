@@ -7,6 +7,7 @@ uniprot_accession: Q9HCG1
 ncbi_gene_id: '90338'
 organism: Homo sapiens
 function: transcription factor and target gene
+number_of_interactions: '429'
 orthologs: '[{"species": "Mus musculus", "id": ["<a href=\"/protein/e9q459\">E9Q459</a>"]}, {"species": "Rattus norvegicus", "id": ["A0A0G2K0R0"]}]'
 tfs: 'ZNF350,Q9GZX5,59348,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
   target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No

@@ -7,6 +7,7 @@ uniprot_accession: Q7LFX5
 ncbi_gene_id: '51363'
 organism: Homo sapiens
 function: target gene
+number_of_interactions: '381'
 orthologs: '[{"species": "Mus musculus", "id": ["<a href=\"/protein/q91xq5\">Q91XQ5</a>"]}, {"species": "Rattus norvegicus", "id": ["<a href=\"/protein/g3v838\">G3V838</a>"]}]'
 tfs: 'E2F1,Q01094,1869,GTRD; ReMap; TRED,chromatin immunoprecipitation assay; inferred
   by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D+OR+27924024%5Buid%5D+OR+17202159%5Buid%5D"
