@@ -15,7 +15,8 @@
       <dd>{{ .Params.protein_name }}</dd>
       <dt>Uniprot Accession</dt>
       <dd>
-        <a id="uniprot-id" href="https://www.uniprot.org/uniprot/{{ .Params.uniprot_accession }}" target="_blank" id="uniprot-ac">
+        <a id="uniprot-id" href="https://www.uniprot.org/uniprot/{{ .Params.uniprot_accession }}" target="_blank"
+          id="uniprot-ac">
           {{ .Params.uniprot_accession }}</a>
       </dd>
       <dt>NCBI Gene ID</dt>
@@ -34,11 +35,13 @@
           <span id="species_siluette" class="siluette-small">
           </span>
         </span>
-
       </dd>
       <dt>Function</dt>
       <dd>{{ .Params.function }}</dd>
-
+      <dt>Number of interactions</dt>
+      {{ with .Params.number_of_interactions }}
+      <dd>{{ lang.NumFmt 0 (int (index .)) "- . ," }}</dd>
+      {{ end }}
       {{ if .Params.orthologs }}
       <input id="ortholog_data" type="hidden" name="ortholog_data" value="{{ .Params.orthologs | safeHTMLAttr }}" />
       <dt>Orthologs</dt>
@@ -58,15 +61,18 @@
     <div>
       <div id="target_paging"></div>
       {{ if .Params.targets_download }}
-      <div style="float: right;">
-        <button onclick="location.href='/data/proteinDownload_targets/{{ .Params.targets_download }}'" type="button">
+      <div style="position:relative;">
+        <span style="font-weight: bold">Please be aware that here we show only the top 100 rows of the data. <br />
+          If you wish to see all the data please push the <i>download all</i> button.</span>
+        <button style="position:absolute; right:0px; bottom:5px"
+          onclick="location.href='/data/proteinDownload_targets/{{ .Params.targets_download }}'" type="button">
           <span uk-icon="icon: download; ratio: 1.5"></span>
           <h4 style="display: inline-block; margin: 0">Download all</h4>
         </button>
       </div>
       {{ end }}
     </div>
-    
+
     <div id="target_div"></div>
     <input id="target_data" type="hidden" name="target_data" value="{{ .Params.targets | safeHTMLAttr }}" />
     <p></p>
@@ -87,12 +93,15 @@
     <div>
       <div id="tf_paging"></div>
       {{ if .Params.tfs_download }}
-      <span style="float: right;">
-        <button onclick="location.href='/data/proteinDownload_tfs/{{ .Params.tfs_download }}'" type="button">
+      <div style="position:relative;">
+        <span style="font-weight: bold">Please be aware that here we show only the top 100 rows of the data. <br />
+          If you wish to see all the data please push the <i>download all</i> button.</span>
+        <button style="position:absolute; right:0px; bottom:5px"
+          onclick="location.href='/data/proteinDownload_tfs/{{ .Params.tfs_download }}'" type="button">
           <span uk-icon="icon: download; ratio: 1.5"></span>
           <h4 style="display: inline-block; margin: 0">Download all</h4>
         </button>
-      </span>
+      </div>
       {{ end }}
     </div>
     <div id="tf_div"></div>
@@ -115,7 +124,8 @@
       <div id="binding_sites_paging"></div>
       {{ if .Params.bindingSites_download }}
       <div style="float: right;">
-        <button onclick="location.href='/data/proteinDownload_bindingSites/{{ .Params.bindingSites_download }}'" type="button">
+        <button onclick="location.href='/data/proteinDownload_bindingSites/{{ .Params.bindingSites_download }}'"
+          type="button">
           <span uk-icon="icon: download; ratio: 1.5"></span>
           <h4 style="display: inline-block; margin: 0">Download all</h4>
         </button>
@@ -139,7 +149,8 @@
   {{ if .Params.binding_sites_ls }}
   <div class="uk-width-1-3@m">
     <h2>Large scale binding site sequences of {{ .Params.protein_name }}</h2>
-    <button onclick="location.href='https://cdn.netbiol.org/tflink/ls_fasta/{{ .Params.binding_sites_ls }}'" type="button">
+    <button onclick="location.href='https://cdn.netbiol.org/tflink/ls_fasta/{{ .Params.binding_sites_ls }}'"
+      type="button">
       <span uk-icon="icon: download; ratio: 1.5"></span>
       <h4 style="display: inline-block; margin: 0">Download</h4>
     </button>
