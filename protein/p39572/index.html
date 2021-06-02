@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<base href="/" />
+<title>TFLink</title>
+<link rel="stylesheet" href="https://cdn.webix.com/edge/webix.css" />
+
+<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-touch-icon.png?v=jwEjQXwyNy">
+<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png?v=jwEjQXwyNy">
+<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png?v=jwEjQXwyNy">
+<link rel="manifest" href="/images/favicon/site.webmanifest?v=jwEjQXwyNy">
+<link rel="mask-icon" href="/images/favicon/safari-pinned-tab.svg?v=jwEjQXwyNy" color="#70adb5">
+<link rel="shortcut icon" href="/images/favicon/favicon.ico?v=jwEjQXwyNy">
+<meta name="msapplication-TileColor" content="#00aba9">
+<meta name="msapplication-config" content="/images/favicon/browserconfig.xml?v=jwEjQXwyNy">
+<meta name="theme-color" content="#ffffff">
+
+
+
+<link href="/main.23e3d.css" rel="stylesheet" />
+
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"
+  integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+<script src="https://cdn.webix.com/edge/webix.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.5/js/uikit.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.5/js/uikit-icons.min.js"></script>
+
+<script>
+  $(window).on('load', function () {
+    $('#spinner').fadeOut(300);
+  });
+</script>
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5RNBLSCVTD"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-5RNBLSCVTD');
+</script>
+
+</head>
+
+<body>
+  <div class="net-top-navbar" uk-sticky>
+    <div class="uk-container uk-container-center uk-container-expand">
+        <nav class="uk-navbar uk-navbar-container navbar">
+            <a class="uk-navbar-item uk-logo" href="/"><img src="/images/favicon/favicon-32x32.png">Link</a>
+            <ul class="uk-navbar-nav">
+                <li id="nav_browse">
+                    <a href="/browse/">Browse</a>
+                </li>
+                <li id="nav_download">
+                  <a href="/download/">Download</a>
+              </li>
+              <li id="nav_faq">
+                <a href="/faq/">FAQ</a>
+            </li>
+            </ul>
+        </nav>
+    </div>
+</div>
+
+
+  <div class="uk-container uk-container-expand uk-margin-large-bottom">
+    <div id="spinner"></div>
+    
+<div class="uk-grid" data-uk-grid-margin>
+  <div class="uk-width-medium-1-1">
+    <div class="uk-panel uk-panel-box uk-text-center">
+      <h1 id="protein_name">gt</h1>
+      <hr class="" />
+    </div>
+  </div>
+</div>
+
+<div class="uk-grid-small" uk-grid uk-text-left>
+  <div class="uk-width-1-2@m">
+    <dl class="dl-horizontal">
+      <dt>Name</dt>
+      <dd>gt</dd>
+      <dt>Uniprot Accession</dt>
+      <dd>
+        <a id="uniprot-id" href="https://www.uniprot.org/uniprot/P39572" target="_blank"
+          id="uniprot-ac">
+          P39572</a>
+      </dd>
+      <dt>NCBI Gene ID</dt>
+      <dd>
+        
+        <a href="https://www.ncbi.nlm.nih.gov/gene/?term=31227"
+          target="_blank">31227</a>
+        
+      </dd>
+      <dt>Organism</dt>
+      <dd>
+        <span>
+          <i id="organism">Drosophila melanogaster</i>
+          <span id="species_siluette" class="siluette-small">
+          </span>
+        </span>
+      </dd>
+      <dt>Function</dt>
+      <dd>transcription factor and target gene</dd>
+      <dt>Number of interactions</dt>
+      
+      <dd>416</dd>
+      
+      
+    </dl>
+  </div>
+
+</div>
+
+
+<div class="uk-grid">
+  <div class="uk-width-2-3@xl">
+    <h2>Targets of gt</h2>
+    <div>
+      <div id="target_paging"></div>
+      
+      <div style="position:relative;">
+        <span style="font-weight: bold">Please be aware that here we show only the top 100 rows of the data. <br />
+          If you wish to see all the data please push the <i>download all</i> button.</span>
+        <button style="position:absolute; right:0px; bottom:5px"
+          onclick="location.href='/data/proteinDownload_targets/targets_of_P39572.tsv'" type="button">
+          <span uk-icon="icon: download; ratio: 1.5"></span>
+          <h4 style="display: inline-block; margin: 0">Download all</h4>
+        </button>
+      </div>
+      
+    </div>
+
+    <div id="target_div"></div>
+    <input id="target_data" type="hidden" name="target_data" value="eve,P06602,36039,ORegAnno; REDfly,DNase I footprinting; inferred by curator,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=2026328%5Buid%5D&#43;OR&#43;26578589%5Buid%5D&#43;OR&#43;20965965%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,Yes
+kni,P10734,40287,GTRD; ORegAnno; REDfly,DNase I footprinting; chromatin immunoprecipitation assay; inferred by curator,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=20965965%5Buid%5D&#43;OR&#43;26578589%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#43;OR&#43;7617036%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,Yes
+abd-A,P29555,42037,ORegAnno; REDfly,DNase I footprinting; inferred by curator,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=20965965%5Buid%5D&#43;OR&#43;10644409%5Buid%5D&#43;OR&#43;26578589%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,Yes
+Kr,P07247,38012,ORegAnno; REDfly,DNase I footprinting; inferred by curator,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=20965965%5Buid%5D&#43;OR&#43;26578589%5Buid%5D&#43;OR&#43;1576969%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,Yes
+14-3-3zeta,P29310,36059,GTRD,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+HL4,Q9VZ90,38574,GTRD,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+mav,Q9V4E6,43804,GTRD,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+CG13653-RA,D5SHP2,,GTRD,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+-,A9YJM7,,GTRD,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+Dmel\CG7707,Q9VVE7,39923,GTRD,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+-,Q9VPD2,40282,GTRD,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+p115,Q9W3N6,31698,GTRD,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+magu,Q0E9E0,36048,GTRD,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+twi,P10627,37655,GTRD,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+-,A9YJN6,,GTRD,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+CG14950-RB,F9W330,,GTRD,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+ATPsynC,Q6NN09,43693,GTRD,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+-,Q4V736,,GTRD,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+siz,Q7KTX2,40327,GTRD,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+-,J7KB13,,GTRD,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+qless,Q9V9Z3,43697,GTRD,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+CG5059-RB,D3DN08,,GTRD,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+Tollo,Q9V477,44497,GTRD,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+Smr,M9PGZ8,32225,GTRD,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+spn-F,Q9V9Y9,43700,GTRD,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+DIP-alpha,Q9W4R3,31322,GTRD,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+slgA,Q04499,33117,GTRD,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+Pepck2,Q7JXB5,37130,GTRD,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+CG9793,Q4V460,,GTRD,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+Vps8,Q9VRX2,38735,GTRD,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+Dmel\CG30403,Q8MLV3,246595,GTRD,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+pan,Q8IMA8,43769,GTRD,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+fs(1)h,P13709,31722,GTRD,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+CG12420,Q4V5F3,,GTRD,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+drl,Q27324,44355,GTRD,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+Dmel\CG14427,Q9W3T0,31651,GTRD,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+Psc,P35820,36431,GTRD,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+FoxK,Q0E8F8,39252,GTRD,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+cg14506,A0A0B4KI17,43467,GTRD,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+-,B4YXS9,,GTRD,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+Nepl7,Q9VK72,34671,GTRD,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+gdl,P22468,3772583,GTRD,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+-,J7KEE9,,GTRD,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+CG12163,Q95TA8,2768659,GTRD,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+anon-EST:Posey214,Q9VZ01,32076,GTRD,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+-,Q8IGQ9,,GTRD,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+Ect3,Q9VGE7,41457,GTRD,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+CG13428-RA,C4XVL6,,GTRD,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+-,Q1RKU6,,GTRD,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+Oseg6,A1ZBM3,37245,GTRD,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+CG11799,Q6NMX4,,GTRD,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+Hn,P17276,38871,GTRD,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+Dmel\CG8773,Q9VFX0,41634,GTRD,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+Egfr,P04412,37455,GTRD,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+Cad87A,Q9VGG5,41441,GTRD,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+-,Q9VCU5,42697,GTRD,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+Tep4,M9PDR0,35248,GTRD,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+Dmel\CG45089,X2JCX4,19835262,GTRD,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+Dmel\CG7841,Q9VUP0,39672,GTRD,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+CG34224-RA,A2VEI6,,GTRD,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+Mccc2,Q9V9A7,59261,GTRD,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+sna,P08044,34908,GTRD,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+SP1070-RB,C0PVB0,,GTRD,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+CG13800-RA,D3DMI5,,GTRD,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+anon-WO0140519.239,M9PHV0,39037,GTRD,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+aos,Q00805,39833,GTRD,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+cic,Q9U1H0,53560,GTRD,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+tea,E1JH25,36027,GTRD,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+wg,P09615,34009,GTRD,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+CG5004-RD,F3YDC5,,GTRD,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+-,Q2XYC8,,GTRD,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+MFS14,Q8MRP7,46085,GTRD,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+-,Q8SYZ5,,GTRD,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+-,Q7JZK8,,GTRD,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+-,D3PFF0,,GTRD,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+Ufm1,A8DYH2,5740715,GTRD,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+CG12966,A0A0B4LFI9,36736,GTRD,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+ey,O18381,43812,GTRD,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+lincRNA.1023,Q9VWC7,32993,GTRD,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+BtbVII,Q9VZU5,38376,GTRD,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+Myt1,Q9NI63,38649,GTRD,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+Tom,Q9V3S6,39619,GTRD,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+l(1)G0193,Q9W3M4,31712,GTRD,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+blot-RB,C7LA83,,GTRD,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+sdt-RB,D3DMM6,,GTRD,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+Dmel\CG2211,Q8MSC8,38157,GTRD,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+PGRP-LD,Q9GN97,3771920,GTRD,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+-,Q7K4U8,,GTRD,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+l(2)SH0542,Q7KVF6,2768732,GTRD,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+Alk,Q7KJ08,53425,GTRD,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+Dp,Q24318,36461,GTRD,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+Gpo1,Q7K569,47611,GTRD,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+BcDNA:LD22339,Q9VMB3,33924,GTRD,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+CT18477,Q7KT58,34980,GTRD,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+EG:22E5.5,Q960D4,31174,GTRD,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+Dmel\CG15876,Q9VZ92,38573,GTRD,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+DM27,Q9VK15,34725,GTRD,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+Dmel\CG1750,Q9V9Z0,43699,GTRD,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+-,A9YJM9,,GTRD,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+Dmel\CG30120,Q1WWC1,246467,GTRD,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No" />
+    <p></p>
+  </div>
+  <div class="uk-width-1-3@xl">
+    <div id="target-network-div" style="height: 400px; width: 400px; border-style: solid; border-width: .1em;">
+    </div>
+    <div id="targetControlDiv"></div>
+  </div>
+</div>
+
+
+
+
+<div class=" uk-grid" data-uk-grid-margin>
+  <div class="uk-width-2-3@xl">
+    <h2>Transcription factors of gt</h2>
+    <div>
+      <div id="tf_paging"></div>
+      
+    </div>
+    <div id="tf_div"></div>
+    <input id="tf_data" type="hidden" name="tf_data" value="Kr,P07247,38012,GTRD,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+Raf,P11346,31221,GTRD,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+pho,Q8ST83,43819,GTRD,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+Spps,A0A0B4KHC8,42882,GTRD,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+dl,P15330,35047,GTRD,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+Tbp,P20227,37476,GTRD,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+Pc,P26017,40358,GTRD,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+Trl,Q08605,2768981,GTRD,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+Hsf,P22813,37068,GTRD,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+Psc,P35820,36431,GTRD,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No" />
+    <p></p>
+  </div>
+  <div class="uk-width-1-3@xl">
+    <div id="tf-network-div" style="height: 400px; width: 400px; border-style: solid; border-width: .1em;">
+    </div>
+    <div id="tfControlDiv"></div>
+  </div>
+</div>
+
+
+
+<div class="uk-grid" data-uk-grid-margin>
+  <div class="">
+    <h2>Binding sites of gt</h2>
+    <div>
+      <div id="binding_sites_paging"></div>
+      
+    </div>
+    <div id="binding_sites_div"></div>
+    <input id="binding_sites_data" type="hidden" name="binding_sites_data"
+      value="TFLinkLT03902721,one hybrid,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=18332042%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,jaspar,Yes,-,-,-,-,-
+TFLinkLT03902722,one hybrid,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=18332042%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,jaspar,Yes,-,-,-,-,-
+TFLinkLT03902723,one hybrid,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=18332042%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,jaspar,Yes,-,-,-,-,-
+TFLinkLT03902724,one hybrid,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=18332042%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,jaspar,Yes,-,-,-,-,-
+TFLinkLT03902725,one hybrid,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=18332042%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,jaspar,Yes,-,-,-,-,-
+TFLinkLT03902726,one hybrid,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=18332042%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,jaspar,Yes,-,-,-,-,-
+TFLinkLT03902727,one hybrid,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=18332042%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,jaspar,Yes,-,-,-,-,-
+TFLinkLT03902728,one hybrid,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=18332042%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,jaspar,Yes,-,-,-,-,-
+TFLinkLT03902729,one hybrid,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=18332042%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,jaspar,Yes,-,-,-,-,-
+TFLinkLT03902730,one hybrid,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=18332042%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,jaspar,Yes,-,-,-,-,-
+TFLinkLT03902731,one hybrid,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=18332042%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,jaspar,Yes,-,-,-,-,-
+TFLinkLT03902732,one hybrid,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=18332042%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,jaspar,Yes,-,-,-,-,-
+TFLinkLT03902733,one hybrid,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=18332042%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,jaspar,Yes,-,-,-,-,-
+TFLinkLT03902734,one hybrid,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=18332042%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,jaspar,Yes,-,-,-,-,-
+TFLinkLT03902735,one hybrid,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=18332042%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,jaspar,Yes,-,-,-,-,-
+TFLinkLT03902736,one hybrid,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=18332042%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,jaspar,Yes,-,-,-,-,-
+TFLinkLT03902737,one hybrid,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=18332042%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,jaspar,Yes,-,-,-,-,-
+TFLinkLT03902738,one hybrid,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=18332042%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,jaspar,Yes,-,-,-,-,-
+TFLinkLT03902739,one hybrid,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=18332042%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,jaspar,Yes,-,-,-,-,-
+TFLinkLT03902740,one hybrid,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=18332042%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,jaspar,Yes,-,-,-,-,-
+TFLinkLT03902741,one hybrid,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=18332042%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,jaspar,Yes,-,-,-,-,-
+TFLinkLT03902742,one hybrid,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=18332042%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,jaspar,Yes,-,-,-,-,-
+TFLinkLT03902743,one hybrid,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=18332042%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,jaspar,Yes,-,-,-,-,-
+TFLinkLT03902744,one hybrid,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=18332042%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,jaspar,Yes,-,-,-,-,-
+TFLinkLT03902745,one hybrid,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=18332042%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,jaspar,Yes,-,-,-,-,-
+TFLinkLT03902746,one hybrid,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=18332042%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,jaspar,Yes,-,-,-,-,-
+TFLinkLT03902747,one hybrid,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=18332042%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,jaspar,Yes,-,-,-,-,-
+TFLinkLT03902748,one hybrid,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=18332042%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,jaspar,Yes,-,-,-,-,-
+TFLinkLT03902749,one hybrid,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=18332042%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,jaspar,Yes,-,-,-,-,-
+TFLinkLT03902750,one hybrid,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=18332042%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,jaspar,Yes,-,-,-,-,-
+TFLinkLT03902751,one hybrid,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=18332042%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,jaspar,Yes,-,-,-,-,-
+TFLinkLT03902752,one hybrid,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=18332042%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,jaspar,Yes,-,-,-,-,-
+TFLinkLT03902753,one hybrid,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=18332042%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,jaspar,Yes,-,-,-,-,-
+TFLinkLT03902754,one hybrid,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=18332042%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,jaspar,Yes,-,-,-,-,-
+TFLinkLT03902755,one hybrid,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=18332042%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,jaspar,Yes,-,-,-,-,-
+TFLinkLT09281879,DNase I footprinting,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=10644409;20965965%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,REDfly,Yes,dm6,3R,16811217,16811239,NA
+TFLinkLT09281880,DNase I footprinting,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=2026328;20965965%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,REDfly,Yes,dm6,2R,9977869,9977894,NA
+TFLinkLT09281881,DNase I footprinting,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=2026328;20965965%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,REDfly,Yes,dm6,2R,9977932,9977976,NA
+TFLinkLT09281882,DNase I footprinting,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=2026328;20965965%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,REDfly,Yes,dm6,2R,9978201,9978223,NA
+TFLinkLT09281883,DNase I footprinting,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=7617036;20965965%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,REDfly,Yes,dm6,3L,20696935,20696946,NA
+TFLinkLT09281884,DNase I footprinting,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=7617036;20965965%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,REDfly,Yes,dm6,3L,20696958,20696972,NA
+TFLinkLT09281885,DNase I footprinting,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=1576969;20965965%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,REDfly,Yes,dm6,2R,25223306,25223321,NA
+TFLinkLT09281886,DNase I footprinting,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=1576969;20965965%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,REDfly,Yes,dm6,2R,25225295,25225310,NA
+TFLinkLT09283653,inferred by curator,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=2026328%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,ORegAnno,Yes,dm6,chr2R,9977869,9977894,&#43;
+TFLinkLT09283655,inferred by curator,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=2026328%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,ORegAnno,Yes,dm6,chr2R,9977932,9977976,&#43;
+TFLinkLT09283664,inferred by curator,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=2026328%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,ORegAnno,Yes,dm6,chr2R,9978201,9978223,&#43;
+TFLinkLT09283811,inferred by curator,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=1576969%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,ORegAnno,Yes,dm6,chr2R,25223306,25223321,&#43;
+TFLinkLT09283812,inferred by curator,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=1576969%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,ORegAnno,Yes,dm6,chr2R,25225295,25225310,&#43;
+TFLinkLT09284022,inferred by curator,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=7617036%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,ORegAnno,Yes,dm6,chr3L,20696935,20696946,&#43;
+TFLinkLT09284024,inferred by curator,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=7617036%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,ORegAnno,Yes,dm6,chr3L,20696958,20696972,&#43;
+TFLinkLT09284390,inferred by curator,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=10644409%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,ORegAnno,Yes,dm6,chr3R,16811217,16811239,&#43;" />
+    <p></p>
+  </div>
+</div>
+
+<div class="uk-grid" data-uk-grid-margin>
+  <div class="uk-width-1-2@m">
+    <h2>Binding site sequences of gt</h2>
+    <div class="binding-sites">
+      <p>&gt;TFLinkLT03902721;P39572;gt;-;-<br />
+TTTCTGTTTTGGCGTATTTATGTGATGC<br />
+&gt;TFLinkLT03902722;P39572;gt;-;-<br />
+GGTGGCACTACCCTGTTACGCAATAT<br />
+&gt;TFLinkLT03902723;P39572;gt;-;-<br />
+TTTAATATAACGCTTCTATCTTTGTTTA<br />
+&gt;TFLinkLT03902724;P39572;gt;-;-<br />
+GTTGTTACGCGTGTTACATAATGCTTCG<br />
+&gt;TFLinkLT03902725;P39572;gt;-;-<br />
+AACCACTGTAAAGCTCCGGCGTATTGGC<br />
+&gt;TFLinkLT03902726;P39572;gt;-;-<br />
+AGAGTAACTTGCCCTTAAGTTACGTAAT<br />
+&gt;TFLinkLT03902727;P39572;gt;-;-<br />
+GAAGGATTACGGTTACGCAATATCCCTT<br />
+&gt;TFLinkLT03902728;P39572;gt;-;-<br />
+GTTCGCGTGATTGCGTAATGGCGCTTTG<br />
+&gt;TFLinkLT03902729;P39572;gt;-;-<br />
+CTGTATGTTACGTAACGCTGTTGTGAGC<br />
+&gt;TFLinkLT03902730;P39572;gt;-;-<br />
+TCATGGTCCCCTGTTACGTAATCTACAT<br />
+&gt;TFLinkLT03902731;P39572;gt;-;-<br />
+GTTGGTCCCGATTGCGTAACACTTGATG<br />
+&gt;TFLinkLT03902732;P39572;gt;-;-<br />
+ATGCTATTACGTAATGAGGTTTCGATGA<br />
+&gt;TFLinkLT03902733;P39572;gt;-;-<br />
+TGTTGCGTTACGTAAGGTACGGAGGGAA<br />
+&gt;TFLinkLT03902734;P39572;gt;-;-<br />
+TTTTTTTATTTTCATTAGTTGTAGCCTA<br />
+&gt;TFLinkLT03902735;P39572;gt;-;-<br />
+TTTTTTTATTTTCATTAGTTGTAGCCTA<br />
+&gt;TFLinkLT03902736;P39572;gt;-;-<br />
+AGCTATGATCCTGTTATGTAATAACCTA<br />
+&gt;TFLinkLT03902737;P39572;gt;-;-<br />
+TTTGCGAGTATGGACTGAACCCTATTGTC<br />
+&gt;TFLinkLT03902738;P39572;gt;-;-<br />
+AGTTACGTAACACATTATGCTTCCGTCC<br />
+&gt;TFLinkLT03902739;P39572;gt;-;-<br />
+CTTCCTCGTTACTTTGTTACGTAAGGGA<br />
+&gt;TFLinkLT03902740;P39572;gt;-;-<br />
+CATCGTGATGACGTAATGACCGTCCGCC<br />
+&gt;TFLinkLT03902741;P39572;gt;-;-<br />
+AGCTATCTGCGGTTACGTCATAGTTATA<br />
+&gt;TFLinkLT03902742;P39572;gt;-;-<br />
+AGTGGTATTACATAACCGTGTGCAATGA<br />
+&gt;TFLinkLT03902743;P39572;gt;-;-<br />
+TTACCAAAACGGTGTTGCGTAATTTTTT<br />
+&gt;TFLinkLT03902744;P39572;gt;-;-<br />
+AGAGTAACTTGCCCTTAAGTTACGTAAT<br />
+&gt;TFLinkLT03902745;P39572;gt;-;-<br />
+GTTCGAAGTTACGCAACACGGACGTTGG<br />
+&gt;TFLinkLT03902746;P39572;gt;-;-<br />
+AACCTCGTCTTGACTTACGTAATCGCCA<br />
+&gt;TFLinkLT03902747;P39572;gt;-;-<br />
+GGAGTGGCGATTACGTAATGGCGGGTAT<br />
+&gt;TFLinkLT03902748;P39572;gt;-;-<br />
+ACCTGGGTTATCTTACGTAACATGAAGA<br />
+&gt;TFLinkLT03902749;P39572;gt;-;-<br />
+CAAATGGTGAAGTTATGTAATACCGCAC<br />
+&gt;TFLinkLT03902750;P39572;gt;-;-<br />
+TATAGTGCTTACGTAATATGCAAGAGCC<br />
+&gt;TFLinkLT03902751;P39572;gt;-;-<br />
+CCTTGTATTACGTAATGTTTGGTGCCTA<br />
+&gt;TFLinkLT03902752;P39572;gt;-;-<br />
+GTATCTCGTGTATTACGTCACACTTATA<br />
+&gt;TFLinkLT03902753;P39572;gt;-;-<br />
+AGAGATCACTATGTTGTTACGTAATTCC<br />
+&gt;TFLinkLT03902754;P39572;gt;-;-<br />
+CAAATGGTGAAGTTATGTAATACCGCAC<br />
+&gt;TFLinkLT03902755;P39572;gt;-;-<br />
+CTACCTGTAGTACTTGTTACGTAATTGG<br />
+&gt;TFLinkLT09281879;P39572;gt;dm6;3R:16811217-16811239<br />
+TTACGTAATATTATGAAAGGTGC<br />
+&gt;TFLinkLT09281880;P39572;gt;dm6;2R:9977869-9977894<br />
+CGAGATTATTAGTCAATTGCAGTTGC<br />
+&gt;TFLinkLT09281881;P39572;gt;dm6;2R:9977932-9977976<br />
+GACTTTATTGCAGCATCTTGAACAATCGTCGCAGTTTGGTAACAC<br />
+&gt;TFLinkLT09281882;P39572;gt;dm6;2R:9978201-9978223<br />
+GAAAGTCATAAAAACACATAATA<br />
+&gt;TFLinkLT09281883;P39572;gt;dm6;3L:20696935-20696946<br />
+AAAAACGCACAA<br />
+&gt;TFLinkLT09281884;P39572;gt;dm6;3L:20696958-20696972<br />
+AAAAGTCAAAAAGCA<br />
+&gt;TFLinkLT09281885;P39572;gt;dm6;2R:25223306-25223321<br />
+ATTCTTGCGTCATAAA<br />
+&gt;TFLinkLT09281886;P39572;gt;dm6;2R:25225295-25225310<br />
+AATTTTACGTAACATT<br />
+&gt;TFLinkLT09283653;P39572;gt;dm6;chr2R:9977869-9977894<br />
+GAGATTATTAGTCAATTGCAGTTGC<br />
+&gt;TFLinkLT09283655;P39572;gt;dm6;chr2R:9977932-9977976<br />
+ACTTTATTGCAGCATCTTGAACAATCGTCGCAGTTTGGTAACAC<br />
+&gt;TFLinkLT09283664;P39572;gt;dm6;chr2R:9978201-9978223<br />
+AAAGTCATAAAAACACATAATA<br />
+&gt;TFLinkLT09283811;P39572;gt;dm6;chr2R:25223306-25223321<br />
+TTCTTGCGTCATAAA<br />
+&gt;TFLinkLT09283812;P39572;gt;dm6;chr2R:25225295-25225310<br />
+ATTTTACGTAACATT<br />
+&gt;TFLinkLT09284022;P39572;gt;dm6;chr3L:20696935-20696946<br />
+AAAACGCACAA<br />
+&gt;TFLinkLT09284024;P39572;gt;dm6;chr3L:20696958-20696972<br />
+AAAGTCAAAAAGCA<br />
+&gt;TFLinkLT09284390;P39572;gt;dm6;chr3R:16811217-16811239<br />
+TACGTAATATTATGAAAGGTGC</p>
+
+    </div>
+  </div>
+  
+</div>
+
+
+
+
+
+
+<script src="/protein.23e3d.js"></script>
+
+
+<script src="/network.23e3d.js"></script>
+
+
+  </div>
+
+  
+  <footer class="uk-container uk-container-small"></footer>
+
+  
+
+  
+  
+  <script src="/main.23e3d.js"></script>
+  
+</body>
+
+</html>

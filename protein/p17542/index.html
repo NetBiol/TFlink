@@ -1,0 +1,1374 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<base href="/" />
+<title>TFLink</title>
+<link rel="stylesheet" href="https://cdn.webix.com/edge/webix.css" />
+
+<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-touch-icon.png?v=jwEjQXwyNy">
+<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png?v=jwEjQXwyNy">
+<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png?v=jwEjQXwyNy">
+<link rel="manifest" href="/images/favicon/site.webmanifest?v=jwEjQXwyNy">
+<link rel="mask-icon" href="/images/favicon/safari-pinned-tab.svg?v=jwEjQXwyNy" color="#70adb5">
+<link rel="shortcut icon" href="/images/favicon/favicon.ico?v=jwEjQXwyNy">
+<meta name="msapplication-TileColor" content="#00aba9">
+<meta name="msapplication-config" content="/images/favicon/browserconfig.xml?v=jwEjQXwyNy">
+<meta name="theme-color" content="#ffffff">
+
+
+
+<link href="/main.23e3d.css" rel="stylesheet" />
+
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"
+  integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+<script src="https://cdn.webix.com/edge/webix.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.5/js/uikit.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.5/js/uikit-icons.min.js"></script>
+
+<script>
+  $(window).on('load', function () {
+    $('#spinner').fadeOut(300);
+  });
+</script>
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5RNBLSCVTD"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-5RNBLSCVTD');
+</script>
+
+</head>
+
+<body>
+  <div class="net-top-navbar" uk-sticky>
+    <div class="uk-container uk-container-center uk-container-expand">
+        <nav class="uk-navbar uk-navbar-container navbar">
+            <a class="uk-navbar-item uk-logo" href="/"><img src="/images/favicon/favicon-32x32.png">Link</a>
+            <ul class="uk-navbar-nav">
+                <li id="nav_browse">
+                    <a href="/browse/">Browse</a>
+                </li>
+                <li id="nav_download">
+                  <a href="/download/">Download</a>
+              </li>
+              <li id="nav_faq">
+                <a href="/faq/">FAQ</a>
+            </li>
+            </ul>
+        </nav>
+    </div>
+</div>
+
+
+  <div class="uk-container uk-container-expand uk-margin-large-bottom">
+    <div id="spinner"></div>
+    
+<div class="uk-grid" data-uk-grid-margin>
+  <div class="uk-width-medium-1-1">
+    <div class="uk-panel uk-panel-box uk-text-center">
+      <h1 id="protein_name">TAL1</h1>
+      <hr class="" />
+    </div>
+  </div>
+</div>
+
+<div class="uk-grid-small" uk-grid uk-text-left>
+  <div class="uk-width-1-2@m">
+    <dl class="dl-horizontal">
+      <dt>Name</dt>
+      <dd>TAL1</dd>
+      <dt>Uniprot Accession</dt>
+      <dd>
+        <a id="uniprot-id" href="https://www.uniprot.org/uniprot/P17542" target="_blank"
+          id="uniprot-ac">
+          P17542</a>
+      </dd>
+      <dt>NCBI Gene ID</dt>
+      <dd>
+        
+        <a href="https://www.ncbi.nlm.nih.gov/gene/?term=6886"
+          target="_blank">6886</a>
+        
+      </dd>
+      <dt>Organism</dt>
+      <dd>
+        <span>
+          <i id="organism">Homo sapiens</i>
+          <span id="species_siluette" class="siluette-small">
+          </span>
+        </span>
+      </dd>
+      <dt>Function</dt>
+      <dd>transcription factor and target gene</dd>
+      <dt>Number of interactions</dt>
+      
+      <dd>17,131</dd>
+      
+      
+      <input id="ortholog_data" type="hidden" name="ortholog_data" value="[{&#34;species&#34;: &#34;Mus musculus&#34;, &#34;id&#34;: [&#34;&lt;a href=\&#34;/protein/p22091\&#34;&gt;P22091&lt;/a&gt;&#34;]}, {&#34;species&#34;: &#34;Rattus norvegicus&#34;, &#34;id&#34;: [&#34;&lt;a href=\&#34;/protein/d3z921\&#34;&gt;D3Z921&lt;/a&gt;&#34;]}]" />
+      <dt>Orthologs</dt>
+      <dd>
+        <ul id="ulOrtholog" class="target-blank"></ul>
+      </dd>
+      
+    </dl>
+  </div>
+
+</div>
+
+
+<div class="uk-grid">
+  <div class="uk-width-2-3@xl">
+    <h2>Targets of TAL1</h2>
+    <div>
+      <div id="target_paging"></div>
+      
+      <div style="position:relative;">
+        <span style="font-weight: bold">Please be aware that here we show only the top 100 rows of the data. <br />
+          If you wish to see all the data please push the <i>download all</i> button.</span>
+        <button style="position:absolute; right:0px; bottom:5px"
+          onclick="location.href='/data/proteinDownload_targets/targets_of_P17542.tsv'" type="button">
+          <span uk-icon="icon: download; ratio: 1.5"></span>
+          <h4 style="display: inline-block; margin: 0">Download all</h4>
+        </button>
+      </div>
+      
+    </div>
+
+    <div id="target_div"></div>
+    <input id="target_data" type="hidden" name="target_data" value="TERT,O14746,7015,GTRD; ReMap; TRRUST,chromatin immunoprecipitation assay; inferred by curator,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=29087512%5Buid%5D&#43;OR&#43;29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#43;OR&#43;19587703%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,Yes
+EPOR,P19235,2057,GTRD; ReMap; TRRUST,chromatin immunoprecipitation assay; inferred by curator,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=22982397%5Buid%5D&#43;OR&#43;29087512%5Buid%5D&#43;OR&#43;29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,Yes
+NFKB1,P19838,4790,GTRD; ORegAnno; PAZAR; ReMap; TRRUST,chromatin immunoprecipitation assay; inferred by curator,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D&#43;OR&#43;26578589%5Buid%5D&#43;OR&#43;18971253%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#43;OR&#43;29087512%5Buid%5D&#43;OR&#43;16778171%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,Yes
+CDH13,P55290,1012,ORegAnno; PAZAR; TRED,inferred by curator,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=17202159%5Buid%5D&#43;OR&#43;18971253%5Buid%5D&#43;OR&#43;26578589%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,Yes
+ERG,P11308,2078,GTRD; ORegAnno; PAZAR; ReMap; TRRUST,chromatin immunoprecipitation assay; inferred by curator,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D&#43;OR&#43;26578589%5Buid%5D&#43;OR&#43;21536859%5Buid%5D&#43;OR&#43;18971253%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#43;OR&#43;29087512%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,Yes
+ANGPT2,O15123,285,GTRD; ReMap; TRRUST,chromatin immunoprecipitation assay; inferred by curator,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D&#43;OR&#43;29087512%5Buid%5D&#43;OR&#43;22792348%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,Yes
+KCNH2,Q12809,3757,GTRD; ReMap; TRRUST,chromatin immunoprecipitation assay; inferred by curator,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D&#43;OR&#43;29087512%5Buid%5D&#43;OR&#43;29126285%5Buid%5D&#43;OR&#43;21536859%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,Yes
+MYCN,P04198,4613,GTRD; ReMap; TRRUST,chromatin immunoprecipitation assay; inferred by curator,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D&#43;OR&#43;29087512%5Buid%5D&#43;OR&#43;29126285%5Buid%5D&#43;OR&#43;24334727%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,Yes
+CD34,P28906,947,GTRD; ORegAnno; PAZAR; TRRUST,chromatin immunoprecipitation assay; inferred by curator,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=26578589%5Buid%5D&#43;OR&#43;14715640%5Buid%5D&#43;OR&#43;18971253%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#43;OR&#43;29087512%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,Yes
+MYB,P10242,4602,GTRD; ORegAnno; PAZAR; ReMap; TRRUST,chromatin immunoprecipitation assay; inferred by curator,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D&#43;OR&#43;26578589%5Buid%5D&#43;OR&#43;18971253%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#43;OR&#43;22897851%5Buid%5D&#43;OR&#43;29087512%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,Yes
+ALDH1A2,O94788,8854,GTRD; ReMap; TRRUST,chromatin immunoprecipitation assay; inferred by curator,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=29087512%5Buid%5D&#43;OR&#43;9819382%5Buid%5D&#43;OR&#43;29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,Yes
+KRT7,P08729,3855,GTRD; ReMap; TRRUST,chromatin immunoprecipitation assay; inferred by curator,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D&#43;OR&#43;29087512%5Buid%5D&#43;OR&#43;29126285%5Buid%5D&#43;OR&#43;20140202%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,Yes
+MLH3,Q9UHC1,27030,GTRD; ORegAnno; PAZAR,chromatin immunoprecipitation assay; inferred by curator,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=18971253%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#43;OR&#43;26578589%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+HMG20A,Q9NP66,10363,GTRD; ReMap,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+SMIM31,A0A1B0GVY4,,GTRD,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+LRRC6,Q86X45,23639,GTRD; ReMap,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+TRIM50,Q86XT4,135892,GTRD,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+HNRNPD,Q14103,3184,GTRD; ReMap,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+KLRK1,P26718,100528032; 22914,GTRD; ReMap,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+BEST2,Q8NFU1,54831,GTRD; ReMap,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+HIBADH,P31937,11112,GTRD; ReMap,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+METTL2A,Q96IZ6,339175,GTRD; ReMap,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+ENTR1,Q96C92,10807,GTRD; ReMap,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+IRAK4,Q9NWZ3,51135,GTRD; ReMap,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+NEK7,Q8TDX7,140609,GTRD; ORegAnno; PAZAR; ReMap,chromatin immunoprecipitation assay; inferred by curator,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D&#43;OR&#43;18971253%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#43;OR&#43;26578589%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+FFAR1,O14842,2864,ReMap,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+LAMP3,Q9UQV4,27074,GTRD,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+TNC,P24821,3371,GTRD; ORegAnno; PAZAR; ReMap,chromatin immunoprecipitation assay; inferred by curator,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D&#43;OR&#43;18971253%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#43;OR&#43;26578589%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+NRARP,Q7Z6K4,441478,GTRD; ReMap,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+HDAC6,Q9UBN7,10013,GTRD; ReMap,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+WDR64,B1ANS9,,GTRD,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+CAPRIN2,Q6IMN6,65981,GTRD; ReMap,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+CCS,O14618,9973,GTRD; ReMap,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+CEACAM7,Q14002,1087,GTRD,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+YKT6,O15498,10652,GTRD; ReMap,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+IPO11,Q9UI26,51194,GTRD; ReMap,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+MADCAM1,Q13477,8174,GTRD; ReMap,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+LSP1,P33241,4046,GTRD; ReMap,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+FITM2,Q8N6M3,128486,GTRD; ReMap,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+ZNF8,P17098,7554,GTRD; ReMap,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+ITFG2,Q969R8,55846,GTRD; ReMap,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+DGKD,Q16760,8527,GTRD; ReMap,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+MSI2,Q96DH6,124540,GTRD; ORegAnno; PAZAR,chromatin immunoprecipitation assay; inferred by curator,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=18971253%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#43;OR&#43;26578589%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+DBNDD2,Q9BQY9,55861,GTRD; ReMap,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+RCOR3,Q9P2K3,55758,GTRD,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+SMRP1,Q8NCR6,84688,GTRD,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+TUBG2,Q9NRH3,27175,GTRD; ReMap,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+RUSC1,Q9BVN2,23623,GTRD; ReMap,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+CYBRD1,Q53TN4,79901,GTRD; ReMap,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+BRPF3,Q9ULD4,27154,GTRD; ReMap,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+TSPAN1,O60635,10103,GTRD,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+IGHMBP2,P38935,3508,GTRD; ReMap,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+LCP1,P13796,3936,GTRD; ORegAnno; PAZAR; ReMap,chromatin immunoprecipitation assay; inferred by curator,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D&#43;OR&#43;18971253%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#43;OR&#43;26578589%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+GNL1,P36915,2794,GTRD; ORegAnno; PAZAR,chromatin immunoprecipitation assay; inferred by curator,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=18971253%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#43;OR&#43;26578589%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+EGR2,P11161,1959,GTRD; ORegAnno; PAZAR,chromatin immunoprecipitation assay; inferred by curator,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=18971253%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#43;OR&#43;26578589%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+IPO8,O15397,10526,GTRD; ReMap,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+BAIAP2L1,Q9UHR4,55971,GTRD; ReMap,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+CBY1,Q9Y3M2,25776,GTRD; ReMap,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+GALNT17,Q6IS24,64409,GTRD; ReMap,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+-,K7EQM0,,GTRD; ReMap,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+ARID1B,Q8NFD5,57492,GTRD; ORegAnno; PAZAR; ReMap,chromatin immunoprecipitation assay; inferred by curator,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D&#43;OR&#43;18971253%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#43;OR&#43;26578589%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+ACOXL,Q9NUZ1,55289,GTRD; ReMap,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+DVL1,O14640,1855,GTRD; ReMap,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+KLHDC7A,Q5VTJ3,127707,ReMap,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+MRPL3,P09001,11222,GTRD; ReMap,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+CDC42,P60953,998,GTRD; ReMap,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+INHBA,P08476,3624,GTRD; ORegAnno; PAZAR,chromatin immunoprecipitation assay; inferred by curator,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=18971253%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#43;OR&#43;26578589%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+MENT,Q9BUN1,54964,GTRD,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+CCDC88B,A6NC98,283234,GTRD; ReMap,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+NUDT18,Q6ZVK8,79873,GTRD; ReMap,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+MRPS6,P82932,64968,GTRD; ReMap,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+WDR26,Q9H7D7,80232,GTRD,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+PHACTR4,Q8IZ21,65979,GTRD; ORegAnno; PAZAR; ReMap,chromatin immunoprecipitation assay; inferred by curator,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D&#43;OR&#43;18971253%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#43;OR&#43;26578589%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+HUWE1,Q7Z6Z7,10075,GTRD; ReMap,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+SLC5A5,Q92911,6528,ReMap,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+PABPN1,Q86U42,8106,GTRD; ReMap,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+SEMA3F,Q13275,6405,GTRD; ReMap,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+SLC44A3,Q8N4M1,126969,GTRD; ReMap,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+SLC36A1,Q7Z2H8,206358,GTRD,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+CLDN10,P78369,9071,GTRD; ReMap,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+KRBA2,Q6ZNG9,124751,GTRD; ReMap,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+XPO7,Q9UIA9,23039,GTRD; ORegAnno; PAZAR; ReMap,chromatin immunoprecipitation assay; inferred by curator,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D&#43;OR&#43;18971253%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#43;OR&#43;26578589%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+ALPK1,Q96QP1,80216,GTRD; ReMap,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+SDCCAG8,Q86SQ7,10806,GTRD; ORegAnno; PAZAR,chromatin immunoprecipitation assay; inferred by curator,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=18971253%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#43;OR&#43;26578589%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+ZP1,P60852,22917,GTRD; ReMap,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+ADAM22,Q9P0K1,53616,GTRD; ORegAnno; PAZAR; ReMap,chromatin immunoprecipitation assay; inferred by curator,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D&#43;OR&#43;18971253%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#43;OR&#43;26578589%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+USP17L23,D6RBM5,,GTRD,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+DHFR2,Q86XF0,200895,GTRD; ReMap,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+SERPINB9,P50453,5272,GTRD; ReMap,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+LRFN3,Q9BTN0,79414,GTRD,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+ZMYND12,Q9H0C1,84217,GTRD; ReMap,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+BEND3,Q5T5X7,57673,GTRD; ReMap,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+DENND1B,Q6P3S1,163486,GTRD; ReMap,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+-,M0R2A6,,GTRD,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+PXMP2,Q9NR77,5827,GTRD; ReMap,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+ZNF169,Q14929,169841,GTRD; ReMap,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+FGL2,Q14314,10875,GTRD; ReMap,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+VILL,O15195,50853,GTRD; ReMap,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+AGL,P35573,178,GTRD; ReMap,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+-,E9PBE3,,GTRD; ReMap,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No" />
+    <p></p>
+  </div>
+  <div class="uk-width-1-3@xl">
+    <div id="target-network-div" style="height: 400px; width: 400px; border-style: solid; border-width: .1em;">
+    </div>
+    <div id="targetControlDiv"></div>
+  </div>
+</div>
+
+
+
+
+<div class=" uk-grid" data-uk-grid-margin>
+  <div class="uk-width-2-3@xl">
+    <h2>Transcription factors of TAL1</h2>
+    <div>
+      <div id="tf_paging"></div>
+      
+      <div style="position:relative;">
+        <span style="font-weight: bold">Please be aware that here we show only the top 100 rows of the data. <br />
+          If you wish to see all the data please push the <i>download all</i> button.</span>
+        <button style="position:absolute; right:0px; bottom:5px"
+          onclick="location.href='/data/proteinDownload_tfs/tfs_of_P17542.tsv'" type="button">
+          <span uk-icon="icon: download; ratio: 1.5"></span>
+          <h4 style="display: inline-block; margin: 0">Download all</h4>
+        </button>
+      </div>
+      
+    </div>
+    <div id="tf_div"></div>
+    <input id="tf_data" type="hidden" name="tf_data" value="GATA1,P15976,2623,GTRD; HTRI; ReMap; TRRUST,chromatin immunoprecipitation assay; inferred by curator,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D&#43;OR&#43;19941826%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#43;OR&#43;29087512%5Buid%5D&#43;OR&#43;22900683%5Buid%5D&#43;OR&#43;8058326%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,Yes
+SP1,P08047,6667,GTRD; ReMap; TRED,chromatin immunoprecipitation assay; inferred by curator,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#43;OR&#43;17202159%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,Yes
+FLI1,Q01543,2313,GTRD; TRED,chromatin immunoprecipitation assay; inferred by curator,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D&#43;OR&#43;17202159%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,Yes
+NELFE,P18615,7936,GTRD,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+HEXIM1,O94992,10614,GTRD; ReMap,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+PHF8,Q9UPP1,23133,GTRD; ReMap,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+ZSCAN29,Q8IWY8,146050,GTRD,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+KCNH2,Q12809,3757,ReMap,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+NFE2L1,Q14494,4779,ReMap,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+SON,P18583,6651,GTRD,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+RBBP5,Q15291,5929,GTRD; ReMap,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+ZNF589,Q86UQ0,51385,GTRD; ReMap,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+KDM1A,O60341,23028,GTRD; ReMap,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+KLF4,O43474,9314,GTRD,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+BRD7,Q9NPI1,29117,GTRD,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+HCFC1,P51610,3054,ReMap,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+KDM4A,O75164,9682,GTRD; ReMap,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+TRIM28,Q13263,10155,GTRD; ORegAnno; PAZAR; ReMap,chromatin immunoprecipitation assay; inferred by curator,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D&#43;OR&#43;18971253%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#43;OR&#43;26578589%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+ELF1,P32519,1997,GTRD; ReMap,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+HEY1,Q9Y5J3,23462,GTRD,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+MUC22,E2RYF6,100507679,GTRD,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+AR,P10275,367,GTRD,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+ZNF320,A2RRD8,162967,GTRD,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+p65,O43245,,GTRD,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+ZNF263,O14978,10127,GTRD; ORegAnno; PAZAR; ReMap,chromatin immunoprecipitation assay; inferred by curator,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D&#43;OR&#43;18971253%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#43;OR&#43;26578589%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+CREB3L1,Q96BA8,90993,GTRD; ReMap,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+MNT,Q99583,4335,GTRD,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+PCBP1,Q15365,5093,GTRD,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+EGR3,Q06889,1960,GTRD,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+STAT3,P40763,6774,GTRD,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+TEAD4,Q15561,7004,GTRD; ReMap,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+RUNX2,Q13950,860,GTRD,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+SMARCC1,Q92922,6599,GTRD,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+PCGF1,Q9BSM1,84759,GTRD,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+YY1,P25490,7528,GTRD; ReMap,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+SOX6,P35712,55553,GTRD; ReMap,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+JUN,P05412,3725,GTRD; ReMap,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+WT1,P19544,7490,GTRD,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+HMGN3,Q15651,9324,GTRD; ReMap,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+MYB,P10242,4602,GTRD; ReMap,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+PTBP1,P26599,5725,GTRD,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+RUNX1T1,Q06455,862,GTRD,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+NANOG,Q9H9S0,79923,GTRD; ReMap,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+TAF7,Q15545,6879,GTRD; ReMap,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+LMO1,P25800,4004,GTRD,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+DIDO1,Q9BTC0,11083,ReMap,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+NFE2L2,Q16236,4780,ReMap,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+MEIS1,O00470,4211,ReMap,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+ZEB1,P37275,6935,GTRD,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+ZBED1,O96006,9189,GTRD; ReMap,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+CBX6,O95503,23466,GTRD,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+RELA,Q04206,5970,GTRD; ReMap,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+GTF3C2,Q8WUA4,2976,GTRD,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+BCOR,Q6W2J9,54880,GTRD,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+BHLHE40,O14503,8553,GTRD; ReMap,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+FOXO1,Q12778,2308,GTRD,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+KDM5B,Q9UGL1,10765,GTRD; ReMap,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+ZBTB7A,O95365,51341,GTRD; ReMap,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+CBX2,Q14781,84733,GTRD,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+KMT2A,Q03164,4297,GTRD,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+RARA,P10276,5914,GTRD,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+CTNNB1,P35222,1499,ReMap,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+RING1,Q06587,6015,GTRD,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+NFYA,P23511,4800,GTRD; ReMap,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+KLF13,Q9Y2Y9,51621,ReMap,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+JARID2,Q92833,3720,GTRD; ReMap,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+ESRRA,P11474,2101,ReMap,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+CREB1,P16220,1385,GTRD; ReMap,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+FANCD2,Q9BXW9,2177,GTRD,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+ELK3,P41970,2004,GTRD,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+CBFB,Q13951,865,ReMap,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+ERCC3,P19447,2071,GTRD,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+SETDB1,Q15047,9869,GTRD,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+ATF1,P18846,466,ReMap,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+JMJD1C,Q15652,221037,ReMap,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+USP7,Q93009,7874,GTRD,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+FIP1L1,Q6UN15,81608,GTRD,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+STAG1,Q8WVM7,10274,ReMap,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+FOSL1,P15407,8061,GTRD; ReMap,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+CEBPG,P53567,1054,GTRD; ReMap,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+HSD17B8,Q92506,7923,GTRD,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+HDGF,P51858,3068,ReMap,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+FOXO3,O43524,2309,GTRD,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+HDAC8,Q9BY41,55869,ReMap,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+RELB,Q01201,5971,GTRD,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+EZH1,Q92800,2145,ReMap,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+FOXM1,Q08050,2305,GTRD,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+DPF2,Q92785,5977,GTRD; ReMap,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+SUZ12,Q15022,23512,GTRD; ReMap,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+GABPA,Q06546,2551,GTRD; ReMap,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+E2F7,Q96AV8,144455,GTRD,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+VEZF1,Q14119,7716,GTRD,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+ZNF282,Q9UDV7,8427,GTRD,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+CC2D1A,Q6P1N0,54862,GTRD,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+NR3C1,P04150,2908,ReMap,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+SUPT5H,O00267,6829,GTRD,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+SIN3B,O75182,23309,ReMap,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+ZNF83,P51522,55769,GTRD; ReMap,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+STAT2,P52630,6773,GTRD,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No
+CXXC1,Q9P0U4,30827,GTRD,chromatin immunoprecipitation assay,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,No" />
+    <p></p>
+  </div>
+  <div class="uk-width-1-3@xl">
+    <div id="tf-network-div" style="height: 400px; width: 400px; border-style: solid; border-width: .1em;">
+    </div>
+    <div id="tfControlDiv"></div>
+  </div>
+</div>
+
+
+
+<div class="uk-grid" data-uk-grid-margin>
+  <div class="">
+    <h2>Binding sites of TAL1</h2>
+    <div>
+      <div id="binding_sites_paging"></div>
+      
+      <div style="float: right;">
+        <button onclick="location.href='/data/proteinDownload_bindingSites/bindingSites_of_P17542.tsv'"
+          type="button">
+          <span uk-icon="icon: download; ratio: 1.5"></span>
+          <h4 style="display: inline-block; margin: 0">Download all</h4>
+        </button>
+      </div>
+      
+    </div>
+    <div id="binding_sites_div"></div>
+    <input id="binding_sites_data" type="hidden" name="binding_sites_data"
+      value="TFLinkLT09284829,inferred by curator,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=18971253%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,ORegAnno,Yes,hg19,chr2,91613744,91613860,&#43;
+TFLinkLT09890325,inferred by curator,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=18971253%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,ORegAnno,Yes,hg38,chr1,221478300,221478422,&#43;
+TFLinkLT09890330,inferred by curator,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=18971253%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,ORegAnno,Yes,hg38,chr16,30472511,30472654,&#43;
+TFLinkLT09890339,inferred by curator,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=18971253%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,ORegAnno,Yes,hg38,chr16,53121312,53121439,&#43;
+TFLinkLT09890369,inferred by curator,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=18971253%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,ORegAnno,Yes,hg38,chr13,48495061,48495190,&#43;
+TFLinkLT09890372,inferred by curator,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=18971253%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,ORegAnno,Yes,hg38,chr17,76252361,76252473,&#43;
+TFLinkLT09890379,inferred by curator,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=18971253%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,ORegAnno,Yes,hg38,chr22,44085019,44085146,&#43;
+TFLinkLT09890387,inferred by curator,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=18971253%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,ORegAnno,Yes,hg38,chr17,29720805,29720932,&#43;
+TFLinkLT09890389,inferred by curator,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=18971253%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,ORegAnno,Yes,hg38,chr1,228921705,228921852,&#43;
+TFLinkLT09890400,inferred by curator,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=18971253%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,ORegAnno,Yes,hg38,chr12,89999934,90000053,&#43;
+TFLinkLT09890430,inferred by curator,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=18971253%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,ORegAnno,Yes,hg38,chr6,103662912,103663059,&#43;
+TFLinkLT09890500,inferred by curator,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=18971253%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,ORegAnno,Yes,hg38,chrX,131575132,131575214,&#43;
+TFLinkLT09890502,inferred by curator,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=18971253%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,ORegAnno,Yes,hg38,chr1,65060067,65060213,&#43;
+TFLinkLT09890503,inferred by curator,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=18971253%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,ORegAnno,Yes,hg38,chr14,106705625,106705721,&#43;
+TFLinkLT09890518,inferred by curator,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=18971253%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,ORegAnno,Yes,hg38,chr3,12120480,12120590,&#43;
+TFLinkLT09890549,inferred by curator,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=18971253%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,ORegAnno,Yes,hg38,chr2,4764040,4764162,&#43;
+TFLinkLT09890584,inferred by curator,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=18971253%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,ORegAnno,Yes,hg38,chr16,81624941,81625082,&#43;
+TFLinkLT09890593,inferred by curator,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=18971253%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,ORegAnno,Yes,hg38,chr17,37519657,37519802,&#43;
+TFLinkLT09890594,inferred by curator,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=18971253%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,ORegAnno,Yes,hg38,chr17,37609321,37609467,&#43;
+TFLinkLT09890619,inferred by curator,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=18971253%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,ORegAnno,Yes,hg38,chr6,26568747,26568876,&#43;
+TFLinkLT09890623,inferred by curator,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=18971253%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,ORegAnno,Yes,hg38,chr11,93890936,93891064,&#43;
+TFLinkLT09890630,inferred by curator,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=18971253%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,ORegAnno,Yes,hg38,chr8,105721366,105721509,&#43;
+TFLinkLT09890632,inferred by curator,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=18971253%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,ORegAnno,Yes,hg38,chr1,206094200,206094326,&#43;
+TFLinkLT09890685,inferred by curator,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=18971253%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,ORegAnno,Yes,hg38,chr17,56764160,56764291,&#43;
+TFLinkLT09890714,inferred by curator,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=18971253%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,ORegAnno,Yes,hg38,chr10,88090666,88090789,&#43;
+TFLinkLT09890733,inferred by curator,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=18971253%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,ORegAnno,Yes,hg38,chr6,35044876,35045011,&#43;
+TFLinkLT09890736,inferred by curator,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=18971253%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,ORegAnno,Yes,hg38,chr11,6603598,6603727,&#43;
+TFLinkLT09890821,inferred by curator,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=18971253%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,ORegAnno,Yes,hg38,chr15,21278976,21279064,&#43;
+TFLinkLT09890834,inferred by curator,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=18971253%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,ORegAnno,Yes,hg38,chr21,28671099,28671180,&#43;
+TFLinkLT09890871,inferred by curator,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=18971253%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,ORegAnno,Yes,hg38,chr6,25343219,25343343,&#43;
+TFLinkLT09890873,inferred by curator,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=18971253%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,ORegAnno,Yes,hg38,chr1,60559456,60559581,&#43;
+TFLinkLT09890886,inferred by curator,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=18971253%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,ORegAnno,Yes,hg38,chr11,3834313,3834461,&#43;
+TFLinkLT09890888,inferred by curator,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=18971253%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,ORegAnno,Yes,hg38,chr18,35084393,35084516,&#43;
+TFLinkLT09890894,inferred by curator,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=18971253%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,ORegAnno,Yes,hg38,chr2,195986265,195986415,&#43;
+TFLinkLT09890903,inferred by curator,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=18971253%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,ORegAnno,Yes,hg38,chr6,64482726,64482842,&#43;
+TFLinkLT09890905,inferred by curator,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=18971253%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,ORegAnno,Yes,hg38,chr6,64737748,64737882,&#43;
+TFLinkLT09890928,inferred by curator,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=18971253%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,ORegAnno,Yes,hg38,chr11,14455375,14455504,&#43;
+TFLinkLT09890946,inferred by curator,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=18971253%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,ORegAnno,Yes,hg38,chr1,213154369,213154497,&#43;
+TFLinkLT09890956,inferred by curator,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=18971253%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,ORegAnno,Yes,hg38,chr12,62533824,62533968,&#43;
+TFLinkLT09890965,inferred by curator,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=18971253%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,ORegAnno,Yes,hg38,chr4,37298611,37298738,&#43;
+TFLinkLT09890969,inferred by curator,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=18971253%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,ORegAnno,Yes,hg38,chr1,150160463,150160470,&#43;
+TFLinkLT09890976,inferred by curator,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=18971253%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,ORegAnno,Yes,hg38,chr6,154432976,154433114,&#43;
+TFLinkLT09891001,inferred by curator,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=18971253%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,ORegAnno,Yes,hg38,chr3,18901107,18901239,&#43;
+TFLinkLT09891087,inferred by curator,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=18971253%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,ORegAnno,Yes,hg38,chrX,96231882,96232006,&#43;
+TFLinkLT09891091,inferred by curator,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=18971253%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,ORegAnno,Yes,hg38,chr7,128108861,128108991,&#43;
+TFLinkLT09891101,inferred by curator,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=18971253%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,ORegAnno,Yes,hg38,chr6,136782485,136782632,&#43;
+TFLinkLT09891162,inferred by curator,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=18971253%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,ORegAnno,Yes,hg38,chr10,77671304,77671420,&#43;
+TFLinkLT09891165,inferred by curator,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=18971253%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,ORegAnno,Yes,hg38,chr7,135664109,135664230,&#43;
+TFLinkLT09891179,inferred by curator,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=18971253%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,ORegAnno,Yes,hg38,chr12,4069002,4069128,&#43;
+TFLinkLT09891189,inferred by curator,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=18971253%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,ORegAnno,Yes,hg38,chr2,221130273,221130395,&#43;
+TFLinkLT09891275,inferred by curator,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=18971253%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,ORegAnno,Yes,hg38,chr4,81411447,81411582,&#43;
+TFLinkLT09891289,inferred by curator,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=18971253%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,ORegAnno,Yes,hg38,chr3,47316215,47316331,&#43;
+TFLinkLT09891304,inferred by curator,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=18971253%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,ORegAnno,Yes,hg38,chr6,129737515,129737624,&#43;
+TFLinkLT09891306,inferred by curator,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=18971253%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,ORegAnno,Yes,hg38,chr13,87764128,87764274,&#43;
+TFLinkLT09891351,inferred by curator,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=18971253%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,ORegAnno,Yes,hg38,chr2,157468894,157469029,&#43;
+TFLinkLT09891363,inferred by curator,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=18971253%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,ORegAnno,Yes,hg38,chr5,67306440,67306583,&#43;
+TFLinkLT09891369,inferred by curator,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=18971253%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,ORegAnno,Yes,hg38,chr1,202852393,202852509,&#43;
+TFLinkLT09891396,inferred by curator,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=18971253%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,ORegAnno,Yes,hg38,chr14,24784554,24784692,&#43;
+TFLinkLT09891398,inferred by curator,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=18971253%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,ORegAnno,Yes,hg38,chr11,22163416,22163545,&#43;
+TFLinkLT09891406,inferred by curator,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=18971253%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,ORegAnno,Yes,hg38,chr9,37146704,37146818,&#43;
+TFLinkLT09891407,inferred by curator,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=18971253%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,ORegAnno,Yes,hg38,chr9,37197212,37197358,&#43;
+TFLinkLT09891448,inferred by curator,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=18971253%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,ORegAnno,Yes,hg38,chr1,31505958,31506104,&#43;
+TFLinkLT09891464,inferred by curator,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=18971253%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,ORegAnno,Yes,hg38,chr5,96932933,96933077,&#43;
+TFLinkLT09891468,inferred by curator,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=18971253%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,ORegAnno,Yes,hg38,chr3,102513345,102513465,&#43;
+TFLinkLT09891485,inferred by curator,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=18971253%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,ORegAnno,Yes,hg38,chr4,178935978,178936119,&#43;
+TFLinkLT09891510,inferred by curator,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=18971253%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,ORegAnno,Yes,hg38,chr1,172934057,172934156,&#43;
+TFLinkLT09891523,inferred by curator,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=18971253%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,ORegAnno,Yes,hg38,chr2,99686316,99686452,&#43;
+TFLinkLT09891532,inferred by curator,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=18971253%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,ORegAnno,Yes,hg38,chr1,178133365,178133506,&#43;
+TFLinkLT09891536,inferred by curator,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=18971253%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,ORegAnno,Yes,hg38,chr14,60196367,60196506,&#43;
+TFLinkLT09891543,inferred by curator,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=18971253%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,ORegAnno,Yes,hg38,chr1,161502989,161503126,&#43;
+TFLinkLT09891554,inferred by curator,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=18971253%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,ORegAnno,Yes,hg38,chrX,102581030,102581147,&#43;
+TFLinkLT09891557,inferred by curator,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=18971253%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,ORegAnno,Yes,hg38,chr3,112975076,112975213,&#43;
+TFLinkLT09891559,inferred by curator,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=18971253%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,ORegAnno,Yes,hg38,chr3,39407337,39407444,&#43;
+TFLinkLT09891584,inferred by curator,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=18971253%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,ORegAnno,Yes,hg38,chr6,22645040,22645187,&#43;
+TFLinkLT09891629,inferred by curator,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=18971253%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,ORegAnno,Yes,hg38,chr8,141308264,141308413,&#43;
+TFLinkLT09891643,inferred by curator,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=18971253%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,ORegAnno,Yes,hg38,chr5,170331202,170331310,&#43;
+TFLinkLT09891658,inferred by curator,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=18971253%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,ORegAnno,Yes,hg38,chr4,78692398,78692521,&#43;
+TFLinkLT09891716,inferred by curator,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=18971253%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,ORegAnno,Yes,hg38,chr8,100938700,100938845,&#43;
+TFLinkLT09891717,inferred by curator,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=18971253%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,ORegAnno,Yes,hg38,chr1,13701992,13702123,&#43;
+TFLinkLT09891720,inferred by curator,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=18971253%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,ORegAnno,Yes,hg38,chr5,147734948,147735071,&#43;
+TFLinkLT09891742,inferred by curator,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=18971253%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,ORegAnno,Yes,hg38,chr3,142134784,142134920,&#43;
+TFLinkLT09891753,inferred by curator,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=18971253%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,ORegAnno,Yes,hg38,chr6,139823712,139823836,&#43;
+TFLinkLT09891792,inferred by curator,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=18971253%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,ORegAnno,Yes,hg38,chr11,76588607,76588756,&#43;
+TFLinkLT09891819,inferred by curator,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=18971253%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,ORegAnno,Yes,hg38,chr1,192170328,192170467,&#43;
+TFLinkLT09891841,inferred by curator,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=18971253%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,ORegAnno,Yes,hg38,chr7,135180251,135180361,&#43;
+TFLinkLT09891849,inferred by curator,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=18971253%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,ORegAnno,Yes,hg38,chr10,104746912,104747029,&#43;
+TFLinkLT09891885,inferred by curator,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=18971253%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,ORegAnno,Yes,hg38,chr5,34864059,34864203,&#43;
+TFLinkLT09891895,inferred by curator,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=18971253%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,ORegAnno,Yes,hg38,chr14,31849024,31849168,&#43;
+TFLinkLT09891920,inferred by curator,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=18971253%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,ORegAnno,Yes,hg38,chr7,139916529,139916645,&#43;
+TFLinkLT09891934,inferred by curator,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=18971253%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,ORegAnno,Yes,hg38,chr3,94524288,94524418,&#43;
+TFLinkLT09892001,inferred by curator,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=18971253%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,ORegAnno,Yes,hg38,chr6,68740934,68741076,&#43;
+TFLinkLT09892063,inferred by curator,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=18971253%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,ORegAnno,Yes,hg38,chr10,63545203,63545317,&#43;
+TFLinkLT09892064,inferred by curator,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=18971253%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,ORegAnno,Yes,hg38,chrX,109943202,109943312,&#43;
+TFLinkLT09892088,inferred by curator,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=18971253%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,ORegAnno,Yes,hg38,chr8,127619114,127619245,&#43;
+TFLinkLT09892127,inferred by curator,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=18971253%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,ORegAnno,Yes,hg38,chr14,29156564,29156713,&#43;
+TFLinkLT09892143,inferred by curator,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=18971253%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,ORegAnno,Yes,hg38,chr18,55488496,55488623,&#43;
+TFLinkLT09892169,inferred by curator,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=18971253%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,ORegAnno,Yes,hg38,chr12,94040108,94040250,&#43;
+TFLinkLT09892198,inferred by curator,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=18971253%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,ORegAnno,Yes,hg38,chrX,94324815,94324930,&#43;
+TFLinkLT09892249,inferred by curator,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=18971253%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,ORegAnno,Yes,hg38,chr8,66752596,66752730,&#43;
+TFLinkLT09892269,inferred by curator,&amp;ensp;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/?term=18971253%5Buid%5D&#34; target=&#34;_blank&#34;&gt;&lt;i uk-icon=&#34;icon: link&#34;&gt;&lt;/i&gt;Pubmed&lt;/a&gt;,ORegAnno,Yes,hg38,chr17,39167605,39167741,&#43;" />
+    <p></p>
+  </div>
+</div>
+
+<div class="uk-grid" data-uk-grid-margin>
+  <div class="uk-width-1-2@m">
+    <h2>Binding site sequences of TAL1</h2>
+    <div class="binding-sites">
+      <p>&gt;TFLinkLT09284829;P17542;TAL1;hg19;chr2:91613744-91613860<br />
+CATTCCATGATTCCTTTCGATTCCATTTGATATTGCTTCCATTCGAGTCCATTCGATGATTCCATTTGATTTCATTCAAT<br />
+GATGATTCGATTCAATTCCGTTCGATGATTCCATTT<br />
+&gt;TFLinkLT09890325;P17542;TAL1;hg38;chr1:221478300-221478422<br />
+ATTCATTGCTCATGATATTTGGTAGATGTAGTCTGCATTAGTGCACACATATTCTGCAACAACAGATAAAAACCCCAAAC<br />
+GGCAAAAATGTCAGGAAACTCATTCGTATGGAGGGTGCACAT<br />
+&gt;TFLinkLT09890330;P17542;TAL1;hg38;chr16:30472511-30472654<br />
+GTGAGAAACCATGACAGCAGTGGAGACTGTCATCTCCCTGACATGCTGTCAGCTTTTGGATGATGTGAAAATGCAAGCAG<br />
+GCACAGGAAATGTCTCTAACTTGCTTACACTTCCTCCCTGAACCCCTGCGGTTTCACAACTCC<br />
+&gt;TFLinkLT09890339;P17542;TAL1;hg38;chr16:53121312-53121439<br />
+AGGAGTGCTTATGTTACCCAAAGAGAAACAGATGCACAAAGAGAAGGAATGAGATGCTCGGGGATATTTTATCAAGGAAA<br />
+CCAGCAAACCGTCTTTTTCCTGAAGACCTTTTAAGATTAGGACAAGC<br />
+&gt;TFLinkLT09890369;P17542;TAL1;hg38;chr13:48495061-48495190<br />
+AAGTTATAACCTTTCATCTACTAAAATGTCTCTGTTTTCTTTGACCAAAGGAGAGGATATCCTTATACCAAAAGGAAACT<br />
+GACTCGAAGATGTTACAGCCTGTTTCCTAAAGATTTGGTTCTAAGATTG<br />
+&gt;TFLinkLT09890372;P17542;TAL1;hg38;chr17:76252361-76252473<br />
+CATATTCTAGTGGTTTCCCAATTCGGTTGTGTACAACCCAGTGCTCTAGTGTTCAGTAAATACTTCCTTCCTCTTTAGGC<br />
+AGAACACTGGCTCTGTGTTTTATTAACAGCAC<br />
+&gt;TFLinkLT09890379;P17542;TAL1;hg38;chr22:44085019-44085146<br />
+GTAATGCTGCTCTTGTCATTCTGGAGCATGCCCTTTCATTTCTTTTTCTGTGAATTTTGATACGTACACATAGAAATACA<br />
+TAGTGGTGAGTTTTCTAGTTGTATTTTTTACATAAATATCATGCTGT<br />
+&gt;TFLinkLT09890387;P17542;TAL1;hg38;chr17:29720805-29720932<br />
+TGACAATTTAAGGACCTGTCAAAGAAAAGGGAAAAGAGAAAGCAAGTAGAAGTCACTGTCCTTAATTACCTCACAATTTT<br />
+TCACCCATCCAGTGTTCTCTGTTTCCTAGTCTTTTCCCCTTACAGAA<br />
+&gt;TFLinkLT09890389;P17542;TAL1;hg38;chr1:228921705-228921852<br />
+AGGAACTTAATTTTTCCTGAGTGTTCTCAAGGTTGAGGCTAAGACCAAGGCCTCAAGTAGGCTTTCCGGTTCAGCAGGAG<br />
+TGTCTGGAAGAGATTTAGTTCAAACACTGACTCTTCAGACTGATAAGCTCTGCTTCATCCCTGACAA<br />
+&gt;TFLinkLT09890400;P17542;TAL1;hg38;chr12:89999934-90000053<br />
+CATCTGTTTCATTCCTGCCAATTAAGAGCAACAGCTGTCTTGCAGGGATGGTGGTCGTTAGGAAGTGACACAGCTGTGGG<br />
+ATTTAGATGAGATAACGGTTGTACAGCCAAGATAAGGCA<br />
+&gt;TFLinkLT09890430;P17542;TAL1;hg38;chr6:103662912-103663059<br />
+GCCAACTGAGTACTTCTCTTGGGAAATAAATATAGCCCTATGCTCTTCCATGTTTGATATCTGCAAACAGTATTGTCCAA<br />
+TAGTTATTAATCTTCAGAGGGTATATACAGTACCAGCTATATCACTGGATGCAGAAGTTTCTCTTGT<br />
+&gt;TFLinkLT09890500;P17542;TAL1;hg38;chrX:131575132-131575214<br />
+AAAAAGTCTAAAACATTTGAAAAGTTTATAAAGTAGAAAAGTTACACCAAATTAAGTTTGATTTACTATTGAAGAAATAA<br />
+AT<br />
+&gt;TFLinkLT09890502;P17542;TAL1;hg38;chr1:65060067-65060213<br />
+GTCATCATCTAGGTCTTAGCCAACTGTAATACAGAGTTGAAACACGAGAGGGCAACGAAGATTAAAGAAAAAAAAAAAAT<br />
+CACAGTTGGATCCCATAACCTAAGGTTCTTGGAAATAGTTGCACATTTTTACCCGAATTATAAACA<br />
+&gt;TFLinkLT09890503;P17542;TAL1;hg38;chr14:106705625-106705721<br />
+CTATTAAGGTATTTATAATCTTAGAAGCCGACTTTAAAAAGATAGTTCTCCTTGTCTTGAATTGTGGGAGCAGCTCAGAT<br />
+GTGATAGAATATTTAA<br />
+&gt;TFLinkLT09890518;P17542;TAL1;hg38;chr3:12120480-12120590<br />
+TTGTGGTGCCAAGAAGGATAGGGAGAGAGCGGATTCAGGCAGGTCATGGTGGCACAGATGTTTCCTGTCCCTTAGCCAGT<br />
+CTGGCTGTGTCTTTCAGAGAAAGCCAAATG<br />
+&gt;TFLinkLT09890549;P17542;TAL1;hg38;chr2:4764040-4764162<br />
+TTTCATCTTCTGTGTAACTTTGTGTAAGAGTACATTTAATTTGGACATACTCTGACAAGTAAGCAAGAACAAATACTGAA<br />
+TTGAATTGGCATATTCCAGGGAGTTATTCATGAGTTGATTCA<br />
+&gt;TFLinkLT09890584;P17542;TAL1;hg38;chr16:81624941-81625082<br />
+GAGGAGTTTGCTCGGCAATGGACACTGCATTTTGTGAATTACTTCCTCTCACTGAATAGGTTCTGTTCTTATCAACATTT<br />
+GCAGATGGGGAAACCTGAGTGTAGAGAGGATAAGTCAGTCGCACAAGGTTCCAAGGCCACC<br />
+&gt;TFLinkLT09890593;P17542;TAL1;hg38;chr17:37519657-37519802<br />
+TCGAAATGAATGGGCATTAAACACATAAGAATTATTTCCAGATGAACAGGCTTATCAGTAAGCTACAGTCAGCCATGGAA<br />
+AAGTAGAGTCCAAACCTCAACCACTTCCTGGGGTTAGTTTTCTAATATGCACTGCAAATAAACAA<br />
+&gt;TFLinkLT09890594;P17542;TAL1;hg38;chr17:37609321-37609467<br />
+CGCCACCAGAACCAGCTCCTGGCCGCAGCGCCATCTTGCTCCCGACCTGCCGCTGCCTTCGCCGCCGCCACCTTATCAGC<br />
+AGCTGTCAGCTGAACACAGCCACTTCCGGGTCAAACACCAGGCCCCACCTCGCCGCGGACCGGGCG<br />
+&gt;TFLinkLT09890619;P17542;TAL1;hg38;chr6:26568747-26568876<br />
+GGATGTCAAAAGAACATCAACGACGCAGGTAAACAGGACGACAAGCATCCACGATTGCCCAACCTTCCGCAGAGATGGCA<br />
+TCCCCAGCGGGAAGTGAAAGTCGTGTGAATCCTTCGATAGCTCAGTTGG<br />
+&gt;TFLinkLT09890623;P17542;TAL1;hg38;chr11:93890936-93891064<br />
+CCACTGTCTTTGTAAATTCAATTGATGACACATTTAAACATGACACACACAGAAAAATGCATAAAATATAGACATACAAT<br />
+TTGATAAACAATAAACACAAATGTATAAGTTACATAATTATGAAACAA<br />
+&gt;TFLinkLT09890630;P17542;TAL1;hg38;chr8:105721366-105721509<br />
+TTGGCAGTCAGTATGTGTTGAATGAATGAATTTCATCATGATTCATGTAGCCTTCCATATTTATAATTCCACAAAAACAG<br />
+AAAGTTTATCTTTTTCTCACAGCTTTTCTATGTAATGACAACAGATTATATTAATATCAAATC<br />
+&gt;TFLinkLT09890632;P17542;TAL1;hg38;chr1:206094200-206094326<br />
+ACGTGCACGCGCAAATGAGCAGATGTCTCTGCTGATTGTCTGATCAGCAGTCTGCAATTAGACCCCAAGGAACAACCTGC<br />
+TCATTGTGGTTAGGGGCCATTAGCCACTTAAATAATGACATCTGTC<br />
+&gt;TFLinkLT09890685;P17542;TAL1;hg38;chr17:56764160-56764291<br />
+GGAGATTGGAACTTGGGATGAGGGAAAAAGAAAAAGCATTCAAAGCATCTTCCAAGAGAGAAAAACTCAAGATTTACCAA<br />
+AATGTATTTTATTTTGTTTTTCAAGCTGCAAAAAGCTGAGGAGAATCATAA<br />
+&gt;TFLinkLT09890714;P17542;TAL1;hg38;chr10:88090666-88090789<br />
+AGAAAACCACTGTCTGAATCTTGCTTGTGCACACGCGTCAGGGGGTGGAAGGAGGAAGTGGACACAGCAGATGTGGCGTA<br />
+CTGGCTTGCGTGGTCGTAGTAGGGTTAAAAGGTTCCCAACAGA<br />
+&gt;TFLinkLT09890733;P17542;TAL1;hg38;chr6:35044876-35045011<br />
+AGGGAGGAGGGTGGTGTGGACTATTTGCCTGGCATCTGTGGTTTTACGAGGACTACAGATGTTTCCCAGTGTAAGTAAGG<br />
+CTGGCATCTGGTCAAGTTACAGAGGGAAACAGGCACAGTATCTCCTGCTATGGCC<br />
+&gt;TFLinkLT09890736;P17542;TAL1;hg38;chr11:6603598-6603727<br />
+CGGAAACCAAAGCGTGACAGCCAGGGGTTGCTAGAGCGGCCGGCGCGGCGCAGCGAACCATCGAGTTTAGCCAGGCGCGG<br />
+CTAGAAGGGCAGGGAGGCGGTGGGAGGGGAGGGACGGAGGCCCGCGCTG<br />
+&gt;TFLinkLT09890821;P17542;TAL1;hg38;chr15:21278976-21279064<br />
+GGGATTAGGTTATTAGTGACAATCTTCATAAGCAGGTTTCAAACGACTTGTAGTAGTAGAAACTGGGATGAAGGGAACTG<br />
+TAGTAATT<br />
+&gt;TFLinkLT09890834;P17542;TAL1;hg38;chr21:28671099-28671180<br />
+TATGGAACAAGGAGGGGCAAGAGCCTTCACGGGAGGCTCAGGCCTCAGAGACTGCAGCCAGCTTTGGATCTTGCCTGTGA<br />
+T<br />
+&gt;TFLinkLT09890871;P17542;TAL1;hg38;chr6:25343219-25343343<br />
+AAATGCAGAATAGGGATTAGAGAGGATTTAAATTTATTTTGCACATAGAGGATTGAACGTAATTACTCAGAGAGTTAGCT<br />
+AAAATCAGTATTTTTGCTTTTTTTTTTTTTTTTGGACAAGCCAG<br />
+&gt;TFLinkLT09890873;P17542;TAL1;hg38;chr1:60559456-60559581<br />
+GCACTGGGGGATGAAAGGAGAGAGGCACGGGGAAGTGGCATACAGGAAAATCCATTTCACCAAACACATAAAAATGATCT<br />
+GCGTGTGAGCATTCTAAAGGAAATGGAAGCCATATGTTTCTGATT<br />
+&gt;TFLinkLT09890886;P17542;TAL1;hg38;chr11:3834313-3834461<br />
+GAAGCCTTGGCTTCTCTGGACTAAATGACAAAAAAAAACCTCTAAGTATAGGGCTAGGCACACAGGACTGTACAACCATT<br />
+GCCTTTTGATCTGCTTGTACCAGCCCTCATCACTGAGATATGGAGAGACTTCTCTGAAGCCCAGTATC<br />
+&gt;TFLinkLT09890888;P17542;TAL1;hg38;chr18:35084393-35084516<br />
+AGATTCTTAAAAAGGTTTTAAGATCATATGAATTAATGAAAAACTGAGGGCATTTATCAGATAAAAGACCAATCACATGA<br />
+TTTGACAAGGCCTTTTAATTAATCTGCTGATGCTCTTAAAAAT<br />
+&gt;TFLinkLT09890894;P17542;TAL1;hg38;chr2:195986265-195986415<br />
+ACTTCCTTCAGCAGTTTTATTCATGTTTAGAGCCTTAGAGCCGAAGTGGCTAGTCTTGTGCCTAACACATGGTAGGTAAA<br />
+TAAAACTTCCTTCAGGCTTCTATACAGCTTGAAAGAAATATTTTTAATGATCTGTTTTTTTCTCTGATAC<br />
+&gt;TFLinkLT09890903;P17542;TAL1;hg38;chr6:64482726-64482842<br />
+AAGAAAAATTCTTTTTGCTTACAATTTGCATCTGGTGGGAACTAACATCTTACAAAAAGTGTTGCAAACAGTAGCTAACA<br />
+ATTTTTTTACCTGCAGATGACTAAGTATATTTTTTC<br />
+&gt;TFLinkLT09890905;P17542;TAL1;hg38;chr6:64737748-64737882<br />
+CAGGAAGACTCAGATCTACTACAAAGTCAGAGTGTTGCATGAACCATCGAGTAACTGTGATAAGGAAAGGGAGCACTGAC<br />
+ATTCTCAAGAGGTCACAGTTTCCATTTGAGCAATACTTGCTTTAACTGTGGAAA<br />
+&gt;TFLinkLT09890928;P17542;TAL1;hg38;chr11:14455375-14455504<br />
+GCTACTATCTTTGAATGTATATTATATCCCAAATAACAGGGCATAGTGTAAACAGCTTCTTTCAACAATGTGCTGCTATC<br />
+CAATTCAGTTCACATTTATTACATGCACAAAGCTAATGAAATGCTAATG<br />
+&gt;TFLinkLT09890946;P17542;TAL1;hg38;chr1:213154369-213154497<br />
+TATAGAAGTGCTGTCAGGGAGTCAGGGACTAGAATCAAAAACCTTAGAAGTCTACCCGGTGTTATCTTGTATTGCACTGT<br />
+TGGGGCACTCAAACCACAAGGTGCAGTTCTTCCCACTCTTCCTTCCCT<br />
+&gt;TFLinkLT09890956;P17542;TAL1;hg38;chr12:62533824-62533968<br />
+TTCTCTATATTGAATTACCATGACATCACACTAGTTTCTTCAGTTCCAGTTCAGTACCACAAGGTTTATTTTTAACTTTC<br />
+TGTATTTGTAATTCCCTTCTCCAACAGTGTTGGAACCTGCTCACATTTTGCTCAGTGTATTTAC<br />
+&gt;TFLinkLT09890965;P17542;TAL1;hg38;chr4:37298611-37298738<br />
+GCTCTTCATTATTTGCTAAGTGATAGATGTAAAAGAAACTATGGAAACAGAAAATCATTATTTGACAACCATAATAATTT<br />
+ATTCAGACAAGGATCATCAATGAAAGTTCGAGGAGCAACAGCCTATA<br />
+&gt;TFLinkLT09890969;P17542;TAL1;hg38;chr1:150160463-150160470<br />
+CCGTCTC<br />
+&gt;TFLinkLT09890976;P17542;TAL1;hg38;chr6:154432976-154433114<br />
+AACATCAGTAGGAGGAAGGCCTTATCAAAAGAGCACAGGCTGGCGTATGTCAAAAGGAGGAAGTGATGATGAATAGTTAC<br />
+AAAATGCTCCTTAAACAGTTACAGCACATCCCCCCTCCATCATAAGGTTTTTGCCAAG<br />
+&gt;TFLinkLT09891001;P17542;TAL1;hg38;chr3:18901107-18901239<br />
+ATTTTCTCAGTTTCTGTGGGTCAGCAGTTCATGCTTGGCTTAACTGTGTTCTTCCTCTGCGAGGCTAAACTCAAAGTGTC<br />
+AGCCAAGGCTGTGGTTTCATCTGACATTCGACTAAAAACAGACTCATTTCCT<br />
+&gt;TFLinkLT09891087;P17542;TAL1;hg38;chrX:96231882-96232006<br />
+TTGACTTTCCCAATTAATAGAAACAAAAATCTGAGAACATGTGTGGAAATAAATATTAATGGCAAGAGATAATGGTGGAA<br />
+ACAACACAAAGTTGGATCCAGCTAAATTTCTTGATATGGGCCCA<br />
+&gt;TFLinkLT09891091;P17542;TAL1;hg38;chr7:128108861-128108991<br />
+TAGAGCATGCAAGAGTTCAAAGCAGAGCTGAGTAGAAAGAGGAAGACAGAAGTGAGATTTGTAATTCTGAACCACTCAAA<br />
+TAGGTTAAAAATAGCACTCACAGGCAACAAACGCATACGCATGCACACAC<br />
+&gt;TFLinkLT09891101;P17542;TAL1;hg38;chr6:136782485-136782632<br />
+GAGGCTACAAGTATTGGAAAGTACTGGTATAACTGGTCTCAACCATTTTTGGAGATTGCCAGTACAAAGGAATATAACTT<br />
+ACTTCCTGTATGAATCATATACCAAAGGCAATTGCTTTCCTCATTGTTGATGAACTACTGTAACAGA<br />
+&gt;TFLinkLT09891162;P17542;TAL1;hg38;chr10:77671304-77671420<br />
+CGGAGAGTGATCTTGAATAGCAGACAGAAGGTTGGGGTGACTGAAGAGAGCACTATTTCACATTCTTAGGCAGAGTGTAA<br />
+GGTGGTAACAGAAGTGAGCTAAGTATTTGTGAAGGT<br />
+&gt;TFLinkLT09891165;P17542;TAL1;hg38;chr7:135664109-135664230<br />
+TAACTAGATGTTAGTTTAGGAGTTCAGAATAATGACAGTCATTTTCTTGTAGTAAACACTAGATTAAAAGCGGTATCACT<br />
+TAGCTCCAGAGTATAGAATGATGTAATTGAGCTGCTTACTA<br />
+&gt;TFLinkLT09891179;P17542;TAL1;hg38;chr12:4069002-4069128<br />
+TCTGTTTCTATTGCCCATCTGTTCTTGCAGGCTGTCTACTTTACCCATGAGAGGCCTTAGCATATTAATCACAGCTGCTT<br />
+TAAATTCCTGGTCTGATAAGTCCAATATCCCTGCCATATCTAAATC<br />
+&gt;TFLinkLT09891189;P17542;TAL1;hg38;chr2:221130273-221130395<br />
+AAGTAGAGGTGCTATCATCTAATCACTAATTCTGCTGCACAAGGAAACGATAAGCTCTTCTTTCCATGACCTATCAGTTA<br />
+ATAGGACTCAGGCTGCATTGTGCTTTTTCTTTTCTGAGGTAT<br />
+&gt;TFLinkLT09891275;P17542;TAL1;hg38;chr4:81411447-81411582<br />
+TCATTCGGGATGCAGGACATAATTGTTGATTAGAAAATATTTACATTGACTTGAAATCTGCTTCCTTGTAATTTTCACAT<br />
+GTTAGCCTCAATTCTTCCATTTTACACAGTAGAGTAAGCCTAAATAAGACAGTGA<br />
+&gt;TFLinkLT09891289;P17542;TAL1;hg38;chr3:47316215-47316331<br />
+ACAATACTGTGAAATTTTAGAACTACAAGAATACAGAGAAAATCCTAAAGGCTTCTAGAGAGCACAGTTACATACTTAGA<br />
+GTTAGGATTCAAAATAGCATTGGATTTCTCAATAAC<br />
+&gt;TFLinkLT09891304;P17542;TAL1;hg38;chr6:129737515-129737624<br />
+TATCAGTATGAAGTTTTCATGATATCCCCTTACCTAATGTCTAAGATTTATAGGGATGTCATGTTTTCTTCTTTGAGATT<br />
+AGTATTTGTGACTTCCCTTTTTCTTAATC<br />
+&gt;TFLinkLT09891306;P17542;TAL1;hg38;chr13:87764128-87764274<br />
+GAGTTTGTGGATGTTTGTTGGTAAGGTTGTAATAAGGAATTATATATAAGATAAGAGATTAAATTGGTGTAAGCACTTTT<br />
+AAAACAATACAGCAAATACCTTGGCAATTTGAAATGCAAAAATCCTTTGTATCCAATCGCATGTCT<br />
+&gt;TFLinkLT09891351;P17542;TAL1;hg38;chr2:157468894-157469029<br />
+CCTTATATCAAAGAATAAAAAGGAGCCAGCATTTTAGATACAATGGCAAGGGAAGGTGTAATTTGGCTCTGTAACAATGT<br />
+GATAACTTCTGCAAATGCCACATTGACTTACATTTTCCAAAACACAAAAGACCAT<br />
+&gt;TFLinkLT09891363;P17542;TAL1;hg38;chr5:67306440-67306583<br />
+GTGAGAGAGTACCACGCCTGAAAAATTGCTTGTTAGCTGGTGAAATAAATGTTCTTGGATTACTCAGTGCAGGAAGTGAG<br />
+TTGCACAGTAGATAATGAGGGGGAATTTCCTCCCCAGCTATGGCCTAGTGAAAATGTAGACCA<br />
+&gt;TFLinkLT09891369;P17542;TAL1;hg38;chr1:202852393-202852509<br />
+CCCTGCGTTTGTAAGGCATCAGGACAGAGCCCTCAAGTCTAAGATGGCTGCTGCGGAGAGGCCTGTGAAGGCAACCTCTA<br />
+CTGCCCTCTCTTGGCCATCAGGCGGGAGGAGTGGTT<br />
+&gt;TFLinkLT09891396;P17542;TAL1;hg38;chr14:24784554-24784692<br />
+CACTATGTTTTTTTCTCCCTTAGAAAGGAGTACTTTTGAGTACAGACAACATCAGATTAAGCAAAATAGTTAGGGTATGA<br />
+TCTTCAAGAGGGCAGAAACATATTATTTTGTTCATGCTGTATTTCCAGGACTGTATTC<br />
+&gt;TFLinkLT09891398;P17542;TAL1;hg38;chr11:22163416-22163545<br />
+TTTGAAGTTGCATGATCTTGTGGTTAAAAAAAAAAAACAATGATACTACACTGGACTGGAAGATTTCAGATCTAGTCCCT<br />
+GCCTCACTTCCTCATTGTGTAACAGAGGGCACTAGAGACACATTGCCGA<br />
+&gt;TFLinkLT09891406;P17542;TAL1;hg38;chr9:37146704-37146818<br />
+AAATAAGAGAGAAGTCTTTAATGTGCTTGTAATATGATAAGGACAGATTTAAAAATTTTGTTTCTCTTCTCATTACTTGG<br />
+TGTTTGACTTCAGTGGAAGCTGAAAGAAGTAAAT<br />
+&gt;TFLinkLT09891407;P17542;TAL1;hg38;chr9:37197212-37197358<br />
+GGCAGCTGCTACAGATAAACTCTGGAGCCCCAGATGGTGGTTGCCTAATCCTCATGAGAATTCATGTCCTGGAAGCAGCT<br />
+CTTATCTCTCCAGACCTGACATTGTCTGTGAGCTTTTGCTAAGGAGGGAATAATATAAACATGCTA<br />
+&gt;TFLinkLT09891448;P17542;TAL1;hg38;chr1:31505958-31506104<br />
+GTGTCTAAGTGTGTGTACGTGTGAATACTCAGGGTGAGTGCCCCTTCGTAGGTGCCTCGTTGGCCTGAGTGTGCAGCTGT<br />
+CTGAAAGCACACACTTATGCCAGTGTAATCAGTTATGTTTCCGCTCTTTGTTTCTGCATTTGGCCC<br />
+&gt;TFLinkLT09891464;P17542;TAL1;hg38;chr5:96932933-96933077<br />
+ATAATGAATCGTAACTTCATAATAACTTAAACTGTCATATTCTTAAACTAAAGAGGAAGTTCTGTGTGGGAGGATAGGCG<br />
+GGTGTTAAAGATAAAAACATAATGGGTTTTGGTTGTGAAATTGTGATATCATATTCCCTCAAAA<br />
+&gt;TFLinkLT09891468;P17542;TAL1;hg38;chr3:102513345-102513465<br />
+GATGGTTAGCATAGTTCAGACTAAAGCATTCACCTTTATCTTGCATGGACAATAAGTGCTAAATGATACAAGGTCCAAAT<br />
+TTGCTTTTTCACAATCCAAATTCACTGAAATATTTGATTA<br />
+&gt;TFLinkLT09891485;P17542;TAL1;hg38;chr4:178935978-178936119<br />
+ACCTTGAACTATAAAAATGAAGAATATGTAGTGATAAAAGTGATAATCCATGTTGAATACTTTGTAATATCCAAGTCCTG<br />
+TTTATCTTTCAGCTCACTTGAGCATATTCTAGCATATTTCCATTAAATGTCCATACAAAAT<br />
+&gt;TFLinkLT09891510;P17542;TAL1;hg38;chr1:172934057-172934156<br />
+CAGCCATGCTGAGTCATGCTGGCCAGATAACTATCAGAAGGATTTCCTGTTTGCCTGCGAGGGACACAGATGATAAATTA<br />
+TTTTTCCTCTTATTTAACC<br />
+&gt;TFLinkLT09891523;P17542;TAL1;hg38;chr2:99686316-99686452<br />
+CCAAATAACACTGTGAAGGAAGTTGAGTTTACCTTTGAAAACCCCTACCACTTCAGGTGCACACTCCCTCTCCAGGACTC<br />
+ATACTCCCATGTAGACTATTCCTTTCTGACCAAGGAACTGGAGCTATTCTCATGGT<br />
+&gt;TFLinkLT09891532;P17542;TAL1;hg38;chr1:178133365-178133506<br />
+AGTAAACCTAGCAACTCTATGAATAGCAGGACAGACTTGAATGTGGTGTGTGTGCAAGGAAGTTATTTAACTTTCTTAAT<br />
+CTTAAATGCCACCAGAAAACATTCTGCTCCCTGTTACTTCTTTTTTTTTTTTTTTTAAATT<br />
+&gt;TFLinkLT09891536;P17542;TAL1;hg38;chr14:60196367-60196506<br />
+AAAAAATAAATAAACAATTCAGTTAGAACATGGACCAAAAGCATGAACAGACATTTCACTGAAGATGGTAGATAAGCCCA<br />
+TGAAAAGATGTTCACTAGCTATCAGGGAAGTTAAAATTAAAACCACAATGACTAATCAC<br />
+&gt;TFLinkLT09891543;P17542;TAL1;hg38;chr1:161502989-161503126<br />
+TTATAAAAACAATAATATCCATTGCAGAGGGTACAACAGTTACTTAGGAATGAGGAATACAAAGTATTGTGAAAAGTCTG<br />
+AAGAATTGACAAATATTTGTGGCTGGTTTCTAGGAAATTTCTCCTTGCTGAGAATAG<br />
+&gt;TFLinkLT09891554;P17542;TAL1;hg38;chrX:102581030-102581147<br />
+GTGCAAAGAGCCAAGCCTCACTTAGAGCAACCCTGTCTTCAGCCTTATCTCACTACCACAGTCTAGTGTCTGTGGTTTCC<br />
+TCTGGATCAATATGGTTTCCTCTGGATCTTCACTGGT<br />
+&gt;TFLinkLT09891557;P17542;TAL1;hg38;chr3:112975076-112975213<br />
+CTTGACACAGCAATAGATTTCCTGTATGAAGCCCTGAAGCAAAGACGGAGGAAGCAGATTGATTGAATTATCTCTCAGCT<br />
+CATTGGTTCTCCTCTCACTTCTGCTGTACACAGACAAACTTTACAGTAAGGCATTGA<br />
+&gt;TFLinkLT09891559;P17542;TAL1;hg38;chr3:39407337-39407444<br />
+CCACAACTTTTCCTTAATTCCTATCTTGAGAAGTGTTGAATTTCCATTCGCTAATTTCGTGTAGTTTTATTACTCGGTTA<br />
+CTCTGCCGTCCACACTATTTCCTCAGT<br />
+&gt;TFLinkLT09891584;P17542;TAL1;hg38;chr6:22645040-22645187<br />
+ACATCAAAAGGTATAATTTAGCAGAGCTTCTAAATGGAAGCTAAAGTCCCAAATGTTCCTCTTGATTTGGTGATTTACGA<br />
+CTTCTGTTACTCTAAATAAGTTACTTTATTTTCTTGGATATTCAGTTTCTTTACTGGTAAAGTGAAA<br />
+&gt;TFLinkLT09891629;P17542;TAL1;hg38;chr8:141308264-141308413<br />
+GCGGAGAGAGCGCTGCGAGGCTGCGGCCGGCGCGCGGAGACAACGCCGCTTTATCGGGTCGGAAACAGCCGCTCCGCGCC<br />
+GCTTCCGCTGACGCAGCGCCGGCCCCTGCGCCTCATGACTATGCAGCACCCGCCGCCGCGGGACGGGGA<br />
+&gt;TFLinkLT09891643;P17542;TAL1;hg38;chr5:170331202-170331310<br />
+GGAGCTCTGGTCTTGAGAAGACTCAGTAGCCAGGAAGCTGAGGAACACACACACACACACACACACACACACACACACAC<br />
+ACAAACACACCCCTTCCTGGCTCCAGTT<br />
+&gt;TFLinkLT09891658;P17542;TAL1;hg38;chr4:78692398-78692521<br />
+ATTCAGAGACAATAATACTCTGTTACACTGACAGCCCTCAATGAACCATTTTTTCTGGTATTCATATCCTTGACAATCCT<br />
+CTCCCTGGAATCTGGTCTGAACCTGTGACTTACTTTAACCCAG<br />
+&gt;TFLinkLT09891716;P17542;TAL1;hg38;chr8:100938700-100938845<br />
+AAGCCCATAATCTGTCACACATTAGGGGCCCATAGATTTAATCTCTTACTCCCCCTTGTGGCCGGAGTGGCTTCCATTCT<br />
+TTGATTTGCAATTTCCTCACTTGCTTTCAACCAATTAGAAAAGTGCTCCACCAGAAATGCTAATG<br />
+&gt;TFLinkLT09891717;P17542;TAL1;hg38;chr1:13701992-13702123<br />
+TACAAAACATAACAAAAGATTCTCACTGTAGAAAATTGGAAAGTAGAGAAAAGCACAAAGAAGAAACAGAAATTGGGCAT<br />
+AACCTTCCCCTCTTCAGATAACCATTGTTAACGTTTGGCAGATCTTCCTGT<br />
+&gt;TFLinkLT09891720;P17542;TAL1;hg38;chr5:147734948-147735071<br />
+TATTTAAGAGTGAAATGCTCTACTACTGCAGGAAGCAGAGTAAATATCCTTTCAGTAGTTTTGCAAGAATGCAAACAGAG<br />
+GGTCAGACAGGAAACACCTGAAAGTGGTATTCCTGCGATCTGC<br />
+&gt;TFLinkLT09891742;P17542;TAL1;hg38;chr3:142134784-142134920<br />
+ATAGTCTATCAAGGCTCTGTTTAACAGTTTGTCAGAACACTTTATTATATACCTACAGTTAAGCAAAAAGAAAAAAAATC<br />
+TGTCTGTGCTACATTTCCTAGTTTGATGACAGAGACATGTACTATCACTTTTATTC<br />
+&gt;TFLinkLT09891753;P17542;TAL1;hg38;chr6:139823712-139823836<br />
+ACTAGATATTTGTAATGAGGACAAGCAGTAGAGATAACCAGACCTCCTCTGAGGAGACCTATAATCTGAATGTTTCATAT<br />
+CTTTGTCTTACTCTTACTTTTCCATCCCTTTGCTGCCACTGTTC<br />
+&gt;TFLinkLT09891792;P17542;TAL1;hg38;chr11:76588607-76588756<br />
+ATGCTGCGCGGCTGAGCCGGAAGGCCCCAGCGGCTCAAGGCTTGAGGCTAGCTGTTATCCAGCACCCAGCTCCAAGCAAG<br />
+GGAGGAAGCGGCCTGGGCTCCGCTGGGGAGGCGCTTCCTCTCAGTCAGCACTGTCCACGCTTCTCCCCT<br />
+&gt;TFLinkLT09891819;P17542;TAL1;hg38;chr1:192170328-192170467<br />
+ACTGTCTTCGCAGTAATAAGCGAGTTATCATTCTTTTAGTTAACATGCAAGCTGAATGTTTACAAAAGCCAGAGACCTGC<br />
+CTTTTTTCTCACTGCCTCTTATCTTGTGATACACTGGCTTCCCCTTTGCCTTCCTCCGT<br />
+&gt;TFLinkLT09891841;P17542;TAL1;hg38;chr7:135180251-135180361<br />
+CAGTGAACCAGTCAACAAGACTCAGACCATCCAACATGACTAATCCTGTGGCAAAACCACGACACCACTGAGAAAGTCAA<br />
+CCACCCTGCTGTGATCACTCTGGAGGCTGG<br />
+&gt;TFLinkLT09891849;P17542;TAL1;hg38;chr10:104746912-104747029<br />
+TGATCTTCATTTAATCTTCAGAATGACTATGAGAAACAAGTATTAAAATGAGAAGACTGAGGCTCAGAGAGGTTTATTTG<br />
+CTCAGTTACACAACTACTGGGTTGAGGGCAGGGATTC<br />
+&gt;TFLinkLT09891885;P17542;TAL1;hg38;chr5:34864059-34864203<br />
+CTTTCAGCGTAATTAGTTCCTCTCTTTTACCATTCACAGGAACAGGCTTGGGAAAAATGAATAACTATTGTCATGCAGTA<br />
+GATGCCTCTAAAGGAAATCGAGTGTAATTTACAGTTTCCGCTCACTCCTGCAAACACTGCCTAC<br />
+&gt;TFLinkLT09891895;P17542;TAL1;hg38;chr14:31849024-31849168<br />
+AAAGCTGATCCTTAAATGGTTACTAAAATATCATGTATTTGTCATTTGGCCGTTGGATATTGAGGACTTATAGTTTAAGA<br />
+TCACAGCATTTGACAAGAGGATCATGAAATAACATTTACTTTTCCATGTACTTCATAGTATATA<br />
+&gt;TFLinkLT09891920;P17542;TAL1;hg38;chr7:139916529-139916645<br />
+ACCATCAATACCCGGCACCCTGGCTGCCCCAGGTTCAGCCTCTCAGGGGCTGCTTCACTCGCTCTCCACACAGCTGTGAA<br />
+CATTGCAGGATGAGTCACTGTGAAACCACAAACTCC<br />
+&gt;TFLinkLT09891934;P17542;TAL1;hg38;chr3:94524288-94524418<br />
+CACACATTACCAAAGAAGAAACCAAGGAAACAGCTTTGTGAAGTGTGCTCTGTCAGGATATGTTTCCCTTAAAGGCTGCT<br />
+GCGGCTTGACAAGCTTATCTTTTTTGCAGCCTTGCAGCCCTACGAGATGG<br />
+&gt;TFLinkLT09892001;P17542;TAL1;hg38;chr6:68740934-68741076<br />
+ACCAACTTCCTGTTTCTCTGAAGTGCATGCATACAGTGATATATGTTTTGGTTTTCTAAGAAGGGAAAGGAAGCAGAAGA<br />
+ATACAGAATGAGCTTGTGAGTTTTGAAACTTTGGGACAAACATGGAAGTTGGTGAAAAACCA<br />
+&gt;TFLinkLT09892063;P17542;TAL1;hg38;chr10:63545203-63545317<br />
+CATACATATAACATACAGTGAACAGATTAATGTAATTAGCATACCCATCATCTCAAATGTTTACCATTTATTTGTGCTGG<br />
+GAATATTCAATATTCTGGTTCTACCTATTTGAAA<br />
+&gt;TFLinkLT09892064;P17542;TAL1;hg38;chrX:109943202-109943312<br />
+GTAGGGAACATATTGCTGCTGCAGATAGATAAATAGAACTGTCATTAATGATACATTGGTGGTCTCATTTGGATATCAGT<br />
+CTTCTGCACTTGTTTATTTATCCTTGGTTG<br />
+&gt;TFLinkLT09892088;P17542;TAL1;hg38;chr8:127619114-127619245<br />
+AAAACAAATCCATTTACAAAACACATACATTGCAGAAGTTTCTTGCTGAGGCTCTCTAACTATGCCAAGAAAGAGATAAA<br />
+ACGTATCAGCAGACTTCCATAAAGAGATAAAATGTTATCAGCCGACTTCCA<br />
+&gt;TFLinkLT09892127;P17542;TAL1;hg38;chr14:29156564-29156713<br />
+TAAAATTGGGCTCACATGGGGTTAGAGGGTGCTGTTTTTGTGAGTAGCATCGGCTTAGACACTCATGTTGTCTTTACAAT<br />
+TGTAAGTCATGGAAAAGGAGCAGCACCTTATTATGAGAGGACCTGAAGGTTGTTATAGGGAGTAAGTAT<br />
+&gt;TFLinkLT09892143;P17542;TAL1;hg38;chr18:55488496-55488623<br />
+AACAAAGCAACTGAGCTAGGATAAAAATTGAAAGGTGCTTGCCAAGACAAAAGCACAACTTAAGCTGCAGCTCTGTCCTC<br />
+CCAGAGACTACACAGGGCAGGGAGCCTGATGCTACTAACCTAGGGTT<br />
+&gt;TFLinkLT09892169;P17542;TAL1;hg38;chr12:94040108-94040250<br />
+CGTCATAACCGAATAAATGATCCCTTGTGCCAAAAATGCAAAAATGTTTCACAATTTATTGCTTAAGCGGAAACATCTGG<br />
+CTAAGGAAACTTGAAAAAGGCAGCAACCTTTCCGACCAAAGCAATTTCATCTAATAGCTGGT<br />
+&gt;TFLinkLT09892198;P17542;TAL1;hg38;chrX:94324815-94324930<br />
+TCTTTATTTCCCCTTGTTTCTGAGAGAGTTTCATTGAACATGCAAATTTAGCTTAGTTATTTCCTCACAGCACATGGAAA<br />
+ACATTATTCTAAAATCTTCTGGCTTTCATATTTGC<br />
+&gt;TFLinkLT09892249;P17542;TAL1;hg38;chr8:66752596-66752730<br />
+GGGGTGGGGGAGACAGAGCATTTCAGGCAGAAAAGTGTGCTGCATGTGGTTTTTAGAGAAATGCAAGCTGTTTTTTTCCA<br />
+GAAAGAGAAGAGGAAGTAGCTAAAGGGGGCCAGGTGCTTATCCACAGTGGTTTG<br />
+&gt;TFLinkLT09892269;P17542;TAL1;hg38;chr17:39167605-39167741<br />
+AGAGAAGGAGCCAAGTCTGGGGCTGGGGGGTGGGGCACCAAGGGTGCTGAGGGAAGCAGCAGTGTCTTAAGCATTTTACC<br />
+ATCTGTTTCCTGGGGTTAGTGGGATGCGGGGAGGAACATCTTAGTGCATGCTGCCC<br />
+&gt;TFLinkLT09892279;P17542;TAL1;hg38;chr4:105541535-105541672<br />
+AAAAGCGGTAAGACATGAGTACAGACACATGTGGGTTTACTCACCTTATCTCAAAGTTGCAATCGCATATGGCTTTCCTG<br />
+TGACTTTTTCTATCCCATCACACGTGTTGCTACACCCATTTTTCTGTCAACCCTTGA<br />
+&gt;TFLinkLT09892280;P17542;TAL1;hg38;chr17:38886004-38886110<br />
+CTGACTTTGCCCTCATGGGCTTCTCCTTAGTTGAGGACCCCCTTGCTGTCTGTGCCTCTTCCTCAACCCCCGTAGACCTC<br />
+TCTCTCTCTCTCACTCATTCTCTCTC<br />
+&gt;TFLinkLT09892304;P17542;TAL1;hg38;chr15:81244356-81244496<br />
+GCTGTTTTTTTGGGATAGTTCTGGTGGTGACAAATTCTATTCATTTTCCTTCATCTCAGAATCTCTTAATTTCTCTTTCA<br />
+TTTCAGAAAAAAATATTTTTTGCTACATAAAGGACCTTAGGCTGACAATTTTTTTCTTCC<br />
+&gt;TFLinkLT09892322;P17542;TAL1;hg38;chr2:217161603-217161740<br />
+GAGAAGTGAAGCAGGTGTTTCCTGCTGCCTGTGCCTCAGAGGAAAGCTTGAAGTCCTGGGAGGGGGTTTTCCACAGCGGC<br />
+ACAAATCAGGGGAAGCCATATTTTTCCAGCAGCCTAATTCAGAGGTCAGACACGTCA<br />
+&gt;TFLinkLT09892327;P17542;TAL1;hg38;chr13:79355005-79355141<br />
+ATGCTGTTCTTTCAACTAGCAATTAACATCACAATTATGAGAGAACAGGTTAGAAAGGTTGAGTAAATTTTTCAAGTCTT<br />
+TACAGGTAACAGAAGCTAAATGCAGAACCAGGGTATGAACTCAGGCCTACTTGATT<br />
+&gt;TFLinkLT09892333;P17542;TAL1;hg38;chr2:136141868-136142015<br />
+TTATAAAATAGAGCAACCATAATTAAATAAGAGGAGAAACTAAAGAGAGAGGGTGGGAGGAAGGAAGCGCCGGGTGTTTC<br />
+AAAATGATATCGTGTGCATACAAACCAAGTTTGACAGCATTAAGTAATTCCTGGTCAGTGCTAATGA<br />
+&gt;TFLinkLT09892338;P17542;TAL1;hg38;chr13:26618892-26619023<br />
+ACCACACATCTCGTGGCCACAGTCCTTCCTGTCATATTTTTGGCTTGTGGTTTCTTCCTTTAATCTCATCCCGTTGCCTT<br />
+TCAACTTTGGAGGTTATCTATCATTTGTAGTCCTGTAGTATTGTTGCACAT<br />
+&gt;TFLinkLT09892360;P17542;TAL1;hg38;chr7:26689356-26689477<br />
+GTGTAAAATAATTGCTGGTTTATCAAAACTAACCTCATGCTTGCACTACAGATATGGTTTATCTCCTGCTATTTGGAAAT<br />
+AACAACAAGCAAGAAAAGTTGTCCGTATCATGTGATTTTGT<br />
+&gt;TFLinkLT09892364;P17542;TAL1;hg38;chr3:75865629-75865739<br />
+AGATAGAGAATTCAAAGGATGCAAAGTTGCAGATATGTAGAATTAACAAGTTGAGGGAGCTAATGCACAACATGAGGACT<br />
+GTAGGAATTAATATTGATTGTATTTGGCAT<br />
+&gt;TFLinkLT09892379;P17542;TAL1;hg38;chr18:66757314-66757441<br />
+ACCAACCTAATAGTTTTAATTTTTCTATGAACAGAAAAAACATTTCTTCAGTTAGAGTTTTAAAGTTTTCCAGAGTCAAT<br />
+GCTGAGCCCTCTATTCTTTTCTACTCTTTCCCTTCAGGGGATTTTCT<br />
+&gt;TFLinkLT09892399;P17542;TAL1;hg38;chr2:105517330-105517478<br />
+TCCCTGGGCTTGGTGGATCCTGCCCTGGCCATGGGCCATAAACTTGCTTCTGTTTCTCCAGGAAACATACACACAGCTAA<br />
+TCTTTTCTGCCAGGTTCAACTTCCTCTTGGTTTGTTAACTTTGACTTCTAGATAGTAATGTAGCTGGG<br />
+&gt;TFLinkLT09892427;P17542;TAL1;hg38;chr5:78792448-78792584<br />
+GAATAAGCTTGCCCTATGCCATCACTCTAGTTCTGAAAAGTAACTCAGAGAAATCAATCACTGGCATTTCAATAGCCTTT<br />
+AGAACAAGCTCTTTTTCTTATCTTATAAAGTCATTTAACCACTCTGAGTTCCTGTT<br />
+&gt;TFLinkLT09892432;P17542;TAL1;hg38;chr1:78620023-78620170<br />
+TGTACGCAGTTGTTCTGAGGAGAAATTAGGAAAAGGTATGCAGTTACACAATGCCACGTACAACTCTAAATTCCAATTAA<br />
+TAAATGTAGGACAAACGAGGGAAGTAGAAAAATGCACAAGAAATGTTAACTATTAGCTTTACTGCAG<br />
+&gt;TFLinkLT09892444;P17542;TAL1;hg38;chr18:332222-332342<br />
+GGGCTTGGGCCCTGGTCTGTGTATTCTAAAGCCCAGGTGCTTGGTCACTGTCTGCCGTGTGCTCATTCCAGTCAGTTACT<br />
+ACAGGAAACATCTGTTTACAGGATTGTGTCTGCTGGAGAT<br />
+&gt;TFLinkLT09892445;P17542;TAL1;hg38;chr18:484790-484937<br />
+AAAAGCTTGGTGCACAGTTTACTCGCTTAGGTGTTCCCCCAGGCCCACTCCCAGATGTTCCCAGCTGCTCAGTTAGCAAA<br />
+CAGCTGATTCAGGCTGATAGAACAGTTGGGTGTTTAGGGACTTGAGGAAGAGGAAGAGGGTAAAGCT<br />
+&gt;TFLinkLT09892466;P17542;TAL1;hg38;chr6:81812529-81812671<br />
+TAGTTTTTATTTCTGTTTTGCTGAGCTCATGGTAATTGGGGAAGCAAACAGGAGGAAGTAAGAGGGGACTGAAATTGTTT<br />
+TAGTCTAGGAAGCAGGTGGAGGAACTGGGTTCCAAGCTGTGGAGAAGAGCCGAAACCTGGAG<br />
+&gt;TFLinkLT09892530;P17542;TAL1;hg38;chr2:160376466-160376594<br />
+TTTTTTGAATTAATATAACTCAACAATACTGTCTACTTTTGTTTCTTTCTCATGGTAAAATCTAGTAGCTTATATCTGAT<br />
+ATGAATAATTAGAGAAAGTGAGTGATACTAGAACAGCTCTTCTATTAT<br />
+&gt;TFLinkLT09892558;P17542;TAL1;hg38;chr6:84575416-84575554<br />
+CTTCAATGATGTCAGCAGCAATTAACCACCGGAAACAAAGTGTGTGTGGTTACTCTAATGGGTACTAGGGCTGGAGAAAC<br />
+AATTAGAATAGTTTGACTCACACAGAGATTTCCTGTGGTTAACTGGTCATGGTGTCCC<br />
+&gt;TFLinkLT09892561;P17542;TAL1;hg38;chr1:155976232-155976358<br />
+AAAAGAAAGGAGACAGCTGGTGTGCTGGGGGGAGGGGGAGAGGGGATCCAGGGTTTGTTGGCTAAGAACCAACTCCCCCT<br />
+TCTGTAACCACAGTTTTCCGGAGGTGGCCCTCCCCTTCCGACCGGC<br />
+&gt;TFLinkLT09892579;P17542;TAL1;hg38;chr7:45153369-45153470<br />
+AGGGTCAGATGATGTGGTGGGAGAGGGGAGGTTGTGCTCCAGGAAATGACTGTGCGTATTTTGTCCAGCAGGGGCCAACA<br />
+ATGTTCTGCCTGAACACACTC<br />
+&gt;TFLinkLT09892604;P17542;TAL1;hg38;chr2:26065588-26065737<br />
+AACCAAAAATCAGAAGACTCATTTATAAAACTTGATACCATTGTAGGACACTTAAGTTGATTTATGAAGTAGTTCTTCAA<br />
+AGGCTCAAACATTTCCAAAAATATCATTGACATGTAACAGAAATCACATGCTGTCATTTATATGTATTT<br />
+&gt;TFLinkLT09892608;P17542;TAL1;hg38;chr11:35144142-35144292<br />
+GGTCCCCTGATGGAGAGGAGGTGGTTGGAGATCACCTGGGCCTCCTCAGCACTGCCTCCTGGCTGGGGCTGGGGCTGGGG<br />
+ATAAGAGAGTAACTGCAATTGTGCTTCCCCGGCACCTTCGCTTTAGGTCACTCCACCGAAGAGCCTGAAA<br />
+&gt;TFLinkLT09892623;P17542;TAL1;hg38;chr2:182997429-182997568<br />
+GTATGTTGTGTCGCTATTTTCATTTGTTTCAAAGAATTTTTTTATTTCTGCCTTAATTTCATTATCTACCCAAGTCATTC<br />
+AGGATAAAATTGTTTAGTTTCCAAGTATTTGTGTGGATTTGAGAATTCCTCTTGGTATT<br />
+&gt;TFLinkLT09892686;P17542;TAL1;hg38;chr16:46380973-46381083<br />
+ATTACATTCGAGTCCATTTGATGATTGTATTCCTTTCCTTTTGATGATTATTCCATTCGTGTCTATTCAAAGGTTCCATT<br />
+CTATTCCATTCAATGATGATTGCATTTGAT<br />
+&gt;TFLinkLT09892687;P17542;TAL1;hg38;chr16:46389645-46389742<br />
+ATCATCATCGAATGGACTTGAATTGAATTATCGAATGGATTTGAATGGAATCATCATCGAATGGAATCCAATGGAATCAT<br />
+CGAGTGGAATCGAATGG<br />
+&gt;TFLinkLT09892688;P17542;TAL1;hg38;chr16:34582299-34582398<br />
+GAATGAAATCATCAACGAATGGAATCCAATGTAATCATCATAGAATTGAAACCAATGGATTCATTAAATGGACTCGAATG<br />
+GAATCATCGAATGGACTCG<br />
+&gt;TFLinkLT09892707;P17542;TAL1;hg38;chr9:21467431-21467577<br />
+TTAATCTTAATGAAGACTAAGTTATCAAATTTTATTTGATGGTTACTTCACTTTTGTCCTATTTAAGGAAACACTGCTTA<br />
+CAGTAACCAAGTACATAAATATCATGTCATACAGATATGCTCTTATGTTTTCTTCTAGCATTTTTA<br />
+&gt;TFLinkLT09892720;P17542;TAL1;hg38;chr2:32768669-32768815<br />
+GTATTATGGGAAGTTTAAATAAGGAATGAATATCATGGGTGAGTTATCAGTGGCTTGAGTGGTAAGCATGGAAAACATAG<br />
+AATGACTGAAGCCTCATTACAGAGGAAATTTTCTGGGACTTACACATTGGGCTGGCAGTATTGAGG<br />
+&gt;TFLinkLT09892731;P17542;TAL1;hg38;chr12:50568556-50568682<br />
+CAGGCCCATCCTTGGGTCTAAGCCAGGAGGTGAAGGAGTAAAAAAGAAAATAGGCAGGAAACTCAGTGGAATTGTAAGCT<br />
+TTCAGTTTTGACTTACCTCTTCTATTTGCCTGCTGTTTATTTACTC<br />
+&gt;TFLinkLT09892752;P17542;TAL1;hg38;chr5:175895758-175895892<br />
+TTCTTCCTCTTACTTAATCACTTCTAATCCCTTGAGGGCTTGATCAGGTGGAGTCTGTGGTTCAAGCTGGTGAGTTGCGG<br />
+AAGCTCAGATCCTTCGTCACACATCCTTCCTCAAGATCACAATCAGGACAGTGT<br />
+&gt;TFLinkLT09892777;P17542;TAL1;hg38;chr4:124630126-124630266<br />
+AATGTAATTTTTAGATGAAAACATTATACAGCATAAATTAGTATAAATTACAAGAAATTTAAAAATCTGTTTTATGTCAA<br />
+ATCAACTAATAATAGAAACATTACTACTTAAATAATCAAAATATTTTTAGAACAACACAT<br />
+&gt;TFLinkLT09892795;P17542;TAL1;hg38;chr1:25100722-25100825<br />
+CCAGTGGGAACTCACAAAGTGGGGTGGAGGTCATAAAACGAACGTGGACTCCCCAGTCCAGTGGCCTGGGACAAGCCTGA<br />
+ATTCTGCCACTGCTTGGCTTTGA<br />
+&gt;TFLinkLT09892800;P17542;TAL1;hg38;chr8:42920395-42920528<br />
+AAGTAATACTGAATATGAGAAGTCTAAAGACTACTATTCTTAGTATATTTTGCCTAAGTAGTAGATTGGAAACTTACTAA<br />
+GTGCTGTCCCTTTAAGCAAATTTACTGAGAAGCTGCTATGTACCAGCCACGGG<br />
+&gt;TFLinkLT09892831;P17542;TAL1;hg38;chr3:71859257-71859401<br />
+ACTTCCCCACAACCCACAGAACAGTAAGTGGCACATTTGGGATTCAAGCCAAAAACTGCCAGACTATAGTACAATACTGC<br />
+CTCCTAGCTACTTCATTCAGCCAGGTGTCAGAATGTCACCATGTGTGTATACCCTGATTATGAG<br />
+&gt;TFLinkLT09892841;P17542;TAL1;hg38;chr1:72366590-72366721<br />
+GAGAGTAAGAAATTGCTGTGGCTTTGCCAGCCAGATTACACAAGCAAGGTGGCAGGAAATGAGTTGCACAATCCTGGTTA<br />
+GACCAATATCTGGTTTCTGGTTTCGTCACTAATAGGTTTGCCTCCTTTCAT<br />
+&gt;TFLinkLT09892882;P17542;TAL1;hg38;chr1:192745426-192745545<br />
+TACAAAGAAAGAAATCATACTGAGAAATGTAGACACAATGAAAAAACAATGAGTGAGCTACCTTTTCCGAGCAGAGAGCA<br />
+TTTATTTCTCAGTATCTTCTTTAATCACACTATGTGGGT<br />
+&gt;TFLinkLT09892886;P17542;TAL1;hg38;chr12:96446048-96446167<br />
+TTATTGTAAAGGAAAATAATGAAATGCCAGTCAATTTCCTCCAGTTGGATTAAGCCTAGGACAAGGAAGGAAAAACAAAT<br />
+TTCTAAGATTAGTCAGTTTCCCCTTGCAACTATGAAGTT<br />
+&gt;TFLinkLT09892919;P17542;TAL1;hg38;chr1:89200801-89200917<br />
+AAGTTATGACGTTAGTAGATCATACAGGGCAAGTGATAATGTTATCTGTGTGTACTTACTTTAATATAGTTCAGAATAGT<br />
+CACTGTCGTGTGTGTGTCTGTGTTTTTACAAATTGA<br />
+&gt;TFLinkLT09892949;P17542;TAL1;hg38;chr4:65846824-65846969<br />
+AGACTTAGTGTCTGGGTTAAAGCAATAGGAAGCAGTAGTGAGCGATTAAAGGGTAGAACTAAGGGGGAAGCCAGTGTATT<br />
+TTTCCTCTTTTTTCTGGCAGGTCCTATATTCCCTCTTGGCTCCAGCTCTGACTAAAAAAGCCCTA<br />
+&gt;TFLinkLT09892967;P17542;TAL1;hg38;chr2:44926089-44926224<br />
+AGTTGCCAGACTTGAGGAATCCAAGCTTCTTTCCTACTACAGTAACTTATACTATTTCGCAGTGGGAAGAGTTTGGTGTA<br />
+GGAATCATTCTATCTTCCCTCTCTTGTTTCTGCCTAGGTGGTCACAGGGGAGAGA<br />
+&gt;TFLinkLT09893016;P17542;TAL1;hg38;chr9:78014699-78014829<br />
+CAATATTAATAACGATGCTGAGTTCAAGATATAATAGCATTAACTTACATAAAAGGTAATGCGGTAATGACAAAATTTTA<br />
+ATTCTCATCGACGTTTTTTAGGTACCTCATAAAAGAGTACAGTCCTACAC<br />
+&gt;TFLinkLT09893017;P17542;TAL1;hg38;chr9:78023265-78023394<br />
+ACAAATTCCTTCCTTTGAATGTATTAAAGCACCCAACTTCCCCTCTCACCAGCTCACAGCCACATGATGTCTCACAGAAG<br />
+CACCAACTTGGAAGTTCTCTAAATCGTATGCAAATGTGCAAGTCAGAGA<br />
+&gt;TFLinkLT09893036;P17542;TAL1;hg38;chr7:39716620-39716770<br />
+GTCAACTAAGTTACGGTTTTCAATACTTGAAGCCAAAAGCATCCTAACTGATAAACAAGGTTAATTCCTTCTCATCCTTC<br />
+AGACTGAAGCTTCTTATCCCTCAGGCTGATTGTTACTTTCTAAGGGAGGCCTCCCTGAGCTGCCTAACTA<br />
+&gt;TFLinkLT09893052;P17542;TAL1;hg38;chr7:5455970-5456113<br />
+TCCTTCCCCAGTGTCACTCCTCCTTCAAACCCCAAGAACCCGTTTGCCCTCCGCAGTCCTTCTCAGCATCTGCTTCCTGA<br />
+ACGACCCAACCTCCGTTCTGCACTGGCCCGGTCACCCCACCGAAACTGGCAACTCCTGCTCCC<br />
+&gt;TFLinkLT09893172;P17542;TAL1;hg38;chr4:142485632-142485768<br />
+GATCCATTGCACAAACTGGTTTAATTAAAGGCTCAGGTTAAGAAATAAGGAACTGAACAAATGTGACTCTAAGCTATGCT<br />
+CTTAATCTACCATTTAAAAAATTTCTTGTCCAAGGTAACATGAATTTACTACTAGA<br />
+&gt;TFLinkLT09893182;P17542;TAL1;hg38;chr8:23668770-23668918<br />
+TGAATGGTGGTTGGAGATAAGCTTATCTGGTTTTCCAGGGGCCAGGAGACCACAGCTAGGTTAGCATCTGCATTGCACAT<br />
+GTTATAGTAAGGATGCCTGTTTGCTATCAAATTACTCTAACAGCATTATTTCCTTTGACTCTATTTAA<br />
+&gt;TFLinkLT09893185;P17542;TAL1;hg38;chr11:109971956-109972091<br />
+GCACCCACTGTACCTCTTGAATATATAAGAATAATGAGCCATACCAGTAAATATCTGAATTGCAATCAGTGTTGTTTTGC<br />
+CTGTATCGTCTCATTTCATCTTCAAAGCATGTGTCTGGGAGATAGATATTATTAG<br />
+&gt;TFLinkLT09893193;P17542;TAL1;hg38;chr9:32200951-32201082<br />
+CCTTGGGTCCAGTTCTCATATGGAGGGACTTCTGTTAGCAGAGTACTTTTAGAAGAGTGACTTAGATGATTGATGAGCTT<br />
+GGGACAAAACCTCAGTGGGCCAGACTAACTTCAGGAAGCACATGTTGTGGT<br />
+&gt;TFLinkLT09893194;P17542;TAL1;hg38;chr9:32201170-32201303<br />
+TAACCCTAATTTGGGTGTGCAACATTAAAAGTACCACTGTTGTCATGCAACTTAGTCACATTCTCCAAAAGCCCTATTAG<br />
+TAAGAAGTTGGCACTTGATCTCATTCTTCCTATTCCTCAATCTCTAGTGGAAT<br />
+&gt;TFLinkLT09893202;P17542;TAL1;hg38;chr5:142018211-142018355<br />
+GCCAGTAGCCTCACTGAAATCTCATGAGAGACCCTTAACCACAACCACAACCACAACCACTCAACTAAGTCATTCTTGAT<br />
+TTCTTGACCCACAGAAGCTGTGAGATAATAAACACTTGTGGTTTTAAGCTGCTAAATTGAGAAT<br />
+&gt;TFLinkLT09893215;P17542;TAL1;hg38;chr14:81763284-81763416<br />
+GGAAACTTAGTAAATAAAACAAATTAGATGTTTAGAAAGTTTGGTTTTGCGGAGTTAATTTTCAGGAAAACATGCTGCCG<br />
+GTTGCTAACATCTCTAACCATTGGTTTTTGTATCTGTAAAATGAGAATGATG<br />
+&gt;TFLinkLT09893225;P17542;TAL1;hg38;chr8:69858825-69858950<br />
+GAAGTGTATGTTGAAAGCAGTCACAATGTACGAAAATGTGACAAGATATCCAGATGTTTAAAAAAACACATCCTGTTTGT<br />
+CTCAGATTATATCTAGTTTCATCTTGTAGGTTTCTGATAAGCCTG<br />
+&gt;TFLinkLT09893271;P17542;TAL1;hg38;chr3:61415312-61415455<br />
+CTTAACCAACCATCATGACTCTTCTCATGACCTCCCTCTCTGTTGGAGCTTTCCTTCCTGGCTCTGGTAACTGCTCTGTT<br />
+ATAATACCTGGGGTGCTACACCATTCTTTGTGGGTTTCCCTAAACATTGCCAACAGCTTTGAA<br />
+&gt;TFLinkLT09893307;P17542;TAL1;hg38;chrX:148314052-148314172<br />
+CCTTGAAAACTACTTTGAGAACCAAAGAATAAATTTCTATGGACTTGTTCTACAGTAAAGAACTCTGCCAAGATGGGTAC<br />
+ATATTTATTCCAAGCAAGCAGAAATTAGTGTTGTTTTCAT<br />
+&gt;TFLinkLT09893317;P17542;TAL1;hg38;chr3:187743055-187743200<br />
+ACACCTTGCAAAGAAAAAGGGAAACTGGCAGTCTCTGTAGAGGAAGCCGGTGGCATCGCTCAGAGCCACAAACTGTATTT<br />
+CTAAACAGCCCTTTCCCTGGTTCCCTCTCTCCTGCCCCACTTTTTTTAAAATCCAGACTGTAAAA<br />
+&gt;TFLinkLT09893318;P17542;TAL1;hg38;chr1:244353936-244354083<br />
+TCCCAAAGCACTTCCCCACCCACGCCTTCTCTGCATCCTCAGATCACTAGGGCACGACTTTCCCCAGAGGTTGAATTTCC<br />
+TCTAATTTCATGAGCACAGATGCAACACTTACAAGGAAATGGGGCATTATAAAATGCATCCAGAAAG<br />
+&gt;TFLinkLT09893324;P17542;TAL1;hg38;chr11:76117265-76117395<br />
+TTGGCAACCTACAACACTAATTAATCACACTAAATGAATCTTGCTCAGTACAGATAGCAGATTGTCCCTGAACCATTTAC<br />
+TGAAGTGTCTGTCTTTTCTCCACTGATGATAATGGCATCTCTTTTGTAAA<br />
+&gt;TFLinkLT09893327;P17542;TAL1;hg38;chrX:43019138-43019283<br />
+AATGCATTTGACAGAAGGAAACAACCACATTGACTTCCTTAAAATCTATCACATATTTAGATACAGTCAACCAAAAAGCT<br />
+CCATATTCAGGAGGCTATACTTAGATACCAGCTGTTTGTTTAGATTTCTAATTCATAGTTACTCA<br />
+&gt;TFLinkLT09893337;P17542;TAL1;hg38;chr12:94778112-94778235<br />
+GACCAAGCAGGAAACCAGCACTGAGCAGGAAACTAACAGAAGGAGAAGATCCTTCCGCCGGCCCCTGTGTGAGGTCAGAT<br />
+AAGAGAAATTTTCAGGAAAGAGCAGATTGGGGCAGGCAGAGAA<br />
+&gt;TFLinkLT09893438;P17542;TAL1;hg38;chr6:165845681-165845799<br />
+ACCTCATAAGGAAAATATTAAAGCTATCTGGAATCAACTGAACATAGGAAACAAGCATTAAATTGTACCATTTGACATAC<br />
+AGCTTCCTTTGGTGCATAAATCTGCCAACATCTGCAAA<br />
+&gt;TFLinkLT09893460;P17542;TAL1;hg38;chr1:81407406-81407521<br />
+ATTCCATCCTGAAAGAGGCTCTGATGTATGGTGTATAATGAAAGCTGGAGACTGCCCACTGTTACACATCATTATCATTC<br />
+AGATCATGAAAGAAAATGAAATGGTTCAAGCAGAT<br />
+&gt;TFLinkLT09893472;P17542;TAL1;hg38;chr11:116930764-116930914<br />
+CCCCCTCCCCACCCCCACCAATCTAAACAAACCTCAAGTAGACACCTGCTGCATAAAGTCAAGTCCATCACACTAAGCTT<br />
+TTTTCACCATCAATCAACTACTTATCTATTTAGTTGCCATTATAGGTCTGGGACAAATTTAAAGTTTTCT<br />
+&gt;TFLinkLT09893498;P17542;TAL1;hg38;chr8:19209387-19209512<br />
+AGACATATGAATGTATATTGGAAAAGAACAAACTGCAAAGCTGAACATGAGACGGAAACTGTAGAGGAACTTTATGTTTG<br />
+CTTTCATTTCCTACATAGATCTCTTGAACTTGAGAAGCTTCTGTT<br />
+&gt;TFLinkLT09893501;P17542;TAL1;hg38;chr4:108916468-108916611<br />
+GTTTTGTTTCATGTTAAAAGTTTCTATAAATTTTCATGATTGTGTCAAAGCTGAAAAATGAAAAGAAACAAAGACGAAAA<br />
+AGGAAAACATTATTAATCTTAGGCATACAAGTTTTGTTTCTCACCAATGTCAAAAACAACATT<br />
+&gt;TFLinkLT09893503;P17542;TAL1;hg38;chr9:128783619-128783750<br />
+TCCATGCTTTCAATGCCTAGGAATGGAAGTGCTGAGTCATAGGGTAATTCTATGTTTAGCTTTTTGAGGAACTGTCATAC<br />
+TATTTTCCATAGCAGCTGCACCATTTTACATTCCCTCCAGCACATGTGTGG<br />
+&gt;TFLinkLT09893539;P17542;TAL1;hg38;chr17:10280562-10280690<br />
+GAGGAACCATTATACTGCTTTCCATAGAAACTACATTGTTTTACATTTTCACCAACAGTGCACAAAGGTTCCAATTTTCC<br />
+CACATCCTTGCCCACTTTTGTTAGTTTCTTATTTTATTTTGATAGTTG<br />
+&gt;TFLinkLT09893563;P17542;TAL1;hg38;chr3:19931470-19931609<br />
+AGTGGCTGGGAAAACCCAAAGAGGAAACCAGAAAGCAGTGTGAGACAAAGAAGAAAAGAACATTCTGAGTCTGAAGGGGA<br />
+AAAGTCTTCAAACCCAGACAAAATTCTGTGGAAGCCCTGTGACCTCTTCAGCTGAGTTT<br />
+&gt;TFLinkLT09893599;P17542;TAL1;hg38;chr16:2288908-2289026<br />
+CCACAAGGAGACACCACCACACAGGTCACAGGAAACAGATGGCCGAGCCTCCCAACCAGCCTGACTGCCTCGTTCTCCAG<br />
+CTTCTTTCCTTCCTGGTCCTCCGAGACAGAGAGCGTCA<br />
+&gt;TFLinkLT09893657;P17542;TAL1;hg38;chr6:126882159-126882308<br />
+CTTCACCAAATTAAAGCGCTGAAACATTGTAGGCTTTGTCAATTTTCTTTCAGTCTGATACAAAATACCATTTATCCAAT<br />
+TAAAATTAGGAAATCAACAAATTCTTTCCACAAGTCAGATGTTCCAAAGCTGTTATGTAATTTCAAAAC<br />
+&gt;TFLinkLT09893664;P17542;TAL1;hg38;chr2:75047524-75047669<br />
+ATCTTCTCAGGTACTTCTCATAATCATGTTAGCTCTTTACATTCTTCCAAAGTGAGTAATCCATACACAGCAAGATTCTC<br />
+TATTGGAAGTATGACTAATGCTTAGGGCACTAACTTTTGTTGCTTCTAAATTTTGTCTTCCATTT<br />
+&gt;TFLinkLT09893701;P17542;TAL1;hg38;chr7:41587075-41587200<br />
+CCCACCATCTAGGAACTAACCCAATTCTTATAGTTTCCCTTATCTTAAGAAAACAGACCTAGGGCTTGATTTATTTCTTT<br />
+CCTCCTTAAATGAAGAATATAACCACACTTGGCTGTAATTTCTAT<br />
+&gt;TFLinkLT09893774;P17542;TAL1;hg38;chr19:12742002-12742083<br />
+ACCTATCATTTCAGTGCTTGCAGAGACTGAGACAAGAGGATCACGTGAGGTCAGGAGTTCAAGACCAGCCTGGGCAACAA<br />
+A<br />
+&gt;TFLinkLT09893781;P17542;TAL1;hg38;chrX:23381437-23381565<br />
+TCACATGACAAATGAAGTGGCATTTTTTGGTTAACTAAGAAATAACCACTGTTGAGGTCATTAGCGTGCCTTATGCCCTG<br />
+TTTTAGAGTAGTGGAAGAGAATTTCCTCAGGAAATCTCCGCTGTGTTG<br />
+&gt;TFLinkLT09893787;P17542;TAL1;hg38;chr1:19184218-19184365<br />
+CCCAGCGTTCCTATAAACTCTGATTACAAATAGAAAATAAAATATGCTCATAGGTATCCTGCAATAAACACAATGAATGA<br />
+AAGAATCAGATTTTAAATCACTTACAGTGGGCCTAAGTTTCATTATGAGTCTCTCTTTCCCACCTAA<br />
+&gt;TFLinkLT09893831;P17542;TAL1;hg38;chr6:26295995-26296138<br />
+AGGGAGGAAGGGGTAACTGTTGGTCAGCTACTTGATTTATCACAGGCTCACATGATTGCTTTCTTTGTTCAACAGACTCC<br />
+AGATGTTCCTATAGATAACCTTAAGGAACACGGTGCCTGGGACGTGGTTGCCCTCAGCATTCC<br />
+&gt;TFLinkLT09893850;P17542;TAL1;hg38;chr1:148873184-148873283<br />
+AAGGAACTTGTCCAATAACTCATGATTGAGCCTGAAAACACCTGATGTCTTTGTGACCTAAAGATAGTGGGCATGTCCTA<br />
+TGTTGGGGAACTCAGCTGG<br />
+&gt;TFLinkLT09893874;P17542;TAL1;hg38;chr1:229370232-229370352<br />
+CACCCTCTAAACAAGGAACAGTGTGAGTTTGGCATGACCTGCTCTTCTGAACTAGCACAGATTCCTGGCAATCTCTGTAT<br />
+TTCTTCCTAATGTTCATAAATCATATGCTCAGCAATCAAC<br />
+&gt;TFLinkLT09893897;P17542;TAL1;hg38;chr12:111741499-111741632<br />
+GGCTTCTGGTTTCTCTCGGCCCAGAGCTAAAACACCCCACCTGTTTGCCACCAGACAGAAAAATGTCTGTTTGTTCAGGC<br />
+CTTTATTCCTCTTATCTTACTGTGCACTCCTTTCCCTCCCTCTGGGAAGCCAG<br />
+&gt;TFLinkLT09893910;P17542;TAL1;hg38;chr9:91501164-91501287<br />
+GCTGTCATGTGAGGTCTTTGATTGTATCCTGAATTTATAAAACAGAAAACAGCAATGAAGATCATTTTGGTGACAACTGA<br />
+AGAAATTTTAATACCATCATATTAAATATTGAATTTTTGGAGT<br />
+&gt;TFLinkLT09893915;P17542;TAL1;hg38;chr10:41841403-41841516<br />
+CTCTATGAACAGAAATGTTAAACTCTGTGAGTTGAACACACACATCACAAAGTAGTTTCTGAGAATGATTCTGTCTAGTT<br />
+TTTATACGAAGATATTTCCTTTCTACCATTGGT<br />
+&gt;TFLinkLT09893922;P17542;TAL1;hg38;chr19:43812333-43812416<br />
+TTTCTATCTATCTATCTATCTATCTATCTATCTATCTATCTATCAATCTATCATCTATCTATCCATCCATCCAGCTATCT<br />
+ATC<br />
+&gt;TFLinkLT09893965;P17542;TAL1;hg38;chr12:96040817-96040917<br />
+TACTAAGACTCCTGGTCTCAGTTGGGTGAGTTTATCAGTTTTGCCCCAGATACTTGCCCTTATCTGTTGGTTTTCCACCA<br />
+CATTATCGTGGACAGATCTT<br />
+&gt;TFLinkLT09893995;P17542;TAL1;hg38;chr2:68415174-68415279<br />
+TCTATGGTCAGATACAGCCATGCAAGTAGCTCTGCCCTGCTGATATTGGTTTTGAGGCTTCTGGGGATTTTATTCTCTAA<br />
+CATCATGTCACAAAACATTTTCCTG<br />
+&gt;TFLinkLT09894007;P17542;TAL1;hg38;chr8:102385887-102385999<br />
+TGTGTGGATTGACTAAAGATACTAGAATCTTACACAAAACCACAGACTAGTTAACTGTTCACAAACTTTCTCACCCAAAC<br />
+ACATAAAAGATAGAAACAATTCAGTGTCACTA<br />
+&gt;TFLinkLT09894024;P17542;TAL1;hg38;chr4:123600719-123600843<br />
+CCCTTCACTTTGGTAAATTATAGAAAGAAAAAGATTTTGAGACTCAGTCTCATTTTTGGCAGTTAAGGTAAGAAATCCAT<br />
+CTATGCTTCCGTTTTACTGTTTTTTTTTTCTTTTTCTCTCCTCT<br />
+&gt;TFLinkLT09894072;P17542;TAL1;hg38;chr16:85989604-85989689<br />
+AGGGATCCCTCCCTGCCCAGCACACTCTTGACACCCCCATGCCCCAGCGCCTGTGCAAGGTGTTGTGCCCATCTTCGCCT<br />
+TGCCC<br />
+&gt;TFLinkLT09894125;P17542;TAL1;hg38;chr9:123001279-123001408<br />
+TGACTTATCCCAAGTACCTGGAACATAGTAGTTCTCAATAAATATACGTTGAATTGATTTTATTTACATGCAACTTCTGT<br />
+TTTCTGTTACATAAAATGAAAGTGTATGTGGGGCTTACTTGAATATACT<br />
+&gt;TFLinkLT09894127;P17542;TAL1;hg38;chr4:81207978-81208124<br />
+ATGTTGCTCCATCAGTCTGGCAACTGCAGGTTATTAAAATCATTCTTACAGTCAGAGGGCAGCACATGATGCAATAAGAA<br />
+ATGAGTCTGGAGATAAAGATCAGAATTTAACATGAGCAATAGAGTCAGGCCAATTAGGGTTATAAA<br />
+&gt;TFLinkLT09894143;P17542;TAL1;hg38;chrX:32531444-32531582<br />
+CCTAAAGTTTTTTAAAATGCCAAACTTTCATTCAAATTTAAAGAACAGAAAAGAGACATATATATCATTTTAAGCATCTT<br />
+AATCAGGTCACAGGCTTTCAAAAAGAAAACTTAATCGCTCAAGAAACCTTGTATGTTA<br />
+&gt;TFLinkLT09894158;P17542;TAL1;hg38;chr11:103117408-103117549<br />
+ATTGAAAATTGAAAGATGCAAAAATGCAAAGCAATATGTATGTGTGATTTTAAAAATATTTGTTACTGAGAGTGGTAGTC<br />
+TAAGGACATGCATGTGGTATTTCATAGATCCTTAGTTGGCTAATTTGTATATTTTAAAAAT<br />
+&gt;TFLinkLT09894161;P17542;TAL1;hg38;chr12:34680443-34680530<br />
+AAACTAGACAGAATCATTCTCAGAAACTACTTTGTGATGGTTGCGTTCAACTCACAGAGTTTAAACTTTCTTTTGACAGA<br />
+GCAGTTT<br />
+&gt;TFLinkLT09894175;P17542;TAL1;hg38;chr15:20796772-20796903<br />
+TGCAGCATTGTGGAGGTCAGATAACCACATTTTGACAGACAAGTTGCATTCTAACCTTGAAGCAGACAAAATGCCCATCT<br />
+TATCAGCCTCGCTCACATCAGCTGTGCCTTTCCTTTGTGGTTGTATGTTTA<br />
+&gt;TFLinkLT09894186;P17542;TAL1;hg38;chr8:89784866-89784999<br />
+GCACTCATGTTGGAAAGTAGAAGGGGAGCGAGCTATGCAGAGAAATCACATGGTGAGACAGGATGCAGGAGAGTGAAAAT<br />
+GAGGAAGTCAGGTTCTTTAACAGCTTGCTCTCTCAGGAATCCACTCACCACTT<br />
+&gt;TFLinkLT09894268;P17542;TAL1;hg38;chr2:191854102-191854238<br />
+AAAGTTATATTAATTTGAAAGCTTTAGAGAAGGAAATTCTAAAACCATTTTGCTAACCAAGTCTGTTATATGTCAGGAAG<br />
+TTCTTCATAAATGATTTAAATCCTTATCATAGCAACATAAAACCATTTCCTCTCAT<br />
+&gt;TFLinkLT09894275;P17542;TAL1;hg38;chr11:58526810-58526939<br />
+GTGCCTAGTATATAACACGGGAAGCAGAAAGTTTATCTCCCAAACAAATATGACAATGAGTTATTGAAACCACAAGCCAG<br />
+TTTATTTATCAATGATGTCAGTACTCAAAGTTGTCCAGTTAAAATCTAC<br />
+&gt;TFLinkLT09894286;P17542;TAL1;hg38;chr6:56719418-56719534<br />
+TGGAAAGTCATGTGCAAAAGGTTACCAAGTGGTCTAGTTAGGAAACAGATTAATCTGAGTGATAAAGGAAACATTTCCTC<br />
+AGTTCTACATTAGCATAGGCTTTAACCTTGACACAC<br />
+&gt;TFLinkLT09894294;P17542;TAL1;hg38;chr1:62539245-62539392<br />
+TTTACATTACTACTGACTTGATAGTATGATCCAGAATGAGGATTAAAGAGTCATGAGTAGGCCAGTATAACTCAAGGAAA<br />
+TACTGGCTGTACTGATAACAGCTTGCCACAGTCCTTGTGTCCTGATAAAACATGTGTAATTTACTTT<br />
+&gt;TFLinkLT09894373;P17542;TAL1;hg38;chr11:33234981-33235102<br />
+AAAAGACTTGTTTTAAAAAGAAGCACAACAACTGTGATATCTTTGGAACTTATAAATATCTGGTCTAGGATTTCCTTAAG<br />
+CTAGTCATCTGTTTCCTCATTTCAAAAGCTGAAACTGTGTT<br />
+&gt;TFLinkLT09894376;P17542;TAL1;hg38;chrX:118591427-118591557<br />
+TGATAATTGGACCAGATGTCCATCACCAAGTTGTTTAATATGTGTATCTCTGTAACCAACATCAGTCACTACAAAAAACT<br />
+TGATCATGTAGTAAGTAACCCACATTATTTTTAGGATACCTAAAATGAAC<br />
+&gt;TFLinkLT09894393;P17542;TAL1;hg38;chr3:4387016-4387142<br />
+TTTGTGTCTCTATTTATGAGGGATGTTCACCTGTAGTAACCTTCTATTTTTTTACTGCTTTTGGTTTGGGGATCAAGGCA<br />
+ATACTAGCTTCGTAAAATGATTAGAAAGTGTTCCCTTCTTTTCATT<br />
+&gt;TFLinkLT09894413;P17542;TAL1;hg38;chr7:29878183-29878327<br />
+ACACTCACTTCCTAATCATTCTCATGAGTAAGTAATGTACAATATTAATACTCAGAATAATCTGGCCACTTTCATCCACC<br />
+AGTGGGCACTGTGCCCTAATTTCTCTGTGCATATTAGCTTCAAGTTGTTAAATATTTTCTGCCA<br />
+&gt;TFLinkLT09894522;P17542;TAL1;hg38;chr18:54444831-54444976<br />
+AGAAAGCTAAAGAAGCAGAGTATTTTAGACTGGAGAGTTACCGATAATCTACAAAGAAATCCAGGGCACAAGCCTGTGAG<br />
+TTTGGACAAATTACTTACTCTGGGTTTTTCACACAGGAATGAGGACACTTGATTCAGTGTTTTCT<br />
+&gt;TFLinkLT09894547;P17542;TAL1;hg38;chr10:12339897-12340046<br />
+CGAACTGGAGTCAAGATTTGGGAACTGACCCTGACTATCCCTGAGACTAATGCCAGGAGAAATGCCCCCATAGTAGATTG<br />
+CATTTCAGAATCTTGGCTGATTACACCATCTCTGGCAAATCCTTTGGACTTGAAGATTTCTTAATGACT<br />
+&gt;TFLinkLT09894578;P17542;TAL1;hg38;chr2:167122522-167122649<br />
+ATGTGTAGCAGTGTTCACTTGGATGTCCAGGCAATCTGGCCTCTCTGACAGGATACTGTCTCTAGATAGTATCAGCACAG<br />
+GAAGCTGATTCTTCCTTCTGAAAGACCCAAGGTCCCTTAACTGAGCA<br />
+&gt;TFLinkLT09894584;P17542;TAL1;hg38;chr11:70482070-70482164<br />
+GAGGTTATTAGATCCGAGAAGCAAGGGCGAGGGAGAGGATTGAGCCTAGTTTAGTGCCTACAGTGAATGCTCTTCATCTT<br />
+TGTCCTCTGGCCTC<br />
+&gt;TFLinkLT09894594;P17542;TAL1;hg38;chr15:62548802-62548952<br />
+AGGCAGAAAGGAATGGTAGGATGGAGGGTGGATTTACAACAAAAATAATGTCGACTCAAGGATAAAATTATGGGTGGATT<br />
+TGAATCCTAGGGTAAATAATCTTGAGGAATCCAAGACTTTATTCTATAGTTAGATCCACTTGGAGTTATT<br />
+&gt;TFLinkLT09894595;P17542;TAL1;hg38;chr8:40718720-40718868<br />
+CAAAAAAATTTGTAGCACAAAGTAAAATGTGCAAACAGCCCATCTAAACCATAGTTCTCATGCCTGCTCTATAGATAAGA<br />
+GTTCTGGGGGCACAAGATAATGACTTCCAAAGTGGAAGCAATTATCTCTCATACTCTTGTGGATTCAA<br />
+&gt;TFLinkLT09894599;P17542;TAL1;hg38;chr1:27136198-27136343<br />
+GGAAGCCTGGCTCTCCAGAAGCCTCAGCTCATGGAGAACTGCTGCTTAACTAGCAAGGGGACAGCAGCCAGGTCCACGAC<br />
+TCAAGCTCTGGGTCTGCTGGGAGCAGGGGGCAGGAGGAGGACTGCTCTGTGCCAAGGGAGGATGC<br />
+&gt;TFLinkLT09894610;P17542;TAL1;hg38;chr19:33160592-33160711<br />
+CAGGCCTTGATGCCTCTGTGGGCTGATGAAGGACAGACAGGAAGCCAGCAAACACACCACCGACTGTGAGGAGTGAAATG<br />
+GAGAAACCACAACAGGGTGACATGATGGGGACAGAGGCG<br />
+&gt;TFLinkLT09894612;P17542;TAL1;hg38;chr8:59274796-59274924<br />
+AAAAGTGAATGGCAAACGTTATCAGAGAAGAGCAGCACTCTTCCTGAAGGAAGGGTGCAGAAGTGCTGGGTAGAACGCTT<br />
+TTTCATTTTTTTGAGCAACTTCTTCTTGTTCTGACTCATGGTAACCTA<br />
+&gt;TFLinkLT09894636;P17542;TAL1;hg38;chr9:121393480-121393623<br />
+ATTGATGAGACATGTTGAGGCTGGTTCTAGGAATGCCAAAAAAAAGTTGAGTGTTAGAAATGATAGCCACTTGTCAGGAA<br />
+GGAAGCATATCCTGTCTCACTCCTTCTGCCTTGAAGAACTAACAGGAAGCCAACTGGCAAAGT<br />
+&gt;TFLinkLT09894685;P17542;TAL1;hg38;chr15:28938284-28938423<br />
+AACTTGGAAGCCACATGAGAAATAATACTCATAAATTGAAACAAATGTATTTCATCCTAAACCACAATTACAAACGGAAG<br />
+TGTGTCTGCTGAATGAGATTGGCACCATTCTCATTTCCTGTTTGATGCTGACTTTTGTG<br />
+&gt;TFLinkLT09894687;P17542;TAL1;hg38;chr20:44745674-44745803<br />
+CTTCAGATCTCACTATTCACAGACACATGAACCCCGGGCAGGCGAGTGGGAGGCGGACAGGGGAGCGGTTCTTCCGGCCC<br />
+CCACCCGTGGCGATCCCAGCCTCCAGGTTCCCGGCAGTCGCCCCGCCTC<br />
+&gt;TFLinkLT09894697;P17542;TAL1;hg38;chr10:101032751-101032894<br />
+TGGGCAGGGTGTGCATGATAGTGTCTTTGTGTGTGGGTATGTGAGTGTGAGGGGAGGGCGTCTCTGCCTCTGCGGGAGGA<br />
+AGTGTGGCTGGAGAGGATTAGTCATTCTGTAGGATTCTGCCCAACTCAGCCAGATGGCTGCAC<br />
+&gt;TFLinkLT09894737;P17542;TAL1;hg38;chr8:22453307-22453411<br />
+TGAAGATTTAAGAGTACTGTATTTTATATAGTCACGCTTACATAGTTGCTTAATAATTCGGAGTTCTGACAAATGCATCC<br />
+TTAGGCGATTTCATCATTATGCAA<br />
+&gt;TFLinkLT09894739;P17542;TAL1;hg38;chr3:150251526-150251665<br />
+AAATAGGTCATCCTCCCTGGGCAGAGAACAGGATGGAAAAGAGTAGAGAGAGGACCTGGGGGTGCAAATGTAAGATATCC<br />
+AACACAGGAAGTTTGTTATAAGATTAGATAACTTACATGGCACTGTGTCTGCTACACAG<br />
+&gt;TFLinkLT09894740;P17542;TAL1;hg38;chr3:150301097-150301239<br />
+AAGAAATGATTATCATTTCCTTACACTTACTCTATACTTGCTTACTCACTAACTAGTCATCAGTCACAGGCTGTAAAGTC<br />
+GGAAGGAAAAACAAACTGCTGCTTCCTGCTGTAAATTCTCTAACTACACTTGTGAAGTCTTT<br />
+&gt;TFLinkLT09894749;P17542;TAL1;hg38;chr6:47323527-47323674<br />
+CTCGACAGAAAGTTAGATTAGATGCCGTTATTCTGAGAACCATCTGCCTGATAAAGAGAGTCTGGAAGAAACAACCTTCT<br />
+CTCTCCTGAAGATTCTCACAGTTTTTCTCCAGCCTGCCCTCTCTATAGAATTCTTCCTTACATCTTT<br />
+&gt;TFLinkLT09894752;P17542;TAL1;hg38;chr5:105953213-105953363<br />
+AATAAACAAACCAAGAAATATTATGGAGAGCCTTATGATTCTGGATTCAGACAAATTTCTATAAGATTTCTTTCACTGTC<br />
+TGAAGCTTACACAGTACCATAATTCCTTACAGCTTTGTATGTTTATGTTTATTTTTCTACCTTCCCTTGG<br />
+&gt;TFLinkLT09894762;P17542;TAL1;hg38;chrX:4723773-4723915<br />
+CTGTGGGCTTCTGACTTTGCATATCTGACAGGTTAACAATACCGTAGTATGTCCTTACGTATCATACATTGTCTACCTGA<br />
+AATTGTCATTGATATTGGTTTGCTCTCTCTAATCCATCTGTTTCCTAAGGTCAGACAATAGG<br />
+&gt;TFLinkLT09894766;P17542;TAL1;hg38;chr7:4129560-4129685<br />
+CAGGAAGCAGAGTGTTGTCTGTGTTCATAATCGAGTCTTTGTTTTAGTGGCTGTGGTTGGCATGGCTGCAGTTGGGCCCT<br />
+CAGATCTTGCAGATTATGACCAGGCAGCAGGCTCGCCAAGCCGTG<br />
+&gt;TFLinkLT09894776;P17542;TAL1;hg38;chr18:25103606-25103755<br />
+CTAGCACATCTAGACACTGTATGCTGAAGCCAAGATGTTACTGGCATATCAATGAATCATACTCATTTCTAGTTCCTTCT<br />
+GCTGTTTTCTGTCAATCAAGAGCTATCTAAGTGAGACAGTTGTTATCCTCTGTGATGGGAAGAGAGAAG<br />
+&gt;TFLinkLT09894783;P17542;TAL1;hg38;chr2:200689316-200689426<br />
+CACACAAACACTTCTGACACCAGATGTGTGTGGTTTTTTTCCACACCAACAAATTCTCCAATCTCCAGACACCAGCTGGT<br />
+ATCCTACAGTTTAATCCAATTCTGACCCTA<br />
+&gt;TFLinkLT09894810;P17542;TAL1;hg38;chr5:95736805-95736949<br />
+TTCCAAAAATTAATGTCATAAATTATTTCAGGATTGATTGGACGATAAGTAGACTAAAGATTGCTATTTGCATTTTGGTT<br />
+TAGGACATATTTGACAGTGATTGGTACACTTCTCGAAATCTAATTGGGGGCGCTGACATCATTG<br />
+&gt;TFLinkLT09894854;P17542;TAL1;hg38;chr10:17169018-17169146<br />
+CAGTTTATAATACAATGCTTGTCAAATCAACTTTGGTTAACTAACTTCTCAAAGCAATACTGTGAAGGAAGTGGGGCAGT<br />
+AAACTGAAGCTACAAGAAATTAAGTGACTTCCCCCAAGGTCCCAGCAC<br />
+&gt;TFLinkLT09894896;P17542;TAL1;hg38;chr8:13825957-13826079<br />
+GAGAAGTACTCAAAAATAAAGGTGGAAAAAAATTCTTCAGAATAATTAATACTGAGAGATTTGTAGTTCTTTAGAAAGAA<br />
+GGAAAATTAAATCAAATAAAAAAGTGTATTTACACGAAGGAC<br />
+&gt;TFLinkLT09894968;P17542;TAL1;hg38;chr21:42306788-42306917<br />
+CAGGCCCGCCCCGCTGTTTTATTTCCCTTCTCTGCCCTTTCCCCGGTGCAAGCAGCTGTTGGTCTGTGCTTCCTGCTGCT<br />
+CTGCTCTGCAGATACTAACGAAGCCACAACCAGGGGGCCGGGTGGTCAC<br />
+&gt;TFLinkLT09895014;P17542;TAL1;hg38;chr12:65925837-65925963<br />
+ACATAGCAGAAGGAAGGAAGTTGTGAAAGGGGAGAAAATAGAGCTATTGACTGCAGAGCCATAAAGCTGTTTTTAGAATG<br />
+ACTGCTTCTGTTGTATTGGGGAACGCTTCCTTTGAGAGGGGGTATA<br />
+&gt;TFLinkLT09895031;P17542;TAL1;hg38;chr14:41691587-41691729<br />
+ATACGTAACATTTAAAATTTTTGGTTATATTTTATAGACATTAAAATACATAGATCTTAAATGATGAGTTTGGCGATTTT<br />
+TTAACAATTGTGTACTTTATTTAACCACCACACTATACAACATATAGAACAATTTCATATTT<br />
+&gt;TFLinkLT09895043;P17542;TAL1;hg38;chr1:8660518-8660651<br />
+GAGATCATCTGCACAAGGCCACGCAGCCAATGGGCACGAAGTAGGATTCCAGTGCAGCTGTCTCAGAGCTCAACCCTATC<br />
+TGGCTTGCACAGGAACTCCTGCTGCCTGTGCTGCCAGGATCTCCAGCTCTTCA<br />
+&gt;TFLinkLT09895064;P17542;TAL1;hg38;chr17:34885220-34885369<br />
+TGCACCCTAAGTCATGAACAGACTTTTTGTGTTGTAATCCAATAAAACTTACCACAAAGCTAATCAGCCACACATGGGTG<br />
+CTGTGCATTATGATTATTCTGCTTCTTGGAGATAAGCTCCCAATAGTAAGTAACGGCTCAGATAAAACG<br />
+&gt;TFLinkLT09895068;P17542;TAL1;hg38;chr1:28126945-28127078<br />
+ACTGAACAAAATATATAGAACTGTATATCTCAGAAAAGAGAAGTAGCAGCAGTTGACAGGAAGAGCAACATCCTCAATTT<br />
+TCAAGATATTTACAAAGTTTGTGTGTGTTTTTCTCTTCCTAAGTTCCCTCTTC<br />
+&gt;TFLinkLT09895076;P17542;TAL1;hg38;chr2:66527247-66527356<br />
+GTTAAAGATCTAACAGCCATCTTAGTGTACAATGAAGTTGGGACTGGAAACAAAACTCAGGGCCATAAATTTCAACTTCC<br />
+TGGAGCTTACCACTTCCATACCCTGACAC<br />
+&gt;TFLinkLT09895088;P17542;TAL1;hg38;chr9:62822330-62822476<br />
+AACATTAGAACACCAAATTCAATAACATATTGCAAGGATTATACACCATGACGAAGAAGGAGTTATCTCTCCAATGAAAG<br />
+TATTGTTCAACACGTGTAAATCAATCTATTTGTTTTTTATTTTTTTATTATACTTTAAGTTCTAGG<br />
+&gt;TFLinkLT09895089;P17542;TAL1;hg38;chr6:142389727-142389869<br />
+TAGTAGTTTAATAGAAGTATTTTATTAAGCAGGGGAAAGAGAGGAAAAGGAGAGGAATTAGGGTAGTAAGTATGTGTATG<br />
+CCTGTTCTGCTTTTTCAAGTTAATTCCTCCATATGATCTCATTCAAGTTTTCACATCCCAAA<br />
+&gt;TFLinkLT09895132;P17542;TAL1;hg38;chr12:75481652-75481787<br />
+AACTAAATTGTCACGTTTCCTACCAGCCCTACTCAGTGCTTGAAGACCATATTTATAGAGGACTCATATGCAGTGGTATC<br />
+TTCTCTCCTTATCTCACCTCGTTTTCCATTCAAATTCCCACTGTACTCACCCCAG<br />
+&gt;TFLinkLT09895145;P17542;TAL1;hg38;chr13:63046880-63047019<br />
+AAAGCACATACATGTATGATCTAGATACAGAACCCATGTTTTACAAGGGAGAATAAAAACAGTTACTTTTATTGTATGCC<br />
+TGAGTTTCATGGTTTCACTGTATCATATTGGCTGCATATGGGGCTAATTTCTGATTACA<br />
+&gt;TFLinkLT09895146;P17542;TAL1;hg38;chr13:63048942-63049054<br />
+AATAAAGCCAAAATTTTTTAATCAAGTTAGAAGACATCATTTGATAATTACATTGCTTTTTAATGTGTATGAGTCTTAGC<br />
+ACCTTGAGTTAGGAAAGATTGTCAATGATTGA<br />
+&gt;TFLinkLT09895163;P17542;TAL1;hg38;chr3:989149-989299<br />
+ACTTGGAAGAGATTGATCTTTTTCTACAAGGAGGTAGAGAATATGATGAGAAATTTCTCTATTTGCACTGCAAGATATCT<br />
+TTAGTGAATCTCTTCTCTATTCCTCAGCTACAAACATTTTAACTTTTTCTCTACAGCAGGTTCATCACAG<br />
+&gt;TFLinkLT09895176;P17542;TAL1;hg38;chr7:81887175-81887314<br />
+GATTCCCTGCAGCTAATCTATATGGTTATGCCATGTGGTTAGAAACAGGAAACACCTGTCTCCCTGCTTGCTAGCACTCA<br />
+CTTAACATGATCCCTGGCAAAGCAGTTTTTTCAGCCCCACTCCAATTCACCAGAGGTCA<br />
+&gt;TFLinkLT09895183;P17542;TAL1;hg38;chr5:67713747-67713896<br />
+AAAGTTAAATAGGAATTGAAGAGAATATTTATAAACATCCATTATATTTGAATTAAAGTACATCTTTCTGAAGAGTTGGT<br />
+TGATCATACATGCAAACAAAATTCTACAATATCTGAACTACAAAAATGAATTCTTATCTAATAAAAATT<br />
+&gt;TFLinkLT09895191;P17542;TAL1;hg38;chrX:66005954-66006075<br />
+CTTATCAGTGAAAGATACGACAATTCTCACCTTGTAGAGTTGTTATGAAGATTACATAAGCGGATGTACATAAAGCATCT<br />
+AGCTTGGGACAGAGTAGCCTTTCTTCAACTGTTGTCTCTCT<br />
+&gt;TFLinkLT09895195;P17542;TAL1;hg38;chr4:73776355-73776483<br />
+CTTTTATTTGCCAAACTTCCTTCTTCCTTGTTATGAAGATTAGTAACTCCAAACCATATTCACTTCTGCGGTTTCATTCT<br />
+GAAAAAAGAAAATTTGGCTGGTTTAGATAAAGCATTCCATTAACCTAC<br />
+&gt;TFLinkLT09895208;P17542;TAL1;hg38;chr6:25036161-25036283<br />
+GAAGCAGAACAAGACAATTAAGTCACATTGACACTGGGAGGAAGTCGCCAGTGGTATCTCTGAGACAGCAGATTCCCTAA<br />
+TCTCAAGTGCATATCAGCTTTGTCACTGTTGTCTTTTCAGTG<br />
+&gt;TFLinkLT09895233;P17542;TAL1;hg38;chr8:9575743-9575884<br />
+AGTTGAAATGTGAATGCTTAGTAAACATAGGAACAGATGCTTTTATCAATTTGCATGGATTTAACTATGAGTATTTTAAA<br />
+ACTTCAACTGACTTAAAGCCTAAGGACATTTATTTTCCTGCTTGATAAGAAGTGTAGTGGT<br />
+&gt;TFLinkLT09895249;P17542;TAL1;hg38;chr1:154327561-154327711<br />
+ATGTGAGCTCCCCTGGAGGAGGTGATAATGGAAGCCCTAGTAATGGGGGGTGGGGATGGCAGGGAACTTATAAGCCTTTC<br />
+GAGAAGGGTGGAGCCTGCCCACCCTGTTTCCTGATGCCCTGCCAGGTGTTTCCTGGCTCATGTTCCCTCC<br />
+&gt;TFLinkLT09895260;P17542;TAL1;hg38;chr7:37900948-37901091<br />
+ATATTAATAAAAGTAAGACGCTCACAAGCTTTGATCCTTCCACATTAGTAACAGATTACTCACTGCAATACTTTCATATT<br />
+CCAACATAATGTTTGAGAAGCATGCCTGTGAACAGTGTTAAATTATACAAAATCTAATTATGT<br />
+&gt;TFLinkLT09895288;P17542;TAL1;hg38;chr8:134112386-134112522<br />
+GTGGCATAAGAGATTAAGAAATTATTTTTTAACTCTCTAGGACAGGGAAATACTGCTGAAGGGGACCACATGTATCTTAT<br />
+GTCTTGACTGATGTGTAGGATTTAGCCTCTCCCTCTGATGACTATAGATTTTCAAC<br />
+&gt;TFLinkLT09895290;P17542;TAL1;hg38;chr8:134304057-134304177<br />
+CAAATCCCAGAGTCACTGGCTTTGAAAAGCCATCTGCCTAAAATTTATTGTCTCAGAATGCTGGCACAGAGAGATAATGA<br />
+ATCCAAAGTTATAGGGTCAAGTTCACGTGCATCTGAGCCA<br />
+&gt;TFLinkLT09895300;P17542;TAL1;hg38;chr13:84521988-84522072<br />
+TTCATTCCAGTAGCACTATTTGTCACATGATGTATTATAGAATTCTCAATATTGTATATATATACTCAGGCCCCAACATA<br />
+AATC<br />
+&gt;TFLinkLT09895326;P17542;TAL1;hg38;chr3:153628631-153628744<br />
+GAAACTTAAGCTTCCTGTCTGAAGTCATCATAGTTAAAATGGCATGTCAGGAAGTCAGTCTATTATCGGTCTACCCAGAT<br />
+GTTTCTTCAACTTGTCCGAGGCTGCCTGCAACT<br />
+&gt;TFLinkLT09895329;P17542;TAL1;hg38;chr12:26452609-26452759<br />
+CTCCTGAGGGGACTGGGTTAATTTTCAGAGGAAGTGAGTGCATTCTCACTCTCAAGGAACCGGATTTGGTATCTTGAGAG<br />
+CAGGTTGTTATGCAGGAAGGCTGCTTCGGGCTTTGCCATGGTAGCACACGCCTGCTTCCTTTTCCTTTCT<br />
+&gt;TFLinkLT09895339;P17542;TAL1;hg38;chr15:41116564-41116691<br />
+TCTCGCAGGAGAAAATGTCGCGAGAGCTTTCCAGGCCCGCAACCGCCGATGCAAGGTTACTTTTCCCGGAAGTAACGTCA<br />
+ATCGAAACCGCCCGGGATCCTGGGATATTTGTTCCCGCAGGCTAGAG<br />
+&gt;TFLinkLT09895357;P17542;TAL1;hg38;chr2:154386545-154386667<br />
+TAAGCATCAGTTCTGTGGGACAATTGGACCAGTTTCAAATGAAAACCAATATCATAATTCCAAATCCTCATTTAGACTTG<br />
+ATAGGGGTCAAGATAATGCTGAAATATACAGCTATATATTAG<br />
+&gt;TFLinkLT09895382;P17542;TAL1;hg38;chr4:150402615-150402735<br />
+ACATTTATTTAGAATAACTGTTAGTGGAGAGAAAAAATGGCCTATTTTTGTTTATTTATATAATACTCACACAACTATTC<br />
+ATTGTTTCCTAGCATTGCAATACTTTGATATTTATCCTAA<br />
+&gt;TFLinkLT09895408;P17542;TAL1;hg38;chr15:52551897-52552029<br />
+TGAGATTTAGCAGATTCATGCAGTTCAGCCTCTTAATCAGCCAGCCAGCTTGCTAGCAACAAGGGACGGCTTCCGTTGAG<br />
+GAAGGTCTTGCGGAGTGGGAATGTGGTCACCAGTGACCTCCGTCTTATCCGG<br />
+&gt;TFLinkLT09895412;P17542;TAL1;hg38;chr15:35629804-35629923<br />
+TTAAATTCCTGGGTCCTACAAATGAGATTTTAGTAGTGGCAAGTAAAACATATTGATTGGCACCAAAGTATAAGATCTTT<br />
+GTCACCATCTGTTTCCTGATTGTGTCAGCAAGTATTTTT<br />
+&gt;TFLinkLT09895444;P17542;TAL1;hg38;chr2:193331708-193331856<br />
+GAAAATTTCGTTCAGCCAATATGTGGTATCTTGCTTATATTTTTTCATTTCTTAATCATAAAACATCATGAGAGAAGAGG<br />
+AAATGGCAACTTGCAAGATATTTTAATCTACAGAGAGGGATTTCCTGACAAGAAAGCAGAAGTTTATG<br />
+&gt;TFLinkLT09895493;P17542;TAL1;hg38;chr10:45110374-45110507<br />
+CTTTTACACAAAAACTCAAACCATCACAAAATATCTGTCCTTGTAAAGAAAAACTTCCTGATGAATGTAGTAATAATATC<br />
+TGAAACTACACACATGAAGCTTTGTAGTTTTCAGATTTTTGCTTTATTTCATT<br />
+&gt;TFLinkLT09895500;P17542;TAL1;hg38;chr1:234068649-234068757<br />
+GAGAGGTGTGTGTGTGAGCAAGCATGTGTGTGTGCATGTGTGCATGCAGTAAGAGGCAAGAGTGCAGACCACGTAGGCCT<br />
+TGCAGACCGCTGTAAATGCTTGGCTTTT<br />
+&gt;TFLinkLT09895537;P17542;TAL1;hg38;chrX:62617138-62617278<br />
+AAAACTAGACAGAAGCGTTCTCCGAAAATTCTTTGTGCTGCGTGCATTCAACTCACAGTGTTGAAACTTTCTTTTGATAG<br />
+AGCAGGTTTGAAAGTCTCTTTTTGTAGAATTTGCAATGGATATTTTGTTCCCTTTGAGGC<br />
+&gt;TFLinkLT09895538;P17542;TAL1;hg38;chrX:62998380-62998490<br />
+TTGTAGTTATTTTTTCTTTCAGAACTTTCAATATGTCATCCAATTCTCTCTTGATATGCAAGCTTTCTGCTGAGAAATCT<br />
+GCTAATTGTCTGATGAGAATTCTTTTATAT<br />
+&gt;TFLinkLT09895542;P17542;TAL1;hg38;chr13:98490133-98490272<br />
+TGGGTGCCTGCATTTCTGTGACATTGAGGAAACACTCTGGTGGGATATTCAGCAAGCCAGCTGCTTCCTTTGCTGGCTCC<br />
+TGTGTGCACAGATATAAACCTTTTTCTCTCATTAATATGTCACTTATCAGTTTAATCTG<br />
+&gt;TFLinkLT09895554;P17542;TAL1;hg38;chr3:114761258-114761366<br />
+ACACATAATAATAGTTAACATTCATTGAGTGCTGACTATATGCTAGGGACTAATCTAAGGACTTTACATATAGTATCTCA<br />
+TTTAATTCCCACAGTAACATTATATGTT<br />
+&gt;TFLinkLT09895567;P17542;TAL1;hg38;chr13:66323052-66323189<br />
+CAAGCATTCATATATTCAGTGTTTTCCTTTCTTGACAAGATTAGCAGTGCAGATGTTAATTGTGATATGTAACATGACTT<br />
+GTCAAGATACCTAAAATCCTTGGTCTCTGGTTCTCTTTTAGGTTTGATGACTGGCTT<br />
+&gt;TFLinkLT09895595;P17542;TAL1;hg38;chr10:46018545-46018684<br />
+GAAAAGGGAGAGAGGCCTCAAAACCATGAAACACTTCTCCAGGAAGGAAGGCTGTTTAGCCTAGATAAGAGACGTCTCCA<br />
+GGAGGACATGATTACCATTCTCAAGTATGTGGAGACCTGTCAACTAGAAGAACTAAATT<br />
+&gt;TFLinkLT09895607;P17542;TAL1;hg38;chr4:61570179-61570299<br />
+ATTGCCTTAAAAAATAAGTGAACTTATCTTTGCTATCTCCCCTGACTTTCACTTTTTCTGCTAGTAATACAGCCATCTCT<br />
+GTCCATTTTGATAGCATCCTGTCCCTTGTGTCCACATCCT<br />
+&gt;TFLinkLT09895618;P17542;TAL1;hg38;chr5:174532030-174532158<br />
+TCAGAAACAACTGTCACGCTGAGCCTAATTGCTGAAGATGGTTGAAGGCACCAGGAGGCTGGAGTTTCCTGGAGGTGGTT<br />
+TGTGGCCAACCGTCAATTACTTGGGCTGCTGTGCAGTGGGGATAGAAG<br />
+&gt;TFLinkLT09895626;P17542;TAL1;hg38;chr7:3150198-3150268<br />
+GAGACATGCAGACATGGGCATCCCTGCCAGGAAAAAAGGAGTTTACACTCACTGACCCCTGAAAACCGGA<br />
+&gt;TFLinkLT09895629;P17542;TAL1;hg38;chr17:76547385-76547514<br />
+TTTTGATTTGTTTTTGCAGGGGGAGGGTGCAGGCCATGGAGACCAAGGAGGTGGCTTTCAGGGGGATCCGCTGACAGTGG<br />
+GAAGCCAGTCCTTGTGCCTAAGGAGCACAGACCCTCTCTGTGTGACACA<br />
+&gt;TFLinkLT09895637;P17542;TAL1;hg38;chr3:161035223-161035366<br />
+AAGAGTGAGCCATCTTGCAGTTTTGACTGAGCTTTGTTCTGCTTATTGAATAGGTAAGTAACCCAAACGGAAAGAAGTGG<br />
+TGAGCAATGCAGGAAGTGCTCAAGCCTGATGTAAAACAGGAAAACTTCTGTTTCATGGTTTGT<br />
+&gt;TFLinkLT09895648;P17542;TAL1;hg38;chr5:50206119-50206264<br />
+ACTGCTCAATGAAAACAAAGGTTCAACTCTGTGAGATGAATGCACACATTAGAAAGAAATATGTCAGAATGCTTCTGTGT<br />
+AATTTTTCTGTGAAGATATTTCCGTTTAAACAATAGACCTTAAAGCGCTTCAAATATTCATTTGC<br />
+&gt;TFLinkLT09895672;P17542;TAL1;hg38;chr13:69955393-69955543<br />
+AGTTAACACTTCAATATGATTAAAGGTCTGCCATTTGGCAGTTTAATTTCCTAACCCTCTTCTTAATATCACTACTAGAT<br />
+TGACAGCTTCCTTTATTTAAACCTTGTGCTTATCAGTTCTCTACAGGACCTGACACTTTGTTAGTAACTC<br />
+&gt;TFLinkLT09895735;P17542;TAL1;hg38;chr7:130091611-130091737<br />
+TCTGAATAAGACAGATACTTTAATGTTCTTCTGGTTTTCCTTCTCTCAGCCTCCCTTCCTACCCTTATAAATATTCCTGT<br />
+TGATAGCATCTGAGATTATAGTTCTGAATGTTAGTAATGTTTTTTT<br />
+&gt;TFLinkLT09895739;P17542;TAL1;hg38;chr16:67486879-67487009<br />
+ACTGCAAGCACCCGTGGCTCTGTCAATCAGGGTTGATTTTGAAACCCCTACCCAGCCCATTGCCCCTGCCCCAGAGAGCA<br />
+CAGCCATGTGTTTCCTGTGAATCATCTGTAGGATTTCCTAAGGCAGAGGT</p>
+
+    </div>
+  </div>
+  
+  <div class="uk-width-1-3@m">
+    <h2>Large scale binding site sequences of TAL1</h2>
+    <button onclick="location.href='https://cdn.netbiol.org/tflink/ls_fasta/P17542_HT.fasta'"
+      type="button">
+      <span uk-icon="icon: download; ratio: 1.5"></span>
+      <h4 style="display: inline-block; margin: 0">Download</h4>
+    </button>
+  </div>
+  
+</div>
+
+
+
+
+
+
+<script src="/protein.23e3d.js"></script>
+
+
+<script src="/network.23e3d.js"></script>
+
+
+  </div>
+
+  
+  <footer class="uk-container uk-container-small"></footer>
+
+  
+
+  
+  
+  <script src="/main.23e3d.js"></script>
+  
+</body>
+
+</html>
