@@ -28,7 +28,7 @@
             <i>TFLink</i>, we examined the freely available large transcription
             factor databases, and selected ten resources for integration:
             <a href="https://saezlab.github.io/dorothea/" target="_blank">DoRothEA</a>,
-            <a href="http://gtrd.biouml.org/" target="_blank">GTRD</a>, 
+            <a href="http://gtrd.biouml.org/" target="_blank">GTRD</a>,
             <a href="http://www.lbbc.ibb.unesp.br/htri/" target="_blank">HTRIdb</a>,
             <a href="http://jaspar.genereg.net/" target="_blank">JASPAR</a>,
             <a href="http://www.oreganno.org/" target="_blank">ORegAnno</a>,
@@ -36,9 +36,9 @@
             <a href="http://remap.univ-amu.fr/" target="_blank">ReMap</a>,
             <a href="http://rulai.cshl.edu/cgi-bin/TRED/tred.cgi?process=home" target="_blank">TRED</a>,
             <a href="https://www.grnpedia.org/trrust/" target="_blank">TRRUST</a>, and
-            <a href="http://www.yeastract.com/" target="_blank">Yeastract</a>. From these source databases we 
-            integrated accurate, small-scale (such as DNase-I footprinting and EMSA) 
-            and large-scale approaches (<i>e.g.</i> ChIP-seq; see the 
+            <a href="http://www.yeastract.com/" target="_blank">Yeastract</a>. From these source databases we
+            integrated accurate, small-scale (such as DNase-I footprinting and EMSA)
+            and large-scale approaches (<i>e.g.</i> ChIP-seq; see the
             <a href="https://tflink.net/faq/" target="_blank">FAQ</a>
             for the detailed list of methods).
           </p>
@@ -56,7 +56,7 @@
         </div>
       </div>
     </section>
-    <hr />    
+    <hr />
 
     <section class="uk-container">
       <div class="uk-grid-small" uk-grid>
@@ -77,26 +77,26 @@
             </thead>
             <tbody>
               {{ range $i, $row:= (after 1 $statistics) }}
-                <tr>
-                  {{ $rowspan:= 1 }}
-                  {{ if eq (mod $i 3) 0 }}
-                    {{ $rowspan = 3 }}
-                    <td class="stat-organism" style="vertical-align: middle" rowspan=3>{{ index $row 0 }}</td>
-                  {{ end }}
-                  {{ if (and (lt $i 21) (eq (mod $i 3) 0))}}
-                    <td rowspan={{$rowspan}} class="siluette">
-                      <img src="{{ printf `/images/siluettes/%s.svg` (replace (index $row 0) ` ` `_`) }}" />
-                    </td>
-                  {{ end }}
-                  {{ if gt $i 20 }}
-                    <td></td>
-                  {{ end }}
-                  <td align="center">{{ index $row 1 }}</td>
-                  {{ range after 2 $row }}
-                    <td align="right">{{ lang.NumFmt 0 (int (index .)) "- . ," }}</td>
-                  {{ end }} 
-                </tr>
-              {{ end }} 
+              <tr>
+                {{ $rowspan:= 1 }}
+                {{ if eq (mod $i 3) 0 }}
+                {{ $rowspan = 3 }}
+                <td class="stat-organism" style="vertical-align: middle" rowspan=3>{{ index $row 0 }}</td>
+                {{ end }}
+                {{ if (and (lt $i 21) (eq (mod $i 3) 0))}}
+                <td rowspan={{$rowspan}} class="siluette">
+                  <img src="{{ printf `/images/siluettes/%s.svg` (replace (index $row 0) ` ` `_`) }}" />
+                </td>
+                {{ end }}
+                {{ if gt $i 20 }}
+                <td></td>
+                {{ end }}
+                <td align="center">{{ index $row 1 }}</td>
+                {{ range after 2 $row }}
+                <td align="right">{{ lang.NumFmt 0 (int (index .)) "- . ," }}</td>
+                {{ end }}
+              </tr>
+              {{ end }}
             </tbody>
           </table>
         </div>
@@ -105,34 +105,43 @@
     <hr />
     <div class="uk-container">
       ⁴ TF: transcription factor<br />
-      ⁵ In some cases the number of binding sites and the number of binding sequences are different because among the data we 
-      downloaded from JASPAR there are binding sequences with missing localization, for example when random sequences were 
+      ⁵ In some cases the number of binding sites and the number of binding sequences are different because among the
+      data we
+      downloaded from JASPAR there are binding sequences with missing localization, for example when random sequences
+      were
       investigated with the SELEX.<br />
-      ⁶ The total number of TFs, target genes, etc. can be different from the sum of small- and large-scale data due to overlapping items.
-    
+      ⁶ The total number of TFs, target genes, etc. can be different from the sum of small- and large-scale data due to
+      overlapping items.
+
     </div>
   </div>
 </main>
 {{ end }} {{ define "footer"}}
 <div class="uk-grid-medium uk-flex-center uk-flex-middle uk-child-width-1-6" uk-grid>
   <div class="logo">
-    <a href="http://group.szbk.u-szeged.hu/sysbiol/papp-balazs-lab-index.html">
+    <a href="http://group.szbk.u-szeged.hu/sysbiol/papp-balazs-lab-index.html" target="_blank">
       <img src="/images/brc_logo.png" width="60%" />
     </a>
   </div>
   <div class="logo">
-    <a href="https://www.earlham.ac.uk/korcsmaros-group">
+    <a href="https://www.earlham.ac.uk/korcsmaros-group" target="_blank">
       <img src="/images/EI-double-large-trans-highquality.png" />
     </a>
   </div>
   <div class="logo">
-    <a href="https://www.hcemm.eu/">
+    <a href="https://www.hcemm.eu/teams/metabolic-and-cardiovascular-diseases/hcemm-brc-metabolic-systems-biology-research-group/"
+      target="_blank">
       <img src="/images/H-CEMM_Logo_RGB.jpg" />
     </a>
   </div>
   <div class="logo">
-    <a href="https://genetics.elte.hu/index.php/en/">
+    <a href="https://genet.elte.hu/en/content/ari-eszter.t.16148" target="_blank">
       <img src="/images/elte_cimer_szines.png" width="70%" />
+    </a>
+  </div>
+  <div class="logo">
+    <a href="https://github.com/NetBiol/TFlink" target="_blank">
+      <img src="/images/Octocat.png" width="70%" />
     </a>
   </div>
 </div>
