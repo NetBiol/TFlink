@@ -334,8 +334,13 @@ $(document).ready(function () {
               {
                 id: "data9",
                 header: ["Genome browser"],
-                template: `<a href='https://genome.ucsc.edu/cgi-bin/hgTracks?db=#data9#' target='_blank'>
-                <i uk-icon='icon: link'></i>USCS</a>`,
+                // template: `<a href='https://genome.ucsc.edu/cgi-bin/hgTracks?db=#data9#' target='_blank'>
+                // <i uk-icon='icon: link'></i>USCS</a>`,
+                template: function (obj) {
+                  return obj.data9 != "-"
+                    ? `<a href='https://genome.ucsc.edu/cgi-bin/hgTracks?db=${obj.data9}/' target='_blank'><i uk-icon='icon: link'></i>USCS</a>`
+                    : "-";
+                },
                 adjust: true,
               },
               {
