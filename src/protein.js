@@ -39,7 +39,6 @@ $(document).ready(function () {
                 ],
                 template:
                   "<a href='https://www.uniprot.org/uniprot/#data1#' target='_blank'>#data1#</a>",
-                adjust: true,
                 maxWidth: 200,
                 tooltip: false,
               },
@@ -93,6 +92,8 @@ $(document).ready(function () {
                     content: "textFilter",
                   },
                 ],
+                template: `<a href='https://pubmed.ncbi.nlm.nih.gov/?term=#data5#' target='_blank'>
+                <i uk-icon='icon: link'></i>Pubmed</a>`,
                 width: 110,
                 tooltip: false,
               },
@@ -169,7 +170,6 @@ $(document).ready(function () {
                 ],
                 template:
                   "<a href='https://www.uniprot.org/uniprot/#data1#' target='_blank'>#data1#</a>",
-                adjust: true,
                 maxWidth: 200,
                 tooltip: false,
               },
@@ -224,6 +224,8 @@ $(document).ready(function () {
                     content: "textFilter",
                   },
                 ],
+                template: `<a href='https://pubmed.ncbi.nlm.nih.gov/?term=#data5#' target='_blank'>
+                <i uk-icon='icon: link'></i>Pubmed</a>`,
                 adjust: true,
                 width: 110,
                 tooltip: false,
@@ -266,7 +268,7 @@ $(document).ready(function () {
           {
             id: "bindingSitesTable",
             view: "datatable",
-            css: "",
+            css: "target-blank",
             columns: [
               {
                 id: "data0",
@@ -280,47 +282,7 @@ $(document).ready(function () {
                 adjust: true,
               },
               {
-                id: "data1",
-                header: [
-                  "Detection method",
-                  {
-                    content: "textFilter",
-                  },
-                ],
-                adjust: true,
-              },
-              {
-                id: "data2",
-                header: [
-                  "Publication ",
-                  {
-                    content: "textFilter",
-                  },
-                ],
-                adjust: true,
-              },
-              {
-                id: "data3",
-                header: [
-                  "Source database",
-                  {
-                    content: "textFilter",
-                  },
-                ],
-                adjust: true,
-              },
-              {
                 id: "data4",
-                header: [
-                  "Small-scale evidence",
-                  {
-                    content: "selectFilter",
-                  },
-                ],
-                width: 165,
-              },
-              {
-                id: "data5",
                 header: [
                   "Assembly",
                   {
@@ -330,7 +292,7 @@ $(document).ready(function () {
                 adjust: true,
               },
               {
-                id: "data6",
+                id: "data5",
                 header: [
                   "Chromosome",
                   {
@@ -340,7 +302,7 @@ $(document).ready(function () {
                 adjust: true,
               },
               {
-                id: "data7",
+                id: "data6",
                 header: [
                   "Start",
                   {
@@ -350,7 +312,7 @@ $(document).ready(function () {
                 adjust: true,
               },
               {
-                id: "data8",
+                id: "data7",
                 header: [
                   "End",
                   {
@@ -359,8 +321,73 @@ $(document).ready(function () {
                 ],
                 adjust: true,
               },
+              {
+                id: "data8",
+                header: [
+                  "Strand",
+                  {
+                    content: "textFilter",
+                  },
+                ],
+                adjust: true,
+              },
+              {
+                id: "data9",
+                header: ["Genome browser"],
+                template: `<a href='https://genome.ucsc.edu/cgi-bin/hgTracks?db=#data9#' target='_blank'>
+                <i uk-icon='icon: link'></i>USCS</a>`,
+                adjust: true,
+              },
+              {
+                id: "data10",
+                header: [
+                  "Detection method",
+                  {
+                    content: "textFilter",
+                  },
+                ],
+                adjust: true,
+              },
+              {
+                id: "data11",
+                header: ["Publication "],
+                template: `<a href='https://pubmed.ncbi.nlm.nih.gov/?term=#data11#' target='_blank'>
+                <i uk-icon='icon: link'></i>Pubmed</a>`,
+                adjust: true,
+              },
+              {
+                id: "data12",
+                header: [
+                  "Source database",
+                  {
+                    content: "textFilter",
+                  },
+                ],
+                adjust: true,
+              },
+              {
+                id: "data13",
+                header: [
+                  "Small-scale evidence",
+                  {
+                    content: "selectFilter",
+                  },
+                ],
+                width: 110,
+              },
+              {
+                id: "data14",
+                header: [
+                  "Nr. of overlapping binding sites",
+                  {
+                    content: "textFilter",
+                  },
+                ],
+                width: 140,
+              },
             ],
             autoheight: true,
+            css: "binding-sites-table",
             // autowidth: true,
             scroll: false,
             resizeColumn: true,
