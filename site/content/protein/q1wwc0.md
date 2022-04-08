@@ -9,23 +9,18 @@ organism: Drosophila melanogaster
 function: target gene
 number_of_interactions: '5'
 orthologs: ''
-tfs: 'Dref,Q94883,34328,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+jaspar_matrices: ''
+tfs: 'Dref,Q94883,34328,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  msl-2,P50534,33565,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+  msl-2,P50534,33565,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  msl-1,P50535,35121,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+  msl-1,P50535,35121,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  Clamp,Q8IGP5,35445,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+  Clamp,Q8IGP5,35445,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  mle,P24785,35523,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No'
+  mle,P24785,35523,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-binding_sites: ''
-tfs_download: ''
+tfs_download: tfs_of_Q1WWC0.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

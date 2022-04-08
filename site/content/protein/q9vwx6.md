@@ -9,27 +9,21 @@ organism: Drosophila melanogaster
 function: target gene
 number_of_interactions: '6'
 orthologs: ''
-tfs: 'tin,P22711,42536,REDfly,electrophoretic mobility shift assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=20965965%5Buid%5D+OR+25704510%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,Yes
+jaspar_matrices: ''
+tfs: 'tin,P22711,42536,REDfly,electrophoretic mobility shift assay,20965965%5Buid%5D+OR+25704510%5Buid%5D,Yes
 
-  twi,P10627,37655,GTRD; REDfly,chromatin immunoprecipitation assay; electrophoretic
-  mobility shift assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=20965965%5Buid%5D+OR+27924024%5Buid%5D+OR+25704510%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,Yes
+  twi,P10627,37655,GTRD;REDfly,chromatin immunoprecipitation assay;electrophoretic
+  mobility shift assay,20965965%5Buid%5D+OR+27924024%5Buid%5D+OR+25704510%5Buid%5D,Yes
 
-  pho,Q8ST83,43819,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+  pho,Q8ST83,43819,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  Tbp,P20227,37476,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+  Tbp,P20227,37476,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  gro,P16371,43162,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+  gro,P16371,43162,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  Myc,Q9W4S7,31310,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No'
+  Myc,Q9W4S7,31310,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-binding_sites: ''
-tfs_download: ''
+tfs_download: tfs_of_Q9VWX6.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

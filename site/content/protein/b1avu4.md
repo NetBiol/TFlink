@@ -8,12 +8,11 @@ ncbi_gene_id: '628923'
 organism: Mus musculus
 function: target gene
 number_of_interactions: '1'
-orthologs: ''
-tfs: 'Nfe2l2,Q60795,18024,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No'
+orthologs: '[{"species": "Rattus norvegicus", "id": ["Q9QYU9", "F7F1J0", "P08937"]}]'
+jaspar_matrices: ''
+tfs: Nfe2l2,Q60795,18024,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 targets: ''
-binding_sites: ''
-tfs_download: ''
+tfs_download: tfs_of_B1AVU4.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

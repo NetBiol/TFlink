@@ -8,15 +8,13 @@ ncbi_gene_id: '-'
 organism: Rattus norvegicus
 function: target gene
 number_of_interactions: '2'
-orthologs: ''
-tfs: 'Nr1h4,Q62735,60351,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+orthologs: '[{"species": "Homo sapiens", "id": ["<a href=\"/protein/q66k79\">Q66K79</a>"]}, {"species": "Danio rerio", "id": ["F6P711"]}, {"species": "Mus musculus", "id": ["<a href=\"/protein/q8r4v4\">Q8R4V4</a>"]}]'
+jaspar_matrices: ''
+tfs: 'Nr1h4,Q62735,60351,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  Serpina3k,P05545,24794,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No'
+  Serpina3k,P05545,24794,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-binding_sites: ''
-tfs_download: ''
+tfs_download: tfs_of_A0A0G2JSJ7.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

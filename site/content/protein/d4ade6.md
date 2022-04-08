@@ -8,27 +8,21 @@ ncbi_gene_id: '305854'
 organism: Rattus norvegicus
 function: target gene
 number_of_interactions: '6'
-orthologs: ''
-tfs: 'p300,Q91XT0,,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+orthologs: '[{"species": "Homo sapiens", "id": ["F5H1G6"]}, {"species": "Mus musculus", "id": ["<a href=\"/protein/q9qx96\">Q9QX96</a>"]}, {"species": "Drosophila melanogaster", "id": ["Q7KAH0"]}]'
+jaspar_matrices: ''
+tfs: 'p300,Q91XT0,-,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  Sox10,O55170,29361,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+  Sox10,O55170,29361,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  Olig2,G3V612,304103,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+  Olig2,G3V612,304103,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  Hdac3,Q6P6W3,84578,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+  Hdac3,Q6P6W3,84578,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  Hr,P97609,,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+  Hr,P97609,-,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  Jun,P17325,24516,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No'
+  Jun,P17325,24516,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-binding_sites: ''
-tfs_download: ''
+tfs_download: tfs_of_D4ADE6.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

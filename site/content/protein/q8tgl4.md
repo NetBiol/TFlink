@@ -9,20 +9,16 @@ organism: Saccharomyces cerevisiae
 function: target gene
 number_of_interactions: '4'
 orthologs: ''
-tfs: 'GCN4,P03069,856709,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+jaspar_matrices: ''
+tfs: 'GCN4,P03069,856709,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  HOG1,P32485,850803,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+  HOG1,P32485,850803,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  NDT80,P38830,856524,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+  NDT80,P38830,856524,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  REC8,Q12188,856115,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No'
+  REC8,Q12188,856115,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-binding_sites: ''
-tfs_download: ''
+tfs_download: tfs_of_Q8TGL4.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

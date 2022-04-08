@@ -8,15 +8,13 @@ ncbi_gene_id: '42144'
 organism: Drosophila melanogaster
 function: target gene
 number_of_interactions: '2'
-orthologs: ''
-tfs: 'ZIPIC,Q9VAB8,43566,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+orthologs: '[{"species": "Danio rerio", "id": ["<a href=\"/protein/b0s7n0\">B0S7N0</a>"]}]'
+jaspar_matrices: ''
+tfs: 'ZIPIC,Q9VAB8,43566,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  Myc,Q9W4S7,31310,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No'
+  Myc,Q9W4S7,31310,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-binding_sites: ''
-tfs_download: ''
+tfs_download: tfs_of_Q9VEF1.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

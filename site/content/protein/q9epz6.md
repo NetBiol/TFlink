@@ -9,13 +9,11 @@ organism: Mus musculus
 function: transcription factor and target gene
 number_of_interactions: '2'
 orthologs: ''
-tfs: 'Meox1,P32442,17285,TRRUST,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29087512%5Buid%5D+OR+19520072%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,Yes'
-targets: 'Snai2,P97469,20583,TRRUST,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=23469079%5Buid%5D+OR+29087512%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,Yes'
-binding_sites: ''
-tfs_download: ''
-targets_download: ''
+jaspar_matrices: ''
+tfs: Meox1,P32442,17285,TRRUST,inferred by curator,29087512%5Buid%5D+OR+19520072%5Buid%5D,Yes
+targets: Snai2,P97469,20583,TRRUST,inferred by curator,23469079%5Buid%5D+OR+29087512%5Buid%5D,Yes
+tfs_download: tfs_of_Q9EPZ6.tsv
+targets_download: targets_of_Q9EPZ6.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

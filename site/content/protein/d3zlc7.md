@@ -8,12 +8,11 @@ ncbi_gene_id: '361752'
 organism: Rattus norvegicus
 function: target gene
 number_of_interactions: '1'
-orthologs: ''
-tfs: 'Tcf7l2,D4A8X6,,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No'
+orthologs: '[{"species": "Homo sapiens", "id": ["<a href=\"/protein/p51160\">P51160</a>"]}, {"species": "Danio rerio", "id": ["A0A0R4IUY2"]}, {"species": "Mus musculus", "id": ["<a href=\"/protein/q91zq1\">Q91ZQ1</a>"]}]'
+jaspar_matrices: ''
+tfs: Tcf7l2,D4A8X6,-,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 targets: ''
-binding_sites: ''
-tfs_download: ''
+tfs_download: tfs_of_D3ZLC7.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

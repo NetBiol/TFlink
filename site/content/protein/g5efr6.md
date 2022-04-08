@@ -8,30 +8,23 @@ ncbi_gene_id: '177795'
 organism: Caenorhabditis elegans
 function: target gene
 number_of_interactions: '7'
-orthologs: ''
-tfs: 'mdl-1,G5EG44,180942,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+orthologs: '[{"species": "Saccharomyces cerevisiae", "id": ["<a href=\"/protein/p38929\">P38929</a>"]}]'
+jaspar_matrices: ''
+tfs: 'mdl-1,G5EG44,180942,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  elt-1,P28515,177794,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+  elt-1,P28515,177794,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  blmp-1,Q93560,172917,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+  blmp-1,Q93560,172917,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  tra-1,P34708,,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+  tra-1,P34708,-,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  nhr-2,Q10902,172251,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+  nhr-2,Q10902,172251,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  sma-9,Q22190,181271,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+  sma-9,Q22190,181271,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  unc-55,G5ECR9,192082,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No'
+  unc-55,G5ECR9,192082,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-binding_sites: ''
-tfs_download: ''
+tfs_download: tfs_of_G5EFR6.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

@@ -8,15 +8,13 @@ ncbi_gene_id: '318597'
 organism: Drosophila melanogaster
 function: target gene
 number_of_interactions: '2'
-orthologs: ''
-tfs: 'pho,Q8ST83,43819,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+orthologs: '[{"species": "Saccharomyces cerevisiae", "id": ["<a href=\"/protein/q07938\">Q07938</a>"]}]'
+jaspar_matrices: ''
+tfs: 'pho,Q8ST83,43819,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  Top3beta,O96651,31565,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No'
+  Top3beta,O96651,31565,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-binding_sites: ''
-tfs_download: ''
+tfs_download: tfs_of_Q8IMU4.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

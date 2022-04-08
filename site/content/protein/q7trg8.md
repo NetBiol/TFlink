@@ -8,24 +8,19 @@ ncbi_gene_id: '258074'
 organism: Mus musculus
 function: target gene
 number_of_interactions: '5'
-orthologs: ''
-tfs: 'Med1,Q925J9,19014,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+orthologs: '[{"species": "Homo sapiens", "id": ["<a href=\"/protein/q8ng95\">Q8NG95</a>"]}, {"species": "Rattus norvegicus", "id": ["D4A8Q3"]}]'
+jaspar_matrices: ''
+tfs: 'Med1,Q925J9,19014,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  Nr3c1,P06537,,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+  Nr3c1,P06537,-,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  Kmt2a,P55200,,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+  Kmt2a,P55200,-,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  Rad51,Q08297,19361,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+  Rad51,Q08297,19361,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  Irf8,P23611,15900,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No'
+  Irf8,P23611,15900,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-binding_sites: ''
-tfs_download: ''
+tfs_download: tfs_of_Q7TRG8.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

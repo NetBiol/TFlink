@@ -8,27 +8,21 @@ ncbi_gene_id: '258087'
 organism: Mus musculus
 function: target gene
 number_of_interactions: '6'
-orthologs: ''
-tfs: 'Junb,P09450,16477,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+orthologs: '[{"species": "Rattus norvegicus", "id": ["D3Z9S2"]}]'
+jaspar_matrices: ''
+tfs: 'Junb,P09450,16477,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  Phrf1,A6H619,101471,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+  Phrf1,A6H619,101471,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  Prdm1,Q60636,12142,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+  Prdm1,Q60636,12142,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  Dr1,Q91WV0,13486,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+  Dr1,Q91WV0,13486,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  Ncor1,Q60974,,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+  Ncor1,Q60974,-,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  Baz1b,Q9Z277,22385,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No'
+  Baz1b,Q9Z277,22385,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-binding_sites: ''
-tfs_download: ''
+tfs_download: tfs_of_Q7TRA9.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

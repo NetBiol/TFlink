@@ -8,12 +8,11 @@ ncbi_gene_id: '4363054'
 organism: Caenorhabditis elegans
 function: target gene
 number_of_interactions: '1'
-orthologs: ''
-tfs: 'pqm-1,G5EFY7,174705,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No'
+orthologs: '[{"species": "Mus musculus", "id": ["<a href=\"/protein/p06797\">P06797</a>"]}, {"species": "Rattus norvegicus", "id": ["D3ZP54", "G3V9F8", "D3ZFE5"]}]'
+jaspar_matrices: ''
+tfs: pqm-1,G5EFY7,174705,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 targets: ''
-binding_sites: ''
-tfs_download: ''
+tfs_download: tfs_of_Q2AAB9.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

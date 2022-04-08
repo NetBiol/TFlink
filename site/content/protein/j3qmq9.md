@@ -9,14 +9,12 @@ organism: Mus musculus
 function: target gene
 number_of_interactions: '2'
 orthologs: ''
-tfs: 'Mafg,O54790,17134,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+jaspar_matrices: ''
+tfs: 'Mafg,O54790,17134,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  Cebpa,P53566,12606,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No'
+  Cebpa,P53566,12606,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-binding_sites: ''
-tfs_download: ''
+tfs_download: tfs_of_J3QMQ9.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

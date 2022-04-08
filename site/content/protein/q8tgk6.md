@@ -9,19 +9,16 @@ organism: Saccharomyces cerevisiae
 function: target gene
 number_of_interactions: '3'
 orthologs: ''
-tfs: 'RAP1,P11938,855505,Yeastract,chromatin immunoprecipitation array,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=20231876%5Buid%5D+OR+24170807%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+jaspar_matrices: ''
+tfs: 'RAP1,P11938,855505,Yeastract,chromatin immunoprecipitation array,20231876%5Buid%5D+OR+24170807%5Buid%5D,No
 
   BAS1,P22035,853974,Yeastract,array technology/partial DNA sequence identification
-  by hybridization,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=21119627%5Buid%5D+OR+24170807%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+  by hybridization,21119627%5Buid%5D+OR+24170807%5Buid%5D,No
 
   GCN4,P03069,856709,Yeastract,array technology/partial DNA sequence identification
-  by hybridization,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=21119627%5Buid%5D+OR+24170807%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No'
+  by hybridization,21119627%5Buid%5D+OR+24170807%5Buid%5D,No'
 targets: ''
-binding_sites: ''
-tfs_download: ''
+tfs_download: tfs_of_Q8TGK6.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

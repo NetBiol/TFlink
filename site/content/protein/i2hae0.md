@@ -9,23 +9,18 @@ organism: Caenorhabditis elegans
 function: target gene
 number_of_interactions: '5'
 orthologs: ''
-tfs: 'pha-4,Q17381,180357,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+jaspar_matrices: ''
+tfs: 'pha-4,Q17381,180357,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  xnd-1,O45134,175776,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+  xnd-1,O45134,175776,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  daf-16,O16850,172981,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+  daf-16,O16850,172981,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  snpc-1.3,Q7JNN6,178929,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+  snpc-1.3,Q7JNN6,178929,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  snpc-4,P91868,172711,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No'
+  snpc-4,P91868,172711,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-binding_sites: ''
-tfs_download: ''
+tfs_download: tfs_of_I2HAE0.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

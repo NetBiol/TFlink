@@ -9,38 +9,28 @@ organism: Mus musculus
 function: target gene
 number_of_interactions: '10'
 orthologs: ''
-tfs: 'Cebpa,P53566,12606,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+jaspar_matrices: ''
+tfs: 'Cebpa,P53566,12606,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  Foxh1,O88621,14106,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+  Foxh1,O88621,14106,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  Rara,P11416,19401,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+  Rara,P11416,19401,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  Satb1,Q60611,20230,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+  Satb1,Q60611,20230,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  Pcgf6,Q99NA9,71041,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+  Pcgf6,Q99NA9,71041,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  Klf4,Q60793,16600,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+  Klf4,Q60793,16600,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  Tfap2c,Q61312,21420,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+  Tfap2c,Q61312,21420,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  Esr1,P19785,13982,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+  Esr1,P19785,13982,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  Smarca4,Q3TKT4,20586,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+  Smarca4,Q3TKT4,20586,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  Cebpb,P28033,12608,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No'
+  Cebpb,P28033,12608,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-binding_sites: ''
-tfs_download: ''
+tfs_download: tfs_of_Q9EPN9.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

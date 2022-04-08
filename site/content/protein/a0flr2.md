@@ -9,29 +9,22 @@ organism: Caenorhabditis elegans
 function: target gene
 number_of_interactions: '7'
 orthologs: ''
-tfs: 'lin-39,P34684,176068,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+jaspar_matrices: ''
+tfs: 'lin-39,P34684,176068,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  mes-2,O17514,175096,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+  mes-2,O17514,175096,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  dpl-1,Q22703,174458,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+  dpl-1,Q22703,174458,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  mab-5,P10038,176091,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+  mab-5,P10038,176091,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  hcp-6,Q95Y84,266830,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+  hcp-6,Q95Y84,266830,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  rnt-1,G5EFQ5,172243,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+  rnt-1,G5EFQ5,172243,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  lsy-2,Q9N5S3,180522,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No'
+  lsy-2,Q9N5S3,180522,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-binding_sites: ''
-tfs_download: ''
+tfs_download: tfs_of_A0FLR2.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

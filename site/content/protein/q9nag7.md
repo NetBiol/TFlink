@@ -9,37 +9,27 @@ organism: Caenorhabditis elegans
 function: transcription factor and target gene
 number_of_interactions: '10'
 orthologs: ''
-tfs: 'nhr-77,O02316,191726,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No'
-targets: 'rpl-15,P91374,176891,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+jaspar_matrices: ''
+tfs: nhr-77,O02316,191726,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+targets: 'rpl-15,P91374,176891,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  cdc-48.1,P54811,174624,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+  cdc-48.1,P54811,174624,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  pck-2,O02286,,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+  pck-2,O02286,-,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  egg-5,O61789,172007,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+  egg-5,O61789,172007,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  -,P91373,176892,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+  -,P91373,176892,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  -,U4PQU7,,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+  -,U4PQU7,-,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  -,U4PLI6,,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+  -,U4PLI6,-,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  -,H2L016,176892,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+  -,H2L016,176892,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  -,G5ECU5,174805; 174806,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No'
-binding_sites: ''
-tfs_download: ''
-targets_download: ''
+  -,G5ECU5,174805;174806,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
+tfs_download: tfs_of_Q9NAG7.tsv
+targets_download: targets_of_Q9NAG7.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

@@ -9,11 +9,10 @@ organism: Homo sapiens
 function: target gene
 number_of_interactions: '1'
 orthologs: ''
-tfs: 'JUN,P05412,3725,TRED,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=17202159%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,Yes'
+jaspar_matrices: ''
+tfs: JUN,P05412,3725,TRED,inferred by curator,17202159%5Buid%5D,Yes
 targets: ''
-binding_sites: ''
-tfs_download: ''
+tfs_download: tfs_of_Q9HBA9.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

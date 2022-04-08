@@ -8,12 +8,11 @@ ncbi_gene_id: '100331939'
 organism: Danio rerio
 function: target gene
 number_of_interactions: '1'
-orthologs: ''
-tfs: 'smad2,Q9I9P9,30639,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No'
+orthologs: '[{"species": "Homo sapiens", "id": ["<a href=\"/protein/q8ius5\">Q8IUS5</a>"]}, {"species": "Mus musculus", "id": ["<a href=\"/protein/q6ie26\">Q6IE26</a>"]}, {"species": "Rattus norvegicus", "id": ["D3ZKP8"]}, {"species": "Caenorhabditis elegans", "id": ["<a href=\"/protein/g5ebi4\">G5EBI4</a>", "<a href=\"/protein/g5edl5\">G5EDL5</a>"]}, {"species": "Saccharomyces cerevisiae", "id": ["<a href=\"/protein/p53750\">P53750</a>"]}]'
+jaspar_matrices: ''
+tfs: smad2,Q9I9P9,30639,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 targets: ''
-binding_sites: ''
-tfs_download: ''
+tfs_download: tfs_of_A0A0R4ILH2.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

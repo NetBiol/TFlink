@@ -9,23 +9,18 @@ organism: Homo sapiens
 function: target gene
 number_of_interactions: '5'
 orthologs: ''
-tfs: 'FOXH1,O75593,8928,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+jaspar_matrices: ''
+tfs: 'FOXH1,O75593,8928,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  ESR1,P03372,2099,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+  ESR1,P03372,2099,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  ARNT,P27540,405,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+  ARNT,P27540,405,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  GATA4,P43694,2626,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+  GATA4,P43694,2626,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  NFKB1,P19838,4790,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No'
+  NFKB1,P19838,4790,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-binding_sites: ''
-tfs_download: ''
+tfs_download: tfs_of_Q9NNX9.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

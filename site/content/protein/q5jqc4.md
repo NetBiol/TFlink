@@ -9,21 +9,17 @@ ncbi_gene_id: 100507170;255313;653282;728036;728042;728049;728062;728072;728075;
 organism: Homo sapiens
 function: target gene
 number_of_interactions: '4'
-orthologs: ''
-tfs: 'TRIM28,Q13263,10155,ORegAnno; PAZAR,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=18971253%5Buid%5D+OR+26578589%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+orthologs: '[{"species": "Mus musculus", "id": ["<a href=\"/protein/a2a3u9\">A2A3U9</a>"]}, {"species": "Rattus norvegicus", "id": ["A0A0G2K8J5"]}]'
+jaspar_matrices: ''
+tfs: 'TRIM28,Q13263,10155,ORegAnno;PAZAR,inferred by curator,18971253%5Buid%5D+OR+26578589%5Buid%5D,No
 
-  HNF4A,P41235,3172,ORegAnno; PAZAR,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=18971253%5Buid%5D+OR+26578589%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+  HNF4A,P41235,3172,ORegAnno;PAZAR,inferred by curator,18971253%5Buid%5D+OR+26578589%5Buid%5D,No
 
-  CEBPA,P49715,1050,ORegAnno; PAZAR,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=18971253%5Buid%5D+OR+26578589%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+  CEBPA,P49715,1050,ORegAnno;PAZAR,inferred by curator,18971253%5Buid%5D+OR+26578589%5Buid%5D,No
 
-  SPI1,P17947,6688,ReMap,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No'
+  SPI1,P17947,6688,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No'
 targets: ''
-binding_sites: ''
-tfs_download: ''
+tfs_download: tfs_of_Q5JQC4.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

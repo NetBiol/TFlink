@@ -8,12 +8,11 @@ ncbi_gene_id: '-'
 organism: Danio rerio
 function: target gene
 number_of_interactions: '1'
-orthologs: ''
-tfs: 'smad2,Q9I9P9,30639,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No'
+orthologs: '[{"species": "Rattus norvegicus", "id": ["<a href=\"/protein/b2dd29\">B2DD29</a>"]}, {"species": "Drosophila melanogaster", "id": ["M9PFS3"]}, {"species": "Caenorhabditis elegans", "id": ["<a href=\"/protein/q19469\">Q19469</a>"]}]'
+jaspar_matrices: ''
+tfs: smad2,Q9I9P9,30639,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 targets: ''
-binding_sites: ''
-tfs_download: ''
+tfs_download: tfs_of_R4GDQ8.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

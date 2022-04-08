@@ -8,21 +8,17 @@ ncbi_gene_id: '314543'
 organism: Rattus norvegicus
 function: target gene
 number_of_interactions: '4'
-orthologs: ''
-tfs: 'Chd8,Q9JIX5,65027,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+orthologs: '[{"species": "Homo sapiens", "id": ["<a href=\"/protein/q9ubp9\">Q9UBP9</a>"]}, {"species": "Danio rerio", "id": ["Q32PV0"]}, {"species": "Mus musculus", "id": ["<a href=\"/protein/q8k2a1\">Q8K2A1</a>"]}]'
+jaspar_matrices: ''
+tfs: 'Chd8,Q9JIX5,65027,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  Egr2,P51774,114090,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+  Egr2,P51774,114090,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  Sox10,O55170,29361,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+  Sox10,O55170,29361,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  Hmgb2,P52925,29395; 498072,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No'
+  Hmgb2,P52925,29395;498072,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-binding_sites: ''
-tfs_download: ''
+tfs_download: tfs_of_Q5PQS4.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

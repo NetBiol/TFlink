@@ -8,12 +8,11 @@ ncbi_gene_id: '-'
 organism: Rattus norvegicus
 function: target gene
 number_of_interactions: '1'
-orthologs: ''
-tfs: 'Pax8,P51974,81819,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No'
+orthologs: '[{"species": "Homo sapiens", "id": ["<a href=\"/protein/q9byg7\">Q9BYG7</a>"]}, {"species": "Mus musculus", "id": ["<a href=\"/protein/e9qnx2\">E9QNX2</a>"]}]'
+jaspar_matrices: ''
+tfs: Pax8,P51974,81819,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 targets: ''
-binding_sites: ''
-tfs_download: ''
+tfs_download: tfs_of_M0RDR0.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

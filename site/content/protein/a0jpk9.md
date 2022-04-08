@@ -8,25 +8,13 @@ ncbi_gene_id: '-'
 organism: Rattus norvegicus
 function: transcription factor
 number_of_interactions: '1'
-orthologs: ''
+orthologs: '[{"species": "Homo sapiens", "id": ["<a href=\"/protein/p15172\">P15172</a>"]}, {"species": "Danio rerio", "id": ["<a href=\"/protein/q90477\">Q90477</a>"]}, {"species": "Mus musculus", "id": ["<a href=\"/protein/p10085\">P10085</a>"]}]'
+jaspar_matrices: ''
 tfs: ''
-targets: 'Myog,P20428,29148,ORegAnno; PAZAR,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=18971253%5Buid%5D+OR+26578589%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No'
-binding_sites: 'TFLinkLT10035852,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=18971253%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,ORegAnno,Yes,rn6,chr9,94302192,94302196,+
-
-  TFLinkLT10035856,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=18971253%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,ORegAnno,Yes,rn6,chrX,51286643,51286647,+
-
-  TFLinkLT10035857,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=18971253%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,ORegAnno,Yes,rn6,chr10,56558979,56558987,-
-
-  TFLinkLT10035863,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=18971253%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,ORegAnno,Yes,rn6,chr13,51126428,51126432,+'
+targets: Myog,P20428,29148,ORegAnno;PAZAR,inferred by curator,18971253%5Buid%5D+OR+26578589%5Buid%5D,No
 tfs_download: ''
-targets_download: ''
+targets_download: targets_of_A0JPK9.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 
 ---
-\>TFLinkLT10035852;A0JPK9;Myod1;rn6;chr9:94302192-94302196\AGCT\\>TFLinkLT10035856;A0JPK9;Myod1;rn6;chrX:51286643-51286647\ACTT\\>TFLinkLT10035857;A0JPK9;Myod1;rn6;chr10:56558979-56558987\ATTTTTAG\\>TFLinkLT10035863;A0JPK9;Myod1;rn6;chr13:51126428-51126432\AGTT\

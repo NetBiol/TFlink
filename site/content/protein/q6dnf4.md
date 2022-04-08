@@ -8,15 +8,13 @@ ncbi_gene_id: '191657'
 organism: Caenorhabditis elegans
 function: target gene
 number_of_interactions: '2'
-orthologs: ''
-tfs: 'dpy-28,Q9U2M1,176509,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+orthologs: '[{"species": "Mus musculus", "id": ["<a href=\"/protein/q8bxh3\">Q8BXH3</a>"]}, {"species": "Rattus norvegicus", "id": ["<a href=\"/protein/a0a0g2qc51\">A0A0G2QC51</a>"]}, {"species": "Danio rerio", "id": ["E7F6T1"]}]'
+jaspar_matrices: ''
+tfs: 'dpy-28,Q9U2M1,176509,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  snu-23,P34670,176090,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No'
+  snu-23,P34670,176090,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-binding_sites: ''
-tfs_download: ''
+tfs_download: tfs_of_Q6DNF4.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

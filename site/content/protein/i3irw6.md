@@ -8,12 +8,11 @@ ncbi_gene_id: '560874'
 organism: Danio rerio
 function: target gene
 number_of_interactions: '1'
-orthologs: ''
-tfs: 'nanog,A5JNG8,792333,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No'
+orthologs: '[{"species": "Homo sapiens", "id": ["A0A1B0GU24"]}, {"species": "Mus musculus", "id": ["<a href=\"/protein/b1atc3\">B1ATC3</a>"]}, {"species": "Rattus norvegicus", "id": ["D3ZRA6"]}, {"species": "Drosophila melanogaster", "id": ["<a href=\"/protein/q8sy33\">Q8SY33</a>"]}]'
+jaspar_matrices: ''
+tfs: nanog,A5JNG8,792333,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 targets: ''
-binding_sites: ''
-tfs_download: ''
+tfs_download: tfs_of_I3IRW6.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

@@ -9,17 +9,14 @@ organism: Homo sapiens
 function: target gene
 number_of_interactions: '3'
 orthologs: ''
-tfs: 'TCF4,P15884,6925,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+jaspar_matrices: ''
+tfs: 'TCF4,P15884,6925,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  MYRF,Q9Y2G1,745,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+  MYRF,Q9Y2G1,745,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  ESR1,P03372,2099,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No'
+  ESR1,P03372,2099,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-binding_sites: ''
-tfs_download: ''
+tfs_download: tfs_of_E9PKD4.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

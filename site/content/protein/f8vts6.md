@@ -8,21 +8,17 @@ ncbi_gene_id: '729974'
 organism: Homo sapiens
 function: target gene
 number_of_interactions: '4'
-orthologs: ''
-tfs: 'PHOX2B,Q99453,8929,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+orthologs: '[{"species": "Mus musculus", "id": ["<a href=\"/protein/q8vh31\">Q8VH31</a>"]}, {"species": "Rattus norvegicus", "id": ["D4ABM4"]}]'
+jaspar_matrices: ''
+tfs: 'PHOX2B,Q99453,8929,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  RUNX1,Q01196,861,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+  RUNX1,Q01196,861,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  ESR1,P03372,2099,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+  ESR1,P03372,2099,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  DUX4,Q9UBX2,100288687,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No'
+  DUX4,Q9UBX2,100288687,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-binding_sites: ''
-tfs_download: ''
+tfs_download: tfs_of_F8VTS6.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

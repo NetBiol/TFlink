@@ -8,18 +8,15 @@ ncbi_gene_id: '38358'
 organism: Drosophila melanogaster
 function: target gene
 number_of_interactions: '3'
-orthologs: ''
-tfs: 'Act5C,P10987,31521,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+orthologs: '[{"species": "Homo sapiens", "id": ["<a href=\"/protein/q96gd0\">Q96GD0</a>"]}, {"species": "Mus musculus", "id": ["<a href=\"/protein/p60487\">P60487</a>"]}, {"species": "Rattus norvegicus", "id": ["<a href=\"/protein/m0r416\">M0R416</a>"]}]'
+jaspar_matrices: ''
+tfs: 'Act5C,P10987,31521,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  Pc,P26017,40358,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+  Pc,P26017,40358,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  Adf1,P05552,47082,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No'
+  Adf1,P05552,47082,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-binding_sites: ''
-tfs_download: ''
+tfs_download: tfs_of_Q9VZW4.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

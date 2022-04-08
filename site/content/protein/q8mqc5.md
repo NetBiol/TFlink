@@ -8,21 +8,17 @@ ncbi_gene_id: '180933'
 organism: Caenorhabditis elegans
 function: target gene
 number_of_interactions: '4'
-orthologs: ''
-tfs: 'pha-4,Q17381,180357,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+orthologs: '[{"species": "Homo sapiens", "id": ["<a href=\"/protein/p56696\">P56696</a>"]}, {"species": "Mus musculus", "id": ["<a href=\"/protein/q9jk97\">Q9JK97</a>"]}, {"species": "Rattus norvegicus", "id": ["<a href=\"/protein/a0a0g2k666\">A0A0G2K666</a>"]}]'
+jaspar_matrices: ''
+tfs: 'pha-4,Q17381,180357,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  dpy-27,P48996,175492,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+  dpy-27,P48996,175492,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  tdp-1,D0VWM8,174436,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+  tdp-1,D0VWM8,174436,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  dsc-1,Q93246,181599,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No'
+  dsc-1,Q93246,181599,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-binding_sites: ''
-tfs_download: ''
+tfs_download: tfs_of_Q8MQC5.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

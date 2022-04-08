@@ -8,15 +8,13 @@ ncbi_gene_id: '177462'
 organism: Caenorhabditis elegans
 function: target gene
 number_of_interactions: '2'
-orthologs: ''
-tfs: 'snpc-4,P91868,172711,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+orthologs: '[{"species": "Homo sapiens", "id": ["<a href=\"/protein/q8n7b1\">Q8N7B1</a>"]}, {"species": "Mus musculus", "id": ["<a href=\"/protein/q5sqp1\">Q5SQP1</a>"]}, {"species": "Rattus norvegicus", "id": ["<a href=\"/protein/a0a0g2ju34\">A0A0G2JU34</a>"]}]'
+jaspar_matrices: ''
+tfs: 'snpc-4,P91868,172711,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  efl-1,G5EF11,180133,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No'
+  efl-1,G5EF11,180133,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-binding_sites: ''
-tfs_download: ''
+tfs_download: tfs_of_G5EBG0.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

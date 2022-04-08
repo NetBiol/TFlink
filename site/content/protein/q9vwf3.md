@@ -8,18 +8,15 @@ ncbi_gene_id: '32964'
 organism: Drosophila melanogaster
 function: target gene
 number_of_interactions: '3'
-orthologs: ''
-tfs: 'msl-1,P50535,35121,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+orthologs: '[{"species": "Danio rerio", "id": ["<a href=\"/protein/g1k2m2\">G1K2M2</a>"]}]'
+jaspar_matrices: ''
+tfs: 'msl-1,P50535,35121,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  brk,Q9XTN4,31665,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+  brk,Q9XTN4,31665,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  mle,P24785,35523,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No'
+  mle,P24785,35523,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-binding_sites: ''
-tfs_download: ''
+tfs_download: tfs_of_Q9VWF3.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

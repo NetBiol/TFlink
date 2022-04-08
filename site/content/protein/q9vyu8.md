@@ -9,11 +9,10 @@ organism: Drosophila melanogaster
 function: target gene
 number_of_interactions: '1'
 orthologs: ''
-tfs: 'ovo,P51521,31429,REDfly,electrophoretic mobility shift assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=20965965%5Buid%5D+OR+16933974%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,Yes'
+jaspar_matrices: ''
+tfs: ovo,P51521,31429,REDfly,electrophoretic mobility shift assay,20965965%5Buid%5D+OR+16933974%5Buid%5D,Yes
 targets: ''
-binding_sites: ''
-tfs_download: ''
+tfs_download: tfs_of_Q9VYU8.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

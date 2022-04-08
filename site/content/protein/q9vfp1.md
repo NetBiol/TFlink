@@ -8,21 +8,17 @@ ncbi_gene_id: '41706'
 organism: Drosophila melanogaster
 function: target gene
 number_of_interactions: '4'
-orthologs: ''
-tfs: 'AGO2,Q9VUQ5,39683,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+orthologs: '[{"species": "Saccharomyces cerevisiae", "id": ["<a href=\"/protein/p21595\">P21595</a>"]}]'
+jaspar_matrices: ''
+tfs: 'AGO2,Q9VUQ5,39683,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  hb,P05084,41032,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+  hb,P05084,41032,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  lark,Q94901,38811,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+  lark,Q94901,38811,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  Cdc45,O96989,31052,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No'
+  Cdc45,O96989,31052,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-binding_sites: ''
-tfs_download: ''
+tfs_download: tfs_of_Q9VFP1.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

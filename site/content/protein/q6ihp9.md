@@ -9,38 +9,28 @@ organism: Drosophila melanogaster
 function: target gene
 number_of_interactions: '10'
 orthologs: ''
-tfs: 'Kr,P07247,38012,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+jaspar_matrices: ''
+tfs: 'Kr,P07247,38012,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  zen,P09089,40828,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+  zen,P09089,40828,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  bcd,P09081,40830,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+  bcd,P09081,40830,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  pho,Q8ST83,43819,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+  pho,Q8ST83,43819,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  dl,P15330,35047,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+  dl,P15330,35047,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  hb,P05084,41032,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+  hb,P05084,41032,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  Top3beta,O96651,31565,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+  Top3beta,O96651,31565,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  Tbp,P20227,37476,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+  Tbp,P20227,37476,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  lark,Q94901,38811,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+  lark,Q94901,38811,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  brk,Q9XTN4,31665,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No'
+  brk,Q9XTN4,31665,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-binding_sites: ''
-tfs_download: ''
+tfs_download: tfs_of_Q6IHP9.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

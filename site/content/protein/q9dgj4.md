@@ -8,12 +8,11 @@ ncbi_gene_id: '114426'
 organism: Danio rerio
 function: target gene
 number_of_interactions: '1'
-orthologs: ''
-tfs: 'nanog,A5JNG8,792333,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No'
+orthologs: '[{"species": "Homo sapiens", "id": ["<a href=\"/protein/p11926\">P11926</a>"]}, {"species": "Mus musculus", "id": ["<a href=\"/protein/p00860\">P00860</a>"]}, {"species": "Rattus norvegicus", "id": ["<a href=\"/protein/p09057\">P09057</a>"]}, {"species": "Drosophila melanogaster", "id": ["<a href=\"/protein/p40807\">P40807</a>", "P40808"]}, {"species": "Caenorhabditis elegans", "id": ["<a href=\"/protein/p41931\">P41931</a>"]}, {"species": "Saccharomyces cerevisiae", "id": ["<a href=\"/protein/p08432\">P08432</a>"]}]'
+jaspar_matrices: ''
+tfs: nanog,A5JNG8,792333,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 targets: ''
-binding_sites: ''
-tfs_download: ''
+tfs_download: tfs_of_Q9DGJ4.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

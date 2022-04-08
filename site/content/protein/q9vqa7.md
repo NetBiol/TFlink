@@ -8,15 +8,13 @@ ncbi_gene_id: '33413'
 organism: Drosophila melanogaster
 function: target gene
 number_of_interactions: '2'
-orthologs: ''
-tfs: 'Top3beta,O96651,31565,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+orthologs: '[{"species": "Danio rerio", "id": ["A0A0R4IVU8"]}, {"species": "Caenorhabditis elegans", "id": ["Q95X90", "<a href=\"/protein/q93193\">Q93193</a>"]}]'
+jaspar_matrices: ''
+tfs: 'Top3beta,O96651,31565,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  Pc,P26017,40358,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No'
+  Pc,P26017,40358,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-binding_sites: ''
-tfs_download: ''
+tfs_download: tfs_of_Q9VQA7.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

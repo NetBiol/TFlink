@@ -9,29 +9,23 @@ organism: Saccharomyces cerevisiae
 function: target gene
 number_of_interactions: '6'
 orthologs: ''
+jaspar_matrices: ''
 tfs: 'GCR2,Q01722,855522,Yeastract,array technology/partial DNA sequence identification
-  by hybridization,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=21119627%5Buid%5D+OR+20393576%5Buid%5D+OR+24170807%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+  by hybridization,21119627%5Buid%5D+OR+20393576%5Buid%5D+OR+24170807%5Buid%5D,No
 
-  PDR3,P33200,852278,Yeastract,full identification by RNA sequencing,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29650645%5Buid%5D+OR+24170807%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+  PDR3,P33200,852278,Yeastract,full identification by RNA sequencing,29650645%5Buid%5D+OR+24170807%5Buid%5D,No
 
-  NCB2,Q92317,852006,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+  NCB2,Q92317,852006,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   BAS1,P22035,853974,Yeastract,array technology/partial DNA sequence identification
-  by hybridization,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=21119627%5Buid%5D+OR+24170807%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+  by hybridization,21119627%5Buid%5D+OR+24170807%5Buid%5D,No
 
   IXR1,P33417,853836,Yeastract,array technology/partial DNA sequence identification
-  by hybridization,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29449612%5Buid%5D+OR+24170807%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+  by hybridization,29449612%5Buid%5D+OR+24170807%5Buid%5D,No
 
-  XBP1,P40489,854706,Yeastract,full identification by RNA sequencing,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=24170807%5Buid%5D+OR+24204289%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No'
+  XBP1,P40489,854706,Yeastract,full identification by RNA sequencing,24170807%5Buid%5D+OR+24204289%5Buid%5D,No'
 targets: ''
-binding_sites: ''
-tfs_download: ''
+tfs_download: tfs_of_Q8TGV0.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

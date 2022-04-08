@@ -8,19 +8,20 @@ ncbi_gene_id: '299766'
 organism: Rattus norvegicus
 function: transcription factor
 number_of_interactions: '1'
-orthologs: ''
+orthologs: '[{"species": "Homo sapiens", "id": ["<a href=\"/protein/p13349\">P13349</a>"]}, {"species": "Mus musculus", "id": ["<a href=\"/protein/p24699\">P24699</a>"]}]'
+jaspar_matrices: 
 tfs: ''
-targets: 'Myf6,P19335,25714,ORegAnno; PAZAR,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=18971253%5Buid%5D+OR+26578589%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No'
-binding_sites: 'TFLinkLT10035858,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=18971253%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,ORegAnno,Yes,rn6,chr7,49741820,49741825,-
+targets: Myf6,P19335,25714,ORegAnno;PAZAR,inferred by curator,18971253%5Buid%5D+OR+26578589%5Buid%5D,No
+binding_sites: 'TFLinkSS10035858,D3ZVU3,Myf5,Rattus norvegicus,rn6,chr7,49741820,49741825,-,rn6&position=chr7:49741820-49741825,inferred
+  by curator,18971253%5Buid%5D,ORegAnno,Yes,0
 
-  TFLinkLT10035859,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=18971253%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,ORegAnno,Yes,rn6,chr7,49741557,49741566,-'
+  TFLinkSS10035859,D3ZVU3,Myf5,Rattus norvegicus,rn6,chr7,49741557,49741566,-,rn6&position=chr7:49741557-49741566,inferred
+  by curator,18971253%5Buid%5D,ORegAnno,Yes,0'
 tfs_download: ''
-targets_download: ''
-bindingSites_download: ''
+targets_download: TFLink_targets_of_D3ZVU3.tsv
+bindingSites_download: TFLink_D3ZVU3_TFBS_annot.tsv
+bindingSites_download_gff3: TFLink_D3ZVU3_TFBS_annot.gff3
 binding_sites_ls: ''
 
 ---
-\>TFLinkLT10035858;D3ZVU3;Myf5;rn6;chr7:49741820-49741825\AACTG\\>TFLinkLT10035859;D3ZVU3;Myf5;rn6;chr7:49741557-49741566\TATATATAG\
+\>TFLinkSS10035858;D3ZVU3;Myf5;rn6;chr7:49741820-49741825\AACTG\\>TFLinkSS10035859;D3ZVU3;Myf5;rn6;chr7:49741557-49741566\TATATATAG\

@@ -9,17 +9,14 @@ organism: Drosophila melanogaster
 function: target gene
 number_of_interactions: '3'
 orthologs: ''
-tfs: 'Trl,Q08605,2768981,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+jaspar_matrices: ''
+tfs: 'Trl,Q08605,2768981,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  ZIPIC,Q9VAB8,43566,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+  ZIPIC,Q9VAB8,43566,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  ash1,Q9VW15,40133,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No'
+  ash1,Q9VW15,40133,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-binding_sites: ''
-tfs_download: ''
+tfs_download: tfs_of_Q9VPE0.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

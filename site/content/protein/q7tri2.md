@@ -8,30 +8,23 @@ ncbi_gene_id: '257985'
 organism: Mus musculus
 function: target gene
 number_of_interactions: '7'
-orthologs: ''
-tfs: 'Nr3c1,P06537,,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+orthologs: '[{"species": "Homo sapiens", "id": ["<a href=\"/protein/a6nf89\">A6NF89</a>"]}, {"species": "Rattus norvegicus", "id": ["M0RDX5", "D3Z9Q0", "D3ZYB2", "D4A1W0"]}]'
+jaspar_matrices: ''
+tfs: 'Nr3c1,P06537,-,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  Cebpa,P53566,12606,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+  Cebpa,P53566,12606,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  Rad51,Q08297,19361,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+  Rad51,Q08297,19361,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  Jun,P05627,16476,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+  Jun,P05627,16476,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  Pou5f1,P20263,18999,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+  Pou5f1,P20263,18999,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  Esr1,P19785,13982,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+  Esr1,P19785,13982,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  Smad4,P97471,17128,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No'
+  Smad4,P97471,17128,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-binding_sites: ''
-tfs_download: ''
+tfs_download: tfs_of_Q7TRI2.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

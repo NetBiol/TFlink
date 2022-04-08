@@ -8,15 +8,13 @@ ncbi_gene_id: 445329;6818
 organism: Homo sapiens
 function: target gene
 number_of_interactions: '2'
-orthologs: ''
-tfs: 'YBX1,P67809,4904,HTRI,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=19151767%5Buid%5D+OR+22900683%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+orthologs: '[{"species": "Mus musculus", "id": ["<a href=\"/protein/e9qnl5\">E9QNL5</a>"]}, {"species": "Rattus norvegicus", "id": ["<a href=\"/protein/p17988\">P17988</a>"]}, {"species": "Danio rerio", "id": ["F1RD72", "B0UXT7"]}]'
+jaspar_matrices: ''
+tfs: 'YBX1,P67809,4904,HTRI,chromatin immunoprecipitation assay,19151767%5Buid%5D+OR+22900683%5Buid%5D,No
 
-  FOXP3,Q9BZS1,50943,HTRI,chromatin immunoprecipitation array,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=22900683%5Buid%5D+OR+20554955%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No'
+  FOXP3,Q9BZS1,50943,HTRI,chromatin immunoprecipitation array,22900683%5Buid%5D+OR+20554955%5Buid%5D,No'
 targets: ''
-binding_sites: ''
-tfs_download: ''
+tfs_download: tfs_of_P0DMM9.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

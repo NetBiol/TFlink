@@ -9,11 +9,10 @@ organism: Caenorhabditis elegans
 function: target gene
 number_of_interactions: '1'
 orthologs: ''
-tfs: 'let-418,G5EBZ4,178970,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No'
+jaspar_matrices: ''
+tfs: let-418,G5EBZ4,178970,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 targets: ''
-binding_sites: ''
-tfs_download: ''
+tfs_download: tfs_of_Q9XXQ7.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

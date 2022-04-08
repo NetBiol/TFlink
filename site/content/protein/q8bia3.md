@@ -9,18 +9,15 @@ organism: Mus musculus
 function: transcription factor
 number_of_interactions: '3'
 orthologs: ''
+jaspar_matrices: ''
 tfs: ''
-targets: 'Scx,Q64124,20289,TRRUST,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29087512%5Buid%5D+OR+25332192%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,Yes
+targets: 'Scx,Q64124,20289,TRRUST,inferred by curator,29087512%5Buid%5D+OR+25332192%5Buid%5D,Yes
 
-  Tgfb2,P27090,21808,TRRUST,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29087512%5Buid%5D+OR+25332192%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,Yes
+  Tgfb2,P27090,21808,TRRUST,inferred by curator,29087512%5Buid%5D+OR+25332192%5Buid%5D,Yes
 
-  Myod1,P10085,17927,TRRUST,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29087512%5Buid%5D+OR+24814716%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,Yes'
-binding_sites: ''
+  Myod1,P10085,17927,TRRUST,inferred by curator,29087512%5Buid%5D+OR+24814716%5Buid%5D,Yes'
 tfs_download: ''
-targets_download: ''
+targets_download: targets_of_Q8BIA3.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

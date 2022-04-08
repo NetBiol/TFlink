@@ -8,21 +8,17 @@ ncbi_gene_id: '174890'
 organism: Caenorhabditis elegans
 function: target gene
 number_of_interactions: '4'
-orthologs: ''
-tfs: 'tdp-1,D0VWM8,174436,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+orthologs: '[{"species": "Rattus norvegicus", "id": ["P28647"]}, {"species": "Danio rerio", "id": ["<a href=\"/protein/q5rhq9\">Q5RHQ9</a>"]}]'
+jaspar_matrices: ''
+tfs: 'tdp-1,D0VWM8,174436,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  lin-54,Q95QD7,178280,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+  lin-54,Q95QD7,178280,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  mdl-1,G5EG44,180942,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+  mdl-1,G5EG44,180942,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  lin-37,Q23482,175986,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No'
+  lin-37,Q23482,175986,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-binding_sites: ''
-tfs_download: ''
+tfs_download: tfs_of_Q1ZXT2.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

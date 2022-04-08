@@ -8,12 +8,11 @@ ncbi_gene_id: '42041'
 organism: Drosophila melanogaster
 function: target gene
 number_of_interactions: '1'
-orthologs: ''
-tfs: 'Pc,P26017,40358,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No'
+orthologs: '[{"species": "Homo sapiens", "id": ["<a href=\"/protein/o15342\">O15342</a>"]}, {"species": "Mus musculus", "id": ["<a href=\"/protein/q9cqd8\">Q9CQD8</a>", "<a href=\"/protein/q91xe7\">Q91XE7</a>"]}, {"species": "Rattus norvegicus", "id": ["<a href=\"/protein/q794c0\">Q794C0</a>", "<a href=\"/protein/q5eb76\">Q5EB76</a>"]}]'
+jaspar_matrices: ''
+tfs: Pc,P26017,40358,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 targets: ''
-binding_sites: ''
-tfs_download: ''
+tfs_download: tfs_of_Q9VEQ6.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

@@ -8,21 +8,17 @@ ncbi_gene_id: '625480'
 organism: Mus musculus
 function: target gene
 number_of_interactions: '4'
-orthologs: ''
-tfs: 'Bhlhe40,O35185,20893,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+orthologs: '[{"species": "Rattus norvegicus", "id": ["F1M0F5"]}]'
+jaspar_matrices: ''
+tfs: 'Bhlhe40,O35185,20893,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  Smc1a,Q9CU62,24061,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+  Smc1a,Q9CU62,24061,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  Dux,A1JVI8,664783,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+  Dux,A1JVI8,664783,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  Nr3c1,P06537,,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No'
+  Nr3c1,P06537,-,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-binding_sites: ''
-tfs_download: ''
+tfs_download: tfs_of_A2AHC7.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

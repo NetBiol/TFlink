@@ -8,18 +8,15 @@ ncbi_gene_id: '181360'
 organism: Caenorhabditis elegans
 function: target gene
 number_of_interactions: '3'
-orthologs: ''
-tfs: 'ces-1,G5ECN8,185718,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+orthologs: '[{"species": "Danio rerio", "id": ["<a href=\"/protein/f1ree8\">F1REE8</a>"]}, {"species": "Saccharomyces cerevisiae", "id": ["<a href=\"/protein/q02455\">Q02455</a>"]}]'
+jaspar_matrices: ''
+tfs: 'ces-1,G5ECN8,185718,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  zip-8,P46505,175924,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+  zip-8,P46505,175924,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  fkh-10,O17593,182874,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No'
+  fkh-10,O17593,182874,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-binding_sites: ''
-tfs_download: ''
+tfs_download: tfs_of_G5EGR4.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

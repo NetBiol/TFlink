@@ -9,11 +9,10 @@ organism: Mus musculus
 function: target gene
 number_of_interactions: '1'
 orthologs: ''
-tfs: 'Mef2c,Q8CFN5,17260,TRRUST,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=17875930%5Buid%5D+OR+29087512%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,Yes'
+jaspar_matrices: ''
+tfs: Mef2c,Q8CFN5,17260,TRRUST,inferred by curator,17875930%5Buid%5D+OR+29087512%5Buid%5D,Yes
 targets: ''
-binding_sites: ''
-tfs_download: ''
+tfs_download: tfs_of_Q3UQS9.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

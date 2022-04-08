@@ -8,12 +8,11 @@ ncbi_gene_id: '-'
 organism: Danio rerio
 function: target gene
 number_of_interactions: '1'
-orthologs: ''
-tfs: 'sall4,F1QDF2,,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No'
+orthologs: '[{"species": "Homo sapiens", "id": ["<a href=\"/protein/q96iv0\">Q96IV0</a>"]}, {"species": "Mus musculus", "id": ["<a href=\"/protein/q9ji78\">Q9JI78</a>"]}, {"species": "Rattus norvegicus", "id": ["<a href=\"/protein/q5xi55\">Q5XI55</a>"]}, {"species": "Drosophila melanogaster", "id": ["<a href=\"/protein/q7krr5\">Q7KRR5</a>"]}, {"species": "Caenorhabditis elegans", "id": ["Q9TW67"]}]'
+jaspar_matrices: ''
+tfs: sall4,F1QDF2,-,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 targets: ''
-binding_sites: ''
-tfs_download: ''
+tfs_download: tfs_of_A3KQW7.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

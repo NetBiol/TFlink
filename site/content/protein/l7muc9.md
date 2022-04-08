@@ -9,20 +9,16 @@ organism: Mus musculus
 function: target gene
 number_of_interactions: '4'
 orthologs: ''
-tfs: 'Tet2,Q4JK59,214133,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+jaspar_matrices: ''
+tfs: 'Tet2,Q4JK59,214133,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  Cdx2,P43241,12591,ORegAnno; PAZAR,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=18971253%5Buid%5D+OR+26578589%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+  Cdx2,P43241,12591,ORegAnno;PAZAR,inferred by curator,18971253%5Buid%5D+OR+26578589%5Buid%5D,No
 
-  Brd4,Q9ESU6,57261,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+  Brd4,Q9ESU6,57261,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  Mef2c,Q8CFN5,17260,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No'
+  Mef2c,Q8CFN5,17260,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-binding_sites: ''
-tfs_download: ''
+tfs_download: tfs_of_L7MUC9.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

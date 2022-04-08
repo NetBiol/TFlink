@@ -9,20 +9,16 @@ organism: Homo sapiens
 function: target gene
 number_of_interactions: '4'
 orthologs: ''
-tfs: 'RUNX3,Q13761,864,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+jaspar_matrices: ''
+tfs: 'RUNX3,Q13761,864,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  ZNF263,O14978,10127,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+  ZNF263,O14978,10127,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  TBX21,Q9UL17,30009,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+  TBX21,Q9UL17,30009,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  GATA3,P23771,2625,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No'
+  GATA3,P23771,2625,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-binding_sites: ''
-tfs_download: ''
+tfs_download: tfs_of_A0A1B0GWH4.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

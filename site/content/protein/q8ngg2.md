@@ -9,26 +9,20 @@ organism: Homo sapiens
 function: target gene
 number_of_interactions: '6'
 orthologs: ''
-tfs: 'CTCF,P49711,10664,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+jaspar_matrices: ''
+tfs: 'CTCF,P49711,10664,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  ZNF263,O14978,10127,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+  ZNF263,O14978,10127,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  BRD4,O60885,23476,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+  BRD4,O60885,23476,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  CEBPB,P17676,1051,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+  CEBPB,P17676,1051,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  TP53,P04637,7157,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+  TP53,P04637,7157,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  SMAD3,P84022,4088,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No'
+  SMAD3,P84022,4088,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-binding_sites: ''
-tfs_download: ''
+tfs_download: tfs_of_Q8NGG2.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

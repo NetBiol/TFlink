@@ -9,29 +9,22 @@ organism: Homo sapiens
 function: target gene
 number_of_interactions: '7'
 orthologs: ''
-tfs: 'RUNX1,Q01196,861,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+jaspar_matrices: ''
+tfs: 'RUNX1,Q01196,861,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  FOXP1,Q9H334,27086,ORegAnno; PAZAR,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=18971253%5Buid%5D+OR+26578589%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+  FOXP1,Q9H334,27086,ORegAnno;PAZAR,inferred by curator,18971253%5Buid%5D+OR+26578589%5Buid%5D,No
 
-  MITF,O75030,4286,ORegAnno; PAZAR,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=18971253%5Buid%5D+OR+26578589%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+  MITF,O75030,4286,ORegAnno;PAZAR,inferred by curator,18971253%5Buid%5D+OR+26578589%5Buid%5D,No
 
-  CTCF,P49711,10664,ORegAnno; PAZAR,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=18971253%5Buid%5D+OR+26578589%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+  CTCF,P49711,10664,ORegAnno;PAZAR,inferred by curator,18971253%5Buid%5D+OR+26578589%5Buid%5D,No
 
-  LMNB1,P20700,4001,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+  LMNB1,P20700,4001,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  SOX4,Q06945,6659,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+  SOX4,Q06945,6659,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  AR,P10275,367,HTRI,chromatin immunoprecipitation array,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=22900683%5Buid%5D+OR+20610535%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No'
+  AR,P10275,367,HTRI,chromatin immunoprecipitation array,22900683%5Buid%5D+OR+20610535%5Buid%5D,No'
 targets: ''
-binding_sites: ''
-tfs_download: ''
+tfs_download: tfs_of_A6NMD2.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

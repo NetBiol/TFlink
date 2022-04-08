@@ -9,18 +9,14 @@ organism: Saccharomyces cerevisiae
 function: target gene
 number_of_interactions: '3'
 orthologs: ''
-tfs: 'HAC1,P41546,850513,Yeastract,full identification by RNA sequencing,&ensp;<a
-  href="https://www.ncbi.nlm.nih.gov/pubmed/?term=30016623%5Buid%5D+OR+24170807%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+jaspar_matrices: ''
+tfs: 'HAC1,P41546,850513,Yeastract,full identification by RNA sequencing,30016623%5Buid%5D+OR+24170807%5Buid%5D,No
 
-  MSN2,P33748,855053,Yeastract,chromatin immunoprecipitation array,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=22354995%5Buid%5D+OR+24170807%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+  MSN2,P33748,855053,Yeastract,chromatin immunoprecipitation array,22354995%5Buid%5D+OR+24170807%5Buid%5D,No
 
-  CIN5,P40917,854193,Yeastract,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=24170807%5Buid%5D+OR+19124666%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No'
+  CIN5,P40917,854193,Yeastract,chromatin immunoprecipitation assay,24170807%5Buid%5D+OR+19124666%5Buid%5D,No'
 targets: ''
-binding_sites: ''
-tfs_download: ''
+tfs_download: tfs_of_Q8TGK0.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

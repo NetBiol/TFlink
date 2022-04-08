@@ -9,18 +9,14 @@ organism: Saccharomyces cerevisiae
 function: target gene
 number_of_interactions: '3'
 orthologs: ''
-tfs: 'SMC1,P32908,850540,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+jaspar_matrices: ''
+tfs: 'SMC1,P32908,850540,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  NDT80,P38830,856524,GTRD; Yeastract,chromatin immunoprecipitation assay,&ensp;<a
-  href="https://www.ncbi.nlm.nih.gov/pubmed/?term=28327289%5Buid%5D+OR+27924024%5Buid%5D+OR+24170807%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+  NDT80,P38830,856524,GTRD;Yeastract,chromatin immunoprecipitation assay,28327289%5Buid%5D+OR+27924024%5Buid%5D+OR+24170807%5Buid%5D,No
 
-  PDR3,P33200,852278,Yeastract,full identification by RNA sequencing,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29650645%5Buid%5D+OR+24170807%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No'
+  PDR3,P33200,852278,Yeastract,full identification by RNA sequencing,29650645%5Buid%5D+OR+24170807%5Buid%5D,No'
 targets: ''
-binding_sites: ''
-tfs_download: ''
+tfs_download: tfs_of_Q8TGN5.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

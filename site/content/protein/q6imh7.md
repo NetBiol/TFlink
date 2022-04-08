@@ -8,18 +8,15 @@ ncbi_gene_id: '238405'
 organism: Mus musculus
 function: target gene
 number_of_interactions: '3'
-orthologs: ''
-tfs: 'Rad21,Q61550,19357,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+orthologs: '[{"species": "Rattus norvegicus", "id": ["G3V9N4"]}]'
+jaspar_matrices: ''
+tfs: 'Rad21,Q61550,19357,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  Smarcad1,Q04692,13990,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+  Smarcad1,Q04692,13990,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  Rfx1,P48377,19724,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No'
+  Rfx1,P48377,19724,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-binding_sites: ''
-tfs_download: ''
+tfs_download: tfs_of_Q6IMH7.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

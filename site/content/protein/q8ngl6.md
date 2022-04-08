@@ -9,24 +9,18 @@ organism: Homo sapiens
 function: target gene
 number_of_interactions: '5'
 orthologs: ''
-tfs: 'NME2,P22392,4831; 654364,ReMap,chromatin immunoprecipitation assay,&ensp;<a
-  href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D" target="_blank"><i
-  uk-icon="icon: link"></i>Pubmed</a>,No
+jaspar_matrices: ''
+tfs: 'NME2,P22392,4831;654364,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No
 
-  MITF,O75030,4286,ORegAnno; PAZAR,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=18971253%5Buid%5D+OR+26578589%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+  MITF,O75030,4286,ORegAnno;PAZAR,inferred by curator,18971253%5Buid%5D+OR+26578589%5Buid%5D,No
 
-  STAT5B,P51692,6777,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+  STAT5B,P51692,6777,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  INO80,Q9ULG1,54617,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+  INO80,Q9ULG1,54617,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  HOXB13,Q92826,10481,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No'
+  HOXB13,Q92826,10481,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-binding_sites: ''
-tfs_download: ''
+tfs_download: tfs_of_Q8NGL6.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

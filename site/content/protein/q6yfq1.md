@@ -8,15 +8,13 @@ ncbi_gene_id: '654441'
 organism: Rattus norvegicus
 function: target gene
 number_of_interactions: '2'
-orthologs: ''
-tfs: 'Hr,P97609,,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+orthologs: '[{"species": "Homo sapiens", "id": ["<a href=\"/protein/q6yfq2\">Q6YFQ2</a>"]}, {"species": "Mus musculus", "id": ["<a href=\"/protein/q80zn9\">Q80ZN9</a>"]}, {"species": "Saccharomyces cerevisiae", "id": ["<a href=\"/protein/q01519\">Q01519</a>"]}]'
+jaspar_matrices: ''
+tfs: 'Hr,P97609,-,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  Nr1h4,Q62735,60351,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No'
+  Nr1h4,Q62735,60351,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-binding_sites: ''
-tfs_download: ''
+tfs_download: tfs_of_Q6YFQ1.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

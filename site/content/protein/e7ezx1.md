@@ -8,12 +8,11 @@ ncbi_gene_id: '559220'
 organism: Danio rerio
 function: target gene
 number_of_interactions: '1'
-orthologs: ''
-tfs: 'sox2,Q6P0E1,378723,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No'
+orthologs: '[{"species": "Caenorhabditis elegans", "id": ["<a href=\"/protein/p09588\">P09588</a>", "<a href=\"/protein/q27485\">Q27485</a>"]}, {"species": "Saccharomyces cerevisiae", "id": ["<a href=\"/protein/p04912\">P04912</a>", "<a href=\"/protein/p04911\">P04911</a>"]}]'
+jaspar_matrices: ''
+tfs: sox2,Q6P0E1,378723,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 targets: ''
-binding_sites: ''
-tfs_download: ''
+tfs_download: tfs_of_E7EZX1.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

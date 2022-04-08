@@ -9,167 +9,114 @@ organism: Homo sapiens
 function: target gene
 number_of_interactions: '53'
 orthologs: ''
-tfs: 'ZNF143,P52747,7702,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+jaspar_matrices: ''
+tfs: 'ZNF143,P52747,7702,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  CLOCK,O15516,9575,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+  CLOCK,O15516,9575,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  ZBTB48,P10074,3104,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+  ZBTB48,P10074,3104,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  HIF1A,Q16665,3091,ReMap,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+  HIF1A,Q16665,3091,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No
 
-  ESR1,P03372,2099,GTRD; ReMap,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D+OR+27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+  ESR1,P03372,2099,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D+OR+27924024%5Buid%5D,No
 
-  PGR,P06401,5241,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+  PGR,P06401,5241,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  GATA2,P23769,2624,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+  GATA2,P23769,2624,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  SSRP1,Q08945,6749,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+  SSRP1,Q08945,6749,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  SMC3,Q9UQE7,9126,ReMap,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+  SMC3,Q9UQE7,9126,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No
 
-  SP5,Q6BEB4,389058,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+  SP5,Q6BEB4,389058,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  RAD21,O60216,5885,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+  RAD21,O60216,5885,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  SP1,P08047,6667,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+  SP1,P08047,6667,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  SP140,Q13342,11262,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+  SP140,Q13342,11262,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  SPI1,P17947,6688,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+  SPI1,P17947,6688,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  PMEPA1,Q969W9,56937,ReMap,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+  PMEPA1,Q969W9,56937,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No
 
-  HSF1,Q00613,3297,GTRD; ReMap,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D+OR+27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+  HSF1,Q00613,3297,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D+OR+27924024%5Buid%5D,No
 
-  TRPS1,Q9UHF7,7227,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+  TRPS1,Q9UHF7,7227,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  OGG1,O15527,4968,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+  OGG1,O15527,4968,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  EZH2,Q15910,2146,ReMap,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+  EZH2,Q15910,2146,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No
 
-  CTCF,P49711,10664,GTRD; ReMap,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D+OR+27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+  CTCF,P49711,10664,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D+OR+27924024%5Buid%5D,No
 
-  PADI2,Q9Y2J8,11240,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+  PADI2,Q9Y2J8,11240,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  ERG,P11308,2078,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+  ERG,P11308,2078,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  OCA2,Q04671,4948,ReMap,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+  OCA2,Q04671,4948,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No
 
-  FLI1,Q01543,2313,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+  FLI1,Q01543,2313,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  FOXA2,Q9Y261,3170,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+  FOXA2,Q9Y261,3170,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  E2F1,Q01094,1869,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+  E2F1,Q01094,1869,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  HEXIM1,O94992,10614,ReMap,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+  HEXIM1,O94992,10614,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No
 
-  TRIM28,Q13263,10155,ReMap,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+  TRIM28,Q13263,10155,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No
 
-  AR,P10275,367,GTRD; ReMap,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D+OR+27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+  AR,P10275,367,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D+OR+27924024%5Buid%5D,No
 
-  TP63,Q9H3D4,8626,GTRD; ReMap,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D+OR+27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+  TP63,Q9H3D4,8626,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D+OR+27924024%5Buid%5D,No
 
-  ZNF263,O14978,10127,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+  ZNF263,O14978,10127,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  WT1,P19544,7490,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+  WT1,P19544,7490,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  BCHE,P06276,590,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+  BCHE,P06276,590,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  KDM5B,Q9UGL1,10765,GTRD; ReMap,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D+OR+27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+  KDM5B,Q9UGL1,10765,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D+OR+27924024%5Buid%5D,No
 
-  SMC1A,Q14683,8243,ReMap,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+  SMC1A,Q14683,8243,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No
 
-  KMT2A,Q03164,4297,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+  KMT2A,Q03164,4297,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  RING1,Q06587,6015,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+  RING1,Q06587,6015,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  ASCL1,P50553,429,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+  ASCL1,P50553,429,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  ELK3,P41970,2004,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+  ELK3,P41970,2004,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  STAG1,Q8WVM7,10274,ReMap,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+  STAG1,Q8WVM7,10274,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No
 
-  POU2F2,P09086,5452,ReMap,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+  POU2F2,P09086,5452,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No
 
-  XBP1,P17861,7494,ReMap,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+  XBP1,P17861,7494,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No
 
-  ETS1,P14921,2113,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+  ETS1,P14921,2113,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  CDK9,P50750,1025,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+  CDK9,P50750,1025,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  MAZ,P56270,4150,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+  MAZ,P56270,4150,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  ELL2,O00472,22936,ReMap,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+  ELL2,O00472,22936,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No
 
-  CNOT3,O75175,4849,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+  CNOT3,O75175,4849,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  GRHL3,Q8TE85,57822,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+  GRHL3,Q8TE85,57822,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  NCOA3,Q9Y6Q9,8202,ReMap,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+  NCOA3,Q9Y6Q9,8202,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No
 
-  AGO1,Q9UL18,26523,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+  AGO1,Q9UL18,26523,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  REST,Q13127,5978,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+  REST,Q13127,5978,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  RUNX1,Q01196,861,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+  RUNX1,Q01196,861,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  BRD4,O60885,23476,GTRD; ReMap,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D+OR+27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No'
+  BRD4,O60885,23476,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D+OR+27924024%5Buid%5D,No'
 targets: ''
-binding_sites: ''
-tfs_download: ''
+tfs_download: tfs_of_H0YGN5.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

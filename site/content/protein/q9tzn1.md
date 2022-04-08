@@ -8,15 +8,13 @@ ncbi_gene_id: '183428'
 organism: Caenorhabditis elegans
 function: target gene
 number_of_interactions: '2'
-orthologs: ''
-tfs: 'lin-42,Q65ZG8,173503,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+orthologs: '[{"species": "Homo sapiens", "id": ["A8K0B5"]}, {"species": "Mus musculus", "id": ["B2KGA7"]}, {"species": "Rattus norvegicus", "id": ["<a href=\"/protein/m0r5y9\">M0R5Y9</a>"]}, {"species": "Drosophila melanogaster", "id": ["<a href=\"/protein/q9vd92\">Q9VD92</a>"]}, {"species": "Danio rerio", "id": ["Q566V0"]}]'
+jaspar_matrices: ''
+tfs: 'lin-42,Q65ZG8,173503,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  mrg-1,A7DTF0,176702,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No'
+  mrg-1,A7DTF0,176702,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-binding_sites: ''
-tfs_download: ''
+tfs_download: tfs_of_Q9TZN1.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

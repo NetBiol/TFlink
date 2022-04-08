@@ -8,15 +8,13 @@ ncbi_gene_id: '292771'
 organism: Rattus norvegicus
 function: target gene
 number_of_interactions: '2'
-orthologs: ''
-tfs: 'Hnf4a,P22449,25735,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+orthologs: '[{"species": "Homo sapiens", "id": ["<a href=\"/protein/o60292\">O60292</a>"]}, {"species": "Danio rerio", "id": ["<a href=\"/protein/f1qth7\">F1QTH7</a>"]}, {"species": "Mus musculus", "id": ["<a href=\"/protein/g3x9j0\">G3X9J0</a>"]}]'
+jaspar_matrices: ''
+tfs: 'Hnf4a,P22449,25735,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  Sp1,Q01714,24790,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No'
+  Sp1,Q01714,24790,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-binding_sites: ''
-tfs_download: ''
+tfs_download: tfs_of_F1LYG2.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

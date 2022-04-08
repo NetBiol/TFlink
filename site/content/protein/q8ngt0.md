@@ -8,39 +8,29 @@ ncbi_gene_id: '286362'
 organism: Homo sapiens
 function: target gene
 number_of_interactions: '10'
-orthologs: ''
-tfs: 'AHR,P35869,196,ReMap,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+orthologs: '[{"species": "Mus musculus", "id": ["<a href=\"/protein/a0a1l1sqh2\">A0A1L1SQH2</a>"]}, {"species": "Rattus norvegicus", "id": ["D3ZD42"]}]'
+jaspar_matrices: ''
+tfs: 'AHR,P35869,196,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No
 
-  RELA,Q04206,5970,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+  RELA,Q04206,5970,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  E2F4,Q16254,1874,HTRI,chromatin immunoprecipitation array,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=17531812%5Buid%5D+OR+22900683%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+  E2F4,Q16254,1874,HTRI,chromatin immunoprecipitation array,17531812%5Buid%5D+OR+22900683%5Buid%5D,No
 
-  CEBPB,P17676,1051,GTRD; ReMap,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D+OR+27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+  CEBPB,P17676,1051,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D+OR+27924024%5Buid%5D,No
 
-  PARP1,P09874,142,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+  PARP1,P09874,142,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  EGR1,P18146,1958,ORegAnno; PAZAR,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=18971253%5Buid%5D+OR+26578589%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+  EGR1,P18146,1958,ORegAnno;PAZAR,inferred by curator,18971253%5Buid%5D+OR+26578589%5Buid%5D,No
 
-  POU5F1,Q01860,5460,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+  POU5F1,Q01860,5460,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  ARNT,P27540,405,ReMap,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+  ARNT,P27540,405,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No
 
-  ERG,P11308,2078,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+  ERG,P11308,2078,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  NUP98,P52948,4928,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No'
+  NUP98,P52948,4928,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-binding_sites: ''
-tfs_download: ''
+tfs_download: tfs_of_Q8NGT0.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

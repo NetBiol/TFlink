@@ -8,12 +8,11 @@ ncbi_gene_id: '24245'
 organism: Rattus norvegicus
 function: target gene
 number_of_interactions: '1'
-orthologs: ''
-tfs: 'Mlxipl,Q8VIP2,171078,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No'
+orthologs: '[{"species": "Homo sapiens", "id": ["<a href=\"/protein/q13554\">Q13554</a>"]}, {"species": "Mus musculus", "id": ["Q5SVJ0"]}, {"species": "Caenorhabditis elegans", "id": ["G5EDZ5"]}, {"species": "Drosophila melanogaster", "id": ["L0MNA2"]}]'
+jaspar_matrices: ''
+tfs: Mlxipl,Q8VIP2,171078,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 targets: ''
-binding_sites: ''
-tfs_download: ''
+tfs_download: tfs_of_F1LUE2.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

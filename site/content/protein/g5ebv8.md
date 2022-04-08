@@ -8,15 +8,13 @@ ncbi_gene_id: '177117'
 organism: Caenorhabditis elegans
 function: target gene
 number_of_interactions: '2'
-orthologs: ''
-tfs: 'lin-42,Q65ZG8,173503,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+orthologs: '[{"species": "Drosophila melanogaster", "id": ["Q9W3W0"]}]'
+jaspar_matrices: ''
+tfs: 'lin-42,Q65ZG8,173503,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  dpl-1,Q22703,174458,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No'
+  dpl-1,Q22703,174458,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-binding_sites: ''
-tfs_download: ''
+tfs_download: tfs_of_G5EBV8.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

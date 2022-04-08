@@ -9,17 +9,14 @@ organism: Caenorhabditis elegans
 function: target gene
 number_of_interactions: '3'
 orthologs: ''
-tfs: 'nhr-129,A5JYV4,183635,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+jaspar_matrices: ''
+tfs: 'nhr-129,A5JYV4,183635,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  ztf-7,Q20448,179375,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+  ztf-7,Q20448,179375,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  fos-1,G5ECG2,178987,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No'
+  fos-1,G5ECG2,178987,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-binding_sites: ''
-tfs_download: ''
+tfs_download: tfs_of_G5EDJ4.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

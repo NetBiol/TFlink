@@ -8,21 +8,17 @@ ncbi_gene_id: '401993'
 organism: Homo sapiens
 function: target gene
 number_of_interactions: '4'
-orthologs: ''
-tfs: 'YBX1,P67809,4904,HTRI,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=19151767%5Buid%5D+OR+22900683%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+orthologs: '[{"species": "Mus musculus", "id": ["<a href=\"/protein/m9mmj7\">M9MMJ7</a>", "<a href=\"/protein/q5ncd3\">Q5NCD3</a>", "<a href=\"/protein/q8vgd9\">Q8VGD9</a>", "<a href=\"/protein/q5nc44\">Q5NC44</a>", "<a href=\"/protein/q5ncd2\">Q5NCD2</a>"]}]'
+jaspar_matrices: ''
+tfs: 'YBX1,P67809,4904,HTRI,chromatin immunoprecipitation assay,19151767%5Buid%5D+OR+22900683%5Buid%5D,No
 
-  FOXP3,Q9BZS1,50943,HTRI,chromatin immunoprecipitation array,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=22900683%5Buid%5D+OR+20554955%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+  FOXP3,Q9BZS1,50943,HTRI,chromatin immunoprecipitation array,22900683%5Buid%5D+OR+20554955%5Buid%5D,No
 
-  AR,P10275,367,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+  AR,P10275,367,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  RELB,Q01201,5971,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No'
+  RELB,Q01201,5971,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-binding_sites: ''
-tfs_download: ''
+tfs_download: tfs_of_Q6IEZ7.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

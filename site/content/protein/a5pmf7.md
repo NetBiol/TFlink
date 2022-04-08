@@ -8,15 +8,13 @@ ncbi_gene_id: '567911'
 organism: Danio rerio
 function: target gene
 number_of_interactions: '2'
-orthologs: ''
-tfs: 'smad2,Q9I9P9,30639,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+orthologs: '[{"species": "Homo sapiens", "id": ["<a href=\"/protein/q96cm4\">Q96CM4</a>"]}, {"species": "Mus musculus", "id": ["<a href=\"/protein/q8vc33\">Q8VC33</a>"]}, {"species": "Rattus norvegicus", "id": ["<a href=\"/protein/f1lp37\">F1LP37</a>"]}]'
+jaspar_matrices: ''
+tfs: 'smad2,Q9I9P9,30639,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  hif1ab,Q6EHI4,393202,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No'
+  hif1ab,Q6EHI4,393202,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-binding_sites: ''
-tfs_download: ''
+tfs_download: tfs_of_A5PMF7.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

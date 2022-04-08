@@ -8,15 +8,13 @@ ncbi_gene_id: '100360518'
 organism: Rattus norvegicus
 function: target gene
 number_of_interactions: '2'
-orthologs: ''
-tfs: 'Pax8,P51974,81819,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+orthologs: '[{"species": "Homo sapiens", "id": ["<a href=\"/protein/q96jz2\">Q96JZ2</a>"]}, {"species": "Mus musculus", "id": ["<a href=\"/protein/q6vyh9\">Q6VYH9</a>"]}]'
+jaspar_matrices: ''
+tfs: 'Pax8,P51974,81819,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  Hnf4a,P22449,25735,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No'
+  Hnf4a,P22449,25735,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-binding_sites: ''
-tfs_download: ''
+tfs_download: tfs_of_D3ZRF7.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

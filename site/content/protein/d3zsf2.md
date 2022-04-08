@@ -8,12 +8,11 @@ ncbi_gene_id: '688981'
 organism: Rattus norvegicus
 function: target gene
 number_of_interactions: '1'
-orthologs: ''
-tfs: 'Sox9,F1LYL9,140586,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No'
+orthologs: '[{"species": "Caenorhabditis elegans", "id": ["<a href=\"/protein/q19869\">Q19869</a>"]}, {"species": "Drosophila melanogaster", "id": ["<a href=\"/protein/q9vvu2\">Q9VVU2</a>"]}, {"species": "Saccharomyces cerevisiae", "id": ["<a href=\"/protein/p53221\">P53221</a>", "<a href=\"/protein/p05743\">P05743</a>"]}]'
+jaspar_matrices: ''
+tfs: Sox9,F1LYL9,140586,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 targets: ''
-binding_sites: ''
-tfs_download: ''
+tfs_download: tfs_of_D3ZSF2.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

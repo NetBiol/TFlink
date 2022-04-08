@@ -8,27 +8,21 @@ ncbi_gene_id: '258397'
 organism: Mus musculus
 function: target gene
 number_of_interactions: '6'
-orthologs: ''
-tfs: 'Pou5f1,P20263,18999,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+orthologs: '[{"species": "Homo sapiens", "id": ["Q6IEY1", "<a href=\"/protein/o95013\">O95013</a>"]}, {"species": "Rattus norvegicus", "id": ["D3ZYZ7", "D4A0N4", "D3ZCJ5"]}]'
+jaspar_matrices: ''
+tfs: 'Pou5f1,P20263,18999,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  Stat6,P52633,20852,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+  Stat6,P52633,20852,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  Cebpb,P28033,12608,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+  Cebpb,P28033,12608,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  Cdx2,P43241,12591,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+  Cdx2,P43241,12591,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  Hoxa13,Q62424,15398,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+  Hoxa13,Q62424,15398,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  Elk1,P41969,13712,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No'
+  Elk1,P41969,13712,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-binding_sites: ''
-tfs_download: ''
+tfs_download: tfs_of_A2AVW1.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

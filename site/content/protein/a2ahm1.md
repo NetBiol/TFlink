@@ -8,15 +8,13 @@ ncbi_gene_id: '278167'
 organism: Mus musculus
 function: target gene
 number_of_interactions: '2'
-orthologs: ''
-tfs: 'Anpep,P97449,16790,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+orthologs: '[{"species": "Rattus norvegicus", "id": ["Q4V8D8"]}]'
+jaspar_matrices: ''
+tfs: 'Anpep,P97449,16790,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  Tbpl1,P62340,237336,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No'
+  Tbpl1,P62340,237336,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-binding_sites: ''
-tfs_download: ''
+tfs_download: tfs_of_A2AHM1.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

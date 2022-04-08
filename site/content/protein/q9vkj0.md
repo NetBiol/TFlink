@@ -8,12 +8,11 @@ ncbi_gene_id: '34552'
 organism: Drosophila melanogaster
 function: target gene
 number_of_interactions: '1'
-orthologs: ''
-tfs: 'Dref,Q94883,34328,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No'
+orthologs: '[{"species": "Homo sapiens", "id": ["<a href=\"/protein/q93099\">Q93099</a>"]}, {"species": "Danio rerio", "id": ["Q6P2V4"]}, {"species": "Mus musculus", "id": ["<a href=\"/protein/o09173\">O09173</a>"]}, {"species": "Rattus norvegicus", "id": ["<a href=\"/protein/g3v6c2\">G3V6C2</a>"]}, {"species": "Caenorhabditis elegans", "id": ["<a href=\"/protein/q9y041\">Q9Y041</a>"]}]'
+jaspar_matrices: ''
+tfs: Dref,Q94883,34328,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 targets: ''
-binding_sites: ''
-tfs_download: ''
+tfs_download: tfs_of_Q9VKJ0.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

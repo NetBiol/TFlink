@@ -8,15 +8,13 @@ ncbi_gene_id: '791647'
 organism: Danio rerio
 function: target gene
 number_of_interactions: '2'
-orthologs: ''
-tfs: 'sall4,F1QDF2,,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+orthologs: '[{"species": "Drosophila melanogaster", "id": ["<a href=\"/protein/q7kv91\">Q7KV91</a>"]}, {"species": "Caenorhabditis elegans", "id": ["<a href=\"/protein/u4psa1\">U4PSA1</a>"]}, {"species": "Saccharomyces cerevisiae", "id": ["<a href=\"/protein/q05788\">Q05788</a>"]}]'
+jaspar_matrices: ''
+tfs: 'sall4,F1QDF2,-,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  nanog,A5JNG8,792333,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No'
+  nanog,A5JNG8,792333,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-binding_sites: ''
-tfs_download: ''
+tfs_download: tfs_of_Q6NYG0.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

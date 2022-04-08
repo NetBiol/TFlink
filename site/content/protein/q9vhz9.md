@@ -8,12 +8,11 @@ ncbi_gene_id: '40922'
 organism: Drosophila melanogaster
 function: target gene
 number_of_interactions: '1'
-orthologs: ''
-tfs: 'pho,Q8ST83,43819,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No'
+orthologs: '[{"species": "Homo sapiens", "id": ["<a href=\"/protein/q8n5i2\">Q8N5I2</a>"]}, {"species": "Mus musculus", "id": ["<a href=\"/protein/q99kn1\">Q99KN1</a>"]}, {"species": "Rattus norvegicus", "id": ["<a href=\"/protein/b0bnl6\">B0BNL6</a>"]}]'
+jaspar_matrices: ''
+tfs: pho,Q8ST83,43819,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 targets: ''
-binding_sites: ''
-tfs_download: ''
+tfs_download: tfs_of_Q9VHZ9.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

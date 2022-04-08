@@ -8,30 +8,23 @@ ncbi_gene_id: '219437'
 organism: Homo sapiens
 function: target gene
 number_of_interactions: '7'
-orthologs: ''
-tfs: 'ARNT,P27540,405,ReMap,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+orthologs: '[{"species": "Mus musculus", "id": ["<a href=\"/protein/a2avc4\">A2AVC4</a>"]}, {"species": "Rattus norvegicus", "id": ["D4A9I2", "D4A9G7", "M0RBM5"]}]'
+jaspar_matrices: ''
+tfs: 'ARNT,P27540,405,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No
 
-  HES1,Q14469,3280,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+  HES1,Q14469,3280,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  NUP98,P52948,4928,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+  NUP98,P52948,4928,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  TBXT,O15178,6862,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+  TBXT,O15178,6862,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  AHR,P35869,196,ReMap,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+  AHR,P35869,196,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No
 
-  SOX11,P35716,6664,ReMap,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=29126285%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+  SOX11,P35716,6664,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No
 
-  HOXA9,P31269,3205,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No'
+  HOXA9,P31269,3205,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-binding_sites: ''
-tfs_download: ''
+tfs_download: tfs_of_Q8NGL2.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

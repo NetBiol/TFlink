@@ -8,16 +8,17 @@ ncbi_gene_id: '290221'
 organism: Rattus norvegicus
 function: transcription factor
 number_of_interactions: '1'
-orthologs: ''
+orthologs: '[{"species": "Homo sapiens", "id": ["<a href=\"/protein/p54845\">P54845</a>"]}, {"species": "Mus musculus", "id": ["<a href=\"/protein/p54846\">P54846</a>"]}]'
+jaspar_matrices: 
 tfs: ''
-targets: 'Rho,A0A0G2JSY7,24717,ORegAnno; PAZAR,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=18971253%5Buid%5D+OR+26578589%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No'
-binding_sites: 'TFLinkLT10035919,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=18971253%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,ORegAnno,Yes,rn6,chr4,147832045,147832062,+'
+targets: Rho,A0A0G2JSY7,24717,ORegAnno;PAZAR,inferred by curator,18971253%5Buid%5D+OR+26578589%5Buid%5D,No
+binding_sites: TFLinkSS10035919,D4ACF4,Nrl,Rattus norvegicus,rn6,chr4,147832045,147832062,+,rn6&position=chr4:147832045-147832062,inferred
+  by curator,18971253%5Buid%5D,ORegAnno,Yes,0
 tfs_download: ''
-targets_download: ''
-bindingSites_download: ''
+targets_download: TFLink_targets_of_D4ACF4.tsv
+bindingSites_download: TFLink_D4ACF4_TFBS_annot.tsv
+bindingSites_download_gff3: TFLink_D4ACF4_TFBS_annot.gff3
 binding_sites_ls: ''
 
 ---
-\>TFLinkLT10035919;D4ACF4;Nrl;rn6;chr4:147832045-147832062\TCTCCCGGATGCTGAAT\
+\>TFLinkSS10035919;D4ACF4;Nrl;rn6;chr4:147832045-147832062\TCTCCCGGATGCTGAAT\

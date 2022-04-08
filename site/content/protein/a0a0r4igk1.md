@@ -8,15 +8,13 @@ ncbi_gene_id: '-'
 organism: Danio rerio
 function: target gene
 number_of_interactions: '2'
-orthologs: ''
-tfs: 'smad2,Q9I9P9,30639,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+orthologs: '[{"species": "Homo sapiens", "id": ["<a href=\"/protein/q9uig0\">Q9UIG0</a>"]}, {"species": "Mus musculus", "id": ["<a href=\"/protein/q9z277\">Q9Z277</a>"]}, {"species": "Rattus norvegicus", "id": ["<a href=\"/protein/g3v661\">G3V661</a>"]}, {"species": "Caenorhabditis elegans", "id": ["<a href=\"/protein/o45075\">O45075</a>"]}]'
+jaspar_matrices: ''
+tfs: 'smad2,Q9I9P9,30639,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  rad21a,Q6TEL1,322275,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No'
+  rad21a,Q6TEL1,322275,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-binding_sites: ''
-tfs_download: ''
+tfs_download: tfs_of_A0A0R4IGK1.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

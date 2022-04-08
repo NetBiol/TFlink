@@ -9,14 +9,12 @@ organism: Mus musculus
 function: target gene
 number_of_interactions: '2'
 orthologs: ''
-tfs: 'E2f2,P56931,242705,TRED,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=17202159%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,Yes
+jaspar_matrices: ''
+tfs: 'E2f2,P56931,242705,TRED,inferred by curator,17202159%5Buid%5D,Yes
 
-  E2f1,Q61501,13555,TRED,inferred by curator,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=17202159%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,Yes'
+  E2f1,Q61501,13555,TRED,inferred by curator,17202159%5Buid%5D,Yes'
 targets: ''
-binding_sites: ''
-tfs_download: ''
+tfs_download: tfs_of_Q9QXL1.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

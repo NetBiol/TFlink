@@ -8,18 +8,15 @@ ncbi_gene_id: '-'
 organism: Rattus norvegicus
 function: target gene
 number_of_interactions: '3'
-orthologs: ''
-tfs: 'Jun,P17325,24516,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+orthologs: '[{"species": "Homo sapiens", "id": ["<a href=\"/protein/p02743\">P02743</a>"]}, {"species": "Mus musculus", "id": ["<a href=\"/protein/p12246\">P12246</a>"]}]'
+jaspar_matrices: ''
+tfs: 'Jun,P17325,24516,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  Nr1h4,Q62735,60351,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+  Nr1h4,Q62735,60351,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  Hnf4a,P22449,25735,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No'
+  Hnf4a,P22449,25735,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-binding_sites: ''
-tfs_download: ''
+tfs_download: tfs_of_A0A0H2UHH2.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

@@ -8,15 +8,13 @@ ncbi_gene_id: '541509'
 organism: Danio rerio
 function: target gene
 number_of_interactions: '2'
-orthologs: ''
-tfs: 'rad21a,Q6TEL1,322275,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+orthologs: '[{"species": "Homo sapiens", "id": ["<a href=\"/protein/q9h9t3\">Q9H9T3</a>"]}, {"species": "Mus musculus", "id": ["<a href=\"/protein/q9czx0\">Q9CZX0</a>"]}, {"species": "Rattus norvegicus", "id": ["<a href=\"/protein/d4acm1\">D4ACM1</a>"]}, {"species": "Drosophila melanogaster", "id": ["<a href=\"/protein/q9vqz6\">Q9VQZ6</a>"]}, {"species": "Caenorhabditis elegans", "id": ["Q23651"]}, {"species": "Saccharomyces cerevisiae", "id": ["<a href=\"/protein/q02908\">Q02908</a>"]}]'
+jaspar_matrices: ''
+tfs: 'rad21a,Q6TEL1,322275,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  nanog,A5JNG8,792333,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No'
+  nanog,A5JNG8,792333,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-binding_sites: ''
-tfs_download: ''
+tfs_download: tfs_of_Q5RIC0.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

@@ -8,24 +8,19 @@ ncbi_gene_id: '30412'
 organism: Danio rerio
 function: target gene
 number_of_interactions: '5'
-orthologs: ''
-tfs: 'sall4,F1QDF2,,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+orthologs: '[{"species": "Homo sapiens", "id": ["<a href=\"/protein/o75084\">O75084</a>"]}, {"species": "Mus musculus", "id": ["<a href=\"/protein/q61090\">Q61090</a>"]}, {"species": "Rattus norvegicus", "id": ["<a href=\"/protein/d4acm8\">D4ACM8</a>"]}, {"species": "Drosophila melanogaster", "id": ["<a href=\"/protein/p18537\">P18537</a>"]}, {"species": "Caenorhabditis elegans", "id": ["<a href=\"/protein/a0a0k3awm6\">A0A0K3AWM6</a>"]}]'
+jaspar_matrices: ''
+tfs: 'sall4,F1QDF2,-,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  nanog,A5JNG8,792333,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+  nanog,A5JNG8,792333,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  foxh1,Q9I9E1,57930,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+  foxh1,Q9I9E1,57930,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  hif1ab,Q6EHI4,393202,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+  hif1ab,Q6EHI4,393202,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  sox2,Q6P0E1,378723,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No'
+  sox2,Q6P0E1,378723,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-binding_sites: ''
-tfs_download: ''
+tfs_download: tfs_of_Q8QFM3.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

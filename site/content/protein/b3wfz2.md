@@ -8,15 +8,13 @@ ncbi_gene_id: '191605'
 organism: Caenorhabditis elegans
 function: target gene
 number_of_interactions: '2'
-orthologs: ''
-tfs: 'elt-1,P28515,177794,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No
+orthologs: '[{"species": "Danio rerio", "id": ["<a href=\"/protein/q1l8y9\">Q1L8Y9</a>", "B3DH13"]}]'
+jaspar_matrices: ''
+tfs: 'elt-1,P28515,177794,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
-  lin-42,Q65ZG8,173503,GTRD,chromatin immunoprecipitation assay,&ensp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27924024%5Buid%5D"
-  target="_blank"><i uk-icon="icon: link"></i>Pubmed</a>,No'
+  lin-42,Q65ZG8,173503,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-binding_sites: ''
-tfs_download: ''
+tfs_download: tfs_of_B3WFZ2.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''
