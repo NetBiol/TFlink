@@ -309,6 +309,7 @@ $(document).ready(function () {
                     content: "textFilter",
                   },
                 ],
+                sort: "int",
                 adjust: true,
               },
               {
@@ -319,6 +320,7 @@ $(document).ready(function () {
                     content: "textFilter",
                   },
                 ],
+                sort: "int",
                 adjust: true,
               },
               {
@@ -338,7 +340,7 @@ $(document).ready(function () {
                 // <i uk-icon='icon: link'></i>USCS</a>`,
                 template: function (obj) {
                   return obj.data9 != "-"
-                    ? `<a href='https://genome.ucsc.edu/cgi-bin/hgTracks?db=${obj.data9}/' target='_blank'><i uk-icon='icon: link'></i>USCS</a>`
+                    ? `<a href='https://genome.ucsc.edu/cgi-bin/hgTracks?db=${obj.data9}' target='_blank'><i uk-icon='icon: link'></i>USCS</a>`
                     : "-";
                 },
                 adjust: true,
@@ -388,6 +390,7 @@ $(document).ready(function () {
                     content: "textFilter",
                   },
                 ],
+                sort: "int",
                 width: 140,
               },
             ],
@@ -405,6 +408,12 @@ $(document).ready(function () {
               container: "binding_sites_paging",
               size: 10,
               group: 5,
+            },
+            on: {
+              onAfterLoad: function () {
+                this.sort("data14", "asc", "int");
+                this.markSorting("data14", "asc");
+              },
             },
           },
         ],
