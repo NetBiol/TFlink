@@ -409,8 +409,8 @@ targets: 'SPATA20,Q8TB22,64847,GTRD,chromatin immunoprecipitation assay,27924024
   STRAP,Q9Y3F4,11171,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   PTK7,Q13308,5754,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q9UKD1.tsv
-targets_download: targets_of_Q9UKD1.tsv
+tfs_download: TFLink_tfs_of_Q9UKD1.tsv
+targets_download: TFLink_targets_of_Q9UKD1.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

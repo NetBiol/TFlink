@@ -212,7 +212,7 @@ tfs: 'Hnf1b,P27889,21410,GTRD;TRRUST,chromatin immunoprecipitation assay;inferre
   Ebf1,Q07802,13591,GTRD;ORegAnno;PAZAR,chromatin immunoprecipitation assay;inferred
   by curator,18971253%5Buid%5D+OR+27924024%5Buid%5D+OR+26578589%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q3UEI1.tsv
+tfs_download: TFLink_tfs_of_Q3UEI1.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

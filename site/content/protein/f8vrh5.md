@@ -102,7 +102,7 @@ tfs: 'PPARG,P37231,5468,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%
 
   MLLT1,Q03111,4298,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_F8VRH5.tsv
+tfs_download: TFLink_tfs_of_F8VRH5.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

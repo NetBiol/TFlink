@@ -210,7 +210,7 @@ tfs: 'epc-1,G5EC14,176679,GTRD,chromatin immunoprecipitation assay,27924024%5Bui
 
   elt-1,P28515,177794,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_A0A0K3AQY8.tsv
+tfs_download: TFLink_tfs_of_A0A0K3AQY8.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

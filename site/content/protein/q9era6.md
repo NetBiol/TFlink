@@ -210,7 +210,7 @@ tfs: 'Mta2,Q9R190,23942,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%
 
   Cbfb,Q08024,12400,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9ERA6.tsv
+tfs_download: TFLink_tfs_of_Q9ERA6.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

@@ -119,7 +119,7 @@ tfs: 'Spi1,P17433,20375,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%
 
   Fos,P01101,14281,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8BHB9.tsv
+tfs_download: TFLink_tfs_of_Q8BHB9.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

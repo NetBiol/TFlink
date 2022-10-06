@@ -210,7 +210,7 @@ tfs: 'FOXA3,P55318,3171,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%
 
   HMG20A,Q9NP66,10363,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_A6NKF1.tsv
+tfs_download: TFLink_tfs_of_A6NKF1.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

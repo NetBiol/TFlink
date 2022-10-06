@@ -212,7 +212,7 @@ tfs: 'KCNH2,Q12809,3757,ReMap,chromatin immunoprecipitation assay,29126285%5Buid
 
   USP7,Q93009,7874,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9UJW8.tsv
+tfs_download: TFLink_tfs_of_Q9UJW8.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

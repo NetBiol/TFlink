@@ -211,7 +211,7 @@ tfs: 'PARP1,P09874,142,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5
 
   UBN1,Q9NPG3,29855,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D+OR+27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9UKX7.tsv
+tfs_download: TFLink_tfs_of_Q9UKX7.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

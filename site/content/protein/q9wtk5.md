@@ -234,8 +234,8 @@ targets: 'Csf2,P01587,12981,TRRUST,inferred by curator,24899500%5Buid%5D+OR+2908
   Rel,P15307,-,TRRUST,inferred by curator,29087512%5Buid%5D+OR+10597218%5Buid%5D,Yes
 
   Dmp1,O55188,13406,TRRUST,inferred by curator,21062982%5Buid%5D+OR+29087512%5Buid%5D,Yes'
-tfs_download: tfs_of_Q9WTK5.tsv
-targets_download: targets_of_Q9WTK5.tsv
+tfs_download: TFLink_tfs_of_Q9WTK5.tsv
+targets_download: TFLink_targets_of_Q9WTK5.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

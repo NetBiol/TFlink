@@ -214,7 +214,7 @@ tfs: 'RELB,Q01201,5971,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5
 
   GFI1,Q99684,2672,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9UJY4.tsv
+tfs_download: TFLink_tfs_of_Q9UJY4.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

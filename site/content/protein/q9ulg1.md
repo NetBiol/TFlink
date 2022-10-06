@@ -414,8 +414,8 @@ targets: 'TSPYL2,Q9H2G4,64061,GTRD,chromatin immunoprecipitation assay,27924024%
   CIITA,P33076,4261,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   LOXL3,P58215,84695,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q9ULG1.tsv
-targets_download: targets_of_Q9ULG1.tsv
+tfs_download: TFLink_tfs_of_Q9ULG1.tsv
+targets_download: TFLink_targets_of_Q9ULG1.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

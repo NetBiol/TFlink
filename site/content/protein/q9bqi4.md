@@ -212,7 +212,7 @@ tfs: 'NFE2L2,Q16236,4780,ReMap,chromatin immunoprecipitation assay,29126285%5Bui
   HNF4A,P41235,3172,ORegAnno;PAZAR;ReMap,chromatin immunoprecipitation assay;inferred
   by curator,29126285%5Buid%5D+OR+18971253%5Buid%5D+OR+26578589%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9BQI4.tsv
+tfs_download: TFLink_tfs_of_Q9BQI4.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

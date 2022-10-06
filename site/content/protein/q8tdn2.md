@@ -64,7 +64,7 @@ tfs: 'ESR1,P03372,2099,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5
 
   RUNX1,Q01196,861,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8TDN2.tsv
+tfs_download: TFLink_tfs_of_Q8TDN2.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

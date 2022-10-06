@@ -108,8 +108,8 @@ targets: 'tkv,Q9VMT1,33753,GTRD,chromatin immunoprecipitation assay,27924024%5Bu
   Mpi,Q9VH77,41192,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   dmCG10311,Q9VEW3,41984,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q9VHL0.tsv
-targets_download: targets_of_Q9VHL0.tsv
+tfs_download: TFLink_tfs_of_Q9VHL0.tsv
+targets_download: TFLink_targets_of_Q9VHL0.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

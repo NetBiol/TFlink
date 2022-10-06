@@ -210,7 +210,7 @@ tfs: 'Tgfb1i1,Q62219,21804,TRRUST,inferred by curator,21613609%5Buid%5D+OR+29087
 
   Hdac2,P70288,15182,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9DBX1.tsv
+tfs_download: TFLink_tfs_of_Q9DBX1.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

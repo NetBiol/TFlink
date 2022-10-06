@@ -112,7 +112,7 @@ tfs: 'Dmel\CG6254,Q9VH18,41244,GTRD,chromatin immunoprecipitation assay,27924024
 
   CTCF,Q9VS55,38817,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q7JMV3.tsv
+tfs_download: TFLink_tfs_of_Q7JMV3.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

@@ -26,7 +26,7 @@ tfs: 'TCF4,P15884,6925,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5
 
   TCF3,P15923,6929,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_A0A0A0MRZ8.tsv
+tfs_download: TFLink_tfs_of_A0A0A0MRZ8.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

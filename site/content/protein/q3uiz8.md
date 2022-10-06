@@ -211,7 +211,7 @@ tfs: 'Elk1,P41969,13712,TRRUST,inferred by curator,29087512%5Buid%5D+OR+24121020
 
   Rela,Q04207,19697,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q3UIZ8.tsv
+tfs_download: TFLink_tfs_of_Q3UIZ8.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

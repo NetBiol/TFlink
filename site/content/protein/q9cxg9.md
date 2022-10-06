@@ -409,8 +409,8 @@ targets: 'Taf4,E9QAP7,228980,GTRD,chromatin immunoprecipitation assay,27924024%5
   Rasef,Q5RI75,242505,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   Smap1,Q91VZ6,98366,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q9CXG9.tsv
-targets_download: targets_of_Q9CXG9.tsv
+tfs_download: TFLink_tfs_of_Q9CXG9.tsv
+targets_download: TFLink_targets_of_Q9CXG9.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

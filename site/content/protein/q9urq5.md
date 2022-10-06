@@ -76,7 +76,7 @@ tfs: 'IXR1,P33417,853836,Yeastract,array technology/partial DNA sequence identif
 
   GAT1,P43574,850523,Yeastract,full identification by RNA sequencing,24170807%5Buid%5D+OR+29620523%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9URQ5.tsv
+tfs_download: TFLink_tfs_of_Q9URQ5.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

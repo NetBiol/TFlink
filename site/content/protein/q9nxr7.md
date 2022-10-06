@@ -214,7 +214,7 @@ tfs: 'NR4A1,P22736,3164,GTRD;TRRUST,chromatin immunoprecipitation assay;inferred
 
   RFX3,P48380,5991,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9NXR7.tsv
+tfs_download: TFLink_tfs_of_Q9NXR7.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

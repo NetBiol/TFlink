@@ -210,7 +210,7 @@ tfs: 'Smurf2,A2A5Z6,66313,TRRUST,inferred by curator,24729608%5Buid%5D+OR+290875
 
   Utp6,Q8VCY6,216987,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8VCF0.tsv
+tfs_download: TFLink_tfs_of_Q8VCF0.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

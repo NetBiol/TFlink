@@ -261,8 +261,8 @@ targets: 'Dmel\CG8765,Q9VW28,40147,GTRD,chromatin immunoprecipitation assay,2792
   eag,Q02280,32428,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   -,Q5IF45,-,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q9VHG6.tsv
-targets_download: targets_of_Q9VHG6.tsv
+tfs_download: TFLink_tfs_of_Q9VHG6.tsv
+targets_download: TFLink_targets_of_Q9VHG6.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

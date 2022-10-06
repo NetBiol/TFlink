@@ -410,8 +410,8 @@ targets: 'HOXB9,P17482,3219,GTRD,chromatin immunoprecipitation assay,27924024%5B
   EGLN2,Q96KS0,112398,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   RNF43,Q68DV7,54894,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q6ZSZ6.tsv
-targets_download: targets_of_Q6ZSZ6.tsv
+tfs_download: TFLink_tfs_of_Q6ZSZ6.tsv
+targets_download: TFLink_targets_of_Q6ZSZ6.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

@@ -58,7 +58,7 @@ tfs: 'Met,Q9VYW2,32114,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5
 
   mod(mdg4),Q86B87,49228,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9VRW4.tsv
+tfs_download: TFLink_tfs_of_Q9VRW4.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

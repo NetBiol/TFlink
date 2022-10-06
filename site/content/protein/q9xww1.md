@@ -210,7 +210,7 @@ tfs: 'snpc-1.3,Q7JNN6,178929,GTRD,chromatin immunoprecipitation assay,27924024%5
 
   -,Q18037,175905,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9XWW1.tsv
+tfs_download: TFLink_tfs_of_Q9XWW1.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

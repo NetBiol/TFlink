@@ -408,8 +408,8 @@ targets: 'Eomes,O54839,13813,TRRUST,inferred by curator,23584530%5Buid%5D+OR+290
   Lamc1,F8VQJ3,226519,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   Ercc2,O08811,13871,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q5NCY0.tsv
-targets_download: targets_of_Q5NCY0.tsv
+tfs_download: TFLink_tfs_of_Q5NCY0.tsv
+targets_download: TFLink_targets_of_Q5NCY0.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

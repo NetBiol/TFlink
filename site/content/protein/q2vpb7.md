@@ -210,7 +210,7 @@ tfs: 'BRD4,O60885,23476,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%
 
   TP53,P04637,7157,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D+OR+27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q2VPB7.tsv
+tfs_download: TFLink_tfs_of_Q2VPB7.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

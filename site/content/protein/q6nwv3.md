@@ -210,7 +210,7 @@ tfs: 'Mef2c,Q8CFN5,17260,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
 
   Tbx6,P70327,21389,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q6NWV3.tsv
+tfs_download: TFLink_tfs_of_Q6NWV3.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

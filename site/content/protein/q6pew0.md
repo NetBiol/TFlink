@@ -107,7 +107,7 @@ tfs: 'CEBPA,P49715,1050,ORegAnno;PAZAR,inferred by curator,18971253%5Buid%5D+OR+
   ETS1,P14921,2113,HTRI;ORegAnno;PAZAR,chromatin immunoprecipitation assay;inferred
   by curator,20019798%5Buid%5D+OR+18971253%5Buid%5D+OR+22900683%5Buid%5D+OR+26578589%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q6PEW0.tsv
+tfs_download: TFLink_tfs_of_Q6PEW0.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

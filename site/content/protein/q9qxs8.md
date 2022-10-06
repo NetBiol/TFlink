@@ -104,7 +104,7 @@ tfs: 'Fli1,P26323,14247,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%
 
   Creb1,Q01147,12912,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9QXS8.tsv
+tfs_download: TFLink_tfs_of_Q9QXS8.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

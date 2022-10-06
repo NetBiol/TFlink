@@ -213,7 +213,7 @@ tfs: 'Kdm6b,Q5NCY0,216850,GTRD,chromatin immunoprecipitation assay,27924024%5Bui
 
   Hcfc1,Q61191,15161,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9CYZ8.tsv
+tfs_download: TFLink_tfs_of_Q9CYZ8.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

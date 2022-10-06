@@ -410,8 +410,8 @@ targets: 'Vps45,P97390,22365,GTRD,chromatin immunoprecipitation assay,27924024%5
   Sh3bp5l,Q99LH9,79566,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   Hnrnpf,Q9Z2X1,98758,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q8CFE3.tsv
-targets_download: targets_of_Q8CFE3.tsv
+tfs_download: TFLink_tfs_of_Q8CFE3.tsv
+targets_download: TFLink_targets_of_Q8CFE3.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

@@ -210,7 +210,7 @@ tfs: 'HIRA,P54198,7290,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5
 
   GTF3C5,Q9Y5Q8,9328,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8NCW5.tsv
+tfs_download: TFLink_tfs_of_Q8NCW5.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

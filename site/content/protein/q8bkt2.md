@@ -178,8 +178,8 @@ tfs: 'Tbx6,P70327,21389,TRRUST,inferred by curator,23326414%5Buid%5D+OR+29087512
 targets: 'Lfng,O09010,16848,TRRUST,inferred by curator,16342160%5Buid%5D+OR+29087512%5Buid%5D,Yes
 
   Mesp2,O08574,17293,TRRUST,inferred by curator,23465881%5Buid%5D+OR+29087512%5Buid%5D,Yes'
-tfs_download: tfs_of_Q8BKT2.tsv
-targets_download: targets_of_Q8BKT2.tsv
+tfs_download: TFLink_tfs_of_Q8BKT2.tsv
+targets_download: TFLink_targets_of_Q8BKT2.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

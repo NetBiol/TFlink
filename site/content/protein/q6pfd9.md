@@ -211,7 +211,7 @@ targets: 'Myl6b,Q8CI43,216459,GTRD,chromatin immunoprecipitation assay,27924024%
 
   Bclaf1,Q8K019,72567,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 tfs_download: ''
-targets_download: targets_of_Q6PFD9.tsv
+targets_download: TFLink_targets_of_Q6PFD9.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

@@ -64,7 +64,7 @@ tfs: 'row,A0A0B4KER0,36685,GTRD,chromatin immunoprecipitation assay,27924024%5Bu
 
   ash1,Q9VW15,40133,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_A8JNN5.tsv
+tfs_download: TFLink_tfs_of_A8JNN5.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

@@ -409,8 +409,8 @@ targets: 'MAP1LC3A,Q9H492,84557,GTRD,chromatin immunoprecipitation assay,2792402
   STX16-NPEPL1,H3BU86,-,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   NCOA4,Q13772,8031,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q9UDV7.tsv
-targets_download: targets_of_Q9UDV7.tsv
+tfs_download: TFLink_tfs_of_Q9UDV7.tsv
+targets_download: TFLink_targets_of_Q9UDV7.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

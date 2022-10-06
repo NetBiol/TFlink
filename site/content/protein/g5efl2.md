@@ -168,7 +168,7 @@ tfs: 'nhr-47,Q17370,178933,GTRD,chromatin immunoprecipitation assay,27924024%5Bu
 
   lin-52,Q10120,176393,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_G5EFL2.tsv
+tfs_download: TFLink_tfs_of_G5EFL2.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

@@ -20,7 +20,7 @@ tfs: 'lin-61,B2D6M2,172467,GTRD,chromatin immunoprecipitation assay,27924024%5Bu
 
   mtl-2,P17512,179899,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_A0A0M7REA1.tsv
+tfs_download: TFLink_tfs_of_A0A0M7REA1.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

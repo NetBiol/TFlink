@@ -410,8 +410,8 @@ targets: 'PEX13,Q92968,5194,ReMap,chromatin immunoprecipitation assay,29126285%5
   IRF5,Q13568,3663,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No
 
   FGD2,Q7Z6J4,221472,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No'
-tfs_download: tfs_of_Q8NFJ8.tsv
-targets_download: targets_of_Q8NFJ8.tsv
+tfs_download: TFLink_tfs_of_Q8NFJ8.tsv
+targets_download: TFLink_targets_of_Q8NFJ8.tsv
 bindingSites_download: ''
 binding_sites_ls: Q8NFJ8_HT.fasta
 

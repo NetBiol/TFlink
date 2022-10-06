@@ -26,7 +26,7 @@ tfs: 'Chd8,Q9JIX5,65027,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%
 
   Jun,P17325,24516,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_D3ZAB6.tsv
+tfs_download: TFLink_tfs_of_D3ZAB6.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

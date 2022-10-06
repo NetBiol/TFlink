@@ -56,7 +56,7 @@ tfs: 'AHR,P35869,196,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D
 
   JUN,P05412,3725,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8NGA6.tsv
+tfs_download: TFLink_tfs_of_Q8NGA6.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

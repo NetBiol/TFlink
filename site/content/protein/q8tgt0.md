@@ -97,7 +97,7 @@ tfs: 'GZF3,P42944,853334,Yeastract,array technology/partial DNA sequence identif
 
   SSN8,P47821,855706,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8TGT0.tsv
+tfs_download: TFLink_tfs_of_Q8TGT0.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

@@ -64,7 +64,7 @@ tfs: 'SP1,P08047,6667,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5
 
   GATA1,P15976,2623,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_H3BNG1.tsv
+tfs_download: TFLink_tfs_of_H3BNG1.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

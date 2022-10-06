@@ -211,7 +211,7 @@ tfs: 'Neurod6,P48986,11922,TRRUST,inferred by curator,21805347%5Buid%5D+OR+29087
 
   Nr5a2,P45448,26424,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q7TME0.tsv
+tfs_download: TFLink_tfs_of_Q7TME0.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

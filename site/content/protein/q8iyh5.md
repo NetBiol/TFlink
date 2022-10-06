@@ -410,8 +410,8 @@ targets: 'NDUFAF6,Q330K2,137682,GTRD,chromatin immunoprecipitation assay,2792402
   DMTF1,Q9Y222,9988,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   TK1,P04183,7083,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q8IYH5.tsv
-targets_download: targets_of_Q8IYH5.tsv
+tfs_download: TFLink_tfs_of_Q8IYH5.tsv
+targets_download: TFLink_targets_of_Q8IYH5.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

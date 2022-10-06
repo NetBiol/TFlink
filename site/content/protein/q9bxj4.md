@@ -218,7 +218,7 @@ tfs: 'CEBPB,P17676,1051,GTRD;ORegAnno;ReMap,chromatin immunoprecipitation assay;
 
   CUX1,P39880,1523,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9BXJ4.tsv
+tfs_download: TFLink_tfs_of_Q9BXJ4.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

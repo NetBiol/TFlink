@@ -248,8 +248,8 @@ targets: 'CG13390-RA,Q8SXX3,-,GTRD,chromatin immunoprecipitation assay,27924024%
   -,Q961G7,-,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   -,F6J1V2,-,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q9VGK1.tsv
-targets_download: targets_of_Q9VGK1.tsv
+tfs_download: TFLink_tfs_of_Q9VGK1.tsv
+targets_download: TFLink_targets_of_Q9VGK1.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

@@ -17,7 +17,7 @@ tfs: 'GCN4,P03069,856709,Yeastract,array technology/partial DNA sequence identif
 
   STE12,P13574,856484,Yeastract,chromatin immunoprecipitation array,17638031%5Buid%5D+OR+24170807%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8TGT4.tsv
+tfs_download: TFLink_tfs_of_Q8TGT4.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

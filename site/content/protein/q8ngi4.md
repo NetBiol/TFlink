@@ -103,7 +103,7 @@ tfs: 'CREM,Q03060,1390,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%
 
   GATA6,Q92908,2627,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8NGI4.tsv
+tfs_download: TFLink_tfs_of_Q8NGI4.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

@@ -171,7 +171,7 @@ tfs: 'MED1,Q15648,5469,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%
 
   HDAC3,O15379,8841,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8NGZ3.tsv
+tfs_download: TFLink_tfs_of_Q8NGZ3.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

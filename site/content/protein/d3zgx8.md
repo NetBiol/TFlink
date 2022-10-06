@@ -226,8 +226,8 @@ targets: 'Tmem242,D4A7K0,292228,GTRD,chromatin immunoprecipitation assay,2792402
   Uba5,Q5M7A4,300968,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   Vta1,A0A096MKH2,292640,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_D3ZGX8.tsv
-targets_download: targets_of_D3ZGX8.tsv
+tfs_download: TFLink_tfs_of_D3ZGX8.tsv
+targets_download: TFLink_targets_of_D3ZGX8.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

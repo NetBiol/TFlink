@@ -256,8 +256,8 @@ targets: 'iscu-1,O45948,178344,GTRD,chromatin immunoprecipitation assay,27924024
   rab-7,Q23146,174834,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   -,Q9N5Y7,175930,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_A8WFJ9.tsv
-targets_download: targets_of_A8WFJ9.tsv
+tfs_download: TFLink_tfs_of_A8WFJ9.tsv
+targets_download: TFLink_targets_of_A8WFJ9.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

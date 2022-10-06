@@ -215,8 +215,8 @@ targets: 'CCND1,P24385,595,TRRUST,inferred by curator,20735431%5Buid%5D+OR+29087
   CTNNB1,P35222,1499,TRRUST,inferred by curator,20735431%5Buid%5D+OR+29087512%5Buid%5D,Yes
 
   CDKN1A,P38936,1026,TRRUST,inferred by curator,20735431%5Buid%5D+OR+29087512%5Buid%5D,Yes'
-tfs_download: tfs_of_Q8IXH7.tsv
-targets_download: targets_of_Q8IXH7.tsv
+tfs_download: TFLink_tfs_of_Q8IXH7.tsv
+targets_download: TFLink_targets_of_Q8IXH7.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

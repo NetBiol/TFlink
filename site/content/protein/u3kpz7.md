@@ -210,7 +210,7 @@ tfs: 'E2F8,A0AVK6,79733,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%
 
   SMARCA4,P51532,6597,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D+OR+27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_U3KPZ7.tsv
+tfs_download: TFLink_tfs_of_U3KPZ7.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

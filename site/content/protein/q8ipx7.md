@@ -278,8 +278,8 @@ targets: 'Dmel\CG42672,Q9W2I0,37433,GTRD,chromatin immunoprecipitation assay,279
   qkr58E-2,Q9W254,37562,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   -,F6J7Y8,-,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q8IPX7.tsv
-targets_download: targets_of_Q8IPX7.tsv
+tfs_download: TFLink_tfs_of_Q8IPX7.tsv
+targets_download: TFLink_targets_of_Q8IPX7.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

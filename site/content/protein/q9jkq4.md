@@ -213,8 +213,8 @@ tfs: 'Nr5a2,P45448,26424,ORegAnno;PAZAR,inferred by curator,18971253%5Buid%5D+OR
 
   Ezh1,P70351,14055,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: Kcnd2,Q9Z0V2,16508,TRRUST,inferred by curator,29087512%5Buid%5D+OR+23573265%5Buid%5D,Yes
-tfs_download: tfs_of_Q9JKQ4.tsv
-targets_download: targets_of_Q9JKQ4.tsv
+tfs_download: TFLink_tfs_of_Q9JKQ4.tsv
+targets_download: TFLink_targets_of_Q9JKQ4.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

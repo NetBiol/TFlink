@@ -215,7 +215,7 @@ tfs: 'NR1H2,P55055,7376,ReMap,chromatin immunoprecipitation assay,29126285%5Buid
 
   BRD1,O95696,23774,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q5FYB0.tsv
+tfs_download: TFLink_tfs_of_Q5FYB0.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

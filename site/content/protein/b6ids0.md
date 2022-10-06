@@ -111,7 +111,7 @@ targets: 'Chro,Q86BS3,40508,GTRD,chromatin immunoprecipitation assay,27924024%5B
 
   -,A9YHM3,-,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 tfs_download: ''
-targets_download: targets_of_B6IDS0.tsv
+targets_download: TFLink_targets_of_B6IDS0.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

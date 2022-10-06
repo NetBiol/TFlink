@@ -210,7 +210,7 @@ tfs: 'HSF1,Q00613,3297,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%
 
   BCLAF1,Q9NYF8,9774,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D+OR+27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_A0A1B0GUV7.tsv
+tfs_download: TFLink_tfs_of_A0A1B0GUV7.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

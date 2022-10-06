@@ -217,8 +217,8 @@ targets: 'PXMP2,Q9NR77,5827,TRRUST,inferred by curator,15937477%5Buid%5D+OR+2908
   MSMB,P08118,4477,TRRUST,inferred by curator,15937477%5Buid%5D+OR+29087512%5Buid%5D,Yes
 
   PMP22,Q01453,5376,TRRUST,inferred by curator,15937477%5Buid%5D+OR+29087512%5Buid%5D,Yes'
-tfs_download: tfs_of_Q9UFF9.tsv
-targets_download: targets_of_Q9UFF9.tsv
+tfs_download: TFLink_tfs_of_Q9UFF9.tsv
+targets_download: TFLink_targets_of_Q9UFF9.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

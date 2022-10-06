@@ -213,8 +213,8 @@ tfs: 'NFRKB,Q6P4R8,4798,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%
 targets: 'TPO,P07202,7173,TRRUST,inferred by curator,8602863%5Buid%5D+OR+29087512%5Buid%5D,Yes
 
   TSG101,Q99816,7251,TRRUST,inferred by curator,29087512%5Buid%5D+OR+21556761%5Buid%5D,Yes'
-tfs_download: tfs_of_Q9UNY4.tsv
-targets_download: targets_of_Q9UNY4.tsv
+tfs_download: TFLink_tfs_of_Q9UNY4.tsv
+targets_download: TFLink_targets_of_Q9UNY4.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

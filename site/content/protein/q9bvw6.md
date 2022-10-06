@@ -102,7 +102,7 @@ tfs: 'ZNF274,Q96GC6,10782,GTRD,chromatin immunoprecipitation assay,27924024%5Bui
 
   OTX2,P32243,5015,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9BVW6.tsv
+tfs_download: TFLink_tfs_of_Q9BVW6.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

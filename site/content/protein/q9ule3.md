@@ -213,7 +213,7 @@ tfs: 'FOXA1,P55317,3169,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%
 
   NEUROD1,Q13562,4760,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9ULE3.tsv
+tfs_download: TFLink_tfs_of_Q9ULE3.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

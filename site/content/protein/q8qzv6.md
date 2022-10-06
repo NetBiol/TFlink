@@ -12,7 +12,7 @@ orthologs: ''
 jaspar_matrices: ''
 tfs: Crx,O54751,12951,TRRUST,inferred by curator,29087512%5Buid%5D+OR+20705278%5Buid%5D,Yes
 targets: ''
-tfs_download: tfs_of_Q8QZV6.tsv
+tfs_download: TFLink_tfs_of_Q8QZV6.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

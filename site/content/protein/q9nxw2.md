@@ -214,7 +214,7 @@ tfs: 'KDM5B,Q9UGL1,10765,GTRD;IntAct_via_DoRothEA;ReMap,chromatin immunoprecipit
 
   ZBTB48,P10074,3104,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9NXW2.tsv
+tfs_download: TFLink_tfs_of_Q9NXW2.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

@@ -14,7 +14,7 @@ tfs: 'tra-1,P34708,-,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,
 
   elt-1,P28515,177794,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_G5EDD6.tsv
+tfs_download: TFLink_tfs_of_G5EDD6.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

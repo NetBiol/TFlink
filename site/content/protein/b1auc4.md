@@ -132,7 +132,7 @@ tfs: 'Rfx2,P48379,19725,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%
 
   Jun,P05627,16476,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_B1AUC4.tsv
+tfs_download: TFLink_tfs_of_B1AUC4.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

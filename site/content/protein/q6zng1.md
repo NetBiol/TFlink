@@ -411,8 +411,8 @@ targets: 'RPS6,P62753,6194,GTRD,chromatin immunoprecipitation assay,27924024%5Bu
   NFRKB,Q6P4R8,4798,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   MAML3,Q96JK9,55534,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q6ZNG1.tsv
-targets_download: targets_of_Q6ZNG1.tsv
+tfs_download: TFLink_tfs_of_Q6ZNG1.tsv
+targets_download: TFLink_targets_of_Q6ZNG1.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

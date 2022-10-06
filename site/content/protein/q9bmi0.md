@@ -20,7 +20,7 @@ tfs: 'ces-1,G5ECN8,185718,GTRD,chromatin immunoprecipitation assay,27924024%5Bui
 
   tdp-1,D0VWM8,174436,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9BMI0.tsv
+tfs_download: TFLink_tfs_of_Q9BMI0.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

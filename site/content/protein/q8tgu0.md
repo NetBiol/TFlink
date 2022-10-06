@@ -161,7 +161,7 @@ tfs: 'SWI4,P25302,856847,Yeastract,chromatin immunoprecipitation assay,24170807%
   YAP1,P19880,855005,Yeastract,array technology/partial DNA sequence identification
   by hybridization,24170807%5Buid%5D+OR+20971184%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8TGU0.tsv
+tfs_download: TFLink_tfs_of_Q8TGU0.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

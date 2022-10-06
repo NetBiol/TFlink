@@ -210,7 +210,7 @@ tfs: 'Cxxc1,Q9CWW7,74322,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
 
   Maf,P54843,17132,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_A2AWT3.tsv
+tfs_download: TFLink_tfs_of_A2AWT3.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

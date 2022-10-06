@@ -410,8 +410,8 @@ targets: 'ELP6,Q0PNE2,54859,GTRD,chromatin immunoprecipitation assay,27924024%5B
   PARVA,Q9NVD7,55742,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   DIABLO,Q9NR28,56616,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q8IWI9.tsv
-targets_download: targets_of_Q8IWI9.tsv
+tfs_download: TFLink_tfs_of_Q8IWI9.tsv
+targets_download: TFLink_targets_of_Q8IWI9.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

@@ -162,7 +162,7 @@ tfs: 'YY1,P25490,7528,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D
 
   TRIM22,Q8IYM9,10346,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q5HYN5.tsv
+tfs_download: TFLink_tfs_of_Q5HYN5.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

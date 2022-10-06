@@ -212,7 +212,7 @@ tfs: 'Neurod2,Q62414,18013,GTRD,chromatin immunoprecipitation assay,27924024%5Bu
 
   Ezh1,P70351,14055,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_E9PWP9.tsv
+tfs_download: TFLink_tfs_of_E9PWP9.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

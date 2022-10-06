@@ -250,8 +250,8 @@ targets: 'Cdkn1a,P39689,12575,TRRUST,inferred by curator,29087512%5Buid%5D+OR+18
   Cdkn1c,P49919,12577,TRRUST,inferred by curator,16405903%5Buid%5D+OR+29087512%5Buid%5D,Yes
 
   Foxo3,Q9WVH4,56484,TRRUST,inferred by curator,20564353%5Buid%5D+OR+29087512%5Buid%5D+OR+10051583%5Buid%5D,Yes'
-tfs_download: tfs_of_Q9JJP2.tsv
-targets_download: targets_of_Q9JJP2.tsv
+tfs_download: TFLink_tfs_of_Q9JJP2.tsv
+targets_download: TFLink_targets_of_Q9JJP2.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

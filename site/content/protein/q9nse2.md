@@ -214,7 +214,7 @@ tfs: 'STAT6,P42226,6778,GTRD;KEGG_via_DoRothEA;TRRUST,chromatin immunoprecipitat
 
   NIPBL,Q6KC79,25836,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9NSE2.tsv
+tfs_download: TFLink_tfs_of_Q9NSE2.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

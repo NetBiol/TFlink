@@ -156,8 +156,8 @@ targets: 'mtcu-2,Q20680,174563,GTRD,chromatin immunoprecipitation assay,27924024
   -,O17753,177941,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   chst-1,Q09272,174304,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q9XUB3.tsv
-targets_download: targets_of_Q9XUB3.tsv
+tfs_download: TFLink_tfs_of_Q9XUB3.tsv
+targets_download: TFLink_targets_of_Q9XUB3.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

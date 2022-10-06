@@ -212,7 +212,7 @@ tfs: 'RAD21,O60216,5885,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%
 
   TARDBP,Q13148,23435,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D+OR+27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q6TFL4.tsv
+tfs_download: TFLink_tfs_of_Q6TFL4.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

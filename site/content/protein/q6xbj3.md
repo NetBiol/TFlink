@@ -410,8 +410,8 @@ targets: 'Ccsmst1,Q6RUT7,214489,GTRD,chromatin immunoprecipitation assay,2792402
   Slc6a9,P28571,14664,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   Rps18,P62270,20084,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q6XBJ3.tsv
-targets_download: targets_of_Q6XBJ3.tsv
+tfs_download: TFLink_tfs_of_Q6XBJ3.tsv
+targets_download: TFLink_targets_of_Q6XBJ3.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

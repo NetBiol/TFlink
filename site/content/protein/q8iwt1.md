@@ -211,7 +211,7 @@ tfs: 'ZC3H8,Q8N5P1,84524,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
 
   FOXK2,Q01167,3607,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8IWT1.tsv
+tfs_download: TFLink_tfs_of_Q8IWT1.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

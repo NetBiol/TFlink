@@ -216,7 +216,7 @@ tfs: 'NR1I2,O75469,8856,TRRUST,inferred by curator,29087512%5Buid%5D+OR+21072196
 
   RUNX1,Q01196,861,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D+OR+27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9ULV4.tsv
+tfs_download: TFLink_tfs_of_Q9ULV4.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

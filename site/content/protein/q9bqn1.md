@@ -212,7 +212,7 @@ tfs: 'HNF4G,Q14541,3174,ReMap,chromatin immunoprecipitation assay,29126285%5Buid
 
   FUS,P35637,2521,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9BQN1.tsv
+tfs_download: TFLink_tfs_of_Q9BQN1.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

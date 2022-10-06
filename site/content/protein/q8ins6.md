@@ -110,7 +110,7 @@ tfs: 'anon-63BC-T3,Q960J7,38388,GTRD,chromatin immunoprecipitation assay,2792402
 
   mof,O02193,31518,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8INS6.tsv
+tfs_download: TFLink_tfs_of_Q8INS6.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

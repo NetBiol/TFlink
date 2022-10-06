@@ -211,8 +211,8 @@ tfs: 'Srf,Q9JM73,20807,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5
 
   Mitf,Q08874,17342,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: Mef2c,Q8CFN5,17260,TRRUST,inferred by curator,19914232%5Buid%5D+OR+29087512%5Buid%5D,Yes
-tfs_download: tfs_of_Q8BUR3.tsv
-targets_download: targets_of_Q8BUR3.tsv
+tfs_download: TFLink_tfs_of_Q8BUR3.tsv
+targets_download: TFLink_targets_of_Q8BUR3.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

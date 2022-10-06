@@ -63,7 +63,7 @@ tfs: 'SFPQ,P23246,6421,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5
 
   CEBPB,P17676,1051,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9HCQ7.tsv
+tfs_download: TFLink_tfs_of_Q9HCQ7.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

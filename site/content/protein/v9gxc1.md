@@ -103,7 +103,7 @@ tfs: 'Tfap2c,Q61312,21420,GTRD,chromatin immunoprecipitation assay,27924024%5Bui
 
   Six2,Q62232,20472,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_V9GXC1.tsv
+tfs_download: TFLink_tfs_of_V9GXC1.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

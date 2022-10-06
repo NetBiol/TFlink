@@ -211,7 +211,7 @@ tfs: 'SALL3,Q9BXA9,27164,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
 
   ELF1,P32519,1997,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q6UXY1.tsv
+tfs_download: TFLink_tfs_of_Q6UXY1.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

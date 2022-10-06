@@ -211,7 +211,7 @@ tfs: 'STAT5B,P51692,6777,GTRD;ReMap,chromatin immunoprecipitation assay,29126285
 
   ZBED1,O96006,9189,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q6ZNE5.tsv
+tfs_download: TFLink_tfs_of_Q6ZNE5.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

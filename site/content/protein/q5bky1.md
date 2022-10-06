@@ -72,7 +72,7 @@ tfs: 'NRIP1,P48552,8204,ReMap,chromatin immunoprecipitation assay,29126285%5Buid
 
   GATA2,P23769,2624,HTRI,chromatin immunoprecipitation assay,19941826%5Buid%5D+OR+22900683%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q5BKY1.tsv
+tfs_download: TFLink_tfs_of_Q5BKY1.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

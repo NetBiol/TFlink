@@ -409,8 +409,8 @@ targets: 'Aamp,J3QN89,227290,GTRD,chromatin immunoprecipitation assay,27924024%5
   Map3k11,Q80XI6,26403,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   Fra10ac1,Q8BP78,70567,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q9JMD1.tsv
-targets_download: targets_of_Q9JMD1.tsv
+tfs_download: TFLink_tfs_of_Q9JMD1.tsv
+targets_download: TFLink_targets_of_Q9JMD1.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

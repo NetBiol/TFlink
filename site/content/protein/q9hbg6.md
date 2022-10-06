@@ -212,7 +212,7 @@ tfs: 'KLF6,Q99612,1316,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%
 
   RBPJ,Q06330,3516,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D+OR+27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9HBG6.tsv
+tfs_download: TFLink_tfs_of_Q9HBG6.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

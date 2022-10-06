@@ -16,7 +16,7 @@ tfs: 'Nrl,D4ACF4,290221,ORegAnno;PAZAR,inferred by curator,18971253%5Buid%5D+OR+
 
   Tbp,Q66HB1,117526,ORegAnno;PAZAR,inferred by curator,18971253%5Buid%5D+OR+26578589%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_A0A0G2JSY7.tsv
+tfs_download: TFLink_tfs_of_A0A0G2JSY7.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

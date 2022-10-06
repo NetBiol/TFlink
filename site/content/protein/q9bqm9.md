@@ -211,7 +211,7 @@ tfs: 'PRDM9,Q9NQV7,56979,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
 
   SIRT6,Q8N6T7,51548,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9BQM9.tsv
+tfs_download: TFLink_tfs_of_Q9BQM9.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

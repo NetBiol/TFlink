@@ -248,8 +248,8 @@ targets: 'Dmel\CG11069,Q8MRJ2,42976,GTRD,chromatin immunoprecipitation assay,279
   bug,Q7JXE1,36749,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   SCAR-RA,C1C3C5,-,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q9VUQ5.tsv
-targets_download: targets_of_Q9VUQ5.tsv
+tfs_download: TFLink_tfs_of_Q9VUQ5.tsv
+targets_download: TFLink_targets_of_Q9VUQ5.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

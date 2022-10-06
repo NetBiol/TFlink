@@ -211,7 +211,7 @@ tfs: 'Mef2a,Q60929,17258,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
 
   Tbr1,Q64336,21375,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q2MHE5.tsv
+tfs_download: TFLink_tfs_of_Q2MHE5.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

@@ -213,7 +213,7 @@ tfs: 'TRIM22,Q8IYM9,10346,ReMap,chromatin immunoprecipitation assay,29126285%5Bu
 
   TRPS1,Q9UHF7,7227,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_A8MVW5.tsv
+tfs_download: TFLink_tfs_of_A8MVW5.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

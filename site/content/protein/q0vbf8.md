@@ -211,7 +211,7 @@ tfs: 'Nr6a1,Q64249,14536,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
 
   Ehf,O70273,13661,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q0VBF8.tsv
+tfs_download: TFLink_tfs_of_Q0VBF8.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

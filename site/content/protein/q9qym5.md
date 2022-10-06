@@ -211,7 +211,7 @@ tfs: 'Nr2f1,Q60632,13865,TRRUST,inferred by curator,21965613%5Buid%5D+OR+2908751
 
   Onecut2,Q6XBJ3,225631,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9QYM5.tsv
+tfs_download: TFLink_tfs_of_Q9QYM5.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

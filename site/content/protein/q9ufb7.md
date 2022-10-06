@@ -211,7 +211,7 @@ tfs: 'CDK6,Q00534,1021,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%
 
   NRF1,Q16656,4899,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D+OR+27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9UFB7.tsv
+tfs_download: TFLink_tfs_of_Q9UFB7.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

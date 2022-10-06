@@ -215,7 +215,7 @@ tfs: 'SMC1A,Q14683,8243,ReMap,chromatin immunoprecipitation assay,29126285%5Buid
 
   HNF1B,P35680,6928,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q5JVX7.tsv
+tfs_download: TFLink_tfs_of_Q5JVX7.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

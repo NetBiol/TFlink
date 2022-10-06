@@ -210,7 +210,7 @@ tfs: 'Myc,P01108,17869,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5
 
   Hdac2,P70288,15182,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_A0A1B0GSQ5.tsv
+tfs_download: TFLink_tfs_of_A0A1B0GSQ5.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

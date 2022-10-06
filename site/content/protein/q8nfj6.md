@@ -143,7 +143,7 @@ tfs: 'HEXIM1,O94992,10614,ReMap,chromatin immunoprecipitation assay,29126285%5Bu
 
   NFKB1,P19838,4790,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D+OR+27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8NFJ6.tsv
+tfs_download: TFLink_tfs_of_Q8NFJ6.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

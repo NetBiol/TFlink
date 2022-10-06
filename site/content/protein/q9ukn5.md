@@ -409,8 +409,8 @@ targets: 'ZNF423,Q2M1K9,23090,GTRD,chromatin immunoprecipitation assay,27924024%
   PIK3IP1,Q96FE7,113791,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   HDAC1,Q13547,3065,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q9UKN5.tsv
-targets_download: targets_of_Q9UKN5.tsv
+tfs_download: TFLink_tfs_of_Q9UKN5.tsv
+targets_download: TFLink_targets_of_Q9UKN5.tsv
 bindingSites_download: ''
 binding_sites_ls: Q9UKN5_HT.fasta
 

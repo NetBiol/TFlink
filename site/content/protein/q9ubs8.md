@@ -212,8 +212,8 @@ tfs: 'TWIST1,Q15672,7291,GTRD;ReMap,chromatin immunoprecipitation assay,29126285
 
   ZEB2,O60315,9839,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D+OR+27924024%5Buid%5D,No'
 targets: CCND1,P24385,595,TRRUST,inferred by curator,29087512%5Buid%5D+OR+17510080%5Buid%5D,Yes
-tfs_download: tfs_of_Q9UBS8.tsv
-targets_download: targets_of_Q9UBS8.tsv
+tfs_download: TFLink_tfs_of_Q9UBS8.tsv
+targets_download: TFLink_targets_of_Q9UBS8.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

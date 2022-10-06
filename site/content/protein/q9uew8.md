@@ -220,7 +220,7 @@ tfs: 'NFKB1,P19838,4790,TRRUST,inferred by curator,29087512%5Buid%5D+OR+18787102
 
   MAFK,O60675,7975,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9UEW8.tsv
+tfs_download: TFLink_tfs_of_Q9UEW8.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

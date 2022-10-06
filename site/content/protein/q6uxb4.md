@@ -194,7 +194,7 @@ tfs: 'RUNX3,Q13761,864,TRRUST,inferred by curator,29087512%5Buid%5D+OR+19111020%
 
   BRD9,Q9H8M2,65980,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q6UXB4.tsv
+tfs_download: TFLink_tfs_of_Q6UXB4.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

@@ -213,7 +213,7 @@ tfs: 'E2F4,Q16254,1874,TRED,inferred by curator,17202159%5Buid%5D,Yes
 
   ZEB1,P37275,6935,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D+OR+27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9ULZ1.tsv
+tfs_download: TFLink_tfs_of_Q9ULZ1.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

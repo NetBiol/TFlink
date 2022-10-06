@@ -210,8 +210,8 @@ tfs: 'Nkx2-5,P42582,18091,TRRUST,inferred by curator,29087512%5Buid%5D+OR+165565
 
   Esrrb,Q61539,26380,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: Bglap2,P86547,12097,TRRUST,inferred by curator,17439944%5Buid%5D+OR+29087512%5Buid%5D,Yes
-tfs_download: tfs_of_P0DOV2.tsv
-targets_download: targets_of_P0DOV2.tsv
+tfs_download: TFLink_tfs_of_P0DOV2.tsv
+targets_download: TFLink_targets_of_P0DOV2.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

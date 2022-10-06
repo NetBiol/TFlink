@@ -216,7 +216,7 @@ tfs: 'WT1,P19544,7490,GTRD;TRED,chromatin immunoprecipitation assay;inferred by 
 
   SLC30A9,Q6PML9,10463,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_P0DMV9.tsv
+tfs_download: TFLink_tfs_of_P0DMV9.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

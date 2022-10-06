@@ -82,7 +82,7 @@ tfs: 'Chro,Q86BS3,40508,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%
 
   Or59b,Q9W1P8,37715,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_E5KYL3.tsv
+tfs_download: TFLink_tfs_of_E5KYL3.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

@@ -416,8 +416,8 @@ targets: 'TUBGCP6,Q96RT7,85378,GTRD,chromatin immunoprecipitation assay,27924024
   EIF3K,Q9UBQ5,27335,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   FBXW5,Q969U6,54461,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q9HBZ2.tsv
-targets_download: targets_of_Q9HBZ2.tsv
+tfs_download: TFLink_tfs_of_Q9HBZ2.tsv
+targets_download: TFLink_targets_of_Q9HBZ2.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

@@ -212,7 +212,7 @@ tfs: 'Smad3,Q8BUN5,17127,GTRD;TRED,chromatin immunoprecipitation assay;inferred 
 
   Med12,A2AGH6,59024,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9EST3.tsv
+tfs_download: TFLink_tfs_of_Q9EST3.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

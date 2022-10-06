@@ -175,7 +175,7 @@ tfs: 'RXRA,P19793,6256,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%
 
   CEBPD,P49716,1052,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q6UXB3.tsv
+tfs_download: TFLink_tfs_of_Q6UXB3.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

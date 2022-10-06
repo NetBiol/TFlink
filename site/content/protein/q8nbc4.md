@@ -211,7 +211,7 @@ tfs: 'RUNX2,Q13950,860,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%
 
   NOTCH1,P46531,4851,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8NBC4.tsv
+tfs_download: TFLink_tfs_of_Q8NBC4.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

@@ -210,7 +210,7 @@ tfs: 'USF1,P22415,7391,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%
 
   TEAD4,Q15561,7004,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_R4GMW8.tsv
+tfs_download: TFLink_tfs_of_R4GMW8.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

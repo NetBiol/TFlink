@@ -215,7 +215,7 @@ tfs: 'CDX2,Q99626,1045,GTRD;ReMap;TRRUST,chromatin immunoprecipitation assay;inf
 
   SS18,Q15532,6760,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9BYZ8.tsv
+tfs_download: TFLink_tfs_of_Q9BYZ8.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

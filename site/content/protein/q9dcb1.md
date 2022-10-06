@@ -210,8 +210,8 @@ tfs: 'Mef2a,Q60929,17258,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
 
   Ebf1,Q07802,13591,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: Slc2a2,P14246,20526,TRRUST,inferred by curator,29087512%5Buid%5D+OR+19651901%5Buid%5D,Yes
-tfs_download: tfs_of_Q9DCB1.tsv
-targets_download: targets_of_Q9DCB1.tsv
+tfs_download: TFLink_tfs_of_Q9DCB1.tsv
+targets_download: TFLink_targets_of_Q9DCB1.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

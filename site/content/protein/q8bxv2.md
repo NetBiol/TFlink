@@ -211,7 +211,7 @@ tfs: 'Pbx1,P41778,18514,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%
 
   Ncaph2,Q8BSP2,52683,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8BXV2.tsv
+tfs_download: TFLink_tfs_of_Q8BXV2.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

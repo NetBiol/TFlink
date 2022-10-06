@@ -216,7 +216,7 @@ tfs: 'CREB1,P16220,1385,ReMap,chromatin immunoprecipitation assay,29126285%5Buid
 
   ZNF143,P52747,7702,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q6JBY9.tsv
+tfs_download: TFLink_tfs_of_Q6JBY9.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

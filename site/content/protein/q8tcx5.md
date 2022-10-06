@@ -212,7 +212,7 @@ tfs: 'PBX3,P40426,5090,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5
 
   RELA,Q04206,5970,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D+OR+27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8TCX5.tsv
+tfs_download: TFLink_tfs_of_Q8TCX5.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

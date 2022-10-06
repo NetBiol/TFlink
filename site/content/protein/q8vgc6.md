@@ -34,7 +34,7 @@ tfs: 'Tal1,P22091,21349,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%
 
   Dmc1,Q61880,13404,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8VGC6.tsv
+tfs_download: TFLink_tfs_of_Q8VGC6.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

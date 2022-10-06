@@ -210,7 +210,7 @@ tfs: 'RNF2,Q99496,6045,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5
 
   TAL1,P17542,6886,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D+OR+27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q6UWY2.tsv
+tfs_download: TFLink_tfs_of_Q6UWY2.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

@@ -215,7 +215,7 @@ tfs: 'SP3,Q02447,6670,TRRUST,inferred by curator,29087512%5Buid%5D+OR+15217784%5
 
   POU2F2,P09086,5452,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9BZV2.tsv
+tfs_download: TFLink_tfs_of_Q9BZV2.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

@@ -408,8 +408,8 @@ targets: 'AURKAIP1,Q9NWT8,54998,GTRD,chromatin immunoprecipitation assay,2792402
   RFFL,Q8WZ73,117584,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   ZNF37A,P17032,7587,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q9NQX6.tsv
-targets_download: targets_of_Q9NQX6.tsv
+tfs_download: TFLink_tfs_of_Q9NQX6.tsv
+targets_download: TFLink_targets_of_Q9NQX6.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

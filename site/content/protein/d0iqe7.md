@@ -32,7 +32,7 @@ tfs: 'cid,Q9V6Q2,36495,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5
 
   Pdp1,Q24217,45588,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_D0IQE7.tsv
+tfs_download: TFLink_tfs_of_D0IQE7.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

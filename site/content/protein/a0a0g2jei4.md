@@ -40,7 +40,7 @@ tfs: 'Nr3c1,P06537,-,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,
 
   Bcl11b,Q99PV8,58208,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_A0A0G2JEI4.tsv
+tfs_download: TFLink_tfs_of_A0A0G2JEI4.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

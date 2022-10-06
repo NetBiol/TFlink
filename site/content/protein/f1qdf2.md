@@ -211,7 +211,7 @@ targets: 'sh2b1,A2RUZ0,558152,GTRD,chromatin immunoprecipitation assay,27924024%
 
   atf7ip,A0JME2,-,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 tfs_download: ''
-targets_download: targets_of_F1QDF2.tsv
+targets_download: TFLink_targets_of_F1QDF2.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

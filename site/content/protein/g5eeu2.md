@@ -28,7 +28,7 @@ tfs: 'med-1,G5EF71,-,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,
 
   ztf-4,Q9TZI2,172422,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_G5EEU2.tsv
+tfs_download: TFLink_tfs_of_G5EEU2.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

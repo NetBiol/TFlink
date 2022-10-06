@@ -211,7 +211,7 @@ tfs: 'TP53,P04637,7157,GTRD;IntAct_via_DoRothEA;ReMap,chromatin immunoprecipitat
 
   FIP1L1,Q6UN15,81608,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9NYP9.tsv
+tfs_download: TFLink_tfs_of_Q9NYP9.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

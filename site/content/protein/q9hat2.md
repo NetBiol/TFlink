@@ -213,7 +213,7 @@ tfs: 'DEAF1,O75398,10522,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
 
   BRD9,Q9H8M2,65980,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9HAT2.tsv
+tfs_download: TFLink_tfs_of_Q9HAT2.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

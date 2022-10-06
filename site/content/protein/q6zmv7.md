@@ -210,7 +210,7 @@ tfs: 'CUX1,P39880,1523,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5
 
   GATA4,P43694,2626,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D+OR+27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q6ZMV7.tsv
+tfs_download: TFLink_tfs_of_Q6ZMV7.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

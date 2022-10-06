@@ -210,7 +210,7 @@ tfs: 'DEK,P35659,7913,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5
 
   TBX21,Q9UL17,30009,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_A0A1B0GWH6.tsv
+tfs_download: TFLink_tfs_of_A0A1B0GWH6.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

@@ -13,7 +13,7 @@ jaspar_matrices: ''
 tfs: ''
 targets: Myog,P20428,29148,ORegAnno;PAZAR,inferred by curator,18971253%5Buid%5D+OR+26578589%5Buid%5D,No
 tfs_download: ''
-targets_download: targets_of_A0JPK9.tsv
+targets_download: TFLink_targets_of_A0JPK9.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

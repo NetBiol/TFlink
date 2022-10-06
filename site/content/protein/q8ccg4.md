@@ -303,8 +303,8 @@ targets: 'Topaz1,E5FYH1,671232,GTRD,chromatin immunoprecipitation assay,27924024
   Pxylp1,Q8BHA9,235534,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   Ahnak,E9Q616,66395,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q8CCG4.tsv
-targets_download: targets_of_Q8CCG4.tsv
+tfs_download: TFLink_tfs_of_Q8CCG4.tsv
+targets_download: TFLink_targets_of_Q8CCG4.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

@@ -408,8 +408,8 @@ targets: 'Mcm2,P97310,17216,TRRUST,inferred by curator,22538816%5Buid%5D+OR+2908
   4931422A03Rik,A2BHN9,-,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   Gm20715,E9Q3L7,-,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q9EPW2.tsv
-targets_download: targets_of_Q9EPW2.tsv
+tfs_download: TFLink_tfs_of_Q9EPW2.tsv
+targets_download: TFLink_targets_of_Q9EPW2.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

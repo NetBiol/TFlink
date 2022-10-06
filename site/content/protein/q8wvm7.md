@@ -416,8 +416,8 @@ targets: 'TSPAN5,P62079,10098,ReMap,chromatin immunoprecipitation assay,29126285
   DDA1,Q9BW61,79016,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No
 
   CCDC85B,Q15834,11007,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No'
-tfs_download: tfs_of_Q8WVM7.tsv
-targets_download: targets_of_Q8WVM7.tsv
+tfs_download: TFLink_tfs_of_Q8WVM7.tsv
+targets_download: TFLink_targets_of_Q8WVM7.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

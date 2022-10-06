@@ -212,7 +212,7 @@ tfs: 'BRD3,Q15059,8019,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5
 
   GATAD2A,Q86YP4,54815,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8IUS5.tsv
+tfs_download: TFLink_tfs_of_Q8IUS5.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

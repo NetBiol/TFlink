@@ -84,7 +84,7 @@ tfs: 'ATF4,P18848,468,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D
 
   CDX2,Q99626,1045,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D+OR+27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q6UWW9.tsv
+tfs_download: TFLink_tfs_of_Q6UWW9.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

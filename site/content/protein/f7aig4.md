@@ -19,7 +19,7 @@ tfs: 'Cdx2,P43241,12591,GTRD;ORegAnno;PAZAR,chromatin immunoprecipitation assay;
 
   Dux,A1JVI8,664783,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_F7AIG4.tsv
+tfs_download: TFLink_tfs_of_F7AIG4.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

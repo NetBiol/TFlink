@@ -211,7 +211,7 @@ tfs: 'Yap1,P46938,22601,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%
 
   Hcfc1,Q61191,15161,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8BYH8.tsv
+tfs_download: TFLink_tfs_of_Q8BYH8.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

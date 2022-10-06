@@ -211,7 +211,7 @@ tfs: 'E4F1,Q66K89,1877,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5
 
   ESRRA,P11474,2101,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D+OR+27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8IVD9.tsv
+tfs_download: TFLink_tfs_of_Q8IVD9.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

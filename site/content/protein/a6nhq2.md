@@ -211,7 +211,7 @@ tfs: 'HDAC2,Q92769,3066,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%
 
   TFAP2A,P05549,7020,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_A6NHQ2.tsv
+tfs_download: TFLink_tfs_of_A6NHQ2.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

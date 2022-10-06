@@ -410,8 +410,8 @@ targets: '-,H7C469,-,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,
   STT3A,P46977,3703,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   BCL6,P41182,604,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q8TCN5.tsv
-targets_download: targets_of_Q8TCN5.tsv
+tfs_download: TFLink_tfs_of_Q8TCN5.tsv
+targets_download: TFLink_targets_of_Q8TCN5.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

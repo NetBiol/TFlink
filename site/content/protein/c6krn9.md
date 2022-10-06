@@ -84,7 +84,7 @@ tfs: 'cebp-1,Q18909,180481,GTRD,chromatin immunoprecipitation assay,27924024%5Bu
 
   cey-2,P91306,172219,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_C6KRN9.tsv
+tfs_download: TFLink_tfs_of_C6KRN9.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

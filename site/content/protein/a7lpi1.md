@@ -14,7 +14,7 @@ tfs: 'snpc-4,P91868,172711,GTRD,chromatin immunoprecipitation assay,27924024%5Bu
 
   xrn-2,Q9U299,175071,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_A7LPI1.tsv
+tfs_download: TFLink_tfs_of_A7LPI1.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

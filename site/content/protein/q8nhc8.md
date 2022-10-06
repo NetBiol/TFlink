@@ -32,7 +32,7 @@ tfs: 'ONECUT2,O95948,9480,GTRD,chromatin immunoprecipitation assay,27924024%5Bui
 
   TP73,O15350,7161,HTRI,chromatin immunoprecipitation array,22900683%5Buid%5D+OR+19558638%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8NHC8.tsv
+tfs_download: TFLink_tfs_of_Q8NHC8.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

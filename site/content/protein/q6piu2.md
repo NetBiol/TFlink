@@ -212,7 +212,7 @@ tfs: 'ORC2,Q13416,4999,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5
 
   ZNF574,Q6ZN55,64763,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q6PIU2.tsv
+tfs_download: TFLink_tfs_of_Q6PIU2.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

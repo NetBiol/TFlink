@@ -214,8 +214,8 @@ tfs: 'CREB1,P16220,1385,GTRD;ReMap;TRRUST,chromatin immunoprecipitation assay;in
 
   GFI1B,Q5VTD9,8328,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D+OR+27924024%5Buid%5D,No'
 targets: PPARGC1A,Q9UBK2,10891,TRRUST,inferred by curator,10893434%5Buid%5D+OR+29087512%5Buid%5D,Yes
-tfs_download: tfs_of_Q6UUV9.tsv
-targets_download: targets_of_Q6UUV9.tsv
+tfs_download: TFLink_tfs_of_Q6UUV9.tsv
+targets_download: TFLink_targets_of_Q6UUV9.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

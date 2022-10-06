@@ -210,7 +210,7 @@ tfs: 'LDB1,Q86U70,8861,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5
 
   EZH2,Q15910,2146,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q5JVG2.tsv
+tfs_download: TFLink_tfs_of_Q5JVG2.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

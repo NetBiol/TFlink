@@ -185,7 +185,7 @@ tfs: 'CNOT3,O75175,4849,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%
 
   CEBPA,P49715,1050,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8WXI3.tsv
+tfs_download: TFLink_tfs_of_Q8WXI3.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

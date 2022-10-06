@@ -212,7 +212,7 @@ tfs: 'Sall1,Q9ER74,-,TRRUST,inferred by curator,22768111%5Buid%5D+OR+29087512%5B
 
   Ssrp1,Q08943,20833,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q7TNC6.tsv
+tfs_download: TFLink_tfs_of_Q7TNC6.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

@@ -121,7 +121,7 @@ tfs: 'Pparg,P37238,19016,GTRD;TRRUST,chromatin immunoprecipitation assay;inferre
 
   Nr1d1,Q3UV55,217166,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8CGN5.tsv
+tfs_download: TFLink_tfs_of_Q8CGN5.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

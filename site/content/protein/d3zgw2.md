@@ -16,7 +16,7 @@ tfs: 'Satb1,Q5U2Y2,316164,GTRD,chromatin immunoprecipitation assay,27924024%5Bui
 
   Sp1,Q01714,24790,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_D3ZGW2.tsv
+tfs_download: TFLink_tfs_of_D3ZGW2.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

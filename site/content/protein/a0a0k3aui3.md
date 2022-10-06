@@ -210,7 +210,7 @@ tfs: 'duxl-1,P91547,173537,GTRD,chromatin immunoprecipitation assay,27924024%5Bu
 
   zip-2,Q21148,175240,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_A0A0K3AUI3.tsv
+tfs_download: TFLink_tfs_of_A0A0K3AUI3.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

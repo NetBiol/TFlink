@@ -213,7 +213,7 @@ tfs: 'KDM5B,Q9UGL1,10765,GTRD;IntAct_via_DoRothEA;ReMap,chromatin immunoprecipit
 
   EP400,Q96L91,57634,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q7LGC8.tsv
+tfs_download: TFLink_tfs_of_Q7LGC8.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

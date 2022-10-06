@@ -78,7 +78,7 @@ tfs: 'gmeb-1,O17208,182061,GTRD,chromatin immunoprecipitation assay,27924024%5Bu
 
   lir-3,O17862,174707,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9BKR0.tsv
+tfs_download: TFLink_tfs_of_Q9BKR0.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

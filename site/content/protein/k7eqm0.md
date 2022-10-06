@@ -210,7 +210,7 @@ tfs: 'TAF3,Q5VWG9,83860,ReMap,chromatin immunoprecipitation assay,29126285%5Buid
 
   ZKSCAN1,P17029,7586,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_K7EQM0.tsv
+tfs_download: TFLink_tfs_of_K7EQM0.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

@@ -214,7 +214,7 @@ tfs: 'TAL1,P17542,6886,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5
 
   ZNF750,Q32MQ0,79755,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_A8MWE9.tsv
+tfs_download: TFLink_tfs_of_A8MWE9.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

@@ -210,7 +210,7 @@ tfs: 'ARRB1,P49407,408,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%
 
   LARP7,Q4G0J3,51574,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9UBQ0.tsv
+tfs_download: TFLink_tfs_of_Q9UBQ0.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

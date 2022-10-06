@@ -272,8 +272,8 @@ targets: '-,O61757,186366,GTRD,chromatin immunoprecipitation assay,27924024%5Bui
   rab-14,Q93874,181649,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   -,Q18134,182856,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_G5EFJ4.tsv
-targets_download: targets_of_G5EFJ4.tsv
+tfs_download: TFLink_tfs_of_G5EFJ4.tsv
+targets_download: TFLink_targets_of_G5EFJ4.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

@@ -212,7 +212,7 @@ tfs: 'HMGN3,Q15651,9324,ReMap,chromatin immunoprecipitation assay,29126285%5Buid
 
   PATZ1,Q9HBE1,23598,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q6ZSZ5.tsv
+tfs_download: TFLink_tfs_of_Q6ZSZ5.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

@@ -210,7 +210,7 @@ tfs: 'Kmt2b,O08550,75410,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
 
   Batf,O35284,53314,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9CZL5.tsv
+tfs_download: TFLink_tfs_of_Q9CZL5.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

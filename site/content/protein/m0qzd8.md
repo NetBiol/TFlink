@@ -210,7 +210,7 @@ tfs: 'CSHL1,Q14406,1444,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%
 
   NCOR1,O75376,9611,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_M0QZD8.tsv
+tfs_download: TFLink_tfs_of_M0QZD8.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

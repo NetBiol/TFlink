@@ -16,7 +16,7 @@ tfs: 'mdt-15,Q21955,175817,GTRD,chromatin immunoprecipitation assay,27924024%5Bu
 
   daf-16,O16850,172981,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_A0A0M7REQ4.tsv
+tfs_download: TFLink_tfs_of_A0A0M7REQ4.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

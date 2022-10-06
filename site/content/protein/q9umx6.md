@@ -139,7 +139,7 @@ tfs: 'BRD4,O60885,23476,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%
 
   RUNX1,Q01196,861,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9UMX6.tsv
+tfs_download: TFLink_tfs_of_Q9UMX6.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

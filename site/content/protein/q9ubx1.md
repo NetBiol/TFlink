@@ -212,7 +212,7 @@ tfs: 'MYC,P01106,4609,GTRD;HTRI;ReMap;TRED,chromatin immunoprecipitation assay;i
 
   KDM5D,Q9BY66,8284,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9UBX1.tsv
+tfs_download: TFLink_tfs_of_Q9UBX1.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

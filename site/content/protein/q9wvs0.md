@@ -180,7 +180,7 @@ tfs: 'Nfatc2,Q60591,18019,TRRUST,inferred by curator,17986443%5Buid%5D+OR+290875
 
   Gps2,Q921N8,56310,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9WVS0.tsv
+tfs_download: TFLink_tfs_of_Q9WVS0.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

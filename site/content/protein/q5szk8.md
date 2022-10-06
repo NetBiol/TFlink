@@ -214,7 +214,7 @@ tfs: 'TFAP2C,Q92754,7022,GTRD;HTRI;IntAct_via_DoRothEA;PAZAR;ReMap,chromatin imm
 
   OTX2,P32243,5015,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q5SZK8.tsv
+tfs_download: TFLink_tfs_of_Q5SZK8.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

@@ -210,7 +210,7 @@ tfs: 'FOXK1,P85037,221937,GTRD,chromatin immunoprecipitation assay,27924024%5Bui
 
   ZNF614,Q8N883,80110,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_H3BUV5.tsv
+tfs_download: TFLink_tfs_of_H3BUV5.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

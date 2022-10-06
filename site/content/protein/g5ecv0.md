@@ -50,7 +50,7 @@ tfs: 'ceh-82,O16748,185766,GTRD,chromatin immunoprecipitation assay,27924024%5Bu
 
   sdc-3,P34706,180009,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_G5ECV0.tsv
+tfs_download: TFLink_tfs_of_G5ECV0.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

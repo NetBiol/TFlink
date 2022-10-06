@@ -210,7 +210,7 @@ tfs: 'Max,P28574,17187,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5
 
   Twist2,Q9D030,13345,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_H3BKF4.tsv
+tfs_download: TFLink_tfs_of_H3BKF4.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

@@ -213,7 +213,7 @@ tfs: 'IRF1,P10914,3659,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%
 
   EED,O75530,8726,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q7LBE3.tsv
+tfs_download: TFLink_tfs_of_Q7LBE3.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

@@ -92,7 +92,7 @@ tfs: 'MBD4,O95243,8930,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5
 
   SUZ12,Q15022,23512,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_A0A1B0GVH6.tsv
+tfs_download: TFLink_tfs_of_A0A1B0GVH6.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

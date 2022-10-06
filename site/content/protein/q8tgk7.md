@@ -62,7 +62,7 @@ tfs: 'GAL11,P19659,854106,GTRD,chromatin immunoprecipitation assay,27924024%5Bui
 
   MED7,Q08278,853985,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8TGK7.tsv
+tfs_download: TFLink_tfs_of_Q8TGK7.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

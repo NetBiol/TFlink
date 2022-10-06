@@ -212,7 +212,7 @@ tfs: 'CDK7,P50613,1022,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%
 
   KDM6B,O15054,23135,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_A6NJG2.tsv
+tfs_download: TFLink_tfs_of_A6NJG2.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

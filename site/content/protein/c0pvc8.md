@@ -34,7 +34,7 @@ tfs: 'fs(1)h,P13709,31722,GTRD,chromatin immunoprecipitation assay,27924024%5Bui
 
   mod(mdg4),Q86B87,49228,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_C0PVC8.tsv
+tfs_download: TFLink_tfs_of_C0PVC8.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

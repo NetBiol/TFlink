@@ -42,7 +42,7 @@ tfs: 'TP63,Q9H3D4,8626,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5
 
   TRIM28,Q13263,10155,ORegAnno;PAZAR,inferred by curator,18971253%5Buid%5D+OR+26578589%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8NHV9.tsv
+tfs_download: TFLink_tfs_of_Q8NHV9.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

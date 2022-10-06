@@ -210,7 +210,7 @@ tfs: 'Foxp1,P58462,108655,GTRD,chromatin immunoprecipitation assay,27924024%5Bui
 
   Tbr1,Q64336,21375,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8CBG9.tsv
+tfs_download: TFLink_tfs_of_Q8CBG9.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

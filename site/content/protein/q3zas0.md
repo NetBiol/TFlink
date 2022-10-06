@@ -212,7 +212,7 @@ tfs: 'Sp1,O89090,20683,TRRUST,inferred by curator,29087512%5Buid%5D+OR+11287330%
 
   Ino80,Q6ZPV2,68142,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q3ZAS0.tsv
+tfs_download: TFLink_tfs_of_Q3ZAS0.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

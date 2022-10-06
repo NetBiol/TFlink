@@ -210,7 +210,7 @@ tfs: 'Ubtf,P25976,-,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,N
 
   Gata1,P17679,14460,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_D3YZB0.tsv
+tfs_download: TFLink_tfs_of_D3YZB0.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

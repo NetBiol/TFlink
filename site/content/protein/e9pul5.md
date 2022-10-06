@@ -211,7 +211,7 @@ tfs: 'Tfap4,Q9JIZ5,83383,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
 
   Tbp,P29037,21374,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_E9PUL5.tsv
+tfs_download: TFLink_tfs_of_E9PUL5.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

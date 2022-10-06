@@ -213,7 +213,7 @@ tfs: 'NCOA1,Q15788,8648,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%
 
   ZNF391,Q9UJN7,346157,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9UKB1.tsv
+tfs_download: TFLink_tfs_of_Q9UKB1.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

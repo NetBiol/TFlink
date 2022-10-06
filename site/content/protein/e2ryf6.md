@@ -310,8 +310,8 @@ targets: 'PLIN3,O60664,10226,GTRD,chromatin immunoprecipitation assay,27924024%5
   IP6K3,Q96PC2,117283,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   DNAJB11,Q9UBS4,51726,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_E2RYF6.tsv
-targets_download: targets_of_E2RYF6.tsv
+tfs_download: TFLink_tfs_of_E2RYF6.tsv
+targets_download: TFLink_targets_of_E2RYF6.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

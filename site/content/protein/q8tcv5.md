@@ -153,7 +153,7 @@ tfs: 'RELA,Q04206,5970,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5
 
   PTBP1,P26599,5725,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8TCV5.tsv
+tfs_download: TFLink_tfs_of_Q8TCV5.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

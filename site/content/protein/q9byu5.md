@@ -101,7 +101,7 @@ tfs: 'AR,P10275,367,GTRD;HTRI,chromatin immunoprecipitation array;chromatin immu
 
   FOXA2,Q9Y261,3170,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D+OR+27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9BYU5.tsv
+tfs_download: TFLink_tfs_of_Q9BYU5.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

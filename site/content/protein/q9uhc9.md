@@ -214,7 +214,7 @@ tfs: 'SREBF2,Q12772,6721,GTRD;HTRI;ReMap;TFactS_via_DoRothea;TRRUST,chromatin im
 
   ETV2,O00321,2116,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9UHC9.tsv
+tfs_download: TFLink_tfs_of_Q9UHC9.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

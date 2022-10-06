@@ -22,7 +22,7 @@ tfs: 'Nanog,Q80Z64,71950,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
 
   Notch1,Q01705,18128,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_B1AQP7.tsv
+tfs_download: TFLink_tfs_of_B1AQP7.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

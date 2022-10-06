@@ -212,7 +212,7 @@ tfs: 'TFAP4,Q01664,7023,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%
 
   OCA2,Q04671,4948,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9ULD0.tsv
+tfs_download: TFLink_tfs_of_Q9ULD0.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

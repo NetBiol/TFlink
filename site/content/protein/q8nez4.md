@@ -411,8 +411,8 @@ targets: 'HOXC6,P09630,3223,GTRD;TRRUST,chromatin immunoprecipitation assay;infe
   FAAH,O00519,2166,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   PPP1R12B,O60237,4660,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q8NEZ4.tsv
-targets_download: targets_of_Q8NEZ4.tsv
+tfs_download: TFLink_tfs_of_Q8NEZ4.tsv
+targets_download: TFLink_targets_of_Q8NEZ4.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

@@ -213,7 +213,7 @@ tfs: 'PAX1,P15863,5075,TRED,inferred by curator,17202159%5Buid%5D,Yes
 
   ASCL1,P50553,429,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D+OR+27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8TCC7.tsv
+tfs_download: TFLink_tfs_of_Q8TCC7.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

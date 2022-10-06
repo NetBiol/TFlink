@@ -213,7 +213,7 @@ tfs: 'MBTPS2,O43462,51360,GTRD,chromatin immunoprecipitation assay,27924024%5Bui
 
   TBP,P20226,6908,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_A0A0A6YYL4.tsv
+tfs_download: TFLink_tfs_of_A0A0A6YYL4.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

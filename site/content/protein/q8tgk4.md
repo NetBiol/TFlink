@@ -28,7 +28,7 @@ tfs: 'MSN4,P33749,853803,Yeastract,chromatin immunoprecipitation assay,28949295%
 
   MSN2,P33748,855053,Yeastract,chromatin immunoprecipitation assay,28949295%5Buid%5D+OR+24170807%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8TGK4.tsv
+tfs_download: TFLink_tfs_of_Q8TGK4.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

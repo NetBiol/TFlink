@@ -218,7 +218,7 @@ tfs: 'E2F8,A0AVK6,79733,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%
 
   CEBPD,P49716,1052,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8IYB7.tsv
+tfs_download: TFLink_tfs_of_Q8IYB7.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

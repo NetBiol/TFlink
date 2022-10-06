@@ -210,7 +210,7 @@ tfs: 'Pax6,P63015,18508,TRRUST,inferred by curator,29087512%5Buid%5D+OR+19132093
 
   Meis1,Q60954,17268,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8BPP1.tsv
+tfs_download: TFLink_tfs_of_Q8BPP1.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

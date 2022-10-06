@@ -151,7 +151,7 @@ tfs: 'NR4A1,P22736,3164,ReMap,chromatin immunoprecipitation assay,29126285%5Buid
 
   STAT1,P42224,6772,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D+OR+27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9NZC2.tsv
+tfs_download: TFLink_tfs_of_Q9NZC2.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

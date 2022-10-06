@@ -410,8 +410,8 @@ targets: 'Ank1,Q02357,11733,GTRD,chromatin immunoprecipitation assay,27924024%5B
   Thap4,Q6P3Z3,67026,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   Pcdh8,Q7TSK3,18530,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q3UNW5.tsv
-targets_download: targets_of_Q3UNW5.tsv
+tfs_download: TFLink_tfs_of_Q3UNW5.tsv
+targets_download: TFLink_targets_of_Q3UNW5.tsv
 bindingSites_download: ''
 binding_sites_ls: Q3UNW5_HT.fasta
 

@@ -93,7 +93,7 @@ tfs: 'CHD7,Q9P2D1,55636,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%
 
   MITF,O75030,4286,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_A6NLX3.tsv
+tfs_download: TFLink_tfs_of_A6NLX3.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

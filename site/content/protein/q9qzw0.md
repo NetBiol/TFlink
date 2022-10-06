@@ -211,7 +211,7 @@ tfs: 'Pou2f1,P25425,18986,GTRD;TRRUST,chromatin immunoprecipitation assay;inferr
 
   Esr1,P19785,13982,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9QZW0.tsv
+tfs_download: TFLink_tfs_of_Q9QZW0.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

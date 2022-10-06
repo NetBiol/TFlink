@@ -84,7 +84,7 @@ tfs: 'NfI,Q86P06,43782,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5
 
   AGO2,Q9VUQ5,39683,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9VAY6.tsv
+tfs_download: TFLink_tfs_of_Q9VAY6.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

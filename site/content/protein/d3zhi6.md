@@ -14,7 +14,7 @@ tfs: 'Sp1,Q01714,24790,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5
 
   Pgr,Q63449,25154,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_D3ZHI6.tsv
+tfs_download: TFLink_tfs_of_D3ZHI6.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

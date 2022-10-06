@@ -215,8 +215,8 @@ targets: 'Mfn2,Q80U63,170731,TRRUST,inferred by curator,18974884%5Buid%5D+OR+290
   Esrra,O08580,26379,TRRUST,inferred by curator,17141629%5Buid%5D+OR+29087512%5Buid%5D,Yes
 
   Foxa2,P35583,15376,TRRUST,inferred by curator,29087512%5Buid%5D+OR+16459311%5Buid%5D,Yes'
-tfs_download: tfs_of_Q8VHJ7.tsv
-targets_download: targets_of_Q8VHJ7.tsv
+tfs_download: TFLink_tfs_of_Q8VHJ7.tsv
+targets_download: TFLink_targets_of_Q8VHJ7.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

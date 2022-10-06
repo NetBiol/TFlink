@@ -115,7 +115,7 @@ tfs: 'CDK9,P50750,1025,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5
 
   RBM25,P49756,58517,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_B3EWG6.tsv
+tfs_download: TFLink_tfs_of_B3EWG6.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

@@ -211,7 +211,7 @@ tfs: 'AR,P10275,367,GTRD;HTRI;ReMap,chromatin immunoprecipitation array;chromati
 
   CXXC4,Q9H2H0,-,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9UBQ6.tsv
+tfs_download: TFLink_tfs_of_Q9UBQ6.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

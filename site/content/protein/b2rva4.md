@@ -120,7 +120,7 @@ tfs: 'Leo1,Q5XJE5,235497,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
 
   Anpep,P97449,16790,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_B2RVA4.tsv
+tfs_download: TFLink_tfs_of_B2RVA4.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

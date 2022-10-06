@@ -210,7 +210,7 @@ tfs: 'DDX5,P17844,1655,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%
 
   OTX2,P32243,5015,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_A0A1B0GVN3.tsv
+tfs_download: TFLink_tfs_of_A0A1B0GVN3.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

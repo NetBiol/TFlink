@@ -36,7 +36,7 @@ tfs: 'Ldb1,P70662,16825,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%
 
   Elk1,P41969,13712,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q7TRJ1.tsv
+tfs_download: TFLink_tfs_of_Q7TRJ1.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

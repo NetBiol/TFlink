@@ -36,7 +36,7 @@ tfs: 'unc-62,Q9N5D6,178845,GTRD,chromatin immunoprecipitation assay,27924024%5Bu
 
   zip-2,Q21148,175240,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_H2KZK3.tsv
+tfs_download: TFLink_tfs_of_H2KZK3.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

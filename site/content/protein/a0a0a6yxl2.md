@@ -18,7 +18,7 @@ tfs: 'Gata2,O09100,14461,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
 
   Tet2,Q4JK59,214133,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_A0A0A6YXL2.tsv
+tfs_download: TFLink_tfs_of_A0A0A6YXL2.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

@@ -138,7 +138,7 @@ tfs: 'ESR1,P03372,2099,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5
 
   MAFB,Q9Y5Q3,9935,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q5VTU8.tsv
+tfs_download: TFLink_tfs_of_Q5VTU8.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

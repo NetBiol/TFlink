@@ -211,7 +211,7 @@ tfs: 'Dand5,Q76LW6,23863,TRRUST,inferred by curator,29087512%5Buid%5D+OR+2054099
 
   Klf5,Q9Z0Z7,12224,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9JKL5.tsv
+tfs_download: TFLink_tfs_of_Q9JKL5.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

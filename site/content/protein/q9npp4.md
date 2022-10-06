@@ -211,7 +211,7 @@ tfs: 'TP53,P04637,7157,DoRothEA;GTRD;TRED;TRRUST,chromatin immunoprecipitation a
 
   CREB1,P16220,1385,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9NPP4.tsv
+tfs_download: TFLink_tfs_of_Q9NPP4.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

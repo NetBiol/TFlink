@@ -210,7 +210,7 @@ tfs: 'Onecut2,Q6XBJ3,225631,GTRD,chromatin immunoprecipitation assay,27924024%5B
 
   Lmo2,P25801,16909,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_J3QPQ6.tsv
+tfs_download: TFLink_tfs_of_J3QPQ6.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

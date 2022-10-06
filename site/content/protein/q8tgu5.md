@@ -22,7 +22,7 @@ tfs: 'ECM5,Q03214,855214,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
 
   ISW2,Q08773,854480,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8TGU5.tsv
+tfs_download: TFLink_tfs_of_Q8TGU5.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

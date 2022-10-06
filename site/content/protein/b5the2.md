@@ -209,7 +209,7 @@ tfs: 'Cdx2,P43241,12591,GTRD;ORegAnno;PAZAR;TRRUST,chromatin immunoprecipitation
 
   Esr1,P19785,13982,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_B5THE2.tsv
+tfs_download: TFLink_tfs_of_B5THE2.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

@@ -217,7 +217,7 @@ tfs: 'HES1,Q14469,3280,TFactS_via_DoRothea,inferred by curator,22761861%5Buid%5D
 
   MXI1,P50539,4601,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9UQB3.tsv
+tfs_download: TFLink_tfs_of_Q9UQB3.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

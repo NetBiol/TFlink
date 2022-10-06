@@ -136,7 +136,7 @@ tfs: 'bigmax,Q9VB47,43293,GTRD,chromatin immunoprecipitation assay,27924024%5Bui
 
   Kr,P07247,38012,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_M9PEI6.tsv
+tfs_download: TFLink_tfs_of_M9PEI6.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

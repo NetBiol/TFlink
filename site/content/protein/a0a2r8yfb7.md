@@ -210,7 +210,7 @@ tfs: 'DIDO1,Q9BTC0,11083,ReMap,chromatin immunoprecipitation assay,29126285%5Bui
 
   MYC,P01106,4609,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_A0A2R8YFB7.tsv
+tfs_download: TFLink_tfs_of_A0A2R8YFB7.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

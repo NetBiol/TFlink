@@ -18,7 +18,7 @@ tfs: 'YBX1,P67809,4904,HTRI,chromatin immunoprecipitation assay,19151767%5Buid%5
 
   RELB,Q01201,5971,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q6IEZ7.tsv
+tfs_download: TFLink_tfs_of_Q6IEZ7.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

@@ -210,7 +210,7 @@ tfs: 'Klf3,Q60980,16599,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%
 
   Jarid2,Q62315,16468,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q7TNU7.tsv
+tfs_download: TFLink_tfs_of_Q7TNU7.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

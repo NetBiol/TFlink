@@ -348,8 +348,8 @@ targets: 'pde-12,O18005,176514,GTRD,chromatin immunoprecipitation assay,27924024
   -,Q23145,174835,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   ubl-1,P37165,175413,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_G5ECU7.tsv
-targets_download: targets_of_G5ECU7.tsv
+tfs_download: TFLink_tfs_of_G5ECU7.tsv
+targets_download: TFLink_targets_of_G5ECU7.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

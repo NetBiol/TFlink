@@ -210,7 +210,7 @@ tfs: 'ZNF24,P17028,7572,ReMap,chromatin immunoprecipitation assay,29126285%5Buid
 
   FXR2,P51116,9513,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_A0A0A6YYG9.tsv
+tfs_download: TFLink_tfs_of_A0A0A6YYG9.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

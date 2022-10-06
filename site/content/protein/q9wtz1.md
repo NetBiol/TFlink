@@ -210,7 +210,7 @@ tfs: 'Nrl,P54846,18185,TRRUST,inferred by curator,10336455%5Buid%5D+OR+29087512%
 
   Med1,Q925J9,19014,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9WTZ1.tsv
+tfs_download: TFLink_tfs_of_Q9WTZ1.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

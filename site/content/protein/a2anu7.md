@@ -211,7 +211,7 @@ tfs: 'Ascl2,O35885,17173,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
 
   Suz12,Q80U70,52615,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_A2ANU7.tsv
+tfs_download: TFLink_tfs_of_A2ANU7.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

@@ -264,8 +264,8 @@ targets: 'PAXBP1,Q9Y5B6,94104,GTRD,chromatin immunoprecipitation assay,27924024%
   PAPSS1,O43252,9061,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   IRGQ,Q8WZA9,126298,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q8TBZ5.tsv
-targets_download: targets_of_Q8TBZ5.tsv
+tfs_download: TFLink_tfs_of_Q8TBZ5.tsv
+targets_download: TFLink_targets_of_Q8TBZ5.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

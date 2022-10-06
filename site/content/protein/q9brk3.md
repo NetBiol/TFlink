@@ -213,7 +213,7 @@ tfs: 'PTBP1,P26599,5725,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%
 
   GATAD1,Q8WUU5,57798,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9BRK3.tsv
+tfs_download: TFLink_tfs_of_Q9BRK3.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

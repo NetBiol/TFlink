@@ -186,7 +186,7 @@ tfs: 'irx-1,Q93348,172789,GTRD,chromatin immunoprecipitation assay,27924024%5Bui
 
   elt-2,Q10655,181250,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_A0A0M7RED5.tsv
+tfs_download: TFLink_tfs_of_A0A0M7RED5.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

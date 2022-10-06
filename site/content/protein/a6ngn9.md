@@ -99,7 +99,7 @@ tfs: 'ZNF740,Q8NDX6,283337,GTRD;ReMap,chromatin immunoprecipitation assay,291262
 
   SUZ12,Q15022,23512,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_A6NGN9.tsv
+tfs_download: TFLink_tfs_of_A6NGN9.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

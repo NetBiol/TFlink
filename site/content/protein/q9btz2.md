@@ -214,7 +214,7 @@ tfs: 'AR,P10275,367,GTRD;ReMap;TRED,chromatin immunoprecipitation assay;inferred
 
   KDM4A,O75164,9682,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9BTZ2.tsv
+tfs_download: TFLink_tfs_of_Q9BTZ2.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

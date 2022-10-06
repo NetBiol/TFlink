@@ -239,8 +239,8 @@ targets: 'CYP7A1,P22680,1581,TRRUST,inferred by curator,29087512%5Buid%5D+OR+176
   ACTN4,O43707,81,TRRUST,inferred by curator,29087512%5Buid%5D+OR+16980305%5Buid%5D,Yes
 
   NR4A1,P22736,3164,TRRUST,inferred by curator,15623513%5Buid%5D+OR+29087512%5Buid%5D,Yes'
-tfs_download: tfs_of_Q8WUI4.tsv
-targets_download: targets_of_Q8WUI4.tsv
+tfs_download: TFLink_tfs_of_Q8WUI4.tsv
+targets_download: TFLink_targets_of_Q8WUI4.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

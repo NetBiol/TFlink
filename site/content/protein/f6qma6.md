@@ -137,7 +137,7 @@ tfs: 'Hnf1a,P22361,21405,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
 
   Sox2,P48432,20674,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_F6QMA6.tsv
+tfs_download: TFLink_tfs_of_F6QMA6.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

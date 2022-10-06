@@ -185,7 +185,7 @@ tfs: 'DUX4,Q9UBX2,100288687,GTRD,chromatin immunoprecipitation assay,27924024%5B
 
   NFIC,P08651,4782,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D+OR+27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_A6NMT0.tsv
+tfs_download: TFLink_tfs_of_A6NMT0.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

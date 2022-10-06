@@ -214,8 +214,8 @@ targets: 'dpy-23,P35603,180713,GTRD,chromatin immunoprecipitation assay,27924024
   rpb-6,Q17684,174630,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   emb-4,Q9U1Q7,180232,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_G5ECN8.tsv
-targets_download: targets_of_G5ECN8.tsv
+tfs_download: TFLink_tfs_of_G5ECN8.tsv
+targets_download: TFLink_targets_of_G5ECN8.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

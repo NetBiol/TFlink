@@ -213,7 +213,7 @@ tfs: 'KDM5B,Q9UGL1,10765,GTRD;IntAct_via_DoRothEA;ReMap,chromatin immunoprecipit
 
   PIAS1,O75925,8554,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q6NXG1.tsv
+tfs_download: TFLink_tfs_of_Q6NXG1.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

@@ -210,7 +210,7 @@ tfs: 'Znf281,Q99LI5,226442,GTRD,chromatin immunoprecipitation assay,27924024%5Bu
 
   Tfap4,Q9JIZ5,83383,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9DCL4.tsv
+tfs_download: TFLink_tfs_of_Q9DCL4.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

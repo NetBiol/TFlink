@@ -408,8 +408,8 @@ targets: 'Frmd4a,Q8BIE6,209630,GTRD,chromatin immunoprecipitation assay,27924024
   Rab3b,Q9CZT8,69908,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   Iffo1,Q8BXL9,320678,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q8VCY6.tsv
-targets_download: targets_of_Q8VCY6.tsv
+tfs_download: TFLink_tfs_of_Q8VCY6.tsv
+targets_download: TFLink_targets_of_Q8VCY6.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

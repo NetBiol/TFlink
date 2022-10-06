@@ -213,7 +213,7 @@ tfs: 'BRPF3,Q9ULD4,27154,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
 
   SUPT5H,O00267,6829,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9HAT8.tsv
+tfs_download: TFLink_tfs_of_Q9HAT8.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

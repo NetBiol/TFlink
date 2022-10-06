@@ -60,7 +60,7 @@ tfs: 'RAD21,O60216,5885,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%
 
   PGR,P06401,5241,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q5TYW2.tsv
+tfs_download: TFLink_tfs_of_Q5TYW2.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

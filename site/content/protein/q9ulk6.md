@@ -212,7 +212,7 @@ tfs: 'KLF16,Q9BXK1,83855,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
 
   MEF2B,Q02080,100271849;4207,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9ULK6.tsv
+tfs_download: TFLink_tfs_of_Q9ULK6.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

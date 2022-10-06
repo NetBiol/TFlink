@@ -210,7 +210,7 @@ tfs: 'Ing1,Q9QXV3,26356,TRRUST,inferred by curator,20179197%5Buid%5D+OR+29087512
 
   Cebpa,P53566,12606,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9EQM6.tsv
+tfs_download: TFLink_tfs_of_Q9EQM6.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

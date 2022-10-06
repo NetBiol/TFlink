@@ -211,7 +211,7 @@ tfs: 'ZNF395,Q9H8N7,55893,GTRD,chromatin immunoprecipitation assay,27924024%5Bui
 
   SRCAP,Q6ZRS2,10847,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9GZS3.tsv
+tfs_download: TFLink_tfs_of_Q9GZS3.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

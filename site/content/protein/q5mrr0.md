@@ -22,7 +22,7 @@ tfs: 'Tbp,P20227,37476,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5
 
   Top3beta,O96651,31565,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q5MRR0.tsv
+tfs_download: TFLink_tfs_of_Q5MRR0.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

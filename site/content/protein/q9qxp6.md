@@ -210,7 +210,7 @@ tfs: 'Tbpl1,P62340,237336,GTRD,chromatin immunoprecipitation assay,27924024%5Bui
 
   Tp63,O88898,22061,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9QXP6.tsv
+tfs_download: TFLink_tfs_of_Q9QXP6.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

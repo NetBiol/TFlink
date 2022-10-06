@@ -126,7 +126,7 @@ tfs: 'POU5F1,Q01860,5460,ReMap,chromatin immunoprecipitation assay,29126285%5Bui
 
   GATA1,P15976,2623,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D+OR+27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_A0A1B0GWG4.tsv
+tfs_download: TFLink_tfs_of_A0A1B0GWG4.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

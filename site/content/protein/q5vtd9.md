@@ -413,8 +413,8 @@ targets: 'MEF2C,Q06413,4208,ReMap;TRRUST,inferred by curator,29126285%5Buid%5D+O
   RSBN1L,Q6PCB5,222194,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No
 
   -,K7EIP6,-,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No'
-tfs_download: tfs_of_Q5VTD9.tsv
-targets_download: targets_of_Q5VTD9.tsv
+tfs_download: TFLink_tfs_of_Q5VTD9.tsv
+targets_download: TFLink_targets_of_Q5VTD9.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

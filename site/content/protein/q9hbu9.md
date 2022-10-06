@@ -214,7 +214,7 @@ tfs: 'MAZ,P56270,4150,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D
 
   RCOR1,Q9UKL0,23186,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D+OR+27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9HBU9.tsv
+tfs_download: TFLink_tfs_of_Q9HBU9.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

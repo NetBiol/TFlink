@@ -409,8 +409,8 @@ targets: 'Slc44a5,Q5RJI2,242259,GTRD,chromatin immunoprecipitation assay,2792402
   Tbc1d22b,Q80VE5,381085,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   Tpt1,P63028,22070,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q3URK3.tsv
-targets_download: targets_of_Q3URK3.tsv
+tfs_download: TFLink_tfs_of_Q3URK3.tsv
+targets_download: TFLink_targets_of_Q3URK3.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

@@ -212,7 +212,7 @@ tfs: 'ETS1,P14921,2113,TRED,inferred by curator,17202159%5Buid%5D,Yes
 
   GTF2B,Q00403,2959,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9NNX6.tsv
+tfs_download: TFLink_tfs_of_Q9NNX6.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

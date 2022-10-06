@@ -212,7 +212,7 @@ tfs: 'ETS1,P14921,2113,GTRD;HTRI;ReMap,chromatin immunoprecipitation assay,29126
 
   FOXP1,Q9H334,27086,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D+OR+27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8NAB2.tsv
+tfs_download: TFLink_tfs_of_Q8NAB2.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

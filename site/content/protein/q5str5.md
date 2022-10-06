@@ -26,7 +26,7 @@ tfs: 'GATA3,P23771,2625,ReMap,chromatin immunoprecipitation assay,29126285%5Buid
 
   FOS,P01100,2353,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q5STR5.tsv
+tfs_download: TFLink_tfs_of_Q5STR5.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

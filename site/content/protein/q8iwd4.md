@@ -211,7 +211,7 @@ tfs: 'BRIP1,Q9BX63,83990,ReMap,chromatin immunoprecipitation assay,29126285%5Bui
 
   PRKDC,P78527,5591,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8IWD4.tsv
+tfs_download: TFLink_tfs_of_Q8IWD4.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

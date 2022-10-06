@@ -180,7 +180,7 @@ tfs: 'CNOT3,O75175,4849,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%
 
   CEBPA,P49715,1050,ORegAnno;PAZAR,inferred by curator,18971253%5Buid%5D+OR+26578589%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9BZZ2.tsv
+tfs_download: TFLink_tfs_of_Q9BZZ2.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

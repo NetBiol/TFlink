@@ -210,7 +210,7 @@ tfs: 'Ikbkb,O88351,16150,TRRUST,inferred by curator,29087512%5Buid%5D+OR+1943358
 
   Gata3,P23772,14462,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8BSK8.tsv
+tfs_download: TFLink_tfs_of_Q8BSK8.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

@@ -210,7 +210,7 @@ tfs: 'Hes5,P70120,15208,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%
 
   Nanog,Q80Z64,71950,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9WVM1.tsv
+tfs_download: TFLink_tfs_of_Q9WVM1.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

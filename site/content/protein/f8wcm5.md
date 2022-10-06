@@ -161,7 +161,7 @@ tfs: 'HNF1A,P20823,6927,ORegAnno,inferred by curator,15933209%5Buid%5D+OR+265785
 
   HSF1,Q00613,3297,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_F8WCM5.tsv
+tfs_download: TFLink_tfs_of_F8WCM5.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

@@ -215,8 +215,8 @@ targets: 'CCL2,P13500,6347,TRRUST,inferred by curator,29087512%5Buid%5D+OR+19426
   PRL,P01236,5617,TRRUST,inferred by curator,20411477%5Buid%5D+OR+29087512%5Buid%5D,Yes
 
   PBX1,P40424,5087,TRRUST,inferred by curator,20411477%5Buid%5D+OR+29087512%5Buid%5D,Yes'
-tfs_download: tfs_of_Q9HCU5.tsv
-targets_download: targets_of_Q9HCU5.tsv
+tfs_download: TFLink_tfs_of_Q9HCU5.tsv
+targets_download: TFLink_targets_of_Q9HCU5.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

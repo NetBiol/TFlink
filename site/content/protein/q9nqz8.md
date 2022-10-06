@@ -210,7 +210,7 @@ tfs: 'PRDM9,Q9NQV7,56979,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
 
   CDKN1B,P46527,1027,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9NQZ8.tsv
+tfs_download: TFLink_tfs_of_Q9NQZ8.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

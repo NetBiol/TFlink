@@ -212,7 +212,7 @@ tfs: 'Nfkb1,P25799,18033,GTRD;TRED,chromatin immunoprecipitation assay;inferred 
 
   Mtf2,Q02395,17765,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8CFA1.tsv
+tfs_download: TFLink_tfs_of_Q8CFA1.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

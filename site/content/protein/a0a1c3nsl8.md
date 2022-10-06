@@ -46,7 +46,7 @@ tfs: 'ces-1,G5ECN8,185718,GTRD,chromatin immunoprecipitation assay,27924024%5Bui
 
   unc-55,G5ECR9,192082,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_A0A1C3NSL8.tsv
+tfs_download: TFLink_tfs_of_A0A1C3NSL8.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

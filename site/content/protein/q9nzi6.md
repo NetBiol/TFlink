@@ -212,8 +212,8 @@ tfs: 'POU5F1,Q01860,5460,GTRD;ReMap,chromatin immunoprecipitation assay,29126285
 
   NFYA,P23511,4800,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: CYP11A1,P05108,1583,TRRUST,inferred by curator,18004979%5Buid%5D+OR+29087512%5Buid%5D,Yes
-tfs_download: tfs_of_Q9NZI6.tsv
-targets_download: targets_of_Q9NZI6.tsv
+tfs_download: TFLink_tfs_of_Q9NZI6.tsv
+targets_download: TFLink_targets_of_Q9NZI6.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

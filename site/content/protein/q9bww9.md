@@ -41,7 +41,7 @@ tfs: 'ZNF22,P17026,7570,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%
 
   FOXA2,Q9Y261,3170,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9BWW9.tsv
+tfs_download: TFLink_tfs_of_Q9BWW9.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

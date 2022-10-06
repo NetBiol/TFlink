@@ -214,7 +214,7 @@ tfs: 'NFE2L2,Q16236,4780,ReMap,chromatin immunoprecipitation assay,29126285%5Bui
 
   OTX2,P32243,5015,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q2TBE0.tsv
+tfs_download: TFLink_tfs_of_Q2TBE0.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

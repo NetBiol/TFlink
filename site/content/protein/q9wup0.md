@@ -210,7 +210,7 @@ tfs: 'Tp53,P02340,22059,TRED,inferred by curator,17202159%5Buid%5D,Yes
 
   Tbx21,Q9JKD8,57765,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9WUP0.tsv
+tfs_download: TFLink_tfs_of_Q9WUP0.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

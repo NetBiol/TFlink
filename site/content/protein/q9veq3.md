@@ -42,7 +42,7 @@ tfs: 'gcm2,Q9VLA2,34280,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%
 
   Hmr,Q86CW5,31988,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9VEQ3.tsv
+tfs_download: TFLink_tfs_of_Q9VEQ3.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

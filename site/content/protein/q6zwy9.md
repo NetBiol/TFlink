@@ -210,7 +210,7 @@ tfs: 'Thap1,Q8CHW1,73754,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
 
   Sumo1,P63166,22218,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q6ZWY9.tsv
+tfs_download: TFLink_tfs_of_Q6ZWY9.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

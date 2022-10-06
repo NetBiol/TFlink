@@ -132,7 +132,7 @@ tfs: 'eor-1,G5EDU4,-,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,
 
   fkh-10,O17593,182874,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8MQE8.tsv
+tfs_download: TFLink_tfs_of_Q8MQE8.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

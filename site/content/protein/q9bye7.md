@@ -350,8 +350,8 @@ targets: 'RPA2,P15927,6118,GTRD,chromatin immunoprecipitation assay,27924024%5Bu
   HIDE1,A8MVS5,255809,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   DHX40,Q8IX18,79665,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q9BYE7.tsv
-targets_download: targets_of_Q9BYE7.tsv
+tfs_download: TFLink_tfs_of_Q9BYE7.tsv
+targets_download: TFLink_targets_of_Q9BYE7.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

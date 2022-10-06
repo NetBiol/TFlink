@@ -40,8 +40,8 @@ targets: 'px-RC,A8DYM3,-,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
   RpS3A,P55830,43768,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   Eph-RC,E3CTS8,-,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q9VUB3.tsv
-targets_download: targets_of_Q9VUB3.tsv
+tfs_download: TFLink_tfs_of_Q9VUB3.tsv
+targets_download: TFLink_targets_of_Q9VUB3.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

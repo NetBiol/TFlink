@@ -409,8 +409,8 @@ targets: 'FABP4,P15090,2167,TRRUST,inferred by curator,21047783%5Buid%5D+OR+2908
   MRPS16,Q9Y3D3,51021,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No
 
   MICOS10,Q5TGZ0,440574,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No'
-tfs_download: tfs_of_Q8IXJ9.tsv
-targets_download: targets_of_Q8IXJ9.tsv
+tfs_download: TFLink_tfs_of_Q8IXJ9.tsv
+targets_download: TFLink_targets_of_Q8IXJ9.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

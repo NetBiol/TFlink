@@ -214,7 +214,7 @@ tfs: 'IKZF1,Q13422,10320,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
 
   BATF,Q16520,10538,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q5VUG0.tsv
+tfs_download: TFLink_tfs_of_Q5VUG0.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

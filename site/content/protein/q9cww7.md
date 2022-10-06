@@ -409,8 +409,8 @@ targets: 'Mpv17l2,Q8VIK2,234384,GTRD,chromatin immunoprecipitation assay,2792402
   Mib1,Q80SY4,225164,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   Nav2,V9GX91,78286,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q9CWW7.tsv
-targets_download: targets_of_Q9CWW7.tsv
+tfs_download: TFLink_tfs_of_Q9CWW7.tsv
+targets_download: TFLink_targets_of_Q9CWW7.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

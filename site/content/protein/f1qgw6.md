@@ -14,7 +14,7 @@ tfs: 'sox10,Q90XD1,140616,GTRD,chromatin immunoprecipitation assay,27924024%5Bui
 
   rad21a,Q6TEL1,322275,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_F1QGW6.tsv
+tfs_download: TFLink_tfs_of_F1QGW6.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

@@ -210,7 +210,7 @@ tfs: 'NOTCH1,P46531,4851,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
 
   NR3C1,P04150,2908,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9HBH7.tsv
+tfs_download: TFLink_tfs_of_Q9HBH7.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

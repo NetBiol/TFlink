@@ -215,7 +215,7 @@ tfs: 'TBX2,Q13207,6909,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5
 
   EP300,Q09472,2033,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D+OR+27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8IUR5.tsv
+tfs_download: TFLink_tfs_of_Q8IUR5.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

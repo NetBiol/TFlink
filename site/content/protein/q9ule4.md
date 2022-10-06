@@ -213,7 +213,7 @@ tfs: 'SRPK2,P78362,6733,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%
 
   TRIM24,O15164,8805,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9ULE4.tsv
+tfs_download: TFLink_tfs_of_Q9ULE4.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

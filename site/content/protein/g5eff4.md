@@ -212,7 +212,7 @@ targets: '-,Q21816,180861,GTRD,chromatin immunoprecipitation assay,27924024%5Bui
 
   -,Q09522,183993,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 tfs_download: ''
-targets_download: targets_of_G5EFF4.tsv
+targets_download: TFLink_targets_of_G5EFF4.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

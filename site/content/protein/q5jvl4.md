@@ -213,7 +213,7 @@ tfs: 'FOSL2,P15408,2355,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%
 
   ZNF639,Q9UID6,51193,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q5JVL4.tsv
+tfs_download: TFLink_tfs_of_Q5JVL4.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

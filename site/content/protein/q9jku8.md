@@ -213,7 +213,7 @@ tfs: 'Lbx1,P52955,16814,TRRUST,inferred by curator,12358782%5Buid%5D+OR+29087512
 
   Atoh1,P48985,11921,ORegAnno;PAZAR,inferred by curator,18971253%5Buid%5D+OR+26578589%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9JKU8.tsv
+tfs_download: TFLink_tfs_of_Q9JKU8.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

@@ -211,7 +211,7 @@ tfs: 'STAT5A,P42229,6776,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
 
   POU2F1,P14859,5451,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8NEM8.tsv
+tfs_download: TFLink_tfs_of_Q8NEM8.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

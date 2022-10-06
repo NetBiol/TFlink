@@ -210,7 +210,7 @@ tfs: 'POU2F1,P14859,5451,TRED,inferred by curator,17202159%5Buid%5D,Yes
 
   GTF3C2,Q8WUA4,2976,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D+OR+27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9GZT8.tsv
+tfs_download: TFLink_tfs_of_Q9GZT8.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

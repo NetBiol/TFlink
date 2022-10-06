@@ -32,7 +32,7 @@ tfs: 'nej,M9MS40,43856,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5
 
   CG32264-RB,D4G7A5,38438,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q6NMU0.tsv
+tfs_download: TFLink_tfs_of_Q6NMU0.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

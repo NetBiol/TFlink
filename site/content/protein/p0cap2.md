@@ -212,7 +212,7 @@ tfs: 'NBN,O60934,4683,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5
 
   CUX1,P39880,1523,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_P0CAP2.tsv
+tfs_download: TFLink_tfs_of_P0CAP2.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

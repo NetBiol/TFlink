@@ -52,7 +52,7 @@ tfs: 'egl-27,Q09228,174121,GTRD,chromatin immunoprecipitation assay,27924024%5Bu
 
   pha-4,Q17381,180357,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_G5EGN2.tsv
+tfs_download: TFLink_tfs_of_G5EGN2.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

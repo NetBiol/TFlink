@@ -409,8 +409,8 @@ targets: 'KRR1,Q13601,11103,GTRD,chromatin immunoprecipitation assay,27924024%5B
   SLC26A11,Q86WA9,284129,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   RPS26,P62854,6231,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q6AZW8.tsv
-targets_download: targets_of_Q6AZW8.tsv
+tfs_download: TFLink_tfs_of_Q6AZW8.tsv
+targets_download: TFLink_targets_of_Q6AZW8.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

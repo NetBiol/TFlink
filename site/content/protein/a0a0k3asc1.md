@@ -14,7 +14,7 @@ tfs: 'lin-15B,Q27395,181662,GTRD,chromatin immunoprecipitation assay,27924024%5B
 
   zip-8,P46505,175924,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_A0A0K3ASC1.tsv
+tfs_download: TFLink_tfs_of_A0A0K3ASC1.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

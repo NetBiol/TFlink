@@ -210,7 +210,7 @@ tfs: 'Med23,Q80YQ2,70208,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
 
   Ezh2,Q61188,14056,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_E9QAB5.tsv
+tfs_download: TFLink_tfs_of_E9QAB5.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

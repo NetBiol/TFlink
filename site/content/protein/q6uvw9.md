@@ -146,7 +146,7 @@ tfs: 'YBX1,P67809,4904,HTRI,chromatin immunoprecipitation assay,19151767%5Buid%5
 
   TP53,P04637,7157,ORegAnno;PAZAR,inferred by curator,18971253%5Buid%5D+OR+26578589%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q6UVW9.tsv
+tfs_download: TFLink_tfs_of_Q6UVW9.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

@@ -409,8 +409,8 @@ targets: 'Nsun3,Q8CCT7,106338,GTRD,chromatin immunoprecipitation assay,27924024%
   Thrb,P37242,21834,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   Wipf3,E9Q2D0,330319,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q5FWH3.tsv
-targets_download: targets_of_Q5FWH3.tsv
+tfs_download: TFLink_tfs_of_Q5FWH3.tsv
+targets_download: TFLink_targets_of_Q5FWH3.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

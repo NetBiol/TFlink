@@ -210,7 +210,7 @@ tfs: 'HNRNPLL,Q8WVV9,92906,GTRD,chromatin immunoprecipitation assay,27924024%5Bu
 
   NBN,O60934,4683,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9UJA5.tsv
+tfs_download: TFLink_tfs_of_Q9UJA5.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

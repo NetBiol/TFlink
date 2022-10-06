@@ -102,8 +102,8 @@ tfs: 'Dmel\CG7101,Q9VWP7,32875,GTRD,chromatin immunoprecipitation assay,27924024
 
   Dlip3,Q7JZD5,53579,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: Rlip,Q9VDG2,42484,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
-tfs_download: tfs_of_Q9VLA6.tsv
-targets_download: targets_of_Q9VLA6.tsv
+tfs_download: TFLink_tfs_of_Q9VLA6.tsv
+targets_download: TFLink_targets_of_Q9VLA6.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

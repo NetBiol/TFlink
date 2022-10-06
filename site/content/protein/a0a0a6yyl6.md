@@ -211,7 +211,7 @@ tfs: 'FOXO1,Q12778,2308,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%
 
   DDX20,Q9UHI6,11218,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_A0A0A6YYL6.tsv
+tfs_download: TFLink_tfs_of_A0A0A6YYL6.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

@@ -212,7 +212,7 @@ tfs: 'Zkscan1,Q8BGS3,74570,GTRD,chromatin immunoprecipitation assay,27924024%5Bu
 
   Stat6,P52633,20852,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8CID3.tsv
+tfs_download: TFLink_tfs_of_Q8CID3.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

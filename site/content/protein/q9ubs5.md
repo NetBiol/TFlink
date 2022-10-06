@@ -212,7 +212,7 @@ tfs: 'MXI1,P50539,4601,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5
 
   HIF3A,Q9Y2N7,64344,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9UBS5.tsv
+tfs_download: TFLink_tfs_of_Q9UBS5.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

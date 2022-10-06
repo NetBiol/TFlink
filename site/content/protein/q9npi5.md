@@ -210,7 +210,7 @@ tfs: 'NCOA2,Q15596,10499,ReMap,chromatin immunoprecipitation assay,29126285%5Bui
 
   PMEPA1,Q969W9,56937,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9NPI5.tsv
+tfs_download: TFLink_tfs_of_Q9NPI5.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

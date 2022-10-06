@@ -22,8 +22,8 @@ tfs: 'sma-9,Q22190,181271,GTRD,chromatin immunoprecipitation assay,27924024%5Bui
 targets: 'pck-2,O02286,-,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   -,G5ECU5,174805;174806,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_G5EGN8.tsv
-targets_download: targets_of_G5EGN8.tsv
+tfs_download: TFLink_tfs_of_G5EGN8.tsv
+targets_download: TFLink_targets_of_G5EGN8.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

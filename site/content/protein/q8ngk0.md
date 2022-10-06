@@ -38,7 +38,7 @@ tfs: 'SPI1,P17947,6688,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5
 
   SSRP1,Q08945,6749,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8NGK0.tsv
+tfs_download: TFLink_tfs_of_Q8NGK0.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

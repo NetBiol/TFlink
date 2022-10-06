@@ -149,7 +149,7 @@ tfs: 'Stat5a,P42230,20850,GTRD,chromatin immunoprecipitation assay,27924024%5Bui
 
   Jarid2,Q62315,16468,ORegAnno;PAZAR,inferred by curator,18971253%5Buid%5D+OR+26578589%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_A0JNU3.tsv
+tfs_download: TFLink_tfs_of_A0JNU3.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

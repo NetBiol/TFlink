@@ -412,8 +412,8 @@ targets: 'S1pr5,Q91X56,94226,TRRUST,inferred by curator,19808259%5Buid%5D+OR+290
   Anapc15,P60007,75430,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   Capn5,O08688,12337,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q9JKD8.tsv
-targets_download: targets_of_Q9JKD8.tsv
+tfs_download: TFLink_tfs_of_Q9JKD8.tsv
+targets_download: TFLink_targets_of_Q9JKD8.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

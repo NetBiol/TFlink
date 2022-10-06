@@ -211,8 +211,8 @@ tfs: 'SP1,P08047,6667,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5B
 
   STAT5B,P51692,6777,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D+OR+27924024%5Buid%5D,No'
 targets: IL1B,P01584,3553,TRRUST,inferred by curator,9878621%5Buid%5D+OR+29087512%5Buid%5D,Yes
-tfs_download: tfs_of_Q8IWZ8.tsv
-targets_download: targets_of_Q8IWZ8.tsv
+tfs_download: TFLink_tfs_of_Q8IWZ8.tsv
+targets_download: TFLink_targets_of_Q8IWZ8.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

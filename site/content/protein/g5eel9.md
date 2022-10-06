@@ -310,8 +310,8 @@ targets: 'rps-4,Q9N3X2,177481,GTRD,chromatin immunoprecipitation assay,27924024%
   jtr-1,Q9N4B5,176952,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   -,D9N147,179346,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_G5EEL9.tsv
-targets_download: targets_of_G5EEL9.tsv
+tfs_download: TFLink_tfs_of_G5EEL9.tsv
+targets_download: TFLink_targets_of_G5EEL9.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

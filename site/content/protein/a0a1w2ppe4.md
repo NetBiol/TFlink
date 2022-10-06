@@ -210,7 +210,7 @@ tfs: 'AHR,P35869,196,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D
 
   DAND5,Q8N907,199699,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_A0A1W2PPE4.tsv
+tfs_download: TFLink_tfs_of_A0A1W2PPE4.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

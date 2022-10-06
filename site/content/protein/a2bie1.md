@@ -211,7 +211,7 @@ tfs: 'Taf12,Q8VE65,66464,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
 
   Zbtb17,Q60821,22642,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_A2BIE1.tsv
+tfs_download: TFLink_tfs_of_A2BIE1.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

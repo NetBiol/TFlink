@@ -210,7 +210,7 @@ tfs: 'Pax5,Q02650,18507,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%
 
   Pou2f1,P25425,18986,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8BKN5.tsv
+tfs_download: TFLink_tfs_of_Q8BKN5.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

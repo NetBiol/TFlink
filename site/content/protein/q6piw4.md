@@ -212,7 +212,7 @@ tfs: 'ZNF84,P51523,7637,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%
 
   PARP1,P09874,142,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q6PIW4.tsv
+tfs_download: TFLink_tfs_of_Q6PIW4.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

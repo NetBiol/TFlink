@@ -50,7 +50,7 @@ tfs: 'AR,P10275,367,TRRUST,inferred by curator,20501646%5Buid%5D+OR+29087512%5Bu
 
   YY1,P25490,7528,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D+OR+27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9BXU7.tsv
+tfs_download: TFLink_tfs_of_Q9BXU7.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

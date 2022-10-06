@@ -98,8 +98,8 @@ tfs: 'abd-A,P29555,42037,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
 
   grh,P13002,37038,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: RpS3A,P55830,43768,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
-tfs_download: tfs_of_Q9VTX7.tsv
-targets_download: targets_of_Q9VTX7.tsv
+tfs_download: TFLink_tfs_of_Q9VTX7.tsv
+targets_download: TFLink_targets_of_Q9VTX7.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

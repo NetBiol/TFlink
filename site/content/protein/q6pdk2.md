@@ -408,8 +408,8 @@ targets: 'Egr2,P08152,13654,GTRD,chromatin immunoprecipitation assay,27924024%5B
   Kcnj2,P35561,16518,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   Nyap1,Q6PFX7,243300,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q6PDK2.tsv
-targets_download: targets_of_Q6PDK2.tsv
+tfs_download: TFLink_tfs_of_Q6PDK2.tsv
+targets_download: TFLink_targets_of_Q6PDK2.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

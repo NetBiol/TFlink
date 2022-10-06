@@ -94,7 +94,7 @@ tfs: 'Utf1,Q6J1H4,22286,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%
 
   Phf5a,P83870,68479,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q3URY0.tsv
+tfs_download: TFLink_tfs_of_Q3URY0.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

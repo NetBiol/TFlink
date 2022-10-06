@@ -121,7 +121,7 @@ tfs: 'Vdr,P48281,22337,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5
 
   Relb,Q04863,19698,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8BQB4.tsv
+tfs_download: TFLink_tfs_of_Q8BQB4.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

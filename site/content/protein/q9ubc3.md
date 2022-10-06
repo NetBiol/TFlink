@@ -424,8 +424,8 @@ targets: 'SLC7A11,Q9UPY5,23657,GTRD;IntAct_via_DoRothEA;ReMap,chromatin immunopr
   CDC123,O75794,8872,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No
 
   BRD2,P25440,6046,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D+OR+27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q9UBC3.tsv
-targets_download: targets_of_Q9UBC3.tsv
+tfs_download: TFLink_tfs_of_Q9UBC3.tsv
+targets_download: TFLink_targets_of_Q9UBC3.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

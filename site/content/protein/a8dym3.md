@@ -186,7 +186,7 @@ tfs: 'zld,Q9VWC6,32994,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5
 
   nej,M9MS40,43856,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_A8DYM3.tsv
+tfs_download: TFLink_tfs_of_A8DYM3.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

@@ -20,7 +20,7 @@ tfs: 'Pgr,Q63449,25154,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5
 
   p300,Q91XT0,-,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_D3ZGY1.tsv
+tfs_download: TFLink_tfs_of_D3ZGY1.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

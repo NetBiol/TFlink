@@ -212,7 +212,7 @@ tfs: 'SMARCA2,P51531,6595,GTRD,chromatin immunoprecipitation assay,27924024%5Bui
 
   ZNF384,Q8TF68,171017,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8TCF1.tsv
+tfs_download: TFLink_tfs_of_Q8TCF1.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

@@ -24,7 +24,7 @@ tfs: 'sta-1,Q9NAD6,178465,GTRD,chromatin immunoprecipitation assay,27924024%5Bui
 
   oef-1,G4SGI5,177529,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_V6CLZ7.tsv
+tfs_download: TFLink_tfs_of_V6CLZ7.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

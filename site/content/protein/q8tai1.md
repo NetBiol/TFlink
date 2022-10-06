@@ -18,7 +18,7 @@ tfs: 'E2F4,Q16254,1874,HTRI,chromatin immunoprecipitation array,17531812%5Buid%5
 
   PRDM14,Q9GZV8,63978,HTRI,chromatin immunoprecipitation assay,20953172%5Buid%5D+OR+22900683%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8TAI1.tsv
+tfs_download: TFLink_tfs_of_Q8TAI1.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

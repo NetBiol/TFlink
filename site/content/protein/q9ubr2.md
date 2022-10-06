@@ -211,7 +211,7 @@ tfs: 'LYL1,P12980,4066,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5
 
   YY2,O15391,404281,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9UBR2.tsv
+tfs_download: TFLink_tfs_of_Q9UBR2.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

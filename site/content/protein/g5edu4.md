@@ -286,8 +286,8 @@ targets: 'aakb-1,Q9XUY2,-,GTRD,chromatin immunoprecipitation assay,27924024%5Bui
   taf-12,Q9U226,176617,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   mai-1,P37209,3565232,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_G5EDU4.tsv
-targets_download: targets_of_G5EDU4.tsv
+tfs_download: TFLink_tfs_of_G5EDU4.tsv
+targets_download: TFLink_targets_of_G5EDU4.tsv
 bindingSites_download: ''
 binding_sites_ls: G5EDU4_HT.fasta
 

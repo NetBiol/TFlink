@@ -212,8 +212,8 @@ tfs: 'SIRT1,Q96EB6,23411,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
 
   CDKN1B,P46527,1027,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: CDKN2A,P42771,1029,HTRI,chromatin immunoprecipitation assay;inferred by curator,19340300%5Buid%5D+OR+22900683%5Buid%5D,No
-tfs_download: tfs_of_Q8TAU3.tsv
-targets_download: targets_of_Q8TAU3.tsv
+tfs_download: TFLink_tfs_of_Q8TAU3.tsv
+targets_download: TFLink_targets_of_Q8TAU3.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

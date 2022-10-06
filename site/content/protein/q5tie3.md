@@ -211,7 +211,7 @@ tfs: 'HNRNPL,P14866,3191,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
 
   WT1,P19544,7490,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q5TIE3.tsv
+tfs_download: TFLink_tfs_of_Q5TIE3.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

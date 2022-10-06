@@ -210,7 +210,7 @@ tfs: 'Stat1,P42225,-,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,
 
   Pou2f1,P25425,18986,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8BMK0.tsv
+tfs_download: TFLink_tfs_of_Q8BMK0.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

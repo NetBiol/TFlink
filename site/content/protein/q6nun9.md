@@ -215,8 +215,8 @@ tfs: 'ZFP82,Q8N141,284406,GTRD,chromatin immunoprecipitation assay,27924024%5Bui
 targets: 'PCK1,P35558,5105,IntAct_via_DoRothEA,inferred by curator,24234451%5Buid%5D+OR+21376232%5Buid%5D,Yes
 
   G6PC,P35575,2538,IntAct_via_DoRothEA,inferred by curator,24234451%5Buid%5D+OR+21376232%5Buid%5D,Yes'
-tfs_download: tfs_of_Q6NUN9.tsv
-targets_download: targets_of_Q6NUN9.tsv
+tfs_download: TFLink_tfs_of_Q6NUN9.tsv
+targets_download: TFLink_targets_of_Q6NUN9.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

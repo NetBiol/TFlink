@@ -210,7 +210,7 @@ tfs: 'USF1,P22415,7391,TRED,inferred by curator,17202159%5Buid%5D,Yes
 
   SMARCE1,Q969G3,6605,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9UBU3.tsv
+tfs_download: TFLink_tfs_of_Q9UBU3.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

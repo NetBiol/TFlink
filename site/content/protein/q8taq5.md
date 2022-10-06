@@ -211,7 +211,7 @@ tfs: 'WDR5,P61964,11091,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%
 
   BCLAF1,Q9NYF8,9774,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8TAQ5.tsv
+tfs_download: TFLink_tfs_of_Q8TAQ5.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

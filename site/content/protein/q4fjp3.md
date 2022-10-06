@@ -14,7 +14,7 @@ tfs: 'Myb,P06876,17863,TRED,inferred by curator,17202159%5Buid%5D,Yes
 
   Myc,P01108,17869,TRED,inferred by curator,17202159%5Buid%5D,Yes'
 targets: ''
-tfs_download: tfs_of_Q4FJP3.tsv
+tfs_download: TFLink_tfs_of_Q4FJP3.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

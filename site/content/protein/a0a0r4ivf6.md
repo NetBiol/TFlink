@@ -14,7 +14,7 @@ tfs: 'hif1ab,Q6EHI4,393202,GTRD,chromatin immunoprecipitation assay,27924024%5Bu
 
   sall4,F1QDF2,-,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_A0A0R4IVF6.tsv
+tfs_download: TFLink_tfs_of_A0A0R4IVF6.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

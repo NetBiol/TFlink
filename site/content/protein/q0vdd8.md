@@ -211,7 +211,7 @@ tfs: 'TEAD3,Q99594,7005,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%
 
   ZNF449,Q6P9G9,203523,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q0VDD8.tsv
+tfs_download: TFLink_tfs_of_Q0VDD8.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

@@ -412,8 +412,8 @@ targets: 'TLE4,Q04727,7091,GTRD,chromatin immunoprecipitation assay,27924024%5Bu
   PELI3,Q8N2H9,246330,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   STK26,Q9P289,51765,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q8WVV9.tsv
-targets_download: targets_of_Q8WVV9.tsv
+tfs_download: TFLink_tfs_of_Q8WVV9.tsv
+targets_download: TFLink_targets_of_Q8WVV9.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

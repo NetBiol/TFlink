@@ -211,7 +211,7 @@ tfs: 'HIRA,P54198,7290,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5
 
   ELF3,P78545,1999,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D+OR+27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q5VSL9.tsv
+tfs_download: TFLink_tfs_of_Q5VSL9.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

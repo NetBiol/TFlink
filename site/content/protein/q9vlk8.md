@@ -260,8 +260,8 @@ targets: 'bves,Q9VRE2,33083,GTRD,chromatin immunoprecipitation assay,27924024%5B
   ATPsynbeta,Q05825,43829,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   -,Q8IQ13,319046,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q9VLK8.tsv
-targets_download: targets_of_Q9VLK8.tsv
+tfs_download: TFLink_tfs_of_Q9VLK8.tsv
+targets_download: TFLink_targets_of_Q9VLK8.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

@@ -328,8 +328,8 @@ targets: 'ITGB1,P05556,3688,TRRUST,inferred by curator,21501586%5Buid%5D+OR+2908
   CD44,P16070,960,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   SCARF1,Q14162,8578,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q9GZZ0.tsv
-targets_download: targets_of_Q9GZZ0.tsv
+tfs_download: TFLink_tfs_of_Q9GZZ0.tsv
+targets_download: TFLink_targets_of_Q9GZZ0.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

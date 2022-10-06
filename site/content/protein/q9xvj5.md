@@ -190,7 +190,7 @@ tfs: 'eor-1,G5EDU4,-,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,
 
   -,Q9GZC9,178899,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9XVJ5.tsv
+tfs_download: TFLink_tfs_of_Q9XVJ5.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

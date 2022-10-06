@@ -212,7 +212,7 @@ tfs: 'ZNF816,Q0VGE8,125893,GTRD,chromatin immunoprecipitation assay,27924024%5Bu
 
   MYOD1,P15172,4654,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9NPF8.tsv
+tfs_download: TFLink_tfs_of_Q9NPF8.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

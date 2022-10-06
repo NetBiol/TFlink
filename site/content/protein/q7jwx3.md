@@ -16,7 +16,7 @@ tfs: 'Dif,P98149,35045,REDfly,electrophoretic mobility shift assay,17660749%5Bui
 
   Su(var)205,P05205,34119,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q7JWX3.tsv
+tfs_download: TFLink_tfs_of_Q7JWX3.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

@@ -212,8 +212,8 @@ tfs: 'Lef1,P27782,16842,TRRUST,inferred by curator,29087512%5Buid%5D+OR+11983900
 
   Isl1,P61372,16392,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: Ovol2,Q8CIV7,107586,TRRUST,inferred by curator,17049212%5Buid%5D+OR+29087512%5Buid%5D,Yes
-tfs_download: tfs_of_Q9WTJ2.tsv
-targets_download: targets_of_Q9WTJ2.tsv
+tfs_download: TFLink_tfs_of_Q9WTJ2.tsv
+targets_download: TFLink_targets_of_Q9WTJ2.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

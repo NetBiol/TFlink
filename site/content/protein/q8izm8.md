@@ -408,8 +408,8 @@ targets: 'ARF5,P84085,381,GTRD,chromatin immunoprecipitation assay,27924024%5Bui
   KCNIP2,Q9NS61,30819,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   PAFAH2,Q99487,5051,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q8IZM8.tsv
-targets_download: targets_of_Q8IZM8.tsv
+tfs_download: TFLink_tfs_of_Q8IZM8.tsv
+targets_download: TFLink_targets_of_Q8IZM8.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

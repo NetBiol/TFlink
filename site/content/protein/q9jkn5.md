@@ -212,8 +212,8 @@ tfs: 'Znf488,Q5HZG9,382867,TRRUST,inferred by curator,29087512%5Buid%5D+OR+22355
 
   Atoh1,P48985,11921,ORegAnno;PAZAR,inferred by curator,18971253%5Buid%5D+OR+26578589%5Buid%5D,No'
 targets: Smad3,Q8BUN5,17127,TRRUST,inferred by curator,23720758%5Buid%5D+OR+29087512%5Buid%5D,Yes
-tfs_download: tfs_of_Q9JKN5.tsv
-targets_download: targets_of_Q9JKN5.tsv
+tfs_download: TFLink_tfs_of_Q9JKN5.tsv
+targets_download: TFLink_targets_of_Q9JKN5.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

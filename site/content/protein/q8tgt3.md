@@ -49,7 +49,7 @@ tfs: 'STE12,P13574,856484,Yeastract,chromatin immunoprecipitation assay,20237471
 
   RAP1,P11938,855505,Yeastract,chromatin immunoprecipitation array,20231876%5Buid%5D+OR+24170807%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8TGT3.tsv
+tfs_download: TFLink_tfs_of_Q8TGT3.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

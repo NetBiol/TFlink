@@ -44,7 +44,7 @@ tfs: 'mef-2,Q9U325,172732,GTRD,chromatin immunoprecipitation assay,27924024%5Bui
 
   nhr-11,Q23294,177724,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_G5ECB2.tsv
+tfs_download: TFLink_tfs_of_G5ECB2.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

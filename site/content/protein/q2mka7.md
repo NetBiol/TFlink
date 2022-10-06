@@ -212,7 +212,7 @@ tfs: 'NFKB1,P19838,4790,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%
 
   NR2F2,P24468,7026,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D+OR+27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q2MKA7.tsv
+tfs_download: TFLink_tfs_of_Q2MKA7.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

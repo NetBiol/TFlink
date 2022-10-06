@@ -210,7 +210,7 @@ tfs: 'Hdac2,P70288,15182,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
 
   Brd9,Q3UQU0,105246,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_E9QKE4.tsv
+tfs_download: TFLink_tfs_of_E9QKE4.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

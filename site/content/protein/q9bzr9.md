@@ -210,7 +210,7 @@ tfs: 'KLF4,O43474,9314,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5
 
   POU2F2,P09086,5452,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D+OR+27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9BZR9.tsv
+tfs_download: TFLink_tfs_of_Q9BZR9.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

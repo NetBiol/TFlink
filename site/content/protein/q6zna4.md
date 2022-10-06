@@ -211,7 +211,7 @@ tfs: 'XPC,Q01831,7508,TRRUST,inferred by curator,23751493%5Buid%5D+OR+29087512%5
 
   SALL4,Q9UJQ4,57167,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q6ZNA4.tsv
+tfs_download: TFLink_tfs_of_Q6ZNA4.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

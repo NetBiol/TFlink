@@ -211,7 +211,7 @@ tfs: 'E2F4,Q16254,1874,GTRD;ReMap;TRED,chromatin immunoprecipitation assay;infer
 
   TCF7L1,Q9HCS4,83439,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D+OR+27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8IUE6.tsv
+tfs_download: TFLink_tfs_of_Q8IUE6.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

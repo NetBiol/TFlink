@@ -211,7 +211,7 @@ tfs: 'Arntl,Q9WTL8,11865,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
 
   Tfe3,Q64092,209446,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8BWT5.tsv
+tfs_download: TFLink_tfs_of_Q8BWT5.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

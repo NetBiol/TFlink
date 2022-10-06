@@ -216,7 +216,7 @@ tfs: 'PRDM6,Q9NQX0,93166,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
 
   PTEN,P60484,5728,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9BPZ7.tsv
+tfs_download: TFLink_tfs_of_Q9BPZ7.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

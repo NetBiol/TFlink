@@ -215,7 +215,7 @@ tfs: 'ILF3,Q12906,3609,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5
 
   GTF3C2,Q8WUA4,2976,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8WYL5.tsv
+tfs_download: TFLink_tfs_of_Q8WYL5.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

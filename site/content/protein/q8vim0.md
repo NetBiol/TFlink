@@ -211,8 +211,8 @@ tfs: 'Nr1h3,Q9Z0Y9,22259,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
 
   Irf3,P70671,54131,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: Nelfcd,Q922L6,57314,TRRUST,inferred by curator,23487424%5Buid%5D+OR+29087512%5Buid%5D,Yes
-tfs_download: tfs_of_Q8VIM0.tsv
-targets_download: targets_of_Q8VIM0.tsv
+tfs_download: TFLink_tfs_of_Q8VIM0.tsv
+targets_download: TFLink_targets_of_Q8VIM0.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

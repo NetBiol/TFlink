@@ -68,7 +68,7 @@ tfs: 'DnaJ-1,Q24133,38643,GTRD,chromatin immunoprecipitation assay,27924024%5Bui
 
   her,Q9VJJ6,34992,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_A9YJS8.tsv
+tfs_download: TFLink_tfs_of_A9YJS8.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

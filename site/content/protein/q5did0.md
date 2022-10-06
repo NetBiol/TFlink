@@ -214,7 +214,7 @@ tfs: 'SMARCC1,Q92922,6599,GTRD,chromatin immunoprecipitation assay,27924024%5Bui
 
   APOBEC3B,Q9UH17,9582,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q5DID0.tsv
+tfs_download: TFLink_tfs_of_Q5DID0.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

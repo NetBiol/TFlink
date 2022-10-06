@@ -210,7 +210,7 @@ tfs: 'NONO,Q15233,4841,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5
 
   HSD17B8,Q92506,7923,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9NRP2.tsv
+tfs_download: TFLink_tfs_of_Q9NRP2.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

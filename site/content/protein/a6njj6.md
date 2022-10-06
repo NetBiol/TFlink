@@ -214,7 +214,7 @@ tfs: 'SNAI2,O43623,6591,ReMap,chromatin immunoprecipitation assay,29126285%5Buid
 
   HEY1,Q9Y5J3,23462,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_A6NJJ6.tsv
+tfs_download: TFLink_tfs_of_A6NJJ6.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

@@ -211,7 +211,7 @@ tfs: 'Isl1,P61372,16392,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%
 
   Rara,P11416,19401,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q3ULW6.tsv
+tfs_download: TFLink_tfs_of_Q3ULW6.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

@@ -62,8 +62,8 @@ targets: 'plexA-RB,G7H847,-,GTRD,chromatin immunoprecipitation assay,27924024%5B
   tna-RB,D0Z745,-,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   Mob2,Q8IQG1,39293,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q9VDQ6.tsv
-targets_download: targets_of_Q9VDQ6.tsv
+tfs_download: TFLink_tfs_of_Q9VDQ6.tsv
+targets_download: TFLink_targets_of_Q9VDQ6.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

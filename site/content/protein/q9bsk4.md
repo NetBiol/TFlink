@@ -210,7 +210,7 @@ tfs: 'RUNX1T1,Q06455,862,GTRD;ReMap,chromatin immunoprecipitation assay,29126285
 
   AFF1,P51825,4299,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9BSK4.tsv
+tfs_download: TFLink_tfs_of_Q9BSK4.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

@@ -210,7 +210,7 @@ tfs: 'Otx2,P80206,-,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,N
 
   Sox2,P48432,20674,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q7TQP2.tsv
+tfs_download: TFLink_tfs_of_Q7TQP2.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

@@ -214,7 +214,7 @@ tfs: 'ESRRA,P11474,2101,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%
 
   NR2F1,P10589,7025,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D+OR+27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q6NTF9.tsv
+tfs_download: TFLink_tfs_of_Q6NTF9.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

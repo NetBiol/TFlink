@@ -210,7 +210,7 @@ tfs: 'Sirt1,Q923E4,93759,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
 
   Irf7,P70434,54123,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q6NZP2.tsv
+tfs_download: TFLink_tfs_of_Q6NZP2.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

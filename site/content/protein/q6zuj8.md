@@ -215,7 +215,7 @@ tfs: 'PAX5,Q02548,5079,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5
 
   ATF7,P17544,11016,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q6ZUJ8.tsv
+tfs_download: TFLink_tfs_of_Q6ZUJ8.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

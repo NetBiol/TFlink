@@ -409,8 +409,8 @@ targets: 'ARHGAP27,Q6ZUM4,201176,GTRD,chromatin immunoprecipitation assay,279240
   SATB2,Q9UPW6,23314,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   PMPCA,Q10713,23203,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q6IBW4.tsv
-targets_download: targets_of_Q6IBW4.tsv
+tfs_download: TFLink_tfs_of_Q6IBW4.tsv
+targets_download: TFLink_targets_of_Q6IBW4.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

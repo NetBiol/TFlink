@@ -212,7 +212,7 @@ tfs: 'THAP11,Q96EK4,57215,GTRD,chromatin immunoprecipitation assay,27924024%5Bui
 
   ZNF335,Q9H4Z2,63925,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9ULL4.tsv
+tfs_download: TFLink_tfs_of_Q9ULL4.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

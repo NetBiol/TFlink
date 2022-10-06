@@ -212,7 +212,7 @@ tfs: 'FOS,P01100,2353,GTRD;ORegAnno;PAZAR;ReMap,chromatin immunoprecipitation as
 
   TP63,Q9H3D4,8626,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9HCN8.tsv
+tfs_download: TFLink_tfs_of_Q9HCN8.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

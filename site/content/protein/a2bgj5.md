@@ -210,7 +210,7 @@ tfs: 'Clock,O08785,12753,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
 
   Nfya,P23708,18044,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_A2BGJ5.tsv
+tfs_download: TFLink_tfs_of_A2BGJ5.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

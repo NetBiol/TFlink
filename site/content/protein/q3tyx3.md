@@ -226,8 +226,8 @@ targets: 'Scrt1,Q99M85,170729,GTRD,chromatin immunoprecipitation assay,27924024%
   Eapp,Q5BU09,66266,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   Gm10717,D3Z1I8,-,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q3TYX3.tsv
-targets_download: targets_of_Q3TYX3.tsv
+tfs_download: TFLink_tfs_of_Q3TYX3.tsv
+targets_download: TFLink_targets_of_Q3TYX3.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

@@ -211,7 +211,7 @@ tfs: 'HDGFL3,Q9Y3E1,50810,GTRD,chromatin immunoprecipitation assay,27924024%5Bui
 
   REL,Q04864,5966,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8WUH6.tsv
+tfs_download: TFLink_tfs_of_Q8WUH6.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

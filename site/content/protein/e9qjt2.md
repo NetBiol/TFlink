@@ -211,7 +211,7 @@ tfs: 'Spen,Q62504,56381,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%
 
   Dmrtb1,A2A9I7,56296,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_E9QJT2.tsv
+tfs_download: TFLink_tfs_of_E9QJT2.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

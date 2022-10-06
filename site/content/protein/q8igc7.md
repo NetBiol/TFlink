@@ -82,7 +82,7 @@ tfs: 'Dmel\CG18011,Q7K1V0,36068,GTRD,chromatin immunoprecipitation assay,2792402
 
   TfIIB,P29052,34430,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8IGC7.tsv
+tfs_download: TFLink_tfs_of_Q8IGC7.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

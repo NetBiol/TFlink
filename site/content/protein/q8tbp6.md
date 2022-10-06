@@ -210,7 +210,7 @@ tfs: 'CEBPB,P17676,1051,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%
 
   FANCL,Q9NW38,55120,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8TBP6.tsv
+tfs_download: TFLink_tfs_of_Q8TBP6.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

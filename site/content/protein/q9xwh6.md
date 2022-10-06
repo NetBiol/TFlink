@@ -14,7 +14,7 @@ tfs: 'nhr-71,Q9GTD4,181491,GTRD,chromatin immunoprecipitation assay,27924024%5Bu
 
   hlh-4,P34555,176372,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9XWH6.tsv
+tfs_download: TFLink_tfs_of_Q9XWH6.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

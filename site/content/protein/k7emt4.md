@@ -210,7 +210,7 @@ tfs: 'GLI3,P10071,2737,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5
 
   TCF3,P15923,6929,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D+OR+27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_K7EMT4.tsv
+tfs_download: TFLink_tfs_of_K7EMT4.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

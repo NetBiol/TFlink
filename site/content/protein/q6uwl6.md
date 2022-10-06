@@ -211,7 +211,7 @@ tfs: 'NCOR1,O75376,9611,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%
 
   MTA1,Q13330,9112,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q6UWL6.tsv
+tfs_download: TFLink_tfs_of_Q6UWL6.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

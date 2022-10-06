@@ -213,7 +213,7 @@ tfs: 'E2F1,Q01094,1869,TRED,inferred by curator,17202159%5Buid%5D,Yes
 
   NKX2-2,O95096,4821,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q6NUN0.tsv
+tfs_download: TFLink_tfs_of_Q6NUN0.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

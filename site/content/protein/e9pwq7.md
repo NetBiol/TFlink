@@ -168,7 +168,7 @@ tfs: 'Mecp2,Q9Z2D6,17257,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
 
   Kmt2b,O08550,75410,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_E9PWQ7.tsv
+tfs_download: TFLink_tfs_of_E9PWQ7.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

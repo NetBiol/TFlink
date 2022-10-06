@@ -410,8 +410,8 @@ targets: 'Brd2,Q7JJ13,14312,GTRD,chromatin immunoprecipitation assay,27924024%5B
   Arid1a,A2BH40,93760,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   Cox20,Q9D7J4,66359,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q9ESC8.tsv
-targets_download: targets_of_Q9ESC8.tsv
+tfs_download: TFLink_tfs_of_Q9ESC8.tsv
+targets_download: TFLink_targets_of_Q9ESC8.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

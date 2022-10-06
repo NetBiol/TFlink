@@ -211,7 +211,7 @@ targets: 'TSPO,P30536,706,GTRD,chromatin immunoprecipitation assay,27924024%5Bui
 
   TASOR,Q9UK61,23272,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 tfs_download: ''
-targets_download: targets_of_Q8IZH1.tsv
+targets_download: TFLink_targets_of_Q8IZH1.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

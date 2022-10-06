@@ -213,7 +213,7 @@ tfs: 'FOXP1,Q9H334,27086,ORegAnno;PAZAR,inferred by curator,18971253%5Buid%5D+OR
 
   ZNF574,Q6ZN55,64763,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q6QHC5.tsv
+tfs_download: TFLink_tfs_of_Q6QHC5.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

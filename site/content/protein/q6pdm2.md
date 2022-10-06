@@ -410,8 +410,8 @@ targets: '4933427D14Rik,A0A0R4J1C3,74477,GTRD,chromatin immunoprecipitation assa
   Eci1,P42125,13177,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   Oasl1,Q8VI94,231655,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q6PDM2.tsv
-targets_download: targets_of_Q6PDM2.tsv
+tfs_download: TFLink_tfs_of_Q6PDM2.tsv
+targets_download: TFLink_targets_of_Q6PDM2.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

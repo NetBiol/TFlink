@@ -409,8 +409,8 @@ targets: 'RBP3,P10745,5949,TRRUST,inferred by curator,15963234%5Buid%5D+OR+29087
   DYRK3,O43781,8444,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   SEC24D,O94855,9871,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q9UIH9.tsv
-targets_download: targets_of_Q9UIH9.tsv
+tfs_download: TFLink_tfs_of_Q9UIH9.tsv
+targets_download: TFLink_targets_of_Q9UIH9.tsv
 bindingSites_download: ''
 binding_sites_ls: Q9UIH9_HT.fasta
 

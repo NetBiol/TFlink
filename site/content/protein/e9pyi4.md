@@ -210,7 +210,7 @@ tfs: 'Pwwp2b,E9Q9M8,101631,GTRD,chromatin immunoprecipitation assay,27924024%5Bu
 
   Kat5,Q8CHK4,81601,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_E9PYI4.tsv
+tfs_download: TFLink_tfs_of_E9PYI4.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

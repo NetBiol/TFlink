@@ -54,7 +54,7 @@ tfs: 'Neurod1,Q60867,18012,GTRD,chromatin immunoprecipitation assay,27924024%5Bu
 
   Insm1,Q63ZV0,53626,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8VGM0.tsv
+tfs_download: TFLink_tfs_of_Q8VGM0.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

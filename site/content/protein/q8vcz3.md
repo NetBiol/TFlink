@@ -210,7 +210,7 @@ tfs: 'Gata4,Q08369,14463,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
 
   Gfi1,P70338,14581,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8VCZ3.tsv
+tfs_download: TFLink_tfs_of_Q8VCZ3.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

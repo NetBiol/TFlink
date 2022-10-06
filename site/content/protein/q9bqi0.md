@@ -211,7 +211,7 @@ tfs: 'HIF1A,Q16665,3091,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%
 
   EP400,Q96L91,57634,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9BQI0.tsv
+tfs_download: TFLink_tfs_of_Q9BQI0.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

@@ -210,7 +210,7 @@ tfs: 'Bhlhe40,O35185,20893,GTRD,chromatin immunoprecipitation assay,27924024%5Bu
 
   Anp32e,P97822,66471,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q5RKS2.tsv
+tfs_download: TFLink_tfs_of_Q5RKS2.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

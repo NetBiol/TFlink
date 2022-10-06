@@ -213,7 +213,7 @@ tfs: 'Foxa2,P35583,15376,GTRD;TRRUST,chromatin immunoprecipitation assay;inferre
 
   Klf1,P46099,-,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8JZM7.tsv
+tfs_download: TFLink_tfs_of_Q8JZM7.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

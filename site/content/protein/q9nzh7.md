@@ -80,7 +80,7 @@ tfs: 'NCOA1,Q15788,8648,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%
 
   GATA1,P15976,2623,HTRI,chromatin immunoprecipitation assay,19941826%5Buid%5D+OR+22900683%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9NZH7.tsv
+tfs_download: TFLink_tfs_of_Q9NZH7.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

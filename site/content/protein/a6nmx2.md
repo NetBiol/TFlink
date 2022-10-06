@@ -211,7 +211,7 @@ tfs: 'E2F1,Q01094,1869,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5
 
   ZNF341,Q9BYN7,84905,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_A6NMX2.tsv
+tfs_download: TFLink_tfs_of_A6NMX2.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

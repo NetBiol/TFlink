@@ -290,8 +290,8 @@ targets: 'HEY1,Q9Y5J3,23462,TRRUST,inferred by curator,24278031%5Buid%5D+OR+2908
   TRIO,O75962,7204,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   DDX5,P17844,1655,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D+OR+27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q9UBX2.tsv
-targets_download: targets_of_Q9UBX2.tsv
+tfs_download: TFLink_tfs_of_Q9UBX2.tsv
+targets_download: TFLink_targets_of_Q9UBX2.tsv
 bindingSites_download: ''
 binding_sites_ls: Q9UBX2_HT.fasta
 

@@ -86,7 +86,7 @@ tfs: 'AR,P10275,367,GTRD;HTRI,chromatin immunoprecipitation array;chromatin immu
 
   MTA3,Q9BTC8,57504,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_P0DJD1.tsv
+tfs_download: TFLink_tfs_of_P0DJD1.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

@@ -210,7 +210,7 @@ tfs: 'Clock,O08785,12753,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
 
   Sp5,Q9JHX2,64406,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9WVK8.tsv
+tfs_download: TFLink_tfs_of_Q9WVK8.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

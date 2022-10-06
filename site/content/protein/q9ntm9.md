@@ -213,7 +213,7 @@ tfs: 'E2F4,Q16254,1874,GTRD;ORegAnno;PAZAR;TRED,chromatin immunoprecipitation as
 
   TP63,Q9H3D4,8626,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9NTM9.tsv
+tfs_download: TFLink_tfs_of_Q9NTM9.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

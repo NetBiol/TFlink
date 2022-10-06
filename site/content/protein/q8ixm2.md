@@ -250,8 +250,8 @@ targets: 'TMEM52B,Q4KMG9,120939,ReMap,chromatin immunoprecipitation assay,291262
   ALOX12,P18054,239,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No
 
   ALG1,Q9BT22,56052,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No'
-tfs_download: tfs_of_Q8IXM2.tsv
-targets_download: targets_of_Q8IXM2.tsv
+tfs_download: TFLink_tfs_of_Q8IXM2.tsv
+targets_download: TFLink_targets_of_Q8IXM2.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

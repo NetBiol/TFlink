@@ -212,7 +212,7 @@ tfs: 'Egr1,P08046,13653,TRRUST,inferred by curator,18556777%5Buid%5D+OR+29087512
 
   Sox3,P53784,-,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_B9EKR1.tsv
+tfs_download: TFLink_tfs_of_B9EKR1.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

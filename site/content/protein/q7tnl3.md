@@ -212,7 +212,7 @@ tfs: 'Pou5f1,P20263,18999,GTRD;TRRUST,chromatin immunoprecipitation assay;inferr
 
   Zmiz1,Q6P1E1,328365,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q7TNL3.tsv
+tfs_download: TFLink_tfs_of_Q7TNL3.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

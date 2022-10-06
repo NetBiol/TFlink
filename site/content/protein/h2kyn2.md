@@ -92,7 +92,7 @@ tfs: 'mep-1,Q21502,178074,GTRD,chromatin immunoprecipitation assay,27924024%5Bui
 
   sax-3,G5EBF1,180637,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_H2KYN2.tsv
+tfs_download: TFLink_tfs_of_H2KYN2.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

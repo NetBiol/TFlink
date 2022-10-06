@@ -214,7 +214,7 @@ tfs: 'INO80,Q9ULG1,54617,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
 
   GLIS1,Q8NBF1,148979,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q5HYA8.tsv
+tfs_download: TFLink_tfs_of_Q5HYA8.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

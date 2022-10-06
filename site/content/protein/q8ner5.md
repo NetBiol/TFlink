@@ -213,7 +213,7 @@ tfs: 'SMAD3,P84022,4088,TRED,inferred by curator,17202159%5Buid%5D,Yes
 
   CEBPA,P49715,1050,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8NER5.tsv
+tfs_download: TFLink_tfs_of_Q8NER5.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

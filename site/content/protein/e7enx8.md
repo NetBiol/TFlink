@@ -210,7 +210,7 @@ tfs: 'SMAD2,Q15796,4087,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%
 
   KAT2B,Q92831,8850,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_E7ENX8.tsv
+tfs_download: TFLink_tfs_of_E7ENX8.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

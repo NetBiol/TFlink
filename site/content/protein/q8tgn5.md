@@ -16,7 +16,7 @@ tfs: 'SMC1,P32908,850540,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
 
   PDR3,P33200,852278,Yeastract,full identification by RNA sequencing,29650645%5Buid%5D+OR+24170807%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8TGN5.tsv
+tfs_download: TFLink_tfs_of_Q8TGN5.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

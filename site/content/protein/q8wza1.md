@@ -212,7 +212,7 @@ tfs: 'ZNF202,O95125,7753,TRRUST,inferred by curator,29087512%5Buid%5D+OR+2241917
 
   RCOR1,Q9UKL0,23186,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8WZA1.tsv
+tfs_download: TFLink_tfs_of_Q8WZA1.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

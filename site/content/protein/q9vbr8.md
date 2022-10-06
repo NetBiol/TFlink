@@ -230,8 +230,8 @@ targets: 'Ssl1,Q9VNP8,40509,GTRD,chromatin immunoprecipitation assay,27924024%5B
   Dmel\CG1907,Q9VAJ9,43483,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   -,Q9VPD2,40282,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q9VBR8.tsv
-targets_download: targets_of_Q9VBR8.tsv
+tfs_download: TFLink_tfs_of_Q9VBR8.tsv
+targets_download: TFLink_targets_of_Q9VBR8.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

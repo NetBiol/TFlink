@@ -159,7 +159,7 @@ tfs: 'USF2,Q15853,7392,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5
 
   SPI1,P17947,6688,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9BYZ2.tsv
+tfs_download: TFLink_tfs_of_Q9BYZ2.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

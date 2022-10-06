@@ -134,8 +134,8 @@ targets: '-,B4YWM6,-,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,
   ph-p,P39769,31181,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   CG42389-RG,E3CTU0,-,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q9VRZ6.tsv
-targets_download: targets_of_Q9VRZ6.tsv
+tfs_download: TFLink_tfs_of_Q9VRZ6.tsv
+targets_download: TFLink_targets_of_Q9VRZ6.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

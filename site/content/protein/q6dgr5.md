@@ -12,7 +12,7 @@ orthologs: '[{"species": "Caenorhabditis elegans", "id": ["G5EFV0"]}]'
 jaspar_matrices: ''
 tfs: nanog,A5JNG8,792333,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 targets: ''
-tfs_download: tfs_of_Q6DGR5.tsv
+tfs_download: TFLink_tfs_of_Q6DGR5.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

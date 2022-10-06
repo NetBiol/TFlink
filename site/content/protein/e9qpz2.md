@@ -18,7 +18,7 @@ tfs: 'Hoxa9,P09631,15405,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
 
   Pknox1,O70477,18771,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_E9QPZ2.tsv
+tfs_download: TFLink_tfs_of_E9QPZ2.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

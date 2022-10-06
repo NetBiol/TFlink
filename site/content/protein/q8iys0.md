@@ -211,7 +211,7 @@ tfs: 'TRIM22,Q8IYM9,10346,GTRD,chromatin immunoprecipitation assay,27924024%5Bui
 
   HOXB13,Q92826,10481,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8IYS0.tsv
+tfs_download: TFLink_tfs_of_Q8IYS0.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

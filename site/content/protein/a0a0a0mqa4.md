@@ -90,7 +90,7 @@ tfs: 'Tbx3,P70324,21386,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%
 
   Sox3,P53784,-,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_A0A0A0MQA4.tsv
+tfs_download: TFLink_tfs_of_A0A0A0MQA4.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

@@ -211,7 +211,7 @@ tfs: 'HDGF,P51858,3068,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%
 
   THAP11,Q96EK4,57215,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q6ICB0.tsv
+tfs_download: TFLink_tfs_of_Q6ICB0.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

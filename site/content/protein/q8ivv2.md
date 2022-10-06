@@ -214,7 +214,7 @@ tfs: 'JMJD1C,Q15652,221037,ReMap,chromatin immunoprecipitation assay,29126285%5B
 
   ZC3H8,Q8N5P1,84524,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D+OR+27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8IVV2.tsv
+tfs_download: TFLink_tfs_of_Q8IVV2.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

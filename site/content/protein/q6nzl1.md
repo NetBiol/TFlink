@@ -210,7 +210,7 @@ tfs: 'Ncor2,Q9WU42,20602,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
 
   Kdm4c,Q8VCD7,76804,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q6NZL1.tsv
+tfs_download: TFLink_tfs_of_Q6NZL1.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

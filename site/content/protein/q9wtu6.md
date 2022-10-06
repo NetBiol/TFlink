@@ -210,7 +210,7 @@ tfs: 'Btaf1,E9QAE3,107182,GTRD,chromatin immunoprecipitation assay,27924024%5Bui
 
   Anpep,P97449,16790,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9WTU6.tsv
+tfs_download: TFLink_tfs_of_Q9WTU6.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

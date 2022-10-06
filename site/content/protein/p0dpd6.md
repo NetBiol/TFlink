@@ -212,7 +212,7 @@ tfs: 'TP53,P04637,7157,GTRD;IntAct_via_DoRothEA,chromatin immunoprecipitation as
 
   HIRA,P54198,7290,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_P0DPD6.tsv
+tfs_download: TFLink_tfs_of_P0DPD6.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

@@ -211,7 +211,7 @@ tfs: 'Wiz,O88286,22404,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5
 
   Zc3h11a,Q6NZF1,70579,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8BFZ9.tsv
+tfs_download: TFLink_tfs_of_Q8BFZ9.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

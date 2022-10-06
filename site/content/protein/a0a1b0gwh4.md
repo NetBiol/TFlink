@@ -18,7 +18,7 @@ tfs: 'RUNX3,Q13761,864,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5
 
   GATA3,P23771,2625,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_A0A1B0GWH4.tsv
+tfs_download: TFLink_tfs_of_A0A1B0GWH4.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

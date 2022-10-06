@@ -18,7 +18,7 @@ tfs: 'PHOX2B,Q99453,8929,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
 
   DUX4,Q9UBX2,100288687,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_F8VTS6.tsv
+tfs_download: TFLink_tfs_of_F8VTS6.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

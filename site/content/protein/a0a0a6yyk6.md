@@ -96,7 +96,7 @@ tfs: 'AFF4,Q9UHB7,27125,ReMap,chromatin immunoprecipitation assay,29126285%5Buid
 
   STAT5B,P51692,6777,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_A0A0A6YYK6.tsv
+tfs_download: TFLink_tfs_of_A0A0A6YYK6.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

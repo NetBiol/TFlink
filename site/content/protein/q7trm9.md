@@ -38,7 +38,7 @@ tfs: 'Runx2,Q08775,12393,TRRUST,inferred by curator,21676869%5Buid%5D+OR+2908751
 
   Bmi1,P25916,12151,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q7TRM9.tsv
+tfs_download: TFLink_tfs_of_Q7TRM9.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

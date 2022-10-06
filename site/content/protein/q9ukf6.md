@@ -409,8 +409,8 @@ targets: 'PPM1L,Q5SGD2,151742,GTRD,chromatin immunoprecipitation assay,27924024%
   ERCC6L2,Q5T890,375748,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   PLEC,Q15149,5339,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q9UKF6.tsv
-targets_download: targets_of_Q9UKF6.tsv
+tfs_download: TFLink_tfs_of_Q9UKF6.tsv
+targets_download: TFLink_targets_of_Q9UKF6.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

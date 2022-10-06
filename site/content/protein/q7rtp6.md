@@ -215,7 +215,7 @@ tfs: 'IRF2,P14316,3660,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5
 
   RXRA,P19793,6256,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q7RTP6.tsv
+tfs_download: TFLink_tfs_of_Q7RTP6.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

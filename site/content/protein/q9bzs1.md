@@ -350,8 +350,8 @@ targets: 'CCR4,P51679,1233,HTRI;TRRUST,chromatin immunoprecipitation array;infer
   FGD2,Q7Z6J4,221472,HTRI,chromatin immunoprecipitation array,22900683%5Buid%5D+OR+20554955%5Buid%5D,No
 
   AMZ2,Q86W34,51321,HTRI,chromatin immunoprecipitation array,22900683%5Buid%5D+OR+20554955%5Buid%5D,No'
-tfs_download: tfs_of_Q9BZS1.tsv
-targets_download: targets_of_Q9BZS1.tsv
+tfs_download: TFLink_tfs_of_Q9BZS1.tsv
+targets_download: TFLink_targets_of_Q9BZS1.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

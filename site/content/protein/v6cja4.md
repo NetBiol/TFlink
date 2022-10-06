@@ -20,7 +20,7 @@ tfs: 'efl-1,G5EF11,180133,GTRD,chromatin immunoprecipitation assay,27924024%5Bui
 
   blmp-1,Q93560,172917,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_V6CJA4.tsv
+tfs_download: TFLink_tfs_of_V6CJA4.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

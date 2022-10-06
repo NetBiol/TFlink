@@ -18,7 +18,7 @@ tfs: 'HAC1,P41546,850513,Yeastract,footprinting,30016623%5Buid%5D+OR+24170807%5B
 
   ISW2,Q08773,854480,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8TGR9.tsv
+tfs_download: TFLink_tfs_of_Q8TGR9.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

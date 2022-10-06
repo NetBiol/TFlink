@@ -210,7 +210,7 @@ tfs: 'Nfil3,O08750,18030,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
 
   Gata3,P23772,14462,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8BSN5.tsv
+tfs_download: TFLink_tfs_of_Q8BSN5.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

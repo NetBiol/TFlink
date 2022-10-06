@@ -210,7 +210,7 @@ tfs: 'HEXIM1,O94992,10614,GTRD,chromatin immunoprecipitation assay,27924024%5Bui
 
   SIN3B,O75182,23309,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8IXW0.tsv
+tfs_download: TFLink_tfs_of_Q8IXW0.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

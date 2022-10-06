@@ -297,8 +297,8 @@ targets: 'DRG2,P55039,1819,GTRD,chromatin immunoprecipitation assay,27924024%5Bu
   GSTCD,Q8NEC7,79807,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   SRFBP1,Q8NEF9,153443,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q8TBC5.tsv
-targets_download: targets_of_Q8TBC5.tsv
+tfs_download: TFLink_tfs_of_Q8TBC5.tsv
+targets_download: TFLink_targets_of_Q8TBC5.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

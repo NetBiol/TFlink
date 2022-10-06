@@ -212,7 +212,7 @@ tfs: 'ARNT2,Q9HBZ2,9915,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%
 
   SETX,Q7Z333,23064,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9BRR3.tsv
+tfs_download: TFLink_tfs_of_Q9BRR3.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

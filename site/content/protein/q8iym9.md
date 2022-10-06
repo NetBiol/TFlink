@@ -412,8 +412,8 @@ targets: 'NFKB1,P19838,4790,TRRUST,inferred by curator,29087512%5Buid%5D+OR+2165
   FECH,P22830,2235,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No
 
   PRLR,P16471,5618,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q8IYM9.tsv
-targets_download: targets_of_Q8IYM9.tsv
+tfs_download: TFLink_tfs_of_Q8IYM9.tsv
+targets_download: TFLink_targets_of_Q8IYM9.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

@@ -210,7 +210,7 @@ tfs: 'KCNH2,Q12809,3757,ReMap,chromatin immunoprecipitation assay,29126285%5Buid
 
   RNF2,Q99496,6045,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_A0A1W2PQF2.tsv
+tfs_download: TFLink_tfs_of_A0A1W2PQF2.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

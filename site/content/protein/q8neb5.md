@@ -210,7 +210,7 @@ tfs: 'MBL2,P11226,4153,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5
 
   PIAS1,O75925,8554,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8NEB5.tsv
+tfs_download: TFLink_tfs_of_Q8NEB5.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

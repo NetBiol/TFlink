@@ -409,8 +409,8 @@ targets: 'ERBB2,P04626,2064,GTRD,chromatin immunoprecipitation assay,27924024%5B
   MS4A3,Q96HJ5,932,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No
 
   GLO1,Q04760,2739,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No'
-tfs_download: tfs_of_Q9BTC0.tsv
-targets_download: targets_of_Q9BTC0.tsv
+tfs_download: TFLink_tfs_of_Q9BTC0.tsv
+targets_download: TFLink_targets_of_Q9BTC0.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

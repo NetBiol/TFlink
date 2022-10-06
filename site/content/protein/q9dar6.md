@@ -70,7 +70,7 @@ tfs: 'Sirt1,Q923E4,93759,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
 
   Gata1,P17679,14460,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9DAR6.tsv
+tfs_download: TFLink_tfs_of_Q9DAR6.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

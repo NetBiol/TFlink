@@ -212,7 +212,7 @@ tfs: 'OCA2,Q04671,4948,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%
 
   ZSCAN5A,Q9BUG6,79149,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9HBV2.tsv
+tfs_download: TFLink_tfs_of_Q9HBV2.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

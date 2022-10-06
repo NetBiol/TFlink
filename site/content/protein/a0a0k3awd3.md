@@ -70,7 +70,7 @@ tfs: 'tftc-3,Q95PV7,179419,GTRD,chromatin immunoprecipitation assay,27924024%5Bu
 
   -,Q19753,179947,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_A0A0K3AWD3.tsv
+tfs_download: TFLink_tfs_of_A0A0K3AWD3.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

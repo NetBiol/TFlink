@@ -46,7 +46,7 @@ tfs: 'grh,P13002,37038,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5
 
   Sgf11,Q9VVR6,40035,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_A0A0B4LGP2.tsv
+tfs_download: TFLink_tfs_of_A0A0B4LGP2.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

@@ -211,8 +211,8 @@ targets: 'mog-4,O45244,175117,GTRD,chromatin immunoprecipitation assay,27924024%
   usp-39,O44787,173606,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   rps-19,O18650,-,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q9XVJ1.tsv
-targets_download: targets_of_Q9XVJ1.tsv
+tfs_download: TFLink_tfs_of_Q9XVJ1.tsv
+targets_download: TFLink_targets_of_Q9XVJ1.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

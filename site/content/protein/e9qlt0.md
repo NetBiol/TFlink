@@ -210,7 +210,7 @@ tfs: 'Ezh2,Q61188,14056,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%
 
   Pax7,P47239,18509,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_E9QLT0.tsv
+tfs_download: TFLink_tfs_of_E9QLT0.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

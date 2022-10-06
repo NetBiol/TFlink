@@ -211,7 +211,7 @@ tfs: 'Lmo2,P25801,16909,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%
 
   Tbx19,Q99ME7,83993,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_D3YZU1.tsv
+tfs_download: TFLink_tfs_of_D3YZU1.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

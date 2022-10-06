@@ -30,7 +30,7 @@ tfs: 'Stag2,O35638,20843,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
 
   Ikzf1,Q03267,-,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_A0A0A6YXA5.tsv
+tfs_download: TFLink_tfs_of_A0A0A6YXA5.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

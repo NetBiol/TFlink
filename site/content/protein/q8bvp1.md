@@ -58,7 +58,7 @@ tfs: 'Myc,P01108,17869,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5
 
   Ar,P19091,11835,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8BVP1.tsv
+tfs_download: TFLink_tfs_of_Q8BVP1.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

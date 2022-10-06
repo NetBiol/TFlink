@@ -211,7 +211,7 @@ tfs: 'Sp1,O89090,20683,GTRD;TRED;TRRUST,chromatin immunoprecipitation assay;infe
 
   Kmt2c,Q8BRH4,-,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8CGV8.tsv
+tfs_download: TFLink_tfs_of_Q8CGV8.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

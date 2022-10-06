@@ -80,7 +80,7 @@ tfs: 'ELF1,P32519,1997,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%
 
   KDM1A,O60341,23028,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9BXS1.tsv
+tfs_download: TFLink_tfs_of_Q9BXS1.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

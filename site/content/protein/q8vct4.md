@@ -210,7 +210,7 @@ tfs: 'Sp1,O89090,20683,TRRUST,inferred by curator,29087512%5Buid%5D+OR+11337511%
 
   Gata4,Q08369,14463,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8VCT4.tsv
+tfs_download: TFLink_tfs_of_Q8VCT4.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

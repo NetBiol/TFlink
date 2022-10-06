@@ -134,7 +134,7 @@ tfs: 'lilli,Q9VQI9,33496,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
 
   Sry-delta,P07664,43572,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q7KTX8.tsv
+tfs_download: TFLink_tfs_of_Q7KTX8.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

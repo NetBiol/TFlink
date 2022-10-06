@@ -84,7 +84,7 @@ tfs: 'xbp-1,G5EE07,175541,GTRD,chromatin immunoprecipitation assay,27924024%5Bui
 
   aly-2,O62183,177738,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9XWG6.tsv
+tfs_download: TFLink_tfs_of_Q9XWG6.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

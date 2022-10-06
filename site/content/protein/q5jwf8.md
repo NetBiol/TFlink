@@ -213,7 +213,7 @@ tfs: 'CREB1,P16220,1385,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%
 
   CREB3L1,Q96BA8,90993,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q5JWF8.tsv
+tfs_download: TFLink_tfs_of_Q5JWF8.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

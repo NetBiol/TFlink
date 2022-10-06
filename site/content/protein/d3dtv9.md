@@ -210,7 +210,7 @@ tfs: 'ZBTB33,Q86T24,10009,GTRD,chromatin immunoprecipitation assay,27924024%5Bui
 
   FOXP1,Q9H334,27086,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D+OR+27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_D3DTV9.tsv
+tfs_download: TFLink_tfs_of_D3DTV9.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

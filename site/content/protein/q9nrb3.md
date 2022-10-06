@@ -210,7 +210,7 @@ tfs: 'EGR2,P11161,1959,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5
 
   KLF13,Q9Y2Y9,51621,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9NRB3.tsv
+tfs_download: TFLink_tfs_of_Q9NRB3.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

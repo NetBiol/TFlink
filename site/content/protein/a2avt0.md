@@ -102,7 +102,7 @@ tfs: 'Ebf2,O08792,13592,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%
 
   Myc,P01108,17869,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_A2AVT0.tsv
+tfs_download: TFLink_tfs_of_A2AVT0.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

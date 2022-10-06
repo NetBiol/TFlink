@@ -210,7 +210,7 @@ tfs: 'RBM14,Q96PK6,100526737;10432,GTRD,chromatin immunoprecipitation assay,2792
 
   CTBP1,Q13363,1487,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9UJT1.tsv
+tfs_download: TFLink_tfs_of_Q9UJT1.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

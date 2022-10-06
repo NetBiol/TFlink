@@ -90,8 +90,8 @@ targets: '-,Q7JZK8,-,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,
   dmIP6K,Q9W2E9,37465,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   smp-30,H8F4T3,41786,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q9VIY9.tsv
-targets_download: targets_of_Q9VIY9.tsv
+tfs_download: TFLink_tfs_of_Q9VIY9.tsv
+targets_download: TFLink_targets_of_Q9VIY9.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

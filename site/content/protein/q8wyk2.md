@@ -412,8 +412,8 @@ targets: 'DDIT3,P35638,1649,GTRD;TRRUST,chromatin immunoprecipitation assay;infe
   MIF4GD,A9UHW6,57409,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   HMBS,P08397,3145,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q8WYK2.tsv
-targets_download: targets_of_Q8WYK2.tsv
+tfs_download: TFLink_tfs_of_Q8WYK2.tsv
+targets_download: TFLink_targets_of_Q8WYK2.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

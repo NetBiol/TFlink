@@ -211,7 +211,7 @@ targets: 'Zkscan2,G3X952,210162,GTRD,chromatin immunoprecipitation assay,2792402
 
   Heatr3,Q8BQM4,234549,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 tfs_download: ''
-targets_download: targets_of_Q6ZQK0.tsv
+targets_download: TFLink_targets_of_Q6ZQK0.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

@@ -20,7 +20,7 @@ tfs: 'dpl-1,Q22703,174458,GTRD,chromatin immunoprecipitation assay,27924024%5Bui
 
   lsl-1,O02273,172844,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9TZH5.tsv
+tfs_download: TFLink_tfs_of_Q9TZH5.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

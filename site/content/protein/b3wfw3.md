@@ -34,7 +34,7 @@ tfs: 'tbx-2,Q19691,-,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,
 
   dpl-1,Q22703,174458,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_B3WFW3.tsv
+tfs_download: TFLink_tfs_of_B3WFW3.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

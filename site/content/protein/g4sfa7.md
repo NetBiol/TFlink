@@ -28,7 +28,7 @@ tfs: 'pha-4,Q17381,180357,GTRD,chromatin immunoprecipitation assay,27924024%5Bui
 
   unc-62,Q9N5D6,178845,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_G4SFA7.tsv
+tfs_download: TFLink_tfs_of_G4SFA7.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

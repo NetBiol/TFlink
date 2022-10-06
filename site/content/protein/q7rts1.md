@@ -213,8 +213,8 @@ tfs: 'HMGXB4,Q9UGU5,10042,GTRD,chromatin immunoprecipitation assay,27924024%5Bui
 targets: 'RAB26,Q9ULW5,25837,IntAct_via_DoRothEA,inferred by curator,24234451%5Buid%5D+OR+20038531%5Buid%5D,Yes
 
   RAB3D,O95716,9545,IntAct_via_DoRothEA,inferred by curator,24234451%5Buid%5D+OR+20038531%5Buid%5D,Yes'
-tfs_download: tfs_of_Q7RTS1.tsv
-targets_download: targets_of_Q7RTS1.tsv
+tfs_download: TFLink_tfs_of_Q7RTS1.tsv
+targets_download: TFLink_targets_of_Q7RTS1.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

@@ -210,7 +210,7 @@ tfs: 'egl-27,Q09228,174121,GTRD,chromatin immunoprecipitation assay,27924024%5Bu
 
   gmeb-1,O17208,182061,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_G5EEW9.tsv
+tfs_download: TFLink_tfs_of_G5EEW9.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

@@ -290,8 +290,8 @@ targets: 'Mgat2,Q961U0,43563,GTRD,chromatin immunoprecipitation assay,27924024%5
   mrj,A8DYF7,36797,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   Dmel\CG16896,Q9W0Z4,37977,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q9VAF2.tsv
-targets_download: targets_of_Q9VAF2.tsv
+tfs_download: TFLink_tfs_of_Q9VAF2.tsv
+targets_download: TFLink_targets_of_Q9VAF2.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

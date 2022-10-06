@@ -210,7 +210,7 @@ tfs: 'FOXP2,O15409,93986,ReMap,chromatin immunoprecipitation assay,29126285%5Bui
 
   ZNF92,Q03936,168374,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9BWX1.tsv
+tfs_download: TFLink_tfs_of_Q9BWX1.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

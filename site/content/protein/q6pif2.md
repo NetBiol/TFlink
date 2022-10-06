@@ -212,7 +212,7 @@ tfs: 'WDR5,P61964,11091,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%
 
   ZBTB7A,O95365,51341,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D+OR+27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q6PIF2.tsv
+tfs_download: TFLink_tfs_of_Q6PIF2.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

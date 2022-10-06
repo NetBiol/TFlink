@@ -36,7 +36,7 @@ tfs: 'EBF1,Q9UH73,1879,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%
 
   RELA,Q04206,5970,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8NGP4.tsv
+tfs_download: TFLink_tfs_of_Q8NGP4.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

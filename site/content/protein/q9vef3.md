@@ -220,8 +220,8 @@ targets: 'mamo,Q9VY72,32353,GTRD,chromatin immunoprecipitation assay,27924024%5B
   Dmel\CG12268,Q9VCF6,42833,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   CG12432,M9PHU0,32729,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q9VEF3.tsv
-targets_download: targets_of_Q9VEF3.tsv
+tfs_download: TFLink_tfs_of_Q9VEF3.tsv
+targets_download: TFLink_targets_of_Q9VEF3.tsv
 bindingSites_download: ''
 binding_sites_ls: Q9VEF3_HT.fasta
 

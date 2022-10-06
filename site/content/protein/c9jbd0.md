@@ -214,7 +214,7 @@ tfs: 'NR2C1,P13056,7181,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%
 
   CDX2,Q99626,1045,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_C9JBD0.tsv
+tfs_download: TFLink_tfs_of_C9JBD0.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

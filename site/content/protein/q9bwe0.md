@@ -221,8 +221,8 @@ targets: 'EMX2,Q04743,2018,GTRD,chromatin immunoprecipitation assay,27924024%5Bu
   SF3A3,Q12874,10946,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   SMUG1,Q53HV7,23583,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q9BWE0.tsv
-targets_download: targets_of_Q9BWE0.tsv
+tfs_download: TFLink_tfs_of_Q9BWE0.tsv
+targets_download: TFLink_targets_of_Q9BWE0.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

@@ -210,7 +210,7 @@ tfs: 'NEUROD1,Q13562,4760,GTRD;ReMap,chromatin immunoprecipitation assay,2912628
 
   ARNT,P27540,405,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_H3BUS1.tsv
+tfs_download: TFLink_tfs_of_H3BUS1.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

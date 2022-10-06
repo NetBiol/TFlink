@@ -212,7 +212,7 @@ tfs: 'MITF,O75030,4286,GTRD;TFactS_via_DoRothea,chromatin immunoprecipitation as
 
   ZBTB40,Q9NUA8,9923,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8IYS5.tsv
+tfs_download: TFLink_tfs_of_Q8IYS5.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

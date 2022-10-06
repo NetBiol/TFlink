@@ -411,8 +411,8 @@ targets: 'Rreb1,Q3UH06,68750,GTRD,chromatin immunoprecipitation assay,27924024%5
   Sec24c,A0A286YDI8,218811,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   Map1lc3b,Q9CQV6,67443,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q5XJE5.tsv
-targets_download: targets_of_Q5XJE5.tsv
+tfs_download: TFLink_tfs_of_Q5XJE5.tsv
+targets_download: TFLink_targets_of_Q5XJE5.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

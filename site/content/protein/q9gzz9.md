@@ -211,7 +211,7 @@ tfs: 'CREB3,O43889,10488,GTRD;ReMap,chromatin immunoprecipitation assay,29126285
 
   SRC,P12931,6714,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9GZZ9.tsv
+tfs_download: TFLink_tfs_of_Q9GZZ9.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

@@ -66,8 +66,8 @@ targets: 'l(2)not2,P82149,-,GTRD,chromatin immunoprecipitation assay,27924024%5B
   CT7856,Q9V4B8,43777,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   RpL27,Q9VBN5,43103,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q9VKM6.tsv
-targets_download: targets_of_Q9VKM6.tsv
+tfs_download: TFLink_tfs_of_Q9VKM6.tsv
+targets_download: TFLink_targets_of_Q9VKM6.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

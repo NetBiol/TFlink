@@ -210,7 +210,7 @@ tfs: 'Nup98,Q6PFD9,269966,GTRD,chromatin immunoprecipitation assay,27924024%5Bui
 
   Maz,P56671,-,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_F8VQC9.tsv
+tfs_download: TFLink_tfs_of_F8VQC9.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

@@ -140,7 +140,7 @@ tfs: 'Mad,P42003,33529,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5
 
   Dref,Q94883,34328,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_M9PGK7.tsv
+tfs_download: TFLink_tfs_of_M9PGK7.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

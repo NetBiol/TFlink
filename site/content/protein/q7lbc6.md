@@ -410,8 +410,8 @@ targets: 'PSMG2,Q969U7,56984,GTRD,chromatin immunoprecipitation assay,27924024%5
   TP53I11,O14683,9537,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   POM121,Q96HA1,9883,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q7LBC6.tsv
-targets_download: targets_of_Q7LBC6.tsv
+tfs_download: TFLink_tfs_of_Q7LBC6.tsv
+targets_download: TFLink_targets_of_Q7LBC6.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

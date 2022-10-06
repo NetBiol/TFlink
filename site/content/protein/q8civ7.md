@@ -411,8 +411,8 @@ targets: 'Ppp1r3f,Q9JIG4,54646,GTRD,chromatin immunoprecipitation assay,27924024
   -,Q80VP5,72650,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   Fam160a2,Q3U2I3,74349,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q8CIV7.tsv
-targets_download: targets_of_Q8CIV7.tsv
+tfs_download: TFLink_tfs_of_Q8CIV7.tsv
+targets_download: TFLink_targets_of_Q8CIV7.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

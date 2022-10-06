@@ -214,7 +214,7 @@ tfs: 'Kmt2b,O08550,75410,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
   Ezh2,Q61188,14056,GTRD;ORegAnno;PAZAR,chromatin immunoprecipitation assay;inferred
   by curator,18971253%5Buid%5D+OR+27924024%5Buid%5D+OR+26578589%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_F8VPY0.tsv
+tfs_download: TFLink_tfs_of_F8VPY0.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

@@ -212,7 +212,7 @@ tfs: 'CEBPA,P49715,1050,GTRD;ORegAnno;PAZAR;TRED;TRRUST,chromatin immunoprecipit
 
   CCND2,P30279,894,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9NSC5.tsv
+tfs_download: TFLink_tfs_of_Q9NSC5.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

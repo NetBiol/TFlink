@@ -214,7 +214,7 @@ tfs: 'ETS1,P14921,2113,GTRD;HTRI;ORegAnno;PAZAR;ReMap,chromatin immunoprecipitat
 
   TCF7L1,Q9HCS4,83439,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8NFR9.tsv
+tfs_download: TFLink_tfs_of_Q8NFR9.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

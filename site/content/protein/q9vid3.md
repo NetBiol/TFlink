@@ -140,8 +140,8 @@ targets: 'HmgZ,Q06943,37480,GTRD,chromatin immunoprecipitation assay,27924024%5B
   -,H1UUR0,-,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   D19B,Q9VRV4,38717,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q9VID3.tsv
-targets_download: targets_of_Q9VID3.tsv
+tfs_download: TFLink_tfs_of_Q9VID3.tsv
+targets_download: TFLink_targets_of_Q9VID3.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

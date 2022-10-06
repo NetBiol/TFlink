@@ -80,7 +80,7 @@ tfs: 'Irf7,P70434,54123,TRRUST,inferred by curator,25355870%5Buid%5D+OR+29087512
 
   Neurog2,P70447,11924,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8CGK6.tsv
+tfs_download: TFLink_tfs_of_Q8CGK6.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

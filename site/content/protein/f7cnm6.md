@@ -210,7 +210,7 @@ tfs: 'Cebpb,P28033,12608,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
 
   Bcl6,P41183,12053,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_F7CNM6.tsv
+tfs_download: TFLink_tfs_of_F7CNM6.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

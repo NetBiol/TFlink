@@ -212,7 +212,7 @@ tfs: 'DEAF1,O75398,10522,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
 
   ZNF652,Q9Y2D9,22834,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9BST9.tsv
+tfs_download: TFLink_tfs_of_Q9BST9.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

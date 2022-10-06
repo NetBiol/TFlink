@@ -210,7 +210,7 @@ tfs: 'PML,P29590,5371,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D
 
   ZBTB8A,Q96BR9,653121,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q3MII6.tsv
+tfs_download: TFLink_tfs_of_Q3MII6.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

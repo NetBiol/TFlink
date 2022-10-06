@@ -32,7 +32,7 @@ tfs: 'lin-52,Q10120,176393,GTRD,chromatin immunoprecipitation assay,27924024%5Bu
 
   nhr-67,Q9XVV3,178024,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_F5GUH3.tsv
+tfs_download: TFLink_tfs_of_F5GUH3.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

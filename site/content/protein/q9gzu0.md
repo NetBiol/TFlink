@@ -211,7 +211,7 @@ tfs: 'EMSY,Q7Z589,56946,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%
 
   KLF10,Q13118,7071,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9GZU0.tsv
+tfs_download: TFLink_tfs_of_Q9GZU0.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

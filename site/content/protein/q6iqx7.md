@@ -210,7 +210,7 @@ tfs: 'Gata3,P23772,14462,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
 
   Atf7,Q8R0S1,-,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q6IQX7.tsv
+tfs_download: TFLink_tfs_of_Q6IQX7.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

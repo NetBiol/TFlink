@@ -408,8 +408,8 @@ targets: 'AIDA,Q96BJ3,64853,GTRD,chromatin immunoprecipitation assay,27924024%5B
   KDM4C,Q9H3R0,23081,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   EPCAM,P16422,4072,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q3MIS6.tsv
-targets_download: targets_of_Q3MIS6.tsv
+tfs_download: TFLink_tfs_of_Q3MIS6.tsv
+targets_download: TFLink_targets_of_Q3MIS6.tsv
 bindingSites_download: ''
 binding_sites_ls: Q3MIS6_HT.fasta
 

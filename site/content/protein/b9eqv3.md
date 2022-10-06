@@ -48,7 +48,7 @@ tfs: 'Nep2,A0A0B4K692,40588,GTRD,chromatin immunoprecipitation assay,27924024%5B
 
   TfIIA-L,P52654,43284,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_B9EQV3.tsv
+tfs_download: TFLink_tfs_of_B9EQV3.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

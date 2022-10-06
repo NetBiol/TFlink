@@ -217,7 +217,7 @@ tfs: 'PRDM14,Q9GZV8,63978,GTRD;HTRI;ORegAnno;PAZAR;ReMap,chromatin immunoprecipi
 
   RNGTT,O60942,8732,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8TDM0.tsv
+tfs_download: TFLink_tfs_of_Q8TDM0.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

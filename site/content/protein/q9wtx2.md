@@ -210,8 +210,8 @@ tfs: 'Sp3,O70494,20687,TRRUST,inferred by curator,16339759%5Buid%5D+OR+29087512%
 
   Snai1,Q02085,20613,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: Otx2,P80206,-,TRRUST,inferred by curator,22090505%5Buid%5D+OR+29087512%5Buid%5D,Yes
-tfs_download: tfs_of_Q9WTX2.tsv
-targets_download: targets_of_Q9WTX2.tsv
+tfs_download: TFLink_tfs_of_Q9WTX2.tsv
+targets_download: TFLink_targets_of_Q9WTX2.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

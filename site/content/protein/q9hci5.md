@@ -211,7 +211,7 @@ tfs: 'SMAD2,Q15796,4087,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%
 
   ZNF335,Q9H4Z2,63925,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9HCI5.tsv
+tfs_download: TFLink_tfs_of_Q9HCI5.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

@@ -410,8 +410,8 @@ targets: 'CEACAM21,Q3KPI0,90273,GTRD,chromatin immunoprecipitation assay,2792402
   ANGEL1,Q9UNK9,23357,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   WNT8A,Q9H1J5,7478,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q8NEP9.tsv
-targets_download: targets_of_Q8NEP9.tsv
+tfs_download: TFLink_tfs_of_Q8NEP9.tsv
+targets_download: TFLink_targets_of_Q8NEP9.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

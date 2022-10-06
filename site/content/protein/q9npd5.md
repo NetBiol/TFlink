@@ -212,7 +212,7 @@ tfs: 'NR1H4,Q96RI1,9971,TRRUST,inferred by curator,29087512%5Buid%5D+OR+16741617
 
   NR2F6,P10588,2063,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9NPD5.tsv
+tfs_download: TFLink_tfs_of_Q9NPD5.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

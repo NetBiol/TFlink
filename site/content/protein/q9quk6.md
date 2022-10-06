@@ -211,8 +211,8 @@ tfs: 'Spi1,P17433,20375,GTRD;TRED;TRRUST,chromatin immunoprecipitation assay;inf
 
   Ell2,Q3UKU1,192657,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: Csf3,P09920,12985,TRRUST,inferred by curator,29087512%5Buid%5D+OR+21455770%5Buid%5D,Yes
-tfs_download: tfs_of_Q9QUK6.tsv
-targets_download: targets_of_Q9QUK6.tsv
+tfs_download: TFLink_tfs_of_Q9QUK6.tsv
+targets_download: TFLink_targets_of_Q9QUK6.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

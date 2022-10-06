@@ -212,7 +212,7 @@ tfs: 'Smc5,Q8CG46,226026,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
 
   Mycn,P03966,18109,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8BNW9.tsv
+tfs_download: TFLink_tfs_of_Q8BNW9.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

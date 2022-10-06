@@ -411,8 +411,8 @@ targets: 'Dppa5a,Q9CQS7,434423,GTRD,chromatin immunoprecipitation assay,27924024
   Slc20a1,Q61609,20515,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   H2bc14,P10854,319186,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q3UKU1.tsv
-targets_download: targets_of_Q3UKU1.tsv
+tfs_download: TFLink_tfs_of_Q3UKU1.tsv
+targets_download: TFLink_targets_of_Q3UKU1.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

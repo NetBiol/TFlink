@@ -211,7 +211,7 @@ tfs: 'Nr3c1,P06537,-,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,
 
   Anpep,P97449,16790,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_A2AIR5.tsv
+tfs_download: TFLink_tfs_of_A2AIR5.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

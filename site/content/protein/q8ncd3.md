@@ -281,8 +281,8 @@ targets: 'WBP2,Q969T9,23558,GTRD,chromatin immunoprecipitation assay,27924024%5B
   DEAF1,O75398,10522,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   NDUFV3,P56181,4731,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q8NCD3.tsv
-targets_download: targets_of_Q8NCD3.tsv
+tfs_download: TFLink_tfs_of_Q8NCD3.tsv
+targets_download: TFLink_targets_of_Q8NCD3.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

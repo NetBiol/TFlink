@@ -78,7 +78,7 @@ tfs: 'Stat6,P52633,20852,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
 
   Six4,Q61321,20474,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_D3YVJ1.tsv
+tfs_download: TFLink_tfs_of_D3YVJ1.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

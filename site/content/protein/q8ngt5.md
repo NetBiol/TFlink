@@ -52,7 +52,7 @@ tfs: 'NEUROG2,Q9H2A3,63973,GTRD,chromatin immunoprecipitation assay,27924024%5Bu
   AR,P10275,367,GTRD;HTRI,chromatin immunoprecipitation array;chromatin immunoprecipitation
   assay,27924024%5Buid%5D+OR+22900683%5Buid%5D+OR+20610535%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8NGT5.tsv
+tfs_download: TFLink_tfs_of_Q8NGT5.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

@@ -213,7 +213,7 @@ tfs: 'SMAD2,Q15796,4087,TFactS_via_DoRothea,inferred by curator,22761861%5Buid%5
 
   GABPA,Q06546,2551,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9UKX5.tsv
+tfs_download: TFLink_tfs_of_Q9UKX5.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

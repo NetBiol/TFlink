@@ -210,7 +210,7 @@ tfs: 'HOMEZ,Q8IX15,57594,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
 
   DDX21,Q9NR30,9188,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9HBT8.tsv
+tfs_download: TFLink_tfs_of_Q9HBT8.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

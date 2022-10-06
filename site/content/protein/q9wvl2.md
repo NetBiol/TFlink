@@ -212,7 +212,7 @@ targets: 'Pdcd1,Q02242,18566,GTRD;TRRUST,chromatin immunoprecipitation assay;inf
 
   Luzp1,Q8R4U7,269593,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 tfs_download: ''
-targets_download: targets_of_Q9WVL2.tsv
+targets_download: TFLink_targets_of_Q9WVL2.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

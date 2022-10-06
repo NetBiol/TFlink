@@ -134,7 +134,7 @@ tfs: 'Zfp57,Q8C6P8,22715,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
 
   Spi1,P17433,20375,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_A2RSX4.tsv
+tfs_download: TFLink_tfs_of_A2RSX4.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

@@ -211,7 +211,7 @@ tfs: 'Pitx1,P70314,18740,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
 
   Mitf,Q08874,17342,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8JZU0.tsv
+tfs_download: TFLink_tfs_of_Q8JZU0.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

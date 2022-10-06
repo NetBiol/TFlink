@@ -213,7 +213,7 @@ tfs: 'CTCF,P49711,10664,GTRD;ORegAnno;PAZAR;ReMap,chromatin immunoprecipitation 
 
   ERCC6,Q03468,2074,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9HCJ2.tsv
+tfs_download: TFLink_tfs_of_Q9HCJ2.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

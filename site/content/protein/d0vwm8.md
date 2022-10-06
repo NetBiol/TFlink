@@ -253,8 +253,8 @@ targets: '-,Q8IA87,178967,GTRD,chromatin immunoprecipitation assay,27924024%5Bui
   catp-5,Q21286,181067,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   eri-1,O44406,176868,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_D0VWM8.tsv
-targets_download: targets_of_D0VWM8.tsv
+tfs_download: TFLink_tfs_of_D0VWM8.tsv
+targets_download: TFLink_targets_of_D0VWM8.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

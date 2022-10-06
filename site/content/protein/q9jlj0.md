@@ -225,8 +225,8 @@ targets: 'Flt4,P35917,14257,TRRUST,inferred by curator,29087512%5Buid%5D+OR+2394
   Fgf10,O35565,14165,TRRUST,inferred by curator,29087512%5Buid%5D+OR+23093675%5Buid%5D+OR+15175244%5Buid%5D,Yes
 
   Pitx2,P97474,18741,TRRUST,inferred by curator,16556915%5Buid%5D+OR+20816801%5Buid%5D+OR+29087512%5Buid%5D,Yes'
-tfs_download: tfs_of_Q9JLJ0.tsv
-targets_download: targets_of_Q9JLJ0.tsv
+tfs_download: TFLink_tfs_of_Q9JLJ0.tsv
+targets_download: TFLink_targets_of_Q9JLJ0.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

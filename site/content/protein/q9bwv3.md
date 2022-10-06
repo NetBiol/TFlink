@@ -211,7 +211,7 @@ tfs: 'ARID4B,Q4LE39,51742,GTRD,chromatin immunoprecipitation assay,27924024%5Bui
 
   USF1,P22415,7391,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D+OR+27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9BWV3.tsv
+tfs_download: TFLink_tfs_of_Q9BWV3.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

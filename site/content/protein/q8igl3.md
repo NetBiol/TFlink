@@ -112,7 +112,7 @@ tfs: 'da,P11420,34413,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D
 
   Brca2,Q9W157,37916,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8IGL3.tsv
+tfs_download: TFLink_tfs_of_Q8IGL3.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

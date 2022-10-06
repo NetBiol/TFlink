@@ -88,7 +88,7 @@ tfs: 'mab-5,P10038,176091,GTRD,chromatin immunoprecipitation assay,27924024%5Bui
 
   xnd-1,O45134,175776,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9XVS3.tsv
+tfs_download: TFLink_tfs_of_Q9XVS3.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

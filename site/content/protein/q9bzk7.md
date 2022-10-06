@@ -410,8 +410,8 @@ targets: 'UCHL5,Q9Y5K5,51377,GTRD;ReMap,chromatin immunoprecipitation assay,2912
   CAPN10,Q9HC96,11132,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D+OR+27924024%5Buid%5D,No
 
   UBE3C,Q15386,9690,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No'
-tfs_download: tfs_of_Q9BZK7.tsv
-targets_download: targets_of_Q9BZK7.tsv
+tfs_download: TFLink_tfs_of_Q9BZK7.tsv
+targets_download: TFLink_targets_of_Q9BZK7.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

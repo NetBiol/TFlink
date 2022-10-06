@@ -214,7 +214,7 @@ tfs: 'ZFP36,P26651,7538,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%
 
   KDM6B,O15054,23135,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_B1AKI9.tsv
+tfs_download: TFLink_tfs_of_B1AKI9.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

@@ -211,7 +211,7 @@ tfs: 'Vezf1,Q5SXC4,22344,TRRUST,inferred by curator,22308494%5Buid%5D+OR+2908751
 
   Smarcad1,Q04692,13990,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9DAT2.tsv
+tfs_download: TFLink_tfs_of_Q9DAT2.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

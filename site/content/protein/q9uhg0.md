@@ -212,7 +212,7 @@ tfs: 'EHF,Q9NZC4,26298,TRRUST,inferred by curator,22733135%5Buid%5D+OR+29087512%
 
   TFAP4,Q01664,7023,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9UHG0.tsv
+tfs_download: TFLink_tfs_of_Q9UHG0.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

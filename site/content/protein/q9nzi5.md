@@ -413,8 +413,8 @@ targets: 'CYP11A1,P05108,1583,TRRUST,inferred by curator,18004979%5Buid%5D+OR+29
   TRAK1,Q9UPV9,22906,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   RPS27A,P62979,6233,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q9NZI5.tsv
-targets_download: targets_of_Q9NZI5.tsv
+tfs_download: TFLink_tfs_of_Q9NZI5.tsv
+targets_download: TFLink_targets_of_Q9NZI5.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

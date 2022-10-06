@@ -212,7 +212,7 @@ tfs: 'TCF3,P15923,6929,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5
 
   BRD3,Q15059,8019,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q3KQV9.tsv
+tfs_download: TFLink_tfs_of_Q3KQV9.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

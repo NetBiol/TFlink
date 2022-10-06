@@ -213,7 +213,7 @@ tfs: 'SPI1,P17947,6688,ReMap;TRED,chromatin immunoprecipitation assay;inferred b
 
   CHD8,Q9HCK8,57680,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q6ISU1.tsv
+tfs_download: TFLink_tfs_of_Q6ISU1.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

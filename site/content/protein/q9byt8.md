@@ -212,7 +212,7 @@ tfs: 'CAT,P04040,847,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,
 
   NELFE,P18615,7936,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9BYT8.tsv
+tfs_download: TFLink_tfs_of_Q9BYT8.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

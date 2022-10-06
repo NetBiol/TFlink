@@ -284,8 +284,8 @@ targets: 'fbxa-141,O62123,183903,GTRD,chromatin immunoprecipitation assay,279240
   mig-2,G5EBV3,181344,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   -,Q21202,181533,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_G5EGE9.tsv
-targets_download: targets_of_G5EGE9.tsv
+tfs_download: TFLink_tfs_of_G5EGE9.tsv
+targets_download: TFLink_targets_of_G5EGE9.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

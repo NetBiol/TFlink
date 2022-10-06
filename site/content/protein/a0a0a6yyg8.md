@@ -210,7 +210,7 @@ tfs: 'PRKCQ,Q04759,5588,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%
 
   IRF4,Q15306,3662,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_A0A0A6YYG8.tsv
+tfs_download: TFLink_tfs_of_A0A0A6YYG8.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

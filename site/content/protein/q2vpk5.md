@@ -210,7 +210,7 @@ tfs: 'MAPK14,Q16539,1432,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
 
   RBM25,P49756,58517,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q2VPK5.tsv
+tfs_download: TFLink_tfs_of_Q2VPK5.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

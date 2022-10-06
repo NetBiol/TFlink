@@ -86,7 +86,7 @@ tfs: 'RLM1,Q12224,856016,Yeastract,array technology/partial DNA sequence identif
   KAR4,P25583,850303,Yeastract,array technology/partial DNA sequence identification
   by hybridization,20385592%5Buid%5D+OR+24170807%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q7LHG5.tsv
+tfs_download: TFLink_tfs_of_Q7LHG5.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

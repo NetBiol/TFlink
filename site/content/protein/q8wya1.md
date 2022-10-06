@@ -210,8 +210,8 @@ tfs: 'TRIM22,Q8IYM9,10346,ReMap,chromatin immunoprecipitation assay,29126285%5Bu
 
   CDK9,P50750,1025,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D+OR+27924024%5Buid%5D,No'
 targets: SERPINE1,P05121,5054,TRRUST,inferred by curator,22198637%5Buid%5D+OR+29087512%5Buid%5D,Yes
-tfs_download: tfs_of_Q8WYA1.tsv
-targets_download: targets_of_Q8WYA1.tsv
+tfs_download: TFLink_tfs_of_Q8WYA1.tsv
+targets_download: TFLink_targets_of_Q8WYA1.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

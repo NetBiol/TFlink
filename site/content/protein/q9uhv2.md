@@ -211,8 +211,8 @@ tfs: 'TRIM28,Q13263,10155,ReMap,chromatin immunoprecipitation assay,29126285%5Bu
 
   ARID1A,O14497,8289,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No'
 targets: SET,Q01105,6418,TRRUST,inferred by curator,20570897%5Buid%5D+OR+29087512%5Buid%5D,Yes
-tfs_download: tfs_of_Q9UHV2.tsv
-targets_download: targets_of_Q9UHV2.tsv
+tfs_download: TFLink_tfs_of_Q9UHV2.tsv
+targets_download: TFLink_targets_of_Q9UHV2.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

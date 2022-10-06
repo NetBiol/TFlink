@@ -213,7 +213,7 @@ tfs: 'Nfkb1,P25799,18033,TRRUST,inferred by curator,20522648%5Buid%5D+OR+2908751
 
   Tead1,P30051,-,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9WTY4.tsv
+tfs_download: TFLink_tfs_of_Q9WTY4.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

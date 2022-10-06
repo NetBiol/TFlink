@@ -88,7 +88,7 @@ tfs: 'Terf2ip,Q91VL8,57321,GTRD,chromatin immunoprecipitation assay,27924024%5Bu
 
   Hes5,P70120,15208,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_A0A0G2JFS6.tsv
+tfs_download: TFLink_tfs_of_A0A0G2JFS6.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

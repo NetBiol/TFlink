@@ -60,7 +60,7 @@ tfs: 'GATA6,Q92908,2627,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%
 
   ETS1,P14921,2113,HTRI,chromatin immunoprecipitation assay,20019798%5Buid%5D+OR+22900683%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9UJQ7.tsv
+tfs_download: TFLink_tfs_of_Q9UJQ7.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

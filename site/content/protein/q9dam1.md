@@ -211,7 +211,7 @@ tfs: 'Sinhcaf,Q8C8M1,56306,GTRD,chromatin immunoprecipitation assay,27924024%5Bu
 
   Smad2,Q62432,17126,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9DAM1.tsv
+tfs_download: TFLink_tfs_of_Q9DAM1.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

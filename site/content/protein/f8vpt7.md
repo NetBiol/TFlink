@@ -210,7 +210,7 @@ tfs: 'Sin3a,Q60520,20466,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
 
   Six2,Q62232,20472,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_F8VPT7.tsv
+tfs_download: TFLink_tfs_of_F8VPT7.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

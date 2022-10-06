@@ -20,7 +20,7 @@ tfs: 'FOS,P01100,2353,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D
 
   SSRP1,Q08945,6749,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_A6NIY4.tsv
+tfs_download: TFLink_tfs_of_A6NIY4.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

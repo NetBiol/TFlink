@@ -210,8 +210,8 @@ tfs: 'Sp1,O89090,20683,TRED,inferred by curator,17202159%5Buid%5D,Yes
 
   Supt5h,O55201,20924,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: Pttg1ip,Q8R143,108705,TRRUST,inferred by curator,29087512%5Buid%5D+OR+15886233%5Buid%5D,Yes
-tfs_download: tfs_of_Q9CQJ7.tsv
-targets_download: targets_of_Q9CQJ7.tsv
+tfs_download: TFLink_tfs_of_Q9CQJ7.tsv
+targets_download: TFLink_targets_of_Q9CQJ7.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

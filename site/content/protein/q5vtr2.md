@@ -210,7 +210,7 @@ tfs: 'TCF7,P36402,6932,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5
 
   E2F3,O00716,1871,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q5VTR2.tsv
+tfs_download: TFLink_tfs_of_Q5VTR2.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

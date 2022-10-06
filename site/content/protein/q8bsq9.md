@@ -409,8 +409,8 @@ targets: 'Il10,P18893,16153,TRRUST,inferred by curator,22336179%5Buid%5D+OR+2908
   Ephx3,A0A0R4J127,71932,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   Dtwd1,Q9D8U7,69185,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q8BSQ9.tsv
-targets_download: targets_of_Q8BSQ9.tsv
+tfs_download: TFLink_tfs_of_Q8BSQ9.tsv
+targets_download: TFLink_targets_of_Q8BSQ9.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

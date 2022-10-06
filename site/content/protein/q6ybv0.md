@@ -212,7 +212,7 @@ tfs: 'ZBTB7A,O95365,51341,GTRD;ReMap,chromatin immunoprecipitation assay,2912628
 
   SMARCA2,P51531,6595,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q6YBV0.tsv
+tfs_download: TFLink_tfs_of_Q6YBV0.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

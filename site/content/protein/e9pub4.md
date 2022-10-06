@@ -211,7 +211,7 @@ tfs: 'Meis1,Q60954,17268,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
 
   Tcf7l1,Q9Z1J1,21415,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_E9PUB4.tsv
+tfs_download: TFLink_tfs_of_E9PUB4.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

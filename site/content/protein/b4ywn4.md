@@ -122,7 +122,7 @@ tfs: 'topi-RA,T2FFH5,41199,GTRD,chromatin immunoprecipitation assay,27924024%5Bu
 
   REPTOR,Q9VC61,42930,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_B4YWN4.tsv
+tfs_download: TFLink_tfs_of_B4YWN4.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

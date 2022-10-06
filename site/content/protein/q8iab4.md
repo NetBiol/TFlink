@@ -186,7 +186,7 @@ tfs: 'jun-1,G5ECU7,174452,GTRD,chromatin immunoprecipitation assay,27924024%5Bui
 
   snpc-4,P91868,172711,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8IAB4.tsv
+tfs_download: TFLink_tfs_of_Q8IAB4.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

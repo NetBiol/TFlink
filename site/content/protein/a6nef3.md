@@ -21,7 +21,7 @@ tfs: 'SOX2,P48431,6657,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5
 
   FOXP1,Q9H334,27086,ORegAnno;PAZAR,inferred by curator,18971253%5Buid%5D+OR+26578589%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_A6NEF3.tsv
+tfs_download: TFLink_tfs_of_A6NEF3.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

@@ -408,8 +408,8 @@ targets: 'Ids,Q08890,15931,TRRUST,inferred by curator,20231279%5Buid%5D+OR+29087
   Faf1,P54731,14084,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   Ciao3,Q7TMW6,67563,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q8CCE9.tsv
-targets_download: targets_of_Q8CCE9.tsv
+tfs_download: TFLink_tfs_of_Q8CCE9.tsv
+targets_download: TFLink_targets_of_Q8CCE9.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

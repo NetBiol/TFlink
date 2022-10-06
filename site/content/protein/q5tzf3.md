@@ -211,7 +211,7 @@ tfs: 'KLF9,Q13886,687,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5
 
   MED1,Q15648,5469,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q5TZF3.tsv
+tfs_download: TFLink_tfs_of_Q5TZF3.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

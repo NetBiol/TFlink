@@ -18,7 +18,7 @@ tfs: 'FOXP1,Q9H334,27086,ORegAnno;PAZAR,inferred by curator,18971253%5Buid%5D+OR
 
   AR,P10275,367,HTRI,chromatin immunoprecipitation array,22900683%5Buid%5D+OR+20610535%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_A6NDK9.tsv
+tfs_download: TFLink_tfs_of_A6NDK9.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

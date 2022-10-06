@@ -34,7 +34,7 @@ tfs: 'Olig2,G3V612,304103,GTRD,chromatin immunoprecipitation assay,27924024%5Bui
 
   Pou1f1,P10037,25517,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q6DGF6.tsv
+tfs_download: TFLink_tfs_of_Q6DGF6.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

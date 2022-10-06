@@ -96,7 +96,7 @@ tfs: 'Atoh1,P48985,11921,GTRD;ORegAnno;PAZAR,chromatin immunoprecipitation assay
 
   Men1,O88559,17283,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q5DTY9.tsv
+tfs_download: TFLink_tfs_of_Q5DTY9.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

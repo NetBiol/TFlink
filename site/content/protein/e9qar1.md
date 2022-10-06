@@ -210,8 +210,8 @@ tfs: 'Stra8,P70278,20899,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
 
   Sox9,Q04887,20682,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: Nfkb1,P25799,18033,TRRUST,inferred by curator,12061770%5Buid%5D+OR+29087512%5Buid%5D,Yes
-tfs_download: tfs_of_E9QAR1.tsv
-targets_download: targets_of_E9QAR1.tsv
+tfs_download: TFLink_tfs_of_E9QAR1.tsv
+targets_download: TFLink_targets_of_E9QAR1.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

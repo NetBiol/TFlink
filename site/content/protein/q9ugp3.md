@@ -16,7 +16,7 @@ tfs: 'POU2AF1,Q16633,5450,TRRUST,inferred by curator,1423591%5Buid%5D+OR+2908751
 
   ARID1B,Q8NFD5,57492,TRRUST,inferred by curator,29087512%5Buid%5D+OR+18981111%5Buid%5D,Yes'
 targets: ''
-tfs_download: tfs_of_Q9UGP3.tsv
+tfs_download: TFLink_tfs_of_Q9UGP3.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

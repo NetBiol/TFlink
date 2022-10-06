@@ -210,7 +210,7 @@ tfs: 'Supt16h,Q920B9,114741,GTRD,chromatin immunoprecipitation assay,27924024%5B
 
   Cebpb,P28033,12608,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_J3QNW9.tsv
+tfs_download: TFLink_tfs_of_J3QNW9.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

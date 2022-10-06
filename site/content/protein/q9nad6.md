@@ -310,8 +310,8 @@ targets: 'tos-1,H2KZK5,-,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
   tasp-1,G5EF83,-,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   -,Q23540,191354,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q9NAD6.tsv
-targets_download: targets_of_Q9NAD6.tsv
+tfs_download: TFLink_tfs_of_Q9NAD6.tsv
+targets_download: TFLink_targets_of_Q9NAD6.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

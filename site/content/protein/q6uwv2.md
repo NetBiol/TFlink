@@ -215,7 +215,7 @@ tfs: 'NKX2-2,O95096,4821,ReMap,chromatin immunoprecipitation assay,29126285%5Bui
 
   RXRA,P19793,6256,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q6UWV2.tsv
+tfs_download: TFLink_tfs_of_Q6UWV2.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

@@ -210,7 +210,7 @@ tfs: 'Nanog,Q80Z64,71950,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
 
   Irf3,P70671,54131,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_J3KMM7.tsv
+tfs_download: TFLink_tfs_of_J3KMM7.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

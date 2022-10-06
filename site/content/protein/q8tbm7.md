@@ -211,7 +211,7 @@ tfs: 'BCL6,P41182,604,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5B
 
   PCBP1,Q15365,5093,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8TBM7.tsv
+tfs_download: TFLink_tfs_of_Q8TBM7.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

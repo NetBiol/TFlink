@@ -221,7 +221,7 @@ tfs: 'TCF7L2,Q9NQB0,6934,TFactS_via_DoRothea,inferred by curator,22761861%5Buid%
 
   DTL,Q9NZJ0,51514,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9UIK4.tsv
+tfs_download: TFLink_tfs_of_Q9UIK4.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

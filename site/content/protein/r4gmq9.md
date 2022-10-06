@@ -88,7 +88,7 @@ tfs: 'MAFF,Q9ULX9,23764,ReMap,chromatin immunoprecipitation assay,29126285%5Buid
 
   BRIP1,Q9BX63,83990,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_R4GMQ9.tsv
+tfs_download: TFLink_tfs_of_R4GMQ9.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

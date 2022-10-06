@@ -18,7 +18,7 @@ tfs: 'Notch1,Q01705,18128,GTRD,chromatin immunoprecipitation assay,27924024%5Bui
 
   Ebf1,Q07802,13591,ORegAnno;PAZAR,inferred by curator,18971253%5Buid%5D+OR+26578589%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_A0A0A6YWB6.tsv
+tfs_download: TFLink_tfs_of_A0A0A6YWB6.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

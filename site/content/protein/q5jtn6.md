@@ -211,7 +211,7 @@ tfs: 'MAFF,Q9ULX9,23764,ReMap,chromatin immunoprecipitation assay,29126285%5Buid
 
   CENPA,P49450,1058,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q5JTN6.tsv
+tfs_download: TFLink_tfs_of_Q5JTN6.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

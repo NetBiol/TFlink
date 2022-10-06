@@ -213,7 +213,7 @@ tfs: 'Foxo1,Q9R1E0,56458,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
 
   Pbx1,P41778,18514,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q3UMF0.tsv
+tfs_download: TFLink_tfs_of_Q3UMF0.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

@@ -215,7 +215,7 @@ tfs: 'ZNF148,Q9UQR1,7707,IntAct_via_DoRothEA;ORegAnno,inferred by curator,265785
 
   p65,O43245,-,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q5VYX0.tsv
+tfs_download: TFLink_tfs_of_Q5VYX0.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

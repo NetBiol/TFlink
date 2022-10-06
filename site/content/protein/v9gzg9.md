@@ -14,7 +14,7 @@ tfs: 'Ar,P19091,11835,TRED,inferred by curator,17202159%5Buid%5D,Yes
 
   Pou2f1,P25425,18986,TRED,inferred by curator,17202159%5Buid%5D,Yes'
 targets: ''
-tfs_download: tfs_of_V9GZG9.tsv
+tfs_download: TFLink_tfs_of_V9GZG9.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

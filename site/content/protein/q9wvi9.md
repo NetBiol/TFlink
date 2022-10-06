@@ -210,7 +210,7 @@ tfs: 'Daxx,O35613,13163,TRRUST,inferred by curator,15878163%5Buid%5D+OR+29087512
 
   Rara,P11416,19401,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9WVI9.tsv
+tfs_download: TFLink_tfs_of_Q9WVI9.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

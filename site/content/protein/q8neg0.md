@@ -86,7 +86,7 @@ tfs: 'EED,O75530,8726,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5
 
   ARNT,P27540,405,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8NEG0.tsv
+tfs_download: TFLink_tfs_of_Q8NEG0.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

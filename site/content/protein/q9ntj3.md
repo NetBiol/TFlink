@@ -234,8 +234,8 @@ targets: 'VPS35,Q96QK1,55737,ReMap,chromatin immunoprecipitation assay,29126285%
   EXOC8,Q8IYI6,149371,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No
 
   OSBP,P22059,5007,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No'
-tfs_download: tfs_of_Q9NTJ3.tsv
-targets_download: targets_of_Q9NTJ3.tsv
+tfs_download: TFLink_tfs_of_Q9NTJ3.tsv
+targets_download: TFLink_targets_of_Q9NTJ3.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

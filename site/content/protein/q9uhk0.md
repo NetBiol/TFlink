@@ -289,8 +289,8 @@ targets: 'CDCA7L,Q96GN5,55536,GTRD,chromatin immunoprecipitation assay,27924024%
   TJP3,O95049,27134,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   LRRC4B,Q9NT99,94030,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q9UHK0.tsv
-targets_download: targets_of_Q9UHK0.tsv
+tfs_download: TFLink_tfs_of_Q9UHK0.tsv
+targets_download: TFLink_targets_of_Q9UHK0.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

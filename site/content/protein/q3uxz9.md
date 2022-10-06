@@ -409,8 +409,8 @@ targets: 'Tinf2,Q8K1K3,28113,GTRD,chromatin immunoprecipitation assay,27924024%5
   Rgp1,Q8BHT7,242406,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   Rbm4b,Q8VE92,66704,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q3UXZ9.tsv
-targets_download: targets_of_Q3UXZ9.tsv
+tfs_download: TFLink_tfs_of_Q3UXZ9.tsv
+targets_download: TFLink_targets_of_Q3UXZ9.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

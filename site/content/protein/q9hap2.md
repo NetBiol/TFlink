@@ -409,8 +409,8 @@ targets: 'NANOS3,P60323,342977,GTRD,chromatin immunoprecipitation assay,27924024
   MMS22L,Q6ZRQ5,253714,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   ANKFY1,Q9P2R3,51479,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q9HAP2.tsv
-targets_download: targets_of_Q9HAP2.tsv
+tfs_download: TFLink_tfs_of_Q9HAP2.tsv
+targets_download: TFLink_targets_of_Q9HAP2.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

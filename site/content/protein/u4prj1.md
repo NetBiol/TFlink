@@ -122,7 +122,7 @@ tfs: 'unc-62,Q9N5D6,178845,GTRD,chromatin immunoprecipitation assay,27924024%5Bu
 
   eor-1,G5EDU4,-,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_U4PRJ1.tsv
+tfs_download: TFLink_tfs_of_U4PRJ1.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

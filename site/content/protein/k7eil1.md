@@ -210,7 +210,7 @@ tfs: 'SMARCA4,P51532,6597,GTRD;ReMap,chromatin immunoprecipitation assay,2912628
 
   FOS,P01100,2353,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_K7EIL1.tsv
+tfs_download: TFLink_tfs_of_K7EIL1.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

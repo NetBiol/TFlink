@@ -18,7 +18,7 @@ tfs: 'TP73,O15350,7161,HTRI,chromatin immunoprecipitation array,22900683%5Buid%5
 
   LMNB1,P20700,4001,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8NGQ3.tsv
+tfs_download: TFLink_tfs_of_Q8NGQ3.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

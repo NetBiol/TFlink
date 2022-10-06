@@ -214,7 +214,7 @@ tfs: 'GATA2,P23769,2624,GTRD;HTRI;ORegAnno;ReMap,chromatin immunoprecipitation a
 
   MAF,O75444,4094,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D+OR+27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8NCT1.tsv
+tfs_download: TFLink_tfs_of_Q8NCT1.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

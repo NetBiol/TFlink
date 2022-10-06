@@ -170,7 +170,7 @@ tfs: 'rbr-2,Q23541,177985,GTRD,chromatin immunoprecipitation assay,27924024%5Bui
 
   snpc-1.1,Q17694,174255,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_G5EFP2.tsv
+tfs_download: TFLink_tfs_of_G5EFP2.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

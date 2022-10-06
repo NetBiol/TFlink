@@ -217,7 +217,7 @@ tfs: 'MYC,P01106,4609,GTRD;HTRI;ReMap;TRED,chromatin immunoprecipitation assay;i
 
   BCL11B,Q9C0K0,64919,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9NQZ7.tsv
+tfs_download: TFLink_tfs_of_Q9NQZ7.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

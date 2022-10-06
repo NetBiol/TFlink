@@ -34,7 +34,7 @@ tfs: 'Ubx,P83949,42034,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5
 
   Cp190,Q24478,41848,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_C0PVC7.tsv
+tfs_download: TFLink_tfs_of_C0PVC7.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

@@ -46,7 +46,7 @@ tfs: 'CAT,P04040,847,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,
 
   PRDM9,Q9NQV7,56979,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q6IPX3.tsv
+tfs_download: TFLink_tfs_of_Q6IPX3.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

@@ -368,8 +368,8 @@ targets: 'Me2,Q99KE1,107029,GTRD,chromatin immunoprecipitation assay,27924024%5B
   Mtfp1,Q9CRB8,67900,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   Zfp512b,B7ZCR6,269401,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q9WVG7.tsv
-targets_download: targets_of_Q9WVG7.tsv
+tfs_download: TFLink_tfs_of_Q9WVG7.tsv
+targets_download: TFLink_targets_of_Q9WVG7.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

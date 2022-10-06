@@ -210,7 +210,7 @@ tfs: 'Htatsf1,Q8BGC0,72459,GTRD,chromatin immunoprecipitation assay,27924024%5Bu
 
   Chaf1b,Q9D0N7,110749,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8BHA1.tsv
+tfs_download: TFLink_tfs_of_Q8BHA1.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

@@ -58,7 +58,7 @@ tfs: 'mep-1,Q21502,178074,GTRD,chromatin immunoprecipitation assay,27924024%5Bui
 
   lin-13,Q11107,176083,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_A0A1X7RBQ5.tsv
+tfs_download: TFLink_tfs_of_A0A1X7RBQ5.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

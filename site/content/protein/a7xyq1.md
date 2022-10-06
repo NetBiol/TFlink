@@ -215,7 +215,7 @@ tfs: 'ARID1A,O14497,8289,GTRD;ReMap,chromatin immunoprecipitation assay,29126285
 
   CUL4A,Q13619,8451,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_A7XYQ1.tsv
+tfs_download: TFLink_tfs_of_A7XYQ1.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

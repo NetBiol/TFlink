@@ -210,7 +210,7 @@ tfs: 'DNMT3B,Q9UBC3,1789,ReMap,chromatin immunoprecipitation assay,29126285%5Bui
 
   FOXA1,P55317,3169,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8TDE3.tsv
+tfs_download: TFLink_tfs_of_Q8TDE3.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

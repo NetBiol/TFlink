@@ -212,7 +212,7 @@ tfs: 'Sinhcaf,Q8C8M1,56306,GTRD,chromatin immunoprecipitation assay,27924024%5Bu
 
   Cebpb,P28033,12608,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_A0A0G2JDT9.tsv
+tfs_download: TFLink_tfs_of_A0A0G2JDT9.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

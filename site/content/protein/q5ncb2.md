@@ -210,7 +210,7 @@ tfs: 'Creld1,Q91XD7,171508,GTRD,chromatin immunoprecipitation assay,27924024%5Bu
 
   Cdk6,Q64261,12571,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q5NCB2.tsv
+tfs_download: TFLink_tfs_of_Q5NCB2.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

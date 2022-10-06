@@ -210,8 +210,8 @@ tfs: 'Cebpe,Q6PZD9,110794,GTRD,chromatin immunoprecipitation assay,27924024%5Bui
 
   Sirt6,P59941,50721,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: Tyms,P07607,22171,TRRUST,inferred by curator,19237534%5Buid%5D+OR+29087512%5Buid%5D,Yes
-tfs_download: tfs_of_Q9ERA0.tsv
-targets_download: targets_of_Q9ERA0.tsv
+tfs_download: TFLink_tfs_of_Q9ERA0.tsv
+targets_download: TFLink_targets_of_Q9ERA0.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

@@ -73,7 +73,7 @@ tfs: 'Ppargc1a,O70343,19017,GTRD,chromatin immunoprecipitation assay,27924024%5B
 
   Gata3,P23772,14462,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9CQY8.tsv
+tfs_download: TFLink_tfs_of_Q9CQY8.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

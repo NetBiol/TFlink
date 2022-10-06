@@ -210,7 +210,7 @@ tfs: 'SPIB,Q01892,6689,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5
 
   KLF4,O43474,9314,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D+OR+27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q6GPH6.tsv
+tfs_download: TFLink_tfs_of_Q6GPH6.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

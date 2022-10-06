@@ -213,8 +213,8 @@ tfs: 'ZNF579,Q8NAF0,163033,GTRD,chromatin immunoprecipitation assay,27924024%5Bu
 
   KLF10,Q13118,7071,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: UPF1,Q92900,5976,TRRUST,inferred by curator,19095803%5Buid%5D+OR+29087512%5Buid%5D,Yes
-tfs_download: tfs_of_Q9HAU5.tsv
-targets_download: targets_of_Q9HAU5.tsv
+tfs_download: TFLink_tfs_of_Q9HAU5.tsv
+targets_download: TFLink_targets_of_Q9HAU5.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

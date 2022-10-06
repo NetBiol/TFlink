@@ -232,8 +232,8 @@ targets: 'Cep70,Q6IQY5,68121,GTRD,chromatin immunoprecipitation assay,27924024%5
   Trav3-4,A0A075B654,-,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   Esrrb,Q61539,26380,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_E9QAG8.tsv
-targets_download: targets_of_E9QAG8.tsv
+tfs_download: TFLink_tfs_of_E9QAG8.tsv
+targets_download: TFLink_targets_of_E9QAG8.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

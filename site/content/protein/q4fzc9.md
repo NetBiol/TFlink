@@ -211,7 +211,7 @@ tfs: 'Kdm6a,O70546,22289,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
 
   Acss2,Q9QXG4,60525,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q4FZC9.tsv
+tfs_download: TFLink_tfs_of_Q4FZC9.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

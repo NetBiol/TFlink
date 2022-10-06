@@ -211,7 +211,7 @@ tfs: 'Atf7,Q8R0S1,-,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,N
 
   Plagl1,Q9JLQ4,22634,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_E9QLC2.tsv
+tfs_download: TFLink_tfs_of_E9QLC2.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

@@ -90,7 +90,7 @@ tfs: 'hth,O46339,41273,REDfly,electrophoretic mobility shift assay,20965965%5Bui
 
   fs(1)h,P13709,31722,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_A8JPC8.tsv
+tfs_download: TFLink_tfs_of_A8JPC8.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

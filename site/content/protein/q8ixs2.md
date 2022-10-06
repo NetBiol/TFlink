@@ -212,7 +212,7 @@ tfs: 'ATF1,P18846,466,GTRD;TRED,chromatin immunoprecipitation assay;inferred by 
 
   CHD8,Q9HCK8,57680,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8IXS2.tsv
+tfs_download: TFLink_tfs_of_Q8IXS2.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

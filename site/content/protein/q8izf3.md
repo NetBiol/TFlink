@@ -212,7 +212,7 @@ tfs: 'ZSCAN2,Q7Z7L9,54993,GTRD,chromatin immunoprecipitation assay,27924024%5Bui
 
   ARID1B,Q8NFD5,57492,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8IZF3.tsv
+tfs_download: TFLink_tfs_of_Q8IZF3.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

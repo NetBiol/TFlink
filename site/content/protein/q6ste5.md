@@ -212,7 +212,7 @@ tfs: 'TP63,Q9H3D4,8626,GTRD;ReMap;TRRUST,chromatin immunoprecipitation assay;inf
 
   ID1,P41134,3397,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q6STE5.tsv
+tfs_download: TFLink_tfs_of_Q6STE5.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

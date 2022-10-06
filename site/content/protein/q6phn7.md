@@ -211,7 +211,7 @@ tfs: 'Jund,P15066,16478,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%
 
   Mta2,Q9R190,23942,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q6PHN7.tsv
+tfs_download: TFLink_tfs_of_Q6PHN7.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

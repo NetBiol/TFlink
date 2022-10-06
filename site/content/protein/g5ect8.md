@@ -248,8 +248,8 @@ targets: '-,P34526,187337,GTRD,chromatin immunoprecipitation assay,27924024%5Bui
   snx-13,Q9U2U6,178482,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   hcp-6,Q95Y84,266830,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_G5ECT8.tsv
-targets_download: targets_of_G5ECT8.tsv
+tfs_download: TFLink_tfs_of_G5ECT8.tsv
+targets_download: TFLink_targets_of_G5ECT8.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

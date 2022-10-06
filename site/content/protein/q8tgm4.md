@@ -20,7 +20,7 @@ tfs: 'HTZ1,Q12692,854150,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
 
   ESA1,Q08649,854418,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8TGM4.tsv
+tfs_download: TFLink_tfs_of_Q8TGM4.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

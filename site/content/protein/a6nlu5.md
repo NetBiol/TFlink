@@ -212,7 +212,7 @@ tfs: 'GRHL3,Q8TE85,57822,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
 
   TAL1,P17542,6886,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D+OR+27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_A6NLU5.tsv
+tfs_download: TFLink_tfs_of_A6NLU5.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

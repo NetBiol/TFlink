@@ -211,7 +211,7 @@ tfs: 'BCOR,Q6W2J9,54880,ReMap,chromatin immunoprecipitation assay,29126285%5Buid
 
   ZKSCAN8,Q15776,7745,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9BVI4.tsv
+tfs_download: TFLink_tfs_of_Q9BVI4.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

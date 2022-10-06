@@ -46,7 +46,7 @@ tfs: 'Prdm1,Q60636,12142,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
 
   Ezh2,Q61188,14056,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_A0A1Y7VIZ1.tsv
+tfs_download: TFLink_tfs_of_A0A1Y7VIZ1.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

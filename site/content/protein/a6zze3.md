@@ -211,7 +211,7 @@ targets: '-,P25572,850315,GTRD,chromatin immunoprecipitation assay,27924024%5Bui
 
   -,P40093,856900,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 tfs_download: ''
-targets_download: targets_of_A6ZZE3.tsv
+targets_download: TFLink_targets_of_A6ZZE3.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

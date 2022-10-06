@@ -211,7 +211,7 @@ tfs: 'MAFG,O15525,4097,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%
 
   BCLAF1,Q9NYF8,9774,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_A6NJW4.tsv
+tfs_download: TFLink_tfs_of_A6NJW4.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

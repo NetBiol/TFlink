@@ -412,8 +412,8 @@ targets: 'RRAD,P55042,6236,GTRD,chromatin immunoprecipitation assay,27924024%5Bu
   DCAF8,Q5TAQ9,50717,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   SLC27A6,Q9Y2P4,28965,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q6BEB4.tsv
-targets_download: targets_of_Q6BEB4.tsv
+tfs_download: TFLink_tfs_of_Q6BEB4.tsv
+targets_download: TFLink_targets_of_Q6BEB4.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

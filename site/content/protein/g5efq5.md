@@ -244,8 +244,8 @@ targets: 'bath-38,Q20681,174567,GTRD,chromatin immunoprecipitation assay,2792402
   npp-2,Q22078,172611,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   -,Q23341,191180,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_G5EFQ5.tsv
-targets_download: targets_of_G5EFQ5.tsv
+tfs_download: TFLink_tfs_of_G5EFQ5.tsv
+targets_download: TFLink_targets_of_G5EFQ5.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

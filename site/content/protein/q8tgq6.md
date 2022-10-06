@@ -22,7 +22,7 @@ tfs: 'YTH1,Q06102,856222,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
 
   SET1,P38827,856519,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8TGQ6.tsv
+tfs_download: TFLink_tfs_of_Q8TGQ6.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

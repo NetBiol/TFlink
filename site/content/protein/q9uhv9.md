@@ -211,7 +211,7 @@ tfs: 'MXD4,Q14582,10608,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%
 
   ZNF266,Q14584,10781,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9UHV9.tsv
+tfs_download: TFLink_tfs_of_Q9UHV9.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

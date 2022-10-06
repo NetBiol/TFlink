@@ -211,7 +211,7 @@ tfs: 'ZBTB33,Q86T24,10009,GTRD;ReMap,chromatin immunoprecipitation assay,2912628
 
   ASF1A,Q9Y294,25842,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_A0AVF1.tsv
+tfs_download: TFLink_tfs_of_A0AVF1.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

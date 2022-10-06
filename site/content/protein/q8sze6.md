@@ -114,7 +114,7 @@ tfs: 'Dmel\CG4854,Q9VDQ5,42391,GTRD,chromatin immunoprecipitation assay,27924024
 
   Mes4,Q9W256,37560,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8SZE6.tsv
+tfs_download: TFLink_tfs_of_Q8SZE6.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

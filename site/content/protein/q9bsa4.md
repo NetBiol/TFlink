@@ -213,7 +213,7 @@ tfs: 'HMGB1,P09429,3146,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%
 
   RXRA,P19793,6256,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9BSA4.tsv
+tfs_download: TFLink_tfs_of_Q9BSA4.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

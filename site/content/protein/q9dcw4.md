@@ -211,7 +211,7 @@ tfs: 'Nfyc,P70353,18046,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%
 
   Egr2,P08152,13654,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9DCW4.tsv
+tfs_download: TFLink_tfs_of_Q9DCW4.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

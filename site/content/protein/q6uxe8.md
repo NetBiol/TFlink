@@ -62,7 +62,7 @@ tfs: 'BMI1,P35226,100532731;648,GTRD,chromatin immunoprecipitation assay,2792402
 
   CEBPB,P17676,1051,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q6UXE8.tsv
+tfs_download: TFLink_tfs_of_Q6UXE8.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

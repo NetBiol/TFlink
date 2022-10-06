@@ -211,7 +211,7 @@ tfs: 'MLLT3,P42568,4300,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%
 
   ZSCAN30,Q86W11,100101467,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9NYF3.tsv
+tfs_download: TFLink_tfs_of_Q9NYF3.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

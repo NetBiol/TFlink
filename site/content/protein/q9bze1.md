@@ -212,7 +212,7 @@ tfs: 'ZIM3,Q96PE6,114026,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
 
   MYB,P10242,4602,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9BZE1.tsv
+tfs_download: TFLink_tfs_of_Q9BZE1.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

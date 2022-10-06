@@ -98,7 +98,7 @@ tfs: 'Nr1d1,Q3UV55,217166,GTRD,chromatin immunoprecipitation assay,27924024%5Bui
 
   Nr4a1,P12813,15370,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_A0A2I3BQC3.tsv
+tfs_download: TFLink_tfs_of_A0A2I3BQC3.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

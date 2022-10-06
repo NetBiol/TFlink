@@ -210,7 +210,7 @@ tfs: 'Hdac1,O09106,433759,GTRD,chromatin immunoprecipitation assay,27924024%5Bui
 
   Anpep,P97449,16790,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_A0A0N4SUK1.tsv
+tfs_download: TFLink_tfs_of_A0A0N4SUK1.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

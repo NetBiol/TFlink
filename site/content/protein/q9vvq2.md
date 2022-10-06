@@ -30,8 +30,8 @@ targets: 'NaCP60E,Q9W0Y8,37981,GTRD,chromatin immunoprecipitation assay,27924024
   RpL41,Q962S2,251466,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   Dmel\CG7956,Q0KI33,42545,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q9VVQ2.tsv
-targets_download: targets_of_Q9VVQ2.tsv
+tfs_download: TFLink_tfs_of_Q9VVQ2.tsv
+targets_download: TFLink_targets_of_Q9VVQ2.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

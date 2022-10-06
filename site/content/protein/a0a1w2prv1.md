@@ -14,7 +14,7 @@ tfs: 'AFF4,Q9UHB7,27125,ReMap,chromatin immunoprecipitation assay,29126285%5Buid
 
   RELA,Q04206,5970,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_A0A1W2PRV1.tsv
+tfs_download: TFLink_tfs_of_A0A1W2PRV1.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

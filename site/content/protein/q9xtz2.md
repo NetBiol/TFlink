@@ -172,7 +172,7 @@ tfs: 'ceh-39,Q22812,180505,GTRD,chromatin immunoprecipitation assay,27924024%5Bu
 
   mdl-1,G5EG44,180942,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9XTZ2.tsv
+tfs_download: TFLink_tfs_of_Q9XTZ2.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

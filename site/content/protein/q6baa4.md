@@ -213,7 +213,7 @@ tfs: 'HMBOX1,Q6NT76,79618,GTRD,chromatin immunoprecipitation assay,27924024%5Bui
 
   RBAK,Q9NYW8,57786,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q6BAA4.tsv
+tfs_download: TFLink_tfs_of_Q6BAA4.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

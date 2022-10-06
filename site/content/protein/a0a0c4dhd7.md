@@ -84,7 +84,7 @@ tfs: 'Raf,P11346,31221,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5
 
   fs(1)h,P13709,31722,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_A0A0C4DHD7.tsv
+tfs_download: TFLink_tfs_of_A0A0C4DHD7.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

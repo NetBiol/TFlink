@@ -210,7 +210,7 @@ tfs: 'Tfap2a,P34056,21418,GTRD,chromatin immunoprecipitation assay,27924024%5Bui
 
   Ets1,P27577,23871,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_B2RRD7.tsv
+tfs_download: TFLink_tfs_of_B2RRD7.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

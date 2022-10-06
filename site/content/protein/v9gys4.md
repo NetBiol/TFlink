@@ -210,7 +210,7 @@ tfs: 'THAP11,Q96EK4,57215,GTRD,chromatin immunoprecipitation assay,27924024%5Bui
 
   BRD1,O95696,23774,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_V9GYS4.tsv
+tfs_download: TFLink_tfs_of_V9GYS4.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

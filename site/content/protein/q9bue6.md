@@ -210,7 +210,7 @@ tfs: 'MLLT1,Q03111,4298,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%
 
   NONO,Q15233,4841,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9BUE6.tsv
+tfs_download: TFLink_tfs_of_Q9BUE6.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

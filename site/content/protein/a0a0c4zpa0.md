@@ -12,7 +12,7 @@ orthologs: ''
 jaspar_matrices: ''
 tfs: ETS1,P14921,2113,TRRUST,inferred by curator,1409722%5Buid%5D+OR+29087512%5Buid%5D,Yes
 targets: ''
-tfs_download: tfs_of_A0A0C4ZPA0.tsv
+tfs_download: TFLink_tfs_of_A0A0C4ZPA0.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

@@ -212,7 +212,7 @@ tfs: 'STAT1,P42224,6772,GTRD;ORegAnno;ReMap,chromatin immunoprecipitation assay;
 
   PTBP1,P26599,5725,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q5JPH6.tsv
+tfs_download: TFLink_tfs_of_Q5JPH6.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

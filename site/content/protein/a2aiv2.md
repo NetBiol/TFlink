@@ -211,7 +211,7 @@ tfs: 'Cat,P24270,12359,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5
 
   Arid3a,Q62431,13496,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_A2AIV2.tsv
+tfs_download: TFLink_tfs_of_A2AIV2.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

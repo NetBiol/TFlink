@@ -210,7 +210,7 @@ tfs: 'SIN3A,Q96ST3,25942,GTRD;ReMap,chromatin immunoprecipitation assay,29126285
 
   MAFK,O60675,7975,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D+OR+27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q6ICG8.tsv
+tfs_download: TFLink_tfs_of_Q6ICG8.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

@@ -213,7 +213,7 @@ tfs: 'SPI1,P17947,6688,GTRD;ORegAnno;PAZAR,chromatin immunoprecipitation assay;i
 
   RARA,P10276,5914,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9UBL0.tsv
+tfs_download: TFLink_tfs_of_Q9UBL0.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

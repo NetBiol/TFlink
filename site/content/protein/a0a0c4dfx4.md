@@ -60,7 +60,7 @@ tfs: 'ZNF263,O14978,10127,GTRD;ReMap,chromatin immunoprecipitation assay,2912628
 
   E2F1,Q01094,1869,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_A0A0C4DFX4.tsv
+tfs_download: TFLink_tfs_of_A0A0C4DFX4.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

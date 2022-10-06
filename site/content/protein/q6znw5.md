@@ -210,7 +210,7 @@ tfs: 'RBPJ,Q06330,3516,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5
 
   ZEB1,P37275,6935,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D+OR+27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q6ZNW5.tsv
+tfs_download: TFLink_tfs_of_Q6ZNW5.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

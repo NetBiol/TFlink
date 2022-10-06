@@ -210,7 +210,7 @@ tfs: 'Bcl11b,Q99PV8,58208,GTRD,chromatin immunoprecipitation assay,27924024%5Bui
 
   Srebf1,Q9WTN3,20787,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_A0A0J9YVH3.tsv
+tfs_download: TFLink_tfs_of_A0A0J9YVH3.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

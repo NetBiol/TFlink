@@ -210,7 +210,7 @@ tfs: 'ZBTB6,Q15916,10773,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
 
   BRD4,O60885,23476,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_A6NCI8.tsv
+tfs_download: TFLink_tfs_of_A6NCI8.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

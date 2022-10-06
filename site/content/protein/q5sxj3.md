@@ -218,8 +218,8 @@ targets: 'Hbb-b2,Q9QUN8,-,TRRUST,inferred by curator,14660636%5Buid%5D+OR+158093
   Mmp1a,Q9EPL5,83995,TRRUST,inferred by curator,21873975%5Buid%5D+OR+29087512%5Buid%5D,Yes
 
   Hmox1,P14901,15368,TRRUST,inferred by curator,17257585%5Buid%5D+OR+19282658%5Buid%5D+OR+19119918%5Buid%5D+OR+25463280%5Buid%5D+OR+12356737%5Buid%5D+OR+16487038%5Buid%5D+OR+24613086%5Buid%5D+OR+25391381%5Buid%5D+OR+15809329%5Buid%5D+OR+15743416%5Buid%5D+OR+22712528%5Buid%5D+OR+18426999%5Buid%5D+OR+20501657%5Buid%5D+OR+29087512%5Buid%5D+OR+19439223%5Buid%5D,Yes'
-tfs_download: tfs_of_Q5SXJ3.tsv
-targets_download: targets_of_Q5SXJ3.tsv
+tfs_download: TFLink_tfs_of_Q5SXJ3.tsv
+targets_download: TFLink_targets_of_Q5SXJ3.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

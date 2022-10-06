@@ -20,7 +20,7 @@ tfs: 'Sox10,O55170,29361,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
 
   Sox9,F1LYL9,140586,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_F1LZB7.tsv
+tfs_download: TFLink_tfs_of_F1LZB7.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

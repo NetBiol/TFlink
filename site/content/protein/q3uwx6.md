@@ -58,7 +58,7 @@ tfs: 'Cdx2,P43241,12591,ORegAnno;PAZAR,inferred by curator,18971253%5Buid%5D+OR+
 
   Baz1b,Q9Z277,22385,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q3UWX6.tsv
+tfs_download: TFLink_tfs_of_Q3UWX6.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

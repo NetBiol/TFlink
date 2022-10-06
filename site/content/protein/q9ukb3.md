@@ -212,7 +212,7 @@ tfs: 'CREB3L4,Q8TEY5,148327,TRRUST,inferred by curator,24122553%5Buid%5D+OR+2908
 
   ZNF175,Q9Y473,7728,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9UKB3.tsv
+tfs_download: TFLink_tfs_of_Q9UKB3.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

@@ -411,8 +411,8 @@ targets: 'Pros1,Q08761,19128,GTRD,chromatin immunoprecipitation assay,27924024%5
   Mast4,Q811L6,328329,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   Litaf,Q9JLJ0,56722,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q8CGN4.tsv
-targets_download: targets_of_Q8CGN4.tsv
+tfs_download: TFLink_tfs_of_Q8CGN4.tsv
+targets_download: TFLink_targets_of_Q8CGN4.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

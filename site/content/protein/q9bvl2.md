@@ -212,7 +212,7 @@ tfs: 'MAFB,Q9Y5Q3,9935,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5
 
   ZBTB8A,Q96BR9,653121,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9BVL2.tsv
+tfs_download: TFLink_tfs_of_Q9BVL2.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

@@ -319,8 +319,8 @@ targets: 'Gal3st1,Q9JHE4,53897,GTRD;TRRUST,chromatin immunoprecipitation assay;i
   Map7,D3YWN7,17761,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   Adnp2,Q8CHC8,240442,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_A2APF3.tsv
-targets_download: targets_of_A2APF3.tsv
+tfs_download: TFLink_tfs_of_A2APF3.tsv
+targets_download: TFLink_targets_of_A2APF3.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

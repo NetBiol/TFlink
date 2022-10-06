@@ -408,8 +408,8 @@ targets: 'MORC3,Q14149,23515,GTRD,chromatin immunoprecipitation assay,27924024%5
   EAF1,Q96JC9,85403,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   ZNF598,Q86UK7,90850,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q6AHZ1.tsv
-targets_download: targets_of_Q6AHZ1.tsv
+tfs_download: TFLink_tfs_of_Q6AHZ1.tsv
+targets_download: TFLink_targets_of_Q6AHZ1.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

@@ -88,7 +88,7 @@ tfs: 'Atf-2,Q2PE13,37978,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
 
   tx,P41894,43190,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q1RKW9.tsv
+tfs_download: TFLink_tfs_of_Q1RKW9.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

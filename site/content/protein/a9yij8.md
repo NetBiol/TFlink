@@ -144,7 +144,7 @@ tfs: 'Snoo,Q00G30,5740414,GTRD,chromatin immunoprecipitation assay,27924024%5Bui
 
   Nup98-96,Q9VCH5,42816,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_A9YIJ8.tsv
+tfs_download: TFLink_tfs_of_A9YIJ8.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

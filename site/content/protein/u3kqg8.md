@@ -124,7 +124,7 @@ tfs: 'CTCF,P49711,10664,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%
 
   EED,O75530,8726,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_U3KQG8.tsv
+tfs_download: TFLink_tfs_of_U3KQG8.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

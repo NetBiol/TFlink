@@ -118,7 +118,7 @@ tfs: 'Stra8,P70278,20899,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
 
   Ino80,Q6ZPV2,68142,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_E9PUP8.tsv
+tfs_download: TFLink_tfs_of_E9PUP8.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

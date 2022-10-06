@@ -413,8 +413,8 @@ targets: 'HOMER2,Q9NSB8,9455,GTRD,chromatin immunoprecipitation assay,27924024%5
   TREX1,Q9NSU2,11277,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   FAM24B,Q8N5W8,196792,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q9UQR0.tsv
-targets_download: targets_of_Q9UQR0.tsv
+tfs_download: TFLink_tfs_of_Q9UQR0.tsv
+targets_download: TFLink_targets_of_Q9UQR0.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

@@ -410,8 +410,8 @@ targets: 'POU5F1,Q01860,5460,TRRUST,inferred by curator,29087512%5Buid%5D+OR+228
   COPB2,P35606,9276,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   TBX2,Q13207,6909,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q9UBB5.tsv
-targets_download: targets_of_Q9UBB5.tsv
+tfs_download: TFLink_tfs_of_Q9UBB5.tsv
+targets_download: TFLink_targets_of_Q9UBB5.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

@@ -211,7 +211,7 @@ tfs: 'MAFB,Q9Y5Q3,9935,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%
 
   ZNF335,Q9H4Z2,63925,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q6XUX3.tsv
+tfs_download: TFLink_tfs_of_Q6XUX3.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

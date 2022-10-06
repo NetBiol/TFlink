@@ -309,8 +309,8 @@ targets: 'SMG7,Q92540,9887,GTRD,chromatin immunoprecipitation assay,27924024%5Bu
   NECAP2,Q9NVZ3,55707,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   TRAK1,Q9UPV9,22906,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q8NEK5.tsv
-targets_download: targets_of_Q8NEK5.tsv
+tfs_download: TFLink_tfs_of_Q8NEK5.tsv
+targets_download: TFLink_targets_of_Q8NEK5.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

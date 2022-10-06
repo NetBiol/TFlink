@@ -211,7 +211,7 @@ tfs: 'CDK7,P50613,1022,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5
   FOXA1,P55317,3169,ORegAnno;PAZAR;ReMap,chromatin immunoprecipitation assay;inferred
   by curator,29126285%5Buid%5D+OR+18971253%5Buid%5D+OR+26578589%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8IVG5.tsv
+tfs_download: TFLink_tfs_of_Q8IVG5.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

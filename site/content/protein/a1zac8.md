@@ -252,8 +252,8 @@ targets: 'CG31653,M9PC10,318872,GTRD,chromatin immunoprecipitation assay,2792402
   -,A2VET7,-,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   aay,Q9VSY6,39085,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_A1ZAC8.tsv
-targets_download: targets_of_A1ZAC8.tsv
+tfs_download: TFLink_tfs_of_A1ZAC8.tsv
+targets_download: TFLink_targets_of_A1ZAC8.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

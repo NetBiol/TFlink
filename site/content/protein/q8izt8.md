@@ -214,7 +214,7 @@ tfs: 'SUZ12,Q15022,23512,GTRD;ReMap,chromatin immunoprecipitation assay,29126285
 
   MAFG,O15525,4097,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8IZT8.tsv
+tfs_download: TFLink_tfs_of_Q8IZT8.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

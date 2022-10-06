@@ -211,7 +211,7 @@ tfs: 'CSNK2A1,P68400,1457,ReMap,chromatin immunoprecipitation assay,29126285%5Bu
 
   LYL1,P12980,4066,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8WVM8.tsv
+tfs_download: TFLink_tfs_of_Q8WVM8.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

@@ -70,8 +70,8 @@ targets: 'CG2165-RC,Q1WWE3,-,GTRD,chromatin immunoprecipitation assay,27924024%5
   Sox102F,Q59DN5,43844,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   -,Q6IIW9,-,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q9VHS8.tsv
-targets_download: targets_of_Q9VHS8.tsv
+tfs_download: TFLink_tfs_of_Q9VHS8.tsv
+targets_download: TFLink_targets_of_Q9VHS8.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

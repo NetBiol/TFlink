@@ -213,7 +213,7 @@ tfs: 'NR2F1,P10589,7025,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%
 
   SP5,Q6BEB4,389058,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9ULM3.tsv
+tfs_download: TFLink_tfs_of_Q9ULM3.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

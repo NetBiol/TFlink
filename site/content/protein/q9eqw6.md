@@ -412,8 +412,8 @@ targets: 'Sox10,Q04888,20665,GTRD;TRRUST,chromatin immunoprecipitation assay;inf
   Cmc4,Q61908,105886298,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   -,Q3KNL4,67085,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q9EQW6.tsv
-targets_download: targets_of_Q9EQW6.tsv
+tfs_download: TFLink_tfs_of_Q9EQW6.tsv
+targets_download: TFLink_targets_of_Q9EQW6.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

@@ -88,7 +88,7 @@ tfs: 'Stat92E,Q24151,42428,REDfly,electrophoretic mobility shift assay,20965965%
 
   pzg,Q9VP57,40351,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9VWE0.tsv
+tfs_download: TFLink_tfs_of_Q9VWE0.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

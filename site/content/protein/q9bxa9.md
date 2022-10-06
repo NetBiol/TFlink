@@ -409,8 +409,8 @@ targets: 'HDAC9,Q9UKV0,9734,GTRD;TRRUST,chromatin immunoprecipitation assay;infe
   LONRF1,Q17RB8,91694,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   OTX1,P32242,5013,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q9BXA9.tsv
-targets_download: targets_of_Q9BXA9.tsv
+tfs_download: TFLink_tfs_of_Q9BXA9.tsv
+targets_download: TFLink_targets_of_Q9BXA9.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

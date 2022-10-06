@@ -251,8 +251,8 @@ targets: 'HIF1A,Q16665,3091,TRRUST,inferred by curator,29087512%5Buid%5D+OR+2125
   H2AC4;H2AC8,P04908,3012;8335,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   H2BC21,Q16778,8349,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q9ULV5.tsv
-targets_download: targets_of_Q9ULV5.tsv
+tfs_download: TFLink_tfs_of_Q9ULV5.tsv
+targets_download: TFLink_targets_of_Q9ULV5.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

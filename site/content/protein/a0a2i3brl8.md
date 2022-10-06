@@ -80,7 +80,7 @@ tfs: 'Fli1,P26323,14247,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%
 
   Ascl1,Q02067,17172,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_A0A2I3BRL8.tsv
+tfs_download: TFLink_tfs_of_A0A2I3BRL8.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

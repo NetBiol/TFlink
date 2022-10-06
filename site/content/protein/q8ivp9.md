@@ -409,8 +409,8 @@ targets: 'DDX18,Q9NVP1,8886,GTRD,chromatin immunoprecipitation assay,27924024%5B
   TSSK3,Q96PN8,81629,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   PHLDB1,Q86UU1,23187,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q8IVP9.tsv
-targets_download: targets_of_Q8IVP9.tsv
+tfs_download: TFLink_tfs_of_Q8IVP9.tsv
+targets_download: TFLink_targets_of_Q8IVP9.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

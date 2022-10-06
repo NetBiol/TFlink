@@ -166,8 +166,8 @@ tfs: 'ELF1,P32519,1997,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%
 
   KLF4,O43474,9314,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No'
 targets: TDG,Q13569,6996,TRRUST,inferred by curator,20428781%5Buid%5D+OR+29087512%5Buid%5D,Yes
-tfs_download: tfs_of_Q9UJW3.tsv
-targets_download: targets_of_Q9UJW3.tsv
+tfs_download: TFLink_tfs_of_Q9UJW3.tsv
+targets_download: TFLink_targets_of_Q9UJW3.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

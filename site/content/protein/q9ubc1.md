@@ -214,7 +214,7 @@ tfs: 'TCF3,P15923,6929,GTRD;HTRI;ReMap,chromatin immunoprecipitation assay;elect
 
   KLF12,Q9Y4X4,11278,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9UBC1.tsv
+tfs_download: TFLink_tfs_of_Q9UBC1.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

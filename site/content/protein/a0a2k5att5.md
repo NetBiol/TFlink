@@ -180,7 +180,7 @@ tfs: 'oef-1,G4SGI5,177529,GTRD,chromatin immunoprecipitation assay,27924024%5Bui
 
   hlh-15,Q18590,183427,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_A0A2K5ATT5.tsv
+tfs_download: TFLink_tfs_of_A0A2K5ATT5.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

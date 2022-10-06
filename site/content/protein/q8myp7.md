@@ -14,7 +14,7 @@ tfs: 'cebp-1,Q18909,180481,GTRD,chromatin immunoprecipitation assay,27924024%5Bu
 
   lin-15B,Q27395,181662,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8MYP7.tsv
+tfs_download: TFLink_tfs_of_Q8MYP7.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

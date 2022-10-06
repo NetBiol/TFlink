@@ -215,7 +215,7 @@ tfs: 'CEBPA,P49715,1050,GTRD;ORegAnno;PAZAR;TRED,chromatin immunoprecipitation a
 
   OGG1,O15527,4968,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8IUX7.tsv
+tfs_download: TFLink_tfs_of_Q8IUX7.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

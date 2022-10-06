@@ -66,7 +66,7 @@ tfs: 'Stat6,P52633,20852,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
 
   Jarid2,Q62315,16468,ORegAnno;PAZAR,inferred by curator,18971253%5Buid%5D+OR+26578589%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_E9PVG4.tsv
+tfs_download: TFLink_tfs_of_E9PVG4.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

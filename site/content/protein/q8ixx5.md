@@ -212,7 +212,7 @@ tfs: 'OVOL2,Q9BRP0,58495,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
 
   NIPBL,Q6KC79,25836,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D+OR+27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8IXX5.tsv
+tfs_download: TFLink_tfs_of_Q8IXX5.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

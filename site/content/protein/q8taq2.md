@@ -409,8 +409,8 @@ targets: 'FNDC3B,Q53EP0,64778,GTRD,chromatin immunoprecipitation assay,27924024%
   SPRYD4,Q8WW59,283377,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   DTX3L,Q8TDB6,151636,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q8TAQ2.tsv
-targets_download: targets_of_Q8TAQ2.tsv
+tfs_download: TFLink_tfs_of_Q8TAQ2.tsv
+targets_download: TFLink_targets_of_Q8TAQ2.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

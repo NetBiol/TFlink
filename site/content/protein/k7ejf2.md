@@ -86,7 +86,7 @@ tfs: 'RARA,P10276,5914,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5
 
   PBX4,Q9BYU1,80714,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_K7EJF2.tsv
+tfs_download: TFLink_tfs_of_K7EJF2.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

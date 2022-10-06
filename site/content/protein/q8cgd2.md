@@ -52,7 +52,7 @@ tfs: 'Atoh1,P48985,11921,ORegAnno;PAZAR,inferred by curator,18971253%5Buid%5D+OR
 
   Dnmt3b,O88509,13436,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8CGD2.tsv
+tfs_download: TFLink_tfs_of_Q8CGD2.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

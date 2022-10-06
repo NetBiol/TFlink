@@ -176,7 +176,7 @@ tfs: 'ETS2,P15036,2114,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5
 
   ZBTB17,Q13105,7709,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_H7BZZ5.tsv
+tfs_download: TFLink_tfs_of_H7BZZ5.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

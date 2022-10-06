@@ -211,7 +211,7 @@ tfs: 'Tfap2a,P34056,21418,GTRD;TRED,chromatin immunoprecipitation assay;inferred
 
   Gata6,Q61169,14465,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9JIM1.tsv
+tfs_download: TFLink_tfs_of_Q9JIM1.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

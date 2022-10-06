@@ -66,7 +66,7 @@ tfs: 'Cdk9,Q99J95,107951,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
 
   Yap1,P46938,22601,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_A0A0C3SFZ4.tsv
+tfs_download: TFLink_tfs_of_A0A0C3SFZ4.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

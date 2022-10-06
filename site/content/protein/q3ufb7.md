@@ -211,7 +211,7 @@ tfs: 'Klf7,Q99JB0,93691,TRRUST,inferred by curator,15937222%5Buid%5D+OR+29087512
 
   Smad2,Q62432,17126,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q3UFB7.tsv
+tfs_download: TFLink_tfs_of_Q3UFB7.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

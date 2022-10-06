@@ -214,7 +214,7 @@ tfs: 'MYC,P01106,4609,GTRD;ReMap;TRED,chromatin immunoprecipitation assay;inferr
 
   CSNK2A1,P68400,1457,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9NZJ7.tsv
+tfs_download: TFLink_tfs_of_Q9NZJ7.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

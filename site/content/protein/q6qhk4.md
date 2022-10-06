@@ -166,8 +166,8 @@ tfs: 'FOXM1,Q08050,2305,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%
 targets: 'TCF3,P15923,6929,TRRUST,inferred by curator,29087512%5Buid%5D+OR+18499083%5Buid%5D,Yes
 
   TCF7L1,Q9HCS4,83439,TRRUST,inferred by curator,29087512%5Buid%5D+OR+18499083%5Buid%5D,Yes'
-tfs_download: tfs_of_Q6QHK4.tsv
-targets_download: targets_of_Q6QHK4.tsv
+tfs_download: TFLink_tfs_of_Q6QHK4.tsv
+targets_download: TFLink_targets_of_Q6QHK4.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

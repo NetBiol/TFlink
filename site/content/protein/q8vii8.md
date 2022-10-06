@@ -25,7 +25,7 @@ targets: 'Scnn1a,Q61180,20276,TRRUST,inferred by curator,29087512%5Buid%5D+OR+24
 
   Sgk1,Q9WVC6,20393,TRRUST,inferred by curator,24491541%5Buid%5D+OR+29087512%5Buid%5D,Yes'
 tfs_download: ''
-targets_download: targets_of_Q8VII8.tsv
+targets_download: TFLink_targets_of_Q8VII8.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

@@ -222,8 +222,8 @@ targets: 'BAX,Q07812,581,TRRUST,inferred by curator,22470139%5Buid%5D+OR+2908751
   BAK1,Q16611,578,TRRUST,inferred by curator,22470139%5Buid%5D+OR+29087512%5Buid%5D,Yes
 
   IGFBP1,P08833,3484,TRRUST,inferred by curator,29087512%5Buid%5D+OR+20164440%5Buid%5D,Yes'
-tfs_download: tfs_of_Q9GZV5.tsv
-targets_download: targets_of_Q9GZV5.tsv
+tfs_download: TFLink_tfs_of_Q9GZV5.tsv
+targets_download: TFLink_targets_of_Q9GZV5.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

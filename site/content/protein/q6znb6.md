@@ -411,8 +411,8 @@ targets: 'MRC2,Q9UBG0,9902,GTRD,chromatin immunoprecipitation assay,27924024%5Bu
   KMT2B,Q9UMN6,9757,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   LCN8,Q6JVE9,138307,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q6ZNB6.tsv
-targets_download: targets_of_Q6ZNB6.tsv
+tfs_download: TFLink_tfs_of_Q6ZNB6.tsv
+targets_download: TFLink_targets_of_Q6ZNB6.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

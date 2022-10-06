@@ -110,7 +110,7 @@ tfs: 'Dref,Q94883,34328,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%
 
   wds,Q9V3J8,53428,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9VAN7.tsv
+tfs_download: TFLink_tfs_of_Q9VAN7.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

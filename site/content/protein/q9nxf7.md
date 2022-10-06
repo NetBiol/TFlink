@@ -211,7 +211,7 @@ tfs: 'RAD21,O60216,5885,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%
 
   STAT5B,P51692,6777,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9NXF7.tsv
+tfs_download: TFLink_tfs_of_Q9NXF7.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

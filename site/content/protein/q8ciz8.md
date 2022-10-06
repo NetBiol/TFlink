@@ -20,7 +20,7 @@ tfs: 'Kcnh2,O35219,16511,TRRUST,inferred by curator,29087512%5Buid%5D+OR+1935960
 
   Arntl,Q9WTL8,11865,TRRUST,inferred by curator,29087512%5Buid%5D+OR+20658528%5Buid%5D,Yes'
 targets: ''
-tfs_download: tfs_of_Q8CIZ8.tsv
+tfs_download: TFLink_tfs_of_Q8CIZ8.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

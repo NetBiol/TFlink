@@ -228,8 +228,8 @@ targets: 'Dnajc17,D3ZSC8,311329,GTRD,chromatin immunoprecipitation assay,2792402
   Cutc,D4A6T5,361760,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   Ddx42,D4A031,303607,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q9JIX5.tsv
-targets_download: targets_of_Q9JIX5.tsv
+tfs_download: TFLink_tfs_of_Q9JIX5.tsv
+targets_download: TFLink_targets_of_Q9JIX5.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

@@ -210,7 +210,7 @@ tfs: 'ELF1,P32519,1997,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5
 
   TEAD3,Q99594,7005,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_A4QMS1.tsv
+tfs_download: TFLink_tfs_of_A4QMS1.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

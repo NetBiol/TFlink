@@ -214,7 +214,7 @@ tfs: 'NCOR1,O75376,9611,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%
 
   PARP1,P09874,142,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q6ZRI0.tsv
+tfs_download: TFLink_tfs_of_Q6ZRI0.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

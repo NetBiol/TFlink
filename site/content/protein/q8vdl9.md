@@ -212,8 +212,8 @@ tfs: 'Tfap2a,P34056,21418,GTRD;TRED,chromatin immunoprecipitation assay;inferred
 
   Gfi1b,O70237,14582,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: Ins2,P01326,16334,TRRUST,inferred by curator,29087512%5Buid%5D+OR+21127075%5Buid%5D,Yes
-tfs_download: tfs_of_Q8VDL9.tsv
-targets_download: targets_of_Q8VDL9.tsv
+tfs_download: TFLink_tfs_of_Q8VDL9.tsv
+targets_download: TFLink_targets_of_Q8VDL9.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

@@ -411,8 +411,8 @@ targets: 'TPH1,P17752,7166,GTRD,chromatin immunoprecipitation assay,27924024%5Bu
   PGLYRP4,Q96LB8,57115,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   PELI1,Q96FA3,57162,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D+OR+27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q9UQE7.tsv
-targets_download: targets_of_Q9UQE7.tsv
+tfs_download: TFLink_tfs_of_Q9UQE7.tsv
+targets_download: TFLink_targets_of_Q9UQE7.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

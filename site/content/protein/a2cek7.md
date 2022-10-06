@@ -40,7 +40,7 @@ tfs: 'Ncor2,Q9WU42,20602,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
 
   Bcl6,P41183,12053,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_A2CEK7.tsv
+tfs_download: TFLink_tfs_of_A2CEK7.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

@@ -54,8 +54,8 @@ targets: 'tasp-1,G5EF83,-,GTRD,chromatin immunoprecipitation assay,27924024%5Bui
   -,O45716,187797,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   rpl-35,P34662,176097,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q7YWZ7.tsv
-targets_download: targets_of_Q7YWZ7.tsv
+tfs_download: TFLink_tfs_of_Q7YWZ7.tsv
+targets_download: TFLink_targets_of_Q7YWZ7.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

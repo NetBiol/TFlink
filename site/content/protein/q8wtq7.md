@@ -135,7 +135,7 @@ tfs: 'NEUROD1,Q13562,4760,GTRD,chromatin immunoprecipitation assay,27924024%5Bui
 
   MAFG,O15525,4097,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8WTQ7.tsv
+tfs_download: TFLink_tfs_of_Q8WTQ7.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

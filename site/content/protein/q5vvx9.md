@@ -208,7 +208,7 @@ tfs: 'ETS1,P14921,2113,GTRD;HTRI;ORegAnno;PAZAR,chromatin immunoprecipitation as
 
   MBD4,O95243,8930,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q5VVX9.tsv
+tfs_download: TFLink_tfs_of_Q5VVX9.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

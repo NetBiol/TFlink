@@ -212,7 +212,7 @@ tfs: 'Utp6,Q8VCY6,216987,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
 
   Shox2,P70390,20429,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8BIE6.tsv
+tfs_download: TFLink_tfs_of_Q8BIE6.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

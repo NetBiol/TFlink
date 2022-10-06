@@ -408,8 +408,8 @@ targets: 'PRR19,A6NJB7,284338,ReMap,chromatin immunoprecipitation assay,29126285
   BCL3,P20749,602,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   SLC25A27,O95847,9481,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No'
-tfs_download: tfs_of_Q5SXM2.tsv
-targets_download: targets_of_Q5SXM2.tsv
+tfs_download: TFLink_tfs_of_Q5SXM2.tsv
+targets_download: TFLink_targets_of_Q5SXM2.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

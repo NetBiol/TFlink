@@ -162,7 +162,7 @@ tfs: 'ZFHX2,Q9C0A1,85446,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
 
   MYF5,P13349,4617,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_K7EKZ2.tsv
+tfs_download: TFLink_tfs_of_K7EKZ2.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

@@ -146,7 +146,7 @@ tfs: 'ZSCAN5A,Q9BUG6,79149,GTRD,chromatin immunoprecipitation assay,27924024%5Bu
 
   TRPS1,Q9UHF7,7227,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_A0A1B0GVQ3.tsv
+tfs_download: TFLink_tfs_of_A0A1B0GVQ3.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

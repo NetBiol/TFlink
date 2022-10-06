@@ -210,7 +210,7 @@ tfs: 'POU5F1,Q01860,5460,GTRD;ReMap,chromatin immunoprecipitation assay,29126285
 
   MAX,P61244,4149,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D+OR+27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8WUY8.tsv
+tfs_download: TFLink_tfs_of_Q8WUY8.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

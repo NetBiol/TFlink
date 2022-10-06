@@ -32,7 +32,7 @@ tfs: 'E2f2,P56931,242705,TRED,inferred by curator,17202159%5Buid%5D,Yes
 
   Onecut2,Q6XBJ3,225631,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8VGI8.tsv
+tfs_download: TFLink_tfs_of_Q8VGI8.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

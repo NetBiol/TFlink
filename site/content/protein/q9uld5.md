@@ -322,8 +322,8 @@ targets: 'RPS29,P62273,6235,GTRD,chromatin immunoprecipitation assay,27924024%5B
   MVB12A,Q96EY5,93343,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   MCCC1,Q96RQ3,56922,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q9ULD5.tsv
-targets_download: targets_of_Q9ULD5.tsv
+tfs_download: TFLink_tfs_of_Q9ULD5.tsv
+targets_download: TFLink_targets_of_Q9ULD5.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

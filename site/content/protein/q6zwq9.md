@@ -210,7 +210,7 @@ tfs: 'Egr2,P08152,13654,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%
 
   Junb,P09450,16477,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q6ZWQ9.tsv
+tfs_download: TFLink_tfs_of_Q6ZWQ9.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

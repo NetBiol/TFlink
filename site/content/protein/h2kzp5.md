@@ -30,7 +30,7 @@ tfs: 'gmeb-1,O17208,182061,GTRD,chromatin immunoprecipitation assay,27924024%5Bu
 
   fos-1,G5ECG2,178987,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_H2KZP5.tsv
+tfs_download: TFLink_tfs_of_H2KZP5.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

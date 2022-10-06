@@ -211,7 +211,7 @@ tfs: 'AR,P10275,367,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Bui
 
   JUND,P17535,3727,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8IYD2.tsv
+tfs_download: TFLink_tfs_of_Q8IYD2.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

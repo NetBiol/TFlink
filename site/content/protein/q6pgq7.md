@@ -214,7 +214,7 @@ tfs: 'E2F4,Q16254,1874,GTRD;HTRI;ORegAnno;PAZAR;ReMap,chromatin immunoprecipitat
 
   TERF2,Q15554,7014,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q6PGQ7.tsv
+tfs_download: TFLink_tfs_of_Q6PGQ7.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

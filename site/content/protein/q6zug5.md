@@ -210,7 +210,7 @@ tfs: 'FLI1,Q01543,2313,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5
 
   TRPS1,Q9UHF7,7227,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q6ZUG5.tsv
+tfs_download: TFLink_tfs_of_Q6ZUG5.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

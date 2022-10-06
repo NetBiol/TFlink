@@ -213,7 +213,7 @@ tfs: 'Men1,O88559,17283,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%
 
   Arid3a,Q62431,13496,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8CAB8.tsv
+tfs_download: TFLink_tfs_of_Q8CAB8.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

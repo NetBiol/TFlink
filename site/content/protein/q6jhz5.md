@@ -210,7 +210,7 @@ tfs: 'NFIC,P08651,4782,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%
 
   KLF4,O43474,9314,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q6JHZ5.tsv
+tfs_download: TFLink_tfs_of_Q6JHZ5.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

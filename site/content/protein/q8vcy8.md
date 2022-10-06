@@ -210,7 +210,7 @@ tfs: 'Nfib,P97863,18028,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%
 
   Fosl2,P47930,14284,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8VCY8.tsv
+tfs_download: TFLink_tfs_of_Q8VCY8.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

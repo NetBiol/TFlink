@@ -282,8 +282,8 @@ targets: '-,Q29R28,-,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,
   su(sable),P22293,31012,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   CG17788,Q8SWS2,32196,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_A0A0B4KER0.tsv
-targets_download: targets_of_A0A0B4KER0.tsv
+tfs_download: TFLink_tfs_of_A0A0B4KER0.tsv
+targets_download: TFLink_targets_of_A0A0B4KER0.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

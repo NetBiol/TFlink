@@ -18,7 +18,7 @@ tfs: 'kle-2,P34341,176116,GTRD,chromatin immunoprecipitation assay,27924024%5Bui
 
   mtl-2,P17512,179899,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q7YZW2.tsv
+tfs_download: TFLink_tfs_of_Q7YZW2.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

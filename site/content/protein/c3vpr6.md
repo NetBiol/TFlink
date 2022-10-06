@@ -408,8 +408,8 @@ targets: 'Zscan22,Q8BGS5,232878,GTRD,chromatin immunoprecipitation assay,2792402
   Usp5,P56399,22225,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   2210016L21Rik,H3BLG8,-,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_C3VPR6.tsv
-targets_download: targets_of_C3VPR6.tsv
+tfs_download: TFLink_tfs_of_C3VPR6.tsv
+targets_download: TFLink_targets_of_C3VPR6.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

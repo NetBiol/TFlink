@@ -212,7 +212,7 @@ tfs: 'CUX1,P39880,1523,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%
 
   BMPR1A,P36894,657,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q6UXN7.tsv
+tfs_download: TFLink_tfs_of_Q6UXN7.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

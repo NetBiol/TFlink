@@ -408,8 +408,8 @@ targets: 'Rplp0,P14869,11837,GTRD,chromatin immunoprecipitation assay,27924024%5
   Plcb4,Q91UZ1,18798,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   Mcph1,Q7TT79,244329,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q9QXE7.tsv
-targets_download: targets_of_Q9QXE7.tsv
+tfs_download: TFLink_tfs_of_Q9QXE7.tsv
+targets_download: TFLink_targets_of_Q9QXE7.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

@@ -210,7 +210,7 @@ tfs: 'AHR,P35869,196,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,
 
   CBX8,Q9HC52,57332,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_H3BQF6.tsv
+tfs_download: TFLink_tfs_of_H3BQF6.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

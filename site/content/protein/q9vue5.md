@@ -316,8 +316,8 @@ targets: 'Cul1,Q24311,35742,GTRD,chromatin immunoprecipitation assay,27924024%5B
   Cdk4,Q7K306,36854,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   ReepB,A1Z9M2,36569,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q9VUE5.tsv
-targets_download: targets_of_Q9VUE5.tsv
+tfs_download: TFLink_tfs_of_Q9VUE5.tsv
+targets_download: TFLink_targets_of_Q9VUE5.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

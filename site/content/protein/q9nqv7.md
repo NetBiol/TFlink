@@ -411,8 +411,8 @@ targets: 'DAAM2,Q86T65,23500,GTRD,chromatin immunoprecipitation assay,27924024%5
   ROBO3,Q96MS0,64221,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   NUF2,Q9BZD4,83540,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q9NQV7.tsv
-targets_download: targets_of_Q9NQV7.tsv
+tfs_download: TFLink_tfs_of_Q9NQV7.tsv
+targets_download: TFLink_targets_of_Q9NQV7.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

@@ -212,8 +212,8 @@ tfs: 'E4F1,Q66K89,1877,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5
 targets: 'TXNIP,Q9H3M7,10628,TRRUST,inferred by curator,12543799%5Buid%5D+OR+29087512%5Buid%5D,Yes
 
   KISS1,Q15726,3814,TRRUST,inferred by curator,12543799%5Buid%5D+OR+29087512%5Buid%5D,Yes'
-tfs_download: tfs_of_Q9ULK4.tsv
-targets_download: targets_of_Q9ULK4.tsv
+tfs_download: TFLink_tfs_of_Q9ULK4.tsv
+targets_download: TFLink_targets_of_Q9ULK4.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

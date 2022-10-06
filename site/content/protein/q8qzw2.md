@@ -410,8 +410,8 @@ targets: 'Dlx2,P40764,13392,GTRD,chromatin immunoprecipitation assay,27924024%5B
   Pcmtd1,P59913,319263,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   Celsr2,F7BHW1,-,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q8QZW2.tsv
-targets_download: targets_of_Q8QZW2.tsv
+tfs_download: TFLink_tfs_of_Q8QZW2.tsv
+targets_download: TFLink_targets_of_Q8QZW2.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

@@ -212,7 +212,7 @@ tfs: 'SSRP1,Q08945,6749,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%
 
   KLF16,Q9BXK1,83855,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q3KRA6.tsv
+tfs_download: TFLink_tfs_of_Q3KRA6.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

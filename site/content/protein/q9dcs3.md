@@ -211,7 +211,7 @@ tfs: 'Ppara,P23204,19013,GTRD;TRED,chromatin immunoprecipitation assay;inferred 
 
   Epop,Q7TNS8,103551,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9DCS3.tsv
+tfs_download: TFLink_tfs_of_Q9DCS3.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

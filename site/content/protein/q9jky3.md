@@ -31,7 +31,7 @@ targets: 'Mme,P07861,24590,GTRD,chromatin immunoprecipitation assay,27924024%5Bu
 
   Ehbp1,F1LVX2,305556,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 tfs_download: ''
-targets_download: targets_of_Q9JKY3.tsv
+targets_download: TFLink_targets_of_Q9JKY3.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

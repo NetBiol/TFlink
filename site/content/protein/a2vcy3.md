@@ -14,7 +14,7 @@ tfs: 'ctcf,Q6JAA4,415104,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
 
   foxh1,Q9I9E1,57930,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_A2VCY3.tsv
+tfs_download: TFLink_tfs_of_A2VCY3.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

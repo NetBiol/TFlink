@@ -211,7 +211,7 @@ tfs: 'AR,P10275,367,GTRD;HTRI;ReMap,chromatin immunoprecipitation array;chromati
 
   SOX13,Q9UN79,9580,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D+OR+27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q6FIF0.tsv
+tfs_download: TFLink_tfs_of_Q6FIF0.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

@@ -210,7 +210,7 @@ tfs: 'Znf143,O70230,20841,GTRD,chromatin immunoprecipitation assay,27924024%5Bui
 
   Jarid2,Q62315,16468,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9WTK7.tsv
+tfs_download: TFLink_tfs_of_Q9WTK7.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

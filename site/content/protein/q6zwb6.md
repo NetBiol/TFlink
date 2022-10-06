@@ -212,7 +212,7 @@ tfs: 'EGR1,P18146,1958,ORegAnno;PAZAR,inferred by curator,18971253%5Buid%5D+OR+2
 
   RFXANK,O14593,8625,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q6ZWB6.tsv
+tfs_download: TFLink_tfs_of_Q6ZWB6.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

@@ -33,7 +33,7 @@ tfs: 'MSN2,P33748,855053,Yeastract,chromatin immunoprecipitation array;chromatin
 
   SFL1,P20134,854307,Yeastract,full identification by RNA sequencing,24170807%5Buid%5D+OR+28673928%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8TGK1.tsv
+tfs_download: TFLink_tfs_of_Q8TGK1.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

@@ -213,7 +213,7 @@ tfs: 'FLI1,Q01543,2313,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5
 
   E2F6,O75461,1876,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D+OR+27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q5TEJ8.tsv
+tfs_download: TFLink_tfs_of_Q5TEJ8.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

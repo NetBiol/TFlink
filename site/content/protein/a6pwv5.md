@@ -212,7 +212,7 @@ tfs: 'Rfx3,P48381,19726,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%
 
   Pcgf6,Q99NA9,71041,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_A6PWV5.tsv
+tfs_download: TFLink_tfs_of_A6PWV5.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

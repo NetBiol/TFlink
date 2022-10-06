@@ -14,7 +14,7 @@ tfs: 'Nanog,Q80Z64,71950,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
 
   Rxra,P28700,20181,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_E9PWZ2.tsv
+tfs_download: TFLink_tfs_of_E9PWZ2.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

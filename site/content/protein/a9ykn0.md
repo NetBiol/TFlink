@@ -46,7 +46,7 @@ tfs: 'CTCF,Q9VS55,38817,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%
 
   JIL-1,Q9V3I5,39241,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_A9YKN0.tsv
+tfs_download: TFLink_tfs_of_A9YKN0.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

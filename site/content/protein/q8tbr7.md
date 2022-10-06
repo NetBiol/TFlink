@@ -211,7 +211,7 @@ tfs: 'ZIC1,Q15915,7545,TRRUST,inferred by curator,29087512%5Buid%5D+OR+20713527%
 
   AR,P10275,367,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D+OR+27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8TBR7.tsv
+tfs_download: TFLink_tfs_of_Q8TBR7.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

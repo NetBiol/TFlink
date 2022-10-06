@@ -210,7 +210,7 @@ tfs: 'sem-4,G5EFF4,172435,GTRD,chromatin immunoprecipitation assay,27924024%5Bui
 
   epc-1,G5EC14,176679,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_G5EEG7.tsv
+tfs_download: TFLink_tfs_of_G5EEG7.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

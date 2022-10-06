@@ -384,8 +384,8 @@ targets: 'Nol3,Q9D1X0,78688,TRED,inferred by curator,17202159%5Buid%5D,Yes
   Dcakd,Q8BHC4,68087,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   Fus,P56959,233908,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q6PZD9.tsv
-targets_download: targets_of_Q6PZD9.tsv
+tfs_download: TFLink_tfs_of_Q6PZD9.tsv
+targets_download: TFLink_targets_of_Q6PZD9.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

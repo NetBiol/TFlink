@@ -212,7 +212,7 @@ tfs: 'Znf76,Q8BMU0,224656,TRRUST,inferred by curator,10893243%5Buid%5D+OR+290875
 
   Tcf7,Q00417,21414,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q7TSK7.tsv
+tfs_download: TFLink_tfs_of_Q7TSK7.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

@@ -215,7 +215,7 @@ tfs: 'SMARCA4,P51532,6597,GTRD;ORegAnno;PAZAR;ReMap,chromatin immunoprecipitatio
 
   ZBTB16,Q05516,7704,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q6UXB8.tsv
+tfs_download: TFLink_tfs_of_Q6UXB8.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

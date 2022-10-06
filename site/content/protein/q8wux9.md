@@ -213,7 +213,7 @@ tfs: 'TCF12,Q99081,6938,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%
 
   TGIF2,Q9GZN2,60436,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8WUX9.tsv
+tfs_download: TFLink_tfs_of_Q8WUX9.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

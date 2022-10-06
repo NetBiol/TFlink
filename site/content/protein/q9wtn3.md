@@ -419,8 +419,8 @@ targets: 'Acss2,Q9QXG4,60525,GTRD;TRRUST,chromatin immunoprecipitation assay;inf
   Insc,G3UW77,233752,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   Txndc12,Q9CQU0,66073,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q9WTN3.tsv
-targets_download: targets_of_Q9WTN3.tsv
+tfs_download: TFLink_tfs_of_Q9WTN3.tsv
+targets_download: TFLink_targets_of_Q9WTN3.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

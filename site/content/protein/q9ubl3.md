@@ -409,8 +409,8 @@ targets: 'TSPAN6,O43657,7105,GTRD,chromatin immunoprecipitation assay,27924024%5
   COPZ1,P61923,22818,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   CP,P00450,1356,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q9UBL3.tsv
-targets_download: targets_of_Q9UBL3.tsv
+tfs_download: TFLink_tfs_of_Q9UBL3.tsv
+targets_download: TFLink_targets_of_Q9UBL3.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

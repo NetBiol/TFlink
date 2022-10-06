@@ -90,7 +90,7 @@ tfs: 'nhr-129,A5JYV4,183635,GTRD,chromatin immunoprecipitation assay,27924024%5B
 
   unc-30,P52906,178265,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_K8ERR8.tsv
+tfs_download: TFLink_tfs_of_K8ERR8.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

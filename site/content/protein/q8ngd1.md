@@ -50,7 +50,7 @@ tfs: 'RNF2,Q99496,6045,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5
 
   TAL1,P17542,6886,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8NGD1.tsv
+tfs_download: TFLink_tfs_of_Q8NGD1.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

@@ -410,8 +410,8 @@ targets: 'SRSF3,P84103,6428,GTRD,chromatin immunoprecipitation assay,27924024%5B
   NUDT17,P0C025,200035,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   TTC19,Q6DKK2,54902,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q8WTS6.tsv
-targets_download: targets_of_Q8WTS6.tsv
+tfs_download: TFLink_tfs_of_Q8WTS6.tsv
+targets_download: TFLink_targets_of_Q8WTS6.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

@@ -22,7 +22,7 @@ tfs: 'SP2,Q02086,6668,TRRUST,inferred by curator,29087512%5Buid%5D+OR+1341900%5B
 
   POU2F1,P14859,5451,TRRUST,inferred by curator,29087512%5Buid%5D+OR+11385613%5Buid%5D,Yes'
 targets: ''
-tfs_download: tfs_of_A0A0C4ZLG8.tsv
+tfs_download: TFLink_tfs_of_A0A0C4ZLG8.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

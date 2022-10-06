@@ -154,7 +154,7 @@ tfs: 'EP300,Q09472,2033,ReMap,chromatin immunoprecipitation assay,29126285%5Buid
 
   NIPBL,Q6KC79,25836,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_A0A1B0GWB0.tsv
+tfs_download: TFLink_tfs_of_A0A1B0GWB0.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

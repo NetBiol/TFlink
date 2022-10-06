@@ -411,8 +411,8 @@ targets: 'NCBP1,Q09161,4686,ReMap,chromatin immunoprecipitation assay,29126285%5
   TMEM143,Q96AN5,55260,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No
 
   MEF2B,Q02080,100271849;4207,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D+OR+27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q9ULJ6.tsv
-targets_download: targets_of_Q9ULJ6.tsv
+tfs_download: TFLink_tfs_of_Q9ULJ6.tsv
+targets_download: TFLink_targets_of_Q9ULJ6.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

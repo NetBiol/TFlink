@@ -213,7 +213,7 @@ tfs: 'CBX6,O95503,23466,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%
 
   SMARCA2,P51531,6595,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8TBF2.tsv
+tfs_download: TFLink_tfs_of_Q8TBF2.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

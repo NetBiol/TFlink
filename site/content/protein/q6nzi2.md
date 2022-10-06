@@ -414,8 +414,8 @@ targets: 'AARS1,P49588,16,ReMap,chromatin immunoprecipitation assay,29126285%5Bu
   PDK1,Q15118,5163,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No
 
   MADD,Q8WXG6,8567,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No'
-tfs_download: tfs_of_Q6NZI2.tsv
-targets_download: targets_of_Q6NZI2.tsv
+tfs_download: TFLink_tfs_of_Q6NZI2.tsv
+targets_download: TFLink_targets_of_Q6NZI2.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

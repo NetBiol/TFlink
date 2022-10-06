@@ -330,8 +330,8 @@ targets: 'RNASE4,P34096,6038,GTRD,chromatin immunoprecipitation assay,27924024%5
   EMP1,P54849,2012,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   TMEM39A,Q9NV64,55254,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q9UPY3.tsv
-targets_download: targets_of_Q9UPY3.tsv
+tfs_download: TFLink_tfs_of_Q9UPY3.tsv
+targets_download: TFLink_targets_of_Q9UPY3.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

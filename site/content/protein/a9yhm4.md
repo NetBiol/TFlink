@@ -92,7 +92,7 @@ tfs: 'Dmel\CG1792,Q9V9V8,43727,GTRD,chromatin immunoprecipitation assay,27924024
 
   slp2-RA,H5V8D4,33608,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_A9YHM4.tsv
+tfs_download: TFLink_tfs_of_A9YHM4.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

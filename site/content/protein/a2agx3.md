@@ -211,7 +211,7 @@ tfs: 'Ncoa2,Q61026,17978,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
 
   Ar,P19091,11835,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_A2AGX3.tsv
+tfs_download: TFLink_tfs_of_A2AGX3.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

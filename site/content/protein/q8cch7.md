@@ -216,8 +216,8 @@ targets: 'Lhx9,Q9WUH2,16876,TRRUST,inferred by curator,18577233%5Buid%5D+OR+2908
   Gata4,Q08369,14463,TRRUST,inferred by curator,29087512%5Buid%5D+OR+12606418%5Buid%5D,Yes
 
   Sox9,Q04887,20682,TRRUST,inferred by curator,17540364%5Buid%5D+OR+29087512%5Buid%5D,Yes'
-tfs_download: tfs_of_Q8CCH7.tsv
-targets_download: targets_of_Q8CCH7.tsv
+tfs_download: TFLink_tfs_of_Q8CCH7.tsv
+targets_download: TFLink_targets_of_Q8CCH7.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

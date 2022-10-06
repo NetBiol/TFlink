@@ -100,7 +100,7 @@ tfs: 'CTCF,Q9VS55,38817,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%
 
   Nipped-B,Q7PLI2,3355136,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8SXL1.tsv
+tfs_download: TFLink_tfs_of_Q8SXL1.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

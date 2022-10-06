@@ -88,7 +88,7 @@ tfs: 'ey,O18381,43812,REDfly,electrophoretic mobility shift assay,20965965%5Buid
 
   TfIIB,P29052,34430,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9VFE3.tsv
+tfs_download: TFLink_tfs_of_Q9VFE3.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

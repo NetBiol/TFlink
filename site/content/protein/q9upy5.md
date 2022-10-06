@@ -216,7 +216,7 @@ tfs: 'DNMT3B,Q9UBC3,1789,GTRD;IntAct_via_DoRothEA;ReMap,chromatin immunoprecipit
 
   ARID3A,Q99856,1820,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9UPY5.tsv
+tfs_download: TFLink_tfs_of_Q9UPY5.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

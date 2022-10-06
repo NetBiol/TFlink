@@ -16,7 +16,7 @@ tfs: 'Brca1,P48754,12189,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
 
   Spi1,P17433,20375,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q7TQW3.tsv
+tfs_download: TFLink_tfs_of_Q7TQW3.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

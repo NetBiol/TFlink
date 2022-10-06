@@ -211,7 +211,7 @@ tfs: 'UBTF,P17480,7343,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5
 
   TBL1XR1,Q9BZK7,79718,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D+OR+27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9NTI5.tsv
+tfs_download: TFLink_tfs_of_Q9NTI5.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

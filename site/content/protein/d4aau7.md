@@ -12,7 +12,7 @@ orthologs: '[{"species": "Homo sapiens", "id": ["A0A2R8Y4H4"]}, {"species": "Mus
 jaspar_matrices: ''
 tfs: Hnf4a,P22449,25735,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 targets: ''
-tfs_download: tfs_of_D4AAU7.tsv
+tfs_download: TFLink_tfs_of_D4AAU7.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

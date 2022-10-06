@@ -409,8 +409,8 @@ targets: 'Cntln,A2AM05,338349,GTRD,chromatin immunoprecipitation assay,27924024%
   Trim23,Q8BGX0,-,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   Poldip3,Q8BG81,73826,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_E9PYH6.tsv
-targets_download: targets_of_E9PYH6.tsv
+tfs_download: TFLink_tfs_of_E9PYH6.tsv
+targets_download: TFLink_targets_of_E9PYH6.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

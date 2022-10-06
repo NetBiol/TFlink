@@ -22,7 +22,7 @@ tfs: 'lsl-1,O02273,172844,GTRD,chromatin immunoprecipitation assay,27924024%5Bui
 
   xnd-1,O45134,175776,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_B1GRN9.tsv
+tfs_download: TFLink_tfs_of_B1GRN9.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

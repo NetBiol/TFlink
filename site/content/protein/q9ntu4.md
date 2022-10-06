@@ -212,7 +212,7 @@ tfs: 'CTBP2,P56545,1488,ReMap,chromatin immunoprecipitation assay,29126285%5Buid
 
   CUL4A,Q13619,8451,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9NTU4.tsv
+tfs_download: TFLink_tfs_of_Q9NTU4.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

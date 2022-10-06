@@ -158,7 +158,7 @@ tfs: 'Rbfox2,Q8BP71,93686,GTRD,chromatin immunoprecipitation assay,27924024%5Bui
 
   Tcf3,P15806,21423,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_J3QPU5.tsv
+tfs_download: TFLink_tfs_of_J3QPU5.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

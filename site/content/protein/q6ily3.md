@@ -150,7 +150,7 @@ tfs: 'Su(var)205,P05205,34119,GTRD,chromatin immunoprecipitation assay,27924024%
 
   DnaJ-1,Q24133,38643,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q6ILY3.tsv
+tfs_download: TFLink_tfs_of_Q6ILY3.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

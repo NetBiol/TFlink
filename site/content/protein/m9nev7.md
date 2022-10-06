@@ -44,7 +44,7 @@ tfs: 'wapl,Q9W517,31187,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%
 
   su(Hw),P08970,41740,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_M9NEV7.tsv
+tfs_download: TFLink_tfs_of_M9NEV7.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

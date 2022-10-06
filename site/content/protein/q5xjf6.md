@@ -210,7 +210,7 @@ tfs: 'Elob,P62869,67673,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%
 
   Brd3,Q8K2F0,67382,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q5XJF6.tsv
+tfs_download: TFLink_tfs_of_Q5XJF6.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

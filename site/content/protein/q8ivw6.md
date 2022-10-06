@@ -412,8 +412,8 @@ targets: 'CA11,O75493,770,GTRD,chromatin immunoprecipitation assay,27924024%5Bui
   GGA3,Q9NZ52,23163,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   LCNL1,Q6ZST4,401562,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q8IVW6.tsv
-targets_download: targets_of_Q8IVW6.tsv
+tfs_download: TFLink_tfs_of_Q8IVW6.tsv
+targets_download: TFLink_targets_of_Q8IVW6.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

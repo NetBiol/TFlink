@@ -161,7 +161,7 @@ tfs: 'STAT4,Q14765,6775,TRED,inferred by curator,17202159%5Buid%5D,Yes
 
   ZEB1,P37275,6935,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9GZX7.tsv
+tfs_download: TFLink_tfs_of_Q9GZX7.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

@@ -211,7 +211,7 @@ tfs: 'Srf,Q9JM73,20807,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5
 
   Hnf1a,P22361,21405,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8BPP0.tsv
+tfs_download: TFLink_tfs_of_Q8BPP0.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

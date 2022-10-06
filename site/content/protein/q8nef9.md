@@ -211,7 +211,7 @@ tfs: 'BRD2,P25440,6046,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5
 
   SALL4,Q9UJQ4,57167,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8NEF9.tsv
+tfs_download: TFLink_tfs_of_Q8NEF9.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

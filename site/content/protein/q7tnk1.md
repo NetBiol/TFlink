@@ -211,8 +211,8 @@ tfs: 'Spi1,P17433,20375,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%
 
   Klf5,Q9Z0Z7,12224,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: Msi1,Q61474,17690,TRRUST,inferred by curator,29087512%5Buid%5D+OR+25058468%5Buid%5D,Yes
-tfs_download: tfs_of_Q7TNK1.tsv
-targets_download: targets_of_Q7TNK1.tsv
+tfs_download: TFLink_tfs_of_Q7TNK1.tsv
+targets_download: TFLink_targets_of_Q7TNK1.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

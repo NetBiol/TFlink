@@ -66,7 +66,7 @@ tfs: 'nhr-129,A5JYV4,183635,GTRD,chromatin immunoprecipitation assay,27924024%5B
 
   nhr-77,O02316,191726,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_H2KYQ0.tsv
+tfs_download: TFLink_tfs_of_H2KYQ0.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

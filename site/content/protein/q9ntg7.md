@@ -296,8 +296,8 @@ targets: 'FOXO3,O43524,2309,TRRUST,inferred by curator,23665396%5Buid%5D+OR+2908
   YWHAZ,P63104,7534,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   BVES,Q8NE79,11149,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q9NTG7.tsv
-targets_download: targets_of_Q9NTG7.tsv
+tfs_download: TFLink_tfs_of_Q9NTG7.tsv
+targets_download: TFLink_targets_of_Q9NTG7.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

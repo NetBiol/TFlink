@@ -212,7 +212,7 @@ tfs: 'MYC,P01106,4609,GTRD;ReMap;TRED,chromatin immunoprecipitation assay;inferr
 
   RAG2,P55895,5897,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9UBQ5.tsv
+tfs_download: TFLink_tfs_of_Q9UBQ5.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

@@ -67,7 +67,7 @@ tfs: 'NME2,P22392,4831;654364,ReMap,chromatin immunoprecipitation assay,29126285
 
   POU5F1,Q01860,5460,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D+OR+27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8NGC3.tsv
+tfs_download: TFLink_tfs_of_Q8NGC3.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

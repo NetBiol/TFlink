@@ -212,7 +212,7 @@ tfs: 'EGR1,P18146,1958,ORegAnno;PAZAR;ReMap,chromatin immunoprecipitation assay;
 
   AFF4,Q9UHB7,27125,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8IYT8.tsv
+tfs_download: TFLink_tfs_of_Q8IYT8.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

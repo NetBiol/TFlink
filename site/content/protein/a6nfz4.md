@@ -56,7 +56,7 @@ tfs: 'SIN3A,Q96ST3,25942,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
 
   PAX5,Q02548,5079,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_A6NFZ4.tsv
+tfs_download: TFLink_tfs_of_A6NFZ4.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

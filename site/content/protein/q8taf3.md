@@ -212,7 +212,7 @@ tfs: 'BATF,Q16520,10538,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%
 
   HNRNPH1,P31943,3187,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8TAF3.tsv
+tfs_download: TFLink_tfs_of_Q8TAF3.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

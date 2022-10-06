@@ -210,7 +210,7 @@ tfs: 'Baz1a,O88379,-,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,
 
   Nfatc1,O88942,-,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q3ULJ8.tsv
+tfs_download: TFLink_tfs_of_Q3ULJ8.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

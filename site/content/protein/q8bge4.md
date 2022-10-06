@@ -212,7 +212,7 @@ tfs: 'Crebbp,P45481,-,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D
 
   Tp63,O88898,22061,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8BGE4.tsv
+tfs_download: TFLink_tfs_of_Q8BGE4.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

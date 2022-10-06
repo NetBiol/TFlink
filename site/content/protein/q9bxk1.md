@@ -412,8 +412,8 @@ targets: 'CDKN1A,P38936,1026,GTRD;TRRUST,chromatin immunoprecipitation assay;inf
   ZNF276,Q8N554,92822,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   MYO1C,O00159,4641,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q9BXK1.tsv
-targets_download: targets_of_Q9BXK1.tsv
+tfs_download: TFLink_tfs_of_Q9BXK1.tsv
+targets_download: TFLink_targets_of_Q9BXK1.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

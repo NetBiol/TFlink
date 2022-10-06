@@ -216,8 +216,8 @@ targets: 'SHFL,Q9NUL5,55337,GTRD,chromatin immunoprecipitation assay,27924024%5B
   NEK7,Q8TDX7,140609,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   ANGEL1,Q9UNK9,23357,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q9UJU3.tsv
-targets_download: targets_of_Q9UJU3.tsv
+tfs_download: TFLink_tfs_of_Q9UJU3.tsv
+targets_download: TFLink_targets_of_Q9UJU3.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

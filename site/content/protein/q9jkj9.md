@@ -211,7 +211,7 @@ tfs: 'Hnf1a,P22361,21405,GTRD;TRRUST,chromatin immunoprecipitation assay;inferre
 
   Ash2l,Q91X20,23808,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9JKJ9.tsv
+tfs_download: TFLink_tfs_of_Q9JKJ9.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

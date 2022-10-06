@@ -229,8 +229,8 @@ targets: 'CG14649,A0A0B4K6Q8,4379842,GTRD,chromatin immunoprecipitation assay,27
   flw,P48462,44289,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   CG10082,Q6NNB7,-,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q7JXA8.tsv
-targets_download: targets_of_Q7JXA8.tsv
+tfs_download: TFLink_tfs_of_Q7JXA8.tsv
+targets_download: TFLink_targets_of_Q7JXA8.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

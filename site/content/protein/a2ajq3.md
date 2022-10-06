@@ -211,7 +211,7 @@ tfs: 'Creb1,Q01147,12912,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
 
   Rcor1,Q8CFE3,217864,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_A2AJQ3.tsv
+tfs_download: TFLink_tfs_of_A2AJQ3.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

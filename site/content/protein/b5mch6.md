@@ -26,7 +26,7 @@ tfs: 'ZNF143,P52747,7702,ReMap,chromatin immunoprecipitation assay,29126285%5Bui
 
   TERF2,Q15554,7014,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_B5MCH6.tsv
+tfs_download: TFLink_tfs_of_B5MCH6.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

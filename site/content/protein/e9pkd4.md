@@ -16,7 +16,7 @@ tfs: 'TCF4,P15884,6925,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5
 
   ESR1,P03372,2099,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_E9PKD4.tsv
+tfs_download: TFLink_tfs_of_E9PKD4.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

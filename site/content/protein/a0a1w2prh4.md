@@ -210,7 +210,7 @@ tfs: 'NKX2-2,O95096,4821,ReMap,chromatin immunoprecipitation assay,29126285%5Bui
 
   ZC3H8,Q8N5P1,84524,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_A0A1W2PRH4.tsv
+tfs_download: TFLink_tfs_of_A0A1W2PRH4.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

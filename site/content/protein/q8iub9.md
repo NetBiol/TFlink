@@ -111,7 +111,7 @@ tfs: 'PRDM9,Q9NQV7,56979,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
 
   SMC3,Q9UQE7,9126,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8IUB9.tsv
+tfs_download: TFLink_tfs_of_Q8IUB9.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

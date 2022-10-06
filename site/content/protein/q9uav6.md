@@ -48,7 +48,7 @@ tfs: 'ceh-60,Q45EK2,184803,GTRD,chromatin immunoprecipitation assay,27924024%5Bu
 
   hif-1,G5EGD2,180359,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9UAV6.tsv
+tfs_download: TFLink_tfs_of_Q9UAV6.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

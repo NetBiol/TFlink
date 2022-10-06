@@ -210,7 +210,7 @@ tfs: 'ELF1,P32519,1997,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5
 
   GPIHBP1,Q8IV16,338328,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8IZS6.tsv
+tfs_download: TFLink_tfs_of_Q8IZS6.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

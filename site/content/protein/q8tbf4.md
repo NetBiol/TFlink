@@ -211,7 +211,7 @@ tfs: 'TGIF2,Q9GZN2,60436,ReMap,chromatin immunoprecipitation assay,29126285%5Bui
 
   DIDO1,Q9BTC0,11083,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8TBF4.tsv
+tfs_download: TFLink_tfs_of_Q8TBF4.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

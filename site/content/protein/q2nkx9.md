@@ -211,7 +211,7 @@ tfs: 'SMAD1,Q15797,4086,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%
 
   GATAD2B,Q8WXI9,57459,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q2NKX9.tsv
+tfs_download: TFLink_tfs_of_Q2NKX9.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

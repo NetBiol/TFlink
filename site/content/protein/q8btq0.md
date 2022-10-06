@@ -410,8 +410,8 @@ targets: 'BC024978,J3QPC3,414069,GTRD,chromatin immunoprecipitation assay,279240
   Tcam1,Q99NB3,75870,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   Fosl2,P47930,14284,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q8BTQ0.tsv
-targets_download: targets_of_Q8BTQ0.tsv
+tfs_download: TFLink_tfs_of_Q8BTQ0.tsv
+targets_download: TFLink_targets_of_Q8BTQ0.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

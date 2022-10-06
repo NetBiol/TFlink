@@ -410,8 +410,8 @@ targets: 'Cd4,P06332,12504,TRRUST,inferred by curator,29087512%5Buid%5D+OR+17980
   Slc17a7,Q3TXX4,72961,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   Dhrs9,Q58NB6,241452,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q6PDQ2.tsv
-targets_download: targets_of_Q6PDQ2.tsv
+tfs_download: TFLink_tfs_of_Q6PDQ2.tsv
+targets_download: TFLink_targets_of_Q6PDQ2.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

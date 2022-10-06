@@ -409,8 +409,8 @@ targets: 'LDHA,P00338,3939,GTRD,chromatin immunoprecipitation assay,27924024%5Bu
   EPN1,Q9Y6I3,29924,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   RAB32,Q13637,10981,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q9BUJ2.tsv
-targets_download: targets_of_Q9BUJ2.tsv
+tfs_download: TFLink_tfs_of_Q9BUJ2.tsv
+targets_download: TFLink_targets_of_Q9BUJ2.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

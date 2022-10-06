@@ -44,7 +44,7 @@ tfs: 'zip-8,P46505,175924,GTRD,chromatin immunoprecipitation assay,27924024%5Bui
 
   lsy-2,Q9N5S3,180522,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_H2KYP7.tsv
+tfs_download: TFLink_tfs_of_H2KYP7.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

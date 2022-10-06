@@ -408,8 +408,8 @@ targets: 'ZNF782,Q6ZMW2,158431,GTRD,chromatin immunoprecipitation assay,27924024
   SPAG4,Q9NPE6,6676,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   GPR3,P46089,2827,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q9NVM9.tsv
-targets_download: targets_of_Q9NVM9.tsv
+tfs_download: TFLink_tfs_of_Q9NVM9.tsv
+targets_download: TFLink_targets_of_Q9NVM9.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

@@ -211,7 +211,7 @@ tfs: 'Neurog2,P70447,11924,GTRD,chromatin immunoprecipitation assay,27924024%5Bu
 
   Cbx7,Q8VDS3,52609,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9CPP0.tsv
+tfs_download: TFLink_tfs_of_Q9CPP0.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

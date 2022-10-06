@@ -211,7 +211,7 @@ tfs: 'GLI2,P10070,2736,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5
 
   ASH2L,Q9UBL3,9070,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D+OR+27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q5PSV4.tsv
+tfs_download: TFLink_tfs_of_Q5PSV4.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

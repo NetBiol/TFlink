@@ -410,8 +410,8 @@ targets: 'SUMO2,P61956,6613,ReMap,chromatin immunoprecipitation assay,29126285%5
   NDC1,Q9BTX1,55706,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   ATR,Q13535,545,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q9BRQ0.tsv
-targets_download: targets_of_Q9BRQ0.tsv
+tfs_download: TFLink_tfs_of_Q9BRQ0.tsv
+targets_download: TFLink_targets_of_Q9BRQ0.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

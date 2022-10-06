@@ -184,8 +184,8 @@ targets: 'Sesn,Q9W1K5,37755,GTRD,chromatin immunoprecipitation assay,27924024%5B
   cue,Q95RU0,38174,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   Ugalt,O76865,31255,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_A8JNL9.tsv
-targets_download: targets_of_A8JNL9.tsv
+tfs_download: TFLink_tfs_of_A8JNL9.tsv
+targets_download: TFLink_targets_of_A8JNL9.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

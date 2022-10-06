@@ -22,7 +22,7 @@ tfs: 'NFKB1,P19838,4790,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%
 
   POU5F1,Q01860,5460,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_A6NHA9.tsv
+tfs_download: TFLink_tfs_of_A6NHA9.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

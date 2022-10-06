@@ -412,8 +412,8 @@ targets: 'NR3C1,P04150,2908,HTRI,electrophoretic mobility shift assay,22900683%5
   MICOS10,Q5TGZ0,440574,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   NOP14,P78316,8602,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q9NRY4.tsv
-targets_download: targets_of_Q9NRY4.tsv
+tfs_download: TFLink_tfs_of_Q9NRY4.tsv
+targets_download: TFLink_targets_of_Q9NRY4.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

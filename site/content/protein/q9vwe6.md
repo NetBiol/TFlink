@@ -252,8 +252,8 @@ targets: 'myo,Q9V4F4,43811,GTRD,chromatin immunoprecipitation assay,27924024%5Bu
   CG1746-RA,C3KGM7,-,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   Dmel\CG12054,Q9V9Z6,43694,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q9VWE6.tsv
-targets_download: targets_of_Q9VWE6.tsv
+tfs_download: TFLink_tfs_of_Q9VWE6.tsv
+targets_download: TFLink_targets_of_Q9VWE6.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

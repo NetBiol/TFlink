@@ -412,8 +412,8 @@ targets: 'Tlx1,P43345,-,TRRUST,inferred by curator,29087512%5Buid%5D+OR+23639443
   Smim8,Q9CQQ0,66291,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   Cfap46,E9Q2C0,212124,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_E9PZZ1.tsv
-targets_download: targets_of_E9PZZ1.tsv
+tfs_download: TFLink_tfs_of_E9PZZ1.tsv
+targets_download: TFLink_targets_of_E9PZZ1.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

@@ -211,7 +211,7 @@ tfs: 'SPIB,Q01892,6689,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5
 
   SP140,Q13342,11262,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q5VTB9.tsv
+tfs_download: TFLink_tfs_of_Q5VTB9.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

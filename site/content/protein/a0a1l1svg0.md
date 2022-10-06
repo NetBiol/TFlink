@@ -212,7 +212,7 @@ tfs: 'Plagl1,Q9JLQ4,22634,GTRD,chromatin immunoprecipitation assay,27924024%5Bui
 
   Ascl1,Q02067,17172,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_A0A1L1SVG0.tsv
+tfs_download: TFLink_tfs_of_A0A1L1SVG0.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

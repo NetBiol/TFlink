@@ -36,7 +36,7 @@ tfs: 'esg,P25932,34903,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5
 
   lark,Q94901,38811,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_A0A0B4KGI0.tsv
+tfs_download: TFLink_tfs_of_A0A0B4KGI0.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

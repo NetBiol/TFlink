@@ -211,7 +211,7 @@ tfs: 'Kmt2c,Q8BRH4,-,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,
 
   Hdac1,O09106,433759,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8BTG7.tsv
+tfs_download: TFLink_tfs_of_Q8BTG7.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

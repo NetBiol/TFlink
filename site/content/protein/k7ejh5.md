@@ -210,7 +210,7 @@ tfs: 'JUN,P05412,3725,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5B
 
   PAX5,Q02548,5079,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D+OR+27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_K7EJH5.tsv
+tfs_download: TFLink_tfs_of_K7EJH5.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

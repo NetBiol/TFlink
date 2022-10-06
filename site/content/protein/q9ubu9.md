@@ -212,8 +212,8 @@ tfs: 'ZNF316,A6NFI3,100131017,GTRD,chromatin immunoprecipitation assay,27924024%
 targets: 'HNRNPU,Q00839,3192,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   HNRNPUL1,Q9BUJ2,11100,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q9UBU9.tsv
-targets_download: targets_of_Q9UBU9.tsv
+tfs_download: TFLink_tfs_of_Q9UBU9.tsv
+targets_download: TFLink_targets_of_Q9UBU9.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

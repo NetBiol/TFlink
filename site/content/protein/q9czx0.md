@@ -211,8 +211,8 @@ tfs: 'Stat1,P42225,-,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,
 
   Rela,Q04207,19697,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: Pou5f1,P20263,18999,TRRUST,inferred by curator,10692469%5Buid%5D+OR+29087512%5Buid%5D,Yes
-tfs_download: tfs_of_Q9CZX0.tsv
-targets_download: targets_of_Q9CZX0.tsv
+tfs_download: TFLink_tfs_of_Q9CZX0.tsv
+targets_download: TFLink_targets_of_Q9CZX0.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

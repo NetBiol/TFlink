@@ -212,7 +212,7 @@ tfs: 'PMEPA1,Q969W9,56937,ReMap,chromatin immunoprecipitation assay,29126285%5Bu
 
   VEZF1,Q14119,7716,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q6PEW1.tsv
+tfs_download: TFLink_tfs_of_Q6PEW1.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

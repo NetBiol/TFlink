@@ -17,7 +17,7 @@ targets: 'Scx,Q64124,20289,TRRUST,inferred by curator,29087512%5Buid%5D+OR+25332
 
   Myod1,P10085,17927,TRRUST,inferred by curator,29087512%5Buid%5D+OR+24814716%5Buid%5D,Yes'
 tfs_download: ''
-targets_download: targets_of_Q8BIA3.tsv
+targets_download: TFLink_targets_of_Q8BIA3.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

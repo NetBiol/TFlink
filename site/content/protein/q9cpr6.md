@@ -84,7 +84,7 @@ tfs: 'Gata1,P17679,14460,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
 
   Suz12,Q80U70,52615,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9CPR6.tsv
+tfs_download: TFLink_tfs_of_Q9CPR6.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

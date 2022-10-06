@@ -74,7 +74,7 @@ tfs: 'mxl-3,Q18711,181457,GTRD,chromatin immunoprecipitation assay,27924024%5Bui
 
   tdp-1,D0VWM8,174436,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_H2KYE4.tsv
+tfs_download: TFLink_tfs_of_H2KYE4.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

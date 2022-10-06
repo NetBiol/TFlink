@@ -213,7 +213,7 @@ tfs: 'RB1,P06400,5925,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5
 
   ZC3H8,Q8N5P1,84524,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q5BJD5.tsv
+tfs_download: TFLink_tfs_of_Q5BJD5.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

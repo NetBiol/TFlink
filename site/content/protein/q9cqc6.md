@@ -210,7 +210,7 @@ tfs: 'Nfia,Q02780,18027,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%
 
   Ncor2,Q9WU42,20602,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9CQC6.tsv
+tfs_download: TFLink_tfs_of_Q9CQC6.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

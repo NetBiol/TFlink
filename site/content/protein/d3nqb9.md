@@ -82,7 +82,7 @@ tfs: 'lir-3,O17862,174707,GTRD,chromatin immunoprecipitation assay,27924024%5Bui
 
   lsy-2,Q9N5S3,180522,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_D3NQB9.tsv
+tfs_download: TFLink_tfs_of_D3NQB9.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

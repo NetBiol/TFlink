@@ -98,7 +98,7 @@ tfs: 'not,Q9VVR1,40030,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5
 
   Ibf1,Q9VHG5,41103,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9VLF5.tsv
+tfs_download: TFLink_tfs_of_Q9VLF5.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

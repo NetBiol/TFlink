@@ -213,7 +213,7 @@ tfs: 'CDK9,P50750,1025,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5
 
   AFF4,Q9UHB7,27125,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9UNE0.tsv
+tfs_download: TFLink_tfs_of_Q9UNE0.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

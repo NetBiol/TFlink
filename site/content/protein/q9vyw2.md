@@ -130,8 +130,8 @@ targets: 'Best2,Q9VRW4,38727,GTRD,chromatin immunoprecipitation assay,27924024%5
   Lpin,Q8SXP0,35790,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   CG32787,Q9W4P6,31341,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q9VYW2.tsv
-targets_download: targets_of_Q9VYW2.tsv
+tfs_download: TFLink_tfs_of_Q9VYW2.tsv
+targets_download: TFLink_targets_of_Q9VYW2.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

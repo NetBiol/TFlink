@@ -18,7 +18,7 @@ tfs: 'Mybl1,P51960,17864,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
 
   Anpep,P97449,16790,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_A2RRY9.tsv
+tfs_download: TFLink_tfs_of_A2RRY9.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

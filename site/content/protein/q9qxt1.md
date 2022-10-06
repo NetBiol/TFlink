@@ -210,7 +210,7 @@ tfs: 'Otx2,P80206,-,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,N
 
   Hcfc1,Q61191,15161,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9QXT1.tsv
+tfs_download: TFLink_tfs_of_Q9QXT1.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

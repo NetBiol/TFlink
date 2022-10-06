@@ -30,7 +30,7 @@ tfs: 'Ar,P19091,11835,TRED,inferred by curator,17202159%5Buid%5D,Yes
 
   Atf1,P81269,11908,TRED,inferred by curator,17202159%5Buid%5D,Yes'
 targets: ''
-tfs_download: tfs_of_Q9JLF6.tsv
+tfs_download: TFLink_tfs_of_Q9JLF6.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

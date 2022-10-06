@@ -152,8 +152,8 @@ targets: '-,Q8SXJ3,-,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,
   Arl1,P25160,39745,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   Dmel\CG43295,M9NDA3,12797916,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q9VML1.tsv
-targets_download: targets_of_Q9VML1.tsv
+tfs_download: TFLink_tfs_of_Q9VML1.tsv
+targets_download: TFLink_targets_of_Q9VML1.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

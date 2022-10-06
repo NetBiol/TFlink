@@ -213,7 +213,7 @@ tfs: 'NOTCH1,P46531,4851,GTRD;ReMap,chromatin immunoprecipitation assay,29126285
 
   E2F5,Q15329,1875,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D+OR+27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8NCQ5.tsv
+tfs_download: TFLink_tfs_of_Q8NCQ5.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

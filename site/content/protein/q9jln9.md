@@ -210,7 +210,7 @@ tfs: 'Eya2,O08575,14049,TRRUST,inferred by curator,29087512%5Buid%5D+OR+22197309
 
   Kmt2b,O08550,75410,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9JLN9.tsv
+tfs_download: TFLink_tfs_of_Q9JLN9.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

@@ -214,7 +214,7 @@ tfs: 'HIF3A,Q9Y2N7,64344,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
 
   RAG2,P55895,5897,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9NUL3.tsv
+tfs_download: TFLink_tfs_of_Q9NUL3.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

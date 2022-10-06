@@ -408,8 +408,8 @@ targets: 'Anapc11,Q9CPX9,66156,GTRD,chromatin immunoprecipitation assay,27924024
   Amer3,Q6NS69,211383,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   Dph5,Q9CWQ0,69740,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q8BGC0.tsv
-targets_download: targets_of_Q8BGC0.tsv
+tfs_download: TFLink_tfs_of_Q8BGC0.tsv
+targets_download: TFLink_targets_of_Q8BGC0.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

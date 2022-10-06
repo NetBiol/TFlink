@@ -92,8 +92,8 @@ targets: 'RpS3A,P55830,43768,GTRD,chromatin immunoprecipitation assay,27924024%5
   RpS28b,Q9W334,31897,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   -,Q8T0J2,-,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q9VKQ7.tsv
-targets_download: targets_of_Q9VKQ7.tsv
+tfs_download: TFLink_tfs_of_Q9VKQ7.tsv
+targets_download: TFLink_targets_of_Q9VKQ7.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

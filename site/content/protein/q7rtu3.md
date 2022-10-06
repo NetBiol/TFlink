@@ -214,7 +214,7 @@ tfs: 'KDM4A,O75164,9682,ReMap,chromatin immunoprecipitation assay,29126285%5Buid
 
   MAX,P61244,4149,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q7RTU3.tsv
+tfs_download: TFLink_tfs_of_Q7RTU3.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

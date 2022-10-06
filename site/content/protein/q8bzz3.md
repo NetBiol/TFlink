@@ -210,8 +210,8 @@ tfs: 'Isx,A1A546,71597,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5
 
   Pcgf2,P23798,22658,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: Tp53,P02340,22059,TRRUST,inferred by curator,16924229%5Buid%5D+OR+29087512%5Buid%5D,Yes
-tfs_download: tfs_of_Q8BZZ3.tsv
-targets_download: targets_of_Q8BZZ3.tsv
+tfs_download: TFLink_tfs_of_Q8BZZ3.tsv
+targets_download: TFLink_targets_of_Q8BZZ3.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

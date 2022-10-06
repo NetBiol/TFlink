@@ -190,7 +190,7 @@ tfs: 'lz,Q9W349,31883,REDfly,electrophoretic mobility shift assay,20965965%5Buid
 
   pds5,A1Z8S6,36286,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9VPQ6.tsv
+tfs_download: TFLink_tfs_of_Q9VPQ6.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

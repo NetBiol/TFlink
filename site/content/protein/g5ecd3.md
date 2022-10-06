@@ -46,7 +46,7 @@ tfs: 'hsf-1,G5EFT5,173078,GTRD,chromatin immunoprecipitation assay,27924024%5Bui
 
   vab-15,Q09604,181197,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_G5ECD3.tsv
+tfs_download: TFLink_tfs_of_G5ECD3.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

@@ -125,7 +125,7 @@ tfs: 'Tfap2d,Q91ZK0,226896,TRRUST,inferred by curator,21858141%5Buid%5D+OR+29087
 
   Rybp,Q8CCI5,56353,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8BGW3.tsv
+tfs_download: TFLink_tfs_of_Q8BGW3.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

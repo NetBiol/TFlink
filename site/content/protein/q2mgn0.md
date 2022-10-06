@@ -76,8 +76,8 @@ targets: '-,Q9Y140,43502,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
   Cyp6u1,Q9V979,35608,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   RpL34b,Q9VHE5,41120,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q2MGN0.tsv
-targets_download: targets_of_Q2MGN0.tsv
+tfs_download: TFLink_tfs_of_Q2MGN0.tsv
+targets_download: TFLink_targets_of_Q2MGN0.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

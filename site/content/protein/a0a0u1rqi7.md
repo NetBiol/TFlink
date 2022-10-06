@@ -36,7 +36,7 @@ tfs: 'DUX4,Q9UBX2,100288687,GTRD,chromatin immunoprecipitation assay,27924024%5B
 
   NCOR2,Q9Y618,9612,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_A0A0U1RQI7.tsv
+tfs_download: TFLink_tfs_of_A0A0U1RQI7.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

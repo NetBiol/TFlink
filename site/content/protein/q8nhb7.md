@@ -39,7 +39,7 @@ tfs: 'H2AZ1,P0C0S5,3015,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%
 
   MYC,P01106,4609,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8NHB7.tsv
+tfs_download: TFLink_tfs_of_Q8NHB7.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

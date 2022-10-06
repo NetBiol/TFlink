@@ -213,7 +213,7 @@ tfs: 'ASCL1,P50553,429,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5
 
   JUN,P05412,3725,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8WXF3.tsv
+tfs_download: TFLink_tfs_of_Q8WXF3.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

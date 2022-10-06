@@ -212,7 +212,7 @@ tfs: 'RING1,Q06587,6015,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%
 
   MBD2,Q9UBB5,8932,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9NWC5.tsv
+tfs_download: TFLink_tfs_of_Q9NWC5.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

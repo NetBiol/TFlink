@@ -210,7 +210,7 @@ tfs: 'CEBPD,P49716,1052,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%
 
   TAF15,Q92804,8148,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_A0A1B0GUT2.tsv
+tfs_download: TFLink_tfs_of_A0A1B0GUT2.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

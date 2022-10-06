@@ -22,7 +22,7 @@ tfs: 'z,P09956,31230,ORegAnno,inferred by curator,26578589%5Buid%5D+OR+2501151%5
 
   Top3beta,O96651,31565,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9VUT0.tsv
+tfs_download: TFLink_tfs_of_Q9VUT0.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

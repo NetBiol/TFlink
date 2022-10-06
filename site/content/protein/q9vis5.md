@@ -86,8 +86,8 @@ targets: 'CG8788-3''utr,A0A0B4LEI2,19835613,GTRD,chromatin immunoprecipitation a
   Ucp4A,Q9VX14,32764,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   n(2)k04512,Q7JY89,35932,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q9VIS5.tsv
-targets_download: targets_of_Q9VIS5.tsv
+tfs_download: TFLink_tfs_of_Q9VIS5.tsv
+targets_download: TFLink_targets_of_Q9VIS5.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

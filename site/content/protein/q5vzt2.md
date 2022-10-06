@@ -78,7 +78,7 @@ tfs: 'NCOA3,Q9Y6Q9,8202,ReMap,chromatin immunoprecipitation assay,29126285%5Buid
 
   MBD2,Q9UBB5,8932,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q5VZT2.tsv
+tfs_download: TFLink_tfs_of_Q5VZT2.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

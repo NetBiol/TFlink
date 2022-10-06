@@ -210,7 +210,7 @@ tfs: 'TFAP2A,P05549,7020,GTRD;ReMap,chromatin immunoprecipitation assay,29126285
 
   ZNF143,P52747,7702,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_C9JXX5.tsv
+tfs_download: TFLink_tfs_of_C9JXX5.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

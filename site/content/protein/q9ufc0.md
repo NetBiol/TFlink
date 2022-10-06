@@ -211,7 +211,7 @@ tfs: 'TCF7L2,Q9NQB0,6934,ReMap,chromatin immunoprecipitation assay,29126285%5Bui
 
   HNF4G,Q14541,3174,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9UFC0.tsv
+tfs_download: TFLink_tfs_of_Q9UFC0.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

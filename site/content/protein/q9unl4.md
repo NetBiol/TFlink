@@ -240,8 +240,8 @@ targets: 'CDKN1B,P46527,1027,TRRUST,inferred by curator,29087512%5Buid%5D+OR+207
   CCND1,P24385,595,TRRUST,inferred by curator,29087512%5Buid%5D+OR+18399550%5Buid%5D,Yes
 
   ANGPT1,Q15389,284,TRRUST,inferred by curator,29087512%5Buid%5D+OR+20707719%5Buid%5D,Yes'
-tfs_download: tfs_of_Q9UNL4.tsv
-targets_download: targets_of_Q9UNL4.tsv
+tfs_download: TFLink_tfs_of_Q9UNL4.tsv
+targets_download: TFLink_targets_of_Q9UNL4.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

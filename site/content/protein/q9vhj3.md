@@ -256,8 +256,8 @@ targets: 'Mob2,Q8IQG1,39293,GTRD,chromatin immunoprecipitation assay,27924024%5B
   Dmel\CG3744,Q9VC19,42972,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   CAH3,Q9W3C8,31804,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q9VHJ3.tsv
-targets_download: targets_of_Q9VHJ3.tsv
+tfs_download: TFLink_tfs_of_Q9VHJ3.tsv
+targets_download: TFLink_targets_of_Q9VHJ3.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

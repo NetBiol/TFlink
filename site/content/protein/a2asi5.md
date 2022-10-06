@@ -211,7 +211,7 @@ tfs: 'Tbr1,Q64336,21375,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%
 
   Nanog,Q80Z64,71950,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_A2ASI5.tsv
+tfs_download: TFLink_tfs_of_A2ASI5.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

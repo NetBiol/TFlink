@@ -285,8 +285,8 @@ targets: 'CG12772,A9YK31,-,GTRD,chromatin immunoprecipitation assay,27924024%5Bu
   -,A2VEH0,-,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   Thd1-RA,C3KKB9,-,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q8IGP5.tsv
-targets_download: targets_of_Q8IGP5.tsv
+tfs_download: TFLink_tfs_of_Q8IGP5.tsv
+targets_download: TFLink_targets_of_Q8IGP5.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

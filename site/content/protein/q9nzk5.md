@@ -412,8 +412,8 @@ targets: 'EXD3,Q8N9H8,54932,GTRD,chromatin immunoprecipitation assay,27924024%5B
   SLC27A5,Q9Y2P5,10998,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   ZMPSTE24,O75844,10269,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q9NZK5.tsv
-targets_download: targets_of_Q9NZK5.tsv
+tfs_download: TFLink_tfs_of_Q9NZK5.tsv
+targets_download: TFLink_targets_of_Q9NZK5.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

@@ -408,8 +408,8 @@ targets: 'Rfc1,Q5U4B1,19687,GTRD,chromatin immunoprecipitation assay,27924024%5B
   Ric3,Q8BPM6,320360,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   Fbxo30,Q8BJL1,71865,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_A2RSY1.tsv
-targets_download: targets_of_A2RSY1.tsv
+tfs_download: TFLink_tfs_of_A2RSY1.tsv
+targets_download: TFLink_targets_of_A2RSY1.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

@@ -90,7 +90,7 @@ tfs: 'lilli,Q9VQI9,33496,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
 
   fkh,P14734,43383,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9VRV5.tsv
+tfs_download: TFLink_tfs_of_Q9VRV5.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

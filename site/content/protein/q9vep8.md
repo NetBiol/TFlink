@@ -100,7 +100,7 @@ tfs: 'Dmel\CG15514,Q9VAF2,43531,GTRD,chromatin immunoprecipitation assay,2792402
 
   Sry-delta,P07664,43572,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9VEP8.tsv
+tfs_download: TFLink_tfs_of_Q9VEP8.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

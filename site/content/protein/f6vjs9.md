@@ -210,7 +210,7 @@ tfs: 'BRCA1,P38398,672,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5
 
   RING1,Q06587,6015,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_F6VJS9.tsv
+tfs_download: TFLink_tfs_of_F6VJS9.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

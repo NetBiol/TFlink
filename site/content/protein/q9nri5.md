@@ -213,7 +213,7 @@ tfs: 'ATF5,Q9Y2D1,22809,TRED;TRRUST,inferred by curator,17202159%5Buid%5D+OR+290
 
   HOXA9,P31269,3205,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9NRI5.tsv
+tfs_download: TFLink_tfs_of_Q9NRI5.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

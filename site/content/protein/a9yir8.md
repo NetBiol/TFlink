@@ -36,7 +36,7 @@ tfs: 'msl-2,P50534,33565,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
 
   Su(var)205,P05205,34119,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_A9YIR8.tsv
+tfs_download: TFLink_tfs_of_A9YIR8.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

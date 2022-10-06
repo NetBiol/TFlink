@@ -216,7 +216,7 @@ tfs: 'ZNF770,Q6IQ21,54989,GTRD,chromatin immunoprecipitation assay,27924024%5Bui
 
   TFDP1,Q14186,7027,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q5THJ4.tsv
+tfs_download: TFLink_tfs_of_Q5THJ4.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

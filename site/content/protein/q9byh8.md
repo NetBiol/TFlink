@@ -412,8 +412,8 @@ targets: 'DEFB4A;DEFB4B,O15263,100289462;1673,TRRUST,inferred by curator,1836214
   STMN3,Q9NZ72,50861,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   MNT,Q99583,4335,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q9BYH8.tsv
-targets_download: targets_of_Q9BYH8.tsv
+tfs_download: TFLink_tfs_of_Q9BYH8.tsv
+targets_download: TFLink_targets_of_Q9BYH8.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

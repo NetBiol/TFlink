@@ -211,7 +211,7 @@ tfs: 'EHMT2,Q96KQ7,10919,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
 
   MTOR,P42345,2475,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8WVX9.tsv
+tfs_download: TFLink_tfs_of_Q8WVX9.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

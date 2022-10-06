@@ -211,7 +211,7 @@ tfs: 'PTEN,P60484,5728,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5
 
   MED1,Q15648,5469,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q5VWJ9.tsv
+tfs_download: TFLink_tfs_of_Q5VWJ9.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

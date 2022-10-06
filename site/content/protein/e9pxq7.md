@@ -212,7 +212,7 @@ tfs: 'Rarb,P22605,218772,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
 
   Arntl,Q9WTL8,11865,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_E9PXQ7.tsv
+tfs_download: TFLink_tfs_of_E9PXQ7.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

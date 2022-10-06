@@ -211,7 +211,7 @@ targets: '-,A9YIM2,-,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,
 
   -,C7LAC5,-,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 tfs_download: ''
-targets_download: targets_of_T2FFH5.tsv
+targets_download: TFLink_targets_of_T2FFH5.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

@@ -92,7 +92,7 @@ tfs: 'Naa10,Q9QY36,56292,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
 
   Ruvbl1,P60122,56505,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_J3QPJ9.tsv
+tfs_download: TFLink_tfs_of_J3QPJ9.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

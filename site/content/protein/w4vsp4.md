@@ -190,7 +190,7 @@ tfs: 'Kdm1a,Q6ZQ88,99982,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
 
   Tet2,Q4JK59,214133,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_W4VSP4.tsv
+tfs_download: TFLink_tfs_of_W4VSP4.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

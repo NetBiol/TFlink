@@ -411,8 +411,8 @@ targets: 'SGPP1,Q9BX95,81537,GTRD,chromatin immunoprecipitation assay,27924024%5
   TTC13,Q8NBP0,79573,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   RAB3GAP2,Q9H2M9,25782,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_B2RXF5.tsv
-targets_download: targets_of_B2RXF5.tsv
+tfs_download: TFLink_tfs_of_B2RXF5.tsv
+targets_download: TFLink_targets_of_B2RXF5.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

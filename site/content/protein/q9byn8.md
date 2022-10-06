@@ -211,7 +211,7 @@ tfs: 'GLIS1,Q8NBF1,148979,GTRD,chromatin immunoprecipitation assay,27924024%5Bui
 
   BCL3,P20749,602,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D+OR+27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9BYN8.tsv
+tfs_download: TFLink_tfs_of_Q9BYN8.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

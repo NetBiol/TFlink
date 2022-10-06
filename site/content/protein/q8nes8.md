@@ -211,7 +211,7 @@ tfs: 'TCF12,Q99081,6938,ReMap,chromatin immunoprecipitation assay,29126285%5Buid
 
   EGR1,P18146,1958,ORegAnno;PAZAR,inferred by curator,18971253%5Buid%5D+OR+26578589%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8NES8.tsv
+tfs_download: TFLink_tfs_of_Q8NES8.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

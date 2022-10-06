@@ -20,7 +20,7 @@ tfs: 'lin-42,Q65ZG8,173503,GTRD,chromatin immunoprecipitation assay,27924024%5Bu
 
   fkh-10,O17593,182874,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q7YTL1.tsv
+tfs_download: TFLink_tfs_of_Q7YTL1.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

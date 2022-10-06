@@ -211,7 +211,7 @@ tfs: 'IKZF1,Q13422,10320,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
 
   TCF7L1,Q9HCS4,83439,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D+OR+27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q6PJG6.tsv
+tfs_download: TFLink_tfs_of_Q6PJG6.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

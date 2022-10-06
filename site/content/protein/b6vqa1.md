@@ -36,7 +36,7 @@ tfs: 'Psc,P35820,36431,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5
 
   twi,P10627,37655,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_B6VQA1.tsv
+tfs_download: TFLink_tfs_of_B6VQA1.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

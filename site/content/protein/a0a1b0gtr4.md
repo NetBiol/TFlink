@@ -48,7 +48,7 @@ tfs: 'CSHL1,Q14406,1444,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%
 
   TAL1,P17542,6886,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_A0A1B0GTR4.tsv
+tfs_download: TFLink_tfs_of_A0A1B0GTR4.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

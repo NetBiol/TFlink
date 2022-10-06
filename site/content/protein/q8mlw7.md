@@ -64,8 +64,8 @@ targets: 'Or98a,Q9VAZ3,43341,REDfly,electrophoretic mobility shift assay,2096596
   Or7a,Q9W3I5,31750,REDfly,electrophoretic mobility shift assay,20965965%5Buid%5D+OR+22427741%5Buid%5D,Yes
 
   Or67c,Q9VT90,39189,REDfly,electrophoretic mobility shift assay,20965965%5Buid%5D+OR+22427741%5Buid%5D,Yes'
-tfs_download: tfs_of_Q8MLW7.tsv
-targets_download: targets_of_Q8MLW7.tsv
+tfs_download: TFLink_tfs_of_Q8MLW7.tsv
+targets_download: TFLink_targets_of_Q8MLW7.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

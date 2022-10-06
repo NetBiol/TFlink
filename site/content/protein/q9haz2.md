@@ -215,7 +215,7 @@ tfs: 'RBPJ,Q06330,3516,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5
 
   TBX2,Q13207,6909,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9HAZ2.tsv
+tfs_download: TFLink_tfs_of_Q9HAZ2.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

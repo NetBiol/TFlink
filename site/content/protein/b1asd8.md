@@ -97,7 +97,7 @@ tfs: 'Ndufs2,Q91WD5,226646,GTRD,chromatin immunoprecipitation assay,27924024%5Bu
 
   Sumo2,P61957,170930,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_B1ASD8.tsv
+tfs_download: TFLink_tfs_of_B1ASD8.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

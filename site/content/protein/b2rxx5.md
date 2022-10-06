@@ -210,7 +210,7 @@ tfs: 'Esr2,O08537,13983,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%
 
   Ep300,B2RWS6,328572,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_B2RXX5.tsv
+tfs_download: TFLink_tfs_of_B2RXX5.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

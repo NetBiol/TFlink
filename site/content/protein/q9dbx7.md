@@ -213,8 +213,8 @@ tfs: 'Rela,Q04207,19697,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%
 
   Prdm13,E9PZZ1,230025,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: Nppa,P05125,230899,TRRUST,inferred by curator,16199874%5Buid%5D+OR+29087512%5Buid%5D,Yes
-tfs_download: tfs_of_Q9DBX7.tsv
-targets_download: targets_of_Q9DBX7.tsv
+tfs_download: TFLink_tfs_of_Q9DBX7.tsv
+targets_download: TFLink_targets_of_Q9DBX7.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

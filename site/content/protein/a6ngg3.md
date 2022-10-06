@@ -157,7 +157,7 @@ tfs: 'ZBTB7A,O95365,51341,ReMap,chromatin immunoprecipitation assay,29126285%5Bu
 
   AHR,P35869,196,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_A6NGG3.tsv
+tfs_download: TFLink_tfs_of_A6NGG3.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

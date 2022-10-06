@@ -212,7 +212,7 @@ tfs: 'LEO1,Q8WVC0,123169,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
 
   MLLT1,Q03111,4298,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_A6NHY2.tsv
+tfs_download: TFLink_tfs_of_A6NHY2.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

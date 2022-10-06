@@ -20,7 +20,7 @@ tfs: 'blmp-1,Q93560,172917,GTRD,chromatin immunoprecipitation assay,27924024%5Bu
 
   sma-9,Q22190,181271,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_J7SEY1.tsv
+tfs_download: TFLink_tfs_of_J7SEY1.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

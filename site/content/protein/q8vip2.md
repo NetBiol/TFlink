@@ -211,7 +211,7 @@ targets: 'H1-1,D4A3K5,291145,GTRD,chromatin immunoprecipitation assay,27924024%5
 
   Nt5c3a,B2GUX5,312373,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 tfs_download: ''
-targets_download: targets_of_Q8VIP2.tsv
+targets_download: TFLink_targets_of_Q8VIP2.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

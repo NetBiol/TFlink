@@ -210,7 +210,7 @@ tfs: 'Tp53,P02340,22059,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%
 
   Rnf2,Q9CQJ4,19821,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_C0HKE1.tsv
+tfs_download: TFLink_tfs_of_C0HKE1.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

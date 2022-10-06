@@ -14,7 +14,7 @@ tfs: 'Nfe2l1,Q61985,18023,TRRUST,inferred by curator,22870279%5Buid%5D+OR+290875
 
   Nrf1,Q9WU00,18181,TRRUST,inferred by curator,22870279%5Buid%5D+OR+29087512%5Buid%5D,Yes'
 targets: ''
-tfs_download: tfs_of_Q9JHR7.tsv
+tfs_download: TFLink_tfs_of_Q9JHR7.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

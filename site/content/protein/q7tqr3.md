@@ -28,7 +28,7 @@ tfs: 'Vdr,P48281,22337,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5
 
   Rxra,P28700,20181,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q7TQR3.tsv
+tfs_download: TFLink_tfs_of_Q7TQR3.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

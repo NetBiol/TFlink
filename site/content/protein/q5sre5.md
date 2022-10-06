@@ -213,7 +213,7 @@ tfs: 'USF1,P22415,7391,GTRD;ORegAnno;ReMap,chromatin immunoprecipitation assay;i
 
   RFX5,P48382,5993,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q5SRE5.tsv
+tfs_download: TFLink_tfs_of_Q5SRE5.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

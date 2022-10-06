@@ -132,8 +132,8 @@ tfs: 'Irf4,Q64287,16364,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%
 
   Runx1,Q03347,-,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: Mmp3,P28862,17392,TRRUST,inferred by curator,29087512%5Buid%5D+OR+10995766%5Buid%5D,Yes
-tfs_download: tfs_of_Q9EPQ8.tsv
-targets_download: targets_of_Q9EPQ8.tsv
+tfs_download: TFLink_tfs_of_Q9EPQ8.tsv
+targets_download: TFLink_targets_of_Q9EPQ8.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

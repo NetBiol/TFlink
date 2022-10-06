@@ -411,8 +411,8 @@ targets: 'PHB2,Q99623,11331,GTRD,chromatin immunoprecipitation assay,27924024%5B
   SLC35A3,Q9Y2D2,23443,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   DCTN5,Q9BTE1,84516,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q2KHR2.tsv
-targets_download: targets_of_Q2KHR2.tsv
+tfs_download: TFLink_tfs_of_Q2KHR2.tsv
+targets_download: TFLink_targets_of_Q2KHR2.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

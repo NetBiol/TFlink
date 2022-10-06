@@ -90,7 +90,7 @@ tfs: 'lin-39,P34684,176068,GTRD,chromatin immunoprecipitation assay,27924024%5Bu
 
   nhr-71,Q9GTD4,181491,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_A8DYR7.tsv
+tfs_download: TFLink_tfs_of_A8DYR7.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

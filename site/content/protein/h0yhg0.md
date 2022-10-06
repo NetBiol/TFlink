@@ -210,7 +210,7 @@ tfs: 'CNOT3,O75175,4849,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%
 
   SIRT1,Q96EB6,23411,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_H0YHG0.tsv
+tfs_download: TFLink_tfs_of_H0YHG0.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

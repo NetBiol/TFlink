@@ -18,7 +18,7 @@ tfs: 'MYC,P01106,4609,HTRI,chromatin immunoprecipitation array,22900683%5Buid%5D
 
   E2F4,Q16254,1874,HTRI,chromatin immunoprecipitation array,17531812%5Buid%5D+OR+22900683%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_A8KAG1.tsv
+tfs_download: TFLink_tfs_of_A8KAG1.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

@@ -40,7 +40,7 @@ tfs: 'Dux,A1JVI8,664783,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%
 
   Tbx3,P70324,21386,ORegAnno;PAZAR,inferred by curator,18971253%5Buid%5D+OR+26578589%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q7TQB0.tsv
+tfs_download: TFLink_tfs_of_Q7TQB0.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

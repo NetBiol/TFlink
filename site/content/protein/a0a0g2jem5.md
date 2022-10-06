@@ -210,7 +210,7 @@ tfs: 'Mxi1,P50540,17859,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%
 
   Fosb,P13346,14282,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_A0A0G2JEM5.tsv
+tfs_download: TFLink_tfs_of_A0A0G2JEM5.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

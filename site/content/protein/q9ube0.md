@@ -211,7 +211,7 @@ tfs: 'SETX,Q7Z333,23064,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%
 
   ZNF770,Q6IQ21,54989,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9UBE0.tsv
+tfs_download: TFLink_tfs_of_Q9UBE0.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

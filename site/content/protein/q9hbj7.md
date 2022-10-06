@@ -181,7 +181,7 @@ tfs: 'FOXA1,P55317,3169,ORegAnno;PAZAR;ReMap,chromatin immunoprecipitation assay
 
   XBP1,P17861,7494,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9HBJ7.tsv
+tfs_download: TFLink_tfs_of_Q9HBJ7.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

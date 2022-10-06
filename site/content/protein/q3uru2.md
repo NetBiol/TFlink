@@ -211,8 +211,8 @@ tfs: 'Yy1,Q00899,22632,GTRD;TRRUST,chromatin immunoprecipitation assay;inferred 
 
   Cxxc1,Q9CWW7,74322,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: Zim1,Q8C393,22776,TRRUST,inferred by curator,25265264%5Buid%5D+OR+29087512%5Buid%5D,Yes
-tfs_download: tfs_of_Q3URU2.tsv
-targets_download: targets_of_Q3URU2.tsv
+tfs_download: TFLink_tfs_of_Q3URU2.tsv
+targets_download: TFLink_targets_of_Q3URU2.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

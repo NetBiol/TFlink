@@ -210,8 +210,8 @@ tfs: 'Cebpb,P28033,12608,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
 
   Bcl6,P41183,12053,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: Per2,O54943,18627,TRRUST,inferred by curator,19129230%5Buid%5D+OR+29087512%5Buid%5D,Yes
-tfs_download: tfs_of_Q7TPV4.tsv
-targets_download: targets_of_Q7TPV4.tsv
+tfs_download: TFLink_tfs_of_Q7TPV4.tsv
+targets_download: TFLink_targets_of_Q7TPV4.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

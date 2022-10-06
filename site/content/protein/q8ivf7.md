@@ -212,7 +212,7 @@ tfs: 'ZNF574,Q6ZN55,64763,GTRD,chromatin immunoprecipitation assay,27924024%5Bui
 
   CREBBP,Q92793,1387,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8IVF7.tsv
+tfs_download: TFLink_tfs_of_Q8IVF7.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

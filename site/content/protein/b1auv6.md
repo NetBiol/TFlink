@@ -12,7 +12,7 @@ orthologs: '[{"species": "Rattus norvegicus", "id": ["D4AAK1", "D3ZJ16"]}]'
 jaspar_matrices: ''
 tfs: Dux,A1JVI8,664783,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 targets: ''
-tfs_download: tfs_of_B1AUV6.tsv
+tfs_download: TFLink_tfs_of_B1AUV6.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

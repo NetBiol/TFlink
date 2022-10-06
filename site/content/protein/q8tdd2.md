@@ -410,8 +410,8 @@ targets: 'COL11A2,P13942,1302,TRRUST,inferred by curator,16734381%5Buid%5D+OR+29
   CCDC159,P0C7I6,126075,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   ZFAND2B,Q8WV99,130617,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q8TDD2.tsv
-targets_download: targets_of_Q8TDD2.tsv
+tfs_download: TFLink_tfs_of_Q8TDD2.tsv
+targets_download: TFLink_targets_of_Q8TDD2.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

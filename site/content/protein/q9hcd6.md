@@ -218,7 +218,7 @@ tfs: 'GATAD2A,Q86YP4,54815,GTRD,chromatin immunoprecipitation assay,27924024%5Bu
 
   ZSCAN5A,Q9BUG6,79149,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9HCD6.tsv
+tfs_download: TFLink_tfs_of_Q9HCD6.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

@@ -408,8 +408,8 @@ targets: 'RSRP1,Q9BUV0,57035,ReMap,chromatin immunoprecipitation assay,29126285%
   TRIM66,O15016,9866,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No
 
   HACD1,B0YJ81,9200,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No'
-tfs_download: tfs_of_Q9NVV9.tsv
-targets_download: targets_of_Q9NVV9.tsv
+tfs_download: TFLink_tfs_of_Q9NVV9.tsv
+targets_download: TFLink_targets_of_Q9NVV9.tsv
 bindingSites_download: ''
 binding_sites_ls: Q9NVV9_HT.fasta
 

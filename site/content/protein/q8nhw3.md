@@ -212,8 +212,8 @@ tfs: 'ATF6,P18850,22926,TRRUST,inferred by curator,29087512%5Buid%5D+OR+18450959
 targets: 'PC,P11498,5091,TRRUST,inferred by curator,17149590%5Buid%5D+OR+29087512%5Buid%5D,Yes
 
   INS,P01308,3630,KEGG_via_DoRothEA;TRRUST,inferred by curator,21830322%5Buid%5D+OR+16461554%5Buid%5D+OR+29087512%5Buid%5D+OR+27899662%5Buid%5D,Yes'
-tfs_download: tfs_of_Q8NHW3.tsv
-targets_download: targets_of_Q8NHW3.tsv
+tfs_download: TFLink_tfs_of_Q8NHW3.tsv
+targets_download: TFLink_targets_of_Q8NHW3.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

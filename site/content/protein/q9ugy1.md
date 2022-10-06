@@ -210,7 +210,7 @@ tfs: 'ELK4,P28324,2005,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5
 
   ZFP1,Q6P2D0,162239,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9UGY1.tsv
+tfs_download: TFLink_tfs_of_Q9UGY1.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

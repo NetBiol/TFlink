@@ -68,7 +68,7 @@ tfs: 'Spps,A0A0B4KHC8,42882,GTRD,chromatin immunoprecipitation assay,27924024%5B
 
   trx,P20659,41737,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_X2JCD3.tsv
+tfs_download: TFLink_tfs_of_X2JCD3.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

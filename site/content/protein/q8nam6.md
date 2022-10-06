@@ -278,8 +278,8 @@ targets: 'UBB,P0CG47,7314,GTRD,chromatin immunoprecipitation assay,27924024%5Bui
   ARL8A,Q96BM9,127829,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   RCOR1,Q9UKL0,23186,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q8NAM6.tsv
-targets_download: targets_of_Q8NAM6.tsv
+tfs_download: TFLink_tfs_of_Q8NAM6.tsv
+targets_download: TFLink_targets_of_Q8NAM6.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

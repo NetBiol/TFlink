@@ -211,7 +211,7 @@ tfs: 'VDR,P11473,7421,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D
 
   MAZ,P56270,4150,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D+OR+27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8TDY8.tsv
+tfs_download: TFLink_tfs_of_Q8TDY8.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

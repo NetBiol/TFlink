@@ -68,7 +68,7 @@ tfs: 'Isx,A1A546,71597,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5
 
   Aire,Q9Z0E3,11634,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q1RLK6.tsv
+tfs_download: TFLink_tfs_of_Q1RLK6.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

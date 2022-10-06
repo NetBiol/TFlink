@@ -42,7 +42,7 @@ tfs: 'trx,P20659,41737,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5
 
   Dmel\CG17385,Q4V6X9,36603,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q7JRI4.tsv
+tfs_download: TFLink_tfs_of_Q7JRI4.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

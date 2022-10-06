@@ -212,7 +212,7 @@ tfs: 'SAP130,Q9H0E3,79595,GTRD,chromatin immunoprecipitation assay,27924024%5Bui
 
   MAFF,Q9ULX9,23764,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q6ZMZ0.tsv
+tfs_download: TFLink_tfs_of_Q6ZMZ0.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

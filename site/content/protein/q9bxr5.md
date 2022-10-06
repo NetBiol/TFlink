@@ -212,7 +212,7 @@ tfs: 'RXRA,P19793,6256,TRRUST,inferred by curator,24373795%5Buid%5D+OR+29087512%
 
   FOXK2,Q01167,3607,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9BXR5.tsv
+tfs_download: TFLink_tfs_of_Q9BXR5.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

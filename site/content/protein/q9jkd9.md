@@ -210,8 +210,8 @@ tfs: 'Med23,Q80YQ2,70208,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
 
   Tcf3,P15806,21423,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: Ciita,P79621,12265,TRRUST,inferred by curator,29087512%5Buid%5D+OR+22851713%5Buid%5D,Yes
-tfs_download: tfs_of_Q9JKD9.tsv
-targets_download: targets_of_Q9JKD9.tsv
+tfs_download: TFLink_tfs_of_Q9JKD9.tsv
+targets_download: TFLink_targets_of_Q9JKD9.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

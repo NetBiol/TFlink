@@ -210,7 +210,7 @@ tfs: 'TP63,Q9H3D4,8626,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5
 
   TAF3,Q5VWG9,83860,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8IZC4.tsv
+tfs_download: TFLink_tfs_of_Q8IZC4.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

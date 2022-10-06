@@ -211,7 +211,7 @@ tfs: 'Nr1h3,Q9Z0Y9,22259,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
 
   Nkx3-2,P97503,12020,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q3TPX4.tsv
+tfs_download: TFLink_tfs_of_Q3TPX4.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

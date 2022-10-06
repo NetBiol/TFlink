@@ -114,7 +114,7 @@ tfs: 'Tet1,Q3URK3,-,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,N
 
   Hnf1a,P22361,21405,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_E9PVG0.tsv
+tfs_download: TFLink_tfs_of_E9PVG0.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

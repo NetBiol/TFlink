@@ -210,7 +210,7 @@ tfs: 'Sfmbt1,Q9JMD1,54650,GTRD,chromatin immunoprecipitation assay,27924024%5Bui
 
   Aurkb,O70126,20877,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q5SPX1.tsv
+tfs_download: TFLink_tfs_of_Q5SPX1.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

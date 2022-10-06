@@ -211,7 +211,7 @@ tfs: 'FGFR1,P11362,2260,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%
 
   IRF2,P14316,3660,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9HAV5.tsv
+tfs_download: TFLink_tfs_of_Q9HAV5.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

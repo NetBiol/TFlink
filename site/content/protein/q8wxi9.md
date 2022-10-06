@@ -410,8 +410,8 @@ targets: '-,H3BMM0,-,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,
   ANKRD9,Q96BM1,122416,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   CSNK2A1,P68400,1457,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q8WXI9.tsv
-targets_download: targets_of_Q8WXI9.tsv
+tfs_download: TFLink_tfs_of_Q8WXI9.tsv
+targets_download: TFLink_targets_of_Q8WXI9.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

@@ -14,7 +14,7 @@ tfs: 'sax-3,G5EBF1,180637,GTRD,chromatin immunoprecipitation assay,27924024%5Bui
 
   nhr-71,Q9GTD4,181491,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_A0A0K3ATT8.tsv
+tfs_download: TFLink_tfs_of_A0A0K3ATT8.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

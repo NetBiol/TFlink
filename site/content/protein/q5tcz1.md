@@ -218,7 +218,7 @@ tfs: 'NFKBIZ,Q9BYH8,64332,GTRD,chromatin immunoprecipitation assay,27924024%5Bui
 
   SAP130,Q9H0E3,79595,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q5TCZ1.tsv
+tfs_download: TFLink_tfs_of_Q5TCZ1.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

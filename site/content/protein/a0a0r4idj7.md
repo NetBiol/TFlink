@@ -14,7 +14,7 @@ tfs: 'pou5f1,Q90270,30333,GTRD,chromatin immunoprecipitation assay,27924024%5Bui
 
   nanog,A5JNG8,792333,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_A0A0R4IDJ7.tsv
+tfs_download: TFLink_tfs_of_A0A0R4IDJ7.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

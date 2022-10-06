@@ -210,8 +210,8 @@ tfs: 'Kdm2a,P59997,225876,GTRD,chromatin immunoprecipitation assay,27924024%5Bui
 
   Osr1,Q9WVG7,23967,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: Hoxa10,P31310,15395,TRRUST,inferred by curator,16049025%5Buid%5D+OR+29087512%5Buid%5D,Yes
-tfs_download: tfs_of_Q4VBD9.tsv
-targets_download: targets_of_Q4VBD9.tsv
+tfs_download: TFLink_tfs_of_Q4VBD9.tsv
+targets_download: TFLink_targets_of_Q4VBD9.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

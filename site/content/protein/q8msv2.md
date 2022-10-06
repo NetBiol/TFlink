@@ -294,8 +294,8 @@ targets: 'Vps20-RA,E4NKK3,-,GTRD,chromatin immunoprecipitation assay,27924024%5B
   Dmel\CG18549,Q9VG64,41538,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   CG9243,Q9VIE9,35387,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q8MSV2.tsv
-targets_download: targets_of_Q8MSV2.tsv
+tfs_download: TFLink_tfs_of_Q8MSV2.tsv
+targets_download: TFLink_targets_of_Q8MSV2.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

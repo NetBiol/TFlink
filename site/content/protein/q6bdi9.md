@@ -201,7 +201,7 @@ tfs: 'HOXB13,Q92826,10481,GTRD;ReMap,chromatin immunoprecipitation assay,2912628
 
   FOXA1,P55317,3169,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D+OR+27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q6BDI9.tsv
+tfs_download: TFLink_tfs_of_Q6BDI9.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

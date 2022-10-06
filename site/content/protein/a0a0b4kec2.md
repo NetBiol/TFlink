@@ -80,7 +80,7 @@ tfs: 'Act5C,P10987,31521,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
 
   FBgn 32517,Q9VJY7,34753,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_A0A0B4KEC2.tsv
+tfs_download: TFLink_tfs_of_A0A0B4KEC2.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

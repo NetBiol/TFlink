@@ -200,7 +200,7 @@ tfs: 'STAG1,Q8WVM7,10274,ReMap,chromatin immunoprecipitation assay,29126285%5Bui
 
   JMJD1C,Q15652,221037,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8TDQ1.tsv
+tfs_download: TFLink_tfs_of_Q8TDQ1.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

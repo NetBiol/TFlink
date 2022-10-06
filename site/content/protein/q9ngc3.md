@@ -194,7 +194,7 @@ tfs: 'CHES-1-like,Q9W3Q5,31678,GTRD,chromatin immunoprecipitation assay,27924024
 
   Snoo,Q00G30,5740414,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9NGC3.tsv
+tfs_download: TFLink_tfs_of_Q9NGC3.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

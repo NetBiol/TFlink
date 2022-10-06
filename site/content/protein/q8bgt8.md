@@ -210,7 +210,7 @@ tfs: 'Tal1,P22091,21349,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%
 
   Taf2,Q8C176,-,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8BGT8.tsv
+tfs_download: TFLink_tfs_of_Q8BGT8.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

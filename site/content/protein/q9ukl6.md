@@ -212,7 +212,7 @@ tfs: 'ZNF449,Q6P9G9,203523,GTRD,chromatin immunoprecipitation assay,27924024%5Bu
 
   ZNF48,Q96MX3,197407,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9UKL6.tsv
+tfs_download: TFLink_tfs_of_Q9UKL6.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

@@ -210,7 +210,7 @@ tfs: 'Esrrg,P62509,26381,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
 
   Smarca5,Q91ZW3,93762,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8CFJ7.tsv
+tfs_download: TFLink_tfs_of_Q8CFJ7.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

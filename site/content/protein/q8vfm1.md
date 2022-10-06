@@ -46,7 +46,7 @@ tfs: 'Cebpa,P53566,12606,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
 
   Ezh2,Q61188,14056,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8VFM1.tsv
+tfs_download: TFLink_tfs_of_Q8VFM1.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

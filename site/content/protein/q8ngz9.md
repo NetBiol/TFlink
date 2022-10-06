@@ -88,7 +88,7 @@ tfs: 'NFKB1,P19838,4790,ReMap,chromatin immunoprecipitation assay,29126285%5Buid
 
   MAX,P61244,4149,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8NGZ9.tsv
+tfs_download: TFLink_tfs_of_Q8NGZ9.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

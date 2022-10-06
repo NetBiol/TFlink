@@ -211,7 +211,7 @@ tfs: 'TP53,P04637,7157,GTRD;IntAct_via_DoRothEA;ReMap,chromatin immunoprecipitat
 
   NKX2-2,O95096,4821,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9ULH7.tsv
+tfs_download: TFLink_tfs_of_Q9ULH7.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

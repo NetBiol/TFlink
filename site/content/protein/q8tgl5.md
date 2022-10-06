@@ -18,7 +18,7 @@ tfs: 'HOG1,P32485,850803,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
 
   SMC1,P32908,850540,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8TGL5.tsv
+tfs_download: TFLink_tfs_of_Q8TGL5.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

@@ -213,7 +213,7 @@ tfs: 'Ets1,P27577,23871,GTRD;TRRUST,chromatin immunoprecipitation assay;inferred
 
   Nkx3-1,P97436,18095,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9QUM0.tsv
+tfs_download: TFLink_tfs_of_Q9QUM0.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

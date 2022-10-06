@@ -12,7 +12,7 @@ orthologs: '[{"species": "Drosophila melanogaster", "id": ["Q7K142", "<a href=\"
 jaspar_matrices: ''
 tfs: sall4,F1QDF2,-,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 targets: ''
-tfs_download: tfs_of_F1QNF8.tsv
+tfs_download: TFLink_tfs_of_F1QNF8.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

@@ -24,7 +24,7 @@ tfs: 'sdc-3,P34706,180009,GTRD,chromatin immunoprecipitation assay,27924024%5Bui
 
   dpy-26,G5EGE9,178196,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9XVW5.tsv
+tfs_download: TFLink_tfs_of_Q9XVW5.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

@@ -212,7 +212,7 @@ tfs: 'KLF1,Q13351,10661,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%
 
   CBX2,Q14781,84733,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D+OR+27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9NQL2.tsv
+tfs_download: TFLink_tfs_of_Q9NQL2.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

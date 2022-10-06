@@ -210,7 +210,7 @@ tfs: 'GRHL3,Q8TE85,57822,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
 
   NEUROD1,Q13562,4760,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_V9GYQ6.tsv
+tfs_download: TFLink_tfs_of_V9GYQ6.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

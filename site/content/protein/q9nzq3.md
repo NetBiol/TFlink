@@ -212,7 +212,7 @@ tfs: 'EGR1,P18146,1958,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5
 
   NCOR1,O75376,9611,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9NZQ3.tsv
+tfs_download: TFLink_tfs_of_Q9NZQ3.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

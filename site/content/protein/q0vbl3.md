@@ -210,7 +210,7 @@ tfs: 'Rbpj,P31266,19664,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%
 
   Nrdc,Q8BHG1,230598,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q0VBL3.tsv
+tfs_download: TFLink_tfs_of_Q0VBL3.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

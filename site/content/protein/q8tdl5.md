@@ -215,7 +215,7 @@ tfs: 'GATA3,P23771,2625,GTRD;HTRI;PAZAR;ReMap,chromatin immunoprecipitation assa
 
   HOMEZ,Q8IX15,57594,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8TDL5.tsv
+tfs_download: TFLink_tfs_of_Q8TDL5.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

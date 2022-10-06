@@ -210,7 +210,7 @@ tfs: 'Smad1,P70340,17125,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
 
   Tbx5,P70326,21388,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9CXC3.tsv
+tfs_download: TFLink_tfs_of_Q9CXC3.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

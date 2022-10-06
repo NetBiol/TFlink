@@ -36,7 +36,7 @@ tfs: 'snu-23,P34670,176090,GTRD,chromatin immunoprecipitation assay,27924024%5Bu
 
   efl-1,G5EF11,180133,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_A0A0M7REP1.tsv
+tfs_download: TFLink_tfs_of_A0A0M7REP1.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

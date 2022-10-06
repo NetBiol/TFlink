@@ -118,7 +118,7 @@ tfs: 'Jarid2,Q9VT00,39103,GTRD,chromatin immunoprecipitation assay,27924024%5Bui
 
   Lpt,Q9W1H0,37795,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q7JUY7.tsv
+tfs_download: TFLink_tfs_of_Q7JUY7.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

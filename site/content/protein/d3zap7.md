@@ -22,8 +22,8 @@ targets: '-,M0RDR8,-,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,
   -,A0A0G2JYS6,-,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   RGD1561667,F1M3Z2,292393,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_D3ZAP7.tsv
-targets_download: targets_of_D3ZAP7.tsv
+tfs_download: TFLink_tfs_of_D3ZAP7.tsv
+targets_download: TFLink_targets_of_D3ZAP7.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

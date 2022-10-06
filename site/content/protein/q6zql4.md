@@ -408,8 +408,8 @@ targets: 'Gpc2,Q8BKV1,71951,GTRD,chromatin immunoprecipitation assay,27924024%5B
   Atr,A0A1L1SSL9,245000,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   Actb,P60710,11461,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q6ZQL4.tsv
-targets_download: targets_of_Q6ZQL4.tsv
+tfs_download: TFLink_tfs_of_Q6ZQL4.tsv
+targets_download: TFLink_targets_of_Q6ZQL4.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

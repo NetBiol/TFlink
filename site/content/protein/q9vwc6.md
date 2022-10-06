@@ -258,8 +258,8 @@ targets: 'eve,P06602,36039,REDfly,electrophoretic mobility shift assay,20965965%
   CG31653,M9PC10,318872,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   Dmel\CG17075,Q9VPM2,33191,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q9VWC6.tsv
-targets_download: targets_of_Q9VWC6.tsv
+tfs_download: TFLink_tfs_of_Q9VWC6.tsv
+targets_download: TFLink_targets_of_Q9VWC6.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

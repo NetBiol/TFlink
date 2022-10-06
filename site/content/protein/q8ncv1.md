@@ -210,7 +210,7 @@ tfs: 'RAG2,P55895,5897,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5
 
   MYOD1,P15172,4654,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8NCV1.tsv
+tfs_download: TFLink_tfs_of_Q8NCV1.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

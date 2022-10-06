@@ -369,8 +369,8 @@ targets: 'Nop9,Q8BMC4,67842,GTRD,chromatin immunoprecipitation assay,27924024%5B
   Med14,A2ABV5,26896,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   Chd1,P40201,12648,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q8BGD7.tsv
-targets_download: targets_of_Q8BGD7.tsv
+tfs_download: TFLink_tfs_of_Q8BGD7.tsv
+targets_download: TFLink_targets_of_Q8BGD7.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

@@ -422,8 +422,8 @@ targets: 'CR2,P20023,1380,GTRD;ReMap;TRRUST,chromatin immunoprecipitation assay;
   WDR87,Q6ZQQ6,83889,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D+OR+27924024%5Buid%5D,No
 
   TMEM33,P57088,55161,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D+OR+27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q9HCS4.tsv
-targets_download: targets_of_Q9HCS4.tsv
+tfs_download: TFLink_tfs_of_Q9HCS4.tsv
+targets_download: TFLink_targets_of_Q9HCS4.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

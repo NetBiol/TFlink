@@ -210,7 +210,7 @@ tfs: 'Stag1,Q9D3E6,20842,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
 
   Magi1,Q6RHR9,14924,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8BKG3.tsv
+tfs_download: TFLink_tfs_of_Q8BKG3.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

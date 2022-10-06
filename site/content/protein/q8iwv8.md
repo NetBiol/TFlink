@@ -213,7 +213,7 @@ tfs: 'STAT4,Q14765,6775,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%
 
   GABPB1,Q06547,2553,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8IWV8.tsv
+tfs_download: TFLink_tfs_of_Q8IWV8.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

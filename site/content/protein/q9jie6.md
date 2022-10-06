@@ -72,7 +72,7 @@ tfs: 'Fos,P01101,14281,TRRUST,inferred by curator,22284418%5Buid%5D+OR+29087512%
 
   Stag1,Q9D3E6,20842,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9JIE6.tsv
+tfs_download: TFLink_tfs_of_Q9JIE6.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

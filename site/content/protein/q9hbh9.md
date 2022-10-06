@@ -214,7 +214,7 @@ tfs: 'ESR2,Q92731,2100,TRED;TRRUST,inferred by curator,11013076%5Buid%5D+OR+1720
 
   CLOCK,O15516,9575,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9HBH9.tsv
+tfs_download: TFLink_tfs_of_Q9HBH9.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

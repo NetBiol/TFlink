@@ -18,7 +18,7 @@ tfs: 'PPARA,Q07869,5465,TRRUST,inferred by curator,29087512%5Buid%5D+OR+11564716
 
   MTA3,Q9BTC8,57504,TRRUST,inferred by curator,23510993%5Buid%5D+OR+29087512%5Buid%5D,Yes'
 targets: ''
-tfs_download: tfs_of_A0A0F7RQF0.tsv
+tfs_download: TFLink_tfs_of_A0A0F7RQF0.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

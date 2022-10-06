@@ -100,7 +100,7 @@ tfs: 'Act5C,P10987,31521,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
 
   ph-p,P39769,31181,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_C3KGJ2.tsv
+tfs_download: TFLink_tfs_of_C3KGJ2.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

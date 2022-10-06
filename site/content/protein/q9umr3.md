@@ -214,8 +214,8 @@ tfs: 'NCOR1,O75376,9611,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%
 
   OTX2,P32243,5015,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: FGF10,O15520,2255,TRRUST,inferred by curator,22303449%5Buid%5D+OR+29087512%5Buid%5D,Yes
-tfs_download: tfs_of_Q9UMR3.tsv
-targets_download: targets_of_Q9UMR3.tsv
+tfs_download: TFLink_tfs_of_Q9UMR3.tsv
+targets_download: TFLink_targets_of_Q9UMR3.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

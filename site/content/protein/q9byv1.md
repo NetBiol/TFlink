@@ -184,7 +184,7 @@ tfs: 'EZH2,Q15910,2146,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5
 
   USF2,Q15853,7392,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9BYV1.tsv
+tfs_download: TFLink_tfs_of_Q9BYV1.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

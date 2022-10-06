@@ -211,7 +211,7 @@ tfs: 'Bcl3,Q9Z2F6,12051,TRRUST,inferred by curator,21249144%5Buid%5D+OR+29087512
 
   Shox2,P70390,20429,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9CPU7.tsv
+tfs_download: TFLink_tfs_of_Q9CPU7.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

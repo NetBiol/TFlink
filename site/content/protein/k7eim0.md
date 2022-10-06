@@ -210,7 +210,7 @@ tfs: 'RB1,P06400,5925,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D
 
   TET2,Q6N021,54790,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_K7EIM0.tsv
+tfs_download: TFLink_tfs_of_K7EIM0.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

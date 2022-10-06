@@ -216,7 +216,7 @@ tfs: 'TFAP2A,P05549,7020,GTRD;ReMap;TRRUST,chromatin immunoprecipitation assay;i
 
   KMT2B,Q9UMN6,9757,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D+OR+27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9UIQ6.tsv
+tfs_download: TFLink_tfs_of_Q9UIQ6.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

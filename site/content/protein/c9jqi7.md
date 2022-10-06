@@ -212,7 +212,7 @@ tfs: 'BRD4,O60885,23476,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%
 
   NFRKB,Q6P4R8,4798,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_C9JQI7.tsv
+tfs_download: TFLink_tfs_of_C9JQI7.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

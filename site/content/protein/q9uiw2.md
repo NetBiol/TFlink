@@ -216,7 +216,7 @@ tfs: 'AR,P10275,367,GTRD;ReMap;TRRUST,chromatin immunoprecipitation assay;inferr
 
   CBFA2T2,O43439,9139,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9UIW2.tsv
+tfs_download: TFLink_tfs_of_Q9UIW2.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

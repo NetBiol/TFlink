@@ -211,7 +211,7 @@ tfs: 'SAP30,O75446,8819,ReMap,chromatin immunoprecipitation assay,29126285%5Buid
 
   EGR3,Q06889,1960,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_A6NIK2.tsv
+tfs_download: TFLink_tfs_of_A6NIK2.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

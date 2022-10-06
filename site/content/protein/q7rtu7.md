@@ -210,7 +210,7 @@ tfs: 'NFIC,P08651,4782,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%
 
   ZMYND11,Q15326,10771,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q7RTU7.tsv
+tfs_download: TFLink_tfs_of_Q7RTU7.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

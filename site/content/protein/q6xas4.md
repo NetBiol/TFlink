@@ -12,7 +12,7 @@ orthologs: '[{"species": "Rattus norvegicus", "id": ["F1M0F5"]}]'
 jaspar_matrices: ''
 tfs: Pparg,P37238,19016,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 targets: ''
-tfs_download: tfs_of_Q6XAS4.tsv
+tfs_download: TFLink_tfs_of_Q6XAS4.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

@@ -213,7 +213,7 @@ tfs: 'SREBF2,Q12772,6721,HTRI,electrophoretic mobility shift assay;inferred by c
 
   SMARCC1,Q92922,6599,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D+OR+27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9NZR2.tsv
+tfs_download: TFLink_tfs_of_Q9NZR2.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

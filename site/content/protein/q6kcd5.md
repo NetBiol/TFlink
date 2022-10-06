@@ -410,8 +410,8 @@ targets: 'Sat1,P48026,20229,GTRD,chromatin immunoprecipitation assay,27924024%5B
   Sgcb,P82349,24051,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   -,Q9D4G1,74387,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q6KCD5.tsv
-targets_download: targets_of_Q6KCD5.tsv
+tfs_download: TFLink_tfs_of_Q6KCD5.tsv
+targets_download: TFLink_targets_of_Q6KCD5.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

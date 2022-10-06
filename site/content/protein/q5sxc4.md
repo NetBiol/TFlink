@@ -216,8 +216,8 @@ targets: 'Edn1,P22387,13614,TRRUST,inferred by curator,11504723%5Buid%5D+OR+1496
   Morf4l1,P60762,21761,TRRUST,inferred by curator,22308494%5Buid%5D+OR+29087512%5Buid%5D,Yes
 
   Stmn1,P54227,16765,TRRUST,inferred by curator,29087512%5Buid%5D+OR+15031128%5Buid%5D,Yes'
-tfs_download: tfs_of_Q5SXC4.tsv
-targets_download: targets_of_Q5SXC4.tsv
+tfs_download: TFLink_tfs_of_Q5SXC4.tsv
+targets_download: TFLink_targets_of_Q5SXC4.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

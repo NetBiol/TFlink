@@ -234,8 +234,8 @@ targets: 'ubxn-3,H2L056,173407,GTRD,chromatin immunoprecipitation assay,27924024
   sec-16a.2,H2KZQ8,181084,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   ccch-3,Q23170,179733,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q9GTD4.tsv
-targets_download: targets_of_Q9GTD4.tsv
+tfs_download: TFLink_tfs_of_Q9GTD4.tsv
+targets_download: TFLink_targets_of_Q9GTD4.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

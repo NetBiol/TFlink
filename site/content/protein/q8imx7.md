@@ -76,7 +76,7 @@ tfs: 'ash2,Q94545,42936,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%
 
   Chro,Q86BS3,40508,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8IMX7.tsv
+tfs_download: TFLink_tfs_of_Q8IMX7.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

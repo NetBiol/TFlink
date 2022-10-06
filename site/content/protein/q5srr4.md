@@ -212,7 +212,7 @@ tfs: 'CC2D1A,Q6P1N0,54862,GTRD,chromatin immunoprecipitation assay,27924024%5Bui
 
   NFIL3,Q16649,4783,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q5SRR4.tsv
+tfs_download: TFLink_tfs_of_Q5SRR4.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

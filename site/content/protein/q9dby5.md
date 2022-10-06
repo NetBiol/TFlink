@@ -408,8 +408,8 @@ targets: 'Ccne1,Q61457,12447,TRRUST,inferred by curator,29087512%5Buid%5D+OR+222
   Zfyve1,Q810J8,217695,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   Med13,Q5SWW4,327987,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q9DBY5.tsv
-targets_download: targets_of_Q9DBY5.tsv
+tfs_download: TFLink_tfs_of_Q9DBY5.tsv
+targets_download: TFLink_targets_of_Q9DBY5.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

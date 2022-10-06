@@ -76,7 +76,7 @@ tfs: 'CEBPB,P17676,1051,TRRUST,inferred by curator,10855690%5Buid%5D+OR+29087512
 
   RBM25,P49756,58517,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_P0DML2.tsv
+tfs_download: TFLink_tfs_of_P0DML2.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

@@ -211,7 +211,7 @@ tfs: 'Phrf1,A6H619,101471,GTRD,chromatin immunoprecipitation assay,27924024%5Bui
 
   Foxa1,P35582,15375,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_E9QPR6.tsv
+tfs_download: TFLink_tfs_of_E9QPR6.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

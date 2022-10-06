@@ -186,7 +186,7 @@ tfs: 'rnt-1,G5EFQ5,172243,GTRD,chromatin immunoprecipitation assay,27924024%5Bui
 
   ztf-4,Q9TZI2,172422,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_G5EFG4.tsv
+tfs_download: TFLink_tfs_of_G5EFG4.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

@@ -214,8 +214,8 @@ targets: 'Pax3,P24610,18505,TRRUST,inferred by curator,29087512%5Buid%5D+OR+2152
   Myf5,P24699,17877,TRRUST,inferred by curator,29087512%5Buid%5D+OR+21525034%5Buid%5D,Yes
 
   Myod1,P10085,17927,TRRUST,inferred by curator,29087512%5Buid%5D+OR+21525034%5Buid%5D,Yes'
-tfs_download: tfs_of_E9PYF4.tsv
-targets_download: targets_of_E9PYF4.tsv
+tfs_download: TFLink_tfs_of_E9PYF4.tsv
+targets_download: TFLink_targets_of_E9PYF4.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

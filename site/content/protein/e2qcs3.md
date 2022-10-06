@@ -48,7 +48,7 @@ tfs: 'EG:BACR42I17.11,Q9V3X8,31070,GTRD,chromatin immunoprecipitation assay,2792
 
   not,Q9VVR1,40030,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_E2QCS3.tsv
+tfs_download: TFLink_tfs_of_E2QCS3.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

@@ -32,7 +32,7 @@ tfs: 'snpc-1.3,Q7JNN6,178929,GTRD,chromatin immunoprecipitation assay,27924024%5
 
   zip-8,P46505,175924,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_M1ZMI3.tsv
+tfs_download: TFLink_tfs_of_M1ZMI3.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

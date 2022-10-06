@@ -216,8 +216,8 @@ tfs: 'REST,Q13127,5978,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5
 
   RAD21,O60216,5885,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D+OR+27924024%5Buid%5D,No'
 targets: VGF,O15240,7425,TRRUST,inferred by curator,21709683%5Buid%5D+OR+29087512%5Buid%5D,Yes
-tfs_download: tfs_of_Q8IXF0.tsv
-targets_download: targets_of_Q8IXF0.tsv
+tfs_download: TFLink_tfs_of_Q8IXF0.tsv
+targets_download: TFLink_targets_of_Q8IXF0.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

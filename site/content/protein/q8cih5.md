@@ -213,7 +213,7 @@ tfs: 'Rbpj,P31266,19664,TRRUST,inferred by curator,25329696%5Buid%5D+OR+29087512
 
   Spi1,P17433,20375,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8CIH5.tsv
+tfs_download: TFLink_tfs_of_Q8CIH5.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

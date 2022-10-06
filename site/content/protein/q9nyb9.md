@@ -212,7 +212,7 @@ tfs: 'CDK7,P50613,1022,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5
 
   ARID2,Q68CP9,196528,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D+OR+27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9NYB9.tsv
+tfs_download: TFLink_tfs_of_Q9NYB9.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

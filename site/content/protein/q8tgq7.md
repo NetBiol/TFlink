@@ -103,7 +103,7 @@ tfs: 'SET1,P38827,856519,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
   IXR1,P33417,853836,Yeastract,array technology/partial DNA sequence identification
   by hybridization,29449612%5Buid%5D+OR+24170807%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8TGQ7.tsv
+tfs_download: TFLink_tfs_of_Q8TGQ7.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

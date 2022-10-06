@@ -213,7 +213,7 @@ tfs: 'LEF1,Q9UJU2,51176,GTRD;TFactS_via_DoRothea,chromatin immunoprecipitation a
 
   HOXC5,Q00444,3222,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9UHB6.tsv
+tfs_download: TFLink_tfs_of_Q9UHB6.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

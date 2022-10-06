@@ -210,8 +210,8 @@ targets: '-,A0A2R8QKI4,-,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
   wdr81,E7FEV0,100333062,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   gpat3,Q6DG38,436958,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q6JAA4.tsv
-targets_download: targets_of_Q6JAA4.tsv
+tfs_download: TFLink_tfs_of_Q6JAA4.tsv
+targets_download: TFLink_targets_of_Q6JAA4.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

@@ -213,7 +213,7 @@ tfs: 'E2F1,Q01094,1869,FANTOM4_via_DoRothEA;GTRD;ReMap;TRRUST,chromatin immunopr
 
   ZNF24,P17028,7572,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9NPJ4.tsv
+tfs_download: TFLink_tfs_of_Q9NPJ4.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

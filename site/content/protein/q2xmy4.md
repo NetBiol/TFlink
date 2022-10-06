@@ -16,7 +16,7 @@ tfs: 'skn-1,P34707,177343,GTRD,chromatin immunoprecipitation assay,27924024%5Bui
 
   xrn-2,Q9U299,175071,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q2XMY4.tsv
+tfs_download: TFLink_tfs_of_Q2XMY4.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

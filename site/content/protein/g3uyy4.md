@@ -157,7 +157,7 @@ tfs: 'Nkx3-1,P97436,18095,GTRD,chromatin immunoprecipitation assay,27924024%5Bui
 
   Nr5a2,P45448,26424,ORegAnno;PAZAR,inferred by curator,18971253%5Buid%5D+OR+26578589%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_G3UYY4.tsv
+tfs_download: TFLink_tfs_of_G3UYY4.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

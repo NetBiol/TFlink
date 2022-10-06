@@ -210,7 +210,7 @@ tfs: 'MAFB,Q9Y5Q3,9935,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5
 
   CSNK2A1,P68400,1457,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D+OR+27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9BWL3.tsv
+tfs_download: TFLink_tfs_of_Q9BWL3.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

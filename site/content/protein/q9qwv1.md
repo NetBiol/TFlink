@@ -122,7 +122,7 @@ tfs: 'Rfxank,Q9Z205,19727,TRRUST,inferred by curator,29087512%5Buid%5D+OR+112584
 
   Brca1,P48754,12189,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9QWV1.tsv
+tfs_download: TFLink_tfs_of_Q9QWV1.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

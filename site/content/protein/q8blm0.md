@@ -210,8 +210,8 @@ tfs: 'Klf3,Q60980,16599,TRRUST,inferred by curator,29087512%5Buid%5D+OR+18687676
 
   Tbp,P29037,21374,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: Mmp14,P53690,17387,TRRUST,inferred by curator,29087512%5Buid%5D+OR+23812425%5Buid%5D,Yes
-tfs_download: tfs_of_Q8BLM0.tsv
-targets_download: targets_of_Q8BLM0.tsv
+tfs_download: TFLink_tfs_of_Q8BLM0.tsv
+targets_download: TFLink_targets_of_Q8BLM0.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

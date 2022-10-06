@@ -12,7 +12,7 @@ orthologs: '[{"species": "Homo sapiens", "id": ["<a href=\"/protein/q8n3c7\">Q8N
 jaspar_matrices: ''
 tfs: Pou1f1,P10037,25517,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 targets: ''
-tfs_download: tfs_of_F1LRN4.tsv
+tfs_download: TFLink_tfs_of_F1LRN4.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

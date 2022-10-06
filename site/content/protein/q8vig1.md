@@ -413,8 +413,8 @@ targets: 'Scn8a,Q9WTU3,20273,TRRUST,inferred by curator,17924165%5Buid%5D+OR+290
   Cacna2d1,O08532,12293,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   Dazap1,Q9JII5,70248,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q8VIG1.tsv
-targets_download: targets_of_Q8VIG1.tsv
+tfs_download: TFLink_tfs_of_Q8VIG1.tsv
+targets_download: TFLink_targets_of_Q8VIG1.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

@@ -211,7 +211,7 @@ tfs: 'DAND5,Q8N907,199699,TRRUST,inferred by curator,12938157%5Buid%5D+OR+290875
 
   GATAD2A,Q86YP4,54815,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9ULC4.tsv
+tfs_download: TFLink_tfs_of_Q9ULC4.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

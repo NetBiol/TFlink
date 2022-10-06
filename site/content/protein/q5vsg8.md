@@ -211,7 +211,7 @@ tfs: 'TOP1,P11387,7150,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5
 
   BCL3,P20749,602,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q5VSG8.tsv
+tfs_download: TFLink_tfs_of_Q5VSG8.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

@@ -211,7 +211,7 @@ tfs: 'RCOR1,Q9UKL0,23186,ReMap,chromatin immunoprecipitation assay,29126285%5Bui
 
   NKX2-2,O95096,4821,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8IWZ6.tsv
+tfs_download: TFLink_tfs_of_Q8IWZ6.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

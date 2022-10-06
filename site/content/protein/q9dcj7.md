@@ -211,7 +211,7 @@ tfs: 'Ppara,P23204,19013,GTRD;TRED,chromatin immunoprecipitation assay;inferred 
 
   Sp7,Q8VI67,170574,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9DCJ7.tsv
+tfs_download: TFLink_tfs_of_Q9DCJ7.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

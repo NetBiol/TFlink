@@ -211,7 +211,7 @@ tfs: 'Ppara,P23204,19013,TRRUST,inferred by curator,16751172%5Buid%5D+OR+2908751
 
   Pbrm1,Q8BSQ9,-,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9JIP7.tsv
+tfs_download: TFLink_tfs_of_Q9JIP7.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

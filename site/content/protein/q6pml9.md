@@ -409,8 +409,8 @@ targets: 'MINDY1,Q8N5J2,55793,GTRD,chromatin immunoprecipitation assay,27924024%
   ATP5MPL,P56378,9556,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   TRIM28,Q13263,10155,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q6PML9.tsv
-targets_download: targets_of_Q6PML9.tsv
+tfs_download: TFLink_tfs_of_Q6PML9.tsv
+targets_download: TFLink_targets_of_Q6PML9.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

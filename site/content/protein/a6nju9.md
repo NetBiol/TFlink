@@ -16,7 +16,7 @@ tfs: 'CTCF,P49711,10664,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%
 
   RAD21,O60216,5885,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_A6NJU9.tsv
+tfs_download: TFLink_tfs_of_A6NJU9.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

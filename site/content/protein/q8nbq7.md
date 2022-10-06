@@ -210,7 +210,7 @@ tfs: 'CREB3,O43889,10488,ReMap,chromatin immunoprecipitation assay,29126285%5Bui
 
   NFE2L1,Q14494,4779,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8NBQ7.tsv
+tfs_download: TFLink_tfs_of_Q8NBQ7.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

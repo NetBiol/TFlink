@@ -69,7 +69,7 @@ tfs: 'PADI2,Q9Y2J8,11240,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
 
   LMNA,P02545,4000,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q6ZMV5.tsv
+tfs_download: TFLink_tfs_of_Q6ZMV5.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

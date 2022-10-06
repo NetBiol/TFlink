@@ -409,8 +409,8 @@ targets: 'TRIM7,Q9C029,81786,ReMap,chromatin immunoprecipitation assay,29126285%
   ARID2,Q68CP9,196528,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No
 
   AFF4,Q9UHB7,27125,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No'
-tfs_download: tfs_of_Q8IYD1.tsv
-targets_download: targets_of_Q8IYD1.tsv
+tfs_download: TFLink_tfs_of_Q8IYD1.tsv
+targets_download: TFLink_targets_of_Q8IYD1.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

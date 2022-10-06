@@ -20,7 +20,7 @@ tfs: 'egl-5,P17486,176093,GTRD,chromatin immunoprecipitation assay,27924024%5Bui
 
   sma-9,Q22190,181271,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_G5ECR8.tsv
+tfs_download: TFLink_tfs_of_G5ECR8.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

@@ -213,7 +213,7 @@ tfs: 'FOXM1,Q08050,2305,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%
 
   SCML2,Q9UQR0,10389,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9UHX3.tsv
+tfs_download: TFLink_tfs_of_Q9UHX3.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

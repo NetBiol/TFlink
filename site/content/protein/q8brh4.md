@@ -211,7 +211,7 @@ targets: 'Trim41,Q5NCC3,211007,GTRD,chromatin immunoprecipitation assay,27924024
 
   Zfp119b,Q8K0G9,240120,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 tfs_download: ''
-targets_download: targets_of_Q8BRH4.tsv
+targets_download: TFLink_targets_of_Q8BRH4.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

@@ -215,7 +215,7 @@ tfs: 'DAND5,Q8N907,199699,ReMap;TRRUST,chromatin immunoprecipitation assay;infer
 
   PHF2,O75151,5253,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9BSI4.tsv
+tfs_download: TFLink_tfs_of_Q9BSI4.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

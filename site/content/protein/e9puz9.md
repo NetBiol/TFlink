@@ -214,7 +214,7 @@ tfs: 'Klf4,Q60793,16600,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%
 
   Rnf2,Q9CQJ4,19821,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_E9PUZ9.tsv
+tfs_download: TFLink_tfs_of_E9PUZ9.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

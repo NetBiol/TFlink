@@ -216,7 +216,7 @@ tfs: 'SMAD1,Q15797,4086,GTRD;TRED,chromatin immunoprecipitation assay;inferred b
 
   SUPT16H,Q9Y5B9,11198,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9NRA1.tsv
+tfs_download: TFLink_tfs_of_Q9NRA1.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

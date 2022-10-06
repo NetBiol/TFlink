@@ -210,7 +210,7 @@ tfs: 'CTCF,P49711,10664,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%
 
   SNAI2,O43623,6591,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_A0A0A6YYD4.tsv
+tfs_download: TFLink_tfs_of_A0A0A6YYD4.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

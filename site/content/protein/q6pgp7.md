@@ -210,7 +210,7 @@ tfs: 'BMI1,P35226,100532731;648,GTRD,chromatin immunoprecipitation assay,2792402
 
   FOS,P01100,2353,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D+OR+27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q6PGP7.tsv
+tfs_download: TFLink_tfs_of_Q6PGP7.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

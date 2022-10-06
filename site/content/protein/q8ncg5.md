@@ -207,7 +207,7 @@ tfs: 'SP1,P08047,6667,TRRUST,inferred by curator,22446378%5Buid%5D+OR+29087512%5
 
   ARNTL,O00327,406,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8NCG5.tsv
+tfs_download: TFLink_tfs_of_Q8NCG5.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

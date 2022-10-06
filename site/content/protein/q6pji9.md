@@ -211,7 +211,7 @@ tfs: 'ATF7,P17544,11016,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%
 
   TLE3,Q04726,7090,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q6PJI9.tsv
+tfs_download: TFLink_tfs_of_Q6PJI9.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

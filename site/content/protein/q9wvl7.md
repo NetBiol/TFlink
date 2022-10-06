@@ -82,7 +82,7 @@ tfs: 'Fos,P01101,14281,TRRUST,inferred by curator,29087512%5Buid%5D+OR+12218154%
 
   Myc,P01108,17869,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9WVL7.tsv
+tfs_download: TFLink_tfs_of_Q9WVL7.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

@@ -37,7 +37,7 @@ tfs: 'Gfi1,P70338,14581,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%
 
   Taf1,Q80UV9,270627,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q7TRY5.tsv
+tfs_download: TFLink_tfs_of_Q7TRY5.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

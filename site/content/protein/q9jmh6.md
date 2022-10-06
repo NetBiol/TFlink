@@ -211,7 +211,7 @@ tfs: 'Nfe2l2,Q60795,18024,GTRD;ORegAnno;PAZAR;TRRUST,chromatin immunoprecipitati
 
   Nfyc,P70353,18046,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9JMH6.tsv
+tfs_download: TFLink_tfs_of_Q9JMH6.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

@@ -16,7 +16,7 @@ tfs: 'Rel,Q94527,41087,REDfly,electrophoretic mobility shift assay,17660749%5Bui
 
   Top3beta,O96651,31565,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_A1ZBF6.tsv
+tfs_download: TFLink_tfs_of_A1ZBF6.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

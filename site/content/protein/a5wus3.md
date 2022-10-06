@@ -22,7 +22,7 @@ tfs: 'gata1a,Q05AJ3,30481,GTRD,chromatin immunoprecipitation assay,27924024%5Bui
 
   eomesa,Q98TU2,64603,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_A5WUS3.tsv
+tfs_download: TFLink_tfs_of_A5WUS3.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

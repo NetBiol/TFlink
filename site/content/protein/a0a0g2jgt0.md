@@ -14,7 +14,7 @@ tfs: 'Onecut2,Q6XBJ3,225631,GTRD,chromatin immunoprecipitation assay,27924024%5B
 
   Rad21,Q61550,19357,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_A0A0G2JGT0.tsv
+tfs_download: TFLink_tfs_of_A0A0G2JGT0.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

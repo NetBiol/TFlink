@@ -214,7 +214,7 @@ tfs: 'NFE2L2,Q16236,4780,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
 
   CDK7,P50613,1022,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D+OR+27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9HBG7.tsv
+tfs_download: TFLink_tfs_of_Q9HBG7.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

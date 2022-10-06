@@ -413,8 +413,8 @@ targets: 'CDYL,Q9Y232,9425,GTRD,chromatin immunoprecipitation assay,27924024%5Bu
   GOLGA4,Q13439,2803,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   BATF,Q16520,10538,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_A9YTQ3.tsv
-targets_download: targets_of_A9YTQ3.tsv
+tfs_download: TFLink_tfs_of_A9YTQ3.tsv
+targets_download: TFLink_targets_of_A9YTQ3.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

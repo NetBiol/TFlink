@@ -214,8 +214,8 @@ targets: 'nol-10,Q19974,177538,GTRD,chromatin immunoprecipitation assay,27924024
   -,Q27463,-,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   eas-1,Q20263,173819,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_U4PEA1.tsv
-targets_download: targets_of_U4PEA1.tsv
+tfs_download: TFLink_tfs_of_U4PEA1.tsv
+targets_download: TFLink_targets_of_U4PEA1.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

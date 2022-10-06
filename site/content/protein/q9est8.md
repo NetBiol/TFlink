@@ -213,8 +213,8 @@ tfs: 'Nfkbiz,Q9EST8,80859,TRRUST,inferred by curator,29087512%5Buid%5D+OR+155279
 targets: 'Nfkb1,P25799,18033,TRRUST,inferred by curator,15618216%5Buid%5D+OR+29087512%5Buid%5D+OR+12831461%5Buid%5D,Yes
 
   Nfkbiz,Q9EST8,80859,TRRUST,inferred by curator,29087512%5Buid%5D+OR+15527973%5Buid%5D,Yes'
-tfs_download: tfs_of_Q9EST8.tsv
-targets_download: targets_of_Q9EST8.tsv
+tfs_download: TFLink_tfs_of_Q9EST8.tsv
+targets_download: TFLink_targets_of_Q9EST8.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

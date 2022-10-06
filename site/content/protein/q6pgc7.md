@@ -210,7 +210,7 @@ tfs: 'Tox,Q66JW3,252838,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%
 
   Trim28,Q62318,21849,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q6PGC7.tsv
+tfs_download: TFLink_tfs_of_Q6PGC7.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

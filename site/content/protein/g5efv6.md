@@ -14,7 +14,7 @@ tfs: 'nhr-11,Q23294,177724,GTRD,chromatin immunoprecipitation assay,27924024%5Bu
 
   lin-14,Q21446,181337,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_G5EFV6.tsv
+tfs_download: TFLink_tfs_of_G5EFV6.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

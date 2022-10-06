@@ -20,7 +20,7 @@ tfs: 'sall4,F1QDF2,-,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,
 
   eomesa,Q98TU2,64603,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8AWR7.tsv
+tfs_download: TFLink_tfs_of_Q8AWR7.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

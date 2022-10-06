@@ -212,7 +212,7 @@ tfs: 'CREBBP,Q92793,1387,ReMap,chromatin immunoprecipitation assay,29126285%5Bui
 
   EBF3,Q9H4W6,253738,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9UJH8.tsv
+tfs_download: TFLink_tfs_of_Q9UJH8.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

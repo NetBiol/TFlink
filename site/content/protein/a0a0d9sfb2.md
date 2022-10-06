@@ -194,7 +194,7 @@ tfs: 'CEBPA,P49715,1050,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%
 
   EHMT2,Q96KQ7,10919,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_A0A0D9SFB2.tsv
+tfs_download: TFLink_tfs_of_A0A0D9SFB2.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

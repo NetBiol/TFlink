@@ -16,7 +16,7 @@ tfs: 'Pou1f1,P10037,25517,GTRD,chromatin immunoprecipitation assay,27924024%5Bui
 
   Mlxipl,Q8VIP2,171078,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_B5DEN8.tsv
+tfs_download: TFLink_tfs_of_B5DEN8.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

@@ -101,7 +101,7 @@ tfs: 'POU4F2,Q12837,5458,ReMap,chromatin immunoprecipitation assay,29126285%5Bui
 
   CEBPA,P49715,1050,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q6ZMR5.tsv
+tfs_download: TFLink_tfs_of_Q6ZMR5.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

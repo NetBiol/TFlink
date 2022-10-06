@@ -412,8 +412,8 @@ targets: 'TIFA,Q96CG3,92610,GTRD,chromatin immunoprecipitation assay,27924024%5B
   ZSWIM6,Q9HCJ5,57688,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   ARHGAP40,Q5TG30,-,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q9UBN7.tsv
-targets_download: targets_of_Q9UBN7.tsv
+tfs_download: TFLink_tfs_of_Q9UBN7.tsv
+targets_download: TFLink_targets_of_Q9UBN7.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

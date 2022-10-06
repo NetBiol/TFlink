@@ -211,7 +211,7 @@ tfs: 'Mecp2,Q9Z2D6,17257,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
 
   Kdm1a,Q6ZQ88,99982,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_A0A1L1SQU7.tsv
+tfs_download: TFLink_tfs_of_A0A1L1SQU7.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

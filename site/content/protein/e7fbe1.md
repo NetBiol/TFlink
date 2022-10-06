@@ -12,7 +12,7 @@ orthologs: '[{"species": "Homo sapiens", "id": ["<a href=\"/protein/o75326\">O75
 jaspar_matrices: ''
 tfs: nanog,A5JNG8,792333,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 targets: ''
-tfs_download: tfs_of_E7FBE1.tsv
+tfs_download: TFLink_tfs_of_E7FBE1.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

@@ -210,7 +210,7 @@ tfs: 'SRF,P11831,6722,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5B
 
   SUZ12,Q15022,23512,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9BRK0.tsv
+tfs_download: TFLink_tfs_of_Q9BRK0.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

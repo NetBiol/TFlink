@@ -211,7 +211,7 @@ tfs: 'Olig2,Q9EQW6,50913,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
 
   Tp53,P02340,22059,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q7TNE1.tsv
+tfs_download: TFLink_tfs_of_Q7TNE1.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

@@ -409,8 +409,8 @@ targets: 'C2,P06681,717,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%
   EXT2,Q93063,2132,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   SEL1L2,Q5TEA6,80343,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q9HCK0.tsv
-targets_download: targets_of_Q9HCK0.tsv
+tfs_download: TFLink_tfs_of_Q9HCK0.tsv
+targets_download: TFLink_targets_of_Q9HCK0.tsv
 bindingSites_download: ''
 binding_sites_ls: Q9HCK0_HT.fasta
 

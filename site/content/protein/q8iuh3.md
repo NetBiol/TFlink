@@ -211,7 +211,7 @@ tfs: 'CHD8,Q9HCK8,57680,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%
 
   GTF2F1,P35269,2962,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D+OR+27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8IUH3.tsv
+tfs_download: TFLink_tfs_of_Q8IUH3.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

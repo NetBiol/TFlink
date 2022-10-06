@@ -14,7 +14,7 @@ tfs: 'YBX1,P67809,4904,HTRI,chromatin immunoprecipitation assay,19151767%5Buid%5
 
   FOXP3,Q9BZS1,50943,HTRI,chromatin immunoprecipitation array,22900683%5Buid%5D+OR+20554955%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_P0DMM9.tsv
+tfs_download: TFLink_tfs_of_P0DMM9.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

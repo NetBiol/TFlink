@@ -211,7 +211,7 @@ targets: 'TAF3,Q12297,856096,GTRD,chromatin immunoprecipitation assay,27924024%5
 
   -,A0A023PZF3,-,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 tfs_download: ''
-targets_download: targets_of_A6ZQG7.tsv
+targets_download: TFLink_targets_of_A6ZQG7.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

@@ -150,8 +150,8 @@ targets: 'ear,A0A0B4KG69,44451,GTRD,chromatin immunoprecipitation assay,27924024
   Dmel\CG4596,Q9VGV1,41312,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   Taf4,P47825,39765,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_A8JQX6.tsv
-targets_download: targets_of_A8JQX6.tsv
+tfs_download: TFLink_tfs_of_A8JQX6.tsv
+targets_download: TFLink_targets_of_A8JQX6.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

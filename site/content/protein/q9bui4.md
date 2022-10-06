@@ -211,7 +211,7 @@ tfs: 'CCNT2,O60583,905,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5
 
   SP1,P08047,6667,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D+OR+27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9BUI4.tsv
+tfs_download: TFLink_tfs_of_Q9BUI4.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

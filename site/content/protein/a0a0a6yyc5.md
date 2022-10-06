@@ -150,7 +150,7 @@ tfs: 'MYC,P01106,4609,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5B
 
   SMARCA4,P51532,6597,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_A0A0A6YYC5.tsv
+tfs_download: TFLink_tfs_of_A0A0A6YYC5.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

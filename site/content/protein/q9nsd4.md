@@ -211,7 +211,7 @@ tfs: 'ZNF18,P17022,7566,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%
 
   JUN,P05412,3725,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D+OR+27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9NSD4.tsv
+tfs_download: TFLink_tfs_of_Q9NSD4.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

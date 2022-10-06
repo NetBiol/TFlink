@@ -291,8 +291,8 @@ targets: 'PCLAF,Q15004,9768,GTRD,chromatin immunoprecipitation assay,27924024%5B
   KAZN,Q674X7,23254,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   F2RL1,P55085,2150,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_A6NGD5.tsv
-targets_download: targets_of_A6NGD5.tsv
+tfs_download: TFLink_tfs_of_A6NGD5.tsv
+targets_download: TFLink_targets_of_A6NGD5.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

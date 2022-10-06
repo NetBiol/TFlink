@@ -28,7 +28,7 @@ tfs: 'Nr3c1,P06537,-,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,
 
   Gata1,P17679,14460,ORegAnno;PAZAR,inferred by curator,18971253%5Buid%5D+OR+26578589%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_A2AGU5.tsv
+tfs_download: TFLink_tfs_of_A2AGU5.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

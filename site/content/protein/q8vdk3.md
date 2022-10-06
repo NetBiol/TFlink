@@ -409,8 +409,8 @@ targets: 'Stat5a,P42230,20850,GTRD;TRRUST,chromatin immunoprecipitation assay;in
   Tsga10,Q6NY15,211484,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   Eme2,Q56A04,193838,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q8VDK3.tsv
-targets_download: targets_of_Q8VDK3.tsv
+tfs_download: TFLink_tfs_of_Q8VDK3.tsv
+targets_download: TFLink_targets_of_Q8VDK3.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

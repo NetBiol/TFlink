@@ -17,7 +17,7 @@ tfs: 'ATF2,P15336,1386,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5
   TRIM28,Q13263,10155,GTRD;ORegAnno;PAZAR,chromatin immunoprecipitation assay;inferred
   by curator,18971253%5Buid%5D+OR+27924024%5Buid%5D+OR+26578589%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q5SWL7.tsv
+tfs_download: TFLink_tfs_of_Q5SWL7.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

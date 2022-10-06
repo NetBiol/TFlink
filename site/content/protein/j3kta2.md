@@ -210,7 +210,7 @@ tfs: 'ZSCAN5A,Q9BUG6,79149,GTRD,chromatin immunoprecipitation assay,27924024%5Bu
 
   NFE2L2,Q16236,4780,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_J3KTA2.tsv
+tfs_download: TFLink_tfs_of_J3KTA2.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

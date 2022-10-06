@@ -210,7 +210,7 @@ tfs: 'Usf1,Q61069,22278,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%
 
   Arnt2,Q61324,11864,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q3UCV8.tsv
+tfs_download: TFLink_tfs_of_Q3UCV8.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

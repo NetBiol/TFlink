@@ -269,8 +269,8 @@ targets: 'METTL15,A6NJ78,196074,GTRD,chromatin immunoprecipitation assay,2792402
   -,A0A087WSV2,-,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   TRAV13-1,A0A0B4J241,-,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_A6NHR9.tsv
-targets_download: targets_of_A6NHR9.tsv
+tfs_download: TFLink_tfs_of_A6NHR9.tsv
+targets_download: TFLink_targets_of_A6NHR9.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

@@ -210,7 +210,7 @@ tfs: 'EGR3,Q06889,1960,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5
 
   JMJD6,Q6NYC1,23210,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_M0QZK8.tsv
+tfs_download: TFLink_tfs_of_M0QZK8.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

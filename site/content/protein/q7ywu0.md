@@ -26,7 +26,7 @@ tfs: 'blmp-1,Q93560,172917,GTRD,chromatin immunoprecipitation assay,27924024%5Bu
 
   egl-5,P17486,176093,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q7YWU0.tsv
+tfs_download: TFLink_tfs_of_Q7YWU0.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

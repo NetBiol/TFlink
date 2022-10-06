@@ -213,7 +213,7 @@ tfs: 'STAT3,P40763,6774,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%
 
   HNRNPLL,Q8WVV9,92906,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q5UAW9.tsv
+tfs_download: TFLink_tfs_of_Q5UAW9.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

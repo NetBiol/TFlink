@@ -210,7 +210,7 @@ tfs: 'MYB,P10242,4602,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5B
 
   NFATC1,O95644,4772,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D+OR+27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q3KNV8.tsv
+tfs_download: TFLink_tfs_of_Q3KNV8.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

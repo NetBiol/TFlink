@@ -52,7 +52,7 @@ tfs: 'CEBPA,P49715,1050,ORegAnno;PAZAR,inferred by curator,18971253%5Buid%5D+OR+
 
   NFE2,Q16621,4778,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D+OR+27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8NGC7.tsv
+tfs_download: TFLink_tfs_of_Q8NGC7.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

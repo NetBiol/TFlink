@@ -46,7 +46,7 @@ tfs: 'xnd-1,O45134,175776,GTRD,chromatin immunoprecipitation assay,27924024%5Bui
 
   ceh-16,P34326,191618,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_G5EEK4.tsv
+tfs_download: TFLink_tfs_of_G5EEK4.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

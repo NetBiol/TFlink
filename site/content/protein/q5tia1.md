@@ -212,7 +212,7 @@ tfs: 'MEIS1,O00470,4211,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%
 
   FOXH1,O75593,8928,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q5TIA1.tsv
+tfs_download: TFLink_tfs_of_Q5TIA1.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

@@ -411,8 +411,8 @@ targets: 'KLKB1,P03952,3818,TRRUST,inferred by curator,29087512%5Buid%5D+OR+2043
   FGFBP2,Q9BYJ0,83888,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   CLDN12,P56749,9069,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q6ZRS2.tsv
-targets_download: targets_of_Q6ZRS2.tsv
+tfs_download: TFLink_tfs_of_Q6ZRS2.tsv
+targets_download: TFLink_targets_of_Q6ZRS2.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

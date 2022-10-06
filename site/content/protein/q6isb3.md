@@ -413,8 +413,8 @@ targets: 'B3GALT5,Q9Y2C3,10317,GTRD,chromatin immunoprecipitation assay,27924024
   KHDRBS1,Q07666,10657,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D+OR+27924024%5Buid%5D,No
 
   XXYLT1,Q8NBI6,152002,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D+OR+27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q6ISB3.tsv
-targets_download: targets_of_Q6ISB3.tsv
+tfs_download: TFLink_tfs_of_Q6ISB3.tsv
+targets_download: TFLink_targets_of_Q6ISB3.tsv
 bindingSites_download: ''
 binding_sites_ls: Q6ISB3_HT.fasta
 

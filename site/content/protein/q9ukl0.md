@@ -410,8 +410,8 @@ targets: 'TSPAN18,Q96SJ8,90139,GTRD;ReMap,chromatin immunoprecipitation assay,29
   COA6,Q5JTJ3,388753,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D+OR+27924024%5Buid%5D,No
 
   TRIM68,Q6AZZ1,55128,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No'
-tfs_download: tfs_of_Q9UKL0.tsv
-targets_download: targets_of_Q9UKL0.tsv
+tfs_download: TFLink_tfs_of_Q9UKL0.tsv
+targets_download: TFLink_targets_of_Q9UKL0.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

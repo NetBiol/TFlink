@@ -214,7 +214,7 @@ tfs: 'STAT3,P40763,6774,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%
 
   MITF,O75030,4286,ORegAnno;PAZAR,inferred by curator,18971253%5Buid%5D+OR+26578589%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q6UXB2.tsv
+tfs_download: TFLink_tfs_of_Q6UXB2.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

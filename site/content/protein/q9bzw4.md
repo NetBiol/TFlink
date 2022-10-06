@@ -212,7 +212,7 @@ tfs: 'NONO,Q15233,4841,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5
 
   SFPQ,P23246,6421,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9BZW4.tsv
+tfs_download: TFLink_tfs_of_Q9BZW4.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

@@ -276,8 +276,8 @@ targets: '-,U4PRJ6,-,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,
   nhr-247,O45987,191500,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   pie-1,Q94131,176667,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_G5EGF8.tsv
-targets_download: targets_of_G5EGF8.tsv
+tfs_download: TFLink_tfs_of_G5EGF8.tsv
+targets_download: TFLink_targets_of_G5EGF8.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

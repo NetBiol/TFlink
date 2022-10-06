@@ -211,7 +211,7 @@ tfs: 'Sox9,Q04887,20682,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%
 
   Nsd3,Q6P2L6,234135,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9JKB3.tsv
+tfs_download: TFLink_tfs_of_Q9JKB3.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

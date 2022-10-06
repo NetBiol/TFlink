@@ -211,7 +211,7 @@ tfs: 'HBP1,O60381,26959,ReMap,chromatin immunoprecipitation assay,29126285%5Buid
 
   KDM7A,Q6ZMT4,80853,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8IZD0.tsv
+tfs_download: TFLink_tfs_of_Q8IZD0.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

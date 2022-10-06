@@ -211,7 +211,7 @@ tfs: 'Stat3,P42227,20848,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
 
   Tead4,Q62296,21679,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_F7AKR5.tsv
+tfs_download: TFLink_tfs_of_F7AKR5.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

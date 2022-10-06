@@ -172,8 +172,8 @@ targets: 'Sox17,Q61473,20671,TRRUST,inferred by curator,29087512%5Buid%5D+OR+173
   Foxj1,Q61660,15223,TRRUST,inferred by curator,29087512%5Buid%5D+OR+17347682%5Buid%5D,Yes
 
   Sftpc,P21841,-,TRRUST,inferred by curator,29087512%5Buid%5D+OR+17347682%5Buid%5D,Yes'
-tfs_download: tfs_of_Q9WTP3.tsv
-targets_download: targets_of_Q9WTP3.tsv
+tfs_download: TFLink_tfs_of_Q9WTP3.tsv
+targets_download: TFLink_targets_of_Q9WTP3.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

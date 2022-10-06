@@ -76,7 +76,7 @@ tfs: 'ASCL1,P50553,429,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%
 
   NANOG,Q9H9S0,79923,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_A6NJG6.tsv
+tfs_download: TFLink_tfs_of_A6NJG6.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

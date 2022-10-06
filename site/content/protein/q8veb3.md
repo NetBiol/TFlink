@@ -211,7 +211,7 @@ tfs: 'Znf281,Q99LI5,226442,GTRD,chromatin immunoprecipitation assay,27924024%5Bu
 
   Irf8,P23611,15900,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8VEB3.tsv
+tfs_download: TFLink_tfs_of_Q8VEB3.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

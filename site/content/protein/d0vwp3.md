@@ -28,7 +28,7 @@ tfs: 'pqm-1,G5EFY7,174705,GTRD,chromatin immunoprecipitation assay,27924024%5Bui
 
   cebp-1,Q18909,180481,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_D0VWP3.tsv
+tfs_download: TFLink_tfs_of_D0VWP3.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

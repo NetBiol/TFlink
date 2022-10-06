@@ -108,7 +108,7 @@ tfs: 'Anpep,P97449,16790,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
 
   Tcf3,P15806,21423,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_A0A0G2JGA3.tsv
+tfs_download: TFLink_tfs_of_A0A0G2JGA3.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

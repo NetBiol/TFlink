@@ -213,8 +213,8 @@ tfs: 'ZNF554,Q86TJ5,115196,GTRD,chromatin immunoprecipitation assay,27924024%5Bu
 
   RELA,Q04206,5970,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: CDKN2A,P42771,1029,HTRI,chromatin immunoprecipitation assay;inferred by curator,19340300%5Buid%5D+OR+22900683%5Buid%5D,No
-tfs_download: tfs_of_Q9NTW7.tsv
-targets_download: targets_of_Q9NTW7.tsv
+tfs_download: TFLink_tfs_of_Q9NTW7.tsv
+targets_download: TFLink_targets_of_Q9NTW7.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

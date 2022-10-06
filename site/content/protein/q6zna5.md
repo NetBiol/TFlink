@@ -211,7 +211,7 @@ tfs: 'GMEB2,Q9UKD1,26205,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
 
   NFKB2,Q00653,4791,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q6ZNA5.tsv
+tfs_download: TFLink_tfs_of_Q6ZNA5.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

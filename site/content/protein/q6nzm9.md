@@ -411,8 +411,8 @@ targets: 'Runx2,Q08775,12393,TRRUST,inferred by curator,29087512%5Buid%5D+OR+213
   Il2ra,P01590,16184,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   Mlec,Q6ZQI3,109154,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q6NZM9.tsv
-targets_download: targets_of_Q6NZM9.tsv
+tfs_download: TFLink_tfs_of_Q6NZM9.tsv
+targets_download: TFLink_targets_of_Q6NZM9.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

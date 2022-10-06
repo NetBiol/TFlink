@@ -213,7 +213,7 @@ tfs: 'RBM25,P49756,58517,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
 
   MYRF,Q9Y2G1,745,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8NDC4.tsv
+tfs_download: TFLink_tfs_of_Q8NDC4.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

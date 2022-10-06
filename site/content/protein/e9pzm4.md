@@ -410,8 +410,8 @@ targets: 'Ak4,Q9WUR9,11639,GTRD,chromatin immunoprecipitation assay,27924024%5Bu
   Arhgef10,Q8C033,234094,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   Fbxw7,Q8VBV4,50754,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_E9PZM4.tsv
-targets_download: targets_of_E9PZM4.tsv
+tfs_download: TFLink_tfs_of_E9PZM4.tsv
+targets_download: TFLink_targets_of_E9PZM4.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

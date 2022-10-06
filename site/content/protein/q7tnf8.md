@@ -210,7 +210,7 @@ tfs: 'Gps2,Q921N8,56310,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%
 
   Taf9b,Q6NZA9,407786,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q7TNF8.tsv
+tfs_download: TFLink_tfs_of_Q7TNF8.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

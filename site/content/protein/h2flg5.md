@@ -210,7 +210,7 @@ tfs: 'nhr-237,Q966B8,189970,GTRD,chromatin immunoprecipitation assay,27924024%5B
 
   ceh-60,Q45EK2,184803,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_H2FLG5.tsv
+tfs_download: TFLink_tfs_of_H2FLG5.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

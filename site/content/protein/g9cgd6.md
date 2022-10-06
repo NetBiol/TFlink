@@ -210,7 +210,7 @@ tfs: 'KDM4A,O75164,9682,ReMap,chromatin immunoprecipitation assay,29126285%5Buid
 
   SIN3B,O75182,23309,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_G9CGD6.tsv
+tfs_download: TFLink_tfs_of_G9CGD6.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

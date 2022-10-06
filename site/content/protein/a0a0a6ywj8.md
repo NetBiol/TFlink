@@ -104,7 +104,7 @@ tfs: 'Rag2,P21784,19374,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%
 
   Usf2,Q64705,22282,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_A0A0A6YWJ8.tsv
+tfs_download: TFLink_tfs_of_A0A0A6YWJ8.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

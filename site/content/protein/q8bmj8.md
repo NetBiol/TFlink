@@ -113,8 +113,8 @@ targets: 'Fgf8,P37237,14179,TRRUST,inferred by curator,17509151%5Buid%5D+OR+1657
   Nr2f1,Q60632,13865,TRRUST,inferred by curator,23307639%5Buid%5D+OR+29087512%5Buid%5D,Yes
 
   Fgf10,O35565,14165,TRRUST,inferred by curator,15358670%5Buid%5D+OR+29087512%5Buid%5D,Yes'
-tfs_download: tfs_of_Q8BMJ8.tsv
-targets_download: targets_of_Q8BMJ8.tsv
+tfs_download: TFLink_tfs_of_Q8BMJ8.tsv
+targets_download: TFLink_targets_of_Q8BMJ8.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

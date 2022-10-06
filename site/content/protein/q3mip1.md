@@ -214,7 +214,7 @@ tfs: 'SETDB1,Q15047,9869,GTRD;ReMap,chromatin immunoprecipitation assay,29126285
 
   ARID1B,Q8NFD5,57492,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q3MIP1.tsv
+tfs_download: TFLink_tfs_of_Q3MIP1.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

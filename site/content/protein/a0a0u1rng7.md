@@ -210,7 +210,7 @@ tfs: 'Nkx2-1,P50220,21869,GTRD,chromatin immunoprecipitation assay,27924024%5Bui
 
   Pcgf6,Q99NA9,71041,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_A0A0U1RNG7.tsv
+tfs_download: TFLink_tfs_of_A0A0U1RNG7.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

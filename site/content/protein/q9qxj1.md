@@ -214,8 +214,8 @@ tfs: 'Pcgf6,Q99NA9,71041,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
 targets: 'Notch1,Q01705,18128,TRRUST,inferred by curator,22199353%5Buid%5D+OR+29087512%5Buid%5D,Yes
 
   Lrp1,Q91ZX7,16971,TRRUST,inferred by curator,17920016%5Buid%5D+OR+29087512%5Buid%5D,Yes'
-tfs_download: tfs_of_Q9QXJ1.tsv
-targets_download: targets_of_Q9QXJ1.tsv
+tfs_download: TFLink_tfs_of_Q9QXJ1.tsv
+targets_download: TFLink_targets_of_Q9QXJ1.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

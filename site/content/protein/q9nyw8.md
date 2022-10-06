@@ -411,8 +411,8 @@ targets: 'NSD3,Q9BZ95,54904,GTRD,chromatin immunoprecipitation assay,27924024%5B
   SNX27,Q96L92,81609,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   CLCN7,P51798,1186,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q9NYW8.tsv
-targets_download: targets_of_Q9NYW8.tsv
+tfs_download: TFLink_tfs_of_Q9NYW8.tsv
+targets_download: TFLink_targets_of_Q9NYW8.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

@@ -14,7 +14,7 @@ tfs: 'Egr1,P08154,24330,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%
 
   Sp1,Q01714,24790,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_D4ADR3.tsv
+tfs_download: TFLink_tfs_of_D4ADR3.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

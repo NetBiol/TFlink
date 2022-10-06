@@ -211,7 +211,7 @@ tfs: 'RNF2,Q99496,6045,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5
 
   SMARCA5,O60264,8467,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8IXI2.tsv
+tfs_download: TFLink_tfs_of_Q8IXI2.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

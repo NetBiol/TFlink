@@ -38,7 +38,7 @@ tfs: 'Su(H),P28159,34881,REDfly,electrophoretic mobility shift assay,20965965%5B
 
   Spps,A0A0B4KHC8,42882,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9VBH3.tsv
+tfs_download: TFLink_tfs_of_Q9VBH3.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

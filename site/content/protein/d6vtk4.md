@@ -242,7 +242,7 @@ tfs: 'MOT3,P54785,855092,Yeastract,array technology/partial DNA sequence identif
   SOK2,P53438,855030,Yeastract,array technology/partial DNA sequence identification
   by hybridization,22042577%5Buid%5D+OR+24170807%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_D6VTK4.tsv
+tfs_download: TFLink_tfs_of_D6VTK4.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

@@ -211,7 +211,7 @@ tfs: 'RUNX2,Q13950,860,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%
 
   HNRNPLL,Q8WVV9,92906,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8NAC3.tsv
+tfs_download: TFLink_tfs_of_Q8NAC3.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

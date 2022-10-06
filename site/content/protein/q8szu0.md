@@ -114,7 +114,7 @@ tfs: 'E(z),P42124,39203,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%
 
   Dmel\CG8478,E1JIH4,41194,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8SZU0.tsv
+tfs_download: TFLink_tfs_of_Q8SZU0.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

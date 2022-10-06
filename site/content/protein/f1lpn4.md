@@ -28,7 +28,7 @@ tfs: 'Hr,P97609,-,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   Hdac3,Q6P6W3,84578,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_F1LPN4.tsv
+tfs_download: TFLink_tfs_of_F1LPN4.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

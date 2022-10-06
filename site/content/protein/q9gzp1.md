@@ -212,7 +212,7 @@ tfs: 'ZNF121,P58317,7675,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
 
   DMAP1,Q9NPF5,55929,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9GZP1.tsv
+tfs_download: TFLink_tfs_of_Q9GZP1.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

@@ -210,7 +210,7 @@ tfs: 'Chd4,Q6PDQ2,107932,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
 
   Egr1,P08046,13653,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_E9QLK7.tsv
+tfs_download: TFLink_tfs_of_E9QLK7.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

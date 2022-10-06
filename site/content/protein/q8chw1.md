@@ -410,8 +410,8 @@ targets: 'Olfr224,M9MMJ7,258198,GTRD,chromatin immunoprecipitation assay,2792402
   Dgcr2,Q6P5A9,13356,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   Mpp3,Q6XE40,13384,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q8CHW1.tsv
-targets_download: targets_of_Q8CHW1.tsv
+tfs_download: TFLink_tfs_of_Q8CHW1.tsv
+targets_download: TFLink_targets_of_Q8CHW1.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

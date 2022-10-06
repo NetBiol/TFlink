@@ -210,7 +210,7 @@ tfs: 'ZKSCAN1,P17029,7586,ReMap,chromatin immunoprecipitation assay,29126285%5Bu
 
   ZBTB2,Q8N680,57621,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_A5PLN9.tsv
+tfs_download: TFLink_tfs_of_A5PLN9.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

@@ -210,7 +210,7 @@ tfs: 'MYNN,Q9NPC7,55892,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%
 
   POU2F1,P14859,5451,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q6IPU0.tsv
+tfs_download: TFLink_tfs_of_Q6IPU0.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

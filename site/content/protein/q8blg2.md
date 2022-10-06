@@ -125,7 +125,7 @@ tfs: 'Nkx2-1,P50220,21869,GTRD,chromatin immunoprecipitation assay,27924024%5Bui
 
   Nr1d1,Q3UV55,217166,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8BLG2.tsv
+tfs_download: TFLink_tfs_of_Q8BLG2.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

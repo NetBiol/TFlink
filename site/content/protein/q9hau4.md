@@ -214,8 +214,8 @@ tfs: 'MCM7,P33993,4176,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5
 
   MYCN,P04198,4613,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D+OR+27924024%5Buid%5D,No'
 targets: KLF5,Q13887,688,TRRUST,inferred by curator,21953463%5Buid%5D+OR+29087512%5Buid%5D,Yes
-tfs_download: tfs_of_Q9HAU4.tsv
-targets_download: targets_of_Q9HAU4.tsv
+tfs_download: TFLink_tfs_of_Q9HAU4.tsv
+targets_download: TFLink_targets_of_Q9HAU4.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

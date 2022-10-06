@@ -60,7 +60,7 @@ tfs: 'TRIM28,Q13263,10155,ORegAnno;PAZAR,inferred by curator,18971253%5Buid%5D+O
 
   SOX2,P48431,6657,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_A8MYZ5.tsv
+tfs_download: TFLink_tfs_of_A8MYZ5.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

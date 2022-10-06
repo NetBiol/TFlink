@@ -210,7 +210,7 @@ tfs: 'ETV1,P50549,2115,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%
 
   KDM1A,O60341,23028,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_H0YIP3.tsv
+tfs_download: TFLink_tfs_of_H0YIP3.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

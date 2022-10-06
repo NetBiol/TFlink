@@ -39,7 +39,7 @@ tfs: 'pan,Q8IMA8,43769,REDfly,DNase I footprinting;electrophoretic mobility shif
 
   Kah,Q9W0P9,38072,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9VJH8.tsv
+tfs_download: TFLink_tfs_of_Q9VJH8.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

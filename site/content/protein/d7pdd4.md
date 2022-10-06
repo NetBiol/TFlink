@@ -104,7 +104,7 @@ tfs: 'Lhx3,P50481,16871,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%
 
   Hey1,Q9WV93,-,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_D7PDD4.tsv
+tfs_download: TFLink_tfs_of_D7PDD4.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

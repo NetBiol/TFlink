@@ -211,7 +211,7 @@ tfs: 'YY1,P25490,7528,GTRD;ORegAnno;ReMap,chromatin immunoprecipitation assay;in
 
   ELK4,P28324,2005,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q5HYI7.tsv
+tfs_download: TFLink_tfs_of_Q5HYI7.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

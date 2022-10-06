@@ -246,8 +246,8 @@ targets: 'H2ac11,C0HKE5,319164;319165;319166;319167;319170;319171;319172;319191;
   Ppara,P23204,19013,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   Slc2a3,P32037,20527,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q7TNE6.tsv
-targets_download: targets_of_Q7TNE6.tsv
+tfs_download: TFLink_tfs_of_Q7TNE6.tsv
+targets_download: TFLink_targets_of_Q7TNE6.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

@@ -215,7 +215,7 @@ tfs: 'E2F1,Q01094,1869,GTRD;TRED,chromatin immunoprecipitation assay;inferred by
 
   ZNF143,P52747,7702,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9NRN7.tsv
+tfs_download: TFLink_tfs_of_Q9NRN7.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

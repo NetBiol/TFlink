@@ -348,8 +348,8 @@ targets: 'Smg6,P61406,103677,GTRD,chromatin immunoprecipitation assay,27924024%5
   Lmx1a,Q9JKU8,110648,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   H1-4,P43274,50709,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q9CWH0.tsv
-targets_download: targets_of_Q9CWH0.tsv
+tfs_download: TFLink_tfs_of_Q9CWH0.tsv
+targets_download: TFLink_targets_of_Q9CWH0.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

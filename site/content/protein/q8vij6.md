@@ -210,8 +210,8 @@ tfs: 'Hnrnpu,Q8VEK3,51810,GTRD,chromatin immunoprecipitation assay,27924024%5Bui
 
   Xbp1,O35426,22433,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: Cyp11a1,Q9QZ82,13070,TRRUST,inferred by curator,29087512%5Buid%5D+OR+20371701%5Buid%5D,Yes
-tfs_download: tfs_of_Q8VIJ6.tsv
-targets_download: targets_of_Q8VIJ6.tsv
+tfs_download: TFLink_tfs_of_Q8VIJ6.tsv
+targets_download: TFLink_targets_of_Q8VIJ6.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

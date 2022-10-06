@@ -356,8 +356,8 @@ targets: 'wip-1,Q8WT46,175681,GTRD,chromatin immunoprecipitation assay,27924024%
   frg-1,O18282,176719,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   eft-3;eft-4,P53013,175975;181044,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_G5EBL3.tsv
-targets_download: targets_of_G5EBL3.tsv
+tfs_download: TFLink_tfs_of_G5EBL3.tsv
+targets_download: TFLink_targets_of_G5EBL3.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

@@ -210,7 +210,7 @@ tfs: 'ZBED5,Q49AG3,58486,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
 
   CXXC1,Q9P0U4,30827,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9UNY5.tsv
+tfs_download: TFLink_tfs_of_Q9UNY5.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

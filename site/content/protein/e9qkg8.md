@@ -210,7 +210,7 @@ tfs: 'Foxo3,Q9WVH4,56484,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
 
   Smad2,Q62432,17126,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_E9QKG8.tsv
+tfs_download: TFLink_tfs_of_E9QKG8.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

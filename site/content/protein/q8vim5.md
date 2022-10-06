@@ -217,8 +217,8 @@ targets: 'Acta2,P62737,11475,TRRUST,inferred by curator,29087512%5Buid%5D+OR+197
   Mylk,Q6PDN3,-,TRRUST,inferred by curator,15550397%5Buid%5D+OR+29087512%5Buid%5D,Yes
 
   Tgfb1i1,Q62219,21804,TRRUST,inferred by curator,29087512%5Buid%5D+OR+21984848%5Buid%5D,Yes'
-tfs_download: tfs_of_Q8VIM5.tsv
-targets_download: targets_of_Q8VIM5.tsv
+tfs_download: TFLink_tfs_of_Q8VIM5.tsv
+targets_download: TFLink_targets_of_Q8VIM5.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

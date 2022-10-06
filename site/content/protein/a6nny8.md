@@ -210,7 +210,7 @@ tfs: 'PAX7,P23759,5081,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5
 
   HIF3A,Q9Y2N7,64344,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_A6NNY8.tsv
+tfs_download: TFLink_tfs_of_A6NNY8.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

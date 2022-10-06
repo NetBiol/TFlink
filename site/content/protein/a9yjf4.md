@@ -30,7 +30,7 @@ tfs: 'ZIPIC,Q9VAB8,43566,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
 
   twi,P10627,37655,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_A9YJF4.tsv
+tfs_download: TFLink_tfs_of_A9YJF4.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

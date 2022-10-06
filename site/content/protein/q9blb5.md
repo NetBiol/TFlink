@@ -40,7 +40,7 @@ tfs: 'tlf-1,B2D6P4,172676,GTRD,chromatin immunoprecipitation assay,27924024%5Bui
 
   -,Q19753,179947,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9BLB5.tsv
+tfs_download: TFLink_tfs_of_Q9BLB5.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

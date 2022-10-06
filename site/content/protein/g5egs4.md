@@ -100,7 +100,7 @@ tfs: 'lin-13,Q11107,176083,GTRD,chromatin immunoprecipitation assay,27924024%5Bu
 
   nfya-1,G5EEG1,181368,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_G5EGS4.tsv
+tfs_download: TFLink_tfs_of_G5EGS4.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

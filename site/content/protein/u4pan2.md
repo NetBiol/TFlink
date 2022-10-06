@@ -70,7 +70,7 @@ tfs: 'sma-9,Q22190,181271,GTRD,chromatin immunoprecipitation assay,27924024%5Bui
 
   nhr-86,Q965W2,178685,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_U4PAN2.tsv
+tfs_download: TFLink_tfs_of_U4PAN2.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

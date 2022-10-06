@@ -215,7 +215,7 @@ tfs: 'NFKB1,P19838,4790,GTRD;TRRUST,chromatin immunoprecipitation assay;inferred
 
   FOXP1,Q9H334,27086,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_P0DJI8.tsv
+tfs_download: TFLink_tfs_of_P0DJI8.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

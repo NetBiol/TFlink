@@ -211,7 +211,7 @@ tfs: 'FOXO4,P98177,4303,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%
 
   ZNF30,P17039,90075,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9NWS8.tsv
+tfs_download: TFLink_tfs_of_Q9NWS8.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

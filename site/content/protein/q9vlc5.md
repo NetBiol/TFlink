@@ -68,7 +68,7 @@ tfs: 'dsx,P23023,40940,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5
 
   Abd-B,P09087,47763,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9VLC5.tsv
+tfs_download: TFLink_tfs_of_Q9VLC5.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

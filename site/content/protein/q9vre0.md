@@ -84,7 +84,7 @@ tfs: 'Klf15,Q0IGQ2,31410,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
 
   tx,P41894,43190,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9VRE0.tsv
+tfs_download: TFLink_tfs_of_Q9VRE0.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

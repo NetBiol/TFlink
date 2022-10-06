@@ -85,7 +85,7 @@ tfs: 'TSC22D4,Q9Y3Q8,81628,GTRD,chromatin immunoprecipitation assay,27924024%5Bu
 
   CHD1,O14646,1105,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_P0DOY2.tsv
+tfs_download: TFLink_tfs_of_P0DOY2.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

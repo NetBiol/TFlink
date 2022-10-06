@@ -211,7 +211,7 @@ tfs: 'ZEB1,P37275,6935,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5
 
   ZFX,P17010,7543,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9UNS1.tsv
+tfs_download: TFLink_tfs_of_Q9UNS1.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

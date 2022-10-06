@@ -213,7 +213,7 @@ tfs: 'MAFK,O60675,7975,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%
 
   ZNF843,Q8N446,283933,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q6UXH8.tsv
+tfs_download: TFLink_tfs_of_Q6UXH8.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

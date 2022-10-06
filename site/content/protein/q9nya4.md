@@ -214,7 +214,7 @@ tfs: 'HDAC8,Q9BY41,55869,ReMap,chromatin immunoprecipitation assay,29126285%5Bui
 
   ZFP1,Q6P2D0,162239,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9NYA4.tsv
+tfs_download: TFLink_tfs_of_Q9NYA4.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

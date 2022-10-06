@@ -212,7 +212,7 @@ tfs: 'SIRT1,Q96EB6,23411,TRRUST,inferred by curator,29087512%5Buid%5D+OR+2133739
 
   DPF2,Q92785,5977,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9UNA0.tsv
+tfs_download: TFLink_tfs_of_Q9UNA0.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

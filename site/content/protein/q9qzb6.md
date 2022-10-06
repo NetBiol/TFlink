@@ -215,8 +215,8 @@ tfs: 'Nfkb1,P25799,18033,TRRUST,inferred by curator,29087512%5Buid%5D+OR+1984318
 targets: 'Ucp1,P12242,22227,TRRUST,inferred by curator,18238829%5Buid%5D+OR+29087512%5Buid%5D,Yes
 
   Kcnb1,Q03717,16500,TRRUST,inferred by curator,29087512%5Buid%5D+OR+16972792%5Buid%5D,Yes'
-tfs_download: tfs_of_Q9QZB6.tsv
-targets_download: targets_of_Q9QZB6.tsv
+tfs_download: TFLink_tfs_of_Q9QZB6.tsv
+targets_download: TFLink_targets_of_Q9QZB6.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

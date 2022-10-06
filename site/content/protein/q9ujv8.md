@@ -210,7 +210,7 @@ tfs: 'NFRKB,Q6P4R8,4798,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%
 
   GATA3,P23771,2625,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9UJV8.tsv
+tfs_download: TFLink_tfs_of_Q9UJV8.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

@@ -215,8 +215,8 @@ targets: 'Wbp1,P97764,22377,TRRUST,inferred by curator,29087512%5Buid%5D+OR+2184
   Atp2a2,O55143,11938,TRED,inferred by curator,17202159%5Buid%5D,Yes
 
   Hspa5,P20029,14828,TRRUST,inferred by curator,16452489%5Buid%5D+OR+29087512%5Buid%5D+OR+12871976%5Buid%5D,Yes'
-tfs_download: tfs_of_F6VAN0.tsv
-targets_download: targets_of_F6VAN0.tsv
+tfs_download: TFLink_tfs_of_F6VAN0.tsv
+targets_download: TFLink_targets_of_F6VAN0.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

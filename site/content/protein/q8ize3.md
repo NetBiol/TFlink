@@ -212,7 +212,7 @@ tfs: 'MXI1,P50539,4601,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5
 
   USF1,P22415,7391,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8IZE3.tsv
+tfs_download: TFLink_tfs_of_Q8IZE3.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

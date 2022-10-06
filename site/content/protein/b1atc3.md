@@ -211,7 +211,7 @@ tfs: 'Dr1,Q91WV0,13486,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5
 
   Smarca4,Q3TKT4,20586,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_B1ATC3.tsv
+tfs_download: TFLink_tfs_of_B1ATC3.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

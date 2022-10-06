@@ -413,8 +413,8 @@ targets: 'EGR1,P18146,1958,TRRUST,inferred by curator,29087512%5Buid%5D+OR+21968
   BZW1,Q7L1Q6,9689,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   ARHGEF2,Q92974,9181,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q8TAU0.tsv
-targets_download: targets_of_Q8TAU0.tsv
+tfs_download: TFLink_tfs_of_Q8TAU0.tsv
+targets_download: TFLink_targets_of_Q8TAU0.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

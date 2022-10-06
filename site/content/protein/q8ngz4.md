@@ -48,7 +48,7 @@ tfs: 'AR,P10275,367,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,N
 
   PADI2,Q9Y2J8,11240,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8NGZ4.tsv
+tfs_download: TFLink_tfs_of_Q8NGZ4.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

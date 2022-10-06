@@ -42,7 +42,7 @@ tfs: 'CLOCK,O15516,9575,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%
 
   JUND,P17535,3727,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8IYU4.tsv
+tfs_download: TFLink_tfs_of_Q8IYU4.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

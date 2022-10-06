@@ -40,7 +40,7 @@ tfs: 'nfya-1,G5EEG1,181368,GTRD,chromatin immunoprecipitation assay,27924024%5Bu
 
   daf-16,O16850,172981,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_G5EFH3.tsv
+tfs_download: TFLink_tfs_of_G5EFH3.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

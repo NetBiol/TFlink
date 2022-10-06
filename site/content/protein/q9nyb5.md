@@ -100,7 +100,7 @@ tfs: 'ONECUT1,Q9UBC0,3175,ReMap,chromatin immunoprecipitation assay,29126285%5Bu
 
   FOXA2,Q9Y261,3170,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9NYB5.tsv
+tfs_download: TFLink_tfs_of_Q9NYB5.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

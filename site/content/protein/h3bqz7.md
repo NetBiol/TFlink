@@ -210,7 +210,7 @@ tfs: 'CTBP1,Q13363,1487,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%
 
   PML,P29590,5371,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_H3BQZ7.tsv
+tfs_download: TFLink_tfs_of_H3BQZ7.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

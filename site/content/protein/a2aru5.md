@@ -210,7 +210,7 @@ tfs: 'Ogt,Q8CGY8,108155,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%
 
   Ikzf2,P81183,22779,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_A2ARU5.tsv
+tfs_download: TFLink_tfs_of_A2ARU5.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

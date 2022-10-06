@@ -20,8 +20,8 @@ tfs: 'Raf,P11346,31221,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5
 
   Trl,Q08605,2768981,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: cpo,Q01617,45840,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
-tfs_download: tfs_of_Q9VSL1.tsv
-targets_download: targets_of_Q9VSL1.tsv
+tfs_download: TFLink_tfs_of_Q9VSL1.tsv
+targets_download: TFLink_targets_of_Q9VSL1.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

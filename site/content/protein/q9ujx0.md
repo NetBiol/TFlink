@@ -213,7 +213,7 @@ tfs: 'ZNF83,P51522,55769,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
 
   RBM39,Q14498,9584,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9UJX0.tsv
+tfs_download: TFLink_tfs_of_Q9UJX0.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

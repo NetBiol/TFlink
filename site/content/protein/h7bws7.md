@@ -88,7 +88,7 @@ tfs: 'Spps,A0A0B4KHC8,42882,GTRD,chromatin immunoprecipitation assay,27924024%5B
 
   Trl,Q08605,2768981,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_H7BWS7.tsv
+tfs_download: TFLink_tfs_of_H7BWS7.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

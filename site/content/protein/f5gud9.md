@@ -210,7 +210,7 @@ tfs: 'lin-11,P20154,172893,GTRD,chromatin immunoprecipitation assay,27924024%5Bu
 
   efl-1,G5EF11,180133,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_F5GUD9.tsv
+tfs_download: TFLink_tfs_of_F5GUD9.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

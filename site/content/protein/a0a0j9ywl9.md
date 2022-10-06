@@ -78,7 +78,7 @@ tfs: 'TP53,P04637,7157,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5
 
   BRIP1,Q9BX63,83990,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_A0A0J9YWL9.tsv
+tfs_download: TFLink_tfs_of_A0A0J9YWL9.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

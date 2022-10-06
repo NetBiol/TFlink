@@ -14,7 +14,7 @@ tfs: 'RELA,Q04206,5970,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5
 
   PAX8,Q06710,7849,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_C9JVI0.tsv
+tfs_download: TFLink_tfs_of_C9JVI0.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

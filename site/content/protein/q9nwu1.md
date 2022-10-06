@@ -211,7 +211,7 @@ tfs: 'SPIB,Q01892,6689,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5
 
   PBX2,P40425,5089,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9NWU1.tsv
+tfs_download: TFLink_tfs_of_Q9NWU1.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

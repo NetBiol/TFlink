@@ -218,8 +218,8 @@ targets: 'Srf,Q9JM73,20807,TRRUST,inferred by curator,29087512%5Buid%5D+OR+15456
   Nr3c1,P06537,-,TRRUST,inferred by curator,29087512%5Buid%5D+OR+15456770%5Buid%5D,Yes
 
   Nr4a1,P12813,15370,TRRUST,inferred by curator,29087512%5Buid%5D+OR+15456770%5Buid%5D,Yes'
-tfs_download: tfs_of_Q9DBD5.tsv
-targets_download: targets_of_Q9DBD5.tsv
+tfs_download: TFLink_tfs_of_Q9DBD5.tsv
+targets_download: TFLink_targets_of_Q9DBD5.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

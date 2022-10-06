@@ -211,7 +211,7 @@ tfs: 'RXRA,P19793,6256,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5
 
   ZC3H8,Q8N5P1,84524,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q6IPR3.tsv
+tfs_download: TFLink_tfs_of_Q6IPR3.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

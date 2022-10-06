@@ -28,7 +28,7 @@ tfs: 'tdp-1,D0VWM8,174436,GTRD,chromatin immunoprecipitation assay,27924024%5Bui
 
   hsf-1,G5EFT5,173078,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_A0A1C3NSP0.tsv
+tfs_download: TFLink_tfs_of_A0A1C3NSP0.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

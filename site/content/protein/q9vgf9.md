@@ -90,7 +90,7 @@ tfs: 'BEAF-32,Q7JN06,36645,ORegAnno,inferred by curator,9001253%5Buid%5D+OR+2657
 
   l(3)mbt,Q9VB52,43288,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9VGF9.tsv
+tfs_download: TFLink_tfs_of_Q9VGF9.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

@@ -212,7 +212,7 @@ tfs: 'ERF,P50548,2077,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D
 
   BARX2,Q9UMQ3,8538,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9UGM6.tsv
+tfs_download: TFLink_tfs_of_Q9UGM6.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

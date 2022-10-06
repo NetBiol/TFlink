@@ -212,7 +212,7 @@ tfs: 'ERCC6,Q03468,2074,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%
 
   SPDEF,O95238,25803,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8NET6.tsv
+tfs_download: TFLink_tfs_of_Q8NET6.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

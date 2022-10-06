@@ -70,7 +70,7 @@ tfs: 'Su(var)205,P05205,34119,GTRD,chromatin immunoprecipitation assay,27924024%
 
   Dmel\CG18011,Q7K1V0,36068,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9VJV8.tsv
+tfs_download: TFLink_tfs_of_Q9VJV8.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

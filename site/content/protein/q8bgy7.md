@@ -211,7 +211,7 @@ tfs: 'Kdm2a,P59997,225876,GTRD,chromatin immunoprecipitation assay,27924024%5Bui
 
   Rad23b,P54728,19359,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8BGY7.tsv
+tfs_download: TFLink_tfs_of_Q8BGY7.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

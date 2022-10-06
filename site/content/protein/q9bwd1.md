@@ -213,7 +213,7 @@ tfs: 'HNF1A,P20823,6927,TRRUST,inferred by curator,16274362%5Buid%5D+OR+29087512
 
   LYL1,P12980,4066,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9BWD1.tsv
+tfs_download: TFLink_tfs_of_Q9BWD1.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

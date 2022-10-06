@@ -52,7 +52,7 @@ tfs: 'Hmr,Q86CW5,31988,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5
 
   TfIIB,P29052,34430,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9VBD0.tsv
+tfs_download: TFLink_tfs_of_Q9VBD0.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

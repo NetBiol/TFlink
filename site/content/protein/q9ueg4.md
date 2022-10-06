@@ -411,8 +411,8 @@ targets: 'TNFSF9,P41273,8744,GTRD,chromatin immunoprecipitation assay,27924024%5
   SLC37A2,Q8TED4,219855,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   TRIM11,Q96F44,81559,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q9UEG4.tsv
-targets_download: targets_of_Q9UEG4.tsv
+tfs_download: TFLink_tfs_of_Q9UEG4.tsv
+targets_download: TFLink_targets_of_Q9UEG4.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

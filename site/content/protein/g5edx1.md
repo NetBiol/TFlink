@@ -28,7 +28,7 @@ tfs: 'ttx-3,G5EE86,181357,ORegAnno,inferred by curator,26578589%5Buid%5D+OR+1517
 
   unc-55,G5ECR9,192082,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_G5EDX1.tsv
+tfs_download: TFLink_tfs_of_G5EDX1.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

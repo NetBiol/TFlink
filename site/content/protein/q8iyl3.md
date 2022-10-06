@@ -212,7 +212,7 @@ tfs: 'SCML2,Q9UQR0,10389,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
 
   ZHX2,Q9Y6X8,22882,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D+OR+27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8IYL3.tsv
+tfs_download: TFLink_tfs_of_Q8IYL3.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

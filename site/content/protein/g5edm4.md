@@ -44,7 +44,7 @@ tfs: 'zip-8,P46505,175924,GTRD,chromatin immunoprecipitation assay,27924024%5Bui
 
   sta-1,Q9NAD6,178465,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_G5EDM4.tsv
+tfs_download: TFLink_tfs_of_G5EDM4.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

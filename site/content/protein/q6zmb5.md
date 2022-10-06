@@ -212,7 +212,7 @@ tfs: 'XRCC5,P13010,7520,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%
 
   DTL,Q9NZJ0,51514,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q6ZMB5.tsv
+tfs_download: TFLink_tfs_of_Q6ZMB5.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

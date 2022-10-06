@@ -215,7 +215,7 @@ tfs: 'AR,P10275,367,HTRI;ReMap,chromatin immunoprecipitation array;chromatin imm
 
   CREM,Q03060,1390,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8IYR6.tsv
+tfs_download: TFLink_tfs_of_Q8IYR6.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

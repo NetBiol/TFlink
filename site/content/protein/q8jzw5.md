@@ -210,7 +210,7 @@ tfs: 'Setd1a,E9PYH6,233904,GTRD,chromatin immunoprecipitation assay,27924024%5Bu
 
   Isx,A1A546,71597,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8JZW5.tsv
+tfs_download: TFLink_tfs_of_Q8JZW5.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

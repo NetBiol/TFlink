@@ -24,7 +24,7 @@ tfs: 'en,P02836,36240,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D
 
   E(spl)mbeta-HLH,Q01069,43152,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9VKS5.tsv
+tfs_download: TFLink_tfs_of_Q9VKS5.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

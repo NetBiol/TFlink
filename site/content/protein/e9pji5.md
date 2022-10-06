@@ -12,7 +12,7 @@ orthologs: ''
 jaspar_matrices: ''
 tfs: FOXP1,Q9H334,27086,ORegAnno;PAZAR,inferred by curator,18971253%5Buid%5D+OR+26578589%5Buid%5D,No
 targets: ''
-tfs_download: tfs_of_E9PJI5.tsv
+tfs_download: TFLink_tfs_of_E9PJI5.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

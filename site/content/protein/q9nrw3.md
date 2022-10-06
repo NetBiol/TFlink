@@ -211,7 +211,7 @@ tfs: 'RUNX1T1,Q06455,862,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
 
   TRIM24,O15164,8805,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9NRW3.tsv
+tfs_download: TFLink_tfs_of_Q9NRW3.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

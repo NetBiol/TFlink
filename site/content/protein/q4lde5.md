@@ -218,7 +218,7 @@ tfs: 'STAT5A,P42229,6776,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
 
   TP63,Q9H3D4,8626,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q4LDE5.tsv
+tfs_download: TFLink_tfs_of_Q4LDE5.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

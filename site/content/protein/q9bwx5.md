@@ -215,8 +215,8 @@ tfs: 'DNMT3B,Q9UBC3,1789,IntAct_via_DoRothEA;ReMap,chromatin immunoprecipitation
 
   CBX3,Q13185,11335,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No'
 targets: SLC5A1,P13866,6523,TRRUST,inferred by curator,29087512%5Buid%5D+OR+18656622%5Buid%5D,Yes
-tfs_download: tfs_of_Q9BWX5.tsv
-targets_download: targets_of_Q9BWX5.tsv
+tfs_download: TFLink_tfs_of_Q9BWX5.tsv
+targets_download: TFLink_targets_of_Q9BWX5.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

@@ -92,7 +92,7 @@ tfs: 'Hsf,P22813,37068,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5
 
   tin-RA,B6IDS0,42536,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_A9YHM3.tsv
+tfs_download: TFLink_tfs_of_A9YHM3.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

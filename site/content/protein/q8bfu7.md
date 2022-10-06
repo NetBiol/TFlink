@@ -172,7 +172,7 @@ tfs: 'Spib,O35906,272382,TRRUST,inferred by curator,29087512%5Buid%5D+OR+1056739
 
   Tfap4,Q9JIZ5,83383,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8BFU7.tsv
+tfs_download: TFLink_tfs_of_Q8BFU7.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

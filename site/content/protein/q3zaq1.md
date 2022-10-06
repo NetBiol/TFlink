@@ -114,7 +114,7 @@ tfs: 'Dmel\CG3995,Q9VEP0,42057,GTRD,chromatin immunoprecipitation assay,27924024
 
   brk,Q9XTN4,31665,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q3ZAQ1.tsv
+tfs_download: TFLink_tfs_of_Q3ZAQ1.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

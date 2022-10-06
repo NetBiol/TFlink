@@ -20,7 +20,7 @@ tfs: 'Cdx2,P43241,12591,ORegAnno;PAZAR,inferred by curator,18971253%5Buid%5D+OR+
 
   Nr5a2,P45448,26424,ORegAnno;PAZAR,inferred by curator,18971253%5Buid%5D+OR+26578589%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q6XAR7.tsv
+tfs_download: TFLink_tfs_of_Q6XAR7.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

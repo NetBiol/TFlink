@@ -22,7 +22,7 @@ tfs: 'Pax8,P51974,81819,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%
 
   Pou1f1,P10037,25517,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_F1LPH1.tsv
+tfs_download: TFLink_tfs_of_F1LPH1.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

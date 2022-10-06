@@ -14,7 +14,7 @@ tfs: 'SUB1,P54000,855055,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
 
   CBF1,P17106,853523,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8TGR7.tsv
+tfs_download: TFLink_tfs_of_Q8TGR7.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

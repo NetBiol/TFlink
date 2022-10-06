@@ -20,7 +20,7 @@ tfs: 'Nr1h4,Q62735,60351,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
 
   Tcf7l2,D4A8X6,-,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_D4AAX4.tsv
+tfs_download: TFLink_tfs_of_D4AAX4.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

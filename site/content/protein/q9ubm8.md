@@ -215,7 +215,7 @@ tfs: 'HOXB13,Q92826,10481,GTRD,chromatin immunoprecipitation assay,27924024%5Bui
 
   NFYA,P23511,4800,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9UBM8.tsv
+tfs_download: TFLink_tfs_of_Q9UBM8.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

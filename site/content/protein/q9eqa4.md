@@ -34,7 +34,7 @@ tfs: 'Cbx2,P30658,12416,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%
 
   Prdm1,Q60636,12142,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9EQA4.tsv
+tfs_download: TFLink_tfs_of_Q9EQA4.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

@@ -214,8 +214,8 @@ targets: 'rpl-25.2,Q20647,172617,GTRD,chromatin immunoprecipitation assay,279240
   unc-76,E0AHC6,180014,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   -,Q9BI82,186851,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_G5EBU4.tsv
-targets_download: targets_of_G5EBU4.tsv
+tfs_download: TFLink_tfs_of_G5EBU4.tsv
+targets_download: TFLink_targets_of_G5EBU4.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

@@ -216,7 +216,7 @@ tfs: 'MYC,P01106,4609,GTRD;HTRI;TRED,chromatin immunoprecipitation assay;inferre
 
   ARID3A,Q99856,1820,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q6GTX8.tsv
+tfs_download: TFLink_tfs_of_Q6GTX8.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

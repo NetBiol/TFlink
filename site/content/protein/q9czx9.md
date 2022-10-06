@@ -210,7 +210,7 @@ tfs: 'Zmiz1,Q6P1E1,328365,GTRD,chromatin immunoprecipitation assay,27924024%5Bui
 
   Sim2,Q61079,20465,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9CZX9.tsv
+tfs_download: TFLink_tfs_of_Q9CZX9.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

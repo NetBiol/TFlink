@@ -210,7 +210,7 @@ tfs: 'TCF3,P15923,6929,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%
 
   TFAP4,Q01664,7023,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_A0A2R8YFF1.tsv
+tfs_download: TFLink_tfs_of_A0A2R8YFF1.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

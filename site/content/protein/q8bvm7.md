@@ -211,7 +211,7 @@ tfs: 'Sall4,Q8BX22,99377,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
 
   Hdac1,O09106,433759,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8BVM7.tsv
+tfs_download: TFLink_tfs_of_Q8BVM7.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

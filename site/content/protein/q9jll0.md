@@ -212,7 +212,7 @@ tfs: 'E2f2,P56931,242705,TRED,inferred by curator,17202159%5Buid%5D,Yes
 
   Mef2a,Q60929,17258,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9JLL0.tsv
+tfs_download: TFLink_tfs_of_Q9JLL0.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

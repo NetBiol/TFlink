@@ -213,7 +213,7 @@ tfs: 'RUNX2,Q13950,860,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%
 
   ZBTB6,Q15916,10773,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9HAK2.tsv
+tfs_download: TFLink_tfs_of_Q9HAK2.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

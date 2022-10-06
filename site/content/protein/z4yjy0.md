@@ -210,7 +210,7 @@ tfs: 'Hoxa9,P09631,15405,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
 
   Bach2,P97303,12014,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Z4YJY0.tsv
+tfs_download: TFLink_tfs_of_Z4YJY0.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

@@ -211,7 +211,7 @@ tfs: 'TFAP4,Q01664,7023,ReMap,chromatin immunoprecipitation assay,29126285%5Buid
 
   TRIM22,Q8IYM9,10346,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_B7ZBB8.tsv
+tfs_download: TFLink_tfs_of_B7ZBB8.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

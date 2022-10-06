@@ -214,8 +214,8 @@ tfs: 'ZFP36,P26651,7538,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%
 targets: 'CDK11B,P21127,984,TFactS_via_DoRothea,inferred by curator,22761861%5Buid%5D+OR+15656972%5Buid%5D,Yes
 
   SPRR2A,P35326,6700,TRED;TRRUST,inferred by curator,17202159%5Buid%5D+OR+29087512%5Buid%5D+OR+8816448%5Buid%5D,Yes'
-tfs_download: tfs_of_Q9UKI9.tsv
-targets_download: targets_of_Q9UKI9.tsv
+tfs_download: TFLink_tfs_of_Q9UKI9.tsv
+targets_download: TFLink_targets_of_Q9UKI9.tsv
 bindingSites_download: ''
 binding_sites_ls: Q9UKI9_HT.fasta
 

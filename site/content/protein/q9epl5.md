@@ -22,7 +22,7 @@ tfs: 'Znf410,Q8BKX7,52708,TRRUST,inferred by curator,29087512%5Buid%5D+OR+123702
 
   Nr4a2,Q06219,18227,TRRUST,inferred by curator,29087512%5Buid%5D+OR+17283078%5Buid%5D,Yes'
 targets: ''
-tfs_download: tfs_of_Q9EPL5.tsv
+tfs_download: TFLink_tfs_of_Q9EPL5.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

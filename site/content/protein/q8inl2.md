@@ -272,8 +272,8 @@ targets: 'CheB42c,A1Z6S2,2768715,GTRD,chromatin immunoprecipitation assay,279240
   Dmel\CG11076,Q9V493,43830,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   ras,Q07152,43873,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q8INL2.tsv
-targets_download: targets_of_Q8INL2.tsv
+tfs_download: TFLink_tfs_of_Q8INL2.tsv
+targets_download: TFLink_targets_of_Q8INL2.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

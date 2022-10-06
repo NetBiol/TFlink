@@ -216,8 +216,8 @@ targets: 'Hes1,P35428,15205,TRRUST,inferred by curator,29087512%5Buid%5D+OR+1877
   Nkx2-2,P42586,18088,TRRUST,inferred by curator,29087512%5Buid%5D+OR+18778483%5Buid%5D,Yes
 
   Arx,O35085,11878,TRRUST,inferred by curator,29087512%5Buid%5D+OR+18778483%5Buid%5D,Yes'
-tfs_download: tfs_of_Q9WVB2.tsv
-targets_download: targets_of_Q9WVB2.tsv
+tfs_download: TFLink_tfs_of_Q9WVB2.tsv
+targets_download: TFLink_targets_of_Q9WVB2.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

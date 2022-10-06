@@ -30,7 +30,7 @@ tfs: 'PIP2,P52960,854545,Yeastract,chromatin immunoprecipitation assay,24170807%
 
   HAP4,P14064,853751,Yeastract,chromatin immunoprecipitation array,12399584%5Buid%5D+OR+24170807%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9ZZX0.tsv
+tfs_download: TFLink_tfs_of_Q9ZZX0.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

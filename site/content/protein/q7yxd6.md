@@ -210,7 +210,7 @@ tfs: 'rbr-2,Q23541,177985,GTRD,chromatin immunoprecipitation assay,27924024%5Bui
 
   nhr-25,Q19345,181432,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q7YXD6.tsv
+tfs_download: TFLink_tfs_of_Q7YXD6.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

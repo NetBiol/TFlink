@@ -214,8 +214,8 @@ targets: '-,Q86RT5,-,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,
   pptr-1,O18178,180100,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   -,Q4PIT6,-,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_G5ECG2.tsv
-targets_download: targets_of_G5ECG2.tsv
+tfs_download: TFLink_tfs_of_G5ECG2.tsv
+targets_download: TFLink_targets_of_G5ECG2.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

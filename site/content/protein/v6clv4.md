@@ -94,7 +94,7 @@ tfs: 'hmg-11,G5EEL9,173805,GTRD,chromatin immunoprecipitation assay,27924024%5Bu
 
   lsy-2,Q9N5S3,180522,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_V6CLV4.tsv
+tfs_download: TFLink_tfs_of_V6CLV4.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

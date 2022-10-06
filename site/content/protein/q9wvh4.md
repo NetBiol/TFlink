@@ -412,8 +412,8 @@ targets: 'Ccng2,O08918,12452,GTRD;TRRUST,chromatin immunoprecipitation assay;inf
   Nhlrc3,Q8CCH2,212114,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   Dhps,Q3TXU5,330817,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q9WVH4.tsv
-targets_download: targets_of_Q9WVH4.tsv
+tfs_download: TFLink_tfs_of_Q9WVH4.tsv
+targets_download: TFLink_targets_of_Q9WVH4.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

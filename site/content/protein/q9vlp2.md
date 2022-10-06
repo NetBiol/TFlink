@@ -38,7 +38,7 @@ tfs: 'Med,O62609,43725,REDfly,electrophoretic mobility shift assay,20965965%5Bui
 
   Pc,P26017,40358,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9VLP2.tsv
+tfs_download: TFLink_tfs_of_Q9VLP2.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

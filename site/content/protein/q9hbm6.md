@@ -408,8 +408,8 @@ targets: 'NELFA,Q9H3P2,7469,GTRD,chromatin immunoprecipitation assay,27924024%5B
   STYXL1,Q9Y6J8,51657,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   CCDC58,Q4VC31,131076,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q9HBM6.tsv
-targets_download: targets_of_Q9HBM6.tsv
+tfs_download: TFLink_tfs_of_Q9HBM6.tsv
+targets_download: TFLink_targets_of_Q9HBM6.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

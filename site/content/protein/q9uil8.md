@@ -213,7 +213,7 @@ tfs: 'KDM5B,Q9UGL1,10765,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
 
   PRDM11,Q9NQV5,56981,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9UIL8.tsv
+tfs_download: TFLink_tfs_of_Q9UIL8.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

@@ -211,7 +211,7 @@ tfs: 'TAF1,P21675,6872,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5
 
   KAT7,O95251,11143,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_A8MTA8.tsv
+tfs_download: TFLink_tfs_of_A8MTA8.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

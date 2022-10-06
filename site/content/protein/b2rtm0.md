@@ -20,7 +20,7 @@ tfs: 'Irf3,P70671,54131,TRRUST,inferred by curator,29087512%5Buid%5D+OR+11278666
 
   Cux1,P53564,13047,TRRUST,inferred by curator,29087512%5Buid%5D+OR+12891711%5Buid%5D,Yes'
 targets: ''
-tfs_download: tfs_of_B2RTM0.tsv
+tfs_download: TFLink_tfs_of_B2RTM0.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

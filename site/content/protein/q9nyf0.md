@@ -213,7 +213,7 @@ tfs: 'NKX2-5,P52952,1482,GTRD;TRRUST,chromatin immunoprecipitation assay;inferre
 
   STAT5B,P51692,6777,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9NYF0.tsv
+tfs_download: TFLink_tfs_of_Q9NYF0.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

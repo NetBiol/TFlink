@@ -53,7 +53,7 @@ tfs: 'PGD1,P40356,852860,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
 
   UBP8,P50102,855263,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8TGT1.tsv
+tfs_download: TFLink_tfs_of_Q8TGT1.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

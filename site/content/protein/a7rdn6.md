@@ -18,7 +18,7 @@ tfs: 'Sp1,O89090,20683,TRRUST,inferred by curator,29087512%5Buid%5D+OR+25295465%
 
   Znf148,Q61624,22661,TRRUST,inferred by curator,29087512%5Buid%5D+OR+25295465%5Buid%5D,Yes'
 targets: ''
-tfs_download: tfs_of_A7RDN6.tsv
+tfs_download: TFLink_tfs_of_A7RDN6.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

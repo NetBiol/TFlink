@@ -211,7 +211,7 @@ tfs: 'Dr1,Q91WV0,13486,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5
 
   Med12,A2AGH6,59024,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8BYN5.tsv
+tfs_download: TFLink_tfs_of_Q8BYN5.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

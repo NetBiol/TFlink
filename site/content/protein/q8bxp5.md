@@ -118,7 +118,7 @@ tfs: 'Hdac3,O88895,-,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,
 
   Lhx2,Q9Z0S2,16870,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8BXP5.tsv
+tfs_download: TFLink_tfs_of_Q8BXP5.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

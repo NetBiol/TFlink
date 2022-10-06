@@ -197,7 +197,7 @@ tfs: 'SPT23,P35210,853848,Yeastract,chromatin immunoprecipitation array,24170807
 
   STB5,P38699,856583,Yeastract,chromatin immunoprecipitation assay,24170807%5Buid%5D+OR+30107458%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q7LHD1.tsv
+tfs_download: TFLink_tfs_of_Q7LHD1.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

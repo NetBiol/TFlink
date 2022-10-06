@@ -211,7 +211,7 @@ tfs: 'Tet3,Q8BG87,194388,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
 
   Snai2,P97469,20583,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9JIB0.tsv
+tfs_download: TFLink_tfs_of_Q9JIB0.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

@@ -80,7 +80,7 @@ tfs: 'tbx-2,Q19691,-,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,
 
   fos-1,G5ECG2,178987,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_G5EBJ7.tsv
+tfs_download: TFLink_tfs_of_G5EBJ7.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

@@ -409,8 +409,8 @@ targets: 'Dgcr8,Q9EQM6,94223,TRRUST,inferred by curator,20179197%5Buid%5D+OR+290
   Aurkb,O70126,20877,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   Trmt61a,Q80XC2,328162,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q9QXV3.tsv
-targets_download: targets_of_Q9QXV3.tsv
+tfs_download: TFLink_tfs_of_Q9QXV3.tsv
+targets_download: TFLink_targets_of_Q9QXV3.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

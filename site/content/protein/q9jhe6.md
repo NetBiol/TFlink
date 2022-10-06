@@ -213,8 +213,8 @@ tfs: 'Atoh1,P48985,11921,GTRD;ORegAnno;PAZAR;TRRUST,chromatin immunoprecipitatio
 targets: 'Hes1,P35428,15205,TRRUST,inferred by curator,29087512%5Buid%5D+OR+10851137%5Buid%5D,Yes
 
   Htr1a,Q64264,15550,TRRUST,inferred by curator,29087512%5Buid%5D+OR+18499474%5Buid%5D,Yes'
-tfs_download: tfs_of_Q9JHE6.tsv
-targets_download: targets_of_Q9JHE6.tsv
+tfs_download: TFLink_tfs_of_Q9JHE6.tsv
+targets_download: TFLink_targets_of_Q9JHE6.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

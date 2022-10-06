@@ -210,7 +210,7 @@ tfs: 'Isx,A1A546,71597,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5
 
   Rfx1,P48377,19724,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_A0A0A6YXX9.tsv
+tfs_download: TFLink_tfs_of_A0A0A6YXX9.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

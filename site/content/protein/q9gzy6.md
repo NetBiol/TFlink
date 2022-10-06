@@ -212,7 +212,7 @@ tfs: 'PIAS1,O75925,8554,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%
 
   RNGTT,O60942,8732,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9GZY6.tsv
+tfs_download: TFLink_tfs_of_Q9GZY6.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

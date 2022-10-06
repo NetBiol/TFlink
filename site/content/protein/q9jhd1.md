@@ -229,8 +229,8 @@ targets: 'Myod1,P10085,17927,TRRUST,inferred by curator,29087512%5Buid%5D+OR+152
   Gm10720,D3Z1I5,-,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   Gm10718,D3Z1I7,-,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q9JHD1.tsv
-targets_download: targets_of_Q9JHD1.tsv
+tfs_download: TFLink_tfs_of_Q9JHD1.tsv
+targets_download: TFLink_targets_of_Q9JHD1.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

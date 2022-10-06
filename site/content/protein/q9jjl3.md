@@ -146,7 +146,7 @@ tfs: 'Hnf1a,P22361,21405,TRRUST,inferred by curator,19181614%5Buid%5D+OR+1532226
 
   Nfe2l2,Q60795,18024,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9JJL3.tsv
+tfs_download: TFLink_tfs_of_Q9JJL3.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

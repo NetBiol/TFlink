@@ -214,8 +214,8 @@ targets: 'nhr-34,Q21006,177800,GTRD,chromatin immunoprecipitation assay,27924024
   -,Q18691,179970,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   -,C6KRI0,266949,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_G5EBF1.tsv
-targets_download: targets_of_G5EBF1.tsv
+tfs_download: TFLink_tfs_of_G5EBF1.tsv
+targets_download: TFLink_targets_of_G5EBF1.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

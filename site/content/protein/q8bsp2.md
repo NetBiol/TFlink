@@ -408,8 +408,8 @@ targets: 'Slc8b1,Q925Q3,170756,GTRD,chromatin immunoprecipitation assay,27924024
   Snrnp70,Q62376,20637,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   Rpain,Q9CWY9,69723,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q8BSP2.tsv
-targets_download: targets_of_Q8BSP2.tsv
+tfs_download: TFLink_tfs_of_Q8BSP2.tsv
+targets_download: TFLink_targets_of_Q8BSP2.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

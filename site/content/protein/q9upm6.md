@@ -214,7 +214,7 @@ tfs: 'PITX2,Q99697,5308,TRRUST,inferred by curator,23229549%5Buid%5D+OR+29087512
 
   NR2F6,P10588,2063,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9UPM6.tsv
+tfs_download: TFLink_tfs_of_Q9UPM6.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

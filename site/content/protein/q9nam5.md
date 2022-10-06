@@ -12,7 +12,7 @@ orthologs: '[{"species": "Danio rerio", "id": ["X1WBP0", "E7F3Z9"]}]'
 jaspar_matrices: ''
 tfs: snpc-4,P91868,172711,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 targets: ''
-tfs_download: tfs_of_Q9NAM5.tsv
+tfs_download: TFLink_tfs_of_Q9NAM5.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

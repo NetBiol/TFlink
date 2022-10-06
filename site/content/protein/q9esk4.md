@@ -210,7 +210,7 @@ tfs: 'Zeb1,Q64318,21417,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%
 
   Neurod2,Q62414,18013,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9ESK4.tsv
+tfs_download: TFLink_tfs_of_Q9ESK4.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

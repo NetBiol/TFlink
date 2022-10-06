@@ -151,7 +151,7 @@ tfs: 'VDR,P11473,7421,TRRUST,inferred by curator,29087512%5Buid%5D+OR+18408752%5
 
   KDM1A,O60341,23028,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9UBT3.tsv
+tfs_download: TFLink_tfs_of_Q9UBT3.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

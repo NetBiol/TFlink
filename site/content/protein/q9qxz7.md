@@ -186,8 +186,8 @@ tfs: 'Nrl,P54846,18185,TRRUST,inferred by curator,29087512%5Buid%5D+OR+18294621%
 
   Myod1,P10085,17927,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: Rho,P15409,212541,TRRUST,inferred by curator,15689355%5Buid%5D+OR+29087512%5Buid%5D,Yes
-tfs_download: tfs_of_Q9QXZ7.tsv
-targets_download: targets_of_Q9QXZ7.tsv
+tfs_download: TFLink_tfs_of_Q9QXZ7.tsv
+targets_download: TFLink_targets_of_Q9QXZ7.tsv
 bindingSites_download: ''
 binding_sites_ls: Q9QXZ7_HT.fasta
 

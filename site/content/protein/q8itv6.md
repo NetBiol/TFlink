@@ -172,7 +172,7 @@ tfs: 'lin-37,Q23482,175986,GTRD,chromatin immunoprecipitation assay,27924024%5Bu
 
   nhr-237,Q966B8,189970,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8ITV6.tsv
+tfs_download: TFLink_tfs_of_Q8ITV6.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

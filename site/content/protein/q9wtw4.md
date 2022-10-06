@@ -211,7 +211,7 @@ tfs: 'Stat6,P52633,20852,GTRD;TRRUST,chromatin immunoprecipitation assay;inferre
 
   Nr1d1,Q3UV55,217166,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9WTW4.tsv
+tfs_download: TFLink_tfs_of_Q9WTW4.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

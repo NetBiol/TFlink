@@ -215,8 +215,8 @@ tfs: 'TFAP4,Q01664,7023,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%
 targets: 'CDKN2A,P42771,1029,TRRUST,inferred by curator,29087512%5Buid%5D+OR+21637919%5Buid%5D,Yes
 
   RB1,P06400,5925,TRRUST,inferred by curator,14533007%5Buid%5D+OR+29087512%5Buid%5D+OR+12095676%5Buid%5D+OR+20614030%5Buid%5D,Yes'
-tfs_download: tfs_of_Q8TDY2.tsv
-targets_download: targets_of_Q8TDY2.tsv
+tfs_download: TFLink_tfs_of_Q8TDY2.tsv
+targets_download: TFLink_targets_of_Q8TDY2.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

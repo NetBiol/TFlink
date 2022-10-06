@@ -210,7 +210,7 @@ tfs: 'Myog,P12979,17928,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%
 
   Gfi1,P70338,14581,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_C0HKG6.tsv
+tfs_download: TFLink_tfs_of_C0HKG6.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

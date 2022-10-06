@@ -211,7 +211,7 @@ tfs: 'AR,P10275,367,GTRD;HTRI;ReMap,chromatin immunoprecipitation array;chromati
 
   ZNF83,P51522,55769,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8WVN8.tsv
+tfs_download: TFLink_tfs_of_Q8WVN8.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

@@ -212,8 +212,8 @@ tfs: 'GABPB1,Q06547,2553,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
 targets: 'CPN2,P22792,1370,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   STAT6,P42226,6778,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q5TYW1.tsv
-targets_download: targets_of_Q5TYW1.tsv
+tfs_download: TFLink_tfs_of_Q5TYW1.tsv
+targets_download: TFLink_targets_of_Q5TYW1.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

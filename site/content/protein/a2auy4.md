@@ -211,7 +211,7 @@ tfs: 'Chaf1b,Q9D0N7,110749,GTRD,chromatin immunoprecipitation assay,27924024%5Bu
 
   Tp53,P02340,22059,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_A2AUY4.tsv
+tfs_download: TFLink_tfs_of_A2AUY4.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

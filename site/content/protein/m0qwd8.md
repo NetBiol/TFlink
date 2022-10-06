@@ -63,7 +63,7 @@ tfs: 'Msl2,Q69ZF8,77853,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%
 
   Rad21,Q61550,19357,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_M0QWD8.tsv
+tfs_download: TFLink_tfs_of_M0QWD8.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

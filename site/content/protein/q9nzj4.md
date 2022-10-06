@@ -215,7 +215,7 @@ tfs: 'CDK9,P50750,1025,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5
 
   SMAD2,Q15796,4087,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9NZJ4.tsv
+tfs_download: TFLink_tfs_of_Q9NZJ4.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

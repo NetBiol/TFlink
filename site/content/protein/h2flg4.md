@@ -210,7 +210,7 @@ tfs: 'ces-1,G5ECN8,185718,GTRD,chromatin immunoprecipitation assay,27924024%5Bui
 
   nhr-85,Q9XUK7,191732,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_H2FLG4.tsv
+tfs_download: TFLink_tfs_of_H2FLG4.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

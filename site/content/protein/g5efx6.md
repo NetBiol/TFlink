@@ -24,7 +24,7 @@ tfs: 'capg-1,G5EFJ4,172521,GTRD,chromatin immunoprecipitation assay,27924024%5Bu
 
   rnt-1,G5EFQ5,172243,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_G5EFX6.tsv
+tfs_download: TFLink_tfs_of_G5EFX6.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

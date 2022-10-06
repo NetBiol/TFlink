@@ -84,7 +84,7 @@ tfs: 'lin-53,P90916,172802,GTRD,chromatin immunoprecipitation assay,27924024%5Bu
 
   mtl-2,P17512,179899,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_U4PBN2.tsv
+tfs_download: TFLink_tfs_of_U4PBN2.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

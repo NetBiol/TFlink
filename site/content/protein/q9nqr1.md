@@ -211,7 +211,7 @@ tfs: 'PRDM2,Q13029,7799,TRRUST,inferred by curator,24423864%5Buid%5D+OR+29087512
 
   BRPF3,Q9ULD4,27154,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9NQR1.tsv
+tfs_download: TFLink_tfs_of_Q9NQR1.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

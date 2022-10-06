@@ -44,7 +44,7 @@ tfs: 'tdp-1,D0VWM8,174436,GTRD,chromatin immunoprecipitation assay,27924024%5Bui
 
   nhr-23,P41828,172460,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_D7SFK7.tsv
+tfs_download: TFLink_tfs_of_D7SFK7.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

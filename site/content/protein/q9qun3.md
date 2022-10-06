@@ -211,7 +211,7 @@ tfs: 'Pax5,Q02650,18507,GTRD;TRRUST,chromatin immunoprecipitation assay;inferred
 
   Pias2,Q8C5D8,17344,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9QUN3.tsv
+tfs_download: TFLink_tfs_of_Q9QUN3.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

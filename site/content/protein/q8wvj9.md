@@ -265,8 +265,8 @@ targets: 'ITGB1,P05556,3688,TRRUST,inferred by curator,29087512%5Buid%5D+OR+1748
   DKK1,O94907,22943,TRRUST,inferred by curator,18453541%5Buid%5D+OR+29087512%5Buid%5D,Yes
 
   CDH1,P12830,999,TRRUST,inferred by curator,29087512%5Buid%5D+OR+21796367%5Buid%5D,Yes'
-tfs_download: tfs_of_Q8WVJ9.tsv
-targets_download: targets_of_Q8WVJ9.tsv
+tfs_download: TFLink_tfs_of_Q8WVJ9.tsv
+targets_download: TFLink_targets_of_Q8WVJ9.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

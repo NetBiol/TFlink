@@ -16,8 +16,8 @@ targets: 'InR,P09208,42549,GTRD,chromatin immunoprecipitation assay,27924024%5Bu
   RpL32,P04359,43573,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   Dmel\CG7943,Q7K483,43574,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q8IRT6.tsv
-targets_download: targets_of_Q8IRT6.tsv
+tfs_download: TFLink_tfs_of_Q8IRT6.tsv
+targets_download: TFLink_targets_of_Q8IRT6.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

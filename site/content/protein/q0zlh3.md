@@ -211,7 +211,7 @@ tfs: 'NCOA2,Q15596,10499,ReMap,chromatin immunoprecipitation assay,29126285%5Bui
 
   ARID3A,Q99856,1820,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q0ZLH3.tsv
+tfs_download: TFLink_tfs_of_Q0ZLH3.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

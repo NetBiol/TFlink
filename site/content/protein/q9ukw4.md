@@ -213,7 +213,7 @@ tfs: 'GLI2,P10070,2736,TFactS_via_DoRothea,inferred by curator,22761861%5Buid%5D
 
   OSR2,Q8N2R0,116039,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9UKW4.tsv
+tfs_download: TFLink_tfs_of_Q9UKW4.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

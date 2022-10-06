@@ -409,8 +409,8 @@ targets: 'Slc35c2,Q8VCX2,228875,GTRD,chromatin immunoprecipitation assay,2792402
   Ptcd1,Q8C2E4,71799,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   Ube2d1,P61080,216080,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q9CWR2.tsv
-targets_download: targets_of_Q9CWR2.tsv
+tfs_download: TFLink_tfs_of_Q9CWR2.tsv
+targets_download: TFLink_targets_of_Q9CWR2.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

@@ -48,7 +48,7 @@ tfs: 'ONECUT2,O95948,9480,GTRD,chromatin immunoprecipitation assay,27924024%5Bui
 
   DTL,Q9NZJ0,51514,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_J3KSC3.tsv
+tfs_download: TFLink_tfs_of_J3KSC3.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

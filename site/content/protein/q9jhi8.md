@@ -211,7 +211,7 @@ tfs: 'E2f1,Q61501,13555,TRRUST,inferred by curator,18554521%5Buid%5D+OR+29087512
 
   Neurog2,P70447,11924,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9JHI8.tsv
+tfs_download: TFLink_tfs_of_Q9JHI8.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

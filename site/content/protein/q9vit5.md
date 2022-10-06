@@ -46,7 +46,7 @@ tfs: 'rhi,Q7JXA8,44879,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5
 
   Pc,P26017,40358,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9VIT5.tsv
+tfs_download: TFLink_tfs_of_Q9VIT5.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

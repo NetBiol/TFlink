@@ -46,7 +46,7 @@ tfs: 'AGO2,Q9VUQ5,39683,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%
 
   Raf,P11346,31221,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_A0A0B4KHY1.tsv
+tfs_download: TFLink_tfs_of_A0A0B4KHY1.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

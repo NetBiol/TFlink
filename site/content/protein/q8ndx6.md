@@ -409,8 +409,8 @@ targets: 'TLK2,Q86UE8,11011,GTRD,chromatin immunoprecipitation assay,27924024%5B
   ZXDC,Q2QGD7,79364,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   NKTR,P30414,4820,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No'
-tfs_download: tfs_of_Q8NDX6.tsv
-targets_download: targets_of_Q8NDX6.tsv
+tfs_download: TFLink_tfs_of_Q8NDX6.tsv
+targets_download: TFLink_targets_of_Q8NDX6.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

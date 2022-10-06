@@ -210,7 +210,7 @@ tfs: 'Nr3c2,Q8VII8,-,TRRUST,inferred by curator,24491541%5Buid%5D+OR+29087512%5B
 
   Foxp3,Q99JB6,20371,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9WVC6.tsv
+tfs_download: TFLink_tfs_of_Q9WVC6.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

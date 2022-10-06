@@ -146,7 +146,7 @@ tfs: 'ph-p,P39769,31181,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%
 
   Dmel\CG9609,Q9VXB4,32663,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_H1UUR0.tsv
+tfs_download: TFLink_tfs_of_H1UUR0.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

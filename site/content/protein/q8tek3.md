@@ -414,8 +414,8 @@ targets: 'ZC3H15,Q8WU90,55854,GTRD,chromatin immunoprecipitation assay,27924024%
   ERVK3-1,A0A0U1RQV1,-,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   EIF2B3,Q9NR50,8891,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q8TEK3.tsv
-targets_download: targets_of_Q8TEK3.tsv
+tfs_download: TFLink_tfs_of_Q8TEK3.tsv
+targets_download: TFLink_targets_of_Q8TEK3.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

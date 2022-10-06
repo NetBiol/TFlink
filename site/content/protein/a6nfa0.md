@@ -70,7 +70,7 @@ tfs: 'AR,P10275,367,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Bui
 
   EGLN2,Q96KS0,112398,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_A6NFA0.tsv
+tfs_download: TFLink_tfs_of_A6NFA0.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

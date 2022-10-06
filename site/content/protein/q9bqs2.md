@@ -125,7 +125,7 @@ tfs: 'SUZ12,Q15022,23512,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
 
   JARID2,Q92833,3720,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9BQS2.tsv
+tfs_download: TFLink_tfs_of_Q9BQS2.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

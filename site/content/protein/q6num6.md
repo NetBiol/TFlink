@@ -210,7 +210,7 @@ tfs: 'E2F4,Q16254,1874,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%
 
   HOMEZ,Q8IX15,57594,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q6NUM6.tsv
+tfs_download: TFLink_tfs_of_Q6NUM6.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

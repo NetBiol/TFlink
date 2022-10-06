@@ -213,7 +213,7 @@ tfs: 'CCNT2,O60583,905,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%
 
   NELFE,P18615,7936,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8WWX8.tsv
+tfs_download: TFLink_tfs_of_Q8WWX8.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

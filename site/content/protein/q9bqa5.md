@@ -411,8 +411,8 @@ targets: 'MBD2,Q9UBB5,8932,TRRUST,inferred by curator,29087512%5Buid%5D+OR+11553
   KLHL22,Q53GT1,84861,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No
 
   KRT8,P05787,3856,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q9BQA5.tsv
-targets_download: targets_of_Q9BQA5.tsv
+tfs_download: TFLink_tfs_of_Q9BQA5.tsv
+targets_download: TFLink_targets_of_Q9BQA5.tsv
 bindingSites_download: ''
 binding_sites_ls: Q9BQA5_HT.fasta
 

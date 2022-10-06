@@ -212,7 +212,7 @@ tfs: 'SMARCA4,P51532,6597,GTRD;ORegAnno;PAZAR,chromatin immunoprecipitation assa
 
   WT1,P19544,7490,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q6UYE1.tsv
+tfs_download: TFLink_tfs_of_Q6UYE1.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

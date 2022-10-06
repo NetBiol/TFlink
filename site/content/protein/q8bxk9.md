@@ -211,7 +211,7 @@ tfs: 'Prdm16,A2A935,70673,GTRD,chromatin immunoprecipitation assay,27924024%5Bui
 
   Rag1,P15919,19373,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8BXK9.tsv
+tfs_download: TFLink_tfs_of_Q8BXK9.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

@@ -136,7 +136,7 @@ tfs: 'prg,Q9VLK8,34177,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5
 
   Dmel\CG30431,Q4V6Y7,35549,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9VRE2.tsv
+tfs_download: TFLink_tfs_of_Q9VRE2.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

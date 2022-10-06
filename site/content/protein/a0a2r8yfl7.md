@@ -94,7 +94,7 @@ tfs: 'GABPA,Q06546,2551,ReMap,chromatin immunoprecipitation assay,29126285%5Buid
 
   DPF2,Q92785,5977,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_A0A2R8YFL7.tsv
+tfs_download: TFLink_tfs_of_A0A2R8YFL7.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

@@ -32,7 +32,7 @@ tfs: 'SUZ12,Q15022,23512,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
 
   AR,P10275,367,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D+OR+27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_I1YAP6.tsv
+tfs_download: TFLink_tfs_of_I1YAP6.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

@@ -213,7 +213,7 @@ tfs: 'ESR1,P03372,2099,GTRD;HTRI;IntAct_via_DoRothEA;PAZAR;ReMap,chromatin immun
 
   EZH2,Q15910,2146,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D+OR+27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q3BBV0.tsv
+tfs_download: TFLink_tfs_of_Q3BBV0.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

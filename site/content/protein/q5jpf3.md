@@ -210,7 +210,7 @@ tfs: 'CDKN1B,P46527,1027,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
 
   NFE2,Q16621,4778,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q5JPF3.tsv
+tfs_download: TFLink_tfs_of_Q5JPF3.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

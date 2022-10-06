@@ -38,7 +38,7 @@ tfs: 'SOK2,P53438,855030,Yeastract,chromatin immunoprecipitation array,17638031%
 
   TBF1,Q02457,855975,Yeastract,chromatin immunoprecipitation array,20231876%5Buid%5D+OR+24170807%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8TGM6.tsv
+tfs_download: TFLink_tfs_of_Q8TGM6.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

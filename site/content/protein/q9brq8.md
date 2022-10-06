@@ -211,7 +211,7 @@ tfs: 'TP53,P04637,7157,DoRothEA;GTRD;HTRI;ReMap;TFactS_via_DoRothea;TRED;TRRUST,
 
   ETV1,P50549,2115,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D+OR+27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9BRQ8.tsv
+tfs_download: TFLink_tfs_of_Q9BRQ8.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

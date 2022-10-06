@@ -136,7 +136,7 @@ tfs: 'Dnmt3b,O88509,13436,GTRD,chromatin immunoprecipitation assay,27924024%5Bui
 
   Tfap4,Q9JIZ5,83383,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8BGR1.tsv
+tfs_download: TFLink_tfs_of_Q8BGR1.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

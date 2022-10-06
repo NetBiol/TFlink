@@ -412,8 +412,8 @@ targets: 'MSI2,Q96DH6,124540,ReMap,chromatin immunoprecipitation assay,29126285%
   LZIC,Q8WZA0,84328,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D+OR+27924024%5Buid%5D,No
 
   REL,Q04864,5966,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No'
-tfs_download: tfs_of_Q5VWG9.tsv
-targets_download: targets_of_Q5VWG9.tsv
+tfs_download: TFLink_tfs_of_Q5VWG9.tsv
+targets_download: TFLink_targets_of_Q5VWG9.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

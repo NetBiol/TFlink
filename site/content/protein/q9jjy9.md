@@ -78,7 +78,7 @@ tfs: 'Foxp3,Q99JB6,20371,TRRUST,inferred by curator,25194055%5Buid%5D+OR+2908751
 
   Stat1,P42225,-,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9JJY9.tsv
+tfs_download: TFLink_tfs_of_Q9JJY9.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

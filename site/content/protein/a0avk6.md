@@ -415,8 +415,8 @@ targets: 'CCND1,P24385,595,GTRD;TRRUST,chromatin immunoprecipitation assay;infer
   BATF2,Q8N1L9,116071,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   ZBED9,Q6R2W3,114821,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_A0AVK6.tsv
-targets_download: targets_of_A0AVK6.tsv
+tfs_download: TFLink_tfs_of_A0AVK6.tsv
+targets_download: TFLink_targets_of_A0AVK6.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

@@ -210,7 +210,7 @@ tfs: 'GATA6,Q92908,2627,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%
 
   NFYA,P23511,4800,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D+OR+27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q6UWN0.tsv
+tfs_download: TFLink_tfs_of_Q6UWN0.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

@@ -410,8 +410,8 @@ targets: 'TM7SF3,Q9NS93,51768,GTRD,chromatin immunoprecipitation assay,27924024%
   CALM2,P0DP24,801;805;808,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   NMT2,O60551,9397,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q9BSM1.tsv
-targets_download: targets_of_Q9BSM1.tsv
+tfs_download: TFLink_tfs_of_Q9BSM1.tsv
+targets_download: TFLink_targets_of_Q9BSM1.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

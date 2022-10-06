@@ -210,7 +210,7 @@ tfs: 'Spi1,P17433,20375,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%
 
   E2f4,Q8R0K9,104394,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_E9QAG4.tsv
+tfs_download: TFLink_tfs_of_E9QAG4.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

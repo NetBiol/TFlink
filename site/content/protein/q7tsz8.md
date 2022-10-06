@@ -416,8 +416,8 @@ targets: 'Lsp1,P19973,16985,GTRD,chromatin immunoprecipitation assay,27924024%5B
   Tcte2,Q9Z1F3,21646,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   Foxp4,Q9DBY0,74123,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q7TSZ8.tsv
-targets_download: targets_of_Q7TSZ8.tsv
+tfs_download: TFLink_tfs_of_Q7TSZ8.tsv
+targets_download: TFLink_targets_of_Q7TSZ8.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

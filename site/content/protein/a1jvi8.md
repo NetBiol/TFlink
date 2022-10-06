@@ -212,7 +212,7 @@ targets: 'Clic1,Q9Z1Q5,114584,GTRD,chromatin immunoprecipitation assay,27924024%
 
   Knl1,Q66JQ7,-,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 tfs_download: ''
-targets_download: targets_of_A1JVI8.tsv
+targets_download: TFLink_targets_of_A1JVI8.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

@@ -211,7 +211,7 @@ tfs: 'ZSCAN5DP,P0CG00,-,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%
 
   CASZ1,Q86V15,54897,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9BZH6.tsv
+tfs_download: TFLink_tfs_of_Q9BZH6.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

@@ -410,8 +410,8 @@ targets: 'CRELD1,Q96HD1,78987,GTRD,chromatin immunoprecipitation assay,27924024%
   LARS2,Q15031,23395,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   ECH1,Q13011,1891,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q3KQV3.tsv
-targets_download: targets_of_Q3KQV3.tsv
+tfs_download: TFLink_tfs_of_Q3KQV3.tsv
+targets_download: TFLink_targets_of_Q3KQV3.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

@@ -210,7 +210,7 @@ tfs: 'FANCD2,Q9BXW9,2177,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
 
   STAT5A,P42229,6776,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_K7ERE1.tsv
+tfs_download: TFLink_tfs_of_K7ERE1.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

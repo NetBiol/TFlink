@@ -220,8 +220,8 @@ targets: 'Tp53,P02340,22059,TRRUST,inferred by curator,23690029%5Buid%5D+OR+2908
   Fas,P25446,14102,TRRUST,inferred by curator,23690029%5Buid%5D+OR+29087512%5Buid%5D,Yes
 
   Egr1,P08046,13653,TRRUST,inferred by curator,21858056%5Buid%5D+OR+29087512%5Buid%5D,Yes'
-tfs_download: tfs_of_Q9QYE0.tsv
-targets_download: targets_of_Q9QYE0.tsv
+tfs_download: TFLink_tfs_of_Q9QYE0.tsv
+targets_download: TFLink_targets_of_Q9QYE0.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

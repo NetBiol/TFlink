@@ -100,7 +100,7 @@ tfs: 'Top3beta,O96651,31565,GTRD,chromatin immunoprecipitation assay,27924024%5B
 
   Orc2,Q24168,41703,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8IPV3.tsv
+tfs_download: TFLink_tfs_of_Q8IPV3.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

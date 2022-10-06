@@ -408,8 +408,8 @@ targets: 'RPL8,P62917,6132,GTRD,chromatin immunoprecipitation assay,27924024%5Bu
   ALG10B,Q5I7T1,144245,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   SLC39A3,Q9BRY0,29985,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q8NCA9.tsv
-targets_download: targets_of_Q8NCA9.tsv
+tfs_download: TFLink_tfs_of_Q8NCA9.tsv
+targets_download: TFLink_targets_of_Q8NCA9.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

@@ -303,8 +303,8 @@ targets: 'LSM11,P83369,134353,GTRD,chromatin immunoprecipitation assay,27924024%
   UBALD1,Q8TB05,124402,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   ZNF175,Q9Y473,7728,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q9NRR4.tsv
-targets_download: targets_of_Q9NRR4.tsv
+tfs_download: TFLink_tfs_of_Q9NRR4.tsv
+targets_download: TFLink_targets_of_Q9NRR4.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

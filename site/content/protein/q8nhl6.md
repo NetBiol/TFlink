@@ -211,7 +211,7 @@ tfs: 'TRERF1,Q96PN7,55809,TRRUST,inferred by curator,29087512%5Buid%5D+OR+186528
 
   ZNF92,Q03936,168374,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8NHL6.tsv
+tfs_download: TFLink_tfs_of_Q8NHL6.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

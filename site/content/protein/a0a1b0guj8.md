@@ -210,7 +210,7 @@ tfs: 'MTA3,Q9BTC8,57504,ReMap,chromatin immunoprecipitation assay,29126285%5Buid
 
   SMC3,Q9UQE7,9126,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_A0A1B0GUJ8.tsv
+tfs_download: TFLink_tfs_of_A0A1B0GUJ8.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

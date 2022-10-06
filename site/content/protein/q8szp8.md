@@ -14,7 +14,7 @@ tfs: 'Cp190,Q24478,41848,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
 
   su(Hw),P08970,41740,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8SZP8.tsv
+tfs_download: TFLink_tfs_of_Q8SZP8.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

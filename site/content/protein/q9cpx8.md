@@ -210,7 +210,7 @@ tfs: 'Ikzf2,P81183,22779,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
 
   Chd1,P40201,12648,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9CPX8.tsv
+tfs_download: TFLink_tfs_of_Q9CPX8.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

@@ -154,8 +154,8 @@ targets: 'CG8889-RA,D3DMZ6,-,GTRD,chromatin immunoprecipitation assay,27924024%5
   SRPK,A0A0B4KF69,36706,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   GstE13,Q7JVI6,35928,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_A1ZAC2.tsv
-targets_download: targets_of_A1ZAC2.tsv
+tfs_download: TFLink_tfs_of_A1ZAC2.tsv
+targets_download: TFLink_targets_of_A1ZAC2.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

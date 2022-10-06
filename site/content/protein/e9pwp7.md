@@ -106,7 +106,7 @@ tfs: 'Ncoa3,O09000,-,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,
 
   Pax5,Q02650,18507,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_E9PWP7.tsv
+tfs_download: TFLink_tfs_of_E9PWP7.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

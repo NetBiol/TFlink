@@ -211,7 +211,7 @@ tfs: 'Maz,P56671,-,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   Chaf1b,Q9D0N7,110749,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_B8JJC1.tsv
+tfs_download: TFLink_tfs_of_B8JJC1.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

@@ -215,8 +215,8 @@ targets: 'slc31a2,E9QC64,563012,GTRD,chromatin immunoprecipitation assay,2792402
   ube2g2,Q4V9I8,-,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   tsnaxip1,A5WVR3,565917,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q6TEL1.tsv
-targets_download: targets_of_Q6TEL1.tsv
+tfs_download: TFLink_tfs_of_Q6TEL1.tsv
+targets_download: TFLink_targets_of_Q6TEL1.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

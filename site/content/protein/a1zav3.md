@@ -328,8 +328,8 @@ targets: 'CG4615,F6JCM9,-,GTRD,chromatin immunoprecipitation assay,27924024%5Bui
   Dmel\CG9215,Q9VXT1,32494,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   Hrb98DE,P07909,43385,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_A1ZAV3.tsv
-targets_download: targets_of_A1ZAV3.tsv
+tfs_download: TFLink_tfs_of_A1ZAV3.tsv
+targets_download: TFLink_targets_of_A1ZAV3.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

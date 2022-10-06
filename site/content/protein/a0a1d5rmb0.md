@@ -172,7 +172,7 @@ tfs: 'Pou3f1,P21952,18991,GTRD,chromatin immunoprecipitation assay,27924024%5Bui
 
   Tfap2c,Q61312,21420,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_A0A1D5RMB0.tsv
+tfs_download: TFLink_tfs_of_A0A1D5RMB0.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

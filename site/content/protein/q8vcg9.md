@@ -226,8 +226,8 @@ targets: 'H2-Eb1,P18469,-,TRRUST,inferred by curator,29087512%5Buid%5D+OR+112584
   H2-Ea,P14439,100504404,TRRUST,inferred by curator,29087512%5Buid%5D+OR+11258423%5Buid%5D,Yes
 
   H2-Oa,Q9QWV1,15001,TRRUST,inferred by curator,29087512%5Buid%5D+OR+11258423%5Buid%5D,Yes'
-tfs_download: tfs_of_Q8VCG9.tsv
-targets_download: targets_of_Q8VCG9.tsv
+tfs_download: TFLink_tfs_of_Q8VCG9.tsv
+targets_download: TFLink_targets_of_Q8VCG9.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

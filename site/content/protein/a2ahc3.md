@@ -210,7 +210,7 @@ tfs: 'Tbp,P29037,21374,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5
 
   Satb1,Q60611,20230,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_A2AHC3.tsv
+tfs_download: TFLink_tfs_of_A2AHC3.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

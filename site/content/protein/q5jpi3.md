@@ -210,7 +210,7 @@ tfs: 'ZBED1,O96006,9189,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%
 
   XBP1,P17861,7494,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D+OR+27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q5JPI3.tsv
+tfs_download: TFLink_tfs_of_Q5JPI3.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

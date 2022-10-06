@@ -213,7 +213,7 @@ tfs: 'L3MBTL2,Q969R5,83746,GTRD,chromatin immunoprecipitation assay,27924024%5Bu
 
   SCRT1,Q9BWW7,83482,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8NEV4.tsv
+tfs_download: TFLink_tfs_of_Q8NEV4.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

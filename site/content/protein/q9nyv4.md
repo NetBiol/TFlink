@@ -409,8 +409,8 @@ targets: 'PRXL2A,Q9BRX8,84293,GTRD,chromatin immunoprecipitation assay,27924024%
   ATP6V1D,Q9Y5K8,51382,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   CLTC,Q00610,1213,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q9NYV4.tsv
-targets_download: targets_of_Q9NYV4.tsv
+tfs_download: TFLink_tfs_of_Q9NYV4.tsv
+targets_download: TFLink_targets_of_Q9NYV4.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

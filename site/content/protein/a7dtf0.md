@@ -266,8 +266,8 @@ targets: '-,A5HWB2,180262,GTRD,chromatin immunoprecipitation assay,27924024%5Bui
   lact-3,Q21569,174644,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   rsp-7,O01159,174646,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_A7DTF0.tsv
-targets_download: targets_of_A7DTF0.tsv
+tfs_download: TFLink_tfs_of_A7DTF0.tsv
+targets_download: TFLink_targets_of_A7DTF0.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

@@ -213,7 +213,7 @@ tfs: 'TP53,P04637,7157,GTRD;IntAct_via_DoRothEA;ReMap,chromatin immunoprecipitat
 
   KLF4,O43474,9314,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D+OR+27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q7KZI7.tsv
+tfs_download: TFLink_tfs_of_Q7KZI7.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

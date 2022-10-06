@@ -212,7 +212,7 @@ tfs: 'FOXO1,Q12778,2308,GTRD;TFactS_via_DoRothea,chromatin immunoprecipitation a
 
   ARID1A,O14497,8289,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9NQS3.tsv
+tfs_download: TFLink_tfs_of_Q9NQS3.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

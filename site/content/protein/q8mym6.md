@@ -180,7 +180,7 @@ tfs: 'ceh-28,G5EE18,191619,GTRD,chromatin immunoprecipitation assay,27924024%5Bu
 
   ceh-82,O16748,185766,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8MYM6.tsv
+tfs_download: TFLink_tfs_of_Q8MYM6.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

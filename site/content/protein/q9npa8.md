@@ -212,7 +212,7 @@ tfs: 'ZNF189,O75820,7743,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
 
   PRMT1,Q99873,3276,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9NPA8.tsv
+tfs_download: TFLink_tfs_of_Q9NPA8.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

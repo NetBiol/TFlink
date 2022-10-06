@@ -34,7 +34,7 @@ tfs: 'Med12,A2AGH6,59024,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
 
   Rag1,P15919,19373,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_J3QMU9.tsv
+tfs_download: TFLink_tfs_of_J3QMU9.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

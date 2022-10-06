@@ -211,7 +211,7 @@ tfs: 'TEAD1,P28347,7003,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%
 
   ELL2,O00472,22936,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_P0DJJ0.tsv
+tfs_download: TFLink_tfs_of_P0DJJ0.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

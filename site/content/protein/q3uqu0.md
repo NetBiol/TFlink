@@ -408,8 +408,8 @@ targets: 'Plekha7,Q3UIL6,233765,GTRD,chromatin immunoprecipitation assay,2792402
   Slc39a14,Q75N73,213053,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   Ccdc189,Q6NZQ0,233899,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q3UQU0.tsv
-targets_download: targets_of_Q3UQU0.tsv
+tfs_download: TFLink_tfs_of_Q3UQU0.tsv
+targets_download: TFLink_targets_of_Q3UQU0.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

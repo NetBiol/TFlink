@@ -91,7 +91,7 @@ tfs: 'Zfp57,Q8C6P8,22715,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
 
   Stat1,P42225,-,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_A2RTG9.tsv
+tfs_download: TFLink_tfs_of_A2RTG9.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

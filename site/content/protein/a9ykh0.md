@@ -192,7 +192,7 @@ tfs: 'Su(H),P28159,34881,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
 
   unpg,Q4V5A3,35942,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_A9YKH0.tsv
+tfs_download: TFLink_tfs_of_A9YKH0.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

@@ -210,7 +210,7 @@ tfs: 'Esrrb,Q61539,26380,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
 
   Gabpa,Q00422,14390,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q4VBE7.tsv
+tfs_download: TFLink_tfs_of_Q4VBE7.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

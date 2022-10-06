@@ -100,7 +100,7 @@ tfs: 'NELFE,P18615,7936,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%
 
   E2F1,Q01094,1869,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_P0DKX0.tsv
+tfs_download: TFLink_tfs_of_P0DKX0.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

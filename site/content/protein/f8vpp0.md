@@ -408,8 +408,8 @@ targets: 'Tex14,Q7M6U3,83560,GTRD,chromatin immunoprecipitation assay,27924024%5
   Gm10715,J3QP74,-,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   Lamc3,Q9R0B6,23928,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_F8VPP0.tsv
-targets_download: targets_of_F8VPP0.tsv
+tfs_download: TFLink_tfs_of_F8VPP0.tsv
+targets_download: TFLink_targets_of_F8VPP0.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

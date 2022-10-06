@@ -212,7 +212,7 @@ tfs: 'SOX2,P48431,6657,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5
 
   PRDM10,Q9NQV6,56980,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9UIF3.tsv
+tfs_download: TFLink_tfs_of_Q9UIF3.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

@@ -148,7 +148,7 @@ tfs: 'WT1,P19544,7490,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D
 
   ZNF263,O14978,10127,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9NSI5.tsv
+tfs_download: TFLink_tfs_of_Q9NSI5.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

@@ -214,7 +214,7 @@ tfs: 'SPDEF,O95238,25803,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
 
   SUZ12,Q15022,23512,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8NDG6.tsv
+tfs_download: TFLink_tfs_of_Q8NDG6.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

@@ -217,8 +217,8 @@ targets: 'Gata2,O09100,14461,GTRD,chromatin immunoprecipitation assay,27924024%5
   Ctnna3,Q65CL1,216033,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   Ppp6r3,Q922D4,52036,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q9QZW9.tsv
-targets_download: targets_of_Q9QZW9.tsv
+tfs_download: TFLink_tfs_of_Q9QZW9.tsv
+targets_download: TFLink_targets_of_Q9QZW9.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

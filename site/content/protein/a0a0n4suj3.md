@@ -50,7 +50,7 @@ tfs: 'Tead4,Q62296,21679,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
 
   Prdm14,E9Q3T6,383491,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_A0A0N4SUJ3.tsv
+tfs_download: TFLink_tfs_of_A0A0N4SUJ3.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

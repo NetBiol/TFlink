@@ -212,7 +212,7 @@ tfs: 'CEBPB,P17676,1051,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%
 
   ELK1,P19419,2002,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9UPN4.tsv
+tfs_download: TFLink_tfs_of_Q9UPN4.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

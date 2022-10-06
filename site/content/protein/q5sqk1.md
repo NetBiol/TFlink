@@ -98,7 +98,7 @@ tfs: 'Btaf1,E9QAE3,107182,GTRD,chromatin immunoprecipitation assay,27924024%5Bui
 
   Srf,Q9JM73,20807,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q5SQK1.tsv
+tfs_download: TFLink_tfs_of_Q5SQK1.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

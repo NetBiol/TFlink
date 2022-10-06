@@ -94,7 +94,7 @@ tfs: 'STAT5B,P51692,6777,GTRD;ReMap,chromatin immunoprecipitation assay,29126285
 
   PKNOX1,P55347,5316,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_K7ERJ3.tsv
+tfs_download: TFLink_tfs_of_K7ERJ3.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

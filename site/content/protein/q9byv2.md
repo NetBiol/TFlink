@@ -216,7 +216,7 @@ tfs: 'FIP1L1,Q6UN15,81608,GTRD,chromatin immunoprecipitation assay,27924024%5Bui
 
   ZNF467,Q7Z7K2,168544,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9BYV2.tsv
+tfs_download: TFLink_tfs_of_Q9BYV2.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

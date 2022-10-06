@@ -211,7 +211,7 @@ tfs: 'NCAPH2,Q6IBW4,29781,GTRD,chromatin immunoprecipitation assay,27924024%5Bui
 
   FOSL2,P15408,2355,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9UPV7.tsv
+tfs_download: TFLink_tfs_of_Q9UPV7.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

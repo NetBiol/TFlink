@@ -212,7 +212,7 @@ tfs: 'HOMEZ,Q8IX15,57594,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
 
   MITF,O75030,4286,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9ULA0.tsv
+tfs_download: TFLink_tfs_of_Q9ULA0.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

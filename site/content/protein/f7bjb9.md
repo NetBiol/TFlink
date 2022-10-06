@@ -409,8 +409,8 @@ targets: 'Msh6,P54276,17688,GTRD,chromatin immunoprecipitation assay,27924024%5B
   Dyrk2,Q5U4C9,69181,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   Nrg2,D3YZR2,100042150,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_F7BJB9.tsv
-targets_download: targets_of_F7BJB9.tsv
+tfs_download: TFLink_tfs_of_F7BJB9.tsv
+targets_download: TFLink_targets_of_F7BJB9.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

@@ -210,7 +210,7 @@ tfs: 'FOXA1,P55317,3169,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%
 
   SAP30,O75446,8819,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9BUN1.tsv
+tfs_download: TFLink_tfs_of_Q9BUN1.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

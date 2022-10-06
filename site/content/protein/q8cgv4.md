@@ -206,7 +206,7 @@ tfs: 'Jun,P05627,16476,GTRD;TRED,chromatin immunoprecipitation assay;inferred by
 
   Ctcf,Q61164,13018,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8CGV4.tsv
+tfs_download: TFLink_tfs_of_Q8CGV4.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

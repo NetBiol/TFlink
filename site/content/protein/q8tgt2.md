@@ -107,7 +107,7 @@ tfs: 'FKH1,P40466,854675,Yeastract,chromatin immunoprecipitation array,24504085%
 
   GCN5,Q03330,853167,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8TGT2.tsv
+tfs_download: TFLink_tfs_of_Q8TGT2.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

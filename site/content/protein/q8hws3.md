@@ -211,7 +211,7 @@ tfs: 'CTBP2,P56545,1488,ReMap,chromatin immunoprecipitation assay,29126285%5Buid
 
   SOX17,Q9H6I2,64321,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8HWS3.tsv
+tfs_download: TFLink_tfs_of_Q8HWS3.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

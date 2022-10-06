@@ -96,7 +96,7 @@ tfs: 'STAT2,P52630,6773,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%
 
   SUZ12,Q15022,23512,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8WXA8.tsv
+tfs_download: TFLink_tfs_of_Q8WXA8.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

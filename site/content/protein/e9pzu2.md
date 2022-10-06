@@ -16,7 +16,7 @@ tfs: 'Dnmt3b,O88509,13436,GTRD,chromatin immunoprecipitation assay,27924024%5Bui
 
   Pou3f1,P21952,18991,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_E9PZU2.tsv
+tfs_download: TFLink_tfs_of_E9PZU2.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

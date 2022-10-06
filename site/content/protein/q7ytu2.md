@@ -14,7 +14,7 @@ tfs: 'elt-2,Q10655,181250,GTRD,chromatin immunoprecipitation assay,27924024%5Bui
 
   cebp-1,Q18909,180481,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q7YTU2.tsv
+tfs_download: TFLink_tfs_of_Q7YTU2.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

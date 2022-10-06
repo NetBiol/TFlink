@@ -14,7 +14,7 @@ tfs: 'rad21a,Q6TEL1,322275,GTRD,chromatin immunoprecipitation assay,27924024%5Bu
 
   eomesa,Q98TU2,64603,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_A0A2R8QBK8.tsv
+tfs_download: TFLink_tfs_of_A0A2R8QBK8.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

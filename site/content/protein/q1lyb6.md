@@ -12,7 +12,7 @@ orthologs: '[{"species": "Mus musculus", "id": ["<a href=\"/protein/o35143\">O35
 jaspar_matrices: ''
 tfs: hif1ab,Q6EHI4,393202,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 targets: ''
-tfs_download: tfs_of_Q1LYB6.tsv
+tfs_download: TFLink_tfs_of_Q1LYB6.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

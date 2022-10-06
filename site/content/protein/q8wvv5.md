@@ -212,7 +212,7 @@ tfs: 'EGLN2,Q96KS0,112398,ReMap,chromatin immunoprecipitation assay,29126285%5Bu
 
   ZBTB40,Q9NUA8,9923,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8WVV5.tsv
+tfs_download: TFLink_tfs_of_Q8WVV5.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

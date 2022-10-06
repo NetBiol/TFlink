@@ -24,7 +24,7 @@ tfs: 'Srf,Q9JM73,20807,TRRUST,inferred by curator,15550397%5Buid%5D+OR+29087512%
 
   Myocd,Q8VIM5,214384,TRRUST,inferred by curator,15550397%5Buid%5D+OR+29087512%5Buid%5D,Yes'
 targets: ''
-tfs_download: tfs_of_Q6PDN3.tsv
+tfs_download: TFLink_tfs_of_Q6PDN3.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

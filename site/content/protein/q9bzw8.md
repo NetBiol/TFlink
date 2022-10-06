@@ -212,7 +212,7 @@ tfs: 'CEBPB,P17676,1051,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%
 
   ZNF750,Q32MQ0,79755,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9BZW8.tsv
+tfs_download: TFLink_tfs_of_Q9BZW8.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

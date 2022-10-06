@@ -24,7 +24,7 @@ tfs: 'RGR1,P19263,850760,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
 
   GCN5,Q03330,853167,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8TGL0.tsv
+tfs_download: TFLink_tfs_of_Q8TGL0.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

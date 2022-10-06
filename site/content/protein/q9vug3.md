@@ -32,8 +32,8 @@ targets: 'gw,Q8SY33,43808,GTRD,chromatin immunoprecipitation assay,27924024%5Bui
   SpdS,Q9VHA1,41167,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   PlexA,Q9V491,43832,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q9VUG3.tsv
-targets_download: targets_of_Q9VUG3.tsv
+tfs_download: TFLink_tfs_of_Q9VUG3.tsv
+targets_download: TFLink_targets_of_Q9VUG3.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

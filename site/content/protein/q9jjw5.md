@@ -100,7 +100,7 @@ tfs: 'Nfkb1,P25799,18033,TRRUST,inferred by curator,29087512%5Buid%5D+OR+1734130
 
   Batf,O35284,53314,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9JJW5.tsv
+tfs_download: TFLink_tfs_of_Q9JJW5.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

@@ -210,7 +210,7 @@ tfs: 'Sin3b,Q62141,20467,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
 
   Tox,Q66JW3,252838,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_H3BIW7.tsv
+tfs_download: TFLink_tfs_of_H3BIW7.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

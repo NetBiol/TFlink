@@ -278,8 +278,8 @@ targets: 'so,Q27350,35662,GTRD,chromatin immunoprecipitation assay,27924024%5Bui
   Ubi-p5E,Q9W418,326237,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   SoxN,M9PCZ7,44275,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_E1JIH4.tsv
-targets_download: targets_of_E1JIH4.tsv
+tfs_download: TFLink_tfs_of_E1JIH4.tsv
+targets_download: TFLink_targets_of_E1JIH4.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

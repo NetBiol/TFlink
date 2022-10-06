@@ -215,7 +215,7 @@ tfs: 'PYGO2,Q9BRQ0,90780,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
 
   BRCA1,P38398,672,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9BZX2.tsv
+tfs_download: TFLink_tfs_of_Q9BZX2.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

@@ -100,7 +100,7 @@ tfs: 'Srsf2,Q62093,20382,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
 
   Jun,P05627,16476,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_A0A1Y7VLR0.tsv
+tfs_download: TFLink_tfs_of_A0A1Y7VLR0.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

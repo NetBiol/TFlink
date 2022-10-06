@@ -98,7 +98,7 @@ tfs: 'SOX2,P48431,6657,TRRUST,inferred by curator,17136346%5Buid%5D+OR+29087512%
 
   RING1,Q06587,6015,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_P0DJD9.tsv
+tfs_download: TFLink_tfs_of_P0DJD9.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

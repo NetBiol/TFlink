@@ -302,8 +302,8 @@ targets: 'RpS19b,Q7KS38,42830,GTRD,chromatin immunoprecipitation assay,27924024%
   trh,Q24119,38065,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   tkv,Q9VMT1,33753,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_M9NEY8.tsv
-targets_download: targets_of_M9NEY8.tsv
+tfs_download: TFLink_tfs_of_M9NEY8.tsv
+targets_download: TFLink_targets_of_M9NEY8.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

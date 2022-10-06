@@ -410,8 +410,8 @@ targets: 'SELENOO,Q9BVL4,83642,GTRD;ReMap,chromatin immunoprecipitation assay,29
   AUNIP,Q9H7T9,79000,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No
 
   PDP2,Q9P2J9,57546,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q9UHI6.tsv
-targets_download: targets_of_Q9UHI6.tsv
+tfs_download: TFLink_tfs_of_Q9UHI6.tsv
+targets_download: TFLink_targets_of_Q9UHI6.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

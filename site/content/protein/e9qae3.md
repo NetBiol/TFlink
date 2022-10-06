@@ -408,8 +408,8 @@ targets: 'Gabrg3,P27681,14407,GTRD,chromatin immunoprecipitation assay,27924024%
   Me2,Q99KE1,107029,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   Cyp24a1,Q64441,13081,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_E9QAE3.tsv
-targets_download: targets_of_E9QAE3.tsv
+tfs_download: TFLink_tfs_of_E9QAE3.tsv
+targets_download: TFLink_targets_of_E9QAE3.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

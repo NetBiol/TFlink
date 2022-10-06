@@ -212,7 +212,7 @@ tfs: 'KLF1,Q13351,10661,ReMap,chromatin immunoprecipitation assay,29126285%5Buid
 
   CREB3L1,Q96BA8,90993,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8TAM1.tsv
+tfs_download: TFLink_tfs_of_Q8TAM1.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

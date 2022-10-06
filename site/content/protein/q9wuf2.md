@@ -215,8 +215,8 @@ tfs: 'Dmrtb1,A2A9I7,56296,GTRD,chromatin immunoprecipitation assay,27924024%5Bui
 targets: 'Nfkb1,P25799,18033,TRRUST,inferred by curator,16014385%5Buid%5D+OR+29087512%5Buid%5D,Yes
 
   Slc12a5,Q91V14,57138,TRRUST,inferred by curator,17192429%5Buid%5D+OR+21837281%5Buid%5D+OR+29087512%5Buid%5D,Yes'
-tfs_download: tfs_of_Q9WUF2.tsv
-targets_download: targets_of_Q9WUF2.tsv
+tfs_download: TFLink_tfs_of_Q9WUF2.tsv
+targets_download: TFLink_targets_of_Q9WUF2.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

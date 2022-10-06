@@ -221,8 +221,8 @@ targets: 'GREB1,Q4ZG55,9687,TRRUST,inferred by curator,21984905%5Buid%5D+OR+2908
   TFF1,P04155,7031,TRRUST,inferred by curator,21984905%5Buid%5D+OR+29087512%5Buid%5D,Yes
 
   NFKB2,Q00653,4791,TRRUST,inferred by curator,21984905%5Buid%5D+OR+29087512%5Buid%5D,Yes'
-tfs_download: tfs_of_Q9NWT8.tsv
-targets_download: targets_of_Q9NWT8.tsv
+tfs_download: TFLink_tfs_of_Q9NWT8.tsv
+targets_download: TFLink_targets_of_Q9NWT8.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

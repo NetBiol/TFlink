@@ -210,7 +210,7 @@ tfs: 'Chaf1b,Q9D0N7,110749,GTRD,chromatin immunoprecipitation assay,27924024%5Bu
 
   Smyd3,Q9CWR2,69726,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9QYI4.tsv
+tfs_download: TFLink_tfs_of_Q9QYI4.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

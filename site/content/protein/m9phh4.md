@@ -22,7 +22,7 @@ tfs: 'TfIIA-L,P52654,43284,GTRD,chromatin immunoprecipitation assay,27924024%5Bu
 
   Top3beta,O96651,31565,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_M9PHH4.tsv
+tfs_download: TFLink_tfs_of_M9PHH4.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

@@ -210,7 +210,7 @@ tfs: 'Nkx2-8,O70584,18094,TRRUST,inferred by curator,23604637%5Buid%5D+OR+290875
 
   Lhx6,Q9R1R0,16874,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9JJR5.tsv
+tfs_download: TFLink_tfs_of_Q9JJR5.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

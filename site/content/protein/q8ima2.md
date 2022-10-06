@@ -24,8 +24,8 @@ tfs: 'Su(var)205,P05205,34119,GTRD,chromatin immunoprecipitation assay,27924024%
 targets: 'gw,Q8SY33,43808,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   Sox102F,Q59DN5,43844,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q8IMA2.tsv
-targets_download: targets_of_Q8IMA2.tsv
+tfs_download: TFLink_tfs_of_Q8IMA2.tsv
+targets_download: TFLink_targets_of_Q8IMA2.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

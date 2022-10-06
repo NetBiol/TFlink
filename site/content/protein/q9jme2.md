@@ -212,7 +212,7 @@ tfs: 'Bmp4,P21275,12159,TRRUST,inferred by curator,25511584%5Buid%5D+OR+29087512
 
   Nfatc2,Q60591,18019,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9JME2.tsv
+tfs_download: TFLink_tfs_of_Q9JME2.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

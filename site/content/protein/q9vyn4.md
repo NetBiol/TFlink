@@ -18,7 +18,7 @@ tfs: 'BigH1,Q8MSC4,41780,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
 
   Hr39,Q05192,35398,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9VYN4.tsv
+tfs_download: TFLink_tfs_of_Q9VYN4.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

@@ -46,7 +46,7 @@ tfs: 'Hoxa13,Q62424,15398,GTRD,chromatin immunoprecipitation assay,27924024%5Bui
 
   Myc,P01108,17869,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_B2RVE2.tsv
+tfs_download: TFLink_tfs_of_B2RVE2.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

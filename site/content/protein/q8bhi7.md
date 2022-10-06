@@ -211,7 +211,7 @@ tfs: 'Srebf1,Q9WTN3,20787,GTRD;TRRUST,chromatin immunoprecipitation assay;inferr
 
   Satb1,Q60611,20230,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8BHI7.tsv
+tfs_download: TFLink_tfs_of_Q8BHI7.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

@@ -210,7 +210,7 @@ tfs: 'nhr-90,O17025,178577,GTRD,chromatin immunoprecipitation assay,27924024%5Bu
 
   tbx-7,Q95PX3,-,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9GUP2.tsv
+tfs_download: TFLink_tfs_of_Q9GUP2.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

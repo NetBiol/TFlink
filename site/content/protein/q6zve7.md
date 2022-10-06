@@ -211,7 +211,7 @@ tfs: 'STAG2,Q8N3U4,10735,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
 
   BRCA1,P38398,672,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D+OR+27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q6ZVE7.tsv
+tfs_download: TFLink_tfs_of_Q6ZVE7.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

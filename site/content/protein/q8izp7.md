@@ -214,7 +214,7 @@ tfs: 'TAF3,Q5VWG9,83860,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%
 
   SCRT1,Q9BWW7,83482,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8IZP7.tsv
+tfs_download: TFLink_tfs_of_Q8IZP7.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

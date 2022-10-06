@@ -210,7 +210,7 @@ tfs: 'Kdm6a,O70546,22289,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
 
   Mycn,P03966,18109,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_F8VPK0.tsv
+tfs_download: TFLink_tfs_of_F8VPK0.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

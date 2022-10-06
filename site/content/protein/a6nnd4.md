@@ -212,7 +212,7 @@ tfs: 'NFRKB,Q6P4R8,4798,ReMap,chromatin immunoprecipitation assay,29126285%5Buid
 
   NBN,O60934,4683,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_A6NND4.tsv
+tfs_download: TFLink_tfs_of_A6NND4.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

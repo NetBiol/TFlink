@@ -210,7 +210,7 @@ tfs: 'BATF,Q16520,10538,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%
 
   ATF1,P18846,466,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q6UWM5.tsv
+tfs_download: TFLink_tfs_of_Q6UWM5.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

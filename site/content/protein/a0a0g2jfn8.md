@@ -56,7 +56,7 @@ tfs: 'Hsf1,P38532,15499,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%
 
   Pou5f1,P20263,18999,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_A0A0G2JFN8.tsv
+tfs_download: TFLink_tfs_of_A0A0G2JFN8.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

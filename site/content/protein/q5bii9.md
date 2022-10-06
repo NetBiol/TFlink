@@ -20,7 +20,7 @@ tfs: 'CG15703,A1ZAC8,36811,GTRD,chromatin immunoprecipitation assay,27924024%5Bu
 
   Dref,Q94883,34328,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q5BII9.tsv
+tfs_download: TFLink_tfs_of_Q5BII9.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

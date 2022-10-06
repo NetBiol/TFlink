@@ -187,7 +187,7 @@ tfs: 'Aurkb,O70126,20877,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
   Nr5a2,P45448,26424,GTRD;ORegAnno;PAZAR,chromatin immunoprecipitation assay;inferred
   by curator,18971253%5Buid%5D+OR+27924024%5Buid%5D+OR+26578589%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_F6VYM1.tsv
+tfs_download: TFLink_tfs_of_F6VYM1.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

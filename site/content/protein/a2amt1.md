@@ -210,7 +210,7 @@ tfs: 'Sp1,O89090,20683,TRRUST,inferred by curator,9651486%5Buid%5D+OR+29087512%5
 
   Hey1,Q9WV93,-,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_A2AMT1.tsv
+tfs_download: TFLink_tfs_of_A2AMT1.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

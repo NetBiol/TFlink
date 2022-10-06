@@ -211,7 +211,7 @@ tfs: 'Stat2,Q9WVL2,-,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,
 
   Smc1a,Q9CU62,24061,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9CWK8.tsv
+tfs_download: TFLink_tfs_of_Q9CWK8.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

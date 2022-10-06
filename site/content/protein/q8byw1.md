@@ -211,7 +211,7 @@ tfs: 'Nanog,Q80Z64,71950,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
 
   Stat5b,P42232,20851,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8BYW1.tsv
+tfs_download: TFLink_tfs_of_Q8BYW1.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

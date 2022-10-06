@@ -12,7 +12,7 @@ orthologs: ''
 jaspar_matrices: ''
 tfs: MCM6,P53091,852673,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 targets: ''
-tfs_download: tfs_of_Q8TGM7.tsv
+tfs_download: TFLink_tfs_of_Q8TGM7.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

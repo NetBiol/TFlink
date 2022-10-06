@@ -94,7 +94,7 @@ tfs: 'Smad2,Q62432,17126,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
 
   Tfcp2l1,Q3UNW5,81879,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9QYI7.tsv
+tfs_download: TFLink_tfs_of_Q9QYI7.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

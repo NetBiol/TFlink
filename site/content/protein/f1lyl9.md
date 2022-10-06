@@ -221,8 +221,8 @@ targets: 'Ddit4l,Q8VD50,100363484;140582,GTRD,chromatin immunoprecipitation assa
   Colgalt2,D3Z9Z7,-,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   -,A0A0G2K3Y7,-,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_F1LYL9.tsv
-targets_download: targets_of_F1LYL9.tsv
+tfs_download: TFLink_tfs_of_F1LYL9.tsv
+targets_download: TFLink_targets_of_F1LYL9.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

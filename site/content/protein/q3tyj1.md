@@ -186,7 +186,7 @@ tfs: 'Ar,P19091,11835,TRED,inferred by curator,17202159%5Buid%5D,Yes
 
   Setd1a,E9PYH6,233904,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q3TYJ1.tsv
+tfs_download: TFLink_tfs_of_Q3TYJ1.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

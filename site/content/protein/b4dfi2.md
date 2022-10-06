@@ -156,7 +156,7 @@ tfs: 'AR,P10275,367,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,
 
   KDM4A,O75164,9682,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_B4DFI2.tsv
+tfs_download: TFLink_tfs_of_B4DFI2.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

@@ -211,7 +211,7 @@ tfs: 'Max,P28574,17187,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5
 
   Tcf12,Q61286,21406,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_E9QLA5.tsv
+tfs_download: TFLink_tfs_of_E9QLA5.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

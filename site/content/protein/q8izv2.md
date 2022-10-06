@@ -211,7 +211,7 @@ tfs: 'HNRNPK,P61978,3190,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
 
   AFF4,Q9UHB7,27125,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D+OR+27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8IZV2.tsv
+tfs_download: TFLink_tfs_of_Q8IZV2.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

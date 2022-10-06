@@ -211,7 +211,7 @@ tfs: 'Mfsd11,Q8BJ51,69900,GTRD,chromatin immunoprecipitation assay,27924024%5Bui
 
   Kdm1a,Q6ZQ88,99982,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_E9PUP1.tsv
+tfs_download: TFLink_tfs_of_E9PUP1.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

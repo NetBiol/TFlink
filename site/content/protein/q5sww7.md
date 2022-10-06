@@ -214,7 +214,7 @@ tfs: 'NR2F1,P10589,7025,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%
 
   NANOG,Q9H9S0,79923,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q5SWW7.tsv
+tfs_download: TFLink_tfs_of_Q5SWW7.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

@@ -210,7 +210,7 @@ tfs: 'SPI1,P17947,6688,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%
 
   VDR,P11473,7421,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_E9PHB8.tsv
+tfs_download: TFLink_tfs_of_E9PHB8.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

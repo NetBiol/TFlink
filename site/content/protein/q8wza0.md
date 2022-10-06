@@ -213,7 +213,7 @@ tfs: 'SUPT20H,Q8NEM7,55578,GTRD,chromatin immunoprecipitation assay,27924024%5Bu
 
   TCF4,P15884,6925,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8WZA0.tsv
+tfs_download: TFLink_tfs_of_Q8WZA0.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

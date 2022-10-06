@@ -50,8 +50,8 @@ tfs: 'snu-23,P34670,176090,GTRD,chromatin immunoprecipitation assay,27924024%5Bu
 targets: 'pck-2,O02286,-,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   -,G5ECU5,174805;174806,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_H2KYD3.tsv
-targets_download: targets_of_H2KYD3.tsv
+tfs_download: TFLink_tfs_of_H2KYD3.tsv
+targets_download: TFLink_targets_of_H2KYD3.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

@@ -211,7 +211,7 @@ tfs: 'Myog,P12979,17928,TRRUST,inferred by curator,29087512%5Buid%5D+OR+22638570
 
   Nr1h4,Q60641,20186,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_A2AQP0.tsv
+tfs_download: TFLink_tfs_of_A2AQP0.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

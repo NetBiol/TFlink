@@ -43,7 +43,7 @@ tfs: 'IXR1,P33417,853836,Yeastract,array technology/partial DNA sequence identif
 
   ELP4,Q02884,856002,Yeastract,chromatin immunoprecipitation assay,24170807%5Buid%5D+OR+30073202%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8TGS5.tsv
+tfs_download: TFLink_tfs_of_Q8TGS5.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

@@ -14,7 +14,7 @@ tfs: 'MYCN,P04198,4613,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5
 
   AR,P10275,367,HTRI,chromatin immunoprecipitation array,22900683%5Buid%5D+OR+20610535%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8NFV5.tsv
+tfs_download: TFLink_tfs_of_Q8NFV5.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

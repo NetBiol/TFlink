@@ -214,7 +214,7 @@ tfs: 'TFE3,P19532,7030,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5
 
   EP400,Q96L91,57634,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9ULH1.tsv
+tfs_download: TFLink_tfs_of_Q9ULH1.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

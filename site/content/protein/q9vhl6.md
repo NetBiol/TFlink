@@ -174,8 +174,8 @@ targets: 'Hsp27,P02518,39078,GTRD,chromatin immunoprecipitation assay,27924024%5
   CHMP2B,Q9VRJ5,38599,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   CG6911,Q9W4F9,31420,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q9VHL6.tsv
-targets_download: targets_of_Q9VHL6.tsv
+tfs_download: TFLink_tfs_of_Q9VHL6.tsv
+targets_download: TFLink_targets_of_Q9VHL6.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

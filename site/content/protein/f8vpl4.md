@@ -34,7 +34,7 @@ tfs: 'Dmc1,Q61880,13404,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%
 
   Smc1a,Q9CU62,24061,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_F8VPL4.tsv
+tfs_download: TFLink_tfs_of_F8VPL4.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

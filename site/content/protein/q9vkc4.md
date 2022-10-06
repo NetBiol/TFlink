@@ -144,8 +144,8 @@ targets: 'Tusp,A0A0B4KI44,43317,GTRD,chromatin immunoprecipitation assay,2792402
   RpL17,Q9W3W8,31613,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   Lk6,Q9VGI4,44672,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q9VKC4.tsv
-targets_download: targets_of_Q9VKC4.tsv
+tfs_download: TFLink_tfs_of_Q9VKC4.tsv
+targets_download: TFLink_targets_of_Q9VKC4.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

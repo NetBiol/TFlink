@@ -214,7 +214,7 @@ tfs: 'Ezh2,Q61188,14056,GTRD;ORegAnno;PAZAR,chromatin immunoprecipitation assay;
 
   Nr3c1,P06537,-,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q3UTT8.tsv
+tfs_download: TFLink_tfs_of_Q3UTT8.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

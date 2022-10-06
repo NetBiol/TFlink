@@ -417,8 +417,8 @@ targets: 'CYP7A1,P22680,1581,TRRUST,inferred by curator,16891307%5Buid%5D+OR+290
   HSPA1B,P0DMV9,3303;3304,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D+OR+27924024%5Buid%5D,No
 
   TCP1,P17987,6950,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D+OR+27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q9UBK2.tsv
-targets_download: targets_of_Q9UBK2.tsv
+tfs_download: TFLink_tfs_of_Q9UBK2.tsv
+targets_download: TFLink_targets_of_Q9UBK2.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

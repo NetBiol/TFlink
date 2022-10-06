@@ -20,8 +20,8 @@ targets: 'sre-23,Q94403,172608,GTRD,chromatin immunoprecipitation assay,27924024
   pck-2,O02286,-,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   twk-5,Q5FC72,174756,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_G5EEH5.tsv
-targets_download: targets_of_G5EEH5.tsv
+tfs_download: TFLink_tfs_of_G5EEH5.tsv
+targets_download: TFLink_targets_of_G5EEH5.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

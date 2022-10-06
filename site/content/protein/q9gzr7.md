@@ -212,7 +212,7 @@ tfs: 'SMAD3,P84022,4088,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%
 
   HOXC5,Q00444,3222,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9GZR7.tsv
+tfs_download: TFLink_tfs_of_Q9GZR7.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

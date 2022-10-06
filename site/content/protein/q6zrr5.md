@@ -212,7 +212,7 @@ tfs: 'E2F6,O75461,1876,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5
 
   POU5F1,Q01860,5460,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D+OR+27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q6ZRR5.tsv
+tfs_download: TFLink_tfs_of_Q6ZRR5.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

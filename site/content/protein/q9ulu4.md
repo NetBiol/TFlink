@@ -413,8 +413,8 @@ targets: 'CDK5RAP2,Q96SN8,55755,GTRD,chromatin immunoprecipitation assay,2792402
   FRS3,O43559,10817,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   MUTYH,Q9UIF7,4595,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q9ULU4.tsv
-targets_download: targets_of_Q9ULU4.tsv
+tfs_download: TFLink_tfs_of_Q9ULU4.tsv
+targets_download: TFLink_targets_of_Q9ULU4.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

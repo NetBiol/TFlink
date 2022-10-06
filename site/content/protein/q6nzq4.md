@@ -210,7 +210,7 @@ tfs: 'Nupr1,Q9WTK0,56312,TRRUST,inferred by curator,29087512%5Buid%5D+OR+1194059
 
   Pex2,P55098,19302,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q6NZQ4.tsv
+tfs_download: TFLink_tfs_of_Q6NZQ4.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

@@ -410,8 +410,8 @@ targets: 'BET1,O15155,10282,ReMap,chromatin immunoprecipitation assay,29126285%5
   KIF20B,Q96Q89,9585,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No
 
   RPAP1,Q9BWH6,26015,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No'
-tfs_download: tfs_of_Q9HAW0.tsv
-targets_download: targets_of_Q9HAW0.tsv
+tfs_download: TFLink_tfs_of_Q9HAW0.tsv
+targets_download: TFLink_targets_of_Q9HAW0.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

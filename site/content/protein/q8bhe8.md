@@ -210,7 +210,7 @@ tfs: 'Ccny,Q8BGU5,67974,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%
 
   Tbxt,P20293,20997,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8BHE8.tsv
+tfs_download: TFLink_tfs_of_Q8BHE8.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

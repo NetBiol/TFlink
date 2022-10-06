@@ -86,7 +86,7 @@ tfs: 'Foxa2,P35583,15376,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
 
   Stat3,P42227,20848,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q2MKA5.tsv
+tfs_download: TFLink_tfs_of_Q2MKA5.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

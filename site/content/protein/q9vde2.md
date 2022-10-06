@@ -72,7 +72,7 @@ tfs: 'cnc,P20482,42743,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5
 
   Sgf11,Q9VVR6,40035,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9VDE2.tsv
+tfs_download: TFLink_tfs_of_Q9VDE2.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

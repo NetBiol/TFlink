@@ -210,7 +210,7 @@ tfs: 'Sirt6,P59941,50721,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
 
   Zic1,P46684,22771,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_D3YWW5.tsv
+tfs_download: TFLink_tfs_of_D3YWW5.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

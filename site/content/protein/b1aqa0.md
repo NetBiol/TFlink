@@ -66,7 +66,7 @@ tfs: 'Cebpb,P28033,12608,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
 
   Ascl1,Q02067,17172,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_B1AQA0.tsv
+tfs_download: TFLink_tfs_of_B1AQA0.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

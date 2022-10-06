@@ -173,7 +173,7 @@ tfs: 'FOS,P01100,2353,GTRD;ORegAnno;PAZAR;ReMap;TRED;TRRUST,chromatin immunoprec
 
   ZBTB16,Q05516,7704,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9UBC9.tsv
+tfs_download: TFLink_tfs_of_Q9UBC9.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

@@ -212,8 +212,8 @@ targets: 'arfgef2,E7FCG1,100334572,GTRD,chromatin immunoprecipitation assay,2792
   tlx2,A0A2R8QHC0,170781,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   bcl10,E7F8A6,100334750,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_A5JNG8.tsv
-targets_download: targets_of_A5JNG8.tsv
+tfs_download: TFLink_tfs_of_A5JNG8.tsv
+targets_download: TFLink_targets_of_A5JNG8.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

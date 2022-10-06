@@ -210,7 +210,7 @@ tfs: 'Rcor1,Q8CFE3,217864,GTRD,chromatin immunoprecipitation assay,27924024%5Bui
 
   Irf7,P70434,54123,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_B1ARD6.tsv
+tfs_download: TFLink_tfs_of_B1ARD6.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

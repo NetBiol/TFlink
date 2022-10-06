@@ -210,7 +210,7 @@ tfs: 'SND1,Q7KZF4,27044,ReMap,chromatin immunoprecipitation assay,29126285%5Buid
 
   VEZF1,Q14119,7716,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_H7BZW1.tsv
+tfs_download: TFLink_tfs_of_H7BZW1.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

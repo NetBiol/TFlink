@@ -213,7 +213,7 @@ tfs: 'FOS,P01100,2353,GTRD;ORegAnno;PAZAR,chromatin immunoprecipitation assay;in
 
   HOXC5,Q00444,3222,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9UIF8.tsv
+tfs_download: TFLink_tfs_of_Q9UIF8.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

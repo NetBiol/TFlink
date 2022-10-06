@@ -68,8 +68,8 @@ targets: 'GTPBP4,Q9BZE4,23560,GTRD,chromatin immunoprecipitation assay,27924024%
   SLFN11,Q7Z7L1,91607,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   SSR2,P43308,6746,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q6PJQ5.tsv
-targets_download: targets_of_Q6PJQ5.tsv
+tfs_download: TFLink_tfs_of_Q6PJQ5.tsv
+targets_download: TFLink_targets_of_Q6PJQ5.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

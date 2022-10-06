@@ -180,7 +180,7 @@ tfs: 'DUX4,Q9UBX2,100288687,GTRD,chromatin immunoprecipitation assay,27924024%5B
   EGR1,P18146,1958,GTRD;ORegAnno;PAZAR,chromatin immunoprecipitation assay;inferred
   by curator,18971253%5Buid%5D+OR+27924024%5Buid%5D+OR+26578589%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q5VTL7.tsv
+tfs_download: TFLink_tfs_of_Q5VTL7.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

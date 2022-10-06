@@ -215,7 +215,7 @@ tfs: 'DTL,Q9NZJ0,51514,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5
 
   ZNF146,Q15072,7705,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_A6NFE2.tsv
+tfs_download: TFLink_tfs_of_A6NFE2.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

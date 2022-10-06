@@ -212,8 +212,8 @@ targets: '-,Q9BL33,175397,GTRD,chromatin immunoprecipitation assay,27924024%5Bui
   -,Q6A598,178966,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   ubl-1,P37165,175413,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q9XVV3.tsv
-targets_download: targets_of_Q9XVV3.tsv
+tfs_download: TFLink_tfs_of_Q9XVV3.tsv
+targets_download: TFLink_targets_of_Q9XVV3.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

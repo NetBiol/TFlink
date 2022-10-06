@@ -90,7 +90,7 @@ tfs: 'Nbn,Q9R207,27354,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5
 
   Tbp,P29037,21374,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_A0A0G2JEY2.tsv
+tfs_download: TFLink_tfs_of_A0A0G2JEY2.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

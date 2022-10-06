@@ -148,7 +148,7 @@ tfs: 'trr,Q8IRW8,31149,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5
 
   fkh,P14734,43383,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_A9YJN2.tsv
+tfs_download: TFLink_tfs_of_A9YJN2.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

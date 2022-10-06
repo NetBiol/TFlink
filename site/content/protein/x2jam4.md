@@ -150,7 +150,7 @@ tfs: 'Tet,M9NEY8,38347,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5
 
   fkh,P14734,43383,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_X2JAM4.tsv
+tfs_download: TFLink_tfs_of_X2JAM4.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

@@ -210,7 +210,7 @@ tfs: 'VDR,P11473,7421,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D
 
   E2F8,A0AVK6,79733,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9UHD2.tsv
+tfs_download: TFLink_tfs_of_Q9UHD2.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

@@ -38,7 +38,7 @@ tfs: 'Irf8,P23611,15900,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%
 
   Rad51,Q08297,19361,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q7TRM4.tsv
+tfs_download: TFLink_tfs_of_Q7TRM4.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

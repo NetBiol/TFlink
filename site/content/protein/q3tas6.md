@@ -210,7 +210,7 @@ tfs: 'Cdk8,Q8R3L8,264064,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
 
   Rest,Q8VIG1,19712,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q3TAS6.tsv
+tfs_download: TFLink_tfs_of_Q3TAS6.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

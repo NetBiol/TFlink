@@ -215,7 +215,7 @@ tfs: 'CXXC4,Q9H2H0,-,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Bu
 
   PML,P29590,5371,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q5TCS8.tsv
+tfs_download: TFLink_tfs_of_Q5TCS8.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

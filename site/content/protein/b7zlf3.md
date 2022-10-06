@@ -210,7 +210,7 @@ tfs: 'MAZ,P56270,4150,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5
 
   GATA4,P43694,2626,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_B7ZLF3.tsv
+tfs_download: TFLink_tfs_of_B7ZLF3.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

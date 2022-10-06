@@ -74,7 +74,7 @@ tfs: 'Ascl1,Q02067,17172,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
 
   Rorc,P51450,19885,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8VFA6.tsv
+tfs_download: TFLink_tfs_of_Q8VFA6.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

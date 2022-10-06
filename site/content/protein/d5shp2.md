@@ -24,7 +24,7 @@ tfs: 'gt,P39572,31227,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D
 
   Top3beta,O96651,31565,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_D5SHP2.tsv
+tfs_download: TFLink_tfs_of_D5SHP2.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

@@ -186,7 +186,7 @@ tfs: 'Hand,Q9VL05,34379,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%
 
   Dmel\CG1792,Q9V9V8,43727,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q7JZM8.tsv
+tfs_download: TFLink_tfs_of_Q7JZM8.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

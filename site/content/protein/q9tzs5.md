@@ -188,7 +188,7 @@ tfs: 'lin-35,G5EDT1,172249,GTRD,chromatin immunoprecipitation assay,27924024%5Bu
 
   rbr-2,Q23541,177985,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9TZS5.tsv
+tfs_download: TFLink_tfs_of_Q9TZS5.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

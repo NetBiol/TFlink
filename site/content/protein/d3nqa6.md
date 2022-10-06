@@ -38,7 +38,7 @@ tfs: 'tra-1,P34708,-,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,
 
   nhr-28,Q17905,181705,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_D3NQA6.tsv
+tfs_download: TFLink_tfs_of_D3NQA6.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

@@ -213,8 +213,8 @@ tfs: 'MTA3,Q9BTC8,57504,ReMap,chromatin immunoprecipitation assay,29126285%5Buid
 targets: 'STAT6,P42226,6778,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   CASC3,O15234,22794,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q8WTR7.tsv
-targets_download: targets_of_Q8WTR7.tsv
+tfs_download: TFLink_tfs_of_Q8WTR7.tsv
+targets_download: TFLink_targets_of_Q8WTR7.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

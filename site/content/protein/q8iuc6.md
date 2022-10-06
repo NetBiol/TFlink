@@ -215,7 +215,7 @@ tfs: 'TRAF6,Q9Y4K3,7189,TRRUST,inferred by curator,29087512%5Buid%5D+OR+14530355
 
   CDK6,Q00534,1021,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8IUC6.tsv
+tfs_download: TFLink_tfs_of_Q8IUC6.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

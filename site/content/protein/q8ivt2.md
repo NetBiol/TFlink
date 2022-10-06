@@ -212,7 +212,7 @@ tfs: 'RUNX1,Q01196,861,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5
 
   FLI1,Q01543,2313,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8IVT2.tsv
+tfs_download: TFLink_tfs_of_Q8IVT2.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

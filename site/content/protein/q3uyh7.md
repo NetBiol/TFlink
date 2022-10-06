@@ -211,7 +211,7 @@ tfs: 'Ctcfl,A2APF3,664799,GTRD,chromatin immunoprecipitation assay,27924024%5Bui
 
   Dppa4,Q8CCG4,73693,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q3UYH7.tsv
+tfs_download: TFLink_tfs_of_Q3UYH7.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

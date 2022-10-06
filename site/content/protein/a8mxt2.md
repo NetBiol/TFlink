@@ -48,7 +48,7 @@ tfs: 'TRIM28,Q13263,10155,ORegAnno;PAZAR,inferred by curator,18971253%5Buid%5D+O
 
   PPARG,P37231,5468,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_A8MXT2.tsv
+tfs_download: TFLink_tfs_of_A8MXT2.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

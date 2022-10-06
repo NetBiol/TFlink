@@ -198,7 +198,7 @@ tfs: 'Ncaph2,Q8BSP2,52683,GTRD,chromatin immunoprecipitation assay,27924024%5Bui
 
   Rbfox2,Q8BP71,93686,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9JHA8.tsv
+tfs_download: TFLink_tfs_of_Q9JHA8.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

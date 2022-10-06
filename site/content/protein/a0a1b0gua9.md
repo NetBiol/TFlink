@@ -210,7 +210,7 @@ tfs: 'ETV4,P43268,2118,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5
 
   SMAD2,Q15796,4087,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_A0A1B0GUA9.tsv
+tfs_download: TFLink_tfs_of_A0A1B0GUA9.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

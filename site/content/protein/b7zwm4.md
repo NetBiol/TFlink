@@ -14,7 +14,7 @@ tfs: 'Rela,Q04207,19697,TRRUST,inferred by curator,29087512%5Buid%5D+OR+23296709
 
   Stat1,P42225,-,TRRUST,inferred by curator,29087512%5Buid%5D+OR+23296709%5Buid%5D,Yes'
 targets: ''
-tfs_download: tfs_of_B7ZWM4.tsv
+tfs_download: TFLink_tfs_of_B7ZWM4.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

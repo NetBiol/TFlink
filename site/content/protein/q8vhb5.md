@@ -211,7 +211,7 @@ tfs: 'Hif1a,Q61221,15251,TRED,inferred by curator,17202159%5Buid%5D,Yes
 
   Cbfb,Q08024,12400,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8VHB5.tsv
+tfs_download: TFLink_tfs_of_Q8VHB5.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

@@ -80,7 +80,7 @@ tfs: 'Rad51,Q08297,19361,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
 
   Rela,Q04207,19697,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q6NSQ5.tsv
+tfs_download: TFLink_tfs_of_Q6NSQ5.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

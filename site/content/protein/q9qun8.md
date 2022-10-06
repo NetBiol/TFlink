@@ -18,7 +18,7 @@ tfs: 'Brip1,Q5SXJ3,237911,TRRUST,inferred by curator,14660636%5Buid%5D+OR+158093
 
   Klf1,P46099,-,TRRUST,inferred by curator,29087512%5Buid%5D+OR+18710946%5Buid%5D,Yes'
 targets: ''
-tfs_download: tfs_of_Q9QUN8.tsv
+tfs_download: TFLink_tfs_of_Q9QUN8.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

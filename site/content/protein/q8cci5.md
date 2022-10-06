@@ -411,8 +411,8 @@ targets: 'Zdhhc5,Q8VDZ4,228136,GTRD,chromatin immunoprecipitation assay,27924024
   immunoprecipitation assay,27924024%5Buid%5D,No
 
   Galt,A2AMS3,14430,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q8CCI5.tsv
-targets_download: targets_of_Q8CCI5.tsv
+tfs_download: TFLink_tfs_of_Q8CCI5.tsv
+targets_download: TFLink_targets_of_Q8CCI5.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

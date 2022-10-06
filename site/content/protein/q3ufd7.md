@@ -100,7 +100,7 @@ tfs: 'Mta1,Q8K4B0,-,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,N
 
   Tbx5,P70326,21388,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q3UFD7.tsv
+tfs_download: TFLink_tfs_of_Q3UFD7.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

@@ -68,7 +68,7 @@ tfs: 'Pax3,P24610,18505,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%
 
   Hoxa9,P09631,15405,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_B9UIU9.tsv
+tfs_download: TFLink_tfs_of_B9UIU9.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

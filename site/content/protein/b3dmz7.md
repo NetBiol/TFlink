@@ -98,7 +98,7 @@ tfs: 'msl-1,P50535,35121,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
 
   msl-2,P50534,33565,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_B3DMZ7.tsv
+tfs_download: TFLink_tfs_of_B3DMZ7.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

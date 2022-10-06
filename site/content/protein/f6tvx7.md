@@ -78,7 +78,7 @@ tfs: 'Gata2,O09100,14461,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
 
   Nr3c1,P06537,-,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_F6TVX7.tsv
+tfs_download: TFLink_tfs_of_F6TVX7.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

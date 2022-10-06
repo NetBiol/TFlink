@@ -221,8 +221,8 @@ targets: 'Tcf19,Q99KJ5,106795,TRRUST,inferred by curator,23900510%5Buid%5D+OR+29
   Gcg,P55095,14526,TRRUST,inferred by curator,29087512%5Buid%5D+OR+11940591%5Buid%5D,Yes
 
   Ep300,B2RWS6,328572,TRRUST,inferred by curator,29087512%5Buid%5D+OR+11940591%5Buid%5D,Yes'
-tfs_download: tfs_of_Q9WTK0.tsv
-targets_download: targets_of_Q9WTK0.tsv
+tfs_download: TFLink_tfs_of_Q9WTK0.tsv
+targets_download: TFLink_targets_of_Q9WTK0.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

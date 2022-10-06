@@ -212,7 +212,7 @@ tfs: 'Chd8,Q09XV5,67772,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%
 
   Nsd3,Q6P2L6,234135,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8BHJ5.tsv
+tfs_download: TFLink_tfs_of_Q8BHJ5.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

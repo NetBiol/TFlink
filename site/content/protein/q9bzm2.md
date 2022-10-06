@@ -188,7 +188,7 @@ tfs: 'MAZ,P56270,4150,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5
 
   SIN3A,Q96ST3,25942,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9BZM2.tsv
+tfs_download: TFLink_tfs_of_Q9BZM2.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

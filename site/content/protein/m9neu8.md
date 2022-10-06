@@ -182,8 +182,8 @@ targets: 'Dmel\CG7956,Q0KI33,42545,GTRD,chromatin immunoprecipitation assay,2792
   Dmel\CG9674,M9PCU8,39878,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   -,Q8IGL3,-,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_M9NEU8.tsv
-targets_download: targets_of_M9NEU8.tsv
+tfs_download: TFLink_tfs_of_M9NEU8.tsv
+targets_download: TFLink_targets_of_M9NEU8.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

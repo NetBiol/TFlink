@@ -211,7 +211,7 @@ tfs: 'SMARCA4,P51532,6597,GTRD;ReMap,chromatin immunoprecipitation assay,2912628
 
   OSR2,Q8N2R0,116039,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9ULW6.tsv
+tfs_download: TFLink_tfs_of_Q9ULW6.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

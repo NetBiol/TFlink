@@ -409,8 +409,8 @@ targets: 'RPL3,P39023,6122,ReMap,chromatin immunoprecipitation assay,29126285%5B
   STPG3,Q8N7X2,441476,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No
 
   PRDX1,Q06830,5052,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D+OR+27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q9UKY1.tsv
-targets_download: targets_of_Q9UKY1.tsv
+tfs_download: TFLink_tfs_of_Q9UKY1.tsv
+targets_download: TFLink_targets_of_Q9UKY1.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

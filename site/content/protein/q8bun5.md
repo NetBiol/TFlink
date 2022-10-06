@@ -421,8 +421,8 @@ targets: 'Fshb,Q60687,14308,TRRUST,inferred by curator,20371653%5Buid%5D+OR+2908
   Gnpat,P98192,14712,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   Insm1,Q63ZV0,53626,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q8BUN5.tsv
-targets_download: targets_of_Q8BUN5.tsv
+tfs_download: TFLink_tfs_of_Q8BUN5.tsv
+targets_download: TFLink_targets_of_Q8BUN5.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

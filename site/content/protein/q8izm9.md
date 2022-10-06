@@ -214,7 +214,7 @@ tfs: 'AR,P10275,367,GTRD;HTRI;ReMap;TRRUST,chromatin immunoprecipitation array;c
 
   CDK6,Q00534,1021,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8IZM9.tsv
+tfs_download: TFLink_tfs_of_Q8IZM9.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

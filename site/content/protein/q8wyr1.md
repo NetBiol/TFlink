@@ -213,7 +213,7 @@ tfs: 'E2F1,Q01094,1869,GTRD;ORegAnno;PAZAR;TRED,chromatin immunoprecipitation as
 
   MAX,P61244,4149,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D+OR+27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8WYR1.tsv
+tfs_download: TFLink_tfs_of_Q8WYR1.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

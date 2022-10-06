@@ -92,7 +92,7 @@ tfs: 'Smc1a,Q9CU62,24061,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
 
   Batf,O35284,53314,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_A0A0G2JFS3.tsv
+tfs_download: TFLink_tfs_of_A0A0G2JFS3.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

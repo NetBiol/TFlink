@@ -210,7 +210,7 @@ tfs: 'TCF4,P15884,6925,GTRD;TRRUST,chromatin immunoprecipitation assay;inferred 
 
   E4F1,Q66K89,1877,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8WTT0.tsv
+tfs_download: TFLink_tfs_of_Q8WTT0.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

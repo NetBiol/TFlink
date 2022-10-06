@@ -52,7 +52,7 @@ tfs: 'Nelf-E,P92204,38982,GTRD,chromatin immunoprecipitation assay,27924024%5Bui
 
   l(3)mbt,Q9VB52,43288,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_A8DYK5.tsv
+tfs_download: TFLink_tfs_of_A8DYK5.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

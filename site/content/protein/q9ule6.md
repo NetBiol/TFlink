@@ -214,7 +214,7 @@ tfs: 'E2F1,Q01094,1869,GTRD;ORegAnno;PAZAR;ReMap;TRED,chromatin immunoprecipitat
 
   ZBTB8A,Q96BR9,653121,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9ULE6.tsv
+tfs_download: TFLink_tfs_of_Q9ULE6.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

@@ -210,7 +210,7 @@ tfs: 'AR,P10275,367,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,
 
   E2F4,Q16254,1874,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_A0A1W2PRX2.tsv
+tfs_download: TFLink_tfs_of_A0A1W2PRX2.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

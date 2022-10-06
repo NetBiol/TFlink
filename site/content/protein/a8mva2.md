@@ -160,7 +160,7 @@ tfs: 'ASCL2,Q99929,430,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5
 
   ERCC8,Q13216,1161,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_A8MVA2.tsv
+tfs_download: TFLink_tfs_of_A8MVA2.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

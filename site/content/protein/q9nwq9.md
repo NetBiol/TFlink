@@ -212,7 +212,7 @@ tfs: 'FOXG1,P55316,2290,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%
 
   ELL2,O00472,22936,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9NWQ9.tsv
+tfs_download: TFLink_tfs_of_Q9NWQ9.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

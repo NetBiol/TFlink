@@ -210,7 +210,7 @@ tfs: 'Tbl1x,Q9QXE7,21372,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
 
   Srsf2,Q62093,20382,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8CIV8.tsv
+tfs_download: TFLink_tfs_of_Q8CIV8.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

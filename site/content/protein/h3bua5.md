@@ -210,7 +210,7 @@ tfs: 'DPF2,Q92785,5977,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5
 
   TP63,Q9H3D4,8626,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_H3BUA5.tsv
+tfs_download: TFLink_tfs_of_H3BUA5.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

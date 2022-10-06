@@ -210,7 +210,7 @@ tfs: 'SUPT5H,O00267,6829,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
 
   SMC3,Q9UQE7,9126,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D+OR+27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_K7ENM7.tsv
+tfs_download: TFLink_tfs_of_K7ENM7.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

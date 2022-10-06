@@ -210,7 +210,7 @@ tfs: 'KLF1,Q13351,10661,ReMap,chromatin immunoprecipitation assay,29126285%5Buid
 
   ZBTB7A,O95365,51341,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_A0A1W2PSA9.tsv
+tfs_download: TFLink_tfs_of_A0A1W2PSA9.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

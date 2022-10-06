@@ -211,7 +211,7 @@ tfs: 'Supt16h,Q920B9,114741,GTRD,chromatin immunoprecipitation assay,27924024%5B
 
   Smarcad1,Q04692,13990,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8BWW9.tsv
+tfs_download: TFLink_tfs_of_Q8BWW9.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

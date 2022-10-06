@@ -211,7 +211,7 @@ tfs: 'Cdx2,P43241,12591,GTRD;ORegAnno;PAZAR,chromatin immunoprecipitation assay;
 
   Med1,Q925J9,19014,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q3UDP0.tsv
+tfs_download: TFLink_tfs_of_Q3UDP0.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

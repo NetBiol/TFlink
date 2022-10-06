@@ -118,7 +118,7 @@ tfs: 'so,Q27350,35662,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D
 
   pds5,A1Z8S6,36286,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8IGY8.tsv
+tfs_download: TFLink_tfs_of_Q8IGY8.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

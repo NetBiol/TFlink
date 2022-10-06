@@ -210,7 +210,7 @@ tfs: 'Erg,P81270,13876,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5
 
   Gata2,O09100,14461,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q6PFX6.tsv
+tfs_download: TFLink_tfs_of_Q6PFX6.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

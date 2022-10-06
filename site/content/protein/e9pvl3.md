@@ -110,7 +110,7 @@ tfs: 'Rnf2,Q9CQJ4,19821,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%
 
   Elf1,Q60775,13709,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_E9PVL3.tsv
+tfs_download: TFLink_tfs_of_E9PVL3.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

@@ -132,7 +132,7 @@ tfs: 'abd-A,P29555,42037,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
 
   grh,P13002,37038,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9VXJ7.tsv
+tfs_download: TFLink_tfs_of_Q9VXJ7.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

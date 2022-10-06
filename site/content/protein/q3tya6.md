@@ -210,7 +210,7 @@ tfs: 'Zbtb17,Q60821,22642,GTRD,chromatin immunoprecipitation assay,27924024%5Bui
 
   Ep300,B2RWS6,328572,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q3TYA6.tsv
+tfs_download: TFLink_tfs_of_Q3TYA6.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

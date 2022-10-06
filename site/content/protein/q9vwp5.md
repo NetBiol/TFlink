@@ -146,7 +146,7 @@ tfs: 'barr,Q9VIP9,35287,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%
 
   TfIIA-L,P52654,43284,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9VWP5.tsv
+tfs_download: TFLink_tfs_of_Q9VWP5.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

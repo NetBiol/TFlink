@@ -212,7 +212,7 @@ tfs: 'ASF1A,Q9Y294,25842,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
 
   ZNF513,Q8N8E2,130557,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8IVL1.tsv
+tfs_download: TFLink_tfs_of_Q8IVL1.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

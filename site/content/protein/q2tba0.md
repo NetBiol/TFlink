@@ -212,7 +212,7 @@ tfs: 'JUNB,P17275,3726,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%
 
   E2F8,A0AVK6,79733,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q2TBA0.tsv
+tfs_download: TFLink_tfs_of_Q2TBA0.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

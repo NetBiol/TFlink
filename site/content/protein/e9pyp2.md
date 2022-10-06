@@ -210,7 +210,7 @@ tfs: 'Fosl2,P47930,14284,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
 
   Foxp1,P58462,108655,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_E9PYP2.tsv
+tfs_download: TFLink_tfs_of_E9PYP2.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

@@ -30,7 +30,7 @@ tfs: 'REB1,P21538,852338,Yeastract,chromatin immunoprecipitation assay,24170807%
 
   -,A0A023PXA5,-,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8TGU4.tsv
+tfs_download: TFLink_tfs_of_Q8TGU4.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

@@ -210,7 +210,7 @@ tfs: 'Erf,P70459,13875,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5
 
   Jund,P15066,16478,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q6NZJ6.tsv
+tfs_download: TFLink_tfs_of_Q6NZJ6.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

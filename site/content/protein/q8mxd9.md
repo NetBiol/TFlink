@@ -210,7 +210,7 @@ tfs: 'epc-1,G5EC14,176679,GTRD,chromatin immunoprecipitation assay,27924024%5Bui
 
   blmp-1,Q93560,172917,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8MXD9.tsv
+tfs_download: TFLink_tfs_of_Q8MXD9.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

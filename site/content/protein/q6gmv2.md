@@ -211,7 +211,7 @@ tfs: 'TP53BP1,Q12888,7158,GTRD,chromatin immunoprecipitation assay,27924024%5Bui
 
   MXD4,Q14582,10608,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q6GMV2.tsv
+tfs_download: TFLink_tfs_of_Q6GMV2.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

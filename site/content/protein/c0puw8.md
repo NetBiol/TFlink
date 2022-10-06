@@ -78,7 +78,7 @@ tfs: 'Nup98-96,Q9VCH5,42816,GTRD,chromatin immunoprecipitation assay,27924024%5B
 
   not,Q9VVR1,40030,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_C0PUW8.tsv
+tfs_download: TFLink_tfs_of_C0PUW8.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

@@ -212,7 +212,7 @@ tfs: 'BCL3,P20749,602,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5B
 
   NFE2L1,Q14494,4779,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9NYU1.tsv
+tfs_download: TFLink_tfs_of_Q9NYU1.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

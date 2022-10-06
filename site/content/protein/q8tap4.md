@@ -218,8 +218,8 @@ targets: 'GATD3B,A0A0B4J2D5,8209,TRRUST,inferred by curator,29087512%5Buid%5D+OR
   ASCL1,P50553,429,TRRUST,inferred by curator,29087512%5Buid%5D+OR+21573214%5Buid%5D,Yes
 
   HES1,Q14469,3280,TRRUST,inferred by curator,29087512%5Buid%5D+OR+21573214%5Buid%5D,Yes'
-tfs_download: tfs_of_Q8TAP4.tsv
-targets_download: targets_of_Q8TAP4.tsv
+tfs_download: TFLink_tfs_of_Q8TAP4.tsv
+targets_download: TFLink_targets_of_Q8TAP4.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

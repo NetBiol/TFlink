@@ -210,7 +210,7 @@ tfs: 'Ncaph2,Q8BSP2,52683,GTRD,chromatin immunoprecipitation assay,27924024%5Bui
 
   Trim28,Q62318,21849,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8BUD0.tsv
+tfs_download: TFLink_tfs_of_Q8BUD0.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

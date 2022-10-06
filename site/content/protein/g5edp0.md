@@ -22,7 +22,7 @@ tfs: 'mab-5,P10038,176091,GTRD,chromatin immunoprecipitation assay,27924024%5Bui
 
   hsf-1,G5EFT5,173078,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_G5EDP0.tsv
+tfs_download: TFLink_tfs_of_G5EDP0.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

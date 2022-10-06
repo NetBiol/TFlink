@@ -408,8 +408,8 @@ targets: 'ADAP2,Q9NPF8,55803,GTRD,chromatin immunoprecipitation assay,27924024%5
   RAB8A,P61006,4218,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   SLC2A11,Q9BYW1,66035,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q8NEM7.tsv
-targets_download: targets_of_Q8NEM7.tsv
+tfs_download: TFLink_tfs_of_Q8NEM7.tsv
+targets_download: TFLink_targets_of_Q8NEM7.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

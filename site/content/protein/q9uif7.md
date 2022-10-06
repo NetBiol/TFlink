@@ -210,7 +210,7 @@ tfs: 'GATAD1,Q8WUU5,57798,GTRD,chromatin immunoprecipitation assay,27924024%5Bui
 
   DAXX,Q9UER7,1616,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9UIF7.tsv
+tfs_download: TFLink_tfs_of_Q9UIF7.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

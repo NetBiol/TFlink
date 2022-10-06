@@ -408,8 +408,8 @@ targets: 'Cbarp,Q66L44,100503659,GTRD,chromatin immunoprecipitation assay,279240
   Spcs1,Q9D958,69019,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   Smarcd3,Q6P9Z1,66993,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q8CGY8.tsv
-targets_download: targets_of_Q8CGY8.tsv
+tfs_download: TFLink_tfs_of_Q8CGY8.tsv
+targets_download: TFLink_targets_of_Q8CGY8.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

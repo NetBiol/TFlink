@@ -210,7 +210,7 @@ tfs: 'SOX4,Q06945,6659,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5
 
   USP7,Q93009,7874,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_A0A1B0GVJ0.tsv
+tfs_download: TFLink_tfs_of_A0A1B0GVJ0.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

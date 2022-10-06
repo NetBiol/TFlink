@@ -213,7 +213,7 @@ tfs: 'MYB,P10242,4602,GTRD;ReMap;TRED,chromatin immunoprecipitation assay;inferr
 
   KLF4,O43474,9314,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8WUH2.tsv
+tfs_download: TFLink_tfs_of_Q8WUH2.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

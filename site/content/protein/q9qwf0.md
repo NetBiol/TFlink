@@ -409,8 +409,8 @@ targets: 'Bid,P70444,12122,GTRD,chromatin immunoprecipitation assay,27924024%5Bu
   G0s2,Q61585,14373,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   Fam8a1,Q3URQ4,97863,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q9QWF0.tsv
-targets_download: targets_of_Q9QWF0.tsv
+tfs_download: TFLink_tfs_of_Q9QWF0.tsv
+targets_download: TFLink_targets_of_Q9QWF0.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

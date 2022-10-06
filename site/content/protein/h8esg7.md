@@ -92,7 +92,7 @@ tfs: 'xrn-2,Q9U299,175071,GTRD,chromatin immunoprecipitation assay,27924024%5Bui
 
   duxl-1,P91547,173537,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_H8ESG7.tsv
+tfs_download: TFLink_tfs_of_H8ESG7.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

@@ -211,7 +211,7 @@ tfs: 'ATF7,P17544,11016,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%
 
   TAF2,Q6P1X5,6873,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_F8WDT6.tsv
+tfs_download: TFLink_tfs_of_F8WDT6.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

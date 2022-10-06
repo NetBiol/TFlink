@@ -211,7 +211,7 @@ tfs: 'SSRP1,Q08945,6749,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%
 
   KLF4,O43474,9314,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q5VUB5.tsv
+tfs_download: TFLink_tfs_of_Q5VUB5.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

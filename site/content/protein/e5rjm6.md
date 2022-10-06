@@ -210,7 +210,7 @@ tfs: 'ID3,Q02535,3399,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5B
 
   ASCL1,P50553,429,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D+OR+27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_E5RJM6.tsv
+tfs_download: TFLink_tfs_of_E5RJM6.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

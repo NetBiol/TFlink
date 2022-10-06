@@ -56,7 +56,7 @@ tfs: 'NR3C1,P04150,2908,ReMap,chromatin immunoprecipitation assay,29126285%5Buid
 
   SMN1;SMN2,Q16637,6606;6607,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9NYW5.tsv
+tfs_download: TFLink_tfs_of_Q9NYW5.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

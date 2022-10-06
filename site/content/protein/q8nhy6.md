@@ -366,8 +366,8 @@ targets: 'PKIB,Q9C010,5570,GTRD,chromatin immunoprecipitation assay,27924024%5Bu
   ZNF790,Q6PG37,388536,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   RFX2,P48378,5990,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q8NHY6.tsv
-targets_download: targets_of_Q8NHY6.tsv
+tfs_download: TFLink_tfs_of_Q8NHY6.tsv
+targets_download: TFLink_targets_of_Q8NHY6.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

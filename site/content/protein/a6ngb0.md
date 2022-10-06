@@ -212,7 +212,7 @@ tfs: 'HCFC1,P51610,3054,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%
 
   ZBTB6,Q15916,10773,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_A6NGB0.tsv
+tfs_download: TFLink_tfs_of_A6NGB0.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

@@ -412,8 +412,8 @@ targets: 'Sox11,Q7M6Y2,20666,TRRUST,inferred by curator,29087512%5Buid%5D+OR+238
   Pcdhgc3,Q91XX1,93706,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   Fubp3,Q3TIX6,320267,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_A2AJK6.tsv
-targets_download: targets_of_A2AJK6.tsv
+tfs_download: TFLink_tfs_of_A2AJK6.tsv
+targets_download: TFLink_targets_of_A2AJK6.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

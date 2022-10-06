@@ -216,7 +216,7 @@ targets: 'Calm1,P0DP26,12313;12314;12315,TRRUST,inferred by curator,29087512%5Bu
 
   Hsd17b14,E9Q3D4,66065,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 tfs_download: ''
-targets_download: targets_of_Q6DIC0.tsv
+targets_download: TFLink_targets_of_Q6DIC0.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

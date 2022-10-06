@@ -238,8 +238,8 @@ targets: 'Pi4KIIIalpha,M9PDM4,31247,GTRD,chromatin immunoprecipitation assay,279
   -,Q4V6Z1,-,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   nmo,Q8IQ91,38890,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q9VVR1.tsv
-targets_download: targets_of_Q9VVR1.tsv
+tfs_download: TFLink_tfs_of_Q9VVR1.tsv
+targets_download: TFLink_targets_of_Q9VVR1.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

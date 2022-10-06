@@ -193,8 +193,8 @@ tfs: 'TAL1,P17542,6886,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5
   PRDM14,Q9GZV8,63978,HTRI;ORegAnno;PAZAR;ReMap,chromatin immunoprecipitation assay;inferred
   by curator,29126285%5Buid%5D+OR+26578589%5Buid%5D+OR+20953172%5Buid%5D+OR+18971253%5Buid%5D+OR+22900683%5Buid%5D,No'
 targets: CEL,P19835,-,TRRUST,inferred by curator,11023822%5Buid%5D+OR+29087512%5Buid%5D,Yes
-tfs_download: tfs_of_Q7RTS3.tsv
-targets_download: targets_of_Q7RTS3.tsv
+tfs_download: TFLink_tfs_of_Q7RTS3.tsv
+targets_download: TFLink_targets_of_Q7RTS3.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

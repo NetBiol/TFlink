@@ -213,7 +213,7 @@ tfs: 'SMAD3,P84022,4088,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%
 
   RBBP5,Q15291,5929,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D+OR+27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9BRS2.tsv
+tfs_download: TFLink_tfs_of_Q9BRS2.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

@@ -182,7 +182,7 @@ tfs: 'BRD4,O60885,23476,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%
 
   ONECUT2,O95948,9480,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q6ZNM6.tsv
+tfs_download: TFLink_tfs_of_Q6ZNM6.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

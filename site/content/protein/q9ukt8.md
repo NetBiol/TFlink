@@ -212,7 +212,7 @@ tfs: 'FOXH1,O75593,8928,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%
   EGR1,P18146,1958,GTRD;ORegAnno;PAZAR;ReMap,chromatin immunoprecipitation assay;inferred
   by curator,29126285%5Buid%5D+OR+18971253%5Buid%5D+OR+27924024%5Buid%5D+OR+26578589%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9UKT8.tsv
+tfs_download: TFLink_tfs_of_Q9UKT8.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

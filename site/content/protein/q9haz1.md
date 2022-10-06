@@ -211,7 +211,7 @@ tfs: 'ZBTB48,P10074,3104,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
 
   TP53,P04637,7157,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D+OR+27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9HAZ1.tsv
+tfs_download: TFLink_tfs_of_Q9HAZ1.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

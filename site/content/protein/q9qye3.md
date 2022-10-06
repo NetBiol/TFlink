@@ -221,8 +221,8 @@ targets: 'Frzb,P97401,20378,TRRUST,inferred by curator,22491945%5Buid%5D+OR+2908
   Hoxa11,P31311,15396,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   Actb,P60710,11461,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q9QYE3.tsv
-targets_download: targets_of_Q9QYE3.tsv
+tfs_download: TFLink_tfs_of_Q9QYE3.tsv
+targets_download: TFLink_targets_of_Q9QYE3.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

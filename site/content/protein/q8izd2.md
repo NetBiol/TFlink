@@ -214,7 +214,7 @@ tfs: 'GATA3,P23771,2625,GTRD;IntAct_via_DoRothEA;PAZAR;ReMap,chromatin immunopre
 
   UBN1,Q9NPG3,29855,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8IZD2.tsv
+tfs_download: TFLink_tfs_of_Q8IZD2.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

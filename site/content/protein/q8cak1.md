@@ -210,7 +210,7 @@ tfs: 'Rara,P11416,19401,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%
 
   Snai2,P97469,20583,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8CAK1.tsv
+tfs_download: TFLink_tfs_of_Q8CAK1.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

@@ -214,7 +214,7 @@ tfs: 'ZGPAT,Q8N5A5,84619,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
   RUNX1,Q01196,861,GTRD;ORegAnno;PAZAR;ReMap,chromatin immunoprecipitation assay;inferred
   by curator,29126285%5Buid%5D+OR+18971253%5Buid%5D+OR+27924024%5Buid%5D+OR+26578589%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8WYK1.tsv
+tfs_download: TFLink_tfs_of_Q8WYK1.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

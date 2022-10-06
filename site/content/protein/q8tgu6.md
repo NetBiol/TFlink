@@ -57,7 +57,7 @@ tfs: 'RDS2,P19541,855970,Yeastract,chromatin immunoprecipitation array,24170807%
 
   ERT1,P38140,852541,Yeastract,chromatin immunoprecipitation array,25123508%5Buid%5D+OR+24170807%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8TGU6.tsv
+tfs_download: TFLink_tfs_of_Q8TGU6.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

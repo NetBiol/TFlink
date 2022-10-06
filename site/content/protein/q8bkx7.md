@@ -210,8 +210,8 @@ tfs: 'Klf5,Q9Z0Z7,12224,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%
 
   Suz12,Q80U70,52615,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: Mmp1a,Q9EPL5,83995,TRRUST,inferred by curator,29087512%5Buid%5D+OR+12370286%5Buid%5D,Yes
-tfs_download: tfs_of_Q8BKX7.tsv
-targets_download: targets_of_Q8BKX7.tsv
+tfs_download: TFLink_tfs_of_Q8BKX7.tsv
+targets_download: TFLink_targets_of_Q8BKX7.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

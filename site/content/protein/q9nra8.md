@@ -211,7 +211,7 @@ tfs: 'SMAD3,P84022,4088,GTRD;ReMap;TRED,chromatin immunoprecipitation assay;infe
 
   DMC1,Q14565,11144,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9NRA8.tsv
+tfs_download: TFLink_tfs_of_Q9NRA8.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

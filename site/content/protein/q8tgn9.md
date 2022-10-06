@@ -63,7 +63,7 @@ tfs: 'RLM1,Q12224,856016,Yeastract,tag visualisation by enzyme assay,18310357%5B
 
   CBF1,P17106,853523,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8TGN9.tsv
+tfs_download: TFLink_tfs_of_Q8TGN9.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

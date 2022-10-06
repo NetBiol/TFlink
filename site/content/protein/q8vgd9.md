@@ -28,7 +28,7 @@ tfs: 'Med23,Q80YQ2,70208,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
 
   Esrrg,P62509,26381,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8VGD9.tsv
+tfs_download: TFLink_tfs_of_Q8VGD9.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

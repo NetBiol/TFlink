@@ -214,7 +214,7 @@ tfs: 'RXRA,P19793,6256,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5
 
   RARA,P10276,5914,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9UBR1.tsv
+tfs_download: TFLink_tfs_of_Q9UBR1.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

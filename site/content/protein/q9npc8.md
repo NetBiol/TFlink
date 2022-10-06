@@ -413,8 +413,8 @@ targets: 'COPS7B,Q9H9Q2,64708,GTRD,chromatin immunoprecipitation assay,27924024%
   CCDC195,A0A1B0GUA6,-,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No
 
   MPC2,O95563,25874,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D+OR+27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q9NPC8.tsv
-targets_download: targets_of_Q9NPC8.tsv
+tfs_download: TFLink_tfs_of_Q9NPC8.tsv
+targets_download: TFLink_targets_of_Q9NPC8.tsv
 bindingSites_download: ''
 binding_sites_ls: Q9NPC8_HT.fasta
 

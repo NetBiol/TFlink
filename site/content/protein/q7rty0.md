@@ -211,7 +211,7 @@ tfs: 'NCOA3,Q9Y6Q9,8202,ReMap,chromatin immunoprecipitation assay,29126285%5Buid
 
   NFYB,P25208,4801,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D+OR+27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q7RTY0.tsv
+tfs_download: TFLink_tfs_of_Q7RTY0.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

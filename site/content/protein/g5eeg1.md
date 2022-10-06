@@ -322,8 +322,8 @@ targets: 'srx-65,O44643,187096,GTRD,chromatin immunoprecipitation assay,27924024
   vab-1,O61460,173794,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   usp-14,Q17361,175105,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_G5EEG1.tsv
-targets_download: targets_of_G5EEG1.tsv
+tfs_download: TFLink_tfs_of_G5EEG1.tsv
+targets_download: TFLink_targets_of_G5EEG1.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

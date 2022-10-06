@@ -211,7 +211,7 @@ tfs: 'CIITA,P33076,4261,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%
 
   NR4A1,P22736,3164,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D+OR+27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q4FZB7.tsv
+tfs_download: TFLink_tfs_of_Q4FZB7.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

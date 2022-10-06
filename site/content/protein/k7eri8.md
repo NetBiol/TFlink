@@ -210,7 +210,7 @@ tfs: 'NKX2-1,P43699,7080,GTRD;ReMap,chromatin immunoprecipitation assay,29126285
 
   MEIS2,O14770,4212,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_K7ERI8.tsv
+tfs_download: TFLink_tfs_of_K7ERI8.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

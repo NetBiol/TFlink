@@ -212,7 +212,7 @@ tfs: 'BHLHA15,Q7RTS1,168620,IntAct_via_DoRothEA,inferred by curator,24234451%5Bu
 
   VEZF1,Q14119,7716,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9ULW5.tsv
+tfs_download: TFLink_tfs_of_Q9ULW5.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

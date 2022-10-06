@@ -34,7 +34,7 @@ tfs: 'sdc-2,G5EBL3,181341,GTRD,chromatin immunoprecipitation assay,27924024%5Bui
 
   lem-2,Q9XTB5,175058,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9TYR5.tsv
+tfs_download: TFLink_tfs_of_Q9TYR5.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

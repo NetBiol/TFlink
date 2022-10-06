@@ -212,7 +212,7 @@ tfs: 'HNF4A,P41235,3172,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%
 
   GLIS3,Q8NEA6,169792,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9UKP4.tsv
+tfs_download: TFLink_tfs_of_Q9UKP4.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

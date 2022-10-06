@@ -210,7 +210,7 @@ tfs: 'Lin28a,Q8K3Y3,83557,GTRD,chromatin immunoprecipitation assay,27924024%5Bui
 
   Npas3,Q9QZQ0,-,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8CDM4.tsv
+tfs_download: TFLink_tfs_of_Q8CDM4.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

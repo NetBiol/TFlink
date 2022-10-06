@@ -100,7 +100,7 @@ tfs: 'NFIB,O00712,4781,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5
 
   SPI1,P17947,6688,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_A8MWA4.tsv
+tfs_download: TFLink_tfs_of_A8MWA4.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

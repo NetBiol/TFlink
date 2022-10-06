@@ -212,7 +212,7 @@ tfs: 'ETV6,P41212,2120,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%
 
   MTA3,Q9BTC8,57504,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_C9JTQ0.tsv
+tfs_download: TFLink_tfs_of_C9JTQ0.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

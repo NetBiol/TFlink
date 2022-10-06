@@ -410,8 +410,8 @@ targets: 'SNRNP200,O75643,23020,GTRD,chromatin immunoprecipitation assay,2792402
   METTL22,Q9BUU2,79091,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   NINJ1,Q92982,4814,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q9NQV5.tsv
-targets_download: targets_of_Q9NQV5.tsv
+tfs_download: TFLink_tfs_of_Q9NQV5.tsv
+targets_download: TFLink_targets_of_Q9NQV5.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

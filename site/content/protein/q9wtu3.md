@@ -14,7 +14,7 @@ tfs: 'Rest,Q8VIG1,19712,TRRUST,inferred by curator,17924165%5Buid%5D+OR+29087512
 
   Spi1,P17433,20375,TRRUST,inferred by curator,17924165%5Buid%5D+OR+29087512%5Buid%5D,Yes'
 targets: ''
-tfs_download: tfs_of_Q9WTU3.tsv
+tfs_download: TFLink_tfs_of_Q9WTU3.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

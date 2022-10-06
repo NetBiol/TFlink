@@ -118,7 +118,7 @@ tfs: 'PHF6,Q8IWS0,84295,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%
 
   LYL1,P12980,4066,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_A8MUX0.tsv
+tfs_download: TFLink_tfs_of_A8MUX0.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

@@ -14,7 +14,7 @@ tfs: 'Sox30,Q8CGW4,214105,GTRD,chromatin immunoprecipitation assay,27924024%5Bui
 
   Rfx2,P48379,19725,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_F7CFJ3.tsv
+tfs_download: TFLink_tfs_of_F7CFJ3.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

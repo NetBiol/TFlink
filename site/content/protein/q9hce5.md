@@ -411,8 +411,8 @@ targets: 'GLRA1,P23415,2741,GTRD,chromatin immunoprecipitation assay,27924024%5B
   GET4,Q7L5D6,51608,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   AP5Z1,O43299,9907,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q9HCE5.tsv
-targets_download: targets_of_Q9HCE5.tsv
+tfs_download: TFLink_tfs_of_Q9HCE5.tsv
+targets_download: TFLink_targets_of_Q9HCE5.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

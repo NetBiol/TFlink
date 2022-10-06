@@ -217,8 +217,8 @@ targets: 'VEGFA,P15692,7422,TRRUST,inferred by curator,29087512%5Buid%5D+OR+1934
   MMP2,P08253,4313,TRRUST,inferred by curator,29087512%5Buid%5D+OR+19349353%5Buid%5D,Yes
 
   SPP1,P10451,6696,TRRUST,inferred by curator,29087512%5Buid%5D+OR+19349353%5Buid%5D+OR+18537194%5Buid%5D,Yes'
-tfs_download: tfs_of_Q9BUP3.tsv
-targets_download: targets_of_Q9BUP3.tsv
+tfs_download: TFLink_tfs_of_Q9BUP3.tsv
+targets_download: TFLink_targets_of_Q9BUP3.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

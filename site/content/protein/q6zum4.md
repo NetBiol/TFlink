@@ -212,7 +212,7 @@ tfs: 'NCAPH2,Q6IBW4,29781,GTRD,chromatin immunoprecipitation assay,27924024%5Bui
 
   INTS13,Q9NVM9,55726,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q6ZUM4.tsv
+tfs_download: TFLink_tfs_of_Q6ZUM4.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

@@ -210,7 +210,7 @@ tfs: 'ceh-36,Q93352,181529,GTRD,chromatin immunoprecipitation assay,27924024%5Bu
 
   cbp-1,P34545,176380,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_G5ECU5.tsv
+tfs_download: TFLink_tfs_of_G5ECU5.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

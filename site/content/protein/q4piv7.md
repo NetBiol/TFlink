@@ -18,7 +18,7 @@ tfs: 'unc-62,Q9N5D6,178845,GTRD,chromatin immunoprecipitation assay,27924024%5Bu
 
   rnt-1,G5EFQ5,172243,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q4PIV7.tsv
+tfs_download: TFLink_tfs_of_Q4PIV7.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

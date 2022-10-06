@@ -16,7 +16,7 @@ tfs: 'CTCF,P49711,10664,ReMap,chromatin immunoprecipitation assay,29126285%5Buid
 
   PAX8,Q06710,7849,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8NGX2.tsv
+tfs_download: TFLink_tfs_of_Q8NGX2.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

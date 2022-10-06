@@ -410,8 +410,8 @@ targets: 'ESRP2,Q9H6T0,80004,GTRD,chromatin immunoprecipitation assay,27924024%5
   DGUOK,Q16854,1716,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   CDHR4,A6H8M9,389118,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q9BYU1.tsv
-targets_download: targets_of_Q9BYU1.tsv
+tfs_download: TFLink_tfs_of_Q9BYU1.tsv
+targets_download: TFLink_targets_of_Q9BYU1.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

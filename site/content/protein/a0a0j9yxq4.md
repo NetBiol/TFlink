@@ -70,7 +70,7 @@ tfs: 'AHR,P35869,196,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Bu
 
   JUN,P05412,3725,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_A0A0J9YXQ4.tsv
+tfs_download: TFLink_tfs_of_A0A0J9YXQ4.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

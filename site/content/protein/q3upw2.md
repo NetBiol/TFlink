@@ -220,8 +220,8 @@ targets: 'Angpt1,O08538,11600,TRRUST,inferred by curator,29087512%5Buid%5D+OR+14
   Tlr11,Q6R5P0,239081,TRRUST,inferred by curator,29087512%5Buid%5D+OR+19801549%5Buid%5D,Yes
 
   Tgfbr2,Q62312,21813,TRRUST,inferred by curator,29087512%5Buid%5D+OR+14976186%5Buid%5D+OR+20079749%5Buid%5D+OR+20054123%5Buid%5D,Yes'
-tfs_download: tfs_of_Q3UPW2.tsv
-targets_download: targets_of_Q3UPW2.tsv
+tfs_download: TFLink_tfs_of_Q3UPW2.tsv
+targets_download: TFLink_targets_of_Q3UPW2.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

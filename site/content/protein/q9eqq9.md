@@ -211,7 +211,7 @@ tfs: 'Na,B5DC71,-,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   Myod1,P10085,17927,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9EQQ9.tsv
+tfs_download: TFLink_tfs_of_Q9EQQ9.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

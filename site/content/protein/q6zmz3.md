@@ -217,7 +217,7 @@ tfs: 'KMT2C,Q8NEZ4,58508,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
 
   FOXP1,Q9H334,27086,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q6ZMZ3.tsv
+tfs_download: TFLink_tfs_of_Q6ZMZ3.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

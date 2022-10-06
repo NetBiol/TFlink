@@ -220,8 +220,8 @@ targets: 'Root,Q9VCD1,42860,GTRD,chromatin immunoprecipitation assay,27924024%5B
   Dmel\CG31493,Q8INT0,318765,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   -,Q86NY3,-,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q9VJZ3.tsv
-targets_download: targets_of_Q9VJZ3.tsv
+tfs_download: TFLink_tfs_of_Q9VJZ3.tsv
+targets_download: TFLink_targets_of_Q9VJZ3.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

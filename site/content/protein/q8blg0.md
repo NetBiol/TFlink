@@ -210,8 +210,8 @@ tfs: 'Tcf7,Q00417,21414,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%
 
   Wiz,O88286,22404,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: Pou5f1,P20263,18999,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
-tfs_download: tfs_of_Q8BLG0.tsv
-targets_download: targets_of_Q8BLG0.tsv
+tfs_download: TFLink_tfs_of_Q8BLG0.tsv
+targets_download: TFLink_targets_of_Q8BLG0.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

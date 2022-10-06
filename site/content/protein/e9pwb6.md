@@ -82,7 +82,7 @@ tfs: 'Dand5,Q76LW6,23863,TRRUST,inferred by curator,14570593%5Buid%5D+OR+2908751
 
   Tet1,Q3URK3,-,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_E9PWB6.tsv
+tfs_download: TFLink_tfs_of_E9PWB6.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

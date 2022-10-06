@@ -116,7 +116,7 @@ tfs: 'dpy-26,G5EGE9,178196,GTRD,chromatin immunoprecipitation assay,27924024%5Bu
 
   mdl-1,G5EG44,180942,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_D9PTN5.tsv
+tfs_download: TFLink_tfs_of_D9PTN5.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

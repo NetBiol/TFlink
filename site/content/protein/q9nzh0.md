@@ -210,7 +210,7 @@ tfs: 'ZGPAT,Q8N5A5,84619,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
 
   KMT2A,Q03164,4297,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9NZH0.tsv
+tfs_download: TFLink_tfs_of_Q9NZH0.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

@@ -112,7 +112,7 @@ tfs: 'SMC3,Q9UQE7,9126,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5
 
   PGR,P06401,5241,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q6ZRT6.tsv
+tfs_download: TFLink_tfs_of_Q6ZRT6.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

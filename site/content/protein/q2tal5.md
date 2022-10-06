@@ -213,7 +213,7 @@ tfs: 'GRHL2,Q6ISB3,79977,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
 
   ESR2,Q92731,2100,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q2TAL5.tsv
+tfs_download: TFLink_tfs_of_Q2TAL5.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

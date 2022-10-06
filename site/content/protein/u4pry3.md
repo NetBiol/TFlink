@@ -192,7 +192,7 @@ tfs: '-,H2L0N7,178541,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D
 
   nhr-90,O17025,178577,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_U4PRY3.tsv
+tfs_download: TFLink_tfs_of_U4PRY3.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

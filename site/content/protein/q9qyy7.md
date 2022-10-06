@@ -120,7 +120,7 @@ tfs: 'Hhex,P43120,15242,TRRUST,inferred by curator,29087512%5Buid%5D+OR+16764824
 
   Meis1,Q60954,17268,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9QYY7.tsv
+tfs_download: TFLink_tfs_of_Q9QYY7.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

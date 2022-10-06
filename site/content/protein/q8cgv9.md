@@ -13,7 +13,7 @@ jaspar_matrices: ''
 tfs: ''
 targets: Myog,P12979,17928,TRRUST,inferred by curator,21543328%5Buid%5D+OR+29087512%5Buid%5D,Yes
 tfs_download: ''
-targets_download: targets_of_Q8CGV9.tsv
+targets_download: TFLink_targets_of_Q8CGV9.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

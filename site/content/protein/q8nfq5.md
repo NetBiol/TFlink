@@ -127,7 +127,7 @@ tfs: 'HNF4A,P41235,3172,ORegAnno;PAZAR,inferred by curator,18971253%5Buid%5D+OR+
 
   NR3C1,P04150,2908,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8NFQ5.tsv
+tfs_download: TFLink_tfs_of_Q8NFQ5.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

@@ -214,7 +214,7 @@ tfs: 'PARP1,P09874,142,GTRD;TRRUST,chromatin immunoprecipitation assay;inferred 
 
   TBL1XR1,Q9BZK7,79718,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8WXU2.tsv
+tfs_download: TFLink_tfs_of_Q8WXU2.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

@@ -42,7 +42,7 @@ tfs: 'Tfap2a,P34056,21418,GTRD,chromatin immunoprecipitation assay,27924024%5Bui
 
   Mef2c,Q8CFN5,17260,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_B3GLJ3.tsv
+tfs_download: TFLink_tfs_of_B3GLJ3.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

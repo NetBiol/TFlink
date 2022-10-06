@@ -213,7 +213,7 @@ tfs: 'DNMT3B,Q9UBC3,1789,IntAct_via_DoRothEA,inferred by curator,24234451%5Buid%
 
   ZNF83,P51522,55769,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q6FHJ7.tsv
+tfs_download: TFLink_tfs_of_Q6FHJ7.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

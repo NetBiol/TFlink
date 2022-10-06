@@ -212,7 +212,7 @@ tfs: 'ARID4B,Q4LE39,51742,GTRD,chromatin immunoprecipitation assay,27924024%5Bui
 
   TRIM28,Q13263,10155,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q7RTY5.tsv
+tfs_download: TFLink_tfs_of_Q7RTY5.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

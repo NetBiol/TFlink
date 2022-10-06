@@ -426,8 +426,8 @@ targets: 'ZNF217,O75362,7764,GTRD;IntAct_via_DoRothEA;ReMap,chromatin immunoprec
   NRXN2,Q9P2S2,9379,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No
 
   -,H0YJ60,-,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D+OR+27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q9BTC8.tsv
-targets_download: targets_of_Q9BTC8.tsv
+tfs_download: TFLink_tfs_of_Q9BTC8.tsv
+targets_download: TFLink_targets_of_Q9BTC8.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

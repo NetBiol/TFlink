@@ -282,8 +282,8 @@ targets: '-,Q9XVA3,184201,GTRD,chromatin immunoprecipitation assay,27924024%5Bui
   -,Q22671,172573,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   pak-2,G5EFU0,179527,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q9XUK7.tsv
-targets_download: targets_of_Q9XUK7.tsv
+tfs_download: TFLink_tfs_of_Q9XUK7.tsv
+targets_download: TFLink_targets_of_Q9XUK7.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

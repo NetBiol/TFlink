@@ -214,8 +214,8 @@ tfs: 'Tet1,Q3URK3,-,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,N
 targets: 'Id2,P41136,15902,TRRUST,inferred by curator,29087512%5Buid%5D+OR+22421219%5Buid%5D,Yes
 
   Bmpr1b,P36898,12167,TRRUST,inferred by curator,10814522%5Buid%5D+OR+29087512%5Buid%5D,Yes'
-tfs_download: tfs_of_Q9JIW5.tsv
-targets_download: targets_of_Q9JIW5.tsv
+tfs_download: TFLink_tfs_of_Q9JIW5.tsv
+targets_download: TFLink_targets_of_Q9JIW5.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

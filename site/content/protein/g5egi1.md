@@ -210,7 +210,7 @@ tfs: 'pax-1,Q21272,187105,GTRD,chromatin immunoprecipitation assay,27924024%5Bui
 
   attf-5,Q22173,3565014,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_G5EGI1.tsv
+tfs_download: TFLink_tfs_of_G5EGI1.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

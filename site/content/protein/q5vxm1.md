@@ -214,7 +214,7 @@ tfs: 'RBL2,Q08999,5934,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5
 
   NCOR2,Q9Y618,9612,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D+OR+27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q5VXM1.tsv
+tfs_download: TFLink_tfs_of_Q5VXM1.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

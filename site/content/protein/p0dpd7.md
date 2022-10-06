@@ -210,7 +210,7 @@ tfs: 'HCFC1,P51610,3054,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%
 
   FOSL1,P15407,8061,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_P0DPD7.tsv
+tfs_download: TFLink_tfs_of_P0DPD7.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

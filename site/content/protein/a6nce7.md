@@ -210,7 +210,7 @@ tfs: 'ZNF384,Q8TF68,171017,ReMap,chromatin immunoprecipitation assay,29126285%5B
 
   PBX3,P40426,5090,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_A6NCE7.tsv
+tfs_download: TFLink_tfs_of_A6NCE7.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

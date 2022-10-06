@@ -211,7 +211,7 @@ tfs: 'GRHL3,Q8TE85,57822,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
 
   ZNF280A,P59817,129025,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9BWC9.tsv
+tfs_download: TFLink_tfs_of_Q9BWC9.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

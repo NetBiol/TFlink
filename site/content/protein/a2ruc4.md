@@ -210,7 +210,7 @@ tfs: 'TRIM28,Q13263,10155,GTRD;ReMap,chromatin immunoprecipitation assay,2912628
 
   FOXO3,O43524,2309,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_A2RUC4.tsv
+tfs_download: TFLink_tfs_of_A2RUC4.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

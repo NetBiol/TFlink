@@ -224,8 +224,8 @@ targets: 'Meaf6,Q2VPQ9,70088,GTRD,chromatin immunoprecipitation assay,27924024%5
   Por,P37040,18984,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   Tdpoz4,Q6YCH2,399675,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q7TPV2.tsv
-targets_download: targets_of_Q7TPV2.tsv
+tfs_download: TFLink_tfs_of_Q7TPV2.tsv
+targets_download: TFLink_targets_of_Q7TPV2.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

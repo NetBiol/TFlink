@@ -82,7 +82,7 @@ tfs: 'REST,Q13127,5978,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%
 
   FOSL2,P15408,2355,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_A0A1W2PQD3.tsv
+tfs_download: TFLink_tfs_of_A0A1W2PQD3.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

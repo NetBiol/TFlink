@@ -266,8 +266,8 @@ targets: 'Dmel\CG13484,Q9VUC4,39560,GTRD,chromatin immunoprecipitation assay,279
   Men-b,E1JIZ4,43936,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   Tgi,Q9VU85,39521,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q7JVP4.tsv
-targets_download: targets_of_Q7JVP4.tsv
+tfs_download: TFLink_tfs_of_Q7JVP4.tsv
+targets_download: TFLink_targets_of_Q7JVP4.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

@@ -212,8 +212,8 @@ tfs: 'Dmc1,Q61880,13404,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%
 targets: 'Apoa1,Q00623,11806,TRRUST,inferred by curator,29087512%5Buid%5D+OR+18441373%5Buid%5D,Yes
 
   Ppig,A2AR02,228005,TRRUST,inferred by curator,29087512%5Buid%5D+OR+10757780%5Buid%5D,Yes'
-tfs_download: tfs_of_Q9CYB0.tsv
-targets_download: targets_of_Q9CYB0.tsv
+tfs_download: TFLink_tfs_of_Q9CYB0.tsv
+targets_download: TFLink_targets_of_Q9CYB0.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

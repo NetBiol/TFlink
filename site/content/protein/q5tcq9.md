@@ -212,7 +212,7 @@ tfs: 'SP4,Q02446,6671,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5B
 
   VDR,P11473,7421,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q5TCQ9.tsv
+tfs_download: TFLink_tfs_of_Q5TCQ9.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

@@ -116,7 +116,7 @@ tfs: 'USF2,Q15853,7392,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%
 
   RFX1,P22670,5989,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_A6NMZ2.tsv
+tfs_download: TFLink_tfs_of_A6NMZ2.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

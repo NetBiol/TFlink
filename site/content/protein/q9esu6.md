@@ -408,8 +408,8 @@ targets: 'Cfdp1,O88271,23837,GTRD,chromatin immunoprecipitation assay,27924024%5
   Hnrnpa0,Q9CX86,77134,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   Hdac1,O09106,433759,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q9ESU6.tsv
-targets_download: targets_of_Q9ESU6.tsv
+tfs_download: TFLink_tfs_of_Q9ESU6.tsv
+targets_download: TFLink_targets_of_Q9ESU6.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

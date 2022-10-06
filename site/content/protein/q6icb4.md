@@ -210,7 +210,7 @@ tfs: 'OGG1,O15527,4968,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5
 
   PTEN,P60484,5728,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q6ICB4.tsv
+tfs_download: TFLink_tfs_of_Q6ICB4.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

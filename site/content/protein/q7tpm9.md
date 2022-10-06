@@ -210,7 +210,7 @@ tfs: 'Mcrs1,Q99L90,51812,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
 
   Smad3,Q8BUN5,17127,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q7TPM9.tsv
+tfs_download: TFLink_tfs_of_Q7TPM9.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

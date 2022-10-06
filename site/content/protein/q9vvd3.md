@@ -26,7 +26,7 @@ tfs: 'l(3)mbt,Q9VB52,43288,GTRD,chromatin immunoprecipitation assay,27924024%5Bu
 
   Cp190,Q24478,41848,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9VVD3.tsv
+tfs_download: TFLink_tfs_of_Q9VVD3.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

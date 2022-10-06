@@ -184,8 +184,8 @@ targets: 'Dmel\CG10467,Q9VRU1,38697,GTRD,chromatin immunoprecipitation assay,279
   -,Q9VUQ8,39685,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   Ih,A1Z9N7,36589,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_A1ZBC5.tsv
-targets_download: targets_of_A1ZBC5.tsv
+tfs_download: TFLink_tfs_of_A1ZBC5.tsv
+targets_download: TFLink_targets_of_A1ZBC5.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

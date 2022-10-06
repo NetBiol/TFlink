@@ -252,8 +252,8 @@ targets: 'itpl1,B1P5P0,-,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
   R5_3R:17143989..17145881,Q9VDB7,42531,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   -,A9YK60,-,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q9VIP9.tsv
-targets_download: targets_of_Q9VIP9.tsv
+tfs_download: TFLink_tfs_of_Q9VIP9.tsv
+targets_download: TFLink_targets_of_Q9VIP9.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

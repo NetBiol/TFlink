@@ -216,7 +216,7 @@ tfs: 'SP3,Q02447,6670,HTRI;TRRUST,chromatin immunoprecipitation assay;electropho
 
   HNRNPLL,Q8WVV9,92906,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9NPH5.tsv
+tfs_download: TFLink_tfs_of_Q9NPH5.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

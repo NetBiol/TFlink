@@ -182,7 +182,7 @@ tfs: 'Zic2,Q62520,-,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,N
 
   Smc1a,Q9CU62,24061,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q6NVE3.tsv
+tfs_download: TFLink_tfs_of_Q6NVE3.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

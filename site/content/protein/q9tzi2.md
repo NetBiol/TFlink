@@ -211,7 +211,7 @@ targets: 'malt-1,G5EG87,174135,GTRD,chromatin immunoprecipitation assay,27924024
 
   -,O44440,177105,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 tfs_download: ''
-targets_download: targets_of_Q9TZI2.tsv
+targets_download: TFLink_targets_of_Q9TZI2.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

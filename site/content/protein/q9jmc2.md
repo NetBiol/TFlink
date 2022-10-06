@@ -145,7 +145,7 @@ tfs: 'Neurog3,P70661,11925,TRRUST,inferred by curator,29087512%5Buid%5D+OR+21343
 
   Bhlhe40,O35185,20893,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9JMC2.tsv
+tfs_download: TFLink_tfs_of_Q9JMC2.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

@@ -18,8 +18,8 @@ tfs: 'FOS,P01100,2353,ORegAnno;PAZAR,inferred by curator,18971253%5Buid%5D+OR+26
 targets: 'FANK1,Q8TC84,92565,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   NOL7,Q9UMY1,51406,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q8NHZ7.tsv
-targets_download: targets_of_Q8NHZ7.tsv
+tfs_download: TFLink_tfs_of_Q8NHZ7.tsv
+targets_download: TFLink_targets_of_Q8NHZ7.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

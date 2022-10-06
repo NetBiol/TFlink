@@ -12,7 +12,7 @@ orthologs: '[{"species": "Danio rerio", "id": ["Q7ZVN5"]}, {"species": "Drosophi
 jaspar_matrices: ''
 tfs: Cdx2,P43241,12591,ORegAnno;PAZAR,inferred by curator,18971253%5Buid%5D+OR+26578589%5Buid%5D,No
 targets: ''
-tfs_download: tfs_of_E9PXC0.tsv
+tfs_download: TFLink_tfs_of_E9PXC0.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

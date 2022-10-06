@@ -410,8 +410,8 @@ targets: 'TNFRSF10B,O14763,8795,GTRD,chromatin immunoprecipitation assay,2792402
   WDR55,Q9H6Y2,54853,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   HDLBP,Q00341,3069,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_A0PJY2.tsv
-targets_download: targets_of_A0PJY2.tsv
+tfs_download: TFLink_tfs_of_A0PJY2.tsv
+targets_download: TFLink_targets_of_A0PJY2.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

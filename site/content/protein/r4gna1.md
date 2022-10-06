@@ -210,7 +210,7 @@ tfs: 'U2AF2,P26368,11338,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
 
   TAF7,Q15545,6879,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_R4GNA1.tsv
+tfs_download: TFLink_tfs_of_R4GNA1.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

@@ -408,8 +408,8 @@ targets: 'EBF4,Q9BQW3,57593,GTRD,chromatin immunoprecipitation assay,27924024%5B
   KIAA1522,Q9P206,57648,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   GRN,P28799,2896,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q8NAF0.tsv
-targets_download: targets_of_Q8NAF0.tsv
+tfs_download: TFLink_tfs_of_Q8NAF0.tsv
+targets_download: TFLink_targets_of_Q8NAF0.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

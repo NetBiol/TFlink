@@ -212,7 +212,7 @@ tfs: 'ELK1,P19419,2002,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%
 
   CXXC4,Q9H2H0,-,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9HAR2.tsv
+tfs_download: TFLink_tfs_of_Q9HAR2.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

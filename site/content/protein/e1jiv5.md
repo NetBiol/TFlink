@@ -94,7 +94,7 @@ tfs: '11723,Q9VQ77,33388,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
 
   tHMG1,Q9VCZ5,42650,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_E1JIV5.tsv
+tfs_download: TFLink_tfs_of_E1JIV5.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

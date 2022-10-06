@@ -210,7 +210,7 @@ tfs: 'CASZ1,Q86V15,54897,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
 
   POU2F2,P09086,5452,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D+OR+27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9NRF2.tsv
+tfs_download: TFLink_tfs_of_Q9NRF2.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

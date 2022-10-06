@@ -108,7 +108,7 @@ tfs: 'TAL1,P17542,6886,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5
 
   XBP1,P17861,7494,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_D6RBM5.tsv
+tfs_download: TFLink_tfs_of_D6RBM5.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

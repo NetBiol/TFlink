@@ -211,7 +211,7 @@ tfs: 'ATF3,P18847,467,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5B
 
   NOTCH1,P46531,4851,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8NBR0.tsv
+tfs_download: TFLink_tfs_of_Q8NBR0.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

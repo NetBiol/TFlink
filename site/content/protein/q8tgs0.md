@@ -40,7 +40,7 @@ tfs: 'SET1,P38827,856519,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
 
   MCD1,Q12158,851561,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8TGS0.tsv
+tfs_download: TFLink_tfs_of_Q8TGS0.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

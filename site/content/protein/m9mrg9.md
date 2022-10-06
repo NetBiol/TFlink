@@ -18,7 +18,7 @@ tfs: 'Kr,P07247,38012,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D
 
   twi,P10627,37655,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_M9MRG9.tsv
+tfs_download: TFLink_tfs_of_M9MRG9.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

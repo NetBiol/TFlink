@@ -49,7 +49,7 @@ targets: 'CG17981,Q7KUG8,2768958,GTRD,chromatin immunoprecipitation assay,279240
 
   Sgs3,P02840,39288,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 tfs_download: ''
-targets_download: targets_of_Q2PNM9.tsv
+targets_download: TFLink_targets_of_Q2PNM9.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

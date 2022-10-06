@@ -200,7 +200,7 @@ tfs: 'Dr1,Q91WV0,13486,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5
 
   Klf4,Q60793,16600,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_A2AIP0.tsv
+tfs_download: TFLink_tfs_of_A2AIP0.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

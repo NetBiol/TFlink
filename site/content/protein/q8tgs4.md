@@ -27,7 +27,7 @@ tfs: 'HAC1,P41546,850513,Yeastract,footprinting;full identification by RNA seque
 
   TOS8,P53147,852783,Yeastract,full identification by RNA sequencing,24170807%5Buid%5D+OR+28673928%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8TGS4.tsv
+tfs_download: TFLink_tfs_of_Q8TGS4.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

@@ -214,8 +214,8 @@ tfs: 'ZNF350,Q9GZX5,59348,GTRD,chromatin immunoprecipitation assay,27924024%5Bui
 
   LDB1,Q86U70,8861,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No'
 targets: TLR4,O00206,7099,TRRUST,inferred by curator,29087512%5Buid%5D+OR+19846881%5Buid%5D,Yes
-tfs_download: tfs_of_Q9HCG1.tsv
-targets_download: targets_of_Q9HCG1.tsv
+tfs_download: TFLink_tfs_of_Q9HCG1.tsv
+targets_download: TFLink_targets_of_Q9HCG1.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

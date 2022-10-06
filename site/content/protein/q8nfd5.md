@@ -414,8 +414,8 @@ targets: 'IgH,Q9UGP3,-,TRRUST,inferred by curator,29087512%5Buid%5D+OR+18981111%
   FOXO1,Q12778,2308,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   LIG4,P49917,3981,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D+OR+27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q8NFD5.tsv
-targets_download: targets_of_Q8NFD5.tsv
+tfs_download: TFLink_tfs_of_Q8NFD5.tsv
+targets_download: TFLink_targets_of_Q8NFD5.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

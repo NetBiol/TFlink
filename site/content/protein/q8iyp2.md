@@ -46,7 +46,7 @@ tfs: 'TFAP4,Q01664,7023,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%
 
   DUX4,Q9UBX2,100288687,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8IYP2.tsv
+tfs_download: TFLink_tfs_of_Q8IYP2.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

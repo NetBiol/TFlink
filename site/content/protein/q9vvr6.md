@@ -240,8 +240,8 @@ targets: 'CG1662,F6JA08,-,GTRD,chromatin immunoprecipitation assay,27924024%5Bui
   SCCRO4,Q9VWB1,40231,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   AlstR-RB,H1UUK2,-,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q9VVR6.tsv
-targets_download: targets_of_Q9VVR6.tsv
+tfs_download: TFLink_tfs_of_Q9VVR6.tsv
+targets_download: TFLink_targets_of_Q9VVR6.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

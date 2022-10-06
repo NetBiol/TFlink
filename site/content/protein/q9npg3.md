@@ -410,8 +410,8 @@ targets: 'DLEU1,O43261,-,GTRD;ReMap,chromatin immunoprecipitation assay,29126285
   TADA1,Q96BN2,117143,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D+OR+27924024%5Buid%5D,No
 
   IARS1,P41252,3376,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No'
-tfs_download: tfs_of_Q9NPG3.tsv
-targets_download: targets_of_Q9NPG3.tsv
+tfs_download: TFLink_tfs_of_Q9NPG3.tsv
+targets_download: TFLink_targets_of_Q9NPG3.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

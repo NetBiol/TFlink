@@ -211,7 +211,7 @@ tfs: 'ZFP3,Q96NJ6,124961,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
   EGR1,P18146,1958,GTRD;ORegAnno;PAZAR;ReMap,chromatin immunoprecipitation assay;inferred
   by curator,29126285%5Buid%5D+OR+18971253%5Buid%5D+OR+27924024%5Buid%5D+OR+26578589%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_A5PKW4.tsv
+tfs_download: TFLink_tfs_of_A5PKW4.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

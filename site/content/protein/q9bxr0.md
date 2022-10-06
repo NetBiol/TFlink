@@ -213,7 +213,7 @@ tfs: 'KLF5,Q13887,688,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D
 
   RXRB,P28702,6257,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9BXR0.tsv
+tfs_download: TFLink_tfs_of_Q9BXR0.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

@@ -50,7 +50,7 @@ tfs: 'HIF1A,Q16665,3091,ReMap,chromatin immunoprecipitation assay,29126285%5Buid
 
   BRD4,O60885,23476,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8IUC0.tsv
+tfs_download: TFLink_tfs_of_Q8IUC0.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

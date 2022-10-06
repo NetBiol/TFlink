@@ -111,7 +111,7 @@ tfs: 'ETV1,P50549,2115,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5
 
   DUX4,Q9UBX2,100288687,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9BYS1.tsv
+tfs_download: TFLink_tfs_of_Q9BYS1.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

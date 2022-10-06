@@ -211,7 +211,7 @@ tfs: 'Cdk8,Q8R3L8,264064,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
 
   Kat5,Q8CHK4,81601,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8BVA2.tsv
+tfs_download: TFLink_tfs_of_Q8BVA2.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

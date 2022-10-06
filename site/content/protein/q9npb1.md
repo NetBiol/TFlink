@@ -211,7 +211,7 @@ tfs: 'CDKN1B,P46527,1027,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
 
   ASXL1,Q8IXJ9,171023,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9NPB1.tsv
+tfs_download: TFLink_tfs_of_Q9NPB1.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

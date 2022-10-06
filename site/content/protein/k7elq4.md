@@ -210,7 +210,7 @@ tfs: 'EPAS1,Q99814,2034,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%
 
   NIPBL,Q6KC79,25836,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D+OR+27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_K7ELQ4.tsv
+tfs_download: TFLink_tfs_of_K7ELQ4.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

@@ -268,8 +268,8 @@ targets: 'DCTN1-p150,P13496,39536,GTRD,chromatin immunoprecipitation assay,27924
   -,Q8T0R6,-,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   RpL22,P50887,31022,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q8IRW8.tsv
-targets_download: targets_of_Q8IRW8.tsv
+tfs_download: TFLink_tfs_of_Q8IRW8.tsv
+targets_download: TFLink_targets_of_Q8IRW8.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

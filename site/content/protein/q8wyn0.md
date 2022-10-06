@@ -214,7 +214,7 @@ tfs: 'E2F1,Q01094,1869,GTRD;ReMap;TFactS_via_DoRothea,chromatin immunoprecipitat
 
   CDKN1B,P46527,1027,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8WYN0.tsv
+tfs_download: TFLink_tfs_of_Q8WYN0.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

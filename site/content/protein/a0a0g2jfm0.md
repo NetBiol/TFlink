@@ -90,7 +90,7 @@ tfs: 'Nr3c1,P06537,-,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,
 
   Kdm2b,Q6P1G2,30841,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_A0A0G2JFM0.tsv
+tfs_download: TFLink_tfs_of_A0A0G2JFM0.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

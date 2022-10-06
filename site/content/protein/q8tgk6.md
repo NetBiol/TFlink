@@ -18,7 +18,7 @@ tfs: 'RAP1,P11938,855505,Yeastract,chromatin immunoprecipitation array,20231876%
   GCN4,P03069,856709,Yeastract,array technology/partial DNA sequence identification
   by hybridization,21119627%5Buid%5D+OR+24170807%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8TGK6.tsv
+tfs_download: TFLink_tfs_of_Q8TGK6.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

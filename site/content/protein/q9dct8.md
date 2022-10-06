@@ -211,7 +211,7 @@ tfs: 'Stat3,P42227,20848,GTRD;TRED,chromatin immunoprecipitation assay;inferred 
 
   Gfi1b,O70237,14582,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9DCT8.tsv
+tfs_download: TFLink_tfs_of_Q9DCT8.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

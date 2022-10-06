@@ -210,7 +210,7 @@ tfs: 'Prdm1,Q60636,12142,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
 
   E2f4,Q8R0K9,104394,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_A2ARP1.tsv
+tfs_download: TFLink_tfs_of_A2ARP1.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

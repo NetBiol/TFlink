@@ -213,7 +213,7 @@ tfs: 'TAL1,P17542,6886,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5
 
   GATAD2B,Q8WXI9,57459,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8NFU1.tsv
+tfs_download: TFLink_tfs_of_Q8NFU1.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

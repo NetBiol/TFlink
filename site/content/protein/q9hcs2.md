@@ -212,7 +212,7 @@ tfs: 'NR1I2,O75469,8856,HTRI;TRRUST,chromatin immunoprecipitation assay;inferred
 
   NFIB,O00712,4781,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9HCS2.tsv
+tfs_download: TFLink_tfs_of_Q9HCS2.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

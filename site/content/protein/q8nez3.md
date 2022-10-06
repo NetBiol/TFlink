@@ -213,7 +213,7 @@ tfs: 'SOX9,P48436,6662,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%
 
   POU3F2,P20265,5454,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8NEZ3.tsv
+tfs_download: TFLink_tfs_of_Q8NEZ3.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

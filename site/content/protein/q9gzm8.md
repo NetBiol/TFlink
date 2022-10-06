@@ -215,7 +215,7 @@ tfs: 'PRDM14,Q9GZV8,63978,GTRD,chromatin immunoprecipitation assay,27924024%5Bui
 
   ESCO2,Q56NI9,157570,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9GZM8.tsv
+tfs_download: TFLink_tfs_of_Q9GZM8.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

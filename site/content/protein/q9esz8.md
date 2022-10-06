@@ -242,8 +242,8 @@ targets: 'Ccl7,Q03366,20306,TRRUST,inferred by curator,17041962%5Buid%5D+OR+2908
   Tgfb2,P27090,21808,TRRUST,inferred by curator,17041962%5Buid%5D+OR+29087512%5Buid%5D,Yes
 
   Fos,P01101,14281,TRRUST,inferred by curator,11934902%5Buid%5D+OR+11313464%5Buid%5D+OR+9584171%5Buid%5D+OR+29087512%5Buid%5D+OR+10648599%5Buid%5D,Yes'
-tfs_download: tfs_of_Q9ESZ8.tsv
-targets_download: targets_of_Q9ESZ8.tsv
+tfs_download: TFLink_tfs_of_Q9ESZ8.tsv
+targets_download: TFLink_targets_of_Q9ESZ8.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

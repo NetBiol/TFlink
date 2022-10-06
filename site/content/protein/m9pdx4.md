@@ -40,7 +40,7 @@ tfs: 'E(var)3-9,Q9VHJ3,41073,GTRD,chromatin immunoprecipitation assay,27924024%5
 
   tx,P41894,43190,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_M9PDX4.tsv
+tfs_download: TFLink_tfs_of_M9PDX4.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

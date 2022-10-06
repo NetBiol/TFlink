@@ -211,7 +211,7 @@ tfs: 'ESR1,P03372,2099,GTRD;HTRI;TRED;TRRUST,chromatin immunoprecipitation assay
 
   CREB3L4,Q8TEY5,148327,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8IZL8.tsv
+tfs_download: TFLink_tfs_of_Q8IZL8.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

@@ -411,8 +411,8 @@ targets: 'KALRN,O60229,8997,GTRD,chromatin immunoprecipitation assay,27924024%5B
   ZNF675,Q8TD23,171392,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   C8orf82,Q6P1X6,414919,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_A2RRD8.tsv
-targets_download: targets_of_A2RRD8.tsv
+tfs_download: TFLink_tfs_of_A2RRD8.tsv
+targets_download: TFLink_targets_of_A2RRD8.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

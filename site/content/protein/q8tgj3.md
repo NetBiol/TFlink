@@ -26,7 +26,7 @@ tfs: 'TBF1,Q02457,855975,Yeastract,chromatin immunoprecipitation array,20231876%
 
   SUA7,P29055,856201,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8TGJ3.tsv
+tfs_download: TFLink_tfs_of_Q8TGJ3.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

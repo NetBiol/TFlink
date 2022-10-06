@@ -48,7 +48,7 @@ tfs: 'nhr-77,O02316,191726,GTRD,chromatin immunoprecipitation assay,27924024%5Bu
 
   mes-2,O17514,175096,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_F5GUE5.tsv
+tfs_download: TFLink_tfs_of_F5GUE5.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

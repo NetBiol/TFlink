@@ -215,7 +215,7 @@ tfs: 'ZIC2,O95409,7546,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5
 
   CEBPA,P49715,1050,ORegAnno;PAZAR,inferred by curator,18971253%5Buid%5D+OR+26578589%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_U3KQA8.tsv
+tfs_download: TFLink_tfs_of_U3KQA8.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

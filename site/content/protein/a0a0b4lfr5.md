@@ -22,7 +22,7 @@ tfs: 'Pc,P26017,40358,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D
 
   gro,P16371,43162,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_A0A0B4LFR5.tsv
+tfs_download: TFLink_tfs_of_A0A0B4LFR5.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

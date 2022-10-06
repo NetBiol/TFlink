@@ -210,7 +210,7 @@ tfs: 'Nr1d2,Q60674,353187,GTRD,chromatin immunoprecipitation assay,27924024%5Bui
 
   Nelfa,Q8BG30,24116,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_E9QNL4.tsv
+tfs_download: TFLink_tfs_of_E9QNL4.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

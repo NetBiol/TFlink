@@ -20,7 +20,7 @@ tfs: 'daf-19,Q09555,174577,ORegAnno,inferred by curator,26578589%5Buid%5D+OR+157
 
   dpl-1,Q22703,174458,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9NEZ7.tsv
+tfs_download: TFLink_tfs_of_Q9NEZ7.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

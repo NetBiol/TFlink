@@ -100,7 +100,7 @@ tfs: 'Pax6,P63015,18508,TRED,inferred by curator,17202159%5Buid%5D,Yes
 
   Cebpa,P53566,12606,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9CXV3.tsv
+tfs_download: TFLink_tfs_of_Q9CXV3.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

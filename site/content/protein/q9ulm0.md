@@ -213,7 +213,7 @@ tfs: 'CBFB,Q13951,865,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5
 
   ZSCAN22,P10073,342945,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9ULM0.tsv
+tfs_download: TFLink_tfs_of_Q9ULM0.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

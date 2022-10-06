@@ -212,7 +212,7 @@ tfs: 'FOXQ1,Q9C009,94234,TRRUST,inferred by curator,29087512%5Buid%5D+OR+2014515
 
   TCF7L2,Q9NQB0,6934,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q6UXX9.tsv
+tfs_download: TFLink_tfs_of_Q6UXX9.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

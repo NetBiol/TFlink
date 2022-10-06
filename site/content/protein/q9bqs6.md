@@ -210,7 +210,7 @@ tfs: 'KAT8,Q9H7Z6,84148,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%
 
   GATAD2B,Q8WXI9,57459,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9BQS6.tsv
+tfs_download: TFLink_tfs_of_Q9BQS6.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

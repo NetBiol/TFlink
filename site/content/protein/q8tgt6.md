@@ -36,7 +36,7 @@ tfs: 'HAC1,P41546,850513,Yeastract,full identification by RNA sequencing,3001662
 
   YAP1,P19880,855005,Yeastract,chromatin immunoprecipitation array,18627600%5Buid%5D+OR+24170807%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8TGT6.tsv
+tfs_download: TFLink_tfs_of_Q8TGT6.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

@@ -112,7 +112,7 @@ tfs: 'Pdp1,Q24217,45588,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%
 
   E(var)3-9,Q9VHJ3,41073,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_F2FBA3.tsv
+tfs_download: TFLink_tfs_of_F2FBA3.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

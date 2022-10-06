@@ -50,7 +50,7 @@ tfs: 'TfIIA-L,P52654,43284,GTRD,chromatin immunoprecipitation assay,27924024%5Bu
 
   zfh2,P28167,43795,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q7KVA1.tsv
+tfs_download: TFLink_tfs_of_Q7KVA1.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

@@ -90,7 +90,7 @@ tfs: 'FOXA1,P55317,3169,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%
 
   NFE2,Q16621,4778,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_A0A1B0GTE1.tsv
+tfs_download: TFLink_tfs_of_A0A1B0GTE1.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

@@ -409,8 +409,8 @@ targets: 'Pten,O08586,19211,GTRD,chromatin immunoprecipitation assay,27924024%5B
   Zfp58,P16372,238693,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   Hax1,O35387,23897,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q8BGS3.tsv
-targets_download: targets_of_Q8BGS3.tsv
+tfs_download: TFLink_tfs_of_Q8BGS3.tsv
+targets_download: TFLink_targets_of_Q8BGS3.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

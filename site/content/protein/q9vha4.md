@@ -128,8 +128,8 @@ targets: 'Kyat,Q8SXC2,41433,GTRD,chromatin immunoprecipitation assay,27924024%5B
   Reph,Q8MRQ2,47399,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   Dmel\CG9596,Q8MS69,33920,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q9VHA4.tsv
-targets_download: targets_of_Q9VHA4.tsv
+tfs_download: TFLink_tfs_of_Q9VHA4.tsv
+targets_download: TFLink_targets_of_Q9VHA4.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

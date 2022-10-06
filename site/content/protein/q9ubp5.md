@@ -333,8 +333,8 @@ targets: 'GATA4,P43694,2626,TRRUST,inferred by curator,16199874%5Buid%5D+OR+2908
   NUDT15,Q9NV35,55270,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   FANCA,O15360,2175,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q9UBP5.tsv
-targets_download: targets_of_Q9UBP5.tsv
+tfs_download: TFLink_tfs_of_Q9UBP5.tsv
+targets_download: TFLink_targets_of_Q9UBP5.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

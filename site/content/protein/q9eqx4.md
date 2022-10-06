@@ -211,7 +211,7 @@ tfs: 'Mfsd11,Q8BJ51,69900,GTRD,chromatin immunoprecipitation assay,27924024%5Bui
 
   Snai1,Q02085,20613,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9EQX4.tsv
+tfs_download: TFLink_tfs_of_Q9EQX4.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

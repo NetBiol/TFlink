@@ -211,7 +211,7 @@ tfs: 'Nr2f2,P43135,11819,TRRUST,inferred by curator,29087512%5Buid%5D+OR+1261416
 
   Tal1,P22091,21349,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8VDN2.tsv
+tfs_download: TFLink_tfs_of_Q8VDN2.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

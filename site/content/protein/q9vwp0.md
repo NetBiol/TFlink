@@ -96,7 +96,7 @@ tfs: 'Adf1,P05552,47082,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%
 
   Sgf11,Q9VVR6,40035,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9VWP0.tsv
+tfs_download: TFLink_tfs_of_Q9VWP0.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

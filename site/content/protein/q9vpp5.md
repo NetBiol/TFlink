@@ -66,7 +66,7 @@ tfs: 'Ets97D,Q04688,43236,GTRD,chromatin immunoprecipitation assay,27924024%5Bui
 
   dl,P15330,35047,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9VPP5.tsv
+tfs_download: TFLink_tfs_of_Q9VPP5.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

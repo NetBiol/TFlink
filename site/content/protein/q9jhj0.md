@@ -211,7 +211,7 @@ tfs: 'Thap11,Q9JJD0,59016,GTRD,chromatin immunoprecipitation assay,27924024%5Bui
 
   Ebf2,O08792,13592,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9JHJ0.tsv
+tfs_download: TFLink_tfs_of_Q9JHJ0.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

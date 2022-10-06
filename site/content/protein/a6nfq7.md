@@ -42,7 +42,7 @@ tfs: 'AR,P10275,367,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,N
 
   E2F1,Q01094,1869,ORegAnno;PAZAR,inferred by curator,18971253%5Buid%5D+OR+26578589%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_A6NFQ7.tsv
+tfs_download: TFLink_tfs_of_A6NFQ7.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

@@ -76,7 +76,7 @@ tfs: 'EBF1,Q9UH73,1879,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%
 
   AHR,P35869,196,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9BZW2.tsv
+tfs_download: TFLink_tfs_of_Q9BZW2.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

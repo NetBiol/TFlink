@@ -414,8 +414,8 @@ targets: 'BRCA1,P38398,672,GTRD;ReMap;TRRUST,chromatin immunoprecipitation assay
   AKAP5,P24588,9495,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No
 
   STARD10,Q9Y365,10809,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D+OR+27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q9HCK8.tsv
-targets_download: targets_of_Q9HCK8.tsv
+tfs_download: TFLink_tfs_of_Q9HCK8.tsv
+targets_download: TFLink_targets_of_Q9HCK8.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

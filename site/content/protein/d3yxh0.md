@@ -211,7 +211,7 @@ tfs: 'Dppa4,Q8CCG4,73693,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
 
   Ets1,P27577,23871,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_D3YXH0.tsv
+tfs_download: TFLink_tfs_of_D3YXH0.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

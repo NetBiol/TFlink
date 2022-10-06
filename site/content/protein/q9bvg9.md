@@ -210,7 +210,7 @@ tfs: 'NELFA,Q9H3P2,7469,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%
 
   MYRF,Q9Y2G1,745,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9BVG9.tsv
+tfs_download: TFLink_tfs_of_Q9BVG9.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

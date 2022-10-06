@@ -212,7 +212,7 @@ tfs: 'FOS,P01100,2353,ORegAnno;PAZAR,inferred by curator,18971253%5Buid%5D+OR+26
 
   FOXM1,Q08050,2305,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q8NFX7.tsv
+tfs_download: TFLink_tfs_of_Q8NFX7.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

@@ -226,8 +226,8 @@ targets: 'Sox2,P48432,20674,TRRUST,inferred by curator,20937839%5Buid%5D+OR+2908
   Ccnd1,P25322,12443,TRRUST,inferred by curator,29087512%5Buid%5D+OR+25322986%5Buid%5D,Yes
 
   Nanog,Q80Z64,71950,TRRUST,inferred by curator,20937839%5Buid%5D+OR+29087512%5Buid%5D,Yes'
-tfs_download: tfs_of_Q9QYB2.tsv
-targets_download: targets_of_Q9QYB2.tsv
+tfs_download: TFLink_tfs_of_Q9QYB2.tsv
+targets_download: TFLink_targets_of_Q9QYB2.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

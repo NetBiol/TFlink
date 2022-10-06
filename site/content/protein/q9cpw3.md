@@ -210,7 +210,7 @@ tfs: 'Med26,Q7TN02,70625,GTRD,chromatin immunoprecipitation assay,27924024%5Buid
 
   Sumo2,P61957,170930,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9CPW3.tsv
+tfs_download: TFLink_tfs_of_Q9CPW3.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

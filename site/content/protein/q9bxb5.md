@@ -212,7 +212,7 @@ tfs: 'BRD2,P25440,6046,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5
 
   KLF17,Q5JT82,128209,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
 targets: ''
-tfs_download: tfs_of_Q9BXB5.tsv
+tfs_download: TFLink_tfs_of_Q9BXB5.tsv
 targets_download: ''
 bindingSites_download: ''
 binding_sites_ls: ''

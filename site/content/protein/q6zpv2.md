@@ -410,8 +410,8 @@ targets: 'Sec16a,E9QAT4,227648,GTRD,chromatin immunoprecipitation assay,27924024
   Proser2,Q8C5R2,227545,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   Med28,Q920D3,66999,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_Q6ZPV2.tsv
-targets_download: targets_of_Q6ZPV2.tsv
+tfs_download: TFLink_tfs_of_Q6ZPV2.tsv
+targets_download: TFLink_targets_of_Q6ZPV2.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 

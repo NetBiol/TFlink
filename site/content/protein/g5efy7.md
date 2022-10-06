@@ -222,8 +222,8 @@ targets: 'fat-4,G5EG11,177819,GTRD,chromatin immunoprecipitation assay,27924024%
   -,O44505,176844,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
 
   -,Q9BPN8,171707,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No'
-tfs_download: tfs_of_G5EFY7.tsv
-targets_download: targets_of_G5EFY7.tsv
+tfs_download: TFLink_tfs_of_G5EFY7.tsv
+targets_download: TFLink_targets_of_G5EFY7.tsv
 bindingSites_download: ''
 binding_sites_ls: ''
 
