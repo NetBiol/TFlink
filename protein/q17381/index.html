@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<base href="/" />
+<title>TFLink</title>
+<link rel="stylesheet" href="https://cdn.webix.com/edge/webix.css" />
+
+<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-touch-icon.png?v=jwEjQXwyNy">
+<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png?v=jwEjQXwyNy">
+<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png?v=jwEjQXwyNy">
+<link rel="manifest" href="/images/favicon/site.webmanifest?v=jwEjQXwyNy">
+<link rel="mask-icon" href="/images/favicon/safari-pinned-tab.svg?v=jwEjQXwyNy" color="#70adb5">
+<link rel="shortcut icon" href="/images/favicon/favicon.ico?v=jwEjQXwyNy">
+<meta name="msapplication-TileColor" content="#00aba9">
+<meta name="msapplication-config" content="/images/favicon/browserconfig.xml?v=jwEjQXwyNy">
+<meta name="theme-color" content="#ffffff">
+
+
+
+<link href="/main.e9931.css" rel="stylesheet" />
+
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"
+  integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+<script src="https://cdn.webix.com/edge/webix.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.5/js/uikit.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.5/js/uikit-icons.min.js"></script>
+
+<script>
+  $(window).on('load', function () {
+    $('#spinner').fadeOut(300);
+  });
+</script>
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5RNBLSCVTD"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-5RNBLSCVTD');
+</script>
+
+</head>
+
+<body>
+  <div class="net-top-navbar" uk-sticky>
+    <div class="uk-container uk-container-center uk-container-expand">
+        <nav class="uk-navbar uk-navbar-container navbar">
+            <a class="uk-navbar-item uk-logo" href="/"><img src="/images/favicon/favicon-32x32.png">Link</a>
+            <ul class="uk-navbar-nav">
+                <li id="nav_browse">
+                    <a href="/browse/">Browse</a>
+                </li>
+                <li id="nav_download">
+                  <a href="/download/">Download</a>
+              </li>
+              <li id="nav_faq">
+                <a href="/faq/">FAQ</a>
+            </li>
+            </ul>
+        </nav>
+    </div>
+</div>
+
+
+  <div class="uk-container uk-container-expand uk-margin-large-bottom">
+    <div id="spinner"></div>
+    
+<div class="uk-grid" data-uk-grid-margin>
+  <div class="uk-width-medium-1-1">
+    <div class="uk-panel uk-panel-box uk-text-center">
+      <h1 id="protein_name">pha-4</h1>
+      <hr class="" />
+    </div>
+  </div>
+</div>
+
+<div class="uk-grid-small" uk-grid uk-text-left>
+  <div class="uk-width-1-2@m">
+    <dl class="dl-horizontal">
+      <dt>Name</dt>
+      <dd>pha-4</dd>
+      <dt>Uniprot Accession</dt>
+      <dd>
+        <a id="uniprot-id" href="https://www.uniprot.org/uniprot/Q17381"
+          target="_blank" id="uniprot-ac">
+          Q17381</a>
+      </dd>
+      <dt>NCBI Gene ID</dt>
+      <dd>
+        
+        <a href="https://www.ncbi.nlm.nih.gov/gene/?term=180357"
+          target="_blank">180357</a>
+        
+      </dd>
+      <dt>Organism</dt>
+      <dd>
+        <span>
+          <i id="organism">Caenorhabditis elegans</i>
+          <span id="species_siluette" class="siluette-small">
+          </span>
+        </span>
+      </dd>
+      <dt>Function</dt>
+      <dd>transcription factor and target gene</dd>
+      <dt>Number of interactions</dt>
+      
+      <dd>7,320</dd>
+      
+      
+      
+      <dt>JASPAR position specific scoring matrix</dt>
+      <dd>
+        
+        <ul class="target-blank"><a href="https://jaspar.genereg.net/matrix/MA0546.1/">
+            MA0546.1</a></ul>
+        
+      </dd>
+      
+    </dl>
+  </div>
+
+</div>
+
+
+<div class="uk-grid">
+  <div class="uk-width-2-3@xl">
+    <h2>Targets of pha-4</h2>
+    <div>
+      <div id="target_paging"></div>
+      
+      <div style="position:relative;">
+        <span style="font-weight: bold">Please be aware that here we show only the top 100 rows of
+          the data. <br />
+          If you wish to see all the data please click the <i>download all</i> button.</span>
+        <button style="position:absolute; right:0px; bottom:5px"
+          onclick="location.href='https://cdn.netbiol.org/tflink/proteinDownload_targets/TFLink_targets_of_Q17381.tsv'"
+          type="button">
+          <span uk-icon="icon: download; ratio: 1.5"></span>
+          <h4 style="display: inline-block; margin: 0">Download all</h4>
+        </button>
+      </div>
+      
+    </div>
+
+    <div id="target_div"></div>
+    <input id="target_data" type="hidden" name="target_data"
+      value="enpl-1,Q22235,178014,GTRD;ORegAnno,chromatin immunoprecipitation assay;inferred by curator,26578589%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#43;OR&#43;11823633%5Buid%5D,Yes
+-,H2KYX5,173391,GTRD;ORegAnno,chromatin immunoprecipitation assay;inferred by curator,15492775%5Buid%5D&#43;OR&#43;26578589%5Buid%5D&#43;OR&#43;27924024%5Buid%5D,Yes
+-,Q22886,-,GTRD;ORegAnno,chromatin immunoprecipitation assay;inferred by curator,15492775%5Buid%5D&#43;OR&#43;26578589%5Buid%5D&#43;OR&#43;27924024%5Buid%5D,Yes
+-,Q19191,-,GTRD;ORegAnno,chromatin immunoprecipitation assay;inferred by curator,15492775%5Buid%5D&#43;OR&#43;26578589%5Buid%5D&#43;OR&#43;27924024%5Buid%5D,Yes
+phat-5,O16420,178811,ORegAnno,inferred by curator,15492775%5Buid%5D&#43;OR&#43;26578589%5Buid%5D,Yes
+-,D2YW11,176809,GTRD;ORegAnno,chromatin immunoprecipitation assay;inferred by curator,15492775%5Buid%5D&#43;OR&#43;26578589%5Buid%5D&#43;OR&#43;27924024%5Buid%5D,Yes
+-,Q19809,178975,ORegAnno,inferred by curator,15492775%5Buid%5D&#43;OR&#43;26578589%5Buid%5D,Yes
+lron-1,Q93377,181553,GTRD;ORegAnno,chromatin immunoprecipitation assay;inferred by curator,26578589%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#43;OR&#43;11823633%5Buid%5D,Yes
+myo-2,P12845,181404,GTRD;ORegAnno,chromatin immunoprecipitation assay;inferred by curator,26578589%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#43;OR&#43;11823633%5Buid%5D,Yes
+-,Q20712,180577,GTRD;ORegAnno,chromatin immunoprecipitation assay;inferred by curator,15492775%5Buid%5D&#43;OR&#43;26578589%5Buid%5D&#43;OR&#43;27924024%5Buid%5D,Yes
+-,Q6A5A0,173391,GTRD;ORegAnno,chromatin immunoprecipitation assay;inferred by curator,15492775%5Buid%5D&#43;OR&#43;26578589%5Buid%5D&#43;OR&#43;27924024%5Buid%5D,Yes
+plpr-1,Q22250,174710,GTRD;ORegAnno,chromatin immunoprecipitation assay;inferred by curator,15492775%5Buid%5D&#43;OR&#43;26578589%5Buid%5D&#43;OR&#43;27924024%5Buid%5D,Yes
+-,Q23610,191431,ORegAnno,inferred by curator,26578589%5Buid%5D&#43;OR&#43;11823633%5Buid%5D,Yes
+ketn-1,V6CLP5,178740,GTRD;ORegAnno,chromatin immunoprecipitation assay;inferred by curator,15492775%5Buid%5D&#43;OR&#43;26578589%5Buid%5D&#43;OR&#43;27924024%5Buid%5D,Yes
+-,H2L041,-,ORegAnno,inferred by curator,15492775%5Buid%5D&#43;OR&#43;26578589%5Buid%5D,Yes
+-,Q9U345,176809,GTRD;ORegAnno,chromatin immunoprecipitation assay;inferred by curator,15492775%5Buid%5D&#43;OR&#43;26578589%5Buid%5D&#43;OR&#43;27924024%5Buid%5D,Yes
+-,Q09609,181201,ORegAnno,inferred by curator,15492775%5Buid%5D&#43;OR&#43;26578589%5Buid%5D,Yes
+-,Q5TYL4,177375,GTRD;ORegAnno,chromatin immunoprecipitation assay;inferred by curator,15492775%5Buid%5D&#43;OR&#43;26578589%5Buid%5D&#43;OR&#43;27924024%5Buid%5D,Yes
+-,Q19021,181387,ORegAnno,inferred by curator,15492775%5Buid%5D&#43;OR&#43;26578589%5Buid%5D,Yes
+pha-4,Q17381,180357,GTRD;ORegAnno,chromatin immunoprecipitation assay;inferred by curator,15492775%5Buid%5D&#43;OR&#43;26578589%5Buid%5D&#43;OR&#43;27924024%5Buid%5D,Yes
+-,P91423,171962,GTRD;ORegAnno,chromatin immunoprecipitation assay;inferred by curator,15492775%5Buid%5D&#43;OR&#43;26578589%5Buid%5D&#43;OR&#43;27924024%5Buid%5D,Yes
+-,D2YW10,176809,GTRD;ORegAnno,chromatin immunoprecipitation assay;inferred by curator,15492775%5Buid%5D&#43;OR&#43;26578589%5Buid%5D&#43;OR&#43;27924024%5Buid%5D,Yes
+pqn-13,H2KYR7,178954,GTRD;ORegAnno,chromatin immunoprecipitation assay;inferred by curator,15492775%5Buid%5D&#43;OR&#43;26578589%5Buid%5D&#43;OR&#43;27924024%5Buid%5D,Yes
+-,O16364,178870,GTRD;ORegAnno,chromatin immunoprecipitation assay;inferred by curator,15492775%5Buid%5D&#43;OR&#43;26578589%5Buid%5D&#43;OR&#43;27924024%5Buid%5D,Yes
+-,A0A2C9C306,-,GTRD;ORegAnno,chromatin immunoprecipitation assay;inferred by curator,15492775%5Buid%5D&#43;OR&#43;26578589%5Buid%5D&#43;OR&#43;27924024%5Buid%5D,Yes
+-,A0A0K3ATW3,173391,GTRD;ORegAnno,chromatin immunoprecipitation assay;inferred by curator,15492775%5Buid%5D&#43;OR&#43;26578589%5Buid%5D&#43;OR&#43;27924024%5Buid%5D,Yes
+cest-17,Q21266,179198,GTRD;ORegAnno,chromatin immunoprecipitation assay;inferred by curator,15492775%5Buid%5D&#43;OR&#43;26578589%5Buid%5D&#43;OR&#43;27924024%5Buid%5D,Yes
+-,Q19005,177633,ORegAnno,inferred by curator,26578589%5Buid%5D&#43;OR&#43;11823633%5Buid%5D,Yes
+-,Q9NL87,-,GTRD;ORegAnno,chromatin immunoprecipitation assay;inferred by curator,15492775%5Buid%5D&#43;OR&#43;26578589%5Buid%5D&#43;OR&#43;27924024%5Buid%5D,Yes
+elo-6,Q20303,177321,GTRD;ORegAnno,chromatin immunoprecipitation assay;inferred by curator,15492775%5Buid%5D&#43;OR&#43;26578589%5Buid%5D&#43;OR&#43;27924024%5Buid%5D,Yes
+-,Q10014,173943,ORegAnno,inferred by curator,15492775%5Buid%5D&#43;OR&#43;26578589%5Buid%5D,Yes
+-,H2KYX6,173391,GTRD;ORegAnno,chromatin immunoprecipitation assay;inferred by curator,15492775%5Buid%5D&#43;OR&#43;26578589%5Buid%5D&#43;OR&#43;27924024%5Buid%5D,Yes
+-,F1LIN3,178530,GTRD;ORegAnno,chromatin immunoprecipitation assay;inferred by curator,15492775%5Buid%5D&#43;OR&#43;26578589%5Buid%5D&#43;OR&#43;27924024%5Buid%5D,Yes
+-,Q9U344,176809,GTRD;ORegAnno,chromatin immunoprecipitation assay;inferred by curator,15492775%5Buid%5D&#43;OR&#43;26578589%5Buid%5D&#43;OR&#43;27924024%5Buid%5D,Yes
+prmn-1,Q19188,181330,GTRD;ORegAnno,chromatin immunoprecipitation assay;inferred by curator,15492775%5Buid%5D&#43;OR&#43;26578589%5Buid%5D&#43;OR&#43;27924024%5Buid%5D,Yes
+let-522,Q21516,187451,GTRD;ORegAnno,chromatin immunoprecipitation assay;inferred by curator,26578589%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#43;OR&#43;11823633%5Buid%5D,Yes
+-,Q9XVQ7,178530,GTRD;ORegAnno,chromatin immunoprecipitation assay;inferred by curator,15492775%5Buid%5D&#43;OR&#43;26578589%5Buid%5D&#43;OR&#43;27924024%5Buid%5D,Yes
+ceh-22,P41936,179485,GTRD;ORegAnno,chromatin immunoprecipitation assay;inferred by curator,26578589%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#43;OR&#43;11823633%5Buid%5D&#43;OR&#43;14738885%5Buid%5D,Yes
+tph-1,Q2V4U7,-,ORegAnno,inferred by curator,26578589%5Buid%5D&#43;OR&#43;11823633%5Buid%5D,Yes
+-,C0P284,178530,GTRD;ORegAnno,chromatin immunoprecipitation assay;inferred by curator,15492775%5Buid%5D&#43;OR&#43;26578589%5Buid%5D&#43;OR&#43;27924024%5Buid%5D,Yes
+-,H2L042,181010,ORegAnno,inferred by curator,15492775%5Buid%5D&#43;OR&#43;26578589%5Buid%5D,Yes
+-,A8WFH5,-,ORegAnno,inferred by curator,15492775%5Buid%5D&#43;OR&#43;26578589%5Buid%5D,Yes
+-,Q19807,181025,ORegAnno,inferred by curator,15492775%5Buid%5D&#43;OR&#43;26578589%5Buid%5D,Yes
+atf-2,Q21361,174399,ORegAnno,inferred by curator,15492775%5Buid%5D&#43;OR&#43;26578589%5Buid%5D,Yes
+abu-14,Q23390,174464,ORegAnno,inferred by curator,15492775%5Buid%5D&#43;OR&#43;26578589%5Buid%5D,Yes
+-,Q21494,177375,GTRD;ORegAnno,chromatin immunoprecipitation assay;inferred by curator,15492775%5Buid%5D&#43;OR&#43;26578589%5Buid%5D&#43;OR&#43;27924024%5Buid%5D,Yes
+uvs-1,Q23088,179158,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+htz-1,Q27511,177212,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+fkb-7,O61826,172963,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+-,Q19132,-,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+-,Q09348,174293,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+-,O45068,182512,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+ins-39,O16588,180476,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+plk-1,P34331,176143,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+cyp-37b1,O17851,180093,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+-,Q9XWX8,-,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+-,Q22845,189035,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+-,O16487,178915,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+ivph-3,Q9GUN8,177086,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+-,U4PRX8,-,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+-,A8WHN6,-,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+-,Q94143,-,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+pro-1,Q22006,174622,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+utp-20,Q19545,-,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+tes-1,Q17525,177515,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+-,Q968Z0,175408,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+fbxa-4,G4SG25,-,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+rsf-1,Q22744,174728,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+lsm-6,Q95XN6,190601,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+-,Q7YX91,3565209,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+acbp-1,O01805,172071,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+-,B3WFX6,172764,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+trx-2,Q17424,179434,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+ttr-23,Q22643,188688,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+sec-16A.1,P34643,176289,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+-,Q22419,175887,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+-,G5EFR2,179843,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+-,G5EF23,13217259,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+rib-1,O01704,178080,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+aipl-1,O17939,180022,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+-,O17324,182497,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+dlat-2,O45279,178524,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+kcc-1,S6FWN4,177495,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+sssh-1,Q565B0,3565973,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+mif-3,P90835,172481,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+nhr-109,H2L0L6,-,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+-,A0A0K3AYL4,181654,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+-,Q22318,179765,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+set-3,P34318,182356,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+-,A0A0K3AUL0,185962,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+-,Q19857,179708,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+clsp-1,O17838,172742,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+cest-1.2,P92016,179914,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+-,Q09458,182461,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+aakg-1,Q9BHL6,3565679,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+plpp-1.2,Q10022,174071,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+-,G4SFA7,-,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+lec-3,Q09581,174557,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+rpoa-1,G5ED21,175015,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+-,N1NVC1,-,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No" />
+    <p></p>
+  </div>
+  <div class="uk-width-1-3@xl">
+    <div id="target-network-div"
+      style="height: 400px; width: 400px; border-style: solid; border-width: .1em;">
+    </div>
+    <div id="targetControlDiv"></div>
+  </div>
+</div>
+
+
+
+
+<div class=" uk-grid" data-uk-grid-margin>
+  <div class="uk-width-2-3@xl">
+    <h2>Transcription factors of pha-4</h2>
+    <div>
+      <div id="tf_paging"></div>
+      
+      <div style="position:relative;">
+        <span style="font-weight: bold">Please be aware that here we show only the top 100 rows of
+          the data. <br />
+          If you wish to see all the data please click the <i>download all</i> button.</span>
+        <button style="position:absolute; right:0px; bottom:5px"
+          onclick="location.href='https://cdn.netbiol.org/tflink/proteinDownload_tfs/TFLink_tfs_of_Q17381.tsv'"
+          type="button">
+          <span uk-icon="icon: download; ratio: 1.5"></span>
+          <h4 style="display: inline-block; margin: 0">Download all</h4>
+        </button>
+      </div>
+      
+    </div>
+    <div id="tf_div"></div>
+    <input id="tf_data" type="hidden" name="tf_data" value="pha-4,Q17381,180357,GTRD;ORegAnno,chromatin immunoprecipitation assay;inferred by curator,15492775%5Buid%5D&#43;OR&#43;26578589%5Buid%5D&#43;OR&#43;27924024%5Buid%5D,Yes
+xrn-2,Q9U299,175071,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+gmeb-1,O17208,182061,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+nfya-1,G5EEG1,181368,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+unc-62,Q9N5D6,178845,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+ceh-60,Q45EK2,184803,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+snpc-4,P91868,172711,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+mep-1,Q21502,178074,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+ceh-28,G5EE18,191619,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+elt-2,Q10655,181250,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+lin-42,Q65ZG8,173503,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+skn-1,P34707,177343,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+nhr-28,Q17905,181705,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+tra-1,P34708,-,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+mes-2,O17514,175096,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+tdp-1,D0VWM8,174436,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+lin-35,G5EDT1,172249,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+nhr-77,O02316,191726,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+kle-2,P34341,176116,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+nhr-6,P41829,175462,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+pqm-1,G5EFY7,174705,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+fos-1,G5ECG2,178987,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+hlh-11,P34474,176360,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+sma-9,Q22190,181271,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+daf-16,O16850,172981,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No" />
+    <p></p>
+  </div>
+  <div class="uk-width-1-3@xl">
+    <div id="tf-network-div"
+      style="height: 400px; width: 400px; border-style: solid; border-width: .1em;">
+    </div>
+    <div id="tfControlDiv"></div>
+  </div>
+</div>
+
+
+
+<div class="uk-grid" data-uk-grid-margin>
+  <div style="padding-right: 20px;">
+    <h2>Binding sites of pha-4</h2>
+    <div>
+      <div id="binding_sites_paging"></div>
+
+      <div style="float: right; padding-bottom: 5px;">
+        
+        <button
+          onclick="location.href='https://cdn.netbiol.org/tflink/proteinDownload_bindingSites/TFLink_Q17381_TFBS_annot.tsv'"
+          type="button">
+          <span uk-icon="icon: download; ratio: 1.5"></span>
+          <h4 style="display: inline-block; margin: 0">Download all</h4>
+        </button>
+        
+        
+        <button
+          onclick="location.href='https://cdn.netbiol.org/tflink/proteinDownload_bindingSites/TFLink_Q17381_TFBS_annot.gff3'"
+          type="button">
+          <span uk-icon="icon: download; ratio: 1.5"></span>
+          <h4 style="display: inline-block; margin: 0">Download gff3</h4>
+        </button>
+        
+      </div>
+    </div>
+    <div id="binding_sites_div"></div>
+    <input id="binding_sites_data" type="hidden" name="binding_sites_data"
+      value="TFLinkSS09283314,Q17381,pha-4,Caenorhabditis elegans,ce10,chrIII,13731645,13731651,-,ce10&amp;position=chrIII:13731645-13731651,inferred by curator,15492775%5Buid%5D,ORegAnno,Yes,0
+TFLinkSS09283315,Q17381,pha-4,Caenorhabditis elegans,ce10,chrIV,11119343,11119349,&#43;,ce10&amp;position=chrIV:11119343-11119349,inferred by curator,11823633%5Buid%5D,ORegAnno,Yes,0
+TFLinkSS09283316,Q17381,pha-4,Caenorhabditis elegans,ce10,chrIV,8369654,8369660,-,ce10&amp;position=chrIV:8369654-8369660,inferred by curator,11823633%5Buid%5D,ORegAnno,Yes,0
+TFLinkSS09283317,Q17381,pha-4,Caenorhabditis elegans,ce10,chrX,14572534,14572540,&#43;,ce10&amp;position=chrX:14572534-14572540,inferred by curator,11823633%5Buid%5D,ORegAnno,Yes,1
+TFLinkSS09283318,Q17381,pha-4,Caenorhabditis elegans,ce10,chrX,14572529,14572535,&#43;,ce10&amp;position=chrX:14572529-14572535,inferred by curator,11823633%5Buid%5D,ORegAnno,Yes,1
+TFLinkSS09283319,Q17381,pha-4,Caenorhabditis elegans,ce10,chrX,3350436,3350442,-,ce10&amp;position=chrX:3350436-3350442,inferred by curator,11823633%5Buid%5D,ORegAnno,Yes,0
+TFLinkSS09283320,Q17381,pha-4,Caenorhabditis elegans,ce10,chrV,10672251,10672257,&#43;,ce10&amp;position=chrV:10672251-10672257,inferred by curator,11823633%5Buid%5D,ORegAnno,Yes,0
+TFLinkSS09283321,Q17381,pha-4,Caenorhabditis elegans,ce10,chrII,7549231,7549237,&#43;,ce10&amp;position=chrII:7549231-7549237,inferred by curator,11823633%5Buid%5D,ORegAnno,Yes,0
+TFLinkSS09283322,Q17381,pha-4,Caenorhabditis elegans,ce10,chrII,7549207,7549213,&#43;,ce10&amp;position=chrII:7549207-7549213,inferred by curator,11823633%5Buid%5D,ORegAnno,Yes,0
+TFLinkSS09283323,Q17381,pha-4,Caenorhabditis elegans,ce10,chrI,7174357,7174363,-,ce10&amp;position=chrI:7174357-7174363,inferred by curator,11823633%5Buid%5D,ORegAnno,Yes,0
+TFLinkSS09283324,Q17381,pha-4,Caenorhabditis elegans,ce10,chrX,12467650,12467656,&#43;,ce10&amp;position=chrX:12467650-12467656,inferred by curator,11823633%5Buid%5D,ORegAnno,Yes,0
+TFLinkSS09283384,Q17381,pha-4,Caenorhabditis elegans,ce10,chrV,10671146,10671156,&#43;,ce10&amp;position=chrV:10671146-10671156,inferred by curator,14738885%5Buid%5D,ORegAnno,Yes,0
+TFLinkSS09283402,Q17381,pha-4,Caenorhabditis elegans,ce10,chrII,77321,77327,-,ce10&amp;position=chrII:77321-77327,inferred by curator,15492775%5Buid%5D,ORegAnno,Yes,0
+TFLinkSS09283403,Q17381,pha-4,Caenorhabditis elegans,ce10,chrX,12261258,12261264,&#43;,ce10&amp;position=chrX:12261258-12261264,inferred by curator,15492775%5Buid%5D,ORegAnno,Yes,0
+TFLinkSS09283404,Q17381,pha-4,Caenorhabditis elegans,ce10,chrX,11408081,11408087,-,ce10&amp;position=chrX:11408081-11408087,inferred by curator,15492775%5Buid%5D,ORegAnno,Yes,0
+TFLinkSS09283405,Q17381,pha-4,Caenorhabditis elegans,ce10,chrX,2871220,2871226,-,ce10&amp;position=chrX:2871220-2871226,inferred by curator,15492775%5Buid%5D,ORegAnno,Yes,0
+TFLinkSS09283406,Q17381,pha-4,Caenorhabditis elegans,ce10,chrV,2801406,2801412,-,ce10&amp;position=chrV:2801406-2801412,inferred by curator,15492775%5Buid%5D,ORegAnno,Yes,0
+TFLinkSS09283407,Q17381,pha-4,Caenorhabditis elegans,ce10,chrI,3853687,3853693,&#43;,ce10&amp;position=chrI:3853687-3853693,inferred by curator,15492775%5Buid%5D,ORegAnno,Yes,0
+TFLinkSS09283408,Q17381,pha-4,Caenorhabditis elegans,ce10,chrV,4122752,4122758,-,ce10&amp;position=chrV:4122752-4122758,inferred by curator,15492775%5Buid%5D,ORegAnno,Yes,0
+TFLinkSS09283409,Q17381,pha-4,Caenorhabditis elegans,ce10,chrII,5578293,5578299,&#43;,ce10&amp;position=chrII:5578293-5578299,inferred by curator,15492775%5Buid%5D,ORegAnno,Yes,0
+TFLinkSS09283410,Q17381,pha-4,Caenorhabditis elegans,ce10,chrII,9227537,9227543,-,ce10&amp;position=chrII:9227537-9227543,inferred by curator,15492775%5Buid%5D,ORegAnno,Yes,0
+TFLinkSS09283411,Q17381,pha-4,Caenorhabditis elegans,ce10,chrX,9877172,9877178,&#43;,ce10&amp;position=chrX:9877172-9877178,inferred by curator,15492775%5Buid%5D,ORegAnno,Yes,0
+TFLinkSS09283412,Q17381,pha-4,Caenorhabditis elegans,ce10,chrX,9877194,9877200,&#43;,ce10&amp;position=chrX:9877194-9877200,inferred by curator,15492775%5Buid%5D,ORegAnno,Yes,0
+TFLinkSS09283413,Q17381,pha-4,Caenorhabditis elegans,ce10,chrV,8776494,8776500,&#43;,ce10&amp;position=chrV:8776494-8776500,inferred by curator,15492775%5Buid%5D,ORegAnno,Yes,0
+TFLinkSS09283414,Q17381,pha-4,Caenorhabditis elegans,ce10,chrV,5676377,5676383,-,ce10&amp;position=chrV:5676377-5676383,inferred by curator,15492775%5Buid%5D,ORegAnno,Yes,0
+TFLinkSS09283415,Q17381,pha-4,Caenorhabditis elegans,ce10,chrX,11384960,11384966,&#43;,ce10&amp;position=chrX:11384960-11384966,inferred by curator,15492775%5Buid%5D,ORegAnno,Yes,0
+TFLinkSS09283416,Q17381,pha-4,Caenorhabditis elegans,ce10,chrIV,17450592,17450598,-,ce10&amp;position=chrIV:17450592-17450598,inferred by curator,15492775%5Buid%5D,ORegAnno,Yes,0
+TFLinkSS09283417,Q17381,pha-4,Caenorhabditis elegans,ce10,chrX,7637357,7637363,-,ce10&amp;position=chrX:7637357-7637363,inferred by curator,15492775%5Buid%5D,ORegAnno,Yes,0
+TFLinkSS09283418,Q17381,pha-4,Caenorhabditis elegans,ce10,chrV,5868250,5868256,-,ce10&amp;position=chrV:5868250-5868256,inferred by curator,15492775%5Buid%5D,ORegAnno,Yes,0
+TFLinkSS09283419,Q17381,pha-4,Caenorhabditis elegans,ce10,chrV,20752899,20752905,&#43;,ce10&amp;position=chrV:20752899-20752905,inferred by curator,15492775%5Buid%5D,ORegAnno,Yes,0
+TFLinkSS09283420,Q17381,pha-4,Caenorhabditis elegans,ce10,chrV,20752951,20752957,&#43;,ce10&amp;position=chrV:20752951-20752957,inferred by curator,15492775%5Buid%5D,ORegAnno,Yes,0
+TFLinkSS09283421,Q17381,pha-4,Caenorhabditis elegans,ce10,chrIV,5388706,5388712,-,ce10&amp;position=chrIV:5388706-5388712,inferred by curator,15492775%5Buid%5D,ORegAnno,Yes,0
+TFLinkSS09283422,Q17381,pha-4,Caenorhabditis elegans,ce10,chrX,7517711,7517717,-,ce10&amp;position=chrX:7517711-7517717,inferred by curator,15492775%5Buid%5D,ORegAnno,Yes,0
+TFLinkSS09283423,Q17381,pha-4,Caenorhabditis elegans,ce10,chrX,7517794,7517800,-,ce10&amp;position=chrX:7517794-7517800,inferred by curator,15492775%5Buid%5D,ORegAnno,Yes,0
+TFLinkSS09283424,Q17381,pha-4,Caenorhabditis elegans,ce10,chrX,7518010,7518016,-,ce10&amp;position=chrX:7518010-7518016,inferred by curator,15492775%5Buid%5D,ORegAnno,Yes,0
+TFLinkSS09283425,Q17381,pha-4,Caenorhabditis elegans,ce10,chrV,8203334,8203340,&#43;,ce10&amp;position=chrV:8203334-8203340,inferred by curator,15492775%5Buid%5D,ORegAnno,Yes,0
+TFLinkSS09283426,Q17381,pha-4,Caenorhabditis elegans,ce10,chrII,8751692,8751698,&#43;,ce10&amp;position=chrII:8751692-8751698,inferred by curator,15492775%5Buid%5D,ORegAnno,Yes,0
+TFLinkSS09283427,Q17381,pha-4,Caenorhabditis elegans,ce10,chrIV,6127772,6127778,-,ce10&amp;position=chrIV:6127772-6127778,inferred by curator,15492775%5Buid%5D,ORegAnno,Yes,0
+TFLinkSS09283428,Q17381,pha-4,Caenorhabditis elegans,ce10,chrV,4800716,4800722,&#43;,ce10&amp;position=chrV:4800716-4800722,inferred by curator,15492775%5Buid%5D,ORegAnno,Yes,0
+TFLinkLS06327227,Q17381,pha-4,Caenorhabditis elegans,ce10,chrII,7311182,7311191,-,ce10&amp;position=chrII:7311182-7311191,chromatin immunoprecipitation assay,20623595%5Buid%5D,JASPAR,No,0
+TFLinkLS06327228,Q17381,pha-4,Caenorhabditis elegans,ce10,chrI,5598343,5598352,&#43;,ce10&amp;position=chrI:5598343-5598352,chromatin immunoprecipitation assay,20623595%5Buid%5D,JASPAR,No,0
+TFLinkLS06327229,Q17381,pha-4,Caenorhabditis elegans,ce10,chrII,8515643,8515652,-,ce10&amp;position=chrII:8515643-8515652,chromatin immunoprecipitation assay,20623595%5Buid%5D,JASPAR,No,0
+TFLinkLS06327230,Q17381,pha-4,Caenorhabditis elegans,ce10,chrIII,8035080,8035089,&#43;,ce10&amp;position=chrIII:8035080-8035089,chromatin immunoprecipitation assay,20623595%5Buid%5D,JASPAR,No,0
+TFLinkLS06327231,Q17381,pha-4,Caenorhabditis elegans,ce10,chrIII,8035156,8035165,&#43;,ce10&amp;position=chrIII:8035156-8035165,chromatin immunoprecipitation assay,20623595%5Buid%5D,JASPAR,No,0
+TFLinkLS06327232,Q17381,pha-4,Caenorhabditis elegans,ce10,chrII,9378285,9378294,-,ce10&amp;position=chrII:9378285-9378294,chromatin immunoprecipitation assay,20623595%5Buid%5D,JASPAR,No,0
+TFLinkLS06327233,Q17381,pha-4,Caenorhabditis elegans,ce10,chrV,5930706,5930715,&#43;,ce10&amp;position=chrV:5930706-5930715,chromatin immunoprecipitation assay,20623595%5Buid%5D,JASPAR,No,0
+TFLinkLS06327234,Q17381,pha-4,Caenorhabditis elegans,ce10,chrX,2031034,2031043,-,ce10&amp;position=chrX:2031034-2031043,chromatin immunoprecipitation assay,20623595%5Buid%5D,JASPAR,No,0
+TFLinkLS06327235,Q17381,pha-4,Caenorhabditis elegans,ce10,chrIV,6098916,6098925,-,ce10&amp;position=chrIV:6098916-6098925,chromatin immunoprecipitation assay,20623595%5Buid%5D,JASPAR,No,0
+TFLinkLS06327236,Q17381,pha-4,Caenorhabditis elegans,ce10,chrI,8083423,8083432,-,ce10&amp;position=chrI:8083423-8083432,chromatin immunoprecipitation assay,20623595%5Buid%5D,JASPAR,No,0
+TFLinkLS06327237,Q17381,pha-4,Caenorhabditis elegans,ce10,chrX,5208044,5208053,&#43;,ce10&amp;position=chrX:5208044-5208053,chromatin immunoprecipitation assay,20623595%5Buid%5D,JASPAR,No,0
+TFLinkLS06327238,Q17381,pha-4,Caenorhabditis elegans,ce10,chrX,5208054,5208063,-,ce10&amp;position=chrX:5208054-5208063,chromatin immunoprecipitation assay,20623595%5Buid%5D,JASPAR,No,0
+TFLinkLS06327239,Q17381,pha-4,Caenorhabditis elegans,ce10,chrIV,6052053,6052062,&#43;,ce10&amp;position=chrIV:6052053-6052062,chromatin immunoprecipitation assay,20623595%5Buid%5D,JASPAR,No,0
+TFLinkLS06327240,Q17381,pha-4,Caenorhabditis elegans,ce10,chrV,14324688,14324697,&#43;,ce10&amp;position=chrV:14324688-14324697,chromatin immunoprecipitation assay,20623595%5Buid%5D,JASPAR,No,0
+TFLinkLS06327241,Q17381,pha-4,Caenorhabditis elegans,ce10,chrII,5899439,5899448,&#43;,ce10&amp;position=chrII:5899439-5899448,chromatin immunoprecipitation assay,20623595%5Buid%5D,JASPAR,No,0
+TFLinkLS06327242,Q17381,pha-4,Caenorhabditis elegans,ce10,chrIV,13609970,13609979,-,ce10&amp;position=chrIV:13609970-13609979,chromatin immunoprecipitation assay,20623595%5Buid%5D,JASPAR,No,0
+TFLinkLS06327243,Q17381,pha-4,Caenorhabditis elegans,ce10,chrI,6978827,6978836,-,ce10&amp;position=chrI:6978827-6978836,chromatin immunoprecipitation assay,20623595%5Buid%5D,JASPAR,No,0
+TFLinkLS06327244,Q17381,pha-4,Caenorhabditis elegans,ce10,chrI,6978868,6978877,&#43;,ce10&amp;position=chrI:6978868-6978877,chromatin immunoprecipitation assay,20623595%5Buid%5D,JASPAR,No,0
+TFLinkLS06327245,Q17381,pha-4,Caenorhabditis elegans,ce10,chrIV,5767938,5767947,&#43;,ce10&amp;position=chrIV:5767938-5767947,chromatin immunoprecipitation assay,20623595%5Buid%5D,JASPAR,No,0
+TFLinkLS06327246,Q17381,pha-4,Caenorhabditis elegans,ce10,chrIV,5767962,5767971,-,ce10&amp;position=chrIV:5767962-5767971,chromatin immunoprecipitation assay,20623595%5Buid%5D,JASPAR,No,0
+TFLinkLS06327247,Q17381,pha-4,Caenorhabditis elegans,ce10,chrII,4371018,4371027,&#43;,ce10&amp;position=chrII:4371018-4371027,chromatin immunoprecipitation assay,20623595%5Buid%5D,JASPAR,No,0
+TFLinkLS06327248,Q17381,pha-4,Caenorhabditis elegans,ce10,chrII,4371082,4371091,-,ce10&amp;position=chrII:4371082-4371091,chromatin immunoprecipitation assay,20623595%5Buid%5D,JASPAR,No,0
+TFLinkLS06327249,Q17381,pha-4,Caenorhabditis elegans,ce10,chrII,14461351,14461360,-,ce10&amp;position=chrII:14461351-14461360,chromatin immunoprecipitation assay,20623595%5Buid%5D,JASPAR,No,0
+TFLinkLS06327250,Q17381,pha-4,Caenorhabditis elegans,ce10,chrII,8684403,8684412,-,ce10&amp;position=chrII:8684403-8684412,chromatin immunoprecipitation assay,20623595%5Buid%5D,JASPAR,No,0
+TFLinkLS06327251,Q17381,pha-4,Caenorhabditis elegans,ce10,chrX,11297899,11297908,-,ce10&amp;position=chrX:11297899-11297908,chromatin immunoprecipitation assay,20623595%5Buid%5D,JASPAR,No,0
+TFLinkLS06327252,Q17381,pha-4,Caenorhabditis elegans,ce10,chrX,11250912,11250921,&#43;,ce10&amp;position=chrX:11250912-11250921,chromatin immunoprecipitation assay,20623595%5Buid%5D,JASPAR,No,0
+TFLinkLS06327253,Q17381,pha-4,Caenorhabditis elegans,ce10,chrI,8434438,8434447,-,ce10&amp;position=chrI:8434438-8434447,chromatin immunoprecipitation assay,20623595%5Buid%5D,JASPAR,No,0
+TFLinkLS06327254,Q17381,pha-4,Caenorhabditis elegans,ce10,chrX,11426720,11426729,&#43;,ce10&amp;position=chrX:11426720-11426729,chromatin immunoprecipitation assay,20623595%5Buid%5D,JASPAR,No,0
+TFLinkLS06327255,Q17381,pha-4,Caenorhabditis elegans,ce10,chrV,6140155,6140164,-,ce10&amp;position=chrV:6140155-6140164,chromatin immunoprecipitation assay,20623595%5Buid%5D,JASPAR,No,0
+TFLinkLS06327256,Q17381,pha-4,Caenorhabditis elegans,ce10,chrX,4810286,4810295,&#43;,ce10&amp;position=chrX:4810286-4810295,chromatin immunoprecipitation assay,20623595%5Buid%5D,JASPAR,No,0
+TFLinkLS06327257,Q17381,pha-4,Caenorhabditis elegans,ce10,chrIII,1271745,1271754,-,ce10&amp;position=chrIII:1271745-1271754,chromatin immunoprecipitation assay,20623595%5Buid%5D,JASPAR,No,0
+TFLinkLS06327258,Q17381,pha-4,Caenorhabditis elegans,ce10,chrIV,5670414,5670423,&#43;,ce10&amp;position=chrIV:5670414-5670423,chromatin immunoprecipitation assay,20623595%5Buid%5D,JASPAR,No,0
+TFLinkLS06327259,Q17381,pha-4,Caenorhabditis elegans,ce10,chrX,17317631,17317640,&#43;,ce10&amp;position=chrX:17317631-17317640,chromatin immunoprecipitation assay,20623595%5Buid%5D,JASPAR,No,0
+TFLinkLS06327260,Q17381,pha-4,Caenorhabditis elegans,ce10,chrIV,7674889,7674898,&#43;,ce10&amp;position=chrIV:7674889-7674898,chromatin immunoprecipitation assay,20623595%5Buid%5D,JASPAR,No,0
+TFLinkLS06327261,Q17381,pha-4,Caenorhabditis elegans,ce10,chrIII,11054716,11054725,-,ce10&amp;position=chrIII:11054716-11054725,chromatin immunoprecipitation assay,20623595%5Buid%5D,JASPAR,No,0
+TFLinkLS06327262,Q17381,pha-4,Caenorhabditis elegans,ce10,chrI,6507557,6507566,&#43;,ce10&amp;position=chrI:6507557-6507566,chromatin immunoprecipitation assay,20623595%5Buid%5D,JASPAR,No,0
+TFLinkLS06327263,Q17381,pha-4,Caenorhabditis elegans,ce10,chrI,6507605,6507614,&#43;,ce10&amp;position=chrI:6507605-6507614,chromatin immunoprecipitation assay,20623595%5Buid%5D,JASPAR,No,0
+TFLinkLS06327264,Q17381,pha-4,Caenorhabditis elegans,ce10,chrX,4492384,4492393,&#43;,ce10&amp;position=chrX:4492384-4492393,chromatin immunoprecipitation assay,20623595%5Buid%5D,JASPAR,No,0
+TFLinkLS06327265,Q17381,pha-4,Caenorhabditis elegans,ce10,chrI,3336280,3336289,&#43;,ce10&amp;position=chrI:3336280-3336289,chromatin immunoprecipitation assay,20623595%5Buid%5D,JASPAR,No,0
+TFLinkLS06327266,Q17381,pha-4,Caenorhabditis elegans,ce10,chrI,6930732,6930741,-,ce10&amp;position=chrI:6930732-6930741,chromatin immunoprecipitation assay,20623595%5Buid%5D,JASPAR,No,0
+TFLinkLS06327267,Q17381,pha-4,Caenorhabditis elegans,ce10,chrIV,280295,280304,-,ce10&amp;position=chrIV:280295-280304,chromatin immunoprecipitation assay,20623595%5Buid%5D,JASPAR,No,0
+TFLinkLS06327268,Q17381,pha-4,Caenorhabditis elegans,ce10,chrI,11937392,11937401,-,ce10&amp;position=chrI:11937392-11937401,chromatin immunoprecipitation assay,20623595%5Buid%5D,JASPAR,No,0
+TFLinkLS06327269,Q17381,pha-4,Caenorhabditis elegans,ce10,chrI,9944917,9944926,-,ce10&amp;position=chrI:9944917-9944926,chromatin immunoprecipitation assay,20623595%5Buid%5D,JASPAR,No,0
+TFLinkLS06327270,Q17381,pha-4,Caenorhabditis elegans,ce10,chrII,13333482,13333491,&#43;,ce10&amp;position=chrII:13333482-13333491,chromatin immunoprecipitation assay,20623595%5Buid%5D,JASPAR,No,0
+TFLinkLS06327271,Q17381,pha-4,Caenorhabditis elegans,ce10,chrI,5697577,5697586,&#43;,ce10&amp;position=chrI:5697577-5697586,chromatin immunoprecipitation assay,20623595%5Buid%5D,JASPAR,No,0
+TFLinkLS06327272,Q17381,pha-4,Caenorhabditis elegans,ce10,chrII,7286419,7286428,&#43;,ce10&amp;position=chrII:7286419-7286428,chromatin immunoprecipitation assay,20623595%5Buid%5D,JASPAR,No,0
+TFLinkLS06327273,Q17381,pha-4,Caenorhabditis elegans,ce10,chrX,2580987,2580996,&#43;,ce10&amp;position=chrX:2580987-2580996,chromatin immunoprecipitation assay,20623595%5Buid%5D,JASPAR,No,0
+TFLinkLS06327274,Q17381,pha-4,Caenorhabditis elegans,ce10,chrI,3423747,3423756,-,ce10&amp;position=chrI:3423747-3423756,chromatin immunoprecipitation assay,20623595%5Buid%5D,JASPAR,No,0
+TFLinkLS06327275,Q17381,pha-4,Caenorhabditis elegans,ce10,chrV,6044033,6044042,-,ce10&amp;position=chrV:6044033-6044042,chromatin immunoprecipitation assay,20623595%5Buid%5D,JASPAR,No,0
+TFLinkLS06327276,Q17381,pha-4,Caenorhabditis elegans,ce10,chrII,10327576,10327585,&#43;,ce10&amp;position=chrII:10327576-10327585,chromatin immunoprecipitation assay,20623595%5Buid%5D,JASPAR,No,0
+TFLinkLS06327277,Q17381,pha-4,Caenorhabditis elegans,ce10,chrV,20574469,20574478,-,ce10&amp;position=chrV:20574469-20574478,chromatin immunoprecipitation assay,20623595%5Buid%5D,JASPAR,No,0
+TFLinkLS06327278,Q17381,pha-4,Caenorhabditis elegans,ce10,chrII,9071980,9071989,-,ce10&amp;position=chrII:9071980-9071989,chromatin immunoprecipitation assay,20623595%5Buid%5D,JASPAR,No,0
+TFLinkLS06327279,Q17381,pha-4,Caenorhabditis elegans,ce10,chrX,13809101,13809110,&#43;,ce10&amp;position=chrX:13809101-13809110,chromatin immunoprecipitation assay,20623595%5Buid%5D,JASPAR,No,0
+TFLinkLS06327280,Q17381,pha-4,Caenorhabditis elegans,ce10,chrX,4898482,4898491,&#43;,ce10&amp;position=chrX:4898482-4898491,chromatin immunoprecipitation assay,20623595%5Buid%5D,JASPAR,No,0
+TFLinkLS06327281,Q17381,pha-4,Caenorhabditis elegans,ce10,chrI,7314466,7314475,-,ce10&amp;position=chrI:7314466-7314475,chromatin immunoprecipitation assay,20623595%5Buid%5D,JASPAR,No,0
+TFLinkLS06327282,Q17381,pha-4,Caenorhabditis elegans,ce10,chrX,2938856,2938865,-,ce10&amp;position=chrX:2938856-2938865,chromatin immunoprecipitation assay,20623595%5Buid%5D,JASPAR,No,0
+TFLinkLS06327283,Q17381,pha-4,Caenorhabditis elegans,ce10,chrX,2938876,2938885,-,ce10&amp;position=chrX:2938876-2938885,chromatin immunoprecipitation assay,20623595%5Buid%5D,JASPAR,No,0
+TFLinkLS06327284,Q17381,pha-4,Caenorhabditis elegans,ce10,chrII,10076109,10076118,&#43;,ce10&amp;position=chrII:10076109-10076118,chromatin immunoprecipitation assay,20623595%5Buid%5D,JASPAR,No,0
+TFLinkLS06327285,Q17381,pha-4,Caenorhabditis elegans,ce10,chrIII,1279348,1279357,-,ce10&amp;position=chrIII:1279348-1279357,chromatin immunoprecipitation assay,20623595%5Buid%5D,JASPAR,No,0
+TFLinkLS06327286,Q17381,pha-4,Caenorhabditis elegans,ce10,chrX,4659403,4659412,-,ce10&amp;position=chrX:4659403-4659412,chromatin immunoprecipitation assay,20623595%5Buid%5D,JASPAR,No,0
+TFLinkLS06327287,Q17381,pha-4,Caenorhabditis elegans,ce10,chrIV,13824622,13824631,-,ce10&amp;position=chrIV:13824622-13824631,chromatin immunoprecipitation assay,20623595%5Buid%5D,JASPAR,No,0" />
+    <p></p>
+  </div>
+</div>
+
+<div class="uk-grid" data-uk-grid-margin>
+  <div class="uk-width-1-2@m">
+    <h2>Binding site sequences of pha-4 based on small-scale evidences</h2>
+    <div class="binding-sites">
+      <p>&gt;TFLinkSS09283314;Q17381;pha-4;ce10;chrIII:13731645-13731651<br />
+GTTTGT<br />
+&gt;TFLinkSS09283315;Q17381;pha-4;ce10;chrIV:11119343-11119349<br />
+CAAACA<br />
+&gt;TFLinkSS09283316;Q17381;pha-4;ce10;chrIV:8369654-8369660<br />
+GTTTGT<br />
+&gt;TFLinkSS09283317;Q17381;pha-4;ce10;chrX:14572534-14572540<br />
+TCAATA<br />
+&gt;TFLinkSS09283318;Q17381;pha-4;ce10;chrX:14572529-14572535<br />
+ATTTGT<br />
+&gt;TFLinkSS09283319;Q17381;pha-4;ce10;chrX:3350436-3350442<br />
+GTTTGT<br />
+&gt;TFLinkSS09283320;Q17381;pha-4;ce10;chrV:10672251-10672257<br />
+ATTTGT<br />
+&gt;TFLinkSS09283321;Q17381;pha-4;ce10;chrII:7549231-7549237<br />
+TCAACA<br />
+&gt;TFLinkSS09283322;Q17381;pha-4;ce10;chrII:7549207-7549213<br />
+GTTTGC<br />
+&gt;TFLinkSS09283323;Q17381;pha-4;ce10;chrI:7174357-7174363<br />
+TCAACA<br />
+&gt;TFLinkSS09283324;Q17381;pha-4;ce10;chrX:12467650-12467656<br />
+GTTTGC<br />
+&gt;TFLinkSS09283384;Q17381;pha-4;ce10;chrV:10671146-10671156<br />
+CAAACAGATA<br />
+&gt;TFLinkSS09283402;Q17381;pha-4;ce10;chrII:77321-77327<br />
+CAAATA<br />
+&gt;TFLinkSS09283403;Q17381;pha-4;ce10;chrX:12261258-12261264<br />
+ATTTGT<br />
+&gt;TFLinkSS09283404;Q17381;pha-4;ce10;chrX:11408081-11408087<br />
+GTTTGT<br />
+&gt;TFLinkSS09283405;Q17381;pha-4;ce10;chrX:2871220-2871226<br />
+CAAACA<br />
+&gt;TFLinkSS09283406;Q17381;pha-4;ce10;chrV:2801406-2801412<br />
+GTTTAC<br />
+&gt;TFLinkSS09283407;Q17381;pha-4;ce10;chrI:3853687-3853693<br />
+CAAACA<br />
+&gt;TFLinkSS09283408;Q17381;pha-4;ce10;chrV:4122752-4122758<br />
+ATTGAT<br />
+&gt;TFLinkSS09283409;Q17381;pha-4;ce10;chrII:5578293-5578299<br />
+CAAATA<br />
+&gt;TFLinkSS09283410;Q17381;pha-4;ce10;chrII:9227537-9227543<br />
+ATTTGT<br />
+&gt;TFLinkSS09283411;Q17381;pha-4;ce10;chrX:9877172-9877178<br />
+GTTGAT<br />
+&gt;TFLinkSS09283412;Q17381;pha-4;ce10;chrX:9877194-9877200<br />
+GTTTGC<br />
+&gt;TFLinkSS09283413;Q17381;pha-4;ce10;chrV:8776494-8776500<br />
+GTTGAC<br />
+&gt;TFLinkSS09283414;Q17381;pha-4;ce10;chrV:5676377-5676383<br />
+ATTTGC<br />
+&gt;TFLinkSS09283415;Q17381;pha-4;ce10;chrX:11384960-11384966<br />
+TCAACA<br />
+&gt;TFLinkSS09283416;Q17381;pha-4;ce10;chrIV:17450592-17450598<br />
+CAAATA<br />
+&gt;TFLinkSS09283417;Q17381;pha-4;ce10;chrX:7637357-7637363<br />
+TCAACA<br />
+&gt;TFLinkSS09283418;Q17381;pha-4;ce10;chrV:5868250-5868256<br />
+TCAATA<br />
+&gt;TFLinkSS09283419;Q17381;pha-4;ce10;chrV:20752899-20752905<br />
+GTTGAT<br />
+&gt;TFLinkSS09283420;Q17381;pha-4;ce10;chrV:20752951-20752957<br />
+CCAATA<br />
+&gt;TFLinkSS09283421;Q17381;pha-4;ce10;chrIV:5388706-5388712<br />
+CAAACA<br />
+&gt;TFLinkSS09283422;Q17381;pha-4;ce10;chrX:7517711-7517717<br />
+TAAACA<br />
+&gt;TFLinkSS09283423;Q17381;pha-4;ce10;chrX:7517794-7517800<br />
+GTTGGT<br />
+&gt;TFLinkSS09283424;Q17381;pha-4;ce10;chrX:7518010-7518016<br />
+CCAACA<br />
+&gt;TFLinkSS09283425;Q17381;pha-4;ce10;chrV:8203334-8203340<br />
+GTTTGC<br />
+&gt;TFLinkSS09283426;Q17381;pha-4;ce10;chrII:8751692-8751698<br />
+ATTTGT<br />
+&gt;TFLinkSS09283427;Q17381;pha-4;ce10;chrIV:6127772-6127778<br />
+GTTTGC<br />
+&gt;TFLinkSS09283428;Q17381;pha-4;ce10;chrV:4800716-4800722<br />
+CAAACA</p>
+
+    </div>
+  </div>
+  
+  <div class="uk-width-1-3@m">
+    <h2>Binding site sequences of pha-4 based on large-scale evidences</h2>
+    <button
+      onclick="location.href='https://cdn.netbiol.org/tflink/ls_fasta/TFLink_Q17381_LS.fasta'"
+      type="button">
+      <span uk-icon="icon: download; ratio: 1.5"></span>
+      <h4 style="display: inline-block; margin: 0">Download</h4>
+    </button>
+  </div>
+  
+</div>
+
+
+
+
+
+
+<script src="/protein.e9931.js"></script>
+
+
+<script src="/network.e9931.js"></script>
+
+
+  </div>
+
+  
+  <footer class="uk-container uk-container-small"></footer>
+
+  
+
+  
+  
+  <script src="/main.e9931.js"></script>
+  
+</body>
+
+</html>

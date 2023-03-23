@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<base href="/" />
+<title>TFLink</title>
+<link rel="stylesheet" href="https://cdn.webix.com/edge/webix.css" />
+
+<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-touch-icon.png?v=jwEjQXwyNy">
+<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png?v=jwEjQXwyNy">
+<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png?v=jwEjQXwyNy">
+<link rel="manifest" href="/images/favicon/site.webmanifest?v=jwEjQXwyNy">
+<link rel="mask-icon" href="/images/favicon/safari-pinned-tab.svg?v=jwEjQXwyNy" color="#70adb5">
+<link rel="shortcut icon" href="/images/favicon/favicon.ico?v=jwEjQXwyNy">
+<meta name="msapplication-TileColor" content="#00aba9">
+<meta name="msapplication-config" content="/images/favicon/browserconfig.xml?v=jwEjQXwyNy">
+<meta name="theme-color" content="#ffffff">
+
+
+
+<link href="/main.e9931.css" rel="stylesheet" />
+
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"
+  integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+<script src="https://cdn.webix.com/edge/webix.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.5/js/uikit.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.5/js/uikit-icons.min.js"></script>
+
+<script>
+  $(window).on('load', function () {
+    $('#spinner').fadeOut(300);
+  });
+</script>
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5RNBLSCVTD"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-5RNBLSCVTD');
+</script>
+
+</head>
+
+<body>
+  <div class="net-top-navbar" uk-sticky>
+    <div class="uk-container uk-container-center uk-container-expand">
+        <nav class="uk-navbar uk-navbar-container navbar">
+            <a class="uk-navbar-item uk-logo" href="/"><img src="/images/favicon/favicon-32x32.png">Link</a>
+            <ul class="uk-navbar-nav">
+                <li id="nav_browse">
+                    <a href="/browse/">Browse</a>
+                </li>
+                <li id="nav_download">
+                  <a href="/download/">Download</a>
+              </li>
+              <li id="nav_faq">
+                <a href="/faq/">FAQ</a>
+            </li>
+            </ul>
+        </nav>
+    </div>
+</div>
+
+
+  <div class="uk-container uk-container-expand uk-margin-large-bottom">
+    <div id="spinner"></div>
+    
+<div class="uk-grid" data-uk-grid-margin>
+  <div class="uk-width-medium-1-1">
+    <div class="uk-panel uk-panel-box uk-text-center">
+      <h1 id="protein_name">USV1</h1>
+      <hr class="" />
+    </div>
+  </div>
+</div>
+
+<div class="uk-grid-small" uk-grid uk-text-left>
+  <div class="uk-width-1-2@m">
+    <dl class="dl-horizontal">
+      <dt>Name</dt>
+      <dd>USV1</dd>
+      <dt>Uniprot Accession</dt>
+      <dd>
+        <a id="uniprot-id" href="https://www.uniprot.org/uniprot/Q12132"
+          target="_blank" id="uniprot-ac">
+          Q12132</a>
+      </dd>
+      <dt>NCBI Gene ID</dt>
+      <dd>
+        
+        <a href="https://www.ncbi.nlm.nih.gov/gene/?term=855871"
+          target="_blank">855871</a>
+        
+      </dd>
+      <dt>Organism</dt>
+      <dd>
+        <span>
+          <i id="organism">Saccharomyces cerevisiae</i>
+          <span id="species_siluette" class="siluette-small">
+          </span>
+        </span>
+      </dd>
+      <dt>Function</dt>
+      <dd>transcription factor and target gene</dd>
+      <dt>Number of interactions</dt>
+      
+      <dd>202</dd>
+      
+      
+      
+    </dl>
+  </div>
+
+</div>
+
+
+<div class="uk-grid">
+  <div class="uk-width-2-3@xl">
+    <h2>Targets of USV1</h2>
+    <div>
+      <div id="target_paging"></div>
+      
+      <div style="position:relative;">
+        <span style="font-weight: bold">Please be aware that here we show only the top 100 rows of
+          the data. <br />
+          If you wish to see all the data please click the <i>download all</i> button.</span>
+        <button style="position:absolute; right:0px; bottom:5px"
+          onclick="location.href='https://cdn.netbiol.org/tflink/proteinDownload_targets/TFLink_targets_of_Q12132.tsv'"
+          type="button">
+          <span uk-icon="icon: download; ratio: 1.5"></span>
+          <h4 style="display: inline-block; margin: 0">Download all</h4>
+        </button>
+      </div>
+      
+    </div>
+
+    <div id="target_div"></div>
+    <input id="target_data" type="hidden" name="target_data"
+      value="ARO9,P38840,856539,Yeastract,Identification by mass spectrometry,23388641%5Buid%5D&#43;OR&#43;24170807%5Buid%5D,Yes
+ENA1,P13587,851610,Yeastract,tag visualisation by enzyme assay,18667581%5Buid%5D&#43;OR&#43;24170807%5Buid%5D,Yes
+FLO11,P08640,854836,Yeastract,Identification by mass spectrometry,23388641%5Buid%5D&#43;OR&#43;24170807%5Buid%5D,Yes
+CIT2,P08679,850361,Yeastract,northern blot,18667581%5Buid%5D&#43;OR&#43;24170807%5Buid%5D,Yes
+ADY2,P25613,850368,Yeastract,tag visualisation by enzyme assay,18667581%5Buid%5D&#43;OR&#43;24170807%5Buid%5D,Yes
+ACS1,Q01574,851245,Yeastract,northern blot,18667581%5Buid%5D&#43;OR&#43;24170807%5Buid%5D,Yes
+FBP1,P09201,851092,Yeastract,northern blot,18667581%5Buid%5D&#43;OR&#43;24170807%5Buid%5D,Yes
+IDH1,P28834,855691,Yeastract,northern blot,18667581%5Buid%5D&#43;OR&#43;24170807%5Buid%5D,Yes
+HOS4,P40480,854694,Yeastract,chromatin immunoprecipitation array,12399584%5Buid%5D&#43;OR&#43;24170807%5Buid%5D,No
+MNE1,P24720,854532,Yeastract,array technology/partial DNA sequence identification by hybridization,20385592%5Buid%5D&#43;OR&#43;24170807%5Buid%5D,No
+HSP82,P02829,855836,Yeastract,array technology/partial DNA sequence identification by hybridization,20385592%5Buid%5D&#43;OR&#43;24170807%5Buid%5D,No
+SPL2,P38839,856538,Yeastract,array technology/partial DNA sequence identification by hybridization,20385592%5Buid%5D&#43;OR&#43;24170807%5Buid%5D,No
+MRP4,P32902,856384,Yeastract,array technology/partial DNA sequence identification by hybridization,20385592%5Buid%5D&#43;OR&#43;24170807%5Buid%5D,No
+MIC60,P36112,853886,Yeastract,chromatin immunoprecipitation array,12399584%5Buid%5D&#43;OR&#43;24170807%5Buid%5D,No
+DYN2,Q02647,852034,Yeastract,chromatin immunoprecipitation array,12399584%5Buid%5D&#43;OR&#43;24170807%5Buid%5D,No
+TCD1,P38756,856392,Yeastract,array technology/partial DNA sequence identification by hybridization,20385592%5Buid%5D&#43;OR&#43;24170807%5Buid%5D,No
+APC2,Q12440,850818,Yeastract,array technology/partial DNA sequence identification by hybridization,20385592%5Buid%5D&#43;OR&#43;24170807%5Buid%5D,No
+NFI1,Q12216,854327,Yeastract,array technology/partial DNA sequence identification by hybridization,20385592%5Buid%5D&#43;OR&#43;24170807%5Buid%5D,No
+KAR2,P16474,853418,Yeastract,chromatin immunoprecipitation array,12399584%5Buid%5D&#43;OR&#43;24170807%5Buid%5D,No
+SWI1,P09547,856091,Yeastract,array technology/partial DNA sequence identification by hybridization,20385592%5Buid%5D&#43;OR&#43;24170807%5Buid%5D,No
+TOP3,P13099,850935,Yeastract,array technology/partial DNA sequence identification by hybridization,20385592%5Buid%5D&#43;OR&#43;24170807%5Buid%5D,No
+VHT1,P53241,852956,Yeastract,array technology/partial DNA sequence identification by hybridization,20385592%5Buid%5D&#43;OR&#43;24170807%5Buid%5D,No
+PCS60,P38137,852523,Yeastract,array technology/partial DNA sequence identification by hybridization,20385592%5Buid%5D&#43;OR&#43;24170807%5Buid%5D,No
+PDR10,P51533,854506,Yeastract,chromatin immunoprecipitation array,12399584%5Buid%5D&#43;OR&#43;24170807%5Buid%5D,No
+CNM67,P53865,855496,Yeastract,array technology/partial DNA sequence identification by hybridization,20385592%5Buid%5D&#43;OR&#43;24170807%5Buid%5D,No
+YPT10,P38146,852567,Yeastract,array technology/partial DNA sequence identification by hybridization,20385592%5Buid%5D&#43;OR&#43;24170807%5Buid%5D,No
+CPS1,P27614,853267,Yeastract,array technology/partial DNA sequence identification by hybridization,20385592%5Buid%5D&#43;OR&#43;24170807%5Buid%5D,No
+POX1,P13711,852667,Yeastract,chromatin immunoprecipitation array,15343339%5Buid%5D&#43;OR&#43;24170807%5Buid%5D,No
+YEL1,P34225,852219,Yeastract,chromatin immunoprecipitation array,12399584%5Buid%5D&#43;OR&#43;24170807%5Buid%5D,No
+ERO1,Q03103,854909,Yeastract,array technology/partial DNA sequence identification by hybridization,20385592%5Buid%5D&#43;OR&#43;24170807%5Buid%5D,No
+PHM6,Q05637,851875,Yeastract,array technology/partial DNA sequence identification by hybridization,20385592%5Buid%5D&#43;OR&#43;24170807%5Buid%5D,No
+LPP1,Q04396,852114,Yeastract,chromatin immunoprecipitation array,12399584%5Buid%5D&#43;OR&#43;24170807%5Buid%5D,No
+HSC82,P15108,855224,Yeastract,array technology/partial DNA sequence identification by hybridization,20385592%5Buid%5D&#43;OR&#43;24170807%5Buid%5D,No
+LST4,P34239,853678,Yeastract,chromatin immunoprecipitation array,12399584%5Buid%5D&#43;OR&#43;24170807%5Buid%5D,No
+EFR3,Q03653,855252,Yeastract,array technology/partial DNA sequence identification by hybridization,20385592%5Buid%5D&#43;OR&#43;24170807%5Buid%5D,No
+YPS1,P32329,850811,Yeastract,chromatin immunoprecipitation array,12399584%5Buid%5D&#43;OR&#43;24170807%5Buid%5D,No
+UBP8,P50102,855263,Yeastract,array technology/partial DNA sequence identification by hybridization,20385592%5Buid%5D&#43;OR&#43;24170807%5Buid%5D,No
+PCL8,Q08966,855882,Yeastract,array technology/partial DNA sequence identification by hybridization,20385592%5Buid%5D&#43;OR&#43;24170807%5Buid%5D,No
+-,Q06235,850859,Yeastract,array technology/partial DNA sequence identification by hybridization,20385592%5Buid%5D&#43;OR&#43;24170807%5Buid%5D,No
+MSN2,P33748,855053,Yeastract,array technology/partial DNA sequence identification by hybridization,20385592%5Buid%5D&#43;OR&#43;24170807%5Buid%5D,No
+KKQ8,P36004,853686,Yeastract,chromatin immunoprecipitation array,12399584%5Buid%5D&#43;OR&#43;24170807%5Buid%5D,No
+-,P38235,852342,Yeastract,array technology/partial DNA sequence identification by hybridization,20385592%5Buid%5D&#43;OR&#43;24170807%5Buid%5D,No
+PYK2,P52489,854529,Yeastract,array technology/partial DNA sequence identification by hybridization,20385592%5Buid%5D&#43;OR&#43;24170807%5Buid%5D,No
+YAP3,P38749,856377,Yeastract,chromatin immunoprecipitation array,12399584%5Buid%5D&#43;OR&#43;24170807%5Buid%5D,No
+SOR1,P35497,853624,Yeastract,array technology/partial DNA sequence identification by hybridization;chromatin immunoprecipitation array,12399584%5Buid%5D&#43;OR&#43;20385592%5Buid%5D&#43;OR&#43;24170807%5Buid%5D,No
+NAB3,P38996,855911,Yeastract,array technology/partial DNA sequence identification by hybridization,20385592%5Buid%5D&#43;OR&#43;24170807%5Buid%5D,No
+PCL5,P38794,856468,Yeastract,array technology/partial DNA sequence identification by hybridization,20385592%5Buid%5D&#43;OR&#43;24170807%5Buid%5D,No
+OLI1,P61829,24573116;854584,Yeastract,chromatin immunoprecipitation array,12399584%5Buid%5D&#43;OR&#43;24170807%5Buid%5D,No
+-,Q05854,850984,Yeastract,array technology/partial DNA sequence identification by hybridization,20385592%5Buid%5D&#43;OR&#43;24170807%5Buid%5D,No
+RPL22B,P56628,850509,Yeastract,chromatin immunoprecipitation array,12399584%5Buid%5D&#43;OR&#43;24170807%5Buid%5D,No
+GAA1,P39012,850777,Yeastract,array technology/partial DNA sequence identification by hybridization,20385592%5Buid%5D&#43;OR&#43;24170807%5Buid%5D,No
+AMN1,P38285,852455,Yeastract,chromatin immunoprecipitation array,12399584%5Buid%5D&#43;OR&#43;24170807%5Buid%5D,No
+PML39,Q03760,854864,Yeastract,array technology/partial DNA sequence identification by hybridization,20385592%5Buid%5D&#43;OR&#43;24170807%5Buid%5D,No
+GAS3,Q03655,855255,Yeastract,array technology/partial DNA sequence identification by hybridization,20385592%5Buid%5D&#43;OR&#43;24170807%5Buid%5D,No
+SPP382,Q06411,851143,Yeastract,array technology/partial DNA sequence identification by hybridization,20385592%5Buid%5D&#43;OR&#43;24170807%5Buid%5D,No
+-,Q12185,851581,Yeastract,chromatin immunoprecipitation array,12399584%5Buid%5D&#43;OR&#43;24170807%5Buid%5D,No
+-,Q08225,854097,Yeastract,array technology/partial DNA sequence identification by hybridization,20385592%5Buid%5D&#43;OR&#43;24170807%5Buid%5D,No
+-,P0CF18,855109,Yeastract,array technology/partial DNA sequence identification by hybridization,20385592%5Buid%5D&#43;OR&#43;24170807%5Buid%5D,No
+ATP2,P00830,853585,Yeastract,array technology/partial DNA sequence identification by hybridization,20385592%5Buid%5D&#43;OR&#43;24170807%5Buid%5D,No
+ERT1,P38140,852541,Yeastract,chromatin immunoprecipitation array,12399584%5Buid%5D&#43;OR&#43;24170807%5Buid%5D,No
+-,P53754,855805,Yeastract,chromatin immunoprecipitation array,12399584%5Buid%5D&#43;OR&#43;24170807%5Buid%5D,No
+USV1,Q12132,855871,Yeastract,array technology/partial DNA sequence identification by hybridization,20385592%5Buid%5D&#43;OR&#43;24170807%5Buid%5D,No
+RXT2,P38255,852392,Yeastract,array technology/partial DNA sequence identification by hybridization,20385592%5Buid%5D&#43;OR&#43;24170807%5Buid%5D,No
+PTI1,P39927,853060,Yeastract,array technology/partial DNA sequence identification by hybridization,20385592%5Buid%5D&#43;OR&#43;24170807%5Buid%5D,No
+YPR1,Q12458,851974,Yeastract,chromatin immunoprecipitation array,12399584%5Buid%5D&#43;OR&#43;24170807%5Buid%5D,No
+AIM45,Q12480,856112,Yeastract,chromatin immunoprecipitation array,12399584%5Buid%5D&#43;OR&#43;24170807%5Buid%5D,No
+CSH1,P38287,852458,Yeastract,array technology/partial DNA sequence identification by hybridization,20385592%5Buid%5D&#43;OR&#43;24170807%5Buid%5D,No
+PHO2,P07269,851452,Yeastract,chromatin immunoprecipitation array,12399584%5Buid%5D&#43;OR&#43;24170807%5Buid%5D,No
+-,Q06523,856271,Yeastract,array technology/partial DNA sequence identification by hybridization,20385592%5Buid%5D&#43;OR&#43;24170807%5Buid%5D,No
+MMM1,P41800,850654,Yeastract,array technology/partial DNA sequence identification by hybridization,20385592%5Buid%5D&#43;OR&#43;24170807%5Buid%5D,No
+MYO4,P32492,851204,Yeastract,chromatin immunoprecipitation array,12399584%5Buid%5D&#43;OR&#43;24170807%5Buid%5D,No
+ALO1,P54783,854888,Yeastract,array technology/partial DNA sequence identification by hybridization,20385592%5Buid%5D&#43;OR&#43;24170807%5Buid%5D,No
+APE4,P38821,856513,Yeastract,chromatin immunoprecipitation array,12399584%5Buid%5D&#43;OR&#43;24170807%5Buid%5D,No
+POP5,P28005,851200,Yeastract,array technology/partial DNA sequence identification by hybridization,20385592%5Buid%5D&#43;OR&#43;24170807%5Buid%5D,No
+MCK1,P21965,855409,Yeastract,array technology/partial DNA sequence identification by hybridization,20385592%5Buid%5D&#43;OR&#43;24170807%5Buid%5D,No
+ADH7,P25377,850469,Yeastract,chromatin immunoprecipitation array,12399584%5Buid%5D&#43;OR&#43;24170807%5Buid%5D,No
+MCH4,Q08268,854030,Yeastract,array technology/partial DNA sequence identification by hybridization,20385592%5Buid%5D&#43;OR&#43;24170807%5Buid%5D,No
+SVL3,Q03088,856075,Yeastract,array technology/partial DNA sequence identification by hybridization,20385592%5Buid%5D&#43;OR&#43;24170807%5Buid%5D,No
+EMP70,P32802,850772,Yeastract,array technology/partial DNA sequence identification by hybridization,20385592%5Buid%5D&#43;OR&#43;24170807%5Buid%5D,No
+STV1,P37296,855076,Yeastract,array technology/partial DNA sequence identification by hybridization,20385592%5Buid%5D&#43;OR&#43;24170807%5Buid%5D,No
+RPS28A,Q3E7X9,854338,Yeastract,array technology/partial DNA sequence identification by hybridization,20385592%5Buid%5D&#43;OR&#43;24170807%5Buid%5D,No
+SKP1,P52286,851928,Yeastract,chromatin immunoprecipitation array,12399584%5Buid%5D&#43;OR&#43;24170807%5Buid%5D,No
+TFC3,P34111,851262,Yeastract,chromatin immunoprecipitation array,12399584%5Buid%5D&#43;OR&#43;24170807%5Buid%5D,No
+TIM50,Q02776,856042,Yeastract,array technology/partial DNA sequence identification by hybridization,20385592%5Buid%5D&#43;OR&#43;24170807%5Buid%5D,No
+INP2,Q03824,855198,Yeastract,array technology/partial DNA sequence identification by hybridization,20385592%5Buid%5D&#43;OR&#43;24170807%5Buid%5D,No
+GCR1,P07261,856030,Yeastract,array technology/partial DNA sequence identification by hybridization,20385592%5Buid%5D&#43;OR&#43;24170807%5Buid%5D,No
+FRE5,Q08908,854566,Yeastract,array technology/partial DNA sequence identification by hybridization,20385592%5Buid%5D&#43;OR&#43;24170807%5Buid%5D,No
+RPL23B,P0CX42,852191;856853,Yeastract,array technology/partial DNA sequence identification by hybridization,20385592%5Buid%5D&#43;OR&#43;24170807%5Buid%5D,No
+RPS23A,P0CX29,853015;856250,Yeastract,array technology/partial DNA sequence identification by hybridization,20385592%5Buid%5D&#43;OR&#43;24170807%5Buid%5D,No
+CHC1,P22137,852666,Yeastract,chromatin immunoprecipitation array,15343339%5Buid%5D&#43;OR&#43;24170807%5Buid%5D,No
+TAN1,P53072,852619,Yeastract,array technology/partial DNA sequence identification by hybridization,20385592%5Buid%5D&#43;OR&#43;24170807%5Buid%5D,No
+PEX7,P39108,851720,Yeastract,array technology/partial DNA sequence identification by hybridization,20385592%5Buid%5D&#43;OR&#43;24170807%5Buid%5D,No
+PTM1,P32857,853827,Yeastract,array technology/partial DNA sequence identification by hybridization,20385592%5Buid%5D&#43;OR&#43;24170807%5Buid%5D,No
+MRPL23,Q12487,854321,Yeastract,chromatin immunoprecipitation array,12399584%5Buid%5D&#43;OR&#43;24170807%5Buid%5D,No
+VNX1,P42839,855395,Yeastract,array technology/partial DNA sequence identification by hybridization,20385592%5Buid%5D&#43;OR&#43;24170807%5Buid%5D,No
+URN1,Q06525,856275,Yeastract,chromatin immunoprecipitation array,12399584%5Buid%5D&#43;OR&#43;24170807%5Buid%5D,No
+SBH1,P52870,856821,Yeastract,chromatin immunoprecipitation array,12399584%5Buid%5D&#43;OR&#43;24170807%5Buid%5D,No
+RPS28B,P0C0X0,850969,Yeastract,array technology/partial DNA sequence identification by hybridization,20385592%5Buid%5D&#43;OR&#43;24170807%5Buid%5D,No
+OSH3,P38713,856472,Yeastract,chromatin immunoprecipitation array,12399584%5Buid%5D&#43;OR&#43;24170807%5Buid%5D,No
+MSA1,Q08471,854232,Yeastract,array technology/partial DNA sequence identification by hybridization,20385592%5Buid%5D&#43;OR&#43;24170807%5Buid%5D,No" />
+    <p></p>
+  </div>
+  <div class="uk-width-1-3@xl">
+    <div id="target-network-div"
+      style="height: 400px; width: 400px; border-style: solid; border-width: .1em;">
+    </div>
+    <div id="targetControlDiv"></div>
+  </div>
+</div>
+
+
+
+
+<div class=" uk-grid" data-uk-grid-margin>
+  <div class="uk-width-2-3@xl">
+    <h2>Transcription factors of USV1</h2>
+    <div>
+      <div id="tf_paging"></div>
+      
+      <div style="position:relative;">
+        <span style="font-weight: bold">Please be aware that here we show only the top 100 rows of
+          the data. <br />
+          If you wish to see all the data please click the <i>download all</i> button.</span>
+        <button style="position:absolute; right:0px; bottom:5px"
+          onclick="location.href='https://cdn.netbiol.org/tflink/proteinDownload_tfs/TFLink_tfs_of_Q12132.tsv'"
+          type="button">
+          <span uk-icon="icon: download; ratio: 1.5"></span>
+          <h4 style="display: inline-block; margin: 0">Download all</h4>
+        </button>
+      </div>
+      
+    </div>
+    <div id="tf_div"></div>
+    <input id="tf_data" type="hidden" name="tf_data" value="NRG1,Q03125,851613,Yeastract,chromatin immunoprecipitation array;northern blot,15343339%5Buid%5D&#43;OR&#43;18667581%5Buid%5D&#43;OR&#43;24170807%5Buid%5D,Yes
+ADR1,P07248,851802,Yeastract,chromatin immunoprecipitation assay;northern blot,18667581%5Buid%5D&#43;OR&#43;15743812%5Buid%5D&#43;OR&#43;24170807%5Buid%5D,Yes
+SPT15,P13393,856891,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+PDR1,P12383,852871,Yeastract,array technology/partial DNA sequence identification by hybridization,18627600%5Buid%5D&#43;OR&#43;24170807%5Buid%5D,No
+NDT80,P38830,856524,Yeastract,chromatin immunoprecipitation assay,28327289%5Buid%5D&#43;OR&#43;24170807%5Buid%5D,No
+FHL1,P39521,856219,Yeastract,array technology/partial DNA sequence identification by hybridization;chromatin immunoprecipitation array,15692568%5Buid%5D&#43;OR&#43;17646381%5Buid%5D&#43;OR&#43;28495531%5Buid%5D&#43;OR&#43;24170807%5Buid%5D,No
+SUT1,P53032,852714,Yeastract,array technology/partial DNA sequence identification by hybridization,23810556%5Buid%5D&#43;OR&#43;24170807%5Buid%5D,No
+MSN4,P33749,853803,Yeastract,array technology/partial DNA sequence identification by hybridization;chromatin immunoprecipitation assay,16926161%5Buid%5D&#43;OR&#43;21749328%5Buid%5D&#43;OR&#43;24170807%5Buid%5D&#43;OR&#43;28949295%5Buid%5D&#43;OR&#43;18931682%5Buid%5D,No
+SKN7,P38889,856613,Yeastract,array technology/partial DNA sequence identification by hybridization;chromatin immunoprecipitation array,24170807%5Buid%5D&#43;OR&#43;19487574%5Buid%5D&#43;OR&#43;15343339%5Buid%5D&#43;OR&#43;16880382%5Buid%5D,No
+RAP1,P11938,855505,GTRD;Yeastract,chromatin immunoprecipitation array;chromatin immunoprecipitation assay,17646381%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#43;OR&#43;20231876%5Buid%5D&#43;OR&#43;24170807%5Buid%5D,No
+MBP1,P39678,851503,Yeastract,array technology/partial DNA sequence identification by hybridization,24170807%5Buid%5D&#43;OR&#43;16880382%5Buid%5D,No
+RPN4,Q03465,851542,Yeastract,array technology/partial DNA sequence identification by hybridization,15575969%5Buid%5D&#43;OR&#43;20385592%5Buid%5D&#43;OR&#43;18627600%5Buid%5D&#43;OR&#43;24170807%5Buid%5D,No
+PDR3,P33200,852278,Yeastract,array technology/partial DNA sequence identification by hybridization,18627600%5Buid%5D&#43;OR&#43;24170807%5Buid%5D,No
+CUP2,P15315,852710,Yeastract,array technology/partial DNA sequence identification by hybridization,24170807%5Buid%5D&#43;OR&#43;20385592%5Buid%5D&#43;OR&#43;16880382%5Buid%5D,No
+RDS1,P25611,850470,Yeastract,array technology/partial DNA sequence identification by hybridization,20385592%5Buid%5D&#43;OR&#43;24170807%5Buid%5D,No
+GIS1,Q03833,851670,Yeastract,array technology/partial DNA sequence identification by hybridization,24170807%5Buid%5D&#43;OR&#43;16880382%5Buid%5D,No
+CBF1,P17106,853523,Yeastract,array technology/partial DNA sequence identification by hybridization,20385592%5Buid%5D&#43;OR&#43;24170807%5Buid%5D,No
+MET31,Q03081,856069,Yeastract,array technology/partial DNA sequence identification by hybridization,24170807%5Buid%5D&#43;OR&#43;19346491%5Buid%5D,No
+FKH2,P41813,855656,Yeastract,chromatin immunoprecipitation array,24504085%5Buid%5D&#43;OR&#43;24170807%5Buid%5D,No
+SUA7,P29055,856201,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+NCB2,Q92317,852006,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+PHD1,P36093,853823,Yeastract,chromatin immunoprecipitation array,15343339%5Buid%5D&#43;OR&#43;24170807%5Buid%5D,No
+-,Q12531,856125,Yeastract,array technology/partial DNA sequence identification by hybridization,24170807%5Buid%5D&#43;OR&#43;16880382%5Buid%5D,No
+-,Q05854,850984,Yeastract,array technology/partial DNA sequence identification by hybridization,20385592%5Buid%5D&#43;OR&#43;24170807%5Buid%5D,No
+GLN3,P18494,856763,Yeastract,array technology/partial DNA sequence identification by hybridization,20233714%5Buid%5D&#43;OR&#43;24170807%5Buid%5D,No
+BAS1,P22035,853974,Yeastract,array technology/partial DNA sequence identification by hybridization,21119627%5Buid%5D&#43;OR&#43;22912562%5Buid%5D&#43;OR&#43;24170807%5Buid%5D,No
+RGM1,Q00453,855220,Yeastract,array technology/partial DNA sequence identification by hybridization,20385592%5Buid%5D&#43;OR&#43;24170807%5Buid%5D,No
+YAP1,P19880,855005,Yeastract,array technology/partial DNA sequence identification by hybridization;full identification by RNA sequencing,24170807%5Buid%5D&#43;OR&#43;18627600%5Buid%5D&#43;OR&#43;26389527%5Buid%5D,No
+MET32,Q12041,851840,Yeastract,array technology/partial DNA sequence identification by hybridization,24170807%5Buid%5D&#43;OR&#43;19346491%5Buid%5D,No
+SWI4,P25302,856847,Yeastract,array technology/partial DNA sequence identification by hybridization,24170807%5Buid%5D&#43;OR&#43;16880382%5Buid%5D,No
+INO4,P13902,854042,Yeastract,chromatin immunoprecipitation assay,24170807%5Buid%5D&#43;OR&#43;30073202%5Buid%5D,No
+BUL1,P48524,855318,Yeastract,array technology/partial DNA sequence identification by hybridization,20385592%5Buid%5D&#43;OR&#43;24170807%5Buid%5D,No
+CST6,P40535,854775,Yeastract,array technology/partial DNA sequence identification by hybridization,20385592%5Buid%5D&#43;OR&#43;24170807%5Buid%5D,No
+CRZ1,P53968,855704,Yeastract,chromatin immunoprecipitation assay,24170807%5Buid%5D&#43;OR&#43;27544903%5Buid%5D,No
+TEC1,P18412,852377,Yeastract,array technology/partial DNA sequence identification by hybridization,10535956%5Buid%5D&#43;OR&#43;24170807%5Buid%5D,No
+OAF1,P39720,851247,Yeastract,chromatin immunoprecipitation assay,24170807%5Buid%5D&#43;OR&#43;30073202%5Buid%5D,No
+SIR3,P06701,851163,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+MIG2,P53035,852663,Yeastract,array technology/partial DNA sequence identification by hybridization,24170807%5Buid%5D&#43;OR&#43;19087243%5Buid%5D,No
+ARR1,Q06596,856329,Yeastract,array technology/partial DNA sequence identification by hybridization,15575969%5Buid%5D&#43;OR&#43;24170807%5Buid%5D,No
+GAT4,P40569,854830,Yeastract,array technology/partial DNA sequence identification by hybridization,24170807%5Buid%5D&#43;OR&#43;16880382%5Buid%5D,No
+USV1,Q12132,855871,Yeastract,array technology/partial DNA sequence identification by hybridization,20385592%5Buid%5D&#43;OR&#43;24170807%5Buid%5D,No
+ORC3,P54790,850656,Yeastract,chromatin immunoprecipitation assay,24170807%5Buid%5D&#43;OR&#43;30073202%5Buid%5D,No
+GAT1,P43574,850523,Yeastract,full identification by RNA sequencing,24170807%5Buid%5D&#43;OR&#43;29620523%5Buid%5D,No
+WTM2,Q12206,854404,Yeastract,array technology/partial DNA sequence identification by hybridization,20385592%5Buid%5D&#43;OR&#43;24170807%5Buid%5D,No
+ESA1,Q08649,854418,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+ROX1,P25042,856178,Yeastract,array technology/partial DNA sequence identification by hybridization;chromatin immunoprecipitation array,24170807%5Buid%5D&#43;OR&#43;15343339%5Buid%5D&#43;OR&#43;16880382%5Buid%5D,No
+ELP4,Q02884,856002,Yeastract,chromatin immunoprecipitation assay,24170807%5Buid%5D&#43;OR&#43;30073202%5Buid%5D,No
+IXR1,P33417,853836,Yeastract,array technology/partial DNA sequence identification by hybridization,29449612%5Buid%5D&#43;OR&#43;24170807%5Buid%5D,No
+-,A0A023PXA5,-,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+MIG3,P39943,856750,Yeastract,array technology/partial DNA sequence identification by hybridization,23275883%5Buid%5D&#43;OR&#43;24170807%5Buid%5D,No
+GCN4,P03069,856709,Yeastract,array technology/partial DNA sequence identification by hybridization,21119627%5Buid%5D&#43;OR&#43;24170807%5Buid%5D&#43;OR&#43;19346491%5Buid%5D,No
+INO2,P26798,851701,Yeastract,chromatin immunoprecipitation assay,24170807%5Buid%5D&#43;OR&#43;30073202%5Buid%5D,No
+HAP4,P14064,853751,Yeastract,array technology/partial DNA sequence identification by hybridization,16522629%5Buid%5D&#43;OR&#43;24170807%5Buid%5D,No
+SET1,P38827,856519,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+YAP6,Q03935,851846,Yeastract,chromatin immunoprecipitation array,19487574%5Buid%5D&#43;OR&#43;24170807%5Buid%5D,No
+MCM1,P11746,855060,Yeastract,array technology/partial DNA sequence identification by hybridization,20385592%5Buid%5D&#43;OR&#43;24170807%5Buid%5D,No
+SFP1,P32432,851119,Yeastract,array technology/partial DNA sequence identification by hybridization,24170807%5Buid%5D&#43;OR&#43;15353587%5Buid%5D,No
+SOK2,P53438,855030,Yeastract,array technology/partial DNA sequence identification by hybridization;chromatin immunoprecipitation array,24170807%5Buid%5D&#43;OR&#43;17638031%5Buid%5D&#43;OR&#43;16880382%5Buid%5D,No
+HAP1,P0CE41,850958,Yeastract,chromatin immunoprecipitation assay,24170807%5Buid%5D&#43;OR&#43;30073202%5Buid%5D,No
+TUP1,P16649,850445,GTRD;Yeastract,array technology/partial DNA sequence identification by hybridization;chromatin immunoprecipitation assay,20385592%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#43;OR&#43;24170807%5Buid%5D,No
+RLM1,Q12224,856016,Yeastract,array technology/partial DNA sequence identification by hybridization,24170807%5Buid%5D&#43;OR&#43;18931682%5Buid%5D,No
+GCN5,Q03330,853167,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+PUT3,P25502,853854,Yeastract,array technology/partial DNA sequence identification by hybridization,24170807%5Buid%5D&#43;OR&#43;16880382%5Buid%5D,No
+SKO1,Q02100,855554,Yeastract,chromatin immunoprecipitation array,19487574%5Buid%5D&#43;OR&#43;24170807%5Buid%5D,No
+GAT3,Q07928,850700,Yeastract,array technology/partial DNA sequence identification by hybridization,24170807%5Buid%5D&#43;OR&#43;16880382%5Buid%5D,No
+FKH1,P40466,854675,Yeastract,chromatin immunoprecipitation array,24504085%5Buid%5D&#43;OR&#43;24170807%5Buid%5D,No
+SPT23,P35210,853848,Yeastract,chromatin immunoprecipitation array,24170807%5Buid%5D&#43;OR&#43;16543154%5Buid%5D,No
+RDS2,P19541,855970,Yeastract,array technology/partial DNA sequence identification by hybridization,20385592%5Buid%5D&#43;OR&#43;24170807%5Buid%5D,No
+STO1,P34160,855155,Yeastract,array technology/partial DNA sequence identification by hybridization,23810556%5Buid%5D&#43;OR&#43;24170807%5Buid%5D,No
+MSN2,P33748,855053,Yeastract,array technology/partial DNA sequence identification by hybridization;chromatin immunoprecipitation array;chromatin immunoprecipitation assay,24598258%5Buid%5D&#43;OR&#43;16926161%5Buid%5D&#43;OR&#43;19487574%5Buid%5D&#43;OR&#43;30256697%5Buid%5D&#43;OR&#43;16880382%5Buid%5D&#43;OR&#43;21749328%5Buid%5D&#43;OR&#43;24170807%5Buid%5D&#43;OR&#43;28949295%5Buid%5D&#43;OR&#43;18931682%5Buid%5D,No
+RSC30,P38781,856453,Yeastract,array technology/partial DNA sequence identification by hybridization,24170807%5Buid%5D&#43;OR&#43;16880382%5Buid%5D,No
+ROX3,P25046,852184,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+GPT2,P36148,853941,Yeastract,full identification by RNA sequencing,24170807%5Buid%5D&#43;OR&#43;29620523%5Buid%5D,No" />
+    <p></p>
+  </div>
+  <div class="uk-width-1-3@xl">
+    <div id="tf-network-div"
+      style="height: 400px; width: 400px; border-style: solid; border-width: .1em;">
+    </div>
+    <div id="tfControlDiv"></div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+<script src="/protein.e9931.js"></script>
+
+
+<script src="/network.e9931.js"></script>
+
+
+  </div>
+
+  
+  <footer class="uk-container uk-container-small"></footer>
+
+  
+
+  
+  
+  <script src="/main.e9931.js"></script>
+  
+</body>
+
+</html>

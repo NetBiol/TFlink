@@ -1,0 +1,696 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<base href="/" />
+<title>TFLink</title>
+<link rel="stylesheet" href="https://cdn.webix.com/edge/webix.css" />
+
+<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-touch-icon.png?v=jwEjQXwyNy">
+<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png?v=jwEjQXwyNy">
+<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png?v=jwEjQXwyNy">
+<link rel="manifest" href="/images/favicon/site.webmanifest?v=jwEjQXwyNy">
+<link rel="mask-icon" href="/images/favicon/safari-pinned-tab.svg?v=jwEjQXwyNy" color="#70adb5">
+<link rel="shortcut icon" href="/images/favicon/favicon.ico?v=jwEjQXwyNy">
+<meta name="msapplication-TileColor" content="#00aba9">
+<meta name="msapplication-config" content="/images/favicon/browserconfig.xml?v=jwEjQXwyNy">
+<meta name="theme-color" content="#ffffff">
+
+
+
+<link href="/main.e9931.css" rel="stylesheet" />
+
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"
+  integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+<script src="https://cdn.webix.com/edge/webix.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.5/js/uikit.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.5/js/uikit-icons.min.js"></script>
+
+<script>
+  $(window).on('load', function () {
+    $('#spinner').fadeOut(300);
+  });
+</script>
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5RNBLSCVTD"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-5RNBLSCVTD');
+</script>
+
+</head>
+
+<body>
+  <div class="net-top-navbar" uk-sticky>
+    <div class="uk-container uk-container-center uk-container-expand">
+        <nav class="uk-navbar uk-navbar-container navbar">
+            <a class="uk-navbar-item uk-logo" href="/"><img src="/images/favicon/favicon-32x32.png">Link</a>
+            <ul class="uk-navbar-nav">
+                <li id="nav_browse">
+                    <a href="/browse/">Browse</a>
+                </li>
+                <li id="nav_download">
+                  <a href="/download/">Download</a>
+              </li>
+              <li id="nav_faq">
+                <a href="/faq/">FAQ</a>
+            </li>
+            </ul>
+        </nav>
+    </div>
+</div>
+
+
+  <div class="uk-container uk-container-expand uk-margin-large-bottom">
+    <div id="spinner"></div>
+    
+<div class="uk-grid" data-uk-grid-margin>
+  <div class="uk-width-medium-1-1">
+    <div class="uk-panel uk-panel-box uk-text-center">
+      <h1 id="protein_name">ftz</h1>
+      <hr class="" />
+    </div>
+  </div>
+</div>
+
+<div class="uk-grid-small" uk-grid uk-text-left>
+  <div class="uk-width-1-2@m">
+    <dl class="dl-horizontal">
+      <dt>Name</dt>
+      <dd>ftz</dd>
+      <dt>Uniprot Accession</dt>
+      <dd>
+        <a id="uniprot-id" href="https://www.uniprot.org/uniprot/P02835"
+          target="_blank" id="uniprot-ac">
+          P02835</a>
+      </dd>
+      <dt>NCBI Gene ID</dt>
+      <dd>
+        
+        <a href="https://www.ncbi.nlm.nih.gov/gene/?term=40834"
+          target="_blank">40834</a>
+        
+      </dd>
+      <dt>Organism</dt>
+      <dd>
+        <span>
+          <i id="organism">Drosophila melanogaster</i>
+          <span id="species_siluette" class="siluette-small">
+          </span>
+        </span>
+      </dd>
+      <dt>Function</dt>
+      <dd>transcription factor and target gene</dd>
+      <dt>Number of interactions</dt>
+      
+      <dd>22</dd>
+      
+      
+      
+      <dt>JASPAR position specific scoring matrix</dt>
+      <dd>
+        
+        <ul class="target-blank"><a href="https://jaspar.genereg.net/matrix/MA0225.1/">
+            MA0225.1</a></ul>
+        
+      </dd>
+      
+    </dl>
+  </div>
+
+</div>
+
+
+<div class="uk-grid">
+  <div class="uk-width-2-3@xl">
+    <h2>Targets of ftz</h2>
+    <div>
+      <div id="target_paging"></div>
+      
+      <div style="position:relative;">
+        <span style="font-weight: bold">Please be aware that here we show only the top 100 rows of
+          the data. <br />
+          If you wish to see all the data please click the <i>download all</i> button.</span>
+        <button style="position:absolute; right:0px; bottom:5px"
+          onclick="location.href='https://cdn.netbiol.org/tflink/proteinDownload_targets/TFLink_targets_of_P02835.tsv'"
+          type="button">
+          <span uk-icon="icon: download; ratio: 1.5"></span>
+          <h4 style="display: inline-block; margin: 0">Download all</h4>
+        </button>
+      </div>
+      
+    </div>
+
+    <div id="target_div"></div>
+    <input id="target_data" type="hidden" name="target_data"
+      value="Antp,P02833,40835,ORegAnno;REDfly,DNase I footprinting;inferred by curator,20965965%5Buid%5D&#43;OR&#43;26578589%5Buid%5D&#43;OR&#43;1982071%5Buid%5D,Yes
+ftz,P02835,40834,ORegAnno;REDfly,DNase I footprinting;electrophoretic mobility shift assay;inferred by curator,1640455%5Buid%5D&#43;OR&#43;26578589%5Buid%5D&#43;OR&#43;1976571%5Buid%5D&#43;OR&#43;20965965%5Buid%5D&#43;OR&#43;11520662%5Buid%5D,Yes
+gsb,P09082,38005,ORegAnno;REDfly,DNase I footprinting;inferred by curator,10885752%5Buid%5D&#43;OR&#43;26578589%5Buid%5D&#43;OR&#43;20965965%5Buid%5D,Yes
+tsh,P22265,35430,ORegAnno;REDfly,DNase I footprinting;inferred by curator,20965965%5Buid%5D&#43;OR&#43;9431813%5Buid%5D&#43;OR&#43;26578589%5Buid%5D,Yes
+Ubx,P83949,42034,ORegAnno;REDfly,DNase I footprinting;inferred by curator,1356761%5Buid%5D&#43;OR&#43;26578589%5Buid%5D&#43;OR&#43;20965965%5Buid%5D&#43;OR&#43;8404855%5Buid%5D&#43;OR&#43;8601485%5Buid%5D,Yes
+en,P02836,36240,ORegAnno;REDfly,DNase I footprinting;inferred by curator,20965965%5Buid%5D&#43;OR&#43;9043065%5Buid%5D&#43;OR&#43;26578589%5Buid%5D&#43;OR&#43;3046753%5Buid%5D,Yes" />
+    <p></p>
+  </div>
+  <div class="uk-width-1-3@xl">
+    <div id="target-network-div"
+      style="height: 400px; width: 400px; border-style: solid; border-width: .1em;">
+    </div>
+    <div id="targetControlDiv"></div>
+  </div>
+</div>
+
+
+
+
+<div class=" uk-grid" data-uk-grid-margin>
+  <div class="uk-width-2-3@xl">
+    <h2>Transcription factors of ftz</h2>
+    <div>
+      <div id="tf_paging"></div>
+      
+      <div style="position:relative;">
+        <span style="font-weight: bold">Please be aware that here we show only the top 100 rows of
+          the data. <br />
+          If you wish to see all the data please click the <i>download all</i> button.</span>
+        <button style="position:absolute; right:0px; bottom:5px"
+          onclick="location.href='https://cdn.netbiol.org/tflink/proteinDownload_tfs/TFLink_tfs_of_P02835.tsv'"
+          type="button">
+          <span uk-icon="icon: download; ratio: 1.5"></span>
+          <h4 style="display: inline-block; margin: 0">Download all</h4>
+        </button>
+      </div>
+      
+    </div>
+    <div id="tf_div"></div>
+    <input id="tf_data" type="hidden" name="tf_data" value="cad,P09085,35341,GTRD;ORegAnno;REDfly,DNase I footprinting;chromatin immunoprecipitation assay;inferred by curator,20965965%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#43;OR&#43;26578589%5Buid%5D&#43;OR&#43;2571934%5Buid%5D,Yes
+Hr39,Q05192,35398,ORegAnno;REDfly,DNase I footprinting;inferred by curator,8164672%5Buid%5D&#43;OR&#43;20965965%5Buid%5D&#43;OR&#43;26578589%5Buid%5D,Yes
+grh,P13002,37038,ORegAnno;REDfly,DNase I footprinting;inferred by curator,20965965%5Buid%5D&#43;OR&#43;2606344%5Buid%5D&#43;OR&#43;26578589%5Buid%5D,Yes
+ftz-f1,P33244,40045,ORegAnno;REDfly,DNase I footprinting;electrophoretic mobility shift assay;inferred by curator,26578589%5Buid%5D&#43;OR&#43;8164672%5Buid%5D&#43;OR&#43;20965965%5Buid%5D&#43;OR&#43;2001679%5Buid%5D&#43;OR&#43;11520662%5Buid%5D,Yes
+slp1,P32030,33607,ORegAnno;REDfly,DNase I footprinting;inferred by curator,20965965%5Buid%5D&#43;OR&#43;26578589%5Buid%5D&#43;OR&#43;10381570%5Buid%5D,Yes
+ftz,P02835,40834,ORegAnno;REDfly,DNase I footprinting;electrophoretic mobility shift assay;inferred by curator,1640455%5Buid%5D&#43;OR&#43;26578589%5Buid%5D&#43;OR&#43;1976571%5Buid%5D&#43;OR&#43;20965965%5Buid%5D&#43;OR&#43;11520662%5Buid%5D,Yes
+en,P02836,36240,ORegAnno;REDfly,DNase I footprinting;inferred by curator,20965965%5Buid%5D&#43;OR&#43;26578589%5Buid%5D&#43;OR&#43;3046753%5Buid%5D,Yes
+ttk,P42282,48317,ORegAnno;REDfly,DNase I footprinting;inferred by curator,20965965%5Buid%5D&#43;OR&#43;1640455%5Buid%5D&#43;OR&#43;26578589%5Buid%5D&#43;OR&#43;2001679%5Buid%5D,Yes
+nej,M9MS40,43856,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Kr,P07247,38012,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+zen,P09089,40828,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+bcd,P09081,40830,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Mad,P42003,33529,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+hb,P05084,41032,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Tbp,P20227,37476,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+gt,P39572,31227,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No" />
+    <p></p>
+  </div>
+  <div class="uk-width-1-3@xl">
+    <div id="tf-network-div"
+      style="height: 400px; width: 400px; border-style: solid; border-width: .1em;">
+    </div>
+    <div id="tfControlDiv"></div>
+  </div>
+</div>
+
+
+
+<div class="uk-grid" data-uk-grid-margin>
+  <div style="padding-right: 20px;">
+    <h2>Binding sites of ftz</h2>
+    <div>
+      <div id="binding_sites_paging"></div>
+
+      <div style="float: right; padding-bottom: 5px;">
+        
+        <button
+          onclick="location.href='https://cdn.netbiol.org/tflink/proteinDownload_bindingSites/TFLink_P02835_TFBS_annot.tsv'"
+          type="button">
+          <span uk-icon="icon: download; ratio: 1.5"></span>
+          <h4 style="display: inline-block; margin: 0">Download all</h4>
+        </button>
+        
+        
+        <button
+          onclick="location.href='https://cdn.netbiol.org/tflink/proteinDownload_bindingSites/TFLink_P02835_TFBS_annot.gff3'"
+          type="button">
+          <span uk-icon="icon: download; ratio: 1.5"></span>
+          <h4 style="display: inline-block; margin: 0">Download gff3</h4>
+        </button>
+        
+      </div>
+    </div>
+    <div id="binding_sites_div"></div>
+    <input id="binding_sites_data" type="hidden" name="binding_sites_data"
+      value="TFLinkSS03305288,P02835,ftz,Drosophila melanogaster,-,-,-,-,-,-,one hybrid,18332042%5Buid%5D,JASPAR,Yes,-
+TFLinkSS03305289,P02835,ftz,Drosophila melanogaster,-,-,-,-,-,-,one hybrid,18332042%5Buid%5D,JASPAR,Yes,-
+TFLinkSS03305290,P02835,ftz,Drosophila melanogaster,-,-,-,-,-,-,one hybrid,18332042%5Buid%5D,JASPAR,Yes,-
+TFLinkSS03305291,P02835,ftz,Drosophila melanogaster,-,-,-,-,-,-,one hybrid,18332042%5Buid%5D,JASPAR,Yes,-
+TFLinkSS03305292,P02835,ftz,Drosophila melanogaster,-,-,-,-,-,-,one hybrid,18332042%5Buid%5D,JASPAR,Yes,-
+TFLinkSS03305293,P02835,ftz,Drosophila melanogaster,-,-,-,-,-,-,one hybrid,18332042%5Buid%5D,JASPAR,Yes,-
+TFLinkSS03305294,P02835,ftz,Drosophila melanogaster,-,-,-,-,-,-,one hybrid,18332042%5Buid%5D,JASPAR,Yes,-
+TFLinkSS03305295,P02835,ftz,Drosophila melanogaster,-,-,-,-,-,-,one hybrid,18332042%5Buid%5D,JASPAR,Yes,-
+TFLinkSS03305296,P02835,ftz,Drosophila melanogaster,-,-,-,-,-,-,one hybrid,18332042%5Buid%5D,JASPAR,Yes,-
+TFLinkSS03305297,P02835,ftz,Drosophila melanogaster,-,-,-,-,-,-,one hybrid,18332042%5Buid%5D,JASPAR,Yes,-
+TFLinkSS03305298,P02835,ftz,Drosophila melanogaster,-,-,-,-,-,-,one hybrid,18332042%5Buid%5D,JASPAR,Yes,-
+TFLinkSS03305299,P02835,ftz,Drosophila melanogaster,-,-,-,-,-,-,one hybrid,18332042%5Buid%5D,JASPAR,Yes,-
+TFLinkSS03305300,P02835,ftz,Drosophila melanogaster,-,-,-,-,-,-,one hybrid,18332042%5Buid%5D,JASPAR,Yes,-
+TFLinkSS03305301,P02835,ftz,Drosophila melanogaster,-,-,-,-,-,-,one hybrid,18332042%5Buid%5D,JASPAR,Yes,-
+TFLinkSS03305302,P02835,ftz,Drosophila melanogaster,-,-,-,-,-,-,one hybrid,18332042%5Buid%5D,JASPAR,Yes,-
+TFLinkSS03305303,P02835,ftz,Drosophila melanogaster,-,-,-,-,-,-,one hybrid,18332042%5Buid%5D,JASPAR,Yes,-
+TFLinkSS03305304,P02835,ftz,Drosophila melanogaster,-,-,-,-,-,-,one hybrid,18332042%5Buid%5D,JASPAR,Yes,-
+TFLinkSS03305305,P02835,ftz,Drosophila melanogaster,-,-,-,-,-,-,one hybrid,18332042%5Buid%5D,JASPAR,Yes,-
+TFLinkSS03305306,P02835,ftz,Drosophila melanogaster,-,-,-,-,-,-,one hybrid,18332042%5Buid%5D,JASPAR,Yes,-
+TFLinkSS03305307,P02835,ftz,Drosophila melanogaster,-,-,-,-,-,-,one hybrid,18332042%5Buid%5D,JASPAR,Yes,-
+TFLinkSS03305308,P02835,ftz,Drosophila melanogaster,-,-,-,-,-,-,one hybrid,18332042%5Buid%5D,JASPAR,Yes,-
+TFLinkSS03305309,P02835,ftz,Drosophila melanogaster,-,-,-,-,-,-,one hybrid,18332042%5Buid%5D,JASPAR,Yes,-
+TFLinkSS09281773,P02835,ftz,Drosophila melanogaster,dm6,chr3R,6933371,6933390,-,dm6&amp;position=chr3R:6933371-6933390,DNase I footprinting,1982071%5Buid%5D&#43;OR&#43;20965965%5Buid%5D,REDfly,Yes,0
+TFLinkSS09281774,P02835,ftz,Drosophila melanogaster,dm6,chr3R,6997730,6997744,-,dm6&amp;position=chr3R:6997730-6997744,DNase I footprinting,1982071%5Buid%5D&#43;OR&#43;20965965%5Buid%5D,REDfly,Yes,0
+TFLinkSS09281775,P02835,ftz,Drosophila melanogaster,dm6,chr3R,6997746,6997757,-,dm6&amp;position=chr3R:6997746-6997757,DNase I footprinting,1982071%5Buid%5D&#43;OR&#43;20965965%5Buid%5D,REDfly,Yes,0
+TFLinkSS09281776,P02835,ftz,Drosophila melanogaster,dm6,chr3R,6997759,6997774,-,dm6&amp;position=chr3R:6997759-6997774,DNase I footprinting,1982071%5Buid%5D&#43;OR&#43;20965965%5Buid%5D,REDfly,Yes,0
+TFLinkSS09281777,P02835,ftz,Drosophila melanogaster,dm6,chr3R,6998783,6998837,-,dm6&amp;position=chr3R:6998783-6998837,DNase I footprinting,1982071%5Buid%5D&#43;OR&#43;20965965%5Buid%5D,REDfly,Yes,0
+TFLinkSS09281778,P02835,ftz,Drosophila melanogaster,dm6,chr3R,6998866,6998877,-,dm6&amp;position=chr3R:6998866-6998877,DNase I footprinting,1982071%5Buid%5D&#43;OR&#43;20965965%5Buid%5D,REDfly,Yes,0
+TFLinkSS09281779,P02835,ftz,Drosophila melanogaster,dm6,chr3R,6998880,6998917,-,dm6&amp;position=chr3R:6998880-6998917,DNase I footprinting,1982071%5Buid%5D&#43;OR&#43;20965965%5Buid%5D,REDfly,Yes,0
+TFLinkSS09281780,P02835,ftz,Drosophila melanogaster,dm6,chr3R,6998919,6998953,-,dm6&amp;position=chr3R:6998919-6998953,DNase I footprinting,1982071%5Buid%5D&#43;OR&#43;20965965%5Buid%5D,REDfly,Yes,0
+TFLinkSS09281781,P02835,ftz,Drosophila melanogaster,dm6,chr3R,7000097,7000111,-,dm6&amp;position=chr3R:7000097-7000111,DNase I footprinting,1982071%5Buid%5D&#43;OR&#43;20965965%5Buid%5D,REDfly,Yes,0
+TFLinkSS09281782,P02835,ftz,Drosophila melanogaster,dm6,chr3R,7000113,7000129,-,dm6&amp;position=chr3R:7000113-7000129,DNase I footprinting,1982071%5Buid%5D&#43;OR&#43;20965965%5Buid%5D,REDfly,Yes,0
+TFLinkSS09281783,P02835,ftz,Drosophila melanogaster,dm6,chr3R,7000333,7000349,-,dm6&amp;position=chr3R:7000333-7000349,DNase I footprinting,1982071%5Buid%5D&#43;OR&#43;20965965%5Buid%5D,REDfly,Yes,0
+TFLinkSS09281784,P02835,ftz,Drosophila melanogaster,dm6,chr3R,7000401,7000414,-,dm6&amp;position=chr3R:7000401-7000414,DNase I footprinting,1982071%5Buid%5D&#43;OR&#43;20965965%5Buid%5D,REDfly,Yes,0
+TFLinkSS09281785,P02835,ftz,Drosophila melanogaster,dm6,chr3R,7001490,7001499,-,dm6&amp;position=chr3R:7001490-7001499,DNase I footprinting,1982071%5Buid%5D&#43;OR&#43;20965965%5Buid%5D,REDfly,Yes,0
+TFLinkSS09281786,P02835,ftz,Drosophila melanogaster,dm6,chr3R,7001518,7001530,-,dm6&amp;position=chr3R:7001518-7001530,DNase I footprinting,1982071%5Buid%5D&#43;OR&#43;20965965%5Buid%5D,REDfly,Yes,0
+TFLinkSS09281787,P02835,ftz,Drosophila melanogaster,dm6,chr3R,7001532,7001539,-,dm6&amp;position=chr3R:7001532-7001539,DNase I footprinting,1982071%5Buid%5D&#43;OR&#43;20965965%5Buid%5D,REDfly,Yes,0
+TFLinkSS09281788,P02835,ftz,Drosophila melanogaster,dm6,chr3R,7001592,7001655,-,dm6&amp;position=chr3R:7001592-7001655,DNase I footprinting,1982071%5Buid%5D&#43;OR&#43;20965965%5Buid%5D,REDfly,Yes,0
+TFLinkSS09281789,P02835,ftz,Drosophila melanogaster,dm6,chr2R,11525486,11525495,-,dm6&amp;position=chr2R:11525486-11525495,DNase I footprinting,9043065%5Buid%5D&#43;OR&#43;20965965%5Buid%5D,REDfly,Yes,0
+TFLinkSS09281790,P02835,ftz,Drosophila melanogaster,dm6,chr2R,11525515,11525524,-,dm6&amp;position=chr2R:11525515-11525524,DNase I footprinting,9043065%5Buid%5D&#43;OR&#43;20965965%5Buid%5D,REDfly,Yes,0
+TFLinkSS09281791,P02835,ftz,Drosophila melanogaster,dm6,chr2R,11525584,11525593,-,dm6&amp;position=chr2R:11525584-11525593,DNase I footprinting,9043065%5Buid%5D&#43;OR&#43;20965965%5Buid%5D,REDfly,Yes,0
+TFLinkSS09281792,P02835,ftz,Drosophila melanogaster,dm6,chr2R,11525617,11525626,-,dm6&amp;position=chr2R:11525617-11525626,DNase I footprinting,9043065%5Buid%5D&#43;OR&#43;20965965%5Buid%5D,REDfly,Yes,0
+TFLinkSS09281793,P02835,ftz,Drosophila melanogaster,dm6,chr2R,11525706,11525715,-,dm6&amp;position=chr2R:11525706-11525715,DNase I footprinting,9043065%5Buid%5D&#43;OR&#43;20965965%5Buid%5D,REDfly,Yes,0
+TFLinkSS09281794,P02835,ftz,Drosophila melanogaster,dm6,chr2R,11525717,11525726,-,dm6&amp;position=chr2R:11525717-11525726,DNase I footprinting,9043065%5Buid%5D&#43;OR&#43;20965965%5Buid%5D,REDfly,Yes,0
+TFLinkSS09281795,P02835,ftz,Drosophila melanogaster,dm6,chr2R,11525729,11525738,-,dm6&amp;position=chr2R:11525729-11525738,DNase I footprinting,9043065%5Buid%5D&#43;OR&#43;20965965%5Buid%5D,REDfly,Yes,0
+TFLinkSS09281796,P02835,ftz,Drosophila melanogaster,dm6,chr2R,11525972,11525981,-,dm6&amp;position=chr2R:11525972-11525981,DNase I footprinting,9043065%5Buid%5D&#43;OR&#43;20965965%5Buid%5D,REDfly,Yes,0
+TFLinkSS09281797,P02835,ftz,Drosophila melanogaster,dm6,chr2R,11526120,11526129,-,dm6&amp;position=chr2R:11526120-11526129,DNase I footprinting,9043065%5Buid%5D&#43;OR&#43;20965965%5Buid%5D,REDfly,Yes,0
+TFLinkSS09281798,P02835,ftz,Drosophila melanogaster,dm6,chr2R,11526144,11526154,-,dm6&amp;position=chr2R:11526144-11526154,DNase I footprinting,9043065%5Buid%5D&#43;OR&#43;20965965%5Buid%5D,REDfly,Yes,0
+TFLinkSS09281799,P02835,ftz,Drosophila melanogaster,dm6,chr2R,11528735,11528756,-,dm6&amp;position=chr2R:11528735-11528756,DNase I footprinting,3046753%5Buid%5D&#43;OR&#43;20965965%5Buid%5D,REDfly,Yes,0
+TFLinkSS09281800,P02835,ftz,Drosophila melanogaster,dm6,chr2R,11528778,11528809,-,dm6&amp;position=chr2R:11528778-11528809,DNase I footprinting,3046753%5Buid%5D&#43;OR&#43;20965965%5Buid%5D,REDfly,Yes,0
+TFLinkSS09281801,P02835,ftz,Drosophila melanogaster,dm6,chr3R,6858825,6858841,-,dm6&amp;position=chr3R:6858825-6858841,DNase I footprinting,1976571%5Buid%5D&#43;OR&#43;20965965%5Buid%5D,REDfly,Yes,0
+TFLinkSS09281802,P02835,ftz,Drosophila melanogaster,dm6,chr3R,6858871,6858891,-,dm6&amp;position=chr3R:6858871-6858891,DNase I footprinting,1976571%5Buid%5D&#43;OR&#43;20965965%5Buid%5D,REDfly,Yes,0
+TFLinkSS09281803,P02835,ftz,Drosophila melanogaster,dm6,chr3R,6859052,6859073,-,dm6&amp;position=chr3R:6859052-6859073,DNase I footprinting,1976571%5Buid%5D&#43;OR&#43;20965965%5Buid%5D,REDfly,Yes,0
+TFLinkSS09281804,P02835,ftz,Drosophila melanogaster,dm6,chr3R,6859158,6859177,-,dm6&amp;position=chr3R:6859158-6859177,DNase I footprinting,1976571%5Buid%5D&#43;OR&#43;20965965%5Buid%5D,REDfly,Yes,0
+TFLinkSS09281805,P02835,ftz,Drosophila melanogaster,dm6,chr3R,6859187,6859216,-,dm6&amp;position=chr3R:6859187-6859216,DNase I footprinting,1976571%5Buid%5D&#43;OR&#43;20965965%5Buid%5D,REDfly,Yes,0
+TFLinkSS09281806,P02835,ftz,Drosophila melanogaster,dm6,chr3R,6859233,6859288,-,dm6&amp;position=chr3R:6859233-6859288,DNase I footprinting,1976571%5Buid%5D&#43;OR&#43;20965965%5Buid%5D,REDfly,Yes,0
+TFLinkSS09281807,P02835,ftz,Drosophila melanogaster,dm6,chr3R,6859518,6859545,-,dm6&amp;position=chr3R:6859518-6859545,DNase I footprinting,1976571%5Buid%5D&#43;OR&#43;20965965%5Buid%5D,REDfly,Yes,0
+TFLinkSS09281808,P02835,ftz,Drosophila melanogaster,dm6,chr3R,6859615,6859632,-,dm6&amp;position=chr3R:6859615-6859632,DNase I footprinting,1976571%5Buid%5D&#43;OR&#43;20965965%5Buid%5D,REDfly,Yes,0
+TFLinkSS09281809,P02835,ftz,Drosophila melanogaster,dm6,chr3R,6859649,6859668,-,dm6&amp;position=chr3R:6859649-6859668,DNase I footprinting,1976571%5Buid%5D&#43;OR&#43;20965965%5Buid%5D,REDfly,Yes,0
+TFLinkSS09281810,P02835,ftz,Drosophila melanogaster,dm6,chr3R,6859756,6859772,-,dm6&amp;position=chr3R:6859756-6859772,DNase I footprinting,1976571%5Buid%5D&#43;OR&#43;20965965%5Buid%5D,REDfly,Yes,0
+TFLinkSS09281811,P02835,ftz,Drosophila melanogaster,dm6,chr3R,6859813,6859827,-,dm6&amp;position=chr3R:6859813-6859827,DNase I footprinting,1976571%5Buid%5D&#43;OR&#43;20965965%5Buid%5D,REDfly,Yes,0
+TFLinkSS09281812,P02835,ftz,Drosophila melanogaster,dm6,chr3R,6859851,6859862,-,dm6&amp;position=chr3R:6859851-6859862,DNase I footprinting,1976571%5Buid%5D&#43;OR&#43;20965965%5Buid%5D,REDfly,Yes,0
+TFLinkSS09281813,P02835,ftz,Drosophila melanogaster,dm6,chr3R,6859903,6859915,-,dm6&amp;position=chr3R:6859903-6859915,DNase I footprinting,1976571%5Buid%5D&#43;OR&#43;20965965%5Buid%5D,REDfly,Yes,0
+TFLinkSS09281814,P02835,ftz,Drosophila melanogaster,dm6,chr3R,6859998,6860013,-,dm6&amp;position=chr3R:6859998-6860013,DNase I footprinting,1976571%5Buid%5D&#43;OR&#43;20965965%5Buid%5D,REDfly,Yes,0
+TFLinkSS09281815,P02835,ftz,Drosophila melanogaster,dm6,chr3R,6860055,6860076,-,dm6&amp;position=chr3R:6860055-6860076,DNase I footprinting,1976571%5Buid%5D&#43;OR&#43;20965965%5Buid%5D,REDfly,Yes,0
+TFLinkSS09281816,P02835,ftz,Drosophila melanogaster,dm6,chr3R,6860080,6860098,-,dm6&amp;position=chr3R:6860080-6860098,DNase I footprinting,1976571%5Buid%5D&#43;OR&#43;20965965%5Buid%5D,REDfly,Yes,0
+TFLinkSS09281817,P02835,ftz,Drosophila melanogaster,dm6,chr3R,6860101,6860117,-,dm6&amp;position=chr3R:6860101-6860117,DNase I footprinting,1976571%5Buid%5D&#43;OR&#43;20965965%5Buid%5D,REDfly,Yes,0
+TFLinkSS09281818,P02835,ftz,Drosophila melanogaster,dm6,chr3R,6860166,6860180,-,dm6&amp;position=chr3R:6860166-6860180,DNase I footprinting,1976571%5Buid%5D&#43;OR&#43;20965965%5Buid%5D,REDfly,Yes,0
+TFLinkSS09281819,P02835,ftz,Drosophila melanogaster,dm6,chr3R,6860304,6860319,-,dm6&amp;position=chr3R:6860304-6860319,DNase I footprinting,1976571%5Buid%5D&#43;OR&#43;20965965%5Buid%5D,REDfly,Yes,0
+TFLinkSS09281820,P02835,ftz,Drosophila melanogaster,dm6,chr3R,6860339,6860354,-,dm6&amp;position=chr3R:6860339-6860354,DNase I footprinting,1976571%5Buid%5D&#43;OR&#43;20965965%5Buid%5D,REDfly,Yes,0
+TFLinkSS09281821,P02835,ftz,Drosophila melanogaster,dm6,chr3R,6860455,6860471,-,dm6&amp;position=chr3R:6860455-6860471,DNase I footprinting,1976571%5Buid%5D&#43;OR&#43;20965965%5Buid%5D,REDfly,Yes,0
+TFLinkSS09281822,P02835,ftz,Drosophila melanogaster,dm6,chr3R,6860294,6860320,-,dm6&amp;position=chr3R:6860294-6860320,electrophoretic mobility shift assay,11520662%5Buid%5D&#43;OR&#43;20965965%5Buid%5D,REDfly,Yes,1
+TFLinkSS09281823,P02835,ftz,Drosophila melanogaster,dm6,chr2R,25056944,25056953,-,dm6&amp;position=chr2R:25056944-25056953,DNase I footprinting,10885752%5Buid%5D&#43;OR&#43;20965965%5Buid%5D,REDfly,Yes,0
+TFLinkSS09281824,P02835,ftz,Drosophila melanogaster,dm6,chr2R,25057032,25057050,-,dm6&amp;position=chr2R:25057032-25057050,DNase I footprinting,10885752%5Buid%5D&#43;OR&#43;20965965%5Buid%5D,REDfly,Yes,0
+TFLinkSS09281825,P02835,ftz,Drosophila melanogaster,dm6,chr2R,25057146,25057171,-,dm6&amp;position=chr2R:25057146-25057171,DNase I footprinting,10885752%5Buid%5D&#43;OR&#43;20965965%5Buid%5D,REDfly,Yes,0
+TFLinkSS09281826,P02835,ftz,Drosophila melanogaster,dm6,chr2L,21853391,21853398,-,dm6&amp;position=chr2L:21853391-21853398,DNase I footprinting,9431813%5Buid%5D&#43;OR&#43;20965965%5Buid%5D,REDfly,Yes,0
+TFLinkSS09281827,P02835,ftz,Drosophila melanogaster,dm6,chr2L,21853488,21853515,-,dm6&amp;position=chr2L:21853488-21853515,DNase I footprinting,9431813%5Buid%5D&#43;OR&#43;20965965%5Buid%5D,REDfly,Yes,0
+TFLinkSS09281828,P02835,ftz,Drosophila melanogaster,dm6,chr2L,21853539,21853547,-,dm6&amp;position=chr2L:21853539-21853547,DNase I footprinting,9431813%5Buid%5D&#43;OR&#43;20965965%5Buid%5D,REDfly,Yes,0
+TFLinkSS09281829,P02835,ftz,Drosophila melanogaster,dm6,chr2L,21853580,21853590,-,dm6&amp;position=chr2L:21853580-21853590,DNase I footprinting,9431813%5Buid%5D&#43;OR&#43;20965965%5Buid%5D,REDfly,Yes,0
+TFLinkSS09281830,P02835,ftz,Drosophila melanogaster,dm6,chr3R,16701131,16701180,-,dm6&amp;position=chr3R:16701131-16701180,DNase I footprinting,8404855%5Buid%5D&#43;OR&#43;20965965%5Buid%5D,REDfly,Yes,0
+TFLinkSS09281831,P02835,ftz,Drosophila melanogaster,dm6,chr3R,16701234,16701278,-,dm6&amp;position=chr3R:16701234-16701278,DNase I footprinting,8404855%5Buid%5D&#43;OR&#43;20965965%5Buid%5D,REDfly,Yes,0
+TFLinkSS09281832,P02835,ftz,Drosophila melanogaster,dm6,chr3R,16701294,16701306,-,dm6&amp;position=chr3R:16701294-16701306,DNase I footprinting,8404855%5Buid%5D&#43;OR&#43;20965965%5Buid%5D,REDfly,Yes,0
+TFLinkSS09281833,P02835,ftz,Drosophila melanogaster,dm6,chr3R,16701316,16701325,-,dm6&amp;position=chr3R:16701316-16701325,DNase I footprinting,8404855%5Buid%5D&#43;OR&#43;20965965%5Buid%5D,REDfly,Yes,0
+TFLinkSS09281834,P02835,ftz,Drosophila melanogaster,dm6,chr3R,16773439,16773457,-,dm6&amp;position=chr3R:16773439-16773457,DNase I footprinting,8601485%5Buid%5D&#43;OR&#43;20965965%5Buid%5D,REDfly,Yes,0
+TFLinkSS09281835,P02835,ftz,Drosophila melanogaster,dm6,chr3R,16773509,16773536,-,dm6&amp;position=chr3R:16773509-16773536,DNase I footprinting,1356761%5Buid%5D&#43;OR&#43;20965965%5Buid%5D,REDfly,Yes,0
+TFLinkSS09281836,P02835,ftz,Drosophila melanogaster,dm6,chr3R,16773591,16773603,-,dm6&amp;position=chr3R:16773591-16773603,DNase I footprinting,1356761%5Buid%5D&#43;OR&#43;20965965%5Buid%5D,REDfly,Yes,0
+TFLinkSS09281837,P02835,ftz,Drosophila melanogaster,dm6,chr3R,16773611,16773624,-,dm6&amp;position=chr3R:16773611-16773624,DNase I footprinting,1356761%5Buid%5D&#43;OR&#43;20965965%5Buid%5D,REDfly,Yes,0
+TFLinkSS09281838,P02835,ftz,Drosophila melanogaster,dm6,chr3R,16773686,16773697,-,dm6&amp;position=chr3R:16773686-16773697,DNase I footprinting,1356761%5Buid%5D&#43;OR&#43;20965965%5Buid%5D,REDfly,Yes,0
+TFLinkSS09281839,P02835,ftz,Drosophila melanogaster,dm6,chr3R,16773716,16773732,-,dm6&amp;position=chr3R:16773716-16773732,DNase I footprinting,1356761%5Buid%5D&#43;OR&#43;20965965%5Buid%5D,REDfly,Yes,0
+TFLinkSS09283598,P02835,ftz,Drosophila melanogaster,dm6,chr2L,21853391,21853398,&#43;,dm6&amp;position=chr2L:21853391-21853398,inferred by curator,9431813%5Buid%5D,ORegAnno,Yes,0
+TFLinkSS09283599,P02835,ftz,Drosophila melanogaster,dm6,chr2L,21853488,21853515,&#43;,dm6&amp;position=chr2L:21853488-21853515,inferred by curator,9431813%5Buid%5D,ORegAnno,Yes,0
+TFLinkSS09283600,P02835,ftz,Drosophila melanogaster,dm6,chr2L,21853539,21853547,&#43;,dm6&amp;position=chr2L:21853539-21853547,inferred by curator,9431813%5Buid%5D,ORegAnno,Yes,0
+TFLinkSS09283601,P02835,ftz,Drosophila melanogaster,dm6,chr2L,21853580,21853590,&#43;,dm6&amp;position=chr2L:21853580-21853590,inferred by curator,9431813%5Buid%5D,ORegAnno,Yes,0
+TFLinkSS09283696,P02835,ftz,Drosophila melanogaster,dm6,chr2R,11525486,11525495,&#43;,dm6&amp;position=chr2R:11525486-11525495,inferred by curator,9043065%5Buid%5D,ORegAnno,Yes,0
+TFLinkSS09283698,P02835,ftz,Drosophila melanogaster,dm6,chr2R,11525515,11525524,&#43;,dm6&amp;position=chr2R:11525515-11525524,inferred by curator,9043065%5Buid%5D,ORegAnno,Yes,0
+TFLinkSS09283700,P02835,ftz,Drosophila melanogaster,dm6,chr2R,11525584,11525593,&#43;,dm6&amp;position=chr2R:11525584-11525593,inferred by curator,9043065%5Buid%5D,ORegAnno,Yes,0
+TFLinkSS09283701,P02835,ftz,Drosophila melanogaster,dm6,chr2R,11525617,11525626,&#43;,dm6&amp;position=chr2R:11525617-11525626,inferred by curator,9043065%5Buid%5D,ORegAnno,Yes,0
+TFLinkSS09283702,P02835,ftz,Drosophila melanogaster,dm6,chr2R,11525706,11525715,&#43;,dm6&amp;position=chr2R:11525706-11525715,inferred by curator,9043065%5Buid%5D,ORegAnno,Yes,0
+TFLinkSS09283703,P02835,ftz,Drosophila melanogaster,dm6,chr2R,11525717,11525726,&#43;,dm6&amp;position=chr2R:11525717-11525726,inferred by curator,9043065%5Buid%5D,ORegAnno,Yes,0
+TFLinkSS09283704,P02835,ftz,Drosophila melanogaster,dm6,chr2R,11525729,11525738,&#43;,dm6&amp;position=chr2R:11525729-11525738,inferred by curator,9043065%5Buid%5D,ORegAnno,Yes,0" />
+    <p></p>
+  </div>
+</div>
+
+<div class="uk-grid" data-uk-grid-margin>
+  <div class="uk-width-1-2@m">
+    <h2>Binding site sequences of ftz based on small-scale evidences</h2>
+    <div class="binding-sites">
+      <p>&gt;TFLinkSS03305288;P02835;ftz;-;-:&mdash;<br />
+ATCATAATTG<br />
+&gt;TFLinkSS03305289;P02835;ftz;-;-:&mdash;<br />
+CAGCCGCCC<br />
+&gt;TFLinkSS03305290;P02835;ftz;-;-:&mdash;<br />
+GTTAATGGGA<br />
+&gt;TFLinkSS03305291;P02835;ftz;-;-:&mdash;<br />
+CTCTTAATTA<br />
+&gt;TFLinkSS03305292;P02835;ftz;-;-:&mdash;<br />
+ATGCTCCCGC<br />
+&gt;TFLinkSS03305293;P02835;ftz;-;-:&mdash;<br />
+TTACTAATGA<br />
+&gt;TFLinkSS03305294;P02835;ftz;-;-:&mdash;<br />
+TTATAAATGA<br />
+&gt;TFLinkSS03305295;P02835;ftz;-;-:&mdash;<br />
+TTTTTAATTG<br />
+&gt;TFLinkSS03305296;P02835;ftz;-;-:&mdash;<br />
+CGCCTAATGA<br />
+&gt;TFLinkSS03305297;P02835;ftz;-;-:&mdash;<br />
+TAGTTAATTA<br />
+&gt;TFLinkSS03305298;P02835;ftz;-;-:&mdash;<br />
+GTTAATGATG<br />
+&gt;TFLinkSS03305299;P02835;ftz;-;-:&mdash;<br />
+TGCTTAATTA<br />
+&gt;TFLinkSS03305300;P02835;ftz;-;-:&mdash;<br />
+GGCTTAATGG<br />
+&gt;TFLinkSS03305301;P02835;ftz;-;-:&mdash;<br />
+AAGTAGGTTC<br />
+&gt;TFLinkSS03305302;P02835;ftz;-;-:&mdash;<br />
+CCGTTAATTA<br />
+&gt;TFLinkSS03305303;P02835;ftz;-;-:&mdash;<br />
+GAGTTAATGA<br />
+&gt;TFLinkSS03305304;P02835;ftz;-;-:&mdash;<br />
+ATCTTAGGGC<br />
+&gt;TFLinkSS03305305;P02835;ftz;-;-:&mdash;<br />
+CTGTTAATTA<br />
+&gt;TFLinkSS03305306;P02835;ftz;-;-:&mdash;<br />
+GGGTTAATTA<br />
+&gt;TFLinkSS03305307;P02835;ftz;-;-:&mdash;<br />
+TTTTTAATGA<br />
+&gt;TFLinkSS03305308;P02835;ftz;-;-:&mdash;<br />
+ATATTAATTA<br />
+&gt;TFLinkSS03305309;P02835;ftz;-;-:&mdash;<br />
+TTGTTAATGA<br />
+&gt;TFLinkSS09281773;P02835;ftz;dm6;chr3R:6933371-6933390<br />
+GTTTACCTTAATTGCTTATA<br />
+&gt;TFLinkSS09281774;P02835;ftz;dm6;chr3R:6997730-6997744<br />
+AACATTTAATGGACA<br />
+&gt;TFLinkSS09281775;P02835;ftz;dm6;chr3R:6997746-6997757<br />
+CTAATAGTAACA<br />
+&gt;TFLinkSS09281776;P02835;ftz;dm6;chr3R:6997759-6997774<br />
+AATATACTTATGTCAA<br />
+&gt;TFLinkSS09281777;P02835;ftz;dm6;chr3R:6998783-6998837<br />
+GATTACAATTACGATTACGGTTACGATTACGGTTATTATTATAATAATGGGTTTA<br />
+&gt;TFLinkSS09281778;P02835;ftz;dm6;chr3R:6998866-6998877<br />
+GTGCGACTGATT<br />
+&gt;TFLinkSS09281779;P02835;ftz;dm6;chr3R:6998880-6998917<br />
+GGTTCTAATTTTTTACGATTATTGTTATGATTATTTTT<br />
+&gt;TFLinkSS09281780;P02835;ftz;dm6;chr3R:6998919-6998953<br />
+CGGCCTTTATGATCTTAGCGGGCTGACAATTGGGA<br />
+&gt;TFLinkSS09281781;P02835;ftz;dm6;chr3R:7000097-7000111<br />
+TATAAAATCAATTAA<br />
+&gt;TFLinkSS09281782;P02835;ftz;dm6;chr3R:7000113-7000129<br />
+ATAATTGTACAATTTAC<br />
+&gt;TFLinkSS09281783;P02835;ftz;dm6;chr3R:7000333-7000349<br />
+TGCTTAAGTACTTATAA<br />
+&gt;TFLinkSS09281784;P02835;ftz;dm6;chr3R:7000401-7000414<br />
+ATGTTCTTAATTAA<br />
+&gt;TFLinkSS09281785;P02835;ftz;dm6;chr3R:7001490-7001499<br />
+AAAGCAAATT<br />
+&gt;TFLinkSS09281786;P02835;ftz;dm6;chr3R:7001518-7001530<br />
+TATTTAATAATAA<br />
+&gt;TFLinkSS09281787;P02835;ftz;dm6;chr3R:7001532-7001539<br />
+CACATCAG<br />
+&gt;TFLinkSS09281788;P02835;ftz;dm6;chr3R:7001592-7001655<br />
+TGCATAATTATTTAATAATGTGAAATTAACATAATGTATTTTTGTATAATAGTTACCATTACTC<br />
+&gt;TFLinkSS09281789;P02835;ftz;dm6;chr2R:11525486-11525495<br />
+TCTAATTAGC<br />
+&gt;TFLinkSS09281790;P02835;ftz;dm6;chr2R:11525515-11525524<br />
+GCTAATTGGC<br />
+&gt;TFLinkSS09281791;P02835;ftz;dm6;chr2R:11525584-11525593<br />
+TTTAATTGAC<br />
+&gt;TFLinkSS09281792;P02835;ftz;dm6;chr2R:11525617-11525626<br />
+ATTAATTCCT<br />
+&gt;TFLinkSS09281793;P02835;ftz;dm6;chr2R:11525706-11525715<br />
+GACCATAAAA<br />
+&gt;TFLinkSS09281794;P02835;ftz;dm6;chr2R:11525717-11525726<br />
+AGCACTTAAC<br />
+&gt;TFLinkSS09281795;P02835;ftz;dm6;chr2R:11525729-11525738<br />
+GTCAATTAAC<br />
+&gt;TFLinkSS09281796;P02835;ftz;dm6;chr2R:11525972-11525981<br />
+TCACATAAAG<br />
+&gt;TFLinkSS09281797;P02835;ftz;dm6;chr2R:11526120-11526129<br />
+CCTAATTGTG<br />
+&gt;TFLinkSS09281798;P02835;ftz;dm6;chr2R:11526144-11526154<br />
+ATTTATGACAC<br />
+&gt;TFLinkSS09281799;P02835;ftz;dm6;chr2R:11528735-11528756<br />
+CTTCAATTAACCAGTTAAATGT<br />
+&gt;TFLinkSS09281800;P02835;ftz;dm6;chr2R:11528778-11528809<br />
+AATTGATTGATATTTAATTGACATTTAATTTA<br />
+&gt;TFLinkSS09281801;P02835;ftz;dm6;chr3R:6858825-6858841<br />
+ACAAAATGTCTTTTACA<br />
+&gt;TFLinkSS09281802;P02835;ftz;dm6;chr3R:6858871-6858891<br />
+GAAACATTACTGCCATTACAG<br />
+&gt;TFLinkSS09281803;P02835;ftz;dm6;chr3R:6859052-6859073<br />
+TCTCGCATTAGACTGATGTTCT<br />
+&gt;TFLinkSS09281804;P02835;ftz;dm6;chr3R:6859158-6859177<br />
+GTTTATGGATAGTAAATGCA<br />
+&gt;TFLinkSS09281805;P02835;ftz;dm6;chr3R:6859187-6859216<br />
+GGGTCCTTAAGCGTCTTAATTGCCCGCGTA<br />
+&gt;TFLinkSS09281806;P02835;ftz;dm6;chr3R:6859233-6859288<br />
+AGCGCAATTGGTTTCCAAGGCGGAAATATTATTGGCACATCATAAAACTATAAAAC<br />
+&gt;TFLinkSS09281807;P02835;ftz;dm6;chr3R:6859518-6859545<br />
+ATTGTTAATGGACGTTATCCTTATTAGA<br />
+&gt;TFLinkSS09281808;P02835;ftz;dm6;chr3R:6859615-6859632<br />
+TTAGGTATTAAGATCTGA<br />
+&gt;TFLinkSS09281809;P02835;ftz;dm6;chr3R:6859649-6859668<br />
+CTTCATTATATTATAGATTA<br />
+&gt;TFLinkSS09281810;P02835;ftz;dm6;chr3R:6859756-6859772<br />
+TTGTTATAGTGCACGGA<br />
+&gt;TFLinkSS09281811;P02835;ftz;dm6;chr3R:6859813-6859827<br />
+CACAAGGTACAAGGT<br />
+&gt;TFLinkSS09281812;P02835;ftz;dm6;chr3R:6859851-6859862<br />
+ACATGACATTAT<br />
+&gt;TFLinkSS09281813;P02835;ftz;dm6;chr3R:6859903-6859915<br />
+AAAAAGCCATCAA<br />
+&gt;TFLinkSS09281814;P02835;ftz;dm6;chr3R:6859998-6860013<br />
+TAGGGGCCATAAGCAG<br />
+&gt;TFLinkSS09281815;P02835;ftz;dm6;chr3R:6860055-6860076<br />
+ACGGGGTCATCATTGCTAAAAG<br />
+&gt;TFLinkSS09281816;P02835;ftz;dm6;chr3R:6860080-6860098<br />
+CAGGACAATTCGAATAAGT<br />
+&gt;TFLinkSS09281817;P02835;ftz;dm6;chr3R:6860101-6860117<br />
+GACAGGAGCAATTACAG<br />
+&gt;TFLinkSS09281818;P02835;ftz;dm6;chr3R:6860166-6860180<br />
+CAGGCAATTCAAGGA<br />
+&gt;TFLinkSS09281819;P02835;ftz;dm6;chr3R:6860304-6860319<br />
+GACTTTGATTGGTGCC<br />
+&gt;TFLinkSS09281820;P02835;ftz;dm6;chr3R:6860339-6860354<br />
+ATATCCACCCATTGAG<br />
+&gt;TFLinkSS09281821;P02835;ftz;dm6;chr3R:6860455-6860471<br />
+GAAGATTACTTCATTTA<br />
+&gt;TFLinkSS09281822;P02835;ftz;dm6;chr3R:6860294-6860320<br />
+CGGCATCCTTGACTTTGATTGGTGCCG<br />
+&gt;TFLinkSS09281823;P02835;ftz;dm6;chr2R:25056944-25056953<br />
+GCGGTGTGTC<br />
+&gt;TFLinkSS09281824;P02835;ftz;dm6;chr2R:25057032-25057050<br />
+CAAACCATTAACACCCGAA<br />
+&gt;TFLinkSS09281825;P02835;ftz;dm6;chr2R:25057146-25057171<br />
+GTCGCATGATTAGGGGCCATTACAAA<br />
+&gt;TFLinkSS09281826;P02835;ftz;dm6;chr2L:21853391-21853398<br />
+TGCATTAG<br />
+&gt;TFLinkSS09281827;P02835;ftz;dm6;chr2L:21853488-21853515<br />
+GTATTTTCATAATTTTCATATTTCTCCG<br />
+&gt;TFLinkSS09281828;P02835;ftz;dm6;chr2L:21853539-21853547<br />
+GCTAAAGTG<br />
+&gt;TFLinkSS09281829;P02835;ftz;dm6;chr2L:21853580-21853590<br />
+GCCAAATTAGC<br />
+&gt;TFLinkSS09281830;P02835;ftz;dm6;chr3R:16701131-16701180<br />
+CGCCCGGCACTTAACATTGTACTTTTTATGACCTCGTAAAAAAACTGCAC<br />
+&gt;TFLinkSS09281831;P02835;ftz;dm6;chr3R:16701234-16701278<br />
+GACCTTGAAGGCGGCGTCAAAAAGTTAATGATCACCATCGGCTCT<br />
+&gt;TFLinkSS09281832;P02835;ftz;dm6;chr3R:16701294-16701306<br />
+TGTTTCTCATGTG<br />
+&gt;TFLinkSS09281833;P02835;ftz;dm6;chr3R:16701316-16701325<br />
+CGCACACATA<br />
+&gt;TFLinkSS09281834;P02835;ftz;dm6;chr3R:16773439-16773457<br />
+CCGTCGGCCATTAAAAAAG<br />
+&gt;TFLinkSS09281835;P02835;ftz;dm6;chr3R:16773509-16773536<br />
+GGTAAAAGATCGCTCATTAGCAGCAGCT<br />
+&gt;TFLinkSS09281836;P02835;ftz;dm6;chr3R:16773591-16773603<br />
+TTATTAGCCATGG<br />
+&gt;TFLinkSS09281837;P02835;ftz;dm6;chr3R:16773611-16773624<br />
+TTATGATTGTTTCA<br />
+&gt;TFLinkSS09281838;P02835;ftz;dm6;chr3R:16773686-16773697<br />
+ATATTACCTTGA<br />
+&gt;TFLinkSS09281839;P02835;ftz;dm6;chr3R:16773716-16773732<br />
+CATTTAATTTGTTTAGA<br />
+&gt;TFLinkSS09283598;P02835;ftz;dm6;chr2L:21853391-21853398<br />
+GCATTAG<br />
+&gt;TFLinkSS09283599;P02835;ftz;dm6;chr2L:21853488-21853515<br />
+TATTTTCATAATTTTCATATTTCTCCG<br />
+&gt;TFLinkSS09283600;P02835;ftz;dm6;chr2L:21853539-21853547<br />
+CTAAAGTG<br />
+&gt;TFLinkSS09283601;P02835;ftz;dm6;chr2L:21853580-21853590<br />
+CCAAATTAGC<br />
+&gt;TFLinkSS09283696;P02835;ftz;dm6;chr2R:11525486-11525495<br />
+CTAATTAGC<br />
+&gt;TFLinkSS09283698;P02835;ftz;dm6;chr2R:11525515-11525524<br />
+CTAATTGGC<br />
+&gt;TFLinkSS09283700;P02835;ftz;dm6;chr2R:11525584-11525593<br />
+TTAATTGAC<br />
+&gt;TFLinkSS09283701;P02835;ftz;dm6;chr2R:11525617-11525626<br />
+TTAATTCCT<br />
+&gt;TFLinkSS09283702;P02835;ftz;dm6;chr2R:11525706-11525715<br />
+ACCATAAAA<br />
+&gt;TFLinkSS09283703;P02835;ftz;dm6;chr2R:11525717-11525726<br />
+GCACTTAAC<br />
+&gt;TFLinkSS09283704;P02835;ftz;dm6;chr2R:11525729-11525738<br />
+TCAATTAAC<br />
+&gt;TFLinkSS09283706;P02835;ftz;dm6;chr2R:11525972-11525981<br />
+CACATAAAG<br />
+&gt;TFLinkSS09283707;P02835;ftz;dm6;chr2R:11526120-11526129<br />
+CTAATTGTG<br />
+&gt;TFLinkSS09283709;P02835;ftz;dm6;chr2R:11526144-11526154<br />
+TTTATGACAC<br />
+&gt;TFLinkSS09283713;P02835;ftz;dm6;chr2R:11528735-11528756<br />
+TTCAATTAACCAGTTAAATGT<br />
+&gt;TFLinkSS09283722;P02835;ftz;dm6;chr2R:11528778-11528809<br />
+ATTGATTGATATTTAATTGACATTTAATTTA<br />
+&gt;TFLinkSS09283783;P02835;ftz;dm6;chr2R:25056944-25056953<br />
+CGGTGTGTC<br />
+&gt;TFLinkSS09283784;P02835;ftz;dm6;chr2R:25057032-25057050<br />
+AAACCATTAACACCCGAA<br />
+&gt;TFLinkSS09283789;P02835;ftz;dm6;chr2R:25057146-25057171<br />
+TCGCATGATTAGGGGCCATTACAAA<br />
+&gt;TFLinkSS09284091;P02835;ftz;dm6;chr3R:6858825-6858841<br />
+CAAAATGTCTTTTACA<br />
+&gt;TFLinkSS09284092;P02835;ftz;dm6;chr3R:6858871-6858891<br />
+AAACATTACTGCCATTACAG<br />
+&gt;TFLinkSS09284093;P02835;ftz;dm6;chr3R:6859052-6859073<br />
+CTCGCATTAGACTGATGTTCT<br />
+&gt;TFLinkSS09284094;P02835;ftz;dm6;chr3R:6859158-6859177<br />
+TTTATGGATAGTAAATGCA<br />
+&gt;TFLinkSS09284095;P02835;ftz;dm6;chr3R:6859187-6859216<br />
+GGTCCTTAAGCGTCTTAATTGCCCGCGTA<br />
+&gt;TFLinkSS09284096;P02835;ftz;dm6;chr3R:6859233-6859288<br />
+GCGCAATTGGTTTCCAAGGCGGAAATATTATTGGCACATCATAAAACTATAAAAC<br />
+&gt;TFLinkSS09284097;P02835;ftz;dm6;chr3R:6859518-6859545<br />
+TTGTTAATGGACGTTATCCTTATTAGA<br />
+&gt;TFLinkSS09284098;P02835;ftz;dm6;chr3R:6859525-6859543<br />
+TGGACGTTATCCTTATTA<br />
+&gt;TFLinkSS09284099;P02835;ftz;dm6;chr3R:6859615-6859632<br />
+TAGGTATTAAGATCTGA<br />
+&gt;TFLinkSS09284100;P02835;ftz;dm6;chr3R:6859649-6859668<br />
+TTCATTATATTATAGATTA<br />
+&gt;TFLinkSS09284101;P02835;ftz;dm6;chr3R:6859756-6859772<br />
+TGTTATAGTGCACGGA<br />
+&gt;TFLinkSS09284102;P02835;ftz;dm6;chr3R:6859813-6859827<br />
+ACAAGGTACAAGGT<br />
+&gt;TFLinkSS09284103;P02835;ftz;dm6;chr3R:6859851-6859862<br />
+CATGACATTAT<br />
+&gt;TFLinkSS09284104;P02835;ftz;dm6;chr3R:6859903-6859915<br />
+AAAAGCCATCAA<br />
+&gt;TFLinkSS09284105;P02835;ftz;dm6;chr3R:6859998-6860013<br />
+AGGGGCCATAAGCAG<br />
+&gt;TFLinkSS09284106;P02835;ftz;dm6;chr3R:6860055-6860076<br />
+CGGGGTCATCATTGCTAAAAG<br />
+&gt;TFLinkSS09284107;P02835;ftz;dm6;chr3R:6860080-6860098<br />
+AGGACAATTCGAATAAGT<br />
+&gt;TFLinkSS09284108;P02835;ftz;dm6;chr3R:6860101-6860117<br />
+ACAGGAGCAATTACAG<br />
+&gt;TFLinkSS09284110;P02835;ftz;dm6;chr3R:6860166-6860180<br />
+AGGCAATTCAAGGA<br />
+&gt;TFLinkSS09284111;P02835;ftz;dm6;chr3R:6860304-6860319<br />
+ACTTTGATTGGTGCC<br />
+&gt;TFLinkSS09284112;P02835;ftz;dm6;chr3R:6860339-6860354<br />
+TATCCACCCATTGAG<br />
+&gt;TFLinkSS09284113;P02835;ftz;dm6;chr3R:6860455-6860471<br />
+AAGATTACTTCATTTA<br />
+&gt;TFLinkSS09284137;P02835;ftz;dm6;chr3R:6933371-6933390<br />
+TTTACCTTAATTGCTTATA<br />
+&gt;TFLinkSS09284182;P02835;ftz;dm6;chr3R:6997730-6997744<br />
+ACATTTAATGGACA<br />
+&gt;TFLinkSS09284183;P02835;ftz;dm6;chr3R:6997746-6997757<br />
+TAATAGTAACA<br />
+&gt;TFLinkSS09284184;P02835;ftz;dm6;chr3R:6997759-6997774<br />
+ATATACTTATGTCAA<br />
+&gt;TFLinkSS09284186;P02835;ftz;dm6;chr3R:6998783-6998837<br />
+ATTACAATTACGATTACGGTTACGATTACGGTTATTATTATAATAATGGGTTTA<br />
+&gt;TFLinkSS09284187;P02835;ftz;dm6;chr3R:6998866-6998877<br />
+TGCGACTGATT<br />
+&gt;TFLinkSS09284189;P02835;ftz;dm6;chr3R:6998880-6998917<br />
+GTTCTAATTTTTTACGATTATTGTTATGATTATTTTT<br />
+&gt;TFLinkSS09284190;P02835;ftz;dm6;chr3R:6998919-6998953<br />
+GGCCTTTATGATCTTAGCGGGCTGACAATTGGGA<br />
+&gt;TFLinkSS09284194;P02835;ftz;dm6;chr3R:7000097-7000111<br />
+ATAAAATCAATTAA<br />
+&gt;TFLinkSS09284195;P02835;ftz;dm6;chr3R:7000113-7000129<br />
+TAATTGTACAATTTAC<br />
+&gt;TFLinkSS09284196;P02835;ftz;dm6;chr3R:7000333-7000349<br />
+GCTTAAGTACTTATAA<br />
+&gt;TFLinkSS09284197;P02835;ftz;dm6;chr3R:7000401-7000414<br />
+TGTTCTTAATTAA<br />
+&gt;TFLinkSS09284198;P02835;ftz;dm6;chr3R:7001490-7001499<br />
+AAGCAAATT<br />
+&gt;TFLinkSS09284199;P02835;ftz;dm6;chr3R:7001518-7001530<br />
+ATTTAATAATAA<br />
+&gt;TFLinkSS09284200;P02835;ftz;dm6;chr3R:7001532-7001539<br />
+ACATCAG<br />
+&gt;TFLinkSS09284201;P02835;ftz;dm6;chr3R:7001592-7001655<br />
+GCATAATTATTTAATAATGTGAAATTAACATAATGTATTTTTGTATAATAGTTACCATTACTC<br />
+&gt;TFLinkSS09284277;P02835;ftz;dm6;chr3R:16701131-16701180<br />
+GCCCGGCACTTAACATTGTACTTTTTATGACCTCGTAAAAAAACTGCAC<br />
+&gt;TFLinkSS09284281;P02835;ftz;dm6;chr3R:16701234-16701278<br />
+ACCTTGAAGGCGGCGTCAAAAAGTTAATGATCACCATCGGCTCT<br />
+&gt;TFLinkSS09284286;P02835;ftz;dm6;chr3R:16701294-16701306<br />
+GTTTCTCATGTG<br />
+&gt;TFLinkSS09284288;P02835;ftz;dm6;chr3R:16701316-16701325<br />
+GCACACATA<br />
+&gt;TFLinkSS09284367;P02835;ftz;dm6;chr3R:16773439-16773457<br />
+CGTCGGCCATTAAAAAAG<br />
+&gt;TFLinkSS09284370;P02835;ftz;dm6;chr3R:16773509-16773536<br />
+GTAAAAGATCGCTCATTAGCAGCAGCT<br />
+&gt;TFLinkSS09284374;P02835;ftz;dm6;chr3R:16773591-16773603<br />
+TATTAGCCATGG<br />
+&gt;TFLinkSS09284376;P02835;ftz;dm6;chr3R:16773611-16773624<br />
+TATGATTGTTTCA<br />
+&gt;TFLinkSS09284379;P02835;ftz;dm6;chr3R:16773686-16773697<br />
+TATTACCTTGA<br />
+&gt;TFLinkSS09284380;P02835;ftz;dm6;chr3R:16773716-16773732<br />
+ATTTAATTTGTTTAGA</p>
+
+    </div>
+  </div>
+  
+</div>
+
+
+
+
+
+
+<script src="/protein.e9931.js"></script>
+
+
+<script src="/network.e9931.js"></script>
+
+
+  </div>
+
+  
+  <footer class="uk-container uk-container-small"></footer>
+
+  
+
+  
+  
+  <script src="/main.e9931.js"></script>
+  
+</body>
+
+</html>

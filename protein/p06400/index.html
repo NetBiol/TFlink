@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<base href="/" />
+<title>TFLink</title>
+<link rel="stylesheet" href="https://cdn.webix.com/edge/webix.css" />
+
+<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-touch-icon.png?v=jwEjQXwyNy">
+<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png?v=jwEjQXwyNy">
+<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png?v=jwEjQXwyNy">
+<link rel="manifest" href="/images/favicon/site.webmanifest?v=jwEjQXwyNy">
+<link rel="mask-icon" href="/images/favicon/safari-pinned-tab.svg?v=jwEjQXwyNy" color="#70adb5">
+<link rel="shortcut icon" href="/images/favicon/favicon.ico?v=jwEjQXwyNy">
+<meta name="msapplication-TileColor" content="#00aba9">
+<meta name="msapplication-config" content="/images/favicon/browserconfig.xml?v=jwEjQXwyNy">
+<meta name="theme-color" content="#ffffff">
+
+
+
+<link href="/main.e9931.css" rel="stylesheet" />
+
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"
+  integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+<script src="https://cdn.webix.com/edge/webix.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.5/js/uikit.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.5/js/uikit-icons.min.js"></script>
+
+<script>
+  $(window).on('load', function () {
+    $('#spinner').fadeOut(300);
+  });
+</script>
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5RNBLSCVTD"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-5RNBLSCVTD');
+</script>
+
+</head>
+
+<body>
+  <div class="net-top-navbar" uk-sticky>
+    <div class="uk-container uk-container-center uk-container-expand">
+        <nav class="uk-navbar uk-navbar-container navbar">
+            <a class="uk-navbar-item uk-logo" href="/"><img src="/images/favicon/favicon-32x32.png">Link</a>
+            <ul class="uk-navbar-nav">
+                <li id="nav_browse">
+                    <a href="/browse/">Browse</a>
+                </li>
+                <li id="nav_download">
+                  <a href="/download/">Download</a>
+              </li>
+              <li id="nav_faq">
+                <a href="/faq/">FAQ</a>
+            </li>
+            </ul>
+        </nav>
+    </div>
+</div>
+
+
+  <div class="uk-container uk-container-expand uk-margin-large-bottom">
+    <div id="spinner"></div>
+    
+<div class="uk-grid" data-uk-grid-margin>
+  <div class="uk-width-medium-1-1">
+    <div class="uk-panel uk-panel-box uk-text-center">
+      <h1 id="protein_name">RB1</h1>
+      <hr class="" />
+    </div>
+  </div>
+</div>
+
+<div class="uk-grid-small" uk-grid uk-text-left>
+  <div class="uk-width-1-2@m">
+    <dl class="dl-horizontal">
+      <dt>Name</dt>
+      <dd>RB1</dd>
+      <dt>Uniprot Accession</dt>
+      <dd>
+        <a id="uniprot-id" href="https://www.uniprot.org/uniprot/P06400"
+          target="_blank" id="uniprot-ac">
+          P06400</a>
+      </dd>
+      <dt>NCBI Gene ID</dt>
+      <dd>
+        
+        <a href="https://www.ncbi.nlm.nih.gov/gene/?term=5925"
+          target="_blank">5925</a>
+        
+      </dd>
+      <dt>Organism</dt>
+      <dd>
+        <span>
+          <i id="organism">Homo sapiens</i>
+          <span id="species_siluette" class="siluette-small">
+          </span>
+        </span>
+      </dd>
+      <dt>Function</dt>
+      <dd>transcription factor and target gene</dd>
+      <dt>Number of interactions</dt>
+      
+      <dd>11,459</dd>
+      
+      
+      <input id="ortholog_data" type="hidden" name="ortholog_data"
+        value="[{&#34;species&#34;: &#34;Mus musculus&#34;, &#34;id&#34;: [&#34;&lt;a href=\&#34;/protein/p13405\&#34;&gt;P13405&lt;/a&gt;&#34;]}, {&#34;species&#34;: &#34;Rattus norvegicus&#34;, &#34;id&#34;: [&#34;&lt;a href=\&#34;/protein/r9pxv5\&#34;&gt;R9PXV5&lt;/a&gt;&#34;]}, {&#34;species&#34;: &#34;Drosophila melanogaster&#34;, &#34;id&#34;: [&#34;&lt;a href=\&#34;/protein/q9vf04\&#34;&gt;Q9VF04&lt;/a&gt;&#34;]}, {&#34;species&#34;: &#34;Danio rerio&#34;, &#34;id&#34;: [&#34;&lt;a href=\&#34;/protein/f1q9d6\&#34;&gt;F1Q9D6&lt;/a&gt;&#34;]}]" />
+      <dt>Orthologs</dt>
+      <dd>
+        <ul id="ulOrtholog" class="target-blank"></ul>
+      </dd>
+      
+      
+    </dl>
+  </div>
+
+</div>
+
+
+<div class="uk-grid">
+  <div class="uk-width-2-3@xl">
+    <h2>Targets of RB1</h2>
+    <div>
+      <div id="target_paging"></div>
+      
+      <div style="position:relative;">
+        <span style="font-weight: bold">Please be aware that here we show only the top 100 rows of
+          the data. <br />
+          If you wish to see all the data please click the <i>download all</i> button.</span>
+        <button style="position:absolute; right:0px; bottom:5px"
+          onclick="location.href='https://cdn.netbiol.org/tflink/proteinDownload_targets/TFLink_targets_of_P06400.tsv'"
+          type="button">
+          <span uk-icon="icon: download; ratio: 1.5"></span>
+          <h4 style="display: inline-block; margin: 0">Download all</h4>
+        </button>
+      </div>
+      
+    </div>
+
+    <div id="target_div"></div>
+    <input id="target_data" type="hidden" name="target_data"
+      value="EBNA1BP2,Q99848,10969,GTRD;TRRUST,chromatin immunoprecipitation assay;inferred by curator,22169551%5Buid%5D&#43;OR&#43;29087512%5Buid%5D&#43;OR&#43;27924024%5Buid%5D,Yes
+IGF1,P05019,3479,TRRUST,inferred by curator,18281476%5Buid%5D&#43;OR&#43;29087512%5Buid%5D,Yes
+PPARG,P37231,5468,GTRD;TRRUST,chromatin immunoprecipitation assay;inferred by curator,20971808%5Buid%5D&#43;OR&#43;29087512%5Buid%5D&#43;OR&#43;27924024%5Buid%5D,Yes
+FZR1,Q9UM11,51343,GTRD;ReMap;TRRUST,chromatin immunoprecipitation assay;inferred by curator,12391156%5Buid%5D&#43;OR&#43;29087512%5Buid%5D&#43;OR&#43;29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D,Yes
+VEGFA,P15692,7422,GTRD;ReMap;TRRUST,chromatin immunoprecipitation assay;inferred by curator,29126285%5Buid%5D&#43;OR&#43;29087512%5Buid%5D&#43;OR&#43;16007189%5Buid%5D&#43;OR&#43;27924024%5Buid%5D,Yes
+DDIT3,P35638,1649,TRRUST,inferred by curator,20971808%5Buid%5D&#43;OR&#43;29087512%5Buid%5D,Yes
+BIRC5,O15392,332,GTRD;ReMap;TRRUST,chromatin immunoprecipitation assay;inferred by curator,29087512%5Buid%5D&#43;OR&#43;29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#43;OR&#43;18504435%5Buid%5D,Yes
+E2F2,Q14209,1870,GTRD;ReMap;TRRUST,chromatin immunoprecipitation assay;inferred by curator,29087512%5Buid%5D&#43;OR&#43;29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#43;OR&#43;9671466%5Buid%5D,Yes
+E2F1,Q01094,1869,GTRD;ReMap;TRRUST,chromatin immunoprecipitation assay;inferred by curator,21602887%5Buid%5D&#43;OR&#43;11939591%5Buid%5D&#43;OR&#43;29126285%5Buid%5D&#43;OR&#43;1534305%5Buid%5D&#43;OR&#43;9326598%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#43;OR&#43;12460790%5Buid%5D&#43;OR&#43;9400991%5Buid%5D&#43;OR&#43;29087512%5Buid%5D&#43;OR&#43;8575214%5Buid%5D&#43;OR&#43;9671466%5Buid%5D,Yes
+BRCA1,P38398,672,GTRD;ReMap;TRRUST,chromatin immunoprecipitation assay;inferred by curator,27924024%5Buid%5D&#43;OR&#43;29087512%5Buid%5D&#43;OR&#43;29126285%5Buid%5D&#43;OR&#43;20068145%5Buid%5D,Yes
+SP1,P08047,6667,GTRD;ReMap;TRRUST,chromatin immunoprecipitation assay;inferred by curator,27924024%5Buid%5D&#43;OR&#43;29087512%5Buid%5D&#43;OR&#43;29126285%5Buid%5D&#43;OR&#43;7702750%5Buid%5D,Yes
+CDH1,P12830,999,TRRUST,inferred by curator,12391156%5Buid%5D&#43;OR&#43;29087512%5Buid%5D,Yes
+RBL1,P28749,5933,GTRD;ReMap;TRRUST,chromatin immunoprecipitation assay;inferred by curator,29087512%5Buid%5D&#43;OR&#43;29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#43;OR&#43;9671466%5Buid%5D,Yes
+ELF1,P32519,1997,GTRD;ReMap;TRRUST,chromatin immunoprecipitation assay;inferred by curator,27924024%5Buid%5D&#43;OR&#43;29087512%5Buid%5D&#43;OR&#43;29126285%5Buid%5D&#43;OR&#43;7702750%5Buid%5D,Yes
+DHFR,P00374,1719,GTRD;TRRUST,chromatin immunoprecipitation assay;inferred by curator,29087512%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#43;OR&#43;9671466%5Buid%5D,Yes
+WRN,Q14191,7486,GTRD;TRRUST,chromatin immunoprecipitation assay;inferred by curator,29087512%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#43;OR&#43;11896071%5Buid%5D,Yes
+RB1,P06400,5925,GTRD;ReMap;TRRUST,chromatin immunoprecipitation assay;inferred by curator,8264596%5Buid%5D&#43;OR&#43;29087512%5Buid%5D&#43;OR&#43;29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D,Yes
+MYC,P01106,4609,GTRD;ReMap;TRRUST,chromatin immunoprecipitation assay;inferred by curator,10200487%5Buid%5D&#43;OR&#43;29126285%5Buid%5D&#43;OR&#43;7680889%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#43;OR&#43;29087512%5Buid%5D&#43;OR&#43;9671466%5Buid%5D,Yes
+DNMT3A,Q9Y6K1,1788,GTRD;ReMap;TRRUST,chromatin immunoprecipitation assay;inferred by curator,29087512%5Buid%5D&#43;OR&#43;22733537%5Buid%5D&#43;OR&#43;29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D,Yes
+FGFR1,P11362,2260,TRRUST,inferred by curator,19303924%5Buid%5D&#43;OR&#43;29087512%5Buid%5D,Yes
+SFTPD,P35247,6441,TRRUST,inferred by curator,29087512%5Buid%5D&#43;OR&#43;11596110%5Buid%5D,Yes
+HBP1,O60381,26959,GTRD;ReMap;TRRUST,chromatin immunoprecipitation assay;inferred by curator,27924024%5Buid%5D&#43;OR&#43;29087512%5Buid%5D&#43;OR&#43;29126285%5Buid%5D&#43;OR&#43;16966377%5Buid%5D,Yes
+TP53BP2,Q13625,7159,GTRD;ReMap;TRRUST,chromatin immunoprecipitation assay;inferred by curator,19610065%5Buid%5D&#43;OR&#43;29087512%5Buid%5D&#43;OR&#43;29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D,Yes
+ATF2,P15336,1386,GTRD;ReMap;TRRUST,chromatin immunoprecipitation assay;inferred by curator,27924024%5Buid%5D&#43;OR&#43;29087512%5Buid%5D&#43;OR&#43;29126285%5Buid%5D&#43;OR&#43;7702750%5Buid%5D,Yes
+MAP3K5,Q99683,4217,GTRD;ReMap;TRRUST,chromatin immunoprecipitation assay;inferred by curator,19610065%5Buid%5D&#43;OR&#43;29087512%5Buid%5D&#43;OR&#43;29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D,Yes
+CDKN1A,P38936,1026,GTRD;TRRUST,chromatin immunoprecipitation assay;inferred by curator,14527674%5Buid%5D&#43;OR&#43;29087512%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#43;OR&#43;9671466%5Buid%5D,Yes
+E2F3,O00716,1871,GTRD;ReMap;TRRUST,chromatin immunoprecipitation assay;inferred by curator,29087512%5Buid%5D&#43;OR&#43;20428827%5Buid%5D&#43;OR&#43;29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D,Yes
+PCNA,P12004,5111,GTRD;ReMap;TRRUST,chromatin immunoprecipitation assay;inferred by curator,29087512%5Buid%5D&#43;OR&#43;29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#43;OR&#43;9671466%5Buid%5D,Yes
+CDK1,P06493,983,GTRD;ReMap;TRRUST,chromatin immunoprecipitation assay;inferred by curator,29126285%5Buid%5D&#43;OR&#43;29087512%5Buid%5D&#43;OR&#43;8270002%5Buid%5D&#43;OR&#43;27924024%5Buid%5D,Yes
+FOS,P01100,2353,GTRD;ReMap;TRRUST,chromatin immunoprecipitation assay;inferred by curator,29126285%5Buid%5D&#43;OR&#43;7680889%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#43;OR&#43;1909121%5Buid%5D&#43;OR&#43;29087512%5Buid%5D,Yes
+TFDP1,Q14186,7027,GTRD;ReMap;TRRUST,chromatin immunoprecipitation assay;inferred by curator,27924024%5Buid%5D&#43;OR&#43;29087512%5Buid%5D&#43;OR&#43;29126285%5Buid%5D&#43;OR&#43;8223441%5Buid%5D,Yes
+TGFBI,Q15582,7045,GTRD;TRRUST,chromatin immunoprecipitation assay;inferred by curator,7680889%5Buid%5D&#43;OR&#43;29087512%5Buid%5D&#43;OR&#43;27924024%5Buid%5D,Yes
+DAND5,Q8N907,199699,GTRD;ReMap;TRRUST,chromatin immunoprecipitation assay;inferred by curator,27924024%5Buid%5D&#43;OR&#43;29087512%5Buid%5D&#43;OR&#43;29126285%5Buid%5D&#43;OR&#43;7702750%5Buid%5D,Yes
+GPIHBP1,Q8IV16,338328,TRRUST,inferred by curator,29087512%5Buid%5D&#43;OR&#43;16966377%5Buid%5D,Yes
+SPDYC,Q5MJ68,387778,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No
+IQGAP1,P46940,8826,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D,No
+GLIPR2,Q9H4G4,152007,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+CDC14A,Q9UNH5,8556,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+H2AC20,Q16777,8338,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+ERAL1,O75616,26284,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+SYNE1,Q8NF91,23345,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+LDAH,Q9H6V9,60526,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D,No
+RAB1B,Q9H0U4,81876,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+MAFB,Q9Y5Q3,9935,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+BDH1,Q02338,622,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+ZNF749,O43361,388567,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+FAM227A,F5H4B4,646851,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+RTCA,O00442,8634,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D,No
+GBA,P04062,2629,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D,No
+FOXD1,Q16676,2297,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+IL4I1,Q96RQ9,259307,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D,No
+TOR1B,O14657,27348,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D,No
+TMEM187,Q14656,8269,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D,No
+GCA,P28676,25801,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D,No
+POLR3F,Q9H1D9,10621,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+IWS1,Q96ST2,55677,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D,No
+ENHO,Q6UWT2,375704,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+BAZ1A,Q9NRL2,11177,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+IFITM10,A6NMD0,402778,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+SLK,Q9H2G2,9748,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+JAK2,O60674,3717,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+DPY19L2,Q6NUT2,283417,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+POLR2I,P36954,5438,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+NME6,O75414,10201,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+TMEM41B,Q5BJD5,440026,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No
+CMPK2,Q5EBM0,129607,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+SOX13,Q9UN79,9580,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+AAR2,Q9Y312,25980,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D,No
+NUP37,Q8NFH4,79023,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No
+ERBIN,Q96RT1,55914,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D,No
+DHX37,Q8IY37,57647,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D,No
+TRIQK,Q629K1,286144,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+SETD3,Q86TU7,84193,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+NR4A2,P43354,4929,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D,No
+RMDN3,Q96TC7,55177,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+SFXN2,Q96NB2,118980,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+-,K7EIM0,-,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+EIF4E2,O60573,9470,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+TMSB10,P63313,9168,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D,No
+KLHL5,Q96PQ7,51088,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D,No
+PIAS2,O75928,9063,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+TMEM160,Q9NX00,54958,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D,No
+NDRG3,Q9UGV2,57446,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+ABCF2,Q9UG63,10061;114483834,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D,No
+BMP7,P18075,655,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No
+ATP8A1,Q9Y2Q0,10396,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D,No
+ZADH2,Q8N4Q0,284273,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D,No
+PIGU,Q9H490,128869,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+PRPS1,P60891,5631,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+CCDC96,Q2M329,257236,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No
+FRS2,Q8WU20,10818,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D,No
+FOXO6,A8MYZ6,-,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D,No
+STIMATE-MUSTN1,A8MSY1,100526772,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+GAMT,Q14353,2593,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D,No
+-,A0A1B0GTJ5,-,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No
+TIMM10,P62072,26519,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D,No
+COL5A1,P20908,1289,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+TCEA1,P23193,6917,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D,No
+AKAP10,O43572,11216,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+INO80B,Q9C086,83444,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D,No" />
+    <p></p>
+  </div>
+  <div class="uk-width-1-3@xl">
+    <div id="target-network-div"
+      style="height: 400px; width: 400px; border-style: solid; border-width: .1em;">
+    </div>
+    <div id="targetControlDiv"></div>
+  </div>
+</div>
+
+
+
+
+<div class=" uk-grid" data-uk-grid-margin>
+  <div class="uk-width-2-3@xl">
+    <h2>Transcription factors of RB1</h2>
+    <div>
+      <div id="tf_paging"></div>
+      
+      <div style="position:relative;">
+        <span style="font-weight: bold">Please be aware that here we show only the top 100 rows of
+          the data. <br />
+          If you wish to see all the data please click the <i>download all</i> button.</span>
+        <button style="position:absolute; right:0px; bottom:5px"
+          onclick="location.href='https://cdn.netbiol.org/tflink/proteinDownload_tfs/TFLink_tfs_of_P06400.tsv'"
+          type="button">
+          <span uk-icon="icon: download; ratio: 1.5"></span>
+          <h4 style="display: inline-block; margin: 0">Download all</h4>
+        </button>
+      </div>
+      
+    </div>
+    <div id="tf_div"></div>
+    <input id="tf_data" type="hidden" name="tf_data" value="E2F1,Q01094,1869,FANTOM4_via_DoRothEA;GTRD;ORegAnno;PAZAR;ReMap;TFactS_via_DoRothea;TRED;TRRUST,chromatin immunoprecipitation assay;inferred by curator,29126285%5Buid%5D&#43;OR&#43;16738312%5Buid%5D&#43;OR&#43;8119953%5Buid%5D&#43;OR&#43;26578589%5Buid%5D&#43;OR&#43;20211142%5Buid%5D&#43;OR&#43;8264596%5Buid%5D&#43;OR&#43;22761861%5Buid%5D&#43;OR&#43;18971253%5Buid%5D&#43;OR&#43;15618023%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#43;OR&#43;17202159%5Buid%5D&#43;OR&#43;29087512%5Buid%5D,Yes
+BDP1,A6H8Y1,55814,TRRUST,inferred by curator,29087512%5Buid%5D&#43;OR&#43;12734418%5Buid%5D,Yes
+YY1,P25490,7528,FANTOM4_via_DoRothEA;GTRD;ReMap,chromatin immunoprecipitation assay;inferred by curator,15966902%5Buid%5D&#43;OR&#43;29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#43;OR&#43;20211142%5Buid%5D,Yes
+JUN,P05412,3725,FANTOM4_via_DoRothEA;GTRD;ReMap,chromatin immunoprecipitation assay;inferred by curator,29126285%5Buid%5D&#43;OR&#43;8476221%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#43;OR&#43;20211142%5Buid%5D,Yes
+CTNNB1,P35222,1499,ReMap;TRRUST,chromatin immunoprecipitation assay;inferred by curator,29126285%5Buid%5D&#43;OR&#43;29087512%5Buid%5D&#43;OR&#43;16628468%5Buid%5D,Yes
+ATF1,P18846,466,GTRD;ReMap;TRED,chromatin immunoprecipitation assay;inferred by curator,29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#43;OR&#43;17202159%5Buid%5D,Yes
+GABPA,Q06546,2551,FANTOM4_via_DoRothEA;GTRD;ReMap,chromatin immunoprecipitation assay;inferred by curator,29126285%5Buid%5D&#43;OR&#43;15966902%5Buid%5D&#43;OR&#43;20211142%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#43;OR&#43;8208529%5Buid%5D,Yes
+PTPN18,Q99952,26469,TRRUST,inferred by curator,29087512%5Buid%5D&#43;OR&#43;12734418%5Buid%5D,Yes
+UHRF1,Q96T88,29128,HTRI;TRRUST,chromatin immunoprecipitation assay;inferred by curator,29087512%5Buid%5D&#43;OR&#43;22900683%5Buid%5D&#43;OR&#43;16007129%5Buid%5D,Yes
+PAX5,Q02548,5079,GTRD;ReMap;TRRUST,chromatin immunoprecipitation assay;inferred by curator,29087512%5Buid%5D&#43;OR&#43;10197586%5Buid%5D&#43;OR&#43;29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D,Yes
+E2F4,Q16254,1874,GTRD;HTRI;ORegAnno;PAZAR;ReMap;TRED,chromatin immunoprecipitation array;chromatin immunoprecipitation assay;inferred by curator,29126285%5Buid%5D&#43;OR&#43;26578589%5Buid%5D&#43;OR&#43;18971253%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#43;OR&#43;17531812%5Buid%5D&#43;OR&#43;17202159%5Buid%5D&#43;OR&#43;22900683%5Buid%5D,Yes
+CEBPA,P49715,1050,GTRD;ORegAnno;PAZAR;ReMap;TRED,chromatin immunoprecipitation assay;inferred by curator,29126285%5Buid%5D&#43;OR&#43;26578589%5Buid%5D&#43;OR&#43;18971253%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#43;OR&#43;17202159%5Buid%5D,Yes
+RB1,P06400,5925,GTRD;ReMap;TRRUST,chromatin immunoprecipitation assay;inferred by curator,8264596%5Buid%5D&#43;OR&#43;29087512%5Buid%5D&#43;OR&#43;29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D,Yes
+ATF2,P15336,1386,FANTOM4_via_DoRothEA;GTRD;ORegAnno;ReMap;TRED,chromatin immunoprecipitation assay;inferred by curator,29126285%5Buid%5D&#43;OR&#43;8119953%5Buid%5D&#43;OR&#43;26578589%5Buid%5D&#43;OR&#43;20211142%5Buid%5D&#43;OR&#43;15618023%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#43;OR&#43;17202159%5Buid%5D,Yes
+EGR1,P18146,1958,GTRD;ReMap;TRED,chromatin immunoprecipitation assay;inferred by curator,29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#43;OR&#43;17202159%5Buid%5D,Yes
+DNMT1,P26358,1786,TRRUST,inferred by curator,17934516%5Buid%5D&#43;OR&#43;29087512%5Buid%5D,Yes
+TP53,P04637,7157,DoRothEA;FANTOM4_via_DoRothEA;GTRD;HTRI;ORegAnno;ReMap;TFactS_via_DoRothea;TRED;TRRUST,chromatin immunoprecipitation assay;electrophoretic mobility shift assay;inferred by curator,29126285%5Buid%5D&#43;OR&#43;1608930%5Buid%5D&#43;OR&#43;18431400%5Buid%5D&#43;OR&#43;31340985%5Buid%5D&#43;OR&#43;26578589%5Buid%5D&#43;OR&#43;20211142%5Buid%5D&#43;OR&#43;8119988%5Buid%5D&#43;OR&#43;22761861%5Buid%5D&#43;OR&#43;15618023%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#43;OR&#43;17202159%5Buid%5D&#43;OR&#43;29087512%5Buid%5D&#43;OR&#43;22900683%5Buid%5D,Yes
+RB1CC1,Q8TDY2,9821,TRRUST,inferred by curator,14533007%5Buid%5D&#43;OR&#43;29087512%5Buid%5D&#43;OR&#43;12095676%5Buid%5D&#43;OR&#43;20614030%5Buid%5D,Yes
+KAT2B,Q92831,8850,TRRUST,inferred by curator,29087512%5Buid%5D&#43;OR&#43;19525977%5Buid%5D,Yes
+MAX,P61244,4149,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D,No
+ZNF574,Q6ZN55,64763,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+GFI1B,Q5VTD9,8328,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No
+SUMO2,P61956,6613,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+THAP1,Q9NVV9,55145,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No
+XRCC4,Q13426,7518,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+BMPR1A,P36894,657,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No
+NONO,Q15233,4841,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D,No
+ZBTB11,O95625,27107,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D,No
+MTA3,Q9BTC8,57504,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No
+NFKB1,P19838,4790,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D,No
+NELFE,P18615,7936,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+HEXIM1,O94992,10614,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D,No
+PHF8,Q9UPP1,23133,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D,No
+KCNH2,Q12809,3757,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No
+NFE2L1,Q14494,4779,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No
+RBBP5,Q15291,5929,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D,No
+KDM1A,O60341,23028,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D,No
+KLF4,O43474,9314,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D,No
+DRAP1,Q14919,10589,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+BRD7,Q9NPI1,29117,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+HCFC1,P51610,3054,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D,No
+ZNF207,O43670,7756,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No
+ZNF266,Q14584,10781,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+BRD2,P25440,6046,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D,No
+MEF2C,Q06413,4208,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D,No
+GATAD2B,Q8WXI9,57459,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+KDM4A,O75164,9682,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D,No
+TRIM28,Q13263,10155,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D,No
+ELF1,P32519,1997,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D,No
+CCND2,P30279,894,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+TBXT,O15178,6862,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+ZNF580,Q9UK33,51157,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+GLI2,P10070,2736,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+HEY1,Q9Y5J3,23462,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+AR,P10275,367,GTRD;HTRI;ReMap,chromatin immunoprecipitation array;chromatin immunoprecipitation assay,27924024%5Buid%5D&#43;OR&#43;22900683%5Buid%5D&#43;OR&#43;29126285%5Buid%5D&#43;OR&#43;20610535%5Buid%5D,No
+TP63,Q9H3D4,8626,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D,No
+ELF3,P78545,1999,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D,No
+PDHX,O00330,8050,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No
+p65,O43245,-,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+ZNF263,O14978,10127,GTRD;ORegAnno;PAZAR;ReMap,chromatin immunoprecipitation assay;inferred by curator,29126285%5Buid%5D&#43;OR&#43;18971253%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#43;OR&#43;26578589%5Buid%5D,No
+CREB3L1,Q96BA8,90993,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No
+CDK6,Q00534,1021,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No
+MNT,Q99583,4335,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No
+TRIM22,Q8IYM9,10346,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No
+PCBP1,Q15365,5093,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+EGR3,Q06889,1960,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+YAP1,P46937,10413,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No
+VDR,P11473,7421,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+STAT3,P40763,6774,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D,No
+TEAD4,Q15561,7004,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D,No
+RUNX2,Q13950,860,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No
+RBL2,Q08999,5934,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+SMARCC1,Q92922,6599,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+SOX6,P35712,55553,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No
+RBM14,Q96PK6,100526737;10432,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+WT1,P19544,7490,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+HMGN3,Q15651,9324,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No
+NEUROG2,Q9H2A3,63973,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+MYB,P10242,4602,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D,No
+RUNX1T1,Q06455,862,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D,No
+NANOG,Q9H9S0,79923,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No
+TAF7,Q15545,6879,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No
+GTF2B,Q00403,2959,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No
+NR2C2,P49116,7182,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+LMO1,P25800,4004,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+INTS13,Q9NVM9,55726,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+NFE2L2,Q16236,4780,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D,No
+MEF2B,Q02080,100271849;4207,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+ZEB1,P37275,6935,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No
+MAPK14,Q16539,1432,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+KDM7A,Q6ZMT4,80853,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+AHR,P35869,196,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D,No
+SMAD4,Q13485,4089,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D,No
+RELA,Q04206,5970,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D,No
+BCOR,Q6W2J9,54880,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No
+KDM3A,Q9Y4C1,55818,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+PHF5A,Q7RTV0,84844,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+BHLHE40,O14503,8553,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D,No
+HOXA5,P20719,3202,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+FOXO1,Q12778,2308,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No" />
+    <p></p>
+  </div>
+  <div class="uk-width-1-3@xl">
+    <div id="tf-network-div"
+      style="height: 400px; width: 400px; border-style: solid; border-width: .1em;">
+    </div>
+    <div id="tfControlDiv"></div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+<script src="/protein.e9931.js"></script>
+
+
+<script src="/network.e9931.js"></script>
+
+
+  </div>
+
+  
+  <footer class="uk-container uk-container-small"></footer>
+
+  
+
+  
+  
+  <script src="/main.e9931.js"></script>
+  
+</body>
+
+</html>

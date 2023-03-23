@@ -1,0 +1,929 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<base href="/" />
+<title>TFLink</title>
+<link rel="stylesheet" href="https://cdn.webix.com/edge/webix.css" />
+
+<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-touch-icon.png?v=jwEjQXwyNy">
+<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png?v=jwEjQXwyNy">
+<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png?v=jwEjQXwyNy">
+<link rel="manifest" href="/images/favicon/site.webmanifest?v=jwEjQXwyNy">
+<link rel="mask-icon" href="/images/favicon/safari-pinned-tab.svg?v=jwEjQXwyNy" color="#70adb5">
+<link rel="shortcut icon" href="/images/favicon/favicon.ico?v=jwEjQXwyNy">
+<meta name="msapplication-TileColor" content="#00aba9">
+<meta name="msapplication-config" content="/images/favicon/browserconfig.xml?v=jwEjQXwyNy">
+<meta name="theme-color" content="#ffffff">
+
+
+
+<link href="/main.e9931.css" rel="stylesheet" />
+
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"
+  integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+<script src="https://cdn.webix.com/edge/webix.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.5/js/uikit.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.5/js/uikit-icons.min.js"></script>
+
+<script>
+  $(window).on('load', function () {
+    $('#spinner').fadeOut(300);
+  });
+</script>
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5RNBLSCVTD"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-5RNBLSCVTD');
+</script>
+
+</head>
+
+<body>
+  <div class="net-top-navbar" uk-sticky>
+    <div class="uk-container uk-container-center uk-container-expand">
+        <nav class="uk-navbar uk-navbar-container navbar">
+            <a class="uk-navbar-item uk-logo" href="/"><img src="/images/favicon/favicon-32x32.png">Link</a>
+            <ul class="uk-navbar-nav">
+                <li id="nav_browse">
+                    <a href="/browse/">Browse</a>
+                </li>
+                <li id="nav_download">
+                  <a href="/download/">Download</a>
+              </li>
+              <li id="nav_faq">
+                <a href="/faq/">FAQ</a>
+            </li>
+            </ul>
+        </nav>
+    </div>
+</div>
+
+
+  <div class="uk-container uk-container-expand uk-margin-large-bottom">
+    <div id="spinner"></div>
+    
+<div class="uk-grid" data-uk-grid-margin>
+  <div class="uk-width-medium-1-1">
+    <div class="uk-panel uk-panel-box uk-text-center">
+      <h1 id="protein_name">Rara</h1>
+      <hr class="" />
+    </div>
+  </div>
+</div>
+
+<div class="uk-grid-small" uk-grid uk-text-left>
+  <div class="uk-width-1-2@m">
+    <dl class="dl-horizontal">
+      <dt>Name</dt>
+      <dd>Rara</dd>
+      <dt>Uniprot Accession</dt>
+      <dd>
+        <a id="uniprot-id" href="https://www.uniprot.org/uniprot/P11416"
+          target="_blank" id="uniprot-ac">
+          P11416</a>
+      </dd>
+      <dt>NCBI Gene ID</dt>
+      <dd>
+        
+        <a href="https://www.ncbi.nlm.nih.gov/gene/?term=19401"
+          target="_blank">19401</a>
+        
+      </dd>
+      <dt>Organism</dt>
+      <dd>
+        <span>
+          <i id="organism">Mus musculus</i>
+          <span id="species_siluette" class="siluette-small">
+          </span>
+        </span>
+      </dd>
+      <dt>Function</dt>
+      <dd>transcription factor and target gene</dd>
+      <dt>Number of interactions</dt>
+      
+      <dd>14,297</dd>
+      
+      
+      <input id="ortholog_data" type="hidden" name="ortholog_data"
+        value="[{&#34;species&#34;: &#34;Homo sapiens&#34;, &#34;id&#34;: [&#34;&lt;a href=\&#34;/protein/p10276\&#34;&gt;P10276&lt;/a&gt;&#34;]}, {&#34;species&#34;: &#34;Rattus norvegicus&#34;, &#34;id&#34;: [&#34;&lt;a href=\&#34;/protein/a0a0g2jw78\&#34;&gt;A0A0G2JW78&lt;/a&gt;&#34;]}, {&#34;species&#34;: &#34;Danio rerio&#34;, &#34;id&#34;: [&#34;T2DKU4&#34;]}]" />
+      <dt>Orthologs</dt>
+      <dd>
+        <ul id="ulOrtholog" class="target-blank"></ul>
+      </dd>
+      
+      
+    </dl>
+  </div>
+
+</div>
+
+
+<div class="uk-grid">
+  <div class="uk-width-2-3@xl">
+    <h2>Targets of Rara</h2>
+    <div>
+      <div id="target_paging"></div>
+      
+      <div style="position:relative;">
+        <span style="font-weight: bold">Please be aware that here we show only the top 100 rows of
+          the data. <br />
+          If you wish to see all the data please click the <i>download all</i> button.</span>
+        <button style="position:absolute; right:0px; bottom:5px"
+          onclick="location.href='https://cdn.netbiol.org/tflink/proteinDownload_targets/TFLink_targets_of_P11416.tsv'"
+          type="button">
+          <span uk-icon="icon: download; ratio: 1.5"></span>
+          <h4 style="display: inline-block; margin: 0">Download all</h4>
+        </button>
+      </div>
+      
+    </div>
+
+    <div id="target_div"></div>
+    <input id="target_data" type="hidden" name="target_data"
+      value="Rara,P11416,19401,GTRD;ORegAnno;PAZAR;TRED,chromatin immunoprecipitation assay;inferred by curator,17202159%5Buid%5D&#43;OR&#43;18971253%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#43;OR&#43;26578589%5Buid%5D,Yes
+Pitx2,P97474,18741,GTRD;TRRUST,chromatin immunoprecipitation assay;inferred by curator,20122913%5Buid%5D&#43;OR&#43;29087512%5Buid%5D&#43;OR&#43;27924024%5Buid%5D,Yes
+Etv4,P28322,18612,GTRD;TRED,chromatin immunoprecipitation assay;inferred by curator,27924024%5Buid%5D&#43;OR&#43;17202159%5Buid%5D,Yes
+Ptpru,B1AUH1,19273,GTRD;TRRUST,chromatin immunoprecipitation assay;inferred by curator,27924024%5Buid%5D&#43;OR&#43;29087512%5Buid%5D&#43;OR&#43;9224660%5Buid%5D,Yes
+Lgals12,Q91VD1,56072,GTRD;TRED,chromatin immunoprecipitation assay;inferred by curator,27924024%5Buid%5D&#43;OR&#43;17202159%5Buid%5D,Yes
+Hoxa5,P09021,15402,GTRD;TRED,chromatin immunoprecipitation assay;inferred by curator,27924024%5Buid%5D&#43;OR&#43;17202159%5Buid%5D,Yes
+Nepn,Q9CQ76,66650,TRRUST,inferred by curator,29087512%5Buid%5D&#43;OR&#43;25209250%5Buid%5D,Yes
+Hoxb1,P17919,15407,GTRD;ORegAnno;PAZAR;TRED,chromatin immunoprecipitation assay;inferred by curator,17202159%5Buid%5D&#43;OR&#43;18971253%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#43;OR&#43;26578589%5Buid%5D,Yes
+Pcp2,P12660,18545,TRED;TRRUST,inferred by curator,17202159%5Buid%5D&#43;OR&#43;29087512%5Buid%5D&#43;OR&#43;9224660%5Buid%5D,Yes
+Cnot9,Q9JKY0,58184,GTRD;TRED,chromatin immunoprecipitation assay;inferred by curator,27924024%5Buid%5D&#43;OR&#43;17202159%5Buid%5D,Yes
+Scd1,P13516,20249,GTRD;TRED,chromatin immunoprecipitation assay;inferred by curator,27924024%5Buid%5D&#43;OR&#43;17202159%5Buid%5D,Yes
+Stat1,P42225,-,TRRUST,inferred by curator,29087512%5Buid%5D&#43;OR&#43;21768647%5Buid%5D,Yes
+Col1a2,Q01149,12843,GTRD;TRED,chromatin immunoprecipitation assay;inferred by curator,27924024%5Buid%5D&#43;OR&#43;17202159%5Buid%5D,Yes
+Nr2c1,Q505F1,22025,GTRD;TRED,chromatin immunoprecipitation assay;inferred by curator,27924024%5Buid%5D&#43;OR&#43;17202159%5Buid%5D,Yes
+Tgm2,P21981,21817,GTRD;TRED,chromatin immunoprecipitation assay;inferred by curator,27924024%5Buid%5D&#43;OR&#43;17202159%5Buid%5D,Yes
+H1-0,P10922,14958,TRED,inferred by curator,17202159%5Buid%5D,Yes
+Tgfbr3,O88393,21814,TRED,inferred by curator,17202159%5Buid%5D,Yes
+Mdk,P12025,17242,GTRD;ORegAnno;PAZAR;TRED,chromatin immunoprecipitation assay;inferred by curator,17202159%5Buid%5D&#43;OR&#43;18971253%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#43;OR&#43;26578589%5Buid%5D,Yes
+Nkx2-1,P50220,21869,GTRD;TRED,chromatin immunoprecipitation assay;inferred by curator,27924024%5Buid%5D&#43;OR&#43;17202159%5Buid%5D,Yes
+Sh2d3c,Q9QZS8,27387,GTRD;TRED,chromatin immunoprecipitation assay;inferred by curator,27924024%5Buid%5D&#43;OR&#43;17202159%5Buid%5D,Yes
+Trh,Q62361,22044,GTRD;TRED,chromatin immunoprecipitation assay;inferred by curator,27924024%5Buid%5D&#43;OR&#43;17202159%5Buid%5D,Yes
+Ucp1,P12242,22227,TRED,inferred by curator,17202159%5Buid%5D,Yes
+Tgm1,Q9JLF6,21816,TRED,inferred by curator,17202159%5Buid%5D,Yes
+Abcc2,Q8VI47,12780,GTRD;ORegAnno;PAZAR;TRRUST,chromatin immunoprecipitation assay;inferred by curator,12145812%5Buid%5D&#43;OR&#43;26578589%5Buid%5D&#43;OR&#43;18971253%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#43;OR&#43;29087512%5Buid%5D,Yes
+Klf5,Q9Z0Z7,12224,GTRD;TRRUST,chromatin immunoprecipitation assay;inferred by curator,16102021%5Buid%5D&#43;OR&#43;29087512%5Buid%5D&#43;OR&#43;27924024%5Buid%5D,Yes
+Pou5f1,P20263,18999,GTRD;TRED;TRRUST,chromatin immunoprecipitation assay;inferred by curator,10692469%5Buid%5D&#43;OR&#43;17202159%5Buid%5D&#43;OR&#43;29087512%5Buid%5D&#43;OR&#43;27924024%5Buid%5D,Yes
+Flii,Q9JJ28,14248,GTRD;TRED,chromatin immunoprecipitation assay;inferred by curator,27924024%5Buid%5D&#43;OR&#43;17202159%5Buid%5D,Yes
+Hoxa4,P06798,15401,TRED,inferred by curator,17202159%5Buid%5D,Yes
+Aldh1a1,P24549,11668,GTRD;ORegAnno;PAZAR;TRED,chromatin immunoprecipitation assay;inferred by curator,17202159%5Buid%5D&#43;OR&#43;18971253%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#43;OR&#43;26578589%5Buid%5D,Yes
+Lamb1,P02469,16777,GTRD;TRED;TRRUST,chromatin immunoprecipitation assay;inferred by curator,17202159%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#43;OR&#43;29087512%5Buid%5D&#43;OR&#43;8645318%5Buid%5D,Yes
+Psmc5,P62196,19184,GTRD;TRED,chromatin immunoprecipitation assay;inferred by curator,27924024%5Buid%5D&#43;OR&#43;17202159%5Buid%5D,Yes
+Grip1,Q925T6,74053,GTRD;TRED,chromatin immunoprecipitation assay;inferred by curator,27924024%5Buid%5D&#43;OR&#43;17202159%5Buid%5D,Yes
+Chat,Q8BQV2,12647,TRED,inferred by curator,17202159%5Buid%5D,Yes
+Slc18a3,Q3TYJ1,20508,TRED,inferred by curator,17202159%5Buid%5D,Yes
+Rbp2,Q08652,19660,ORegAnno;PAZAR;TRED,inferred by curator,17202159%5Buid%5D&#43;OR&#43;18971253%5Buid%5D&#43;OR&#43;26578589%5Buid%5D,Yes
+Fli1,P26323,14247,GTRD;TRED,chromatin immunoprecipitation assay;inferred by curator,27924024%5Buid%5D&#43;OR&#43;17202159%5Buid%5D,Yes
+Cebpe,Q6PZD9,110794,TRRUST,inferred by curator,14576045%5Buid%5D&#43;OR&#43;29087512%5Buid%5D,Yes
+Ctnnb1,Q02248,12387,GTRD;TRED,chromatin immunoprecipitation assay;inferred by curator,27924024%5Buid%5D&#43;OR&#43;17202159%5Buid%5D,Yes
+Ncoa2,Q61026,17978,GTRD;TRED,chromatin immunoprecipitation assay;inferred by curator,27924024%5Buid%5D&#43;OR&#43;17202159%5Buid%5D,Yes
+Cryab,P23927,12955,GTRD;ORegAnno;PAZAR;TRED,chromatin immunoprecipitation assay;inferred by curator,17202159%5Buid%5D&#43;OR&#43;18971253%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#43;OR&#43;26578589%5Buid%5D,Yes
+Ddah1,Q9CWS0,69219,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Eps15l1,Q60902,13859,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Sigirr,Q9JLZ8,24058,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Drd5,Q8BLD9,13492,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Cst14,Q8VII3,78609,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Rpl19,P84099,19921,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Copz2,Q9JHH9,56358,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Slc38a8,Q5HZH7,234788,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Necap2,Q9D1J1,66147,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Ubqln4,Q99NB8,94232,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Kras,P32883,16653,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Sepsecs,Q6P6M7,211006,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Wdr77,Q99J09,70465,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Plppr3,E9QAX3,216152,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Cep76,Q0VEJ0,225659,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Plekhg6,Q8R0J1,213522,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Med20,Q9R0X0,56771,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Aatk,B1AZF3,11302,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Vmn1r235,Q8R297,171233,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Tesk2,Q8VCT9,230661,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Pank1,Q8K4K6,75735,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Il33,Q8BVZ5,77125,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Synj2bp,Q9D6K5,105940408;24071,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Gskip,Q8BGR8,66787,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Rnf141,Q99MB7,67150,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Sirt6,P59941,50721,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Zzef1,Q5SSH7,195018,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Rnf114,Q9ET26,81018,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+-,Q9DAA3,74218,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Kcnab3,Q8VD73,16499,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Cyp3a57,D3YYZ0,622127,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Ccne1,Q61457,12447,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Ephb4,P54761,13846,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Dchs2,A0A0A6YW72,-,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Creb3l2,Q8BH52,208647,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Thra,P63058,21833,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Stam,P70297,20844,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Map3k12,Q60700,26404,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Yars2,Q8BYL4,70120,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Klf13,Q9JJZ6,50794,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Gmip,Q6PGG2,78816,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Ophn1,Q99J31,94190,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Ncmap,Q99JS0,230822,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Rps13,P62301,68052,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Ptprz1,B9EKR1,19283,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Sdk2,Q6V4S5,237979,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+S100pbp,Q9D5K4,74648,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Actr2,P61161,66713,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Mat2b,Q99LB6,108645,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Gk,Q64516,14933,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Dll3,O88516,13389,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Rusc2,Q3V1Z0,100213,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Rad51ap1,A0A0R4J1G4,19362,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Nipal2,A0A0R4J0G3,223473,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Hmox1,P14901,15368,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Rhot1,Q8BG51,59040,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Sms,P97355,20603,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Traf6,P70196,22034,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Tfap4,Q9JIZ5,83383,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Ddrgk1,Q80WW9,77006,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No" />
+    <p></p>
+  </div>
+  <div class="uk-width-1-3@xl">
+    <div id="target-network-div"
+      style="height: 400px; width: 400px; border-style: solid; border-width: .1em;">
+    </div>
+    <div id="targetControlDiv"></div>
+  </div>
+</div>
+
+
+
+
+<div class=" uk-grid" data-uk-grid-margin>
+  <div class="uk-width-2-3@xl">
+    <h2>Transcription factors of Rara</h2>
+    <div>
+      <div id="tf_paging"></div>
+      
+      <div style="position:relative;">
+        <span style="font-weight: bold">Please be aware that here we show only the top 100 rows of
+          the data. <br />
+          If you wish to see all the data please click the <i>download all</i> button.</span>
+        <button style="position:absolute; right:0px; bottom:5px"
+          onclick="location.href='https://cdn.netbiol.org/tflink/proteinDownload_tfs/TFLink_tfs_of_P11416.tsv'"
+          type="button">
+          <span uk-icon="icon: download; ratio: 1.5"></span>
+          <h4 style="display: inline-block; margin: 0">Download all</h4>
+        </button>
+      </div>
+      
+    </div>
+    <div id="tf_div"></div>
+    <input id="tf_data" type="hidden" name="tf_data" value="Rara,P11416,19401,GTRD;ORegAnno;PAZAR;TRED,chromatin immunoprecipitation assay;inferred by curator,17202159%5Buid%5D&#43;OR&#43;18971253%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#43;OR&#43;26578589%5Buid%5D,Yes
+Rarg,P18911,19411,TRED,inferred by curator,17202159%5Buid%5D,Yes
+Myb,P06876,17863,TRED;TRRUST,inferred by curator,17202159%5Buid%5D&#43;OR&#43;29087512%5Buid%5D&#43;OR&#43;9576918%5Buid%5D,Yes
+Ar,P19091,11835,GTRD;TRED,chromatin immunoprecipitation assay;inferred by curator,27924024%5Buid%5D&#43;OR&#43;17202159%5Buid%5D,Yes
+Rarb,P22605,218772,GTRD;TRED,chromatin immunoprecipitation assay;inferred by curator,27924024%5Buid%5D&#43;OR&#43;17202159%5Buid%5D,Yes
+Kdm5a,Q3UXZ9,214899,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Ep300,B2RWS6,328572,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Hoxb4,P10284,15412,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Prdm1,Q60636,12142,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Irf3,P70671,54131,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Esrrg,P62509,26381,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Cbx7,Q8VDS3,52609,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Pou2f1,P25425,18986,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Taf9b,Q6NZA9,407786,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Erf,P70459,13875,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Yap1,P46938,22601,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Cebpd,Q00322,12609,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Brd2,Q7JJ13,14312,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Satb1,Q60611,20230,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Nfya,P23708,18044,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Irf7,P70434,54123,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Foxa2,P35583,15376,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Klf3,Q60980,16599,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Lmo2,P25801,16909,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Stat2,Q9WVL2,-,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Prdm5,Q9CXE0,70779,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Grhl3,Q5FWH3,230824,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Foxp3,Q99JB6,20371,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Nanog,Q80Z64,71950,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Ctcf,Q61164,13018,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Cdk9,Q99J95,107951,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Rbbp4,Q60972,19646,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Etv6,P97360,14011,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Twist2,Q9D030,13345,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Kmt2b,O08550,75410,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Pias2,Q8C5D8,17344,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Onecut1,O08755,15379,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Stat4,P42228,20849,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Pcgf6,Q99NA9,71041,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Hdac2,P70288,15182,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Rxra,P28700,20181,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Ets1,P27577,23871,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Rela,Q04207,19697,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Foxo1,Q9R1E0,56458,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Kdm4c,Q8VCD7,76804,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Znf143,O70230,20841,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Mfsd11,Q8BJ51,69900,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Sox9,Q04887,20682,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Dnmt3a,O88508,13435,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Arid4b,A2CG63,94246,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Lmnb1,P14733,16906,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Cdk8,Q8R3L8,264064,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Rad51,Q08297,19361,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Brca1,P48754,12189,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Hif1a,Q61221,15251,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Hes1,P35428,15205,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Ell2,Q3UKU1,192657,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Nfyc,P70353,18046,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Tead1,P30051,-,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Atf7,Q8R0S1,-,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Zfp64,Q99KE8,-,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Rbpj,P31266,19664,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Srebf1,Q9WTN3,20787,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Tfap4,Q9JIZ5,83383,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Jun,P05627,16476,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Mafk,Q61827,17135,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Klf4,Q60793,16600,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Bach2,P97303,12014,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Setd1a,E9PYH6,233904,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Maz,P56671,-,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Nfatc1,O88942,-,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Neurod1,Q60867,18012,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Maff,O54791,17133,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Hnf1b,P27889,21410,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Dr1,Q91WV0,13486,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Hey1,Q9WV93,-,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Chd4,Q6PDQ2,107932,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Chd2,E9PZM4,244059,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Hoxb5,P09079,15413,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Foxp1,P58462,108655,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Ssrp1,Q08943,20833,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Kmt2c,Q8BRH4,-,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Cebpe,Q6PZD9,110794,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Zfp217,Q3U0X6,228913,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Dnmt3b,O88509,13436,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Ncoa2,Q61026,17978,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Six2,Q62232,20472,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Npas4,Q8BGD7,225872,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Bhlha15,Q9QYC3,17341,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Gsk3b,Q9WV60,56637,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Irf8,P23611,15900,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Pou5f1,P20263,18999,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Gabpa,Q00422,14390,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Ebf1,Q07802,13591,GTRD;ORegAnno;PAZAR,chromatin immunoprecipitation assay;inferred by curator,18971253%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#43;OR&#43;26578589%5Buid%5D,No
+Tfap2c,Q61312,21420,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Smad3,Q8BUN5,17127,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Kdm5b,Q80Y84,75605,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Rorc,P51450,19885,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Gfi1,P70338,14581,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Cat,P24270,12359,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No" />
+    <p></p>
+  </div>
+  <div class="uk-width-1-3@xl">
+    <div id="tf-network-div"
+      style="height: 400px; width: 400px; border-style: solid; border-width: .1em;">
+    </div>
+    <div id="tfControlDiv"></div>
+  </div>
+</div>
+
+
+
+<div class="uk-grid" data-uk-grid-margin>
+  <div style="padding-right: 20px;">
+    <h2>Binding sites of Rara</h2>
+    <div>
+      <div id="binding_sites_paging"></div>
+
+      <div style="float: right; padding-bottom: 5px;">
+        
+        <button
+          onclick="location.href='https://cdn.netbiol.org/tflink/proteinDownload_bindingSites/TFLink_P11416_TFBS_annot.tsv'"
+          type="button">
+          <span uk-icon="icon: download; ratio: 1.5"></span>
+          <h4 style="display: inline-block; margin: 0">Download all</h4>
+        </button>
+        
+        
+        <button
+          onclick="location.href='https://cdn.netbiol.org/tflink/proteinDownload_bindingSites/TFLink_P11416_TFBS_annot.gff3'"
+          type="button">
+          <span uk-icon="icon: download; ratio: 1.5"></span>
+          <h4 style="display: inline-block; margin: 0">Download gff3</h4>
+        </button>
+        
+      </div>
+    </div>
+    <div id="binding_sites_div"></div>
+    <input id="binding_sites_data" type="hidden" name="binding_sites_data"
+      value="TFLinkSS10009280,P11416,Rara,Mus musculus,mm10,chr1,133347997,133348006,&#43;,mm10&amp;position=chr1:133347997-133348006,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,0
+TFLinkSS10009281,P11416,Rara,Mus musculus,mm10,chr1,133348013,133348018,&#43;,mm10&amp;position=chr1:133348013-133348018,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,0
+TFLinkSS10009282,P11416,Rara,Mus musculus,mm10,chr1,133347971,133347985,&#43;,mm10&amp;position=chr1:133347971-133347985,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,0
+TFLinkSS10015644,P11416,Rara,Mus musculus,mm10,chr1,167618170,167618182,&#43;,mm10&amp;position=chr1:167618170-167618182,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,0
+TFLinkSS10015689,P11416,Rara,Mus musculus,mm10,chr1,17102911,17102964,&#43;,mm10&amp;position=chr1:17102911-17102964,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,0
+TFLinkSS10015699,P11416,Rara,Mus musculus,mm10,chr1,150097438,150097510,&#43;,mm10&amp;position=chr1:150097438-150097510,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,0
+TFLinkSS10015731,P11416,Rara,Mus musculus,mm10,chr1,40444818,40444873,&#43;,mm10&amp;position=chr1:40444818-40444873,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,0
+TFLinkSS10015733,P11416,Rara,Mus musculus,mm10,chr1,40439866,40439951,&#43;,mm10&amp;position=chr1:40439866-40439951,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,0
+TFLinkSS10015749,P11416,Rara,Mus musculus,mm10,chr1,51290951,51291017,&#43;,mm10&amp;position=chr1:51290951-51291017,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,0
+TFLinkSS10015771,P11416,Rara,Mus musculus,mm10,chr1,153557118,153557226,&#43;,mm10&amp;position=chr1:153557118-153557226,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,0
+TFLinkSS10015792,P11416,Rara,Mus musculus,mm10,chr1,153740348,153740409,&#43;,mm10&amp;position=chr1:153740348-153740409,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,0
+TFLinkLS10015710,P11416,Rara,Mus musculus,mm10,chr1,12711629,12711858,&#43;,mm10&amp;position=chr1:12711629-12711858,chromatin immunoprecipitation assay;inferred by curator,18971253%5Buid%5D,ORegAnno,No,0
+TFLinkSS10015653,P11416,Rara,Mus musculus,mm10,chr2,91932690,91932706,&#43;,mm10&amp;position=chr2:91932690-91932706,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,0
+TFLinkSS10015654,P11416,Rara,Mus musculus,mm10,chr2,173152737,173152753,-,mm10&amp;position=chr2:173152737-173152753,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,0
+TFLinkSS10015655,P11416,Rara,Mus musculus,mm10,chr2,173152623,173152635,-,mm10&amp;position=chr2:173152623-173152635,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,0
+TFLinkSS10015662,P11416,Rara,Mus musculus,mm10,chr2,74724755,74724771,&#43;,mm10&amp;position=chr2:74724755-74724771,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,0
+TFLinkSS10015663,P11416,Rara,Mus musculus,mm10,chr2,74730657,74730673,&#43;,mm10&amp;position=chr2:74730657-74730673,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,0
+TFLinkSS10015690,P11416,Rara,Mus musculus,mm10,chr2,66123903,66123984,&#43;,mm10&amp;position=chr2:66123903-66123984,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,0
+TFLinkSS10015702,P11416,Rara,Mus musculus,mm10,chr2,36231607,36231643,&#43;,mm10&amp;position=chr2:36231607-36231643,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,0
+TFLinkSS10015703,P11416,Rara,Mus musculus,mm10,chr2,162987155,162987246,&#43;,mm10&amp;position=chr2:162987155-162987246,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,0
+TFLinkSS10015709,P11416,Rara,Mus musculus,mm10,chr2,30599415,30599458,&#43;,mm10&amp;position=chr2:30599415-30599458,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,0
+TFLinkSS10015765,P11416,Rara,Mus musculus,mm10,chr2,167231078,167231136,&#43;,mm10&amp;position=chr2:167231078-167231136,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,0
+TFLinkSS10015772,P11416,Rara,Mus musculus,mm10,chr2,128698144,128698173,&#43;,mm10&amp;position=chr2:128698144-128698173,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,0
+TFLinkSS10015773,P11416,Rara,Mus musculus,mm10,chr2,122697880,122697991,&#43;,mm10&amp;position=chr2:122697880-122697991,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,0
+TFLinkSS10015776,P11416,Rara,Mus musculus,mm10,chr2,122704818,122704857,&#43;,mm10&amp;position=chr2:122704818-122704857,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,0
+TFLinkSS10015788,P11416,Rara,Mus musculus,mm10,chr2,12302748,12302813,&#43;,mm10&amp;position=chr2:12302748-12302813,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,0
+TFLinkLS10015694,P11416,Rara,Mus musculus,mm10,chr2,71542225,71542449,&#43;,mm10&amp;position=chr2:71542225-71542449,chromatin immunoprecipitation assay;inferred by curator,18971253%5Buid%5D,ORegAnno,No,0
+TFLinkLS10015704,P11416,Rara,Mus musculus,mm10,chr2,119354385,119354701,&#43;,mm10&amp;position=chr2:119354385-119354701,chromatin immunoprecipitation assay;inferred by curator,18971253%5Buid%5D,ORegAnno,No,0
+TFLinkLS10015759,P11416,Rara,Mus musculus,mm10,chr2,109681022,109681199,&#43;,mm10&amp;position=chr2:109681022-109681199,chromatin immunoprecipitation assay;inferred by curator,18971253%5Buid%5D,ORegAnno,No,0
+TFLinkLS10015767,P11416,Rara,Mus musculus,mm10,chr2,148409173,148409376,&#43;,mm10&amp;position=chr2:148409173-148409376,chromatin immunoprecipitation assay;inferred by curator,18971253%5Buid%5D,ORegAnno,No,0
+TFLinkSS10015648,P11416,Rara,Mus musculus,mm10,chr3,87948035,87948047,-,mm10&amp;position=chr3:87948035-87948047,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,0
+TFLinkSS10015649,P11416,Rara,Mus musculus,mm10,chr3,87947525,87947538,&#43;,mm10&amp;position=chr3:87947525-87947538,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,0
+TFLinkSS10015665,P11416,Rara,Mus musculus,mm10,chr3,87974531,87974543,&#43;,mm10&amp;position=chr3:87974531-87974543,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,1
+TFLinkSS10015666,P11416,Rara,Mus musculus,mm10,chr3,87974523,87974536,&#43;,mm10&amp;position=chr3:87974523-87974536,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,1
+TFLinkSS10015681,P11416,Rara,Mus musculus,mm10,chr3,144825272,144825302,&#43;,mm10&amp;position=chr3:144825272-144825302,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,0
+TFLinkSS10015684,P11416,Rara,Mus musculus,mm10,chr3,37414688,37414723,&#43;,mm10&amp;position=chr3:37414688-37414723,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,0
+TFLinkSS10015685,P11416,Rara,Mus musculus,mm10,chr3,34656447,34656507,&#43;,mm10&amp;position=chr3:34656447-34656507,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,0
+TFLinkSS10015716,P11416,Rara,Mus musculus,mm10,chr3,79885690,79885750,&#43;,mm10&amp;position=chr3:79885690-79885750,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,0
+TFLinkSS10015732,P11416,Rara,Mus musculus,mm10,chr3,132084100,132084166,&#43;,mm10&amp;position=chr3:132084100-132084166,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,0
+TFLinkSS10015741,P11416,Rara,Mus musculus,mm10,chr3,54353418,54353486,&#43;,mm10&amp;position=chr3:54353418-54353486,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,0
+TFLinkSS10015785,P11416,Rara,Mus musculus,mm10,chr3,19957063,19957144,&#43;,mm10&amp;position=chr3:19957063-19957144,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,0
+TFLinkSS10015800,P11416,Rara,Mus musculus,mm10,chr3,57294722,57294811,&#43;,mm10&amp;position=chr3:57294722-57294811,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,0
+TFLinkSS10015801,P11416,Rara,Mus musculus,mm10,chr3,57293122,57293197,&#43;,mm10&amp;position=chr3:57293122-57293197,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,0
+TFLinkSS10015809,P11416,Rara,Mus musculus,mm10,chr3,81029603,81029658,&#43;,mm10&amp;position=chr3:81029603-81029658,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,0
+TFLinkSS10015745,P11416,Rara,Mus musculus,mm10,chr4,150862478,150862522,&#43;,mm10&amp;position=chr4:150862478-150862522,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,0
+TFLinkSS10015746,P11416,Rara,Mus musculus,mm10,chr4,150857882,150857997,&#43;,mm10&amp;position=chr4:150857882-150857997,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,0
+TFLinkSS10015754,P11416,Rara,Mus musculus,mm10,chr4,138002068,138002187,&#43;,mm10&amp;position=chr4:138002068-138002187,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,0
+TFLinkSS10015803,P11416,Rara,Mus musculus,mm10,chr4,148509747,148509775,&#43;,mm10&amp;position=chr4:148509747-148509775,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,0
+TFLinkSS10015645,P11416,Rara,Mus musculus,mm10,chr5,137482097,137482110,&#43;,mm10&amp;position=chr5:137482097-137482110,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,0
+TFLinkSS10015701,P11416,Rara,Mus musculus,mm10,chr5,108132186,108132249,&#43;,mm10&amp;position=chr5:108132186-108132249,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,0
+TFLinkSS10015706,P11416,Rara,Mus musculus,mm10,chr5,75156738,75156779,&#43;,mm10&amp;position=chr5:75156738-75156779,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,0
+TFLinkSS10015723,P11416,Rara,Mus musculus,mm10,chr5,90893377,90893425,&#43;,mm10&amp;position=chr5:90893377-90893425,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,0
+TFLinkSS10015743,P11416,Rara,Mus musculus,mm10,chr5,104441685,104441727,&#43;,mm10&amp;position=chr5:104441685-104441727,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,0
+TFLinkSS10015753,P11416,Rara,Mus musculus,mm10,chr5,136976640,136976687,&#43;,mm10&amp;position=chr5:136976640-136976687,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,0
+TFLinkSS10015781,P11416,Rara,Mus musculus,mm10,chr5,98258612,98258651,&#43;,mm10&amp;position=chr5:98258612-98258651,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,0
+TFLinkSS10015784,P11416,Rara,Mus musculus,mm10,chr5,134976213,134976355,&#43;,mm10&amp;position=chr5:134976213-134976355,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,0
+TFLinkSS10015787,P11416,Rara,Mus musculus,mm10,chr5,136045507,136045584,&#43;,mm10&amp;position=chr5:136045507-136045584,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,0
+TFLinkSS10015659,P11416,Rara,Mus musculus,mm10,chr6,52153426,52153442,-,mm10&amp;position=chr6:52153426-52153442,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,0
+TFLinkSS10015660,P11416,Rara,Mus musculus,mm10,chr6,83071233,83071246,-,mm10&amp;position=chr6:83071233-83071246,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,0
+TFLinkSS10015668,P11416,Rara,Mus musculus,mm10,chr6,52194878,52194894,-,mm10&amp;position=chr6:52194878-52194894,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,0
+TFLinkSS10015672,P11416,Rara,Mus musculus,mm10,chr6,52218732,52218748,-,mm10&amp;position=chr6:52218732-52218748,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,0
+TFLinkSS10015697,P11416,Rara,Mus musculus,mm10,chr6,4507414,4507442,&#43;,mm10&amp;position=chr6:4507414-4507442,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,0
+TFLinkSS10015712,P11416,Rara,Mus musculus,mm10,chr6,55339369,55339465,&#43;,mm10&amp;position=chr6:55339369-55339465,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,0
+TFLinkSS10015738,P11416,Rara,Mus musculus,mm10,chr6,136869038,136869084,&#43;,mm10&amp;position=chr6:136869038-136869084,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,0
+TFLinkSS10015770,P11416,Rara,Mus musculus,mm10,chr6,115421946,115421999,&#43;,mm10&amp;position=chr6:115421946-115421999,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,0
+TFLinkSS10015786,P11416,Rara,Mus musculus,mm10,chr6,135168340,135168382,&#43;,mm10&amp;position=chr6:135168340-135168382,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,0
+TFLinkSS10015791,P11416,Rara,Mus musculus,mm10,chr6,52164568,52164623,&#43;,mm10&amp;position=chr6:52164568-52164623,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,0
+TFLinkSS10015794,P11416,Rara,Mus musculus,mm10,chr6,67042050,67042079,&#43;,mm10&amp;position=chr6:67042050-67042079,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,0
+TFLinkSS10015810,P11416,Rara,Mus musculus,mm10,chr6,82948445,82948475,&#43;,mm10&amp;position=chr6:82948445-82948475,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,0
+TFLinkSS10015715,P11416,Rara,Mus musculus,mm10,chr7,138901312,138901359,&#43;,mm10&amp;position=chr7:138901312-138901359,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,0
+TFLinkSS10015719,P11416,Rara,Mus musculus,mm10,chr7,27332363,27332443,&#43;,mm10&amp;position=chr7:27332363-27332443,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,0
+TFLinkSS10015727,P11416,Rara,Mus musculus,mm10,chr7,119001472,119001501,&#43;,mm10&amp;position=chr7:119001472-119001501,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,0
+TFLinkSS10015736,P11416,Rara,Mus musculus,mm10,chr7,127994329,127994362,&#43;,mm10&amp;position=chr7:127994329-127994362,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,0
+TFLinkSS10015760,P11416,Rara,Mus musculus,mm10,chr7,144931930,144931987,&#43;,mm10&amp;position=chr7:144931930-144931987,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,0
+TFLinkSS10015762,P11416,Rara,Mus musculus,mm10,chr7,104467094,104467124,&#43;,mm10&amp;position=chr7:104467094-104467124,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,0
+TFLinkSS10015796,P11416,Rara,Mus musculus,mm10,chr7,45605996,45606073,&#43;,mm10&amp;position=chr7:45605996-45606073,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,0
+TFLinkSS10015811,P11416,Rara,Mus musculus,mm10,chr7,142481295,142481428,&#43;,mm10&amp;position=chr7:142481295-142481428,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,0
+TFLinkLS10015698,P11416,Rara,Mus musculus,mm10,chr7,135537367,135537597,&#43;,mm10&amp;position=chr7:135537367-135537597,chromatin immunoprecipitation assay;inferred by curator,18971253%5Buid%5D,ORegAnno,No,0
+TFLinkLS10015780,P11416,Rara,Mus musculus,mm10,chr7,51879604,51879802,&#43;,mm10&amp;position=chr7:51879604-51879802,chromatin immunoprecipitation assay;inferred by curator,18971253%5Buid%5D,ORegAnno,No,0
+TFLinkSS10015686,P11416,Rara,Mus musculus,mm10,chr8,45991385,45991413,&#43;,mm10&amp;position=chr8:45991385-45991413,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,0
+TFLinkSS10015687,P11416,Rara,Mus musculus,mm10,chr8,45996398,45996427,&#43;,mm10&amp;position=chr8:45996398-45996427,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,0
+TFLinkSS10015714,P11416,Rara,Mus musculus,mm10,chr8,85486152,85486236,&#43;,mm10&amp;position=chr8:85486152-85486236,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,0
+TFLinkSS10015750,P11416,Rara,Mus musculus,mm10,chr8,27089377,27089453,&#43;,mm10&amp;position=chr8:27089377-27089453,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,0
+TFLinkSS10015793,P11416,Rara,Mus musculus,mm10,chr8,71687441,71687535,&#43;,mm10&amp;position=chr8:71687441-71687535,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,0
+TFLinkSS09908110,P11416,Rara,Mus musculus,mm10,chr9,98490428,98490440,&#43;,mm10&amp;position=chr9:98490428-98490440,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,0
+TFLinkSS10015639,P11416,Rara,Mus musculus,mm10,chr9,98423857,98423870,&#43;,mm10&amp;position=chr9:98423857-98423870,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,1
+TFLinkSS10015640,P11416,Rara,Mus musculus,mm10,chr9,98423857,98423870,&#43;,mm10&amp;position=chr9:98423857-98423870,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,1
+TFLinkSS10015656,P11416,Rara,Mus musculus,mm10,chr9,98490479,98490491,-,mm10&amp;position=chr9:98490479-98490491,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,0
+TFLinkSS10015657,P11416,Rara,Mus musculus,mm10,chr9,98490428,98490441,-,mm10&amp;position=chr9:98490428-98490441,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,0
+TFLinkSS10015658,P11416,Rara,Mus musculus,mm10,chr9,98489929,98489941,&#43;,mm10&amp;position=chr9:98489929-98489941,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,0
+TFLinkSS10015670,P11416,Rara,Mus musculus,mm10,chr9,46228581,46228593,-,mm10&amp;position=chr9:46228581-46228593,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,0
+TFLinkSS10015671,P11416,Rara,Mus musculus,mm10,chr9,46228503,46228516,-,mm10&amp;position=chr9:46228503-46228516,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,0
+TFLinkSS10015674,P11416,Rara,Mus musculus,mm10,chr9,32695722,32695738,&#43;,mm10&amp;position=chr9:32695722-32695738,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,0
+TFLinkSS10015675,P11416,Rara,Mus musculus,mm10,chr9,50753162,50753174,-,mm10&amp;position=chr9:50753162-50753174,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,0
+TFLinkSS10015676,P11416,Rara,Mus musculus,mm10,chr9,50753100,50753116,-,mm10&amp;position=chr9:50753100-50753116,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,0
+TFLinkSS10015678,P11416,Rara,Mus musculus,mm10,chr9,46235855,46235867,-,mm10&amp;position=chr9:46235855-46235867,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,0
+TFLinkSS10015679,P11416,Rara,Mus musculus,mm10,chr9,46235372,46235384,&#43;,mm10&amp;position=chr9:46235372-46235384,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,0
+TFLinkSS10015683,P11416,Rara,Mus musculus,mm10,chr9,103108482,103108559,&#43;,mm10&amp;position=chr9:103108482-103108559,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,0
+TFLinkSS10015700,P11416,Rara,Mus musculus,mm10,chr9,71211035,71211064,&#43;,mm10&amp;position=chr9:71211035-71211064,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,0
+TFLinkSS10015707,P11416,Rara,Mus musculus,mm10,chr9,92283545,92283590,&#43;,mm10&amp;position=chr9:92283545-92283590,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,0" />
+    <p></p>
+  </div>
+</div>
+
+<div class="uk-grid" data-uk-grid-margin>
+  <div class="uk-width-1-2@m">
+    <h2>Binding site sequences of Rara based on small-scale evidences</h2>
+    <div class="binding-sites">
+      <p>&gt;TFLinkSS09908104;P11416;Rara;mm10;chr14:16575513-16575532<br />
+GAACTTTCGGTGAACCCTT<br />
+&gt;TFLinkSS09908110;P11416;Rara;mm10;chr9:98490428-98490440<br />
+GACCTGTTGAAC<br />
+&gt;TFLinkSS10009280;P11416;Rara;mm10;chr1:133347997-133348006<br />
+GACCTGGCT<br />
+&gt;TFLinkSS10009281;P11416;Rara;mm10;chr1:133348013-133348018<br />
+GACCT<br />
+&gt;TFLinkSS10009282;P11416;Rara;mm10;chr1:133347971-133347985<br />
+ATGACATCACTAAC<br />
+&gt;TFLinkSS10015634;P11416;Rara;mm10;chr19:37697776-37697792<br />
+GAACTTTGGGTGAACT<br />
+&gt;TFLinkSS10015636;P11416;Rara;mm10;chr19:37695909-37695925<br />
+GGTCACAGGCGGGTCA<br />
+&gt;TFLinkSS10015637;P11416;Rara;mm10;chr12:57547042-57547058<br />
+GGTCAGGGGGAGGGGA<br />
+&gt;TFLinkSS10015638;P11416;Rara;mm10;chr12:57547042-57547058<br />
+GGTCAGGGGGAGGGGA<br />
+&gt;TFLinkSS10015639;P11416;Rara;mm10;chr9:98423857-98423870<br />
+GGTCAAAAGGTCA<br />
+&gt;TFLinkSS10015640;P11416;Rara;mm10;chr9:98423857-98423870<br />
+GGTCAAAAGGTCA<br />
+&gt;TFLinkSS10015641;P11416;Rara;mm10;chr11:98960008-98960024<br />
+GTTCAGCAAGAGTTCA<br />
+&gt;TFLinkSS10015642;P11416;Rara;mm10;chr14:16575513-16575529<br />
+GAACTTTCGGTGAACC<br />
+&gt;TFLinkSS10015643;P11416;Rara;mm10;chr15:102247226-102247242<br />
+CACCTCCTCCTGACCC<br />
+&gt;TFLinkSS10015644;P11416;Rara;mm10;chr1:167618170-167618182<br />
+GTTGAAAGGTCA<br />
+&gt;TFLinkSS10015645;P11416;Rara;mm10;chr5:137482097-137482110<br />
+GGTCAAGAGGTCA<br />
+&gt;TFLinkSS10015646;P11416;Rara;mm10;chr18:61036711-61036722<br />
+GGTCACGACCC<br />
+&gt;TFLinkSS10015647;P11416;Rara;mm10;chr18:61035133-61035146<br />
+GGTCAAGAGTTCA<br />
+&gt;TFLinkSS10015648;P11416;Rara;mm10;chr3:87948035-87948047<br />
+GACCTCTGCCCT<br />
+&gt;TFLinkSS10015649;P11416;Rara;mm10;chr3:87947525-87947538<br />
+GTTCACCAGGTCA<br />
+&gt;TFLinkSS10015650;P11416;Rara;mm10;chr11:96368939-96368952<br />
+GACCTTTTTACCT<br />
+&gt;TFLinkSS10015651;P11416;Rara;mm10;chr11:96364109-96364122<br />
+GAACTCTTGCCCT<br />
+&gt;TFLinkSS10015652;P11416;Rara;mm10;chr11:96372776-96372792<br />
+GTTCATAGAGAGTTCA<br />
+&gt;TFLinkSS10015653;P11416;Rara;mm10;chr2:91932690-91932706<br />
+GGTCAGGATCGGGGCA<br />
+&gt;TFLinkSS10015654;P11416;Rara;mm10;chr2:173152737-173152753<br />
+GGCCTGCCCTTGACCC<br />
+&gt;TFLinkSS10015655;P11416;Rara;mm10;chr2:173152623-173152635<br />
+GACCTTTGGCCG<br />
+&gt;TFLinkSS10015656;P11416;Rara;mm10;chr9:98490479-98490491<br />
+GACCTTTGACTC<br />
+&gt;TFLinkSS10015657;P11416;Rara;mm10;chr9:98490428-98490441<br />
+GACCTGTTGAACT<br />
+&gt;TFLinkSS10015658;P11416;Rara;mm10;chr9:98489929-98489941<br />
+GGTCACAGTTCA<br />
+&gt;TFLinkSS10015659;P11416;Rara;mm10;chr6:52153426-52153442<br />
+GAACTTTCGGTGAACC<br />
+&gt;TFLinkSS10015660;P11416;Rara;mm10;chr6:83071233-83071246<br />
+GACCTTATGACCT<br />
+&gt;TFLinkSS10015661;P11416;Rara;mm10;chr19:45747043-45747056<br />
+GAACTGCTGACCC<br />
+&gt;TFLinkSS10015662;P11416;Rara;mm10;chr2:74724755-74724771<br />
+GGTGAAATGCAGGTCA<br />
+&gt;TFLinkSS10015663;P11416;Rara;mm10;chr2:74730657-74730673<br />
+GTTCACCCAGAGGACA<br />
+&gt;TFLinkSS10015664;P11416;Rara;mm10;chr19:56722261-56722277<br />
+GACCTGGCCGCGACCT<br />
+&gt;TFLinkSS10015665;P11416;Rara;mm10;chr3:87974531-87974543<br />
+GGTCATCGGCCT<br />
+&gt;TFLinkSS10015666;P11416;Rara;mm10;chr3:87974523-87974536<br />
+GAGGATGAGGTCA<br />
+&gt;TFLinkSS10015667;P11416;Rara;mm10;chr11:96324320-96324336<br />
+GTTCATGGAGAGGCCA<br />
+&gt;TFLinkSS10015668;P11416;Rara;mm10;chr6:52194878-52194894<br />
+GACCTGAAGTTCACCT<br />
+&gt;TFLinkSS10015669;P11416;Rara;mm10;chr11:96310735-96310751<br />
+GATCACGCAGAGGTCA<br />
+&gt;TFLinkSS10015670;P11416;Rara;mm10;chr9:46228581-46228593<br />
+GATCCTTGAACT<br />
+&gt;TFLinkSS10015671;P11416;Rara;mm10;chr9:46228503-46228516<br />
+GAACCCTTGATCC<br />
+&gt;TFLinkSS10015672;P11416;Rara;mm10;chr6:52218732-52218748<br />
+AAACGCCTCATAAACT<br />
+&gt;TFLinkSS10015673;P11416;Rara;mm10;chr19:43781995-43782011<br />
+AACATCTCTGTGAACT<br />
+&gt;TFLinkSS10015674;P11416;Rara;mm10;chr9:32695722-32695738<br />
+GGTGACCAAGCCTTCA<br />
+&gt;TFLinkSS10015675;P11416;Rara;mm10;chr9:50753162-50753174<br />
+AACCCCTGACCT<br />
+&gt;TFLinkSS10015676;P11416;Rara;mm10;chr9:50753100-50753116<br />
+TGTCACCCTGCCAAAT<br />
+&gt;TFLinkSS10015677;P11416;Rara;mm10;chr19:20601878-20601894<br />
+GCCCTGAGTCTGCCCA<br />
+&gt;TFLinkSS10015678;P11416;Rara;mm10;chr9:46235855-46235867<br />
+GCCCTCTGGACC<br />
+&gt;TFLinkSS10015679;P11416;Rara;mm10;chr9:46235372-46235384<br />
+GGGCAAAGGTCA<br />
+&gt;TFLinkSS10015681;P11416;Rara;mm10;chr3:144825272-144825302<br />
+AACTCAGCCTCCAGGTCTGTGACTTTACTT<br />
+&gt;TFLinkSS10015682;P11416;Rara;mm10;chr10:80838829-80838887<br />
+TTTCCACATTGCTGGGAGTGGCAGCACACACCTGTTACCCCATTGCCCTAGCAGCTCA<br />
+&gt;TFLinkSS10015683;P11416;Rara;mm10;chr9:103108482-103108559<br />
+AGTGGGTAGGGCAGGTTAGATAAAGTACCCACGGGTCTGACTTTTTTTGCAACTTCTTGTGAACCCATAGTGACTTC<br />
+&gt;TFLinkSS10015684;P11416;Rara;mm10;chr3:37414688-37414723<br />
+AGGCACTGTGTGTCTCCTGTGCAATAGCTCAGGTG<br />
+&gt;TFLinkSS10015685;P11416;Rara;mm10;chr3:34656447-34656507<br />
+GACTGCCTCTCCCTAGGGACTCTATCTAGGAGATGGATCCCTGGAAGAAGGGAGACACTC<br />
+&gt;TFLinkSS10015686;P11416;Rara;mm10;chr8:45991385-45991413<br />
+GCTGGACTTACAGGAGAAAGCCAAAAGA<br />
+&gt;TFLinkSS10015687;P11416;Rara;mm10;chr8:45996398-45996427<br />
+TGACTTTGACCCCTAGAGCCTACATGGTA<br />
+&gt;TFLinkSS10015688;P11416;Rara;mm10;chr10:83534277-83534351<br />
+TAGAGGTGGGACCTTCCATAAATTACTCAGACCCGCGGAGTTAGGCAGAGAGATGTACCTTATAATTTAATCGG<br />
+&gt;TFLinkSS10015689;P11416;Rara;mm10;chr1:17102911-17102964<br />
+CCTTTTGCACAGCTCCTAGGCCAGGTGGTAGATCTATTCCTGGCCAGCTCCAT<br />
+&gt;TFLinkSS10015690;P11416;Rara;mm10;chr2:66123903-66123984<br />
+AACAGGTCCTCTAAGAGGAGGCAGCTGGTGAACCACAGTTCCATTTCCTCCTGCCACAAAGACCTGGACTCTGCCACCTT<br />
+C<br />
+&gt;TFLinkSS10015691;P11416;Rara;mm10;chr13:16018493-16018610<br />
+TTAAGAGGAAAAACTTTCATGGATTCTAATCATTGGCTCAGGACCACACTAACCTGTTGCTGTGGAGAAAAATACCTGTC<br />
+CAAAGCCCAGGCTCGAAACTGAGAACTCCTCTCCAGT<br />
+&gt;TFLinkSS10015692;P11416;Rara;mm10;chr13:16022175-16022287<br />
+CCGATTTGTAAAAGGGCAGCATATTTTACCCAGGATGTTGATGAGGAAAACCAGACTAATTAAGCTGAAACTTTATGTGT<br />
+ATACTGATTATTTAATGGGGAATTATCAGATA<br />
+&gt;TFLinkSS10015693;P11416;Rara;mm10;chr16:15896314-15896361<br />
+TTCTAAGAAACAAACAAGTAATGATGACACATTTTGGTCTGTCATAT<br />
+&gt;TFLinkSS10015695;P11416;Rara;mm10;chr15:34306609-34306666<br />
+CCAAAGAGGACACCCCTCCTTCCGCCCGCCCGCTTCCAACCCTTGTACGGCACCGCC<br />
+&gt;TFLinkSS10015696;P11416;Rara;mm10;chr14:88474202-88474277<br />
+CTTTTCCCTTGCTACAAGCCTTCGTTTCCTAGTGTTTTTCCTTGTTATAACTCAGAACACATGTTTCTATATTTC<br />
+&gt;TFLinkSS10015697;P11416;Rara;mm10;chr6:4507414-4507442<br />
+ATTCTCATCAATTGCCCTAAAATGTGAA<br />
+&gt;TFLinkSS10015699;P11416;Rara;mm10;chr1:150097438-150097510<br />
+TTATAAAATTAGAACGAAAATCTACCTAACAATCTACCTAGCATCTTAGGAGAAAAAAGTTGCTGAAAATTC<br />
+&gt;TFLinkSS10015700;P11416;Rara;mm10;chr9:71211035-71211064<br />
+CTTATTCACCTGCACATACACACCATCAG<br />
+&gt;TFLinkSS10015701;P11416;Rara;mm10;chr5:108132186-108132249<br />
+CATGTGGTGCGGCCCGGCCCAAGGAAGGCTAGCCCACTTCCGCACTTACTTGGTATTCGATCT<br />
+&gt;TFLinkSS10015702;P11416;Rara;mm10;chr2:36231607-36231643<br />
+CAGAGTGGCCTGAGAATCACAGCAGGCTTCCTGGAG<br />
+&gt;TFLinkSS10015703;P11416;Rara;mm10;chr2:162987155-162987246<br />
+CTATGGAAAGGGGGTGATTTCAAGAATGAAGGTATGACAGTGTCCGAAGAGACTTAGGAGAGCCTTCGTGGAGGCTCAGG<br />
+AATTCACGTGA<br />
+&gt;TFLinkSS10015705;P11416;Rara;mm10;chr14:59357002-59357038<br />
+GATGTCCAAGCAGCTCCTATTGTGCCACCAAACATT<br />
+&gt;TFLinkSS10015706;P11416;Rara;mm10;chr5:75156738-75156779<br />
+ACTGGGCTGCAGGGACCCCGCGGGGGGCGGGTTTACGAGCA<br />
+&gt;TFLinkSS10015707;P11416;Rara;mm10;chr9:92283545-92283590<br />
+TCTAAGCAAGGGATTGCCATATTTAGGCTGGTTAATCTAAGGGTT<br />
+&gt;TFLinkSS10015708;P11416;Rara;mm10;chr13:113203651-113203742<br />
+CTCTAACCTTGTGAGAAAAGTTAAGTTCTAGATTGTTCTGGGATCAAAACACCAACAGCCTGATTTCCTTGTTGTTTCCA<br />
+GAGATTCCACA<br />
+&gt;TFLinkSS10015709;P11416;Rara;mm10;chr2:30599415-30599458<br />
+TCTTAGTGCATGTGTGTACATGTTTGTGTGCACATGTGTATGG<br />
+&gt;TFLinkSS10015711;P11416;Rara;mm10;chr16:52448967-52449026<br />
+CTAAAATGTCAGAAATGTTGGAAACATTAGCAATGCAAAATAAGTTTGGATTTCTATAG<br />
+&gt;TFLinkSS10015712;P11416;Rara;mm10;chr6:55339369-55339465<br />
+CCTATGTTGCTCCATGCAATAGGCTGGGCTTAGATGGCCCTAATTCCCACCTATGAACCCGTGAACAGGATACAAGAGGG<br />
+TGTGGCCAGCTTTGGA<br />
+&gt;TFLinkSS10015713;P11416;Rara;mm10;chr9:44049636-44049664<br />
+GAGCAGATAGGAAGCCTCAGAAGAGAGA<br />
+&gt;TFLinkSS10015714;P11416;Rara;mm10;chr8:85486152-85486236<br />
+ATCTTACTATAGCTTTGATTTGCATTTCTCTGATGATGACTCAGGGTATTGAGCACCTTTTCCTATATCCATGACCATTA<br />
+TCTT<br />
+&gt;TFLinkSS10015715;P11416;Rara;mm10;chr7:138901312-138901359<br />
+CTGGTATTACACAGAACAGAAAGAGGGAGAAGACAACCACAAATGAC<br />
+&gt;TFLinkSS10015716;P11416;Rara;mm10;chr3:79885690-79885750<br />
+ATTTCTGAATCACAAAAAGGGGGTCTGCAGGGGATCCTGGTTGATGACTTTTAAGAGTTT<br />
+&gt;TFLinkSS10015717;P11416;Rara;mm10;chr11:28866736-28866797<br />
+CACATGTAGAATGATGACGGTCCCTTTACATATGTTTCAGAGAAAGGATAAAGTTTCCAGG<br />
+&gt;TFLinkSS10015718;P11416;Rara;mm10;chr13:32961848-32961898<br />
+GTTTAAATCTTGGCTGGTGTATATATAAGATAGAATGTGTGTGTATGGAG<br />
+&gt;TFLinkSS10015719;P11416;Rara;mm10;chr7:27332363-27332443<br />
+ACAGGAAGCTAAGGACATAGGGGTCTTGCCGAGGTCAGCCCGCCTTCACATGTTCCTCCTTGTGCCTCCAGGGGTTTGGC<br />
+&gt;TFLinkSS10015720;P11416;Rara;mm10;chr10:60829201-60829253<br />
+GGAAAGCAGGCCGTGTGGGCATGCTCTCCATTCAGAAGGTAGGTTCCTAAGG<br />
+&gt;TFLinkSS10015722;P11416;Rara;mm10;chr17:71311949-71312012<br />
+ACCCTTCATTCCTCCATCCTTCCCTCCCTCTCTTGCTCCCCCTGTTGGTCATGTTTTCTGCCT<br />
+&gt;TFLinkSS10015723;P11416;Rara;mm10;chr5:90893377-90893425<br />
+TTGTCTACGGCCAGACCACCCTGAACGAGCTCGATCTCCTCTTATCTC<br />
+&gt;TFLinkSS10015724;P11416;Rara;mm10;chr12:81635814-81635857<br />
+CATTGCTTTGTTGATACGTTTAAGTGATGCCCAAGGTTTAAAT<br />
+&gt;TFLinkSS10015725;P11416;Rara;mm10;chrX:142387249-142387308<br />
+AAGAACAGGAGAGTGGAATGAATTATAAATAGAATGAGTGAGATTTCTGCATATGTTTT<br />
+&gt;TFLinkSS10015726;P11416;Rara;mm10;chr15:67174652-67174681<br />
+AGGAAGGGGAAGTGCAGAGGCGCAGGGGC<br />
+&gt;TFLinkSS10015727;P11416;Rara;mm10;chr7:119001472-119001501<br />
+TCACTGGCCACTGGGCTACATCACTGGCT<br />
+&gt;TFLinkSS10015729;P11416;Rara;mm10;chr9:103013761-103013814<br />
+AGTTAACATTTCTGAGGGTGCAGAGTCCCTTTCATCTGTCCTGATTGTGACAG<br />
+&gt;TFLinkSS10015730;P11416;Rara;mm10;chr9:103009273-103009354<br />
+TTGCAATAGTTGGGAGTCGCAGATTAGATTGCTACCTGGCTGCATAGCTCCCAGCAGTTTTGAGGATTCCCCAGCTCTCC<br />
+T<br />
+&gt;TFLinkSS10015731;P11416;Rara;mm10;chr1:40444818-40444873<br />
+GATGAATCATACCTCCCTCACCACACTCTGTAACCAATCACTCTCCTACACTCTT<br />
+&gt;TFLinkSS10015732;P11416;Rara;mm10;chr3:132084100-132084166<br />
+CTGCTAAAGACACAAGCAGCAACCTTTGCTCCTGGTCTCCTGGGTGACCAAACCTCTCCTAACCCA<br />
+&gt;TFLinkSS10015733;P11416;Rara;mm10;chr1:40439866-40439951<br />
+ATGACTGTCTGAAGCTTGTAAAAGAAAAAAGTGCCTGCAAATCAAAGAAACGTGCACTCTTGAAACTACTAAGGAGTTAA<br />
+ATATT<br />
+&gt;TFLinkSS10015734;P11416;Rara;mm10;chrX:157416382-157416426<br />
+TTGCTGGAGGATTTTTCCCAAGGTTGGTTCTTGGTTTCAAAACG<br />
+&gt;TFLinkSS10015736;P11416;Rara;mm10;chr7:127994329-127994362<br />
+AACCTTACCAAATGCCCCAGCTATTAAATATTT<br />
+&gt;TFLinkSS10015737;P11416;Rara;mm10;chr19:38126057-38126126<br />
+TTGCAGAGATACCTGCGGCCTCCTTCAGCTTCCTGTGAGCTTTTGGACATTCACCTGCCTGGTTCTCTC<br />
+&gt;TFLinkSS10015738;P11416;Rara;mm10;chr6:136869038-136869084<br />
+CTCACGACCCACAGGTTGAGAACCGAGACATTACAGTCTCTTCTGA<br />
+&gt;TFLinkSS10015739;P11416;Rara;mm10;chr18:69916204-69916277<br />
+AGGCATGTACCTTACTCCTTTCAGTTTAATCCTGTTATGGGCCCCACACCCAGGTCAAACCATAACTATCTAT<br />
+&gt;TFLinkSS10015741;P11416;Rara;mm10;chr3:54353418-54353486<br />
+TCTAGCCCATAGACCGCAGAGCCGAGTGTGGCCAGCAGAGGGTGCTGGCATGAAAGGAAAGAAGGAGC<br />
+&gt;TFLinkSS10015742;P11416;Rara;mm10;chr11:75167801-75167891<br />
+GCCCCAGATGCTCCTGGGCACTCAGGCTGGGTCCTGGGAACTTCCAGGGAGAAATCTGTTTAGGGCGAAATGACCCTTTC<br />
+GGAGACAATT<br />
+&gt;TFLinkSS10015743;P11416;Rara;mm10;chr5:104441685-104441727<br />
+AAAGGAAAAGTTAAATCATGAGATTTGCAAGTAGGTGAATGA<br />
+&gt;TFLinkSS10015744;P11416;Rara;mm10;chr17:33784878-33784941<br />
+TTCCTTGCCCCTGTGAGTCAAGGACTTTCTCCACTAAACCATCTTTCCAGCCCCAAATCCCAC<br />
+&gt;TFLinkSS10015745;P11416;Rara;mm10;chr4:150862478-150862522<br />
+ATACAATTGTAAACACTGCAGCATTAGTTGAATTTTACTTGAGC<br />
+&gt;TFLinkSS10015746;P11416;Rara;mm10;chr4:150857882-150857997<br />
+GTGAATGTCGCCTATCTGTGGAGGCCTCCCCTGACCACCTGTGTAAATAAGCTCTCTGCCTCCTTATCCTGCCATTGTGC<br />
+CCTGCTCATTTCCTTGAGAGATAACCCCATGTGAA<br />
+&gt;TFLinkSS10015747;P11416;Rara;mm10;chr17:33783720-33783787<br />
+CACAGCTCATAGCCATTCCATGCTAGTCCATGTGCCATCTCCTTGTCCAAGTCTTCTTGCCTCCAGA<br />
+&gt;TFLinkSS10015748;P11416;Rara;mm10;chr14:45319091-45319148<br />
+AATGTCAAAGACAGCTTGAGCTACATACTTCCTGCCCTATAGAGTTAGGCTCTATTT<br />
+&gt;TFLinkSS10015749;P11416;Rara;mm10;chr1:51290951-51291017<br />
+GTAGGAGCCTTCTTTTTCCTAATGAATCTACTCTGCCAAGTTAGGGCTCTGGCCTGCCTATCGCCA<br />
+&gt;TFLinkSS10015750;P11416;Rara;mm10;chr8:27089377-27089453<br />
+GAGATCAACAAGCCCAGGCCCACAATTTAAGGCTTTGTAGCCGAGGAAGGAGAAGTTAGAGGGATTGCTAGGTGGG<br />
+&gt;TFLinkSS10015751;P11416;Rara;mm10;chr9:7554892-7554934<br />
+TCAGCCATTTGGTATTCCTCAGTTGAGAATTCTTTGTTTAGC<br />
+&gt;TFLinkSS10015752;P11416;Rara;mm10;chr14:65963327-65963385<br />
+TTGTTTGCCCACACACATACTATTCTAGAAGCATGAAATTCAGGAGAAGCTGACAGTA<br />
+&gt;TFLinkSS10015753;P11416;Rara;mm10;chr5:136976640-136976687<br />
+TTGTTTGTTTATTTCACTTAGGCCCGAGTGTACTCATCAAGAATAGG<br />
+&gt;TFLinkSS10015754;P11416;Rara;mm10;chr4:138002068-138002187<br />
+TGACTTCTTAGTGTACCAGTTTCAGGCTTGCATACCTGTCAGAGCACAGGAGAGCCGGCTAATCAGGAGCTAATTCCAAT<br />
+AGGCTCAACTTCCATTAGGTTTTTGGAAAATAAGGCTAG<br />
+&gt;TFLinkSS10015755;P11416;Rara;mm10;chr10:24588920-24588994<br />
+GACCAGGTTTTGGGGAGTAAAATGAGAACACATGAGAGACAGATGCTGTACCACCATCCTGTGTTCCCCCTTCT<br />
+&gt;TFLinkSS10015756;P11416;Rara;mm10;chr16:22900387-22900447<br />
+AAGGTTATGGTGGCTGTTGGCTGGTGTGTTTGCACTAGGAGGGATAACCTGAATGACAAA<br />
+&gt;TFLinkSS10015757;P11416;Rara;mm10;chr17:73949156-73949185<br />
+CACATGTCCATTCTTGCAAATTTCTTCAG<br />
+&gt;TFLinkSS10015758;P11416;Rara;mm10;chr10:13869791-13869820<br />
+TTTTGTTTTCTTTTAAATCATGATCATGT<br />
+&gt;TFLinkSS10015760;P11416;Rara;mm10;chr7:144931930-144931987<br />
+GCTGAGCCCTGGGGAGGGGGGTTGTGCCACACGCCATGAGACCACTAGAGGTCGCAC<br />
+&gt;TFLinkSS10015761;P11416;Rara;mm10;chr11:75158748-75158805<br />
+ACCAGGGCCCTTGCAACTCAGTGTGGCTGTCCTTCTTCCTTGTGGCTTCCCTGTACT<br />
+&gt;TFLinkSS10015762;P11416;Rara;mm10;chr7:104467094-104467124<br />
+TTGATTTTTTTTATAGCTGAGTAGTATTCT<br />
+&gt;TFLinkSS10015763;P11416;Rara;mm10;chrX:10724862-10724950<br />
+CTTCCTTAGCAGACATCTAATTGAGGAGATTTCTTGGTTGGTAGTTAAGGAAAGAAGCAAATGAAAGGGCTACAGTACTG<br />
+GTTCTTGC<br />
+&gt;TFLinkSS10015764;P11416;Rara;mm10;chr12:111437515-111437571<br />
+TGAAGAAAGGAGACAACAGCCCTTGGTGCCCACTTCTCTGAGTCTGGGTTTCCTCA<br />
+&gt;TFLinkSS10015765;P11416;Rara;mm10;chr2:167231078-167231136<br />
+AGAGGCAAGATGTCTGGGTTCAGGAACAGTGACTGTCCAAGGGGAAAGGCCTGCCATC<br />
+&gt;TFLinkSS10015766;P11416;Rara;mm10;chr10:120469794-120469855<br />
+CAGCTAGCCTCAGGGCTTGGTTCCATGATGTCTGAAGATGGAATTAAATGTTTATTCTGAG<br />
+&gt;TFLinkSS10015768;P11416;Rara;mm10;chr10:120473953-120474018<br />
+GCTTCAATTCTCCACTTCCTTTTGGAGAGACAGGCATGATCTTCAGTCGAAATTTAAATATCTTT<br />
+&gt;TFLinkSS10015769;P11416;Rara;mm10;chr11:78975443-78975520<br />
+GAAAGAGTCTTAAGTTGCCTAGGCTATCCTTAAACTTATTCAGTAGCCCAGGAAGGCCTTGAATCTTAGGTCCTCCT<br />
+&gt;TFLinkSS10015770;P11416;Rara;mm10;chr6:115421946-115421999<br />
+GTTTATTCCCACCTCTCCCAAATATTTGAAAACTGGTGTCTTGACTTATTAGC<br />
+&gt;TFLinkSS10015771;P11416;Rara;mm10;chr1:153557118-153557226<br />
+AGTCTACTAGCAGAAATTGCTTCCCCCCTTTCTCCCTTCCTCCCTCTCTCCCTTTCTCCTTCCCTCCCTTCCTTTCTGAA<br />
+CTGCAAGTTTCTTGGAACTTTAGCAATC<br />
+&gt;TFLinkSS10015772;P11416;Rara;mm10;chr2:128698144-128698173<br />
+CAGCACTTTCTTCCATCCCTGTTTCAAAC<br />
+&gt;TFLinkSS10015773;P11416;Rara;mm10;chr2:122697880-122697991<br />
+AGGGGGAGGCGCTGATGTAGTTTATTTCCTTGGATTTTGGGACACTTGTTCGCCTCTGTTTGACTTCCTAAAGTTGAAGT<br />
+TCCTCAGGTCATTTTGCCTAATGTTGGGGCA<br />
+&gt;TFLinkSS10015774;P11416;Rara;mm10;chr17:23993721-23993794<br />
+TGGGCGGTTCCAGAACTTCCTTGTTCTCTCGCTCAGGCCGCGGGCGCCCCCCGGAGGTAGAAGACATATTTAC<br />
+&gt;TFLinkSS10015775;P11416;Rara;mm10;chr10:59943067-59943119<br />
+CATCTGGTCCTCCCCTCCCTTGCTTCCTGCTCTCTCCTAGGAAGTTTCCCTT<br />
+&gt;TFLinkSS10015776;P11416;Rara;mm10;chr2:122704818-122704857<br />
+TATATGAGGCGTCATGCCCCATATAAACATTTCCAGGCT<br />
+&gt;TFLinkSS10015777;P11416;Rara;mm10;chr10:99269461-99269523<br />
+AGGAGCCAAGGGAAAGCTATCATTTTCCTTCTCAAAGTTGGGCTGCTTTCCTGAATGGAGCC<br />
+&gt;TFLinkSS10015779;P11416;Rara;mm10;chr12:104016963-104017032<br />
+ATGTAGGCTGGTCACCATTGTAGACTGAAGGATTTGTAGCTGGGTTGGTGTTTACCTTTCTCCTCTGGT<br />
+&gt;TFLinkSS10015781;P11416;Rara;mm10;chr5:98258612-98258651<br />
+GTCTCTCCTCTCTTCTCCTAATCATAGACACCTTGGGAA<br />
+&gt;TFLinkSS10015782;P11416;Rara;mm10;chr17:14279228-14279262<br />
+TGAAGACAGAAGGCGCCCTAGGCCAGGAGGGTGG<br />
+&gt;TFLinkSS10015783;P11416;Rara;mm10;chr15:64923005-64923072<br />
+TGCCCCGCAGCGGTTCTTGCATCAGCATCCAATCCAGCGGGGTCCTTGGAGTCTGGCTTTTCAGGGA<br />
+&gt;TFLinkSS10015784;P11416;Rara;mm10;chr5:134976213-134976355<br />
+GTATTGATAAGATGCCCTCACCCCATCCAACCACAGCGTTTATATCCTAGGAGATGACCCTTACTGAACTAGCAATAGAA<br />
+ACCTCTCCAGGGAGCTGGCACTCCCAACTCCACCTGGCAGTCATGAGAAGTCACCCACTTCT<br />
+&gt;TFLinkSS10015785;P11416;Rara;mm10;chr3:19957063-19957144<br />
+AGTTAGAGAAGCCTGGCCACAGGGAACTGTGTTTGTTTTGGTTTTTCCCCTTCGTGGTTTACCAGAACCAATCTGAGTTG<br />
+G<br />
+&gt;TFLinkSS10015786;P11416;Rara;mm10;chr6:135168340-135168382<br />
+GTCACCCTCTTCCTACCTCACTGCATCTCACAGATGATTAAA<br />
+&gt;TFLinkSS10015787;P11416;Rara;mm10;chr5:136045507-136045584<br />
+GAGTTCTAGTCCCCATCTTGCCGAACCCCCAGCATGCAGGTGACCCCTAGAGGTGTAGATAGAAGCTGCACCCAGCC<br />
+&gt;TFLinkSS10015788;P11416;Rara;mm10;chr2:12302748-12302813<br />
+ATCCCAACACTGTTTTGTTTGGGGGCAGGGGCTGTAATAAGAGGATCTTTTGTTGGACAGCCTGG<br />
+&gt;TFLinkSS10015789;P11416;Rara;mm10;chr12:83991605-83991694<br />
+TGAAAGTTTCCAGGGTGTTGTTTTAGAAGCCACAAGAGAAGAAAAAAGACTGTTGTGAAAGGTTAGCCAAAAGTCCTTTT<br />
+GCTTATAGC<br />
+&gt;TFLinkSS10015790;P11416;Rara;mm10;chr12:83987572-83987621<br />
+ATTCTTGACTCTGCAACCTTAGGAATTTGGCGACTGGAGGTTTCATTGG<br />
+&gt;TFLinkSS10015791;P11416;Rara;mm10;chr6:52164568-52164623<br />
+GAAAAGATGTCAGGCACTCAGCGAGCGACGGCTGGCTATTGATAAAACCAATCTC<br />
+&gt;TFLinkSS10015792;P11416;Rara;mm10;chr1:153740348-153740409<br />
+CGGCGCGTGCCGCTCTCCAGACCTCTTCTGCGCAGCCTGGTACTTGCTACTCGCTTTTCCC<br />
+&gt;TFLinkSS10015793;P11416;Rara;mm10;chr8:71687441-71687535<br />
+AGCTTCAAGGGCTTCAGAAATGTGGTTTTCACTTTTGTTGAGGCAAGGTCTTGCTATGTAGCCTTGTCTGGCCTGGAACT<br />
+CGACATCCTCCTGC<br />
+&gt;TFLinkSS10015794;P11416;Rara;mm10;chr6:67042050-67042079<br />
+AACTCATAGTCTACTGCCTAGAACGGAAA<br />
+&gt;TFLinkSS10015796;P11416;Rara;mm10;chr7:45605996-45606073<br />
+CTTTCCAGAGCCTTCTCTGCCCAGCTGCTGGTGTACTTACTAAAAGTAATATTTCCGGTCTGGAAATGTGACTCAGC<br />
+&gt;TFLinkSS10015797;P11416;Rara;mm10;chr12:73903387-73903434<br />
+TTTTAAGGGTTACCATACAAAGTAATGGGTTCTACCGTGACACTTTC<br />
+&gt;TFLinkSS10015798;P11416;Rara;mm10;chr15:56692343-56692415<br />
+CCAATCAGAGCCTCCAAATCTATTGCATCACACACCCCTCCCAGGGTGTGACATCAAATGCAATCCCAGCCC<br />
+&gt;TFLinkSS10015799;P11416;Rara;mm10;chr15:56687067-56687107<br />
+ATCCGATATTTAGCGCATTGACTTATAAATAGCAACTGGA<br />
+&gt;TFLinkSS10015800;P11416;Rara;mm10;chr3:57294722-57294811<br />
+GATGCAGAAGACAGCAGCCCACACCAGAGAGTATCCGATGTATCTTGCACACTTTACGTAGCACATAGTGGCACCAGGAG<br />
+TCCTGCAGG<br />
+&gt;TFLinkSS10015801;P11416;Rara;mm10;chr3:57293122-57293197<br />
+ATCAAGCCATGGCCTTTCCTGATTCCCTATGGGTGGGTTCAGGCGTTTCTGTAAGATATATCTATGTCTTCTGAT<br />
+&gt;TFLinkSS10015802;P11416;Rara;mm10;chr12:49382343-49382422<br />
+ATTTTCGCTAGCGTTTCCCTCTCTTTCCCTCCCCTCTTTCTGCGCCCCATTTCAAATTTGGGGGGTGAGAACATCAGAA<br />
+&gt;TFLinkSS10015803;P11416;Rara;mm10;chr4:148509747-148509775<br />
+TTAGAACACAGCTGCTAAAAGTGGGAGG<br />
+&gt;TFLinkSS10015804;P11416;Rara;mm10;chr10:75940617-75940653<br />
+TGGGTGCCAGCAGCTCCCTGAGCTTCCAGTGGTCTC<br />
+&gt;TFLinkSS10015805;P11416;Rara;mm10;chr13:114460787-114460840<br />
+GCATTAATGTGGAGTTGTTTAGTGCCCTCTAATGGTAGGCGACATTAACAATT<br />
+&gt;TFLinkSS10015806;P11416;Rara;mm10;chr14:110753968-110754021<br />
+TTTGATTTATTTCATCAACAGCAGCATCCTGAGAACCCAGTAAATATTTTCCA<br />
+&gt;TFLinkSS10015807;P11416;Rara;mm10;chr14:110749928-110750070<br />
+TGGAGCTGAGCAAGATTTTTTCTTAGGTACTCTGTGATGCCAAGTTGCTGAAGTTCCCTCTCTTTCTCCAAAATGTTCCT<br />
+ATATAATAAGCTTGCATCCTGAAAGGATATGAAATCTGTTGATTGGTCTGTAGTTTTGTATT<br />
+&gt;TFLinkSS10015808;P11416;Rara;mm10;chr12:15810408-15810469<br />
+AAACTATCCACTTGTTTTTTGAGACAAGGTCTCTCATTGCCCTTGAACCTACCAACGTGGT<br />
+&gt;TFLinkSS10015809;P11416;Rara;mm10;chr3:81029603-81029658<br />
+AATGCAGTTGCACACCATGATAATAATCTTTCAACAGAAGTCTACACAGGCAGCA<br />
+&gt;TFLinkSS10015810;P11416;Rara;mm10;chr6:82948445-82948475<br />
+CAATTTCTGCCTCTGTCTTTCCAGAGCCAA<br />
+&gt;TFLinkSS10015811;P11416;Rara;mm10;chr7:142481295-142481428<br />
+TTTCCCTGGGGAGTGTAGAAACAGTACTGACCTTTGGGTTCAAATTAGCTGGAGGGGGCAGTCACATGGGCAGCCTGCAG<br />
+GGGGCAGAATTGCAACAGGGACTGAAGCCTGCCGACCTGGAATTATTCTTGGG</p>
+
+    </div>
+  </div>
+  
+  <div class="uk-width-1-3@m">
+    <h2>Binding site sequences of Rara based on large-scale evidences</h2>
+    <button
+      onclick="location.href='https://cdn.netbiol.org/tflink/ls_fasta/TFLink_P11416_LS.fasta'"
+      type="button">
+      <span uk-icon="icon: download; ratio: 1.5"></span>
+      <h4 style="display: inline-block; margin: 0">Download</h4>
+    </button>
+  </div>
+  
+</div>
+
+
+
+
+
+
+<script src="/protein.e9931.js"></script>
+
+
+<script src="/network.e9931.js"></script>
+
+
+  </div>
+
+  
+  <footer class="uk-container uk-container-small"></footer>
+
+  
+
+  
+  
+  <script src="/main.e9931.js"></script>
+  
+</body>
+
+</html>

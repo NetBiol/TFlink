@@ -1,0 +1,1341 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<base href="/" />
+<title>TFLink</title>
+<link rel="stylesheet" href="https://cdn.webix.com/edge/webix.css" />
+
+<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-touch-icon.png?v=jwEjQXwyNy">
+<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png?v=jwEjQXwyNy">
+<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png?v=jwEjQXwyNy">
+<link rel="manifest" href="/images/favicon/site.webmanifest?v=jwEjQXwyNy">
+<link rel="mask-icon" href="/images/favicon/safari-pinned-tab.svg?v=jwEjQXwyNy" color="#70adb5">
+<link rel="shortcut icon" href="/images/favicon/favicon.ico?v=jwEjQXwyNy">
+<meta name="msapplication-TileColor" content="#00aba9">
+<meta name="msapplication-config" content="/images/favicon/browserconfig.xml?v=jwEjQXwyNy">
+<meta name="theme-color" content="#ffffff">
+
+
+
+<link href="/main.e9931.css" rel="stylesheet" />
+
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"
+  integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+<script src="https://cdn.webix.com/edge/webix.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.5/js/uikit.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.5/js/uikit-icons.min.js"></script>
+
+<script>
+  $(window).on('load', function () {
+    $('#spinner').fadeOut(300);
+  });
+</script>
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5RNBLSCVTD"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-5RNBLSCVTD');
+</script>
+
+</head>
+
+<body>
+  <div class="net-top-navbar" uk-sticky>
+    <div class="uk-container uk-container-center uk-container-expand">
+        <nav class="uk-navbar uk-navbar-container navbar">
+            <a class="uk-navbar-item uk-logo" href="/"><img src="/images/favicon/favicon-32x32.png">Link</a>
+            <ul class="uk-navbar-nav">
+                <li id="nav_browse">
+                    <a href="/browse/">Browse</a>
+                </li>
+                <li id="nav_download">
+                  <a href="/download/">Download</a>
+              </li>
+              <li id="nav_faq">
+                <a href="/faq/">FAQ</a>
+            </li>
+            </ul>
+        </nav>
+    </div>
+</div>
+
+
+  <div class="uk-container uk-container-expand uk-margin-large-bottom">
+    <div id="spinner"></div>
+    
+<div class="uk-grid" data-uk-grid-margin>
+  <div class="uk-width-medium-1-1">
+    <div class="uk-panel uk-panel-box uk-text-center">
+      <h1 id="protein_name">FOS</h1>
+      <hr class="" />
+    </div>
+  </div>
+</div>
+
+<div class="uk-grid-small" uk-grid uk-text-left>
+  <div class="uk-width-1-2@m">
+    <dl class="dl-horizontal">
+      <dt>Name</dt>
+      <dd>FOS</dd>
+      <dt>Uniprot Accession</dt>
+      <dd>
+        <a id="uniprot-id" href="https://www.uniprot.org/uniprot/P01100"
+          target="_blank" id="uniprot-ac">
+          P01100</a>
+      </dd>
+      <dt>NCBI Gene ID</dt>
+      <dd>
+        
+        <a href="https://www.ncbi.nlm.nih.gov/gene/?term=2353"
+          target="_blank">2353</a>
+        
+      </dd>
+      <dt>Organism</dt>
+      <dd>
+        <span>
+          <i id="organism">Homo sapiens</i>
+          <span id="species_siluette" class="siluette-small">
+          </span>
+        </span>
+      </dd>
+      <dt>Function</dt>
+      <dd>transcription factor and target gene</dd>
+      <dt>Number of interactions</dt>
+      
+      <dd>15,982</dd>
+      
+      
+      <input id="ortholog_data" type="hidden" name="ortholog_data"
+        value="[{&#34;species&#34;: &#34;Mus musculus&#34;, &#34;id&#34;: [&#34;&lt;a href=\&#34;/protein/p01101\&#34;&gt;P01101&lt;/a&gt;&#34;]}, {&#34;species&#34;: &#34;Rattus norvegicus&#34;, &#34;id&#34;: [&#34;&lt;a href=\&#34;/protein/p12841\&#34;&gt;P12841&lt;/a&gt;&#34;]}, {&#34;species&#34;: &#34;Danio rerio&#34;, &#34;id&#34;: [&#34;&lt;a href=\&#34;/protein/q6p0s4\&#34;&gt;Q6P0S4&lt;/a&gt;&#34;]}]" />
+      <dt>Orthologs</dt>
+      <dd>
+        <ul id="ulOrtholog" class="target-blank"></ul>
+      </dd>
+      
+      
+      <dt>JASPAR position specific scoring matrix</dt>
+      <dd>
+        
+        <ul class="target-blank"><a href="https://jaspar.genereg.net/matrix/MA0476.1/">
+            MA0476.1</a></ul>
+        
+        <ul class="target-blank"><a href="https://jaspar.genereg.net/matrix/MA1800.1/">
+            MA1800.1</a></ul>
+        
+      </dd>
+      
+    </dl>
+  </div>
+
+</div>
+
+
+<div class="uk-grid">
+  <div class="uk-width-2-3@xl">
+    <h2>Targets of FOS</h2>
+    <div>
+      <div id="target_paging"></div>
+      
+      <div style="position:relative;">
+        <span style="font-weight: bold">Please be aware that here we show only the top 100 rows of
+          the data. <br />
+          If you wish to see all the data please click the <i>download all</i> button.</span>
+        <button style="position:absolute; right:0px; bottom:5px"
+          onclick="location.href='https://cdn.netbiol.org/tflink/proteinDownload_targets/TFLink_targets_of_P01100.tsv'"
+          type="button">
+          <span uk-icon="icon: download; ratio: 1.5"></span>
+          <h4 style="display: inline-block; margin: 0">Download all</h4>
+        </button>
+      </div>
+      
+    </div>
+
+    <div id="target_div"></div>
+    <input id="target_data" type="hidden" name="target_data"
+      value="SPRR3,Q9UBC9,6707,GTRD;ORegAnno;PAZAR;ReMap;TRED;TRRUST,chromatin immunoprecipitation assay;inferred by curator,29126285%5Buid%5D&#43;OR&#43;9889002%5Buid%5D&#43;OR&#43;26578589%5Buid%5D&#43;OR&#43;18971253%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#43;OR&#43;17202159%5Buid%5D&#43;OR&#43;29087512%5Buid%5D,Yes
+PLAUR,Q03405,5329,GTRD;ORegAnno;PAZAR;ReMap;TRED;TRRUST,chromatin immunoprecipitation assay;inferred by curator,29126285%5Buid%5D&#43;OR&#43;26578589%5Buid%5D&#43;OR&#43;18971253%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#43;OR&#43;10471035%5Buid%5D&#43;OR&#43;17202159%5Buid%5D&#43;OR&#43;29087512%5Buid%5D,Yes
+SMAD7,O15105,4092,FANTOM4_via_DoRothEA;GTRD;ORegAnno;PAZAR;TRRUST,chromatin immunoprecipitation assay;inferred by curator,26578589%5Buid%5D&#43;OR&#43;15579469%5Buid%5D&#43;OR&#43;20211142%5Buid%5D&#43;OR&#43;18971253%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#43;OR&#43;29087512%5Buid%5D,Yes
+RUNX2,Q13950,860,FANTOM4_via_DoRothEA;GTRD;ORegAnno;PAZAR;ReMap,chromatin immunoprecipitation assay;inferred by curator,29126285%5Buid%5D&#43;OR&#43;26578589%5Buid%5D&#43;OR&#43;20211142%5Buid%5D&#43;OR&#43;18971253%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#43;OR&#43;11604227%5Buid%5D,Yes
+TSHB,P01222,7252,TRED,inferred by curator,17202159%5Buid%5D,Yes
+CREM,Q03060,1390,GTRD;ORegAnno;PAZAR;ReMap;TRRUST,chromatin immunoprecipitation assay;inferred by curator,29126285%5Buid%5D&#43;OR&#43;8972862%5Buid%5D&#43;OR&#43;26578589%5Buid%5D&#43;OR&#43;17056544%5Buid%5D&#43;OR&#43;18971253%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#43;OR&#43;29087512%5Buid%5D&#43;OR&#43;21757709%5Buid%5D&#43;OR&#43;15322221%5Buid%5D,Yes
+NTS,P30990,4922,TRED;TRRUST,inferred by curator,17202159%5Buid%5D&#43;OR&#43;29087512%5Buid%5D&#43;OR&#43;7791794%5Buid%5D,Yes
+HSPH1,Q92598,10808,GTRD;ORegAnno;PAZAR;ReMap;TRRUST,chromatin immunoprecipitation assay;inferred by curator,29126285%5Buid%5D&#43;OR&#43;20188076%5Buid%5D&#43;OR&#43;26578589%5Buid%5D&#43;OR&#43;18971253%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#43;OR&#43;29087512%5Buid%5D,Yes
+VEGFD,O43915,2277,GTRD;KEGG_via_DoRothEA;ReMap;TRRUST,chromatin immunoprecipitation assay;inferred by curator,29126285%5Buid%5D&#43;OR&#43;19136250%5Buid%5D&#43;OR&#43;27899662%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#43;OR&#43;29087512%5Buid%5D,Yes
+NAT1,P18440,9,GTRD;HTRI;ORegAnno;PAZAR,chromatin immunoprecipitation assay;electrophoretic mobility shift assay;inferred by curator,12946272%5Buid%5D&#43;OR&#43;26578589%5Buid%5D&#43;OR&#43;18971253%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#43;OR&#43;22900683%5Buid%5D,Yes
+BATF3,Q9NR55,55509,ORegAnno;PAZAR;TRED;TRRUST,inferred by curator,26578589%5Buid%5D&#43;OR&#43;18971253%5Buid%5D&#43;OR&#43;17202159%5Buid%5D&#43;OR&#43;29087512%5Buid%5D&#43;OR&#43;12087103%5Buid%5D,Yes
+FGFBP1,Q14512,9982,TRRUST,inferred by curator,29087512%5Buid%5D&#43;OR&#43;10753873%5Buid%5D,Yes
+NANOS2,P60321,339345,TRRUST,inferred by curator,9776360%5Buid%5D&#43;OR&#43;12788789%5Buid%5D&#43;OR&#43;29087512%5Buid%5D,Yes
+MELTF,P08582,4241,GTRD;ORegAnno;PAZAR;ReMap;TRRUST,chromatin immunoprecipitation assay;inferred by curator,29126285%5Buid%5D&#43;OR&#43;26578589%5Buid%5D&#43;OR&#43;8836133%5Buid%5D&#43;OR&#43;18971253%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#43;OR&#43;29087512%5Buid%5D,Yes
+PTGS2,P35354,5743,GTRD;HTRI;ReMap;TRED;TRRUST,chromatin immunoprecipitation assay;inferred by curator,11278336%5Buid%5D&#43;OR&#43;9620167%5Buid%5D&#43;OR&#43;12057991%5Buid%5D&#43;OR&#43;29126285%5Buid%5D&#43;OR&#43;17556653%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#43;OR&#43;17202159%5Buid%5D&#43;OR&#43;29087512%5Buid%5D&#43;OR&#43;22900683%5Buid%5D,Yes
+CDKN1A,P38936,1026,GTRD;ORegAnno;PAZAR;ReMap;TRED,chromatin immunoprecipitation assay;inferred by curator,29126285%5Buid%5D&#43;OR&#43;26578589%5Buid%5D&#43;OR&#43;18971253%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#43;OR&#43;17202159%5Buid%5D,Yes
+GUCY2C,P25092,2984,TRRUST,inferred by curator,19150388%5Buid%5D&#43;OR&#43;29087512%5Buid%5D,Yes
+PTGDS,P41222,5730,TRED,inferred by curator,17202159%5Buid%5D,Yes
+MMP9,P14780,4318,GTRD;KEGG_via_DoRothEA;ORegAnno;PAZAR;TRRUST,chromatin immunoprecipitation assay;inferred by curator,21474819%5Buid%5D&#43;OR&#43;21238464%5Buid%5D&#43;OR&#43;10935492%5Buid%5D&#43;OR&#43;27899662%5Buid%5D&#43;OR&#43;11774399%5Buid%5D&#43;OR&#43;26578589%5Buid%5D&#43;OR&#43;18971253%5Buid%5D&#43;OR&#43;29087512%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#43;OR&#43;18809380%5Buid%5D,Yes
+CD69,Q07108,969,GTRD;ORegAnno;PAZAR;TRED,chromatin immunoprecipitation assay;inferred by curator,17202159%5Buid%5D&#43;OR&#43;18971253%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#43;OR&#43;26578589%5Buid%5D,Yes
+HLA-DRA,P01903,3122,GTRD;ORegAnno;PAZAR;ReMap;TRED,chromatin immunoprecipitation assay;inferred by curator,29126285%5Buid%5D&#43;OR&#43;26578589%5Buid%5D&#43;OR&#43;18971253%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#43;OR&#43;17202159%5Buid%5D,Yes
+CCL5,P13501,6352,TRED,inferred by curator,17202159%5Buid%5D,Yes
+FOSL1,P15407,8061,FANTOM4_via_DoRothEA;GTRD;ORegAnno;PAZAR;ReMap,chromatin immunoprecipitation assay;inferred by curator,29126285%5Buid%5D&#43;OR&#43;26578589%5Buid%5D&#43;OR&#43;20211142%5Buid%5D&#43;OR&#43;18971253%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#43;OR&#43;13679379%5Buid%5D,Yes
+FOS,P01100,2353,GTRD;ORegAnno;PAZAR;ReMap;TRRUST,chromatin immunoprecipitation assay;inferred by curator,29126285%5Buid%5D&#43;OR&#43;26578589%5Buid%5D&#43;OR&#43;2498646%5Buid%5D&#43;OR&#43;18971253%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#43;OR&#43;29087512%5Buid%5D,Yes
+CD40LG,P29965,959,HTRI;TRED;TRRUST,electrophoretic mobility shift assay;inferred by curator,17202159%5Buid%5D&#43;OR&#43;29087512%5Buid%5D&#43;OR&#43;11160303%5Buid%5D&#43;OR&#43;22900683%5Buid%5D,Yes
+PENK,P01210,5179,ORegAnno;PAZAR;TRED,inferred by curator,17202159%5Buid%5D&#43;OR&#43;18971253%5Buid%5D&#43;OR&#43;26578589%5Buid%5D,Yes
+HSPA1A,P0DMV8,3303;3304,GTRD;ORegAnno;PAZAR;ReMap;TRED,chromatin immunoprecipitation assay;inferred by curator,29126285%5Buid%5D&#43;OR&#43;26578589%5Buid%5D&#43;OR&#43;18971253%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#43;OR&#43;17202159%5Buid%5D,Yes
+IL12B,P29460,3593,ORegAnno;PAZAR;TRED,inferred by curator,17202159%5Buid%5D&#43;OR&#43;18971253%5Buid%5D&#43;OR&#43;26578589%5Buid%5D,Yes
+ACTA1,P68133,58,ORegAnno;TRRUST,inferred by curator,1460048%5Buid%5D&#43;OR&#43;29087512%5Buid%5D&#43;OR&#43;26578589%5Buid%5D,Yes
+CGA,P01215,1081,TRED,inferred by curator,17202159%5Buid%5D,Yes
+CRB3,Q9BUF7,92359,IntAct_via_DoRothEA;ReMap,chromatin immunoprecipitation assay;inferred by curator,29126285%5Buid%5D&#43;OR&#43;24234451%5Buid%5D&#43;OR&#43;24029232%5Buid%5D,Yes
+ERCC4,Q92889,2072,GTRD;ORegAnno;PAZAR;ReMap;TRRUST,chromatin immunoprecipitation assay;inferred by curator,29126285%5Buid%5D&#43;OR&#43;26578589%5Buid%5D&#43;OR&#43;20976523%5Buid%5D&#43;OR&#43;18971253%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#43;OR&#43;29087512%5Buid%5D,Yes
+GREB1,Q4ZG55,9687,GTRD;IntAct_via_DoRothEA;ORegAnno;PAZAR,chromatin immunoprecipitation assay;inferred by curator,24234451%5Buid%5D&#43;OR&#43;26578589%5Buid%5D&#43;OR&#43;25303530%5Buid%5D&#43;OR&#43;18971253%5Buid%5D&#43;OR&#43;27924024%5Buid%5D,Yes
+CSTA,P01040,1475,GTRD;HTRI;ReMap;TRRUST,chromatin immunoprecipitation assay;electrophoretic mobility shift assay;inferred by curator,29126285%5Buid%5D&#43;OR&#43;9651321%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#43;OR&#43;29087512%5Buid%5D&#43;OR&#43;22900683%5Buid%5D,Yes
+CYP1A2,P05177,1544,TRRUST,inferred by curator,29087512%5Buid%5D&#43;OR&#43;12135113%5Buid%5D,Yes
+TGFB1,P01137,7040,GTRD;ReMap;TRED,chromatin immunoprecipitation assay;inferred by curator,29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#43;OR&#43;17202159%5Buid%5D,Yes
+MMP3,P08254,4314,GTRD;ReMap;TRED;TRRUST,chromatin immunoprecipitation assay;inferred by curator,29126285%5Buid%5D&#43;OR&#43;9334186%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#43;OR&#43;17202159%5Buid%5D&#43;OR&#43;29087512%5Buid%5D,Yes
+NOS2,P35228,4843,ORegAnno;PAZAR;TRRUST,inferred by curator,9776360%5Buid%5D&#43;OR&#43;12788789%5Buid%5D&#43;OR&#43;26578589%5Buid%5D&#43;OR&#43;18971253%5Buid%5D&#43;OR&#43;29087512%5Buid%5D,Yes
+CLDN2,P57739,9075,GTRD;IntAct_via_DoRothEA,chromatin immunoprecipitation assay;inferred by curator,22546605%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#43;OR&#43;24234451%5Buid%5D,Yes
+MT-CO2,P00403,4513,HTRI,electrophoretic mobility shift assay;inferred by curator,9620167%5Buid%5D&#43;OR&#43;22900683%5Buid%5D,Yes
+MMP13,P45452,4322,GTRD;ReMap;TRED,chromatin immunoprecipitation assay;inferred by curator,29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#43;OR&#43;17202159%5Buid%5D,Yes
+KRT6A,P02538,3853,GTRD;ReMap;TRED,chromatin immunoprecipitation assay;inferred by curator,29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#43;OR&#43;17202159%5Buid%5D,Yes
+CA9,Q16790,768,GTRD;HTRI;ReMap,chromatin immunoprecipitation assay;electrophoretic mobility shift assay;inferred by curator,11672442%5Buid%5D&#43;OR&#43;29126285%5Buid%5D&#43;OR&#43;22900683%5Buid%5D&#43;OR&#43;27924024%5Buid%5D,Yes
+FOXC1,Q12948,2296,IntAct_via_DoRothEA;ReMap,chromatin immunoprecipitation assay;inferred by curator,24234451%5Buid%5D&#43;OR&#43;29126285%5Buid%5D&#43;OR&#43;25303530%5Buid%5D,Yes
+SPI1,P17947,6688,GTRD;TRRUST,chromatin immunoprecipitation assay;inferred by curator,9988737%5Buid%5D&#43;OR&#43;29087512%5Buid%5D&#43;OR&#43;27924024%5Buid%5D,Yes
+ERCC1,P07992,2067,GTRD;ORegAnno;PAZAR;ReMap;TRED,chromatin immunoprecipitation assay;inferred by curator,29126285%5Buid%5D&#43;OR&#43;26578589%5Buid%5D&#43;OR&#43;18971253%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#43;OR&#43;17202159%5Buid%5D,Yes
+SRR,Q9GZT4,63826,GTRD;TRED;TRRUST,chromatin immunoprecipitation assay;inferred by curator,17202159%5Buid%5D&#43;OR&#43;15681805%5Buid%5D&#43;OR&#43;29087512%5Buid%5D&#43;OR&#43;27924024%5Buid%5D,Yes
+LRIG2,O94898,9860,GTRD;ORegAnno;PAZAR;ReMap;TRRUST,chromatin immunoprecipitation assay;inferred by curator,29126285%5Buid%5D&#43;OR&#43;26578589%5Buid%5D&#43;OR&#43;22721266%5Buid%5D&#43;OR&#43;18971253%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#43;OR&#43;29087512%5Buid%5D,Yes
+PGR,P06401,5241,GTRD;HTRI;ReMap;TRED;TRRUST,chromatin immunoprecipitation assay;inferred by curator,29126285%5Buid%5D&#43;OR&#43;12446585%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#43;OR&#43;14684847%5Buid%5D&#43;OR&#43;17202159%5Buid%5D&#43;OR&#43;29087512%5Buid%5D&#43;OR&#43;22900683%5Buid%5D,Yes
+NTF3,P20783,4908,TRED;TRRUST,inferred by curator,17202159%5Buid%5D&#43;OR&#43;29087512%5Buid%5D&#43;OR&#43;7733919%5Buid%5D,Yes
+TIMP1,P01033,7076,GTRD;ReMap;TRED,chromatin immunoprecipitation assay;inferred by curator,29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#43;OR&#43;17202159%5Buid%5D,Yes
+FAS,P25445,355,GTRD;KEGG_via_DoRothEA;ORegAnno;PAZAR;ReMap;TRED;TRRUST,chromatin immunoprecipitation assay;inferred by curator,29126285%5Buid%5D&#43;OR&#43;27899662%5Buid%5D&#43;OR&#43;26578589%5Buid%5D&#43;OR&#43;18971253%5Buid%5D&#43;OR&#43;10903433%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#43;OR&#43;17202159%5Buid%5D&#43;OR&#43;29087512%5Buid%5D,Yes
+OXTR,P30559,5021,GTRD;TRRUST,chromatin immunoprecipitation assay;inferred by curator,29087512%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#43;OR&#43;10218980%5Buid%5D,Yes
+DDIT3,P35638,1649,FANTOM4_via_DoRothEA;GTRD;ORegAnno;PAZAR;ReMap;TRRUST,chromatin immunoprecipitation assay;inferred by curator,29126285%5Buid%5D&#43;OR&#43;20188076%5Buid%5D&#43;OR&#43;26578589%5Buid%5D&#43;OR&#43;20211142%5Buid%5D&#43;OR&#43;8670069%5Buid%5D&#43;OR&#43;18971253%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#43;OR&#43;29087512%5Buid%5D,Yes
+IL1A,P01583,3552,HTRI;KEGG_via_DoRothEA;ReMap;TRRUST,chromatin immunoprecipitation assay;electrophoretic mobility shift assay;inferred by curator,29126285%5Buid%5D&#43;OR&#43;27899662%5Buid%5D&#43;OR&#43;29087512%5Buid%5D&#43;OR&#43;8688489%5Buid%5D&#43;OR&#43;22900683%5Buid%5D,Yes
+PDHA1,P08559,5160,GTRD;ORegAnno;PAZAR;ReMap;TRED;TRRUST,chromatin immunoprecipitation assay;inferred by curator,29126285%5Buid%5D&#43;OR&#43;26578589%5Buid%5D&#43;OR&#43;18971253%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#43;OR&#43;17202159%5Buid%5D&#43;OR&#43;29087512%5Buid%5D&#43;OR&#43;8476854%5Buid%5D,Yes
+CASP9,P55211,842,GTRD;ReMap;TRRUST,chromatin immunoprecipitation assay;inferred by curator,29087512%5Buid%5D&#43;OR&#43;29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#43;OR&#43;20188076%5Buid%5D,Yes
+KRT16,P08779,3868,GTRD;TRED,chromatin immunoprecipitation assay;inferred by curator,27924024%5Buid%5D&#43;OR&#43;17202159%5Buid%5D,Yes
+CRP,P02741,1401,TRRUST,inferred by curator,18292576%5Buid%5D&#43;OR&#43;29087512%5Buid%5D,Yes
+VDR,P11473,7421,FANTOM4_via_DoRothEA;GTRD;ORegAnno;PAZAR,chromatin immunoprecipitation assay;inferred by curator,26578589%5Buid%5D&#43;OR&#43;20211142%5Buid%5D&#43;OR&#43;18971253%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#43;OR&#43;11983707%5Buid%5D,Yes
+FOXA1,P55317,3169,GTRD;ORegAnno;PAZAR;ReMap;TRRUST,chromatin immunoprecipitation assay;inferred by curator,29126285%5Buid%5D&#43;OR&#43;26578589%5Buid%5D&#43;OR&#43;18971253%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#43;OR&#43;29087512%5Buid%5D&#43;OR&#43;22577344%5Buid%5D,Yes
+CDK5,Q00535,1020,GTRD;TRED,chromatin immunoprecipitation assay;inferred by curator,27924024%5Buid%5D&#43;OR&#43;17202159%5Buid%5D,Yes
+ELN,P15502,2006,TRED,inferred by curator,17202159%5Buid%5D,Yes
+IL2,P60568,3558,IntAct_via_DoRothEA;KEGG_via_DoRothEA;ReMap;TRED,chromatin immunoprecipitation assay;inferred by curator,29126285%5Buid%5D&#43;OR&#43;20557936%5Buid%5D&#43;OR&#43;24234451%5Buid%5D&#43;OR&#43;27899662%5Buid%5D&#43;OR&#43;17202159%5Buid%5D,Yes
+PLAU,P00749,5328,GTRD;ORegAnno;PAZAR;ReMap;TRRUST,chromatin immunoprecipitation assay;inferred by curator,29126285%5Buid%5D&#43;OR&#43;11774399%5Buid%5D&#43;OR&#43;26578589%5Buid%5D&#43;OR&#43;18971253%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#43;OR&#43;29087512%5Buid%5D,Yes
+TNFAIP6,P98066,7130,GTRD;ORegAnno;PAZAR;ReMap;TRED,chromatin immunoprecipitation assay;inferred by curator,29126285%5Buid%5D&#43;OR&#43;26578589%5Buid%5D&#43;OR&#43;18971253%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#43;OR&#43;17202159%5Buid%5D,Yes
+ARNT,P27540,405,FANTOM4_via_DoRothEA;GTRD;ORegAnno;PAZAR;ReMap,chromatin immunoprecipitation assay;inferred by curator,29126285%5Buid%5D&#43;OR&#43;26578589%5Buid%5D&#43;OR&#43;9733792%5Buid%5D&#43;OR&#43;20211142%5Buid%5D&#43;OR&#43;18971253%5Buid%5D&#43;OR&#43;27924024%5Buid%5D,Yes
+CCND1,P24385,595,GTRD;KEGG_via_DoRothEA;ORegAnno;PAZAR;ReMap;TRED;TRRUST,chromatin immunoprecipitation assay;inferred by curator,21474819%5Buid%5D&#43;OR&#43;29126285%5Buid%5D&#43;OR&#43;20188076%5Buid%5D&#43;OR&#43;27899662%5Buid%5D&#43;OR&#43;26578589%5Buid%5D&#43;OR&#43;18971253%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#43;OR&#43;17202159%5Buid%5D&#43;OR&#43;29087512%5Buid%5D,Yes
+SOX7,Q9BT81,83595,GTRD;ReMap;TRRUST,chromatin immunoprecipitation assay;inferred by curator,22171135%5Buid%5D&#43;OR&#43;29087512%5Buid%5D&#43;OR&#43;29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D,Yes
+FASN,P49327,2194,GTRD;ORegAnno;PAZAR;ReMap;TRED;TRRUST,chromatin immunoprecipitation assay;inferred by curator,29126285%5Buid%5D&#43;OR&#43;26578589%5Buid%5D&#43;OR&#43;18971253%5Buid%5D&#43;OR&#43;10903433%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#43;OR&#43;17202159%5Buid%5D&#43;OR&#43;29087512%5Buid%5D,Yes
+CCK,P06307,885,TRRUST,inferred by curator,1360635%5Buid%5D&#43;OR&#43;29087512%5Buid%5D&#43;OR&#43;7693011%5Buid%5D,Yes
+PCK2,Q16822,5106,ReMap;TRRUST,chromatin immunoprecipitation assay;inferred by curator,29087512%5Buid%5D&#43;OR&#43;29126285%5Buid%5D&#43;OR&#43;1325459%5Buid%5D,Yes
+NEFL,P07196,4747,PAZAR;TRRUST,inferred by curator,29087512%5Buid%5D&#43;OR&#43;18971253%5Buid%5D&#43;OR&#43;8180132%5Buid%5D,Yes
+ITGA5,P08648,3678,GTRD;ORegAnno;PAZAR;ReMap;TRED,chromatin immunoprecipitation assay;inferred by curator,29126285%5Buid%5D&#43;OR&#43;26578589%5Buid%5D&#43;OR&#43;18971253%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#43;OR&#43;17202159%5Buid%5D,Yes
+MT1A,P04731,4489,ReMap;TRED,chromatin immunoprecipitation assay;inferred by curator,29126285%5Buid%5D&#43;OR&#43;17202159%5Buid%5D,Yes
+FMO4,P31512,2329,GTRD;ReMap;TRRUST,chromatin immunoprecipitation assay;inferred by curator,29087512%5Buid%5D&#43;OR&#43;29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#43;OR&#43;20188076%5Buid%5D,Yes
+MMP2,P08253,4313,GTRD;ReMap;TRED,chromatin immunoprecipitation assay;inferred by curator,29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#43;OR&#43;17202159%5Buid%5D,Yes
+STAR,P49675,6770,GTRD;ORegAnno;PAZAR;ReMap;TRRUST,chromatin immunoprecipitation assay;inferred by curator,19150388%5Buid%5D&#43;OR&#43;29126285%5Buid%5D&#43;OR&#43;26578589%5Buid%5D&#43;OR&#43;18971253%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#43;OR&#43;29087512%5Buid%5D,Yes
+UBP1,Q9NZI7,7342,GTRD;ORegAnno;PAZAR;TRED,chromatin immunoprecipitation assay;inferred by curator,17202159%5Buid%5D&#43;OR&#43;18971253%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#43;OR&#43;26578589%5Buid%5D,Yes
+VIP,P01282,7432,TRED,inferred by curator,17202159%5Buid%5D,Yes
+CDH1,P12830,999,IntAct_via_DoRothEA;ORegAnno;PAZAR,inferred by curator,26578589%5Buid%5D&#43;OR&#43;18971253%5Buid%5D&#43;OR&#43;24234451%5Buid%5D&#43;OR&#43;24029232%5Buid%5D,Yes
+SP3,Q02447,6670,GTRD;ORegAnno;PAZAR;TFactS_via_DoRothea,chromatin immunoprecipitation assay;inferred by curator,26578589%5Buid%5D&#43;OR&#43;22761861%5Buid%5D&#43;OR&#43;18342022%5Buid%5D&#43;OR&#43;18971253%5Buid%5D&#43;OR&#43;27924024%5Buid%5D,Yes
+NFKB1,P19838,4790,GTRD;ORegAnno;PAZAR;TRRUST,chromatin immunoprecipitation assay;inferred by curator,20188076%5Buid%5D&#43;OR&#43;26578589%5Buid%5D&#43;OR&#43;18971253%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#43;OR&#43;29087512%5Buid%5D,Yes
+MMP7,P09237,4316,GTRD;IntAct_via_DoRothEA;ReMap;TRRUST,chromatin immunoprecipitation assay;inferred by curator,29126285%5Buid%5D&#43;OR&#43;24234451%5Buid%5D&#43;OR&#43;11774399%5Buid%5D&#43;OR&#43;22076613%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#43;OR&#43;29087512%5Buid%5D,Yes
+IL3,P08700,3562,TRED,inferred by curator,17202159%5Buid%5D,Yes
+EZR,P15311,7430,GTRD;ORegAnno;PAZAR;TRRUST,chromatin immunoprecipitation assay;inferred by curator,19164283%5Buid%5D&#43;OR&#43;26578589%5Buid%5D&#43;OR&#43;18971253%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#43;OR&#43;29087512%5Buid%5D,Yes
+NPY,P01303,4852,TRRUST,inferred by curator,8036020%5Buid%5D&#43;OR&#43;29087512%5Buid%5D,Yes
+CXCL8,P10145,3576,GTRD;HTRI;KEGG_via_DoRothEA;ORegAnno;PAZAR;ReMap;TRRUST,chromatin immunoprecipitation assay;inferred by curator,29126285%5Buid%5D&#43;OR&#43;27899662%5Buid%5D&#43;OR&#43;16818736%5Buid%5D&#43;OR&#43;26578589%5Buid%5D&#43;OR&#43;18971253%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#43;OR&#43;29087512%5Buid%5D&#43;OR&#43;12218154%5Buid%5D&#43;OR&#43;22900683%5Buid%5D,Yes
+HSPA1B,P0DMV9,3303;3304,GTRD;ORegAnno;PAZAR;ReMap;TRED,chromatin immunoprecipitation assay;inferred by curator,29126285%5Buid%5D&#43;OR&#43;26578589%5Buid%5D&#43;OR&#43;18971253%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#43;OR&#43;17202159%5Buid%5D,Yes
+MMP1,P03956,4312,GTRD;HTRI;IntAct_via_DoRothEA;KEGG_via_DoRothEA;ReMap;TRRUST,chromatin immunoprecipitation assay;electrophoretic mobility shift assay;inferred by curator,15090544%5Buid%5D&#43;OR&#43;29126285%5Buid%5D&#43;OR&#43;25260594%5Buid%5D&#43;OR&#43;24234451%5Buid%5D&#43;OR&#43;27899662%5Buid%5D&#43;OR&#43;9334186%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#43;OR&#43;19028685%5Buid%5D&#43;OR&#43;29087512%5Buid%5D&#43;OR&#43;22900683%5Buid%5D,Yes
+PLA2G4A,P47712,5321,IntAct_via_DoRothEA;ORegAnno;PAZAR,inferred by curator,26578589%5Buid%5D&#43;OR&#43;18971253%5Buid%5D&#43;OR&#43;24234451%5Buid%5D&#43;OR&#43;24069158%5Buid%5D,Yes
+MYC,P01106,4609,GTRD;IntAct_via_DoRothEA;ORegAnno;PAZAR;ReMap;TRRUST,chromatin immunoprecipitation assay;inferred by curator,29126285%5Buid%5D&#43;OR&#43;24234451%5Buid%5D&#43;OR&#43;2498162%5Buid%5D&#43;OR&#43;26578589%5Buid%5D&#43;OR&#43;25303530%5Buid%5D&#43;OR&#43;18971253%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#43;OR&#43;29087512%5Buid%5D,Yes
+NOS1,P29475,4842,GTRD;ORegAnno;PAZAR;TRED,chromatin immunoprecipitation assay;inferred by curator,17202159%5Buid%5D&#43;OR&#43;18971253%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#43;OR&#43;26578589%5Buid%5D,Yes
+NQO1,P15559,1728,GTRD;HTRI;ORegAnno;PAZAR;ReMap;TRED;TRRUST,chromatin immunoprecipitation assay;electrophoretic mobility shift assay;inferred by curator,29126285%5Buid%5D&#43;OR&#43;26578589%5Buid%5D&#43;OR&#43;8004128%5Buid%5D&#43;OR&#43;18971253%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#43;OR&#43;17202159%5Buid%5D&#43;OR&#43;29087512%5Buid%5D&#43;OR&#43;9058597%5Buid%5D&#43;OR&#43;22900683%5Buid%5D,Yes
+ETS1,P14921,2113,GTRD;TRED,chromatin immunoprecipitation assay;inferred by curator,27924024%5Buid%5D&#43;OR&#43;17202159%5Buid%5D,Yes
+NGF,P01138,4803,ORegAnno;PAZAR;TRRUST,inferred by curator,2111020%5Buid%5D&#43;OR&#43;29087512%5Buid%5D&#43;OR&#43;18971253%5Buid%5D&#43;OR&#43;26578589%5Buid%5D,Yes
+NPPA,P01160,4878,TRED;TRRUST,inferred by curator,17202159%5Buid%5D&#43;OR&#43;29087512%5Buid%5D&#43;OR&#43;1530876%5Buid%5D,Yes
+TP53,P04637,7157,FANTOM4_via_DoRothEA;GTRD;KEGG_via_DoRothEA;ReMap;TRED;TRRUST,chromatin immunoprecipitation assay;inferred by curator,29126285%5Buid%5D&#43;OR&#43;27899662%5Buid%5D&#43;OR&#43;20211142%5Buid%5D&#43;OR&#43;8668332%5Buid%5D&#43;OR&#43;10348347%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#43;OR&#43;17202159%5Buid%5D&#43;OR&#43;29087512%5Buid%5D,Yes
+SLC10A2,Q12908,6555,TRRUST,inferred by curator,29087512%5Buid%5D&#43;OR&#43;12454857%5Buid%5D,Yes
+STIM1,Q13586,6786,GTRD;IntAct_via_DoRothEA;ORegAnno;PAZAR;ReMap,chromatin immunoprecipitation assay;inferred by curator,29126285%5Buid%5D&#43;OR&#43;24234451%5Buid%5D&#43;OR&#43;26578589%5Buid%5D&#43;OR&#43;18971253%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#43;OR&#43;25016017%5Buid%5D,Yes" />
+    <p></p>
+  </div>
+  <div class="uk-width-1-3@xl">
+    <div id="target-network-div"
+      style="height: 400px; width: 400px; border-style: solid; border-width: .1em;">
+    </div>
+    <div id="targetControlDiv"></div>
+  </div>
+</div>
+
+
+
+
+<div class=" uk-grid" data-uk-grid-margin>
+  <div class="uk-width-2-3@xl">
+    <h2>Transcription factors of FOS</h2>
+    <div>
+      <div id="tf_paging"></div>
+      
+      <div style="position:relative;">
+        <span style="font-weight: bold">Please be aware that here we show only the top 100 rows of
+          the data. <br />
+          If you wish to see all the data please click the <i>download all</i> button.</span>
+        <button style="position:absolute; right:0px; bottom:5px"
+          onclick="location.href='https://cdn.netbiol.org/tflink/proteinDownload_tfs/TFLink_tfs_of_P01100.tsv'"
+          type="button">
+          <span uk-icon="icon: download; ratio: 1.5"></span>
+          <h4 style="display: inline-block; margin: 0">Download all</h4>
+        </button>
+      </div>
+      
+    </div>
+    <div id="tf_div"></div>
+    <input id="tf_data" type="hidden" name="tf_data" value="TWIST1,Q15672,7291,IntAct_via_DoRothEA;ReMap;TRRUST,chromatin immunoprecipitation assay;inferred by curator,29126285%5Buid%5D&#43;OR&#43;19051271%5Buid%5D&#43;OR&#43;24234451%5Buid%5D&#43;OR&#43;24029232%5Buid%5D&#43;OR&#43;29087512%5Buid%5D,Yes
+NFIC,P08651,4782,GTRD;ReMap;TRED,chromatin immunoprecipitation assay;inferred by curator,29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#43;OR&#43;17202159%5Buid%5D,Yes
+HMGN1,P05114,3150,TRRUST,inferred by curator,29087512%5Buid%5D&#43;OR&#43;17938209%5Buid%5D,Yes
+NFYB,P25208,4801,ReMap;TRRUST,chromatin immunoprecipitation assay;inferred by curator,29087512%5Buid%5D&#43;OR&#43;23595228%5Buid%5D&#43;OR&#43;29126285%5Buid%5D,Yes
+HOPX,Q9BPY8,84525,TRRUST,inferred by curator,19173292%5Buid%5D&#43;OR&#43;29087512%5Buid%5D,Yes
+RBMX,P38159,27316,TRRUST,inferred by curator,16707624%5Buid%5D&#43;OR&#43;29087512%5Buid%5D,Yes
+TP53,P04637,7157,FANTOM4_via_DoRothEA;GTRD;ReMap;TRED,chromatin immunoprecipitation assay;inferred by curator,29126285%5Buid%5D&#43;OR&#43;20211142%5Buid%5D&#43;OR&#43;8668332%5Buid%5D&#43;OR&#43;10348347%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#43;OR&#43;17202159%5Buid%5D,Yes
+ESR2,Q92731,2100,ReMap;TRED;TRRUST,chromatin immunoprecipitation assay;inferred by curator,10037443%5Buid%5D&#43;OR&#43;17202159%5Buid%5D&#43;OR&#43;29087512%5Buid%5D&#43;OR&#43;29126285%5Buid%5D,Yes
+SP1,P08047,6667,FANTOM4_via_DoRothEA;GTRD;HTRI;ReMap;TRRD_via_DoRothEA;TRRUST,chromatin immunoprecipitation assay;electrophoretic mobility shift assay;inferred by curator,29126285%5Buid%5D&#43;OR&#43;11752324%5Buid%5D&#43;OR&#43;9528985%5Buid%5D&#43;OR&#43;20211142%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#43;OR&#43;29087512%5Buid%5D&#43;OR&#43;22900683%5Buid%5D,Yes
+HDAC1,Q13547,3065,GTRD;ReMap;TRRUST,chromatin immunoprecipitation assay;inferred by curator,29087512%5Buid%5D&#43;OR&#43;29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#43;OR&#43;17056544%5Buid%5D,Yes
+MITF,O75030,4286,GTRD;ORegAnno;PAZAR;ReMap;TRRUST,chromatin immunoprecipitation assay;inferred by curator,29126285%5Buid%5D&#43;OR&#43;14737107%5Buid%5D&#43;OR&#43;26578589%5Buid%5D&#43;OR&#43;18971253%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#43;OR&#43;29087512%5Buid%5D,Yes
+ELK1,P19419,2002,DoRothEA;FANTOM4_via_DoRothEA;GTRD;KEGG_via_DoRothEA;ReMap;TRED;TRRUST,chromatin immunoprecipitation assay;inferred by curator,29126285%5Buid%5D&#43;OR&#43;27899662%5Buid%5D&#43;OR&#43;31340985%5Buid%5D&#43;OR&#43;12242287%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#43;OR&#43;15607527%5Buid%5D&#43;OR&#43;17202159%5Buid%5D&#43;OR&#43;29087512%5Buid%5D&#43;OR&#43;11145955%5Buid%5D&#43;OR&#43;11846562%5Buid%5D&#43;OR&#43;11313879%5Buid%5D&#43;OR&#43;7588632%5Buid%5D&#43;OR&#43;1722028%5Buid%5D&#43;OR&#43;8262053%5Buid%5D&#43;OR&#43;19687146%5Buid%5D&#43;OR&#43;8604338%5Buid%5D&#43;OR&#43;20682780%5Buid%5D&#43;OR&#43;20211142%5Buid%5D&#43;OR&#43;12643264%5Buid%5D,Yes
+STAT1,P42224,6772,FANTOM4_via_DoRothEA;GTRD;HTRI;ORegAnno;PAZAR;ReMap;TFactS_via_DoRothea;TRED,chromatin immunoprecipitation assay;electrophoretic mobility shift assay;inferred by curator,8683106%5Buid%5D&#43;OR&#43;29126285%5Buid%5D&#43;OR&#43;7588632%5Buid%5D&#43;OR&#43;12242287%5Buid%5D&#43;OR&#43;26578589%5Buid%5D&#43;OR&#43;20211142%5Buid%5D&#43;OR&#43;8770944%5Buid%5D&#43;OR&#43;22761861%5Buid%5D&#43;OR&#43;18971253%5Buid%5D&#43;OR&#43;12600988%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#43;OR&#43;17202159%5Buid%5D&#43;OR&#43;22900683%5Buid%5D&#43;OR&#43;8874187%5Buid%5D,Yes
+TWIST2,Q8WVJ9,117581,TRRUST,inferred by curator,29087512%5Buid%5D&#43;OR&#43;19051271%5Buid%5D,Yes
+ETS2,P15036,2114,TRED,inferred by curator,17202159%5Buid%5D,Yes
+FOS,P01100,2353,GTRD;ORegAnno;PAZAR;ReMap;TRRUST,chromatin immunoprecipitation assay;inferred by curator,29126285%5Buid%5D&#43;OR&#43;26578589%5Buid%5D&#43;OR&#43;2498646%5Buid%5D&#43;OR&#43;18971253%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#43;OR&#43;29087512%5Buid%5D,Yes
+ARNT,P27540,405,GTRD;ReMap;TRRUST,chromatin immunoprecipitation assay;inferred by curator,29126285%5Buid%5D&#43;OR&#43;29087512%5Buid%5D&#43;OR&#43;21544813%5Buid%5D&#43;OR&#43;27924024%5Buid%5D,Yes
+NKX3-1,Q99801,4824,ReMap;TRRUST,chromatin immunoprecipitation assay;inferred by curator,29087512%5Buid%5D&#43;OR&#43;29126285%5Buid%5D&#43;OR&#43;22179513%5Buid%5D,Yes
+ETV4,P43268,2118,GTRD;TRED,chromatin immunoprecipitation assay;inferred by curator,27924024%5Buid%5D&#43;OR&#43;17202159%5Buid%5D,Yes
+NF1,P21359,4763,TRRUST,inferred by curator,29087512%5Buid%5D&#43;OR&#43;9562250%5Buid%5D,Yes
+BRCA1,P38398,672,GTRD;ReMap;TRRUST,chromatin immunoprecipitation assay;inferred by curator,11313879%5Buid%5D&#43;OR&#43;29087512%5Buid%5D&#43;OR&#43;29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D,Yes
+TBP,P20226,6908,GTRD;ReMap;TRRUST,chromatin immunoprecipitation assay;inferred by curator,15767669%5Buid%5D&#43;OR&#43;29087512%5Buid%5D&#43;OR&#43;29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D,Yes
+SRF,P11831,6722,FANTOM4_via_DoRothEA;GTRD;HTRI;KEGG_via_DoRothEA;ORegAnno;PAZAR;ReMap;TRRUST,chromatin immunoprecipitation assay;electrophoretic mobility shift assay;inferred by curator,29126285%5Buid%5D&#43;OR&#43;27899662%5Buid%5D&#43;OR&#43;12242287%5Buid%5D&#43;OR&#43;2110922%5Buid%5D&#43;OR&#43;10777594%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#43;OR&#43;29087512%5Buid%5D&#43;OR&#43;11145955%5Buid%5D&#43;OR&#43;11846562%5Buid%5D&#43;OR&#43;7588632%5Buid%5D&#43;OR&#43;26578589%5Buid%5D&#43;OR&#43;1722028%5Buid%5D&#43;OR&#43;7854423%5Buid%5D&#43;OR&#43;10742173%5Buid%5D&#43;OR&#43;22900683%5Buid%5D&#43;OR&#43;2493627%5Buid%5D&#43;OR&#43;9734357%5Buid%5D&#43;OR&#43;8604338%5Buid%5D&#43;OR&#43;1901946%5Buid%5D&#43;OR&#43;20211142%5Buid%5D&#43;OR&#43;18971253%5Buid%5D&#43;OR&#43;1902475%5Buid%5D&#43;OR&#43;2200737%5Buid%5D,Yes
+DACH1,Q9UI36,1602,TRRUST,inferred by curator,29087512%5Buid%5D&#43;OR&#43;17182846%5Buid%5D,Yes
+FLI1,Q01543,2313,FANTOM4_via_DoRothEA;GTRD;ReMap;TRED,chromatin immunoprecipitation assay;inferred by curator,29126285%5Buid%5D&#43;OR&#43;12242287%5Buid%5D&#43;OR&#43;20211142%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#43;OR&#43;8604338%5Buid%5D&#43;OR&#43;17202159%5Buid%5D,Yes
+NFKB1,P19838,4790,GTRD;ReMap;TRED,chromatin immunoprecipitation assay;inferred by curator,29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#43;OR&#43;17202159%5Buid%5D,Yes
+STAT6,P42226,6778,FANTOM4_via_DoRothEA;GTRD;TRRUST,chromatin immunoprecipitation assay;inferred by curator,11922943%5Buid%5D&#43;OR&#43;7588632%5Buid%5D&#43;OR&#43;20211142%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#43;OR&#43;29087512%5Buid%5D&#43;OR&#43;18342537%5Buid%5D,Yes
+AR,P10275,367,GTRD;ReMap;TFactS_via_DoRothea,chromatin immunoprecipitation assay;inferred by curator,14614224%5Buid%5D&#43;OR&#43;22761861%5Buid%5D&#43;OR&#43;29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D,Yes
+SNAI1,O95863,6615,IntAct_via_DoRothEA,inferred by curator,24234451%5Buid%5D&#43;OR&#43;24029232%5Buid%5D,Yes
+STAT3,P40763,6774,FANTOM4_via_DoRothEA;GTRD;ReMap;TFactS_via_DoRothea;TRED;TRRUST,chromatin immunoprecipitation assay;inferred by curator,8683106%5Buid%5D&#43;OR&#43;29126285%5Buid%5D&#43;OR&#43;16293640%5Buid%5D&#43;OR&#43;9572990%5Buid%5D&#43;OR&#43;12242287%5Buid%5D&#43;OR&#43;17204573%5Buid%5D&#43;OR&#43;20211142%5Buid%5D&#43;OR&#43;22761861%5Buid%5D&#43;OR&#43;29087512%5Buid%5D&#43;OR&#43;12600988%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#43;OR&#43;17202159%5Buid%5D&#43;OR&#43;14737107%5Buid%5D&#43;OR&#43;8874187%5Buid%5D,Yes
+YY1,P25490,7528,FANTOM4_via_DoRothEA;GTRD;ReMap,chromatin immunoprecipitation assay;inferred by curator,29126285%5Buid%5D&#43;OR&#43;20211142%5Buid%5D&#43;OR&#43;1722028%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#43;OR&#43;7769693%5Buid%5D,Yes
+JUN,P05412,3725,GTRD;ORegAnno;PAZAR;ReMap;TRED,chromatin immunoprecipitation assay;inferred by curator,29126285%5Buid%5D&#43;OR&#43;26578589%5Buid%5D&#43;OR&#43;18971253%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#43;OR&#43;17202159%5Buid%5D,Yes
+AHR,P35869,196,GTRD;HTRI;TRRUST,chromatin immunoprecipitation assay;electrophoretic mobility shift assay;inferred by curator,29087512%5Buid%5D&#43;OR&#43;22900683%5Buid%5D&#43;OR&#43;10478842%5Buid%5D&#43;OR&#43;27924024%5Buid%5D,Yes
+ZBTB7A,O95365,51341,GTRD;ReMap;TRRUST,chromatin immunoprecipitation assay;inferred by curator,17189472%5Buid%5D&#43;OR&#43;29087512%5Buid%5D&#43;OR&#43;29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D,Yes
+STAT4,Q14765,6775,FANTOM4_via_DoRothEA;GTRD,chromatin immunoprecipitation assay;inferred by curator,8683106%5Buid%5D&#43;OR&#43;20211142%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#43;OR&#43;12600988%5Buid%5D,Yes
+CREB1,P16220,1385,FANTOM4_via_DoRothEA;GTRD;KEGG_via_DoRothEA;ORegAnno;PAZAR;ReMap;TRED;TRRUST,chromatin immunoprecipitation assay;inferred by curator,8854242%5Buid%5D&#43;OR&#43;29126285%5Buid%5D&#43;OR&#43;27899662%5Buid%5D&#43;OR&#43;12432566%5Buid%5D&#43;OR&#43;8972862%5Buid%5D&#43;OR&#43;26578589%5Buid%5D&#43;OR&#43;20211142%5Buid%5D&#43;OR&#43;8467239%5Buid%5D&#43;OR&#43;18971253%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#43;OR&#43;15607527%5Buid%5D&#43;OR&#43;17202159%5Buid%5D&#43;OR&#43;29087512%5Buid%5D,Yes
+ELK3,P41970,2004,FANTOM4_via_DoRothEA;GTRD;HTRI;TRED,chromatin immunoprecipitation assay;inferred by curator,15548518%5Buid%5D&#43;OR&#43;12242287%5Buid%5D&#43;OR&#43;20211142%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#43;OR&#43;8604338%5Buid%5D&#43;OR&#43;17202159%5Buid%5D&#43;OR&#43;22900683%5Buid%5D,Yes
+ATF1,P18846,466,GTRD;ReMap;TRED,chromatin immunoprecipitation assay;inferred by curator,29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#43;OR&#43;17202159%5Buid%5D,Yes
+ELK4,P28324,2005,FANTOM4_via_DoRothEA;GTRD;KEGG_via_DoRothEA;ReMap;TRED;TRRUST,chromatin immunoprecipitation assay;inferred by curator,29126285%5Buid%5D&#43;OR&#43;27899662%5Buid%5D&#43;OR&#43;11846562%5Buid%5D&#43;OR&#43;12242287%5Buid%5D&#43;OR&#43;20211142%5Buid%5D&#43;OR&#43;9734357%5Buid%5D&#43;OR&#43;1722028%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#43;OR&#43;17202159%5Buid%5D&#43;OR&#43;29087512%5Buid%5D,Yes
+HSF2,Q03933,3298,TRRUST,inferred by curator,29087512%5Buid%5D&#43;OR&#43;17915561%5Buid%5D,Yes
+ETS1,P14921,2113,GTRD;HTRI;ORegAnno;PAZAR;ReMap;TRED,chromatin immunoprecipitation assay;inferred by curator,29126285%5Buid%5D&#43;OR&#43;26578589%5Buid%5D&#43;OR&#43;20019798%5Buid%5D&#43;OR&#43;18971253%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#43;OR&#43;17202159%5Buid%5D&#43;OR&#43;22900683%5Buid%5D,Yes
+NFYC,Q13952,4802,TRRUST,inferred by curator,23595228%5Buid%5D&#43;OR&#43;29087512%5Buid%5D,Yes
+TCF3,P15923,6929,FANTOM4_via_DoRothEA;GTRD;ReMap,chromatin immunoprecipitation assay;inferred by curator,29126285%5Buid%5D&#43;OR&#43;12242287%5Buid%5D&#43;OR&#43;20211142%5Buid%5D&#43;OR&#43;8604338%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#43;OR&#43;8386804%5Buid%5D,Yes
+RB1,P06400,5925,GTRD;ReMap;TRRUST,chromatin immunoprecipitation assay;inferred by curator,29126285%5Buid%5D&#43;OR&#43;7680889%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#43;OR&#43;1909121%5Buid%5D&#43;OR&#43;29087512%5Buid%5D,Yes
+SMARCA4,P51532,6597,GTRD;ORegAnno;PAZAR;ReMap;TRRUST,chromatin immunoprecipitation assay;inferred by curator,29126285%5Buid%5D&#43;OR&#43;26578589%5Buid%5D&#43;OR&#43;18971253%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#43;OR&#43;29087512%5Buid%5D&#43;OR&#43;10082538%5Buid%5D,Yes
+NCOA6,Q14686,23054,TRRUST,inferred by curator,19329434%5Buid%5D&#43;OR&#43;29087512%5Buid%5D,Yes
+CREM,Q03060,1390,FANTOM4_via_DoRothEA;GTRD;IntAct_via_DoRothEA;ReMap;TRRUST,chromatin immunoprecipitation assay;inferred by curator,29126285%5Buid%5D&#43;OR&#43;24234451%5Buid%5D&#43;OR&#43;8972862%5Buid%5D&#43;OR&#43;17056544%5Buid%5D&#43;OR&#43;20211142%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#43;OR&#43;29087512%5Buid%5D&#43;OR&#43;21757709%5Buid%5D&#43;OR&#43;15322221%5Buid%5D,Yes
+ATF2,P15336,1386,GTRD;IntAct_via_DoRothEA;KEGG_via_DoRothEA;ReMap;TRED,chromatin immunoprecipitation assay;inferred by curator,22439931%5Buid%5D&#43;OR&#43;29126285%5Buid%5D&#43;OR&#43;24234451%5Buid%5D&#43;OR&#43;27899662%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#43;OR&#43;17202159%5Buid%5D,Yes
+DAND5,Q8N907,199699,ReMap;TRRUST,chromatin immunoprecipitation assay;inferred by curator,29087512%5Buid%5D&#43;OR&#43;29126285%5Buid%5D&#43;OR&#43;9528985%5Buid%5D,Yes
+ESR1,P03372,2099,GTRD;HTRI;PAZAR;ReMap;TRED;TRRUST,chromatin immunoprecipitation array;chromatin immunoprecipitation assay;inferred by curator,29126285%5Buid%5D&#43;OR&#43;21878914%5Buid%5D&#43;OR&#43;18971253%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#43;OR&#43;18414489%5Buid%5D&#43;OR&#43;10037443%5Buid%5D&#43;OR&#43;17202159%5Buid%5D&#43;OR&#43;29087512%5Buid%5D&#43;OR&#43;22900683%5Buid%5D,Yes
+CEBPB,P17676,1051,FANTOM4_via_DoRothEA;GTRD;ReMap;TRED,chromatin immunoprecipitation assay;inferred by curator,12213825%5Buid%5D&#43;OR&#43;11278638%5Buid%5D&#43;OR&#43;29126285%5Buid%5D&#43;OR&#43;20211142%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#43;OR&#43;17202159%5Buid%5D,Yes
+FOXJ2,Q9P0K8,55810,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No
+MBTPS2,O43462,51360,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+NFKB2,Q00653,4791,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+ZFP36,P26651,7538,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D,No
+IKZF5,Q9H5V7,64376,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+USF1,P22415,7391,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D,No
+SREBF1,P36956,6720,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D,No
+SMC3,Q9UQE7,9126,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D,No
+NCOR2,Q9Y618,9612,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D,No
+NEUROD1,Q13562,4760,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D,No
+NRIP1,P48552,8204,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No
+BMI1,P35226,100532731;648,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D,No
+ZC3H11A,O75152,9877,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D,No
+PARP1,P09874,142,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+HMG20A,Q9NP66,10363,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+EGR1,P18146,1958,GTRD;ORegAnno;PAZAR;ReMap,chromatin immunoprecipitation assay;inferred by curator,29126285%5Buid%5D&#43;OR&#43;18971253%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#43;OR&#43;26578589%5Buid%5D,No
+BRIP1,Q9BX63,83990,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No
+BRD3,Q15059,8019,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+NFRKB,Q6P4R8,4798,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No
+ZC3H8,Q8N5P1,84524,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D,No
+PRDM9,Q9NQV7,56979,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+PRKCQ,Q04759,5588,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+SP5,Q6BEB4,389058,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+KDM6A,O15550,7403,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+ETV1,P50549,2115,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No
+CHD2,O14647,1106,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D,No
+PEX2,P28328,5828,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+MSC,O60682,9242,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+TFE3,P19532,7030,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+ZNF148,Q9UQR1,7707,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+MED1,Q15648,5469,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No
+H2AZ1,P0C0S5,3015,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+PLAG1,Q6DJT9,5324,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+TAF15,Q92804,8148,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+GLIS3,Q8NEA6,169792,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+INTS3,Q68E01,65123,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+KMT2C,Q8NEZ4,58508,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+MIER2,Q8N344,54531,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+MAFF,Q9ULX9,23764,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D,No
+ORC1,Q13415,4998,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+PBX1,P40424,5087,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+UBTF,P17480,7343,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D,No
+SFPQ,P23246,6421,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+PDX1,P52945,3651,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+ZBTB26,Q9HCK0,57684,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+TCF7L2,Q9NQB0,6934,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D,No
+GATA1,P15976,2623,GTRD;HTRI;ReMap,chromatin immunoprecipitation assay,19941826%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#43;OR&#43;29126285%5Buid%5D&#43;OR&#43;22900683%5Buid%5D,No
+TET2,Q6N021,54790,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+MBD3,O95983,53615,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D,No" />
+    <p></p>
+  </div>
+  <div class="uk-width-1-3@xl">
+    <div id="tf-network-div"
+      style="height: 400px; width: 400px; border-style: solid; border-width: .1em;">
+    </div>
+    <div id="tfControlDiv"></div>
+  </div>
+</div>
+
+
+
+<div class="uk-grid" data-uk-grid-margin>
+  <div style="padding-right: 20px;">
+    <h2>Binding sites of FOS</h2>
+    <div>
+      <div id="binding_sites_paging"></div>
+
+      <div style="float: right; padding-bottom: 5px;">
+        
+        <button
+          onclick="location.href='https://cdn.netbiol.org/tflink/proteinDownload_bindingSites/TFLink_P01100_TFBS_annot.tsv'"
+          type="button">
+          <span uk-icon="icon: download; ratio: 1.5"></span>
+          <h4 style="display: inline-block; margin: 0">Download all</h4>
+        </button>
+        
+        
+        <button
+          onclick="location.href='https://cdn.netbiol.org/tflink/proteinDownload_bindingSites/TFLink_P01100_TFBS_annot.gff3'"
+          type="button">
+          <span uk-icon="icon: download; ratio: 1.5"></span>
+          <h4 style="display: inline-block; margin: 0">Download gff3</h4>
+        </button>
+        
+      </div>
+    </div>
+    <div id="binding_sites_div"></div>
+    <input id="binding_sites_data" type="hidden" name="binding_sites_data"
+      value="TFLinkSS09609965,P01100,FOS,Homo sapiens,hg38,chr14,100994196,100994325,&#43;,hg38&amp;position=chr14:100994196-100994325,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,0
+TFLinkSS09611923,P01100,FOS,Homo sapiens,hg38,chr14,50065266,50065390,&#43;,hg38&amp;position=chr14:50065266-50065390,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,0
+TFLinkSS09761714,P01100,FOS,Homo sapiens,hg38,chr14,94599405,94599417,&#43;,hg38&amp;position=chr14:94599405-94599417,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,1
+TFLinkLS02039406,P01100,FOS,Homo sapiens,hg38,chr14,85472013,85472023,-,hg38&amp;position=chr14:85472013-85472023,chromatin immunoprecipitation assay,17916232%5Buid%5D,JASPAR,No,0
+TFLinkLS02039418,P01100,FOS,Homo sapiens,hg38,chr14,44317032,44317042,&#43;,hg38&amp;position=chr14:44317032-44317042,chromatin immunoprecipitation assay,17916232%5Buid%5D,JASPAR,No,0
+TFLinkLS02039419,P01100,FOS,Homo sapiens,hg38,chr14,44317060,44317070,-,hg38&amp;position=chr14:44317060-44317070,chromatin immunoprecipitation assay,17916232%5Buid%5D,JASPAR,No,0
+TFLinkLS02039420,P01100,FOS,Homo sapiens,hg38,chr14,44317084,44317094,-,hg38&amp;position=chr14:44317084-44317094,chromatin immunoprecipitation assay,17916232%5Buid%5D,JASPAR,No,0
+TFLinkLS02039447,P01100,FOS,Homo sapiens,hg38,chr14,59428745,59428755,&#43;,hg38&amp;position=chr14:59428745-59428755,chromatin immunoprecipitation assay,17916232%5Buid%5D,JASPAR,No,0
+TFLinkLS02039514,P01100,FOS,Homo sapiens,hg38,chr14,52903266,52903276,&#43;,hg38&amp;position=chr14:52903266-52903276,chromatin immunoprecipitation assay,17916232%5Buid%5D,JASPAR,No,0
+TFLinkLS02039535,P01100,FOS,Homo sapiens,hg38,chr14,92961465,92961475,&#43;,hg38&amp;position=chr14:92961465-92961475,chromatin immunoprecipitation assay,17916232%5Buid%5D,JASPAR,No,0
+TFLinkLS02039552,P01100,FOS,Homo sapiens,hg38,chr14,52927257,52927267,-,hg38&amp;position=chr14:52927257-52927267,chromatin immunoprecipitation assay,17916232%5Buid%5D,JASPAR,No,0
+TFLinkLS02039567,P01100,FOS,Homo sapiens,hg38,chr14,103398652,103398662,-,hg38&amp;position=chr14:103398652-103398662,chromatin immunoprecipitation assay,17916232%5Buid%5D,JASPAR,No,0
+TFLinkLS02039577,P01100,FOS,Homo sapiens,hg38,chr14,102824923,102824933,&#43;,hg38&amp;position=chr14:102824923-102824933,chromatin immunoprecipitation assay,17916232%5Buid%5D,JASPAR,No,0
+TFLinkLS02039603,P01100,FOS,Homo sapiens,hg38,chr14,68547695,68547705,-,hg38&amp;position=chr14:68547695-68547705,chromatin immunoprecipitation assay,17916232%5Buid%5D,JASPAR,No,0
+TFLinkLS02039610,P01100,FOS,Homo sapiens,hg38,chr14,64654450,64654460,&#43;,hg38&amp;position=chr14:64654450-64654460,chromatin immunoprecipitation assay,17916232%5Buid%5D,JASPAR,No,0
+TFLinkLS02039649,P01100,FOS,Homo sapiens,hg38,chr14,90369621,90369631,-,hg38&amp;position=chr14:90369621-90369631,chromatin immunoprecipitation assay,17916232%5Buid%5D,JASPAR,No,0
+TFLinkLS02039685,P01100,FOS,Homo sapiens,hg38,chr14,29773189,29773199,&#43;,hg38&amp;position=chr14:29773189-29773199,chromatin immunoprecipitation assay,17916232%5Buid%5D,JASPAR,No,0
+TFLinkLS02039759,P01100,FOS,Homo sapiens,hg38,chr14,59268180,59268190,-,hg38&amp;position=chr14:59268180-59268190,chromatin immunoprecipitation assay,17916232%5Buid%5D,JASPAR,No,0
+TFLinkLS02039792,P01100,FOS,Homo sapiens,hg38,chr14,103047632,103047642,&#43;,hg38&amp;position=chr14:103047632-103047642,chromatin immunoprecipitation assay,17916232%5Buid%5D,JASPAR,No,0
+TFLinkLS02039801,P01100,FOS,Homo sapiens,hg38,chr14,101972577,101972587,&#43;,hg38&amp;position=chr14:101972577-101972587,chromatin immunoprecipitation assay,17916232%5Buid%5D,JASPAR,No,0
+TFLinkLS02039882,P01100,FOS,Homo sapiens,hg38,chr14,95501190,95501200,&#43;,hg38&amp;position=chr14:95501190-95501200,chromatin immunoprecipitation assay,17916232%5Buid%5D,JASPAR,No,0
+TFLinkLS02039914,P01100,FOS,Homo sapiens,hg38,chr14,89058915,89058925,-,hg38&amp;position=chr14:89058915-89058925,chromatin immunoprecipitation assay,17916232%5Buid%5D,JASPAR,No,0
+TFLinkLS02039953,P01100,FOS,Homo sapiens,hg38,chr14,57492976,57492986,&#43;,hg38&amp;position=chr14:57492976-57492986,chromatin immunoprecipitation assay,17916232%5Buid%5D,JASPAR,No,0
+TFLinkLS02039984,P01100,FOS,Homo sapiens,hg38,chr14,95884593,95884603,&#43;,hg38&amp;position=chr14:95884593-95884603,chromatin immunoprecipitation assay,17916232%5Buid%5D,JASPAR,No,0
+TFLinkLS02039992,P01100,FOS,Homo sapiens,hg38,chr14,51547437,51547447,-,hg38&amp;position=chr14:51547437-51547447,chromatin immunoprecipitation assay,17916232%5Buid%5D,JASPAR,No,0
+TFLinkLS02040064,P01100,FOS,Homo sapiens,hg38,chr14,68703295,68703305,&#43;,hg38&amp;position=chr14:68703295-68703305,chromatin immunoprecipitation assay,17916232%5Buid%5D,JASPAR,No,0
+TFLinkLS02040120,P01100,FOS,Homo sapiens,hg38,chr14,50804346,50804356,&#43;,hg38&amp;position=chr14:50804346-50804356,chromatin immunoprecipitation assay,17916232%5Buid%5D,JASPAR,No,0
+TFLinkLS02040130,P01100,FOS,Homo sapiens,hg38,chr14,101731425,101731435,-,hg38&amp;position=chr14:101731425-101731435,chromatin immunoprecipitation assay,17916232%5Buid%5D,JASPAR,No,0
+TFLinkLS02040164,P01100,FOS,Homo sapiens,hg38,chr14,60294843,60294853,-,hg38&amp;position=chr14:60294843-60294853,chromatin immunoprecipitation assay,17916232%5Buid%5D,JASPAR,No,0
+TFLinkLS02040171,P01100,FOS,Homo sapiens,hg38,chr14,101722333,101722343,&#43;,hg38&amp;position=chr14:101722333-101722343,chromatin immunoprecipitation assay,17916232%5Buid%5D,JASPAR,No,0
+TFLinkLS02040215,P01100,FOS,Homo sapiens,hg38,chr14,95311908,95311918,&#43;,hg38&amp;position=chr14:95311908-95311918,chromatin immunoprecipitation assay,17916232%5Buid%5D,JASPAR,No,0
+TFLinkLS02040230,P01100,FOS,Homo sapiens,hg38,chr14,67247858,67247868,-,hg38&amp;position=chr14:67247858-67247868,chromatin immunoprecipitation assay,17916232%5Buid%5D,JASPAR,No,0
+TFLinkLS02040408,P01100,FOS,Homo sapiens,hg38,chr14,29237023,29237033,&#43;,hg38&amp;position=chr14:29237023-29237033,chromatin immunoprecipitation assay,17916232%5Buid%5D,JASPAR,No,0
+TFLinkLS02040427,P01100,FOS,Homo sapiens,hg38,chr14,61525463,61525473,-,hg38&amp;position=chr14:61525463-61525473,chromatin immunoprecipitation assay,17916232%5Buid%5D,JASPAR,No,0
+TFLinkLS02040472,P01100,FOS,Homo sapiens,hg38,chr14,20401208,20401218,&#43;,hg38&amp;position=chr14:20401208-20401218,chromatin immunoprecipitation assay,17916232%5Buid%5D,JASPAR,No,0
+TFLinkLS02040473,P01100,FOS,Homo sapiens,hg38,chr14,20401271,20401281,&#43;,hg38&amp;position=chr14:20401271-20401281,chromatin immunoprecipitation assay,17916232%5Buid%5D,JASPAR,No,0
+TFLinkLS02040480,P01100,FOS,Homo sapiens,hg38,chr14,65879380,65879390,&#43;,hg38&amp;position=chr14:65879380-65879390,chromatin immunoprecipitation assay,17916232%5Buid%5D,JASPAR,No,0
+TFLinkLS02040481,P01100,FOS,Homo sapiens,hg38,chr14,65879437,65879447,-,hg38&amp;position=chr14:65879437-65879447,chromatin immunoprecipitation assay,17916232%5Buid%5D,JASPAR,No,0
+TFLinkLS02040496,P01100,FOS,Homo sapiens,hg38,chr14,57725860,57725870,-,hg38&amp;position=chr14:57725860-57725870,chromatin immunoprecipitation assay,17916232%5Buid%5D,JASPAR,No,0
+TFLinkLS02040514,P01100,FOS,Homo sapiens,hg38,chr14,38357731,38357741,&#43;,hg38&amp;position=chr14:38357731-38357741,chromatin immunoprecipitation assay,17916232%5Buid%5D,JASPAR,No,0
+TFLinkLS02040524,P01100,FOS,Homo sapiens,hg38,chr14,76918968,76918978,-,hg38&amp;position=chr14:76918968-76918978,chromatin immunoprecipitation assay,17916232%5Buid%5D,JASPAR,No,0
+TFLinkLS02040533,P01100,FOS,Homo sapiens,hg38,chr14,89137764,89137774,&#43;,hg38&amp;position=chr14:89137764-89137774,chromatin immunoprecipitation assay,17916232%5Buid%5D,JASPAR,No,0
+TFLinkLS02040554,P01100,FOS,Homo sapiens,hg38,chr14,85333478,85333488,-,hg38&amp;position=chr14:85333478-85333488,chromatin immunoprecipitation assay,17916232%5Buid%5D,JASPAR,No,0
+TFLinkLS02040588,P01100,FOS,Homo sapiens,hg38,chr14,22474943,22474953,&#43;,hg38&amp;position=chr14:22474943-22474953,chromatin immunoprecipitation assay,17916232%5Buid%5D,JASPAR,No,0
+TFLinkLS02040627,P01100,FOS,Homo sapiens,hg38,chr14,95249445,95249455,&#43;,hg38&amp;position=chr14:95249445-95249455,chromatin immunoprecipitation assay,17916232%5Buid%5D,JASPAR,No,0
+TFLinkLS02040700,P01100,FOS,Homo sapiens,hg38,chr14,73662638,73662648,&#43;,hg38&amp;position=chr14:73662638-73662648,chromatin immunoprecipitation assay,17916232%5Buid%5D,JASPAR,No,0
+TFLinkLS02040729,P01100,FOS,Homo sapiens,hg38,chr14,61566068,61566078,&#43;,hg38&amp;position=chr14:61566068-61566078,chromatin immunoprecipitation assay,17916232%5Buid%5D,JASPAR,No,0
+TFLinkLS02040770,P01100,FOS,Homo sapiens,hg38,chr14,36996734,36996744,-,hg38&amp;position=chr14:36996734-36996744,chromatin immunoprecipitation assay,17916232%5Buid%5D,JASPAR,No,0
+TFLinkLS02040785,P01100,FOS,Homo sapiens,hg38,chr14,69543828,69543838,&#43;,hg38&amp;position=chr14:69543828-69543838,chromatin immunoprecipitation assay,17916232%5Buid%5D,JASPAR,No,0
+TFLinkLS02040822,P01100,FOS,Homo sapiens,hg38,chr14,56563072,56563082,-,hg38&amp;position=chr14:56563072-56563082,chromatin immunoprecipitation assay,17916232%5Buid%5D,JASPAR,No,0
+TFLinkLS02040933,P01100,FOS,Homo sapiens,hg38,chr14,76904416,76904426,-,hg38&amp;position=chr14:76904416-76904426,chromatin immunoprecipitation assay,17916232%5Buid%5D,JASPAR,No,0
+TFLinkLS02040981,P01100,FOS,Homo sapiens,hg38,chr14,84253525,84253535,-,hg38&amp;position=chr14:84253525-84253535,chromatin immunoprecipitation assay,17916232%5Buid%5D,JASPAR,No,0
+TFLinkLS02040986,P01100,FOS,Homo sapiens,hg38,chr14,77890102,77890112,-,hg38&amp;position=chr14:77890102-77890112,chromatin immunoprecipitation assay,17916232%5Buid%5D,JASPAR,No,0
+TFLinkLS02041029,P01100,FOS,Homo sapiens,hg38,chr14,93946307,93946317,-,hg38&amp;position=chr14:93946307-93946317,chromatin immunoprecipitation assay,17916232%5Buid%5D,JASPAR,No,0
+TFLinkLS02041057,P01100,FOS,Homo sapiens,hg38,chr14,80585411,80585421,&#43;,hg38&amp;position=chr14:80585411-80585421,chromatin immunoprecipitation assay,17916232%5Buid%5D,JASPAR,No,0
+TFLinkLS02041080,P01100,FOS,Homo sapiens,hg38,chr14,88248782,88248792,-,hg38&amp;position=chr14:88248782-88248792,chromatin immunoprecipitation assay,17916232%5Buid%5D,JASPAR,No,0
+TFLinkLS02041082,P01100,FOS,Homo sapiens,hg38,chr14,63468456,63468466,-,hg38&amp;position=chr14:63468456-63468466,chromatin immunoprecipitation assay,17916232%5Buid%5D,JASPAR,No,0
+TFLinkLS02041089,P01100,FOS,Homo sapiens,hg38,chr14,46048527,46048537,-,hg38&amp;position=chr14:46048527-46048537,chromatin immunoprecipitation assay,17916232%5Buid%5D,JASPAR,No,0
+TFLinkLS02041174,P01100,FOS,Homo sapiens,hg38,chr14,55389586,55389596,&#43;,hg38&amp;position=chr14:55389586-55389596,chromatin immunoprecipitation assay,17916232%5Buid%5D,JASPAR,No,0
+TFLinkLS02041187,P01100,FOS,Homo sapiens,hg38,chr14,24767255,24767265,-,hg38&amp;position=chr14:24767255-24767265,chromatin immunoprecipitation assay,17916232%5Buid%5D,JASPAR,No,0
+TFLinkLS02041238,P01100,FOS,Homo sapiens,hg38,chr14,30223530,30223540,&#43;,hg38&amp;position=chr14:30223530-30223540,chromatin immunoprecipitation assay,17916232%5Buid%5D,JASPAR,No,0
+TFLinkLS02041258,P01100,FOS,Homo sapiens,hg38,chr14,20987050,20987060,-,hg38&amp;position=chr14:20987050-20987060,chromatin immunoprecipitation assay,17916232%5Buid%5D,JASPAR,No,0
+TFLinkLS02041259,P01100,FOS,Homo sapiens,hg38,chr14,20987068,20987078,&#43;,hg38&amp;position=chr14:20987068-20987078,chromatin immunoprecipitation assay,17916232%5Buid%5D,JASPAR,No,0
+TFLinkLS02041313,P01100,FOS,Homo sapiens,hg38,chr14,63864486,63864496,&#43;,hg38&amp;position=chr14:63864486-63864496,chromatin immunoprecipitation assay,17916232%5Buid%5D,JASPAR,No,0
+TFLinkLS02041496,P01100,FOS,Homo sapiens,hg38,chr14,100068704,100068714,-,hg38&amp;position=chr14:100068704-100068714,chromatin immunoprecipitation assay,17916232%5Buid%5D,JASPAR,No,0
+TFLinkLS02041532,P01100,FOS,Homo sapiens,hg38,chr14,30210838,30210848,&#43;,hg38&amp;position=chr14:30210838-30210848,chromatin immunoprecipitation assay,17916232%5Buid%5D,JASPAR,No,0
+TFLinkLS02041535,P01100,FOS,Homo sapiens,hg38,chr14,65006618,65006628,-,hg38&amp;position=chr14:65006618-65006628,chromatin immunoprecipitation assay,17916232%5Buid%5D,JASPAR,No,0
+TFLinkLS02041536,P01100,FOS,Homo sapiens,hg38,chr14,65006636,65006646,&#43;,hg38&amp;position=chr14:65006636-65006646,chromatin immunoprecipitation assay,17916232%5Buid%5D,JASPAR,No,0
+TFLinkLS02041576,P01100,FOS,Homo sapiens,hg38,chr14,104980338,104980348,-,hg38&amp;position=chr14:104980338-104980348,chromatin immunoprecipitation assay,17916232%5Buid%5D,JASPAR,No,0
+TFLinkLS02041620,P01100,FOS,Homo sapiens,hg38,chr14,68695464,68695474,-,hg38&amp;position=chr14:68695464-68695474,chromatin immunoprecipitation assay,17916232%5Buid%5D,JASPAR,No,0
+TFLinkLS02041687,P01100,FOS,Homo sapiens,hg38,chr14,34651096,34651106,&#43;,hg38&amp;position=chr14:34651096-34651106,chromatin immunoprecipitation assay,17916232%5Buid%5D,JASPAR,No,0
+TFLinkLS02041717,P01100,FOS,Homo sapiens,hg38,chr14,95483363,95483373,-,hg38&amp;position=chr14:95483363-95483373,chromatin immunoprecipitation assay,17916232%5Buid%5D,JASPAR,No,0
+TFLinkLS02041718,P01100,FOS,Homo sapiens,hg38,chr14,95483383,95483393,&#43;,hg38&amp;position=chr14:95483383-95483393,chromatin immunoprecipitation assay,17916232%5Buid%5D,JASPAR,No,0
+TFLinkLS02041727,P01100,FOS,Homo sapiens,hg38,chr14,88879177,88879187,-,hg38&amp;position=chr14:88879177-88879187,chromatin immunoprecipitation assay,17916232%5Buid%5D,JASPAR,No,0
+TFLinkLS02041751,P01100,FOS,Homo sapiens,hg38,chr14,55514962,55514972,-,hg38&amp;position=chr14:55514962-55514972,chromatin immunoprecipitation assay,17916232%5Buid%5D,JASPAR,No,0
+TFLinkLS02041822,P01100,FOS,Homo sapiens,hg38,chr14,57349437,57349447,-,hg38&amp;position=chr14:57349437-57349447,chromatin immunoprecipitation assay,17916232%5Buid%5D,JASPAR,No,0
+TFLinkLS02041823,P01100,FOS,Homo sapiens,hg38,chr14,57349481,57349491,&#43;,hg38&amp;position=chr14:57349481-57349491,chromatin immunoprecipitation assay,17916232%5Buid%5D,JASPAR,No,0
+TFLinkLS02041905,P01100,FOS,Homo sapiens,hg38,chr14,36982269,36982279,&#43;,hg38&amp;position=chr14:36982269-36982279,chromatin immunoprecipitation assay,17916232%5Buid%5D,JASPAR,No,0
+TFLinkLS02041906,P01100,FOS,Homo sapiens,hg38,chr14,36982306,36982316,-,hg38&amp;position=chr14:36982306-36982316,chromatin immunoprecipitation assay,17916232%5Buid%5D,JASPAR,No,0
+TFLinkLS02041984,P01100,FOS,Homo sapiens,hg38,chr14,56333838,56333848,&#43;,hg38&amp;position=chr14:56333838-56333848,chromatin immunoprecipitation assay,17916232%5Buid%5D,JASPAR,No,0
+TFLinkLS02042089,P01100,FOS,Homo sapiens,hg38,chr14,37117121,37117131,&#43;,hg38&amp;position=chr14:37117121-37117131,chromatin immunoprecipitation assay,17916232%5Buid%5D,JASPAR,No,0
+TFLinkLS02042090,P01100,FOS,Homo sapiens,hg38,chr14,37117160,37117170,-,hg38&amp;position=chr14:37117160-37117170,chromatin immunoprecipitation assay,17916232%5Buid%5D,JASPAR,No,0
+TFLinkLS02042101,P01100,FOS,Homo sapiens,hg38,chr14,73760109,73760119,&#43;,hg38&amp;position=chr14:73760109-73760119,chromatin immunoprecipitation assay,17916232%5Buid%5D,JASPAR,No,0
+TFLinkLS02042110,P01100,FOS,Homo sapiens,hg38,chr14,52834707,52834717,&#43;,hg38&amp;position=chr14:52834707-52834717,chromatin immunoprecipitation assay,17916232%5Buid%5D,JASPAR,No,0
+TFLinkLS02042164,P01100,FOS,Homo sapiens,hg38,chr14,24296924,24296934,&#43;,hg38&amp;position=chr14:24296924-24296934,chromatin immunoprecipitation assay,17916232%5Buid%5D,JASPAR,No,0
+TFLinkLS02042194,P01100,FOS,Homo sapiens,hg38,chr14,54594006,54594016,&#43;,hg38&amp;position=chr14:54594006-54594016,chromatin immunoprecipitation assay,17916232%5Buid%5D,JASPAR,No,0
+TFLinkLS02042261,P01100,FOS,Homo sapiens,hg38,chr14,101980830,101980840,-,hg38&amp;position=chr14:101980830-101980840,chromatin immunoprecipitation assay,17916232%5Buid%5D,JASPAR,No,0
+TFLinkLS02042298,P01100,FOS,Homo sapiens,hg38,chr14,89303626,89303636,&#43;,hg38&amp;position=chr14:89303626-89303636,chromatin immunoprecipitation assay,17916232%5Buid%5D,JASPAR,No,0
+TFLinkLS02042302,P01100,FOS,Homo sapiens,hg38,chr14,21104051,21104061,-,hg38&amp;position=chr14:21104051-21104061,chromatin immunoprecipitation assay,17916232%5Buid%5D,JASPAR,No,0
+TFLinkLS02042326,P01100,FOS,Homo sapiens,hg38,chr14,74579971,74579981,&#43;,hg38&amp;position=chr14:74579971-74579981,chromatin immunoprecipitation assay,17916232%5Buid%5D,JASPAR,No,0
+TFLinkLS02042365,P01100,FOS,Homo sapiens,hg38,chr14,89000732,89000742,-,hg38&amp;position=chr14:89000732-89000742,chromatin immunoprecipitation assay,17916232%5Buid%5D,JASPAR,No,0
+TFLinkLS02042366,P01100,FOS,Homo sapiens,hg38,chr14,89000782,89000792,-,hg38&amp;position=chr14:89000782-89000792,chromatin immunoprecipitation assay,17916232%5Buid%5D,JASPAR,No,0
+TFLinkLS02042477,P01100,FOS,Homo sapiens,hg38,chr14,99754656,99754666,-,hg38&amp;position=chr14:99754656-99754666,chromatin immunoprecipitation assay,17916232%5Buid%5D,JASPAR,No,0
+TFLinkLS02042567,P01100,FOS,Homo sapiens,hg38,chr14,74459783,74459793,&#43;,hg38&amp;position=chr14:74459783-74459793,chromatin immunoprecipitation assay,17916232%5Buid%5D,JASPAR,No,0
+TFLinkLS02042664,P01100,FOS,Homo sapiens,hg38,chr14,32048008,32048018,&#43;,hg38&amp;position=chr14:32048008-32048018,chromatin immunoprecipitation assay,17916232%5Buid%5D,JASPAR,No,0
+TFLinkLS02042755,P01100,FOS,Homo sapiens,hg38,chr14,34081986,34081996,-,hg38&amp;position=chr14:34081986-34081996,chromatin immunoprecipitation assay,17916232%5Buid%5D,JASPAR,No,0
+TFLinkLS02042765,P01100,FOS,Homo sapiens,hg38,chr14,39376961,39376971,-,hg38&amp;position=chr14:39376961-39376971,chromatin immunoprecipitation assay,17916232%5Buid%5D,JASPAR,No,0
+TFLinkLS02042822,P01100,FOS,Homo sapiens,hg38,chr14,95388895,95388905,-,hg38&amp;position=chr14:95388895-95388905,chromatin immunoprecipitation assay,17916232%5Buid%5D,JASPAR,No,0
+TFLinkLS02042830,P01100,FOS,Homo sapiens,hg38,chr14,102776265,102776275,-,hg38&amp;position=chr14:102776265-102776275,chromatin immunoprecipitation assay,17916232%5Buid%5D,JASPAR,No,0
+TFLinkLS02042838,P01100,FOS,Homo sapiens,hg38,chr14,32514477,32514487,-,hg38&amp;position=chr14:32514477-32514487,chromatin immunoprecipitation assay,17916232%5Buid%5D,JASPAR,No,0" />
+    <p></p>
+  </div>
+</div>
+
+<div class="uk-grid" data-uk-grid-margin>
+  <div class="uk-width-1-2@m">
+    <h2>Binding site sequences of FOS based on small-scale evidences</h2>
+    <div class="binding-sites">
+      <p>&gt;TFLinkSS09284975;P01100;FOS;hg38;chr1:229434131-229434246<br />
+CGGGCATTCCCTCCGCGCCACCCCGCAGGAATGTCGCTGCCCTTCTCGAGCCATATTTGGGTGTTGGGCACTAGAGCCCC<br />
+CTCCCTCGGCCGGTTCGCGGCCTGGGCCCCCGCCC<br />
+&gt;TFLinkSS09608898;P01100;FOS;hg38;chr22:23069871-23069878<br />
+AAGGCTG<br />
+&gt;TFLinkSS09608900;P01100;FOS;hg38;chr22:23057264-23057321<br />
+TGGAATGACAGGCATGAGCCATCGTGCCCAGCTGATATCTTTGGTTTTGGTATCAGG<br />
+&gt;TFLinkSS09609002;P01100;FOS;hg38;chr6:26221350-26221450<br />
+CAGACTGGGTTGCAGTCTCACAATTATGACTCACTGCAGCCTCAAATTCCTAGCCTCAAGCAATCCTCCTAACTCAGCCT<br />
+CCTGGGTCACTGGCATTATC<br />
+&gt;TFLinkSS09609010;P01100;FOS;hg38;chr7:94011643-94011761<br />
+CCGATTGGTGCATCCACAAACCTTGAGCTAGACACAGAGCACTGATTGGTGCATTTACAAACCTTGAGCTAGACACAGAG<br />
+TGCTGATTGGTGTATTCACAATCCCTTTGCTAGACATA<br />
+&gt;TFLinkSS09609050;P01100;FOS;hg38;chr5:159119995-159120132<br />
+AACAGACCATTCAGCTCTCTGCAAAACAGACCAATCGGCTCTCTGTAAAATGGACCAATCAGCAGGATGTGGGTGGTGCC<br />
+AGATAAGAGAATAAAAGCAAGCTGCCCAAGCCAGCAGTGGCAAGGGTCTGGAGTCCA<br />
+&gt;TFLinkSS09609064;P01100;FOS;hg38;chr3:16796961-16797102<br />
+GAGCTTTATCTTACATCTCTTTGGCTAGAACTAGTCATGTGGCAACTTGTACCAGCAAAGAAGGAGTAACAGTGGAAACA<br />
+ATGTTGTCATGGCTGACATTAACCAATCAAGATTCACCACCTGTGGCTCAGCACATTGCAC<br />
+&gt;TFLinkSS09609244;P01100;FOS;hg38;chr5:159773427-159773561<br />
+AGCCGGGCTCTCGGGAGCCTGGGTGAATTATGATGCACATCCACCGCGGCTGCTAAAAAAAGGGCAGTGACTCACCACCG<br />
+GCCGCGGAAACTTCCACGAGCGCCGGCCGCAAAAAGGCGGGGGCGCCAGGCCAA<br />
+&gt;TFLinkSS09609245;P01100;FOS;hg38;chr5:159639044-159639190<br />
+TTATTATCTCACCTAGCAAGAAGCCTGCATGTAGGCAGTTCCTGGGCTGTTTCATCAGCTCAACAATGGCACTAAAGATT<br />
+TAACATATTTCTACTTATTTCGTCATCCTTAACTGTTGGAGTTTTGTCCTCATGCTCATTGCCTTG<br />
+&gt;TFLinkSS09609370;P01100;FOS;hg38;chr9:98991362-98991412<br />
+TTGACAGGGTGCTCATTGGTGCGTTTACAATCCCTGAGCTAGACACAGAG<br />
+&gt;TFLinkSS09609391;P01100;FOS;hg38;chr9:133278837-133278859<br />
+GGGAAGGGGTTTTTATCCCTAA<br />
+&gt;TFLinkSS09609392;P01100;FOS;hg38;chr9:133269533-133269547<br />
+TTTGTTTGGGGCCC<br />
+&gt;TFLinkSS09609471;P01100;FOS;hg38;chr4:183139316-183139463<br />
+AAATCTCCAGTTCACATTGCTGGCCTAAACTTCAGACTCTATAATGGCCTACTTGACAGGTCTACTTTGATGTCTAGTGG<br />
+GCCCCCTCATCCAAAACATGTCCAAAAATGAACTCCCCATCTGTCCCCCACATTTGGCTCTTTCTTT<br />
+&gt;TFLinkSS09609608;P01100;FOS;hg38;chr7:112192357-112192505<br />
+CAGCTGTTTATCTTGGGCGATCTTAGCAGCCGGTGACTCACTCCTATGGGAAGTATCTCAATATGAAACTTCTATTCTTT<br />
+TGTAGAAGTTCTGAGTCTTCCAGGATATGAGACACTCTTTCCTCCTCAGGGCTGTTTCTTCAGGTGCA<br />
+&gt;TFLinkSS09609683;P01100;FOS;hg38;chr2:61535564-61535693<br />
+CAAATTCTATTTTAATGCAATTGTCTTATTTAAATATAACGTCTGTTACAACAGATTAGAACTCCAAAAGATGAGTCACC<br />
+TATGATTGATATGATGTAAAAATAATGTAAAACTCAAGAAATTAGGAGT<br />
+&gt;TFLinkSS09609876;P01100;FOS;hg38;chr7:74298914-74299039<br />
+GGCACGTGCAAAAGCCTGGACGTGTGACCTAGTGGATATGAATGTGGGTGGGTGTCTGTGGCTTTCAGCCAGAATTTGAT<br />
+GACTAACATGCAGTTCCCTTTCTGGAAGCAACAAAAGAAAAAACA<br />
+&gt;TFLinkSS09609900;P01100;FOS;hg38;chr17:44528627-44528758<br />
+GTCATACTCCGTATCTAACTAATCTGATAGGGACGTGGAGAACCTTTGTATCTAGCTCAGGGATTGTAAACGCACCAATC<br />
+AGTGCCCTGTCAAAACAGACCACTCAGCTCTACCAATCAGCAGGACATGGG<br />
+&gt;TFLinkSS09609965;P01100;FOS;hg38;chr14:100994196-100994325<br />
+TTAATAAATAAATGAAATAGACAAAGTCTAAATGAAAAAAATGATTGATGGTCTGTGGCCTGGCCCAGAGATGATGACTC<br />
+GTGGGTATGAGTCAAGGATGATGAGTAATAGGAGTCAGGAAGTTTAAGC<br />
+&gt;TFLinkSS09609982;P01100;FOS;hg38;chr6:43811143-43811187<br />
+AAGTGACTCATGCCTACACTGCCTCTACATCTGTCTCCCTGTGT<br />
+&gt;TFLinkSS09609984;P01100;FOS;hg38;chr1:51846823-51846956<br />
+CGATTGGTCTGTTCTACAGAGAGCTGATTGGTCCATTTTGACAGGATGCTGATTGGTGTGTTTACAATTCCTGAGCTAGA<br />
+CACAAAAGTTCTCCACCTCCCCACTAGATTAGCTAGATACAGAGTGCTGATTG<br />
+&gt;TFLinkSS09610029;P01100;FOS;hg38;chr1:113691256-113691398<br />
+AGTGCTCTAAGGCATATCTATAGATTCCAATGTGATTCAAGAAAAAGCAAAGTTATATGACAAAGCAAAAGGAAAGTAGA<br />
+TTTGCTGATGAAGAAGCAGCAGACGAGTTCACAGATGCCATTCAGAAGATAACTGAGAAGAA<br />
+&gt;TFLinkSS09610050;P01100;FOS;hg38;chr1:161501040-161501165<br />
+TATCAAAACAGACAAAAAAACAAAAATAAAACCTTGGGCCCCCCTAGAATATGGGATGACTCATGGTACTCTGCTAGGTC<br />
+ACATTTACACACACACACAGAGATACATACACACACAAACACATA<br />
+&gt;TFLinkSS09610161;P01100;FOS;hg38;chr17:28815674-28815726<br />
+AAATTAGCAGCCAGGTGTGATGACTCACGACTGTAACTCCAGCACTTTGGGT<br />
+&gt;TFLinkSS09610198;P01100;FOS;hg38;chr15:90005243-90005390<br />
+AGGGAAGATTTGCCTGCCAGAAGGAACCCATGAATGACACAGGCAGGGACAGGGAGGTGATTGATGGGAGCTGCAGAGTT<br />
+GTGCTGTGAGTCATTGCTTCAAACAAGCTCCAGACAGGTGAGGCAGGAGGGGGCTGGGAAGAGAGGA<br />
+&gt;TFLinkSS09610252;P01100;FOS;hg38;chr1:209898483-209898591<br />
+GCTGCTGACTGGTGCTTTTACAATCCCTGAGCTAGATACAAAGGTTCTCCACCTCCCCATCAGATTAGTTAGATACAGAG<br />
+TTTTGACACACACGTTCTCCAGGGCCCC<br />
+&gt;TFLinkSS09610266;P01100;FOS;hg38;chr4:41021398-41021526<br />
+CTTTTCTGTCTAGCTAGAGGATTGTAAATGCACCAATCAGCACTCTGTAAAAATGCACCAATCAGCACTCTGTGTCTAGC<br />
+TAAAGGATTGTAAATGCACCAATCAGCACTCTATGTCTTGCTAAAGGA<br />
+&gt;TFLinkSS09610283;P01100;FOS;hg38;chr6:31180780-31180891<br />
+TCTTCCAGCTGAGCGTACCGGGAGGCTCCCATTGGACTGGAGCTGCTACGGAGGCGGGACTTTCCCTTTTTCTTGAACCC<br />
+CATTGGGTTAAGTCCAGTCCGAGACAAGCGT<br />
+&gt;TFLinkSS09610303;P01100;FOS;hg38;chr11:369425-369529<br />
+CTCCCCGCGCGCCGCCATTGGCTCCCCGCGGCCTGGCTCGGTCCGATTGGTTCCGCGCGCGCGGCCGGGGCCCGATCCGC<br />
+GGTGGCAGCCGTGGATGCTGTTCG<br />
+&gt;TFLinkSS09610406;P01100;FOS;hg38;chr15:91649140-91649240<br />
+AGCCAATCAGATACACATAACCTAGGTTTGACCAATCAGATGCATCTGCTCAGACTTGACCCGGAGGACTGTACTGCAAA<br />
+TAAGAAGGACACTGGAAAAT<br />
+&gt;TFLinkSS09610458;P01100;FOS;hg38;chr22:21608829-21608931<br />
+CCCTGGCCTCCCACAGTGCTCAGATTACAGACATGAGTCACTGCTCCTGGCCCAGTTTGGCAGTTTTGTTTTGTTTTTTT<br />
+TTTGAGACTCAGTCTCGCTCTT<br />
+&gt;TFLinkSS09610704;P01100;FOS;hg38;chr20:45860567-45860687<br />
+AGGCTGCCCAACACACCTTGGGTCATGGCCCCCTTCCTCCATCTTCAAAGCCAGCAGTAGCAGGTTGAGTCATCACATCA<br />
+CTCTGACCTTGCTTCTGTCATCACGTCTCTGACTCCCTCT<br />
+&gt;TFLinkSS09610792;P01100;FOS;hg38;chr2:61759806-61759950<br />
+CTTTTTAAATCAGGTTATAGGAAATTCTATACTTCTTTGGGATCCTTGTGGCTCACTTACATCAGATGAATCATCGTCAT<br />
+CCTCATATGAATCATCGCCAGAACAATTTCAAAGCATAGAACTATAAAATATATCTAGTGGATA<br />
+&gt;TFLinkSS09610806;P01100;FOS;hg38;chr7:47548380-47548517<br />
+CTATAGTCACTGCCCCTTACCCCAAGGTTCATGGGCTCCAGAATCCATGTTCAACCCATCTCACTGCAACTTTCCATAAG<br />
+TCACCACCTAGCCATAGCCTGTCAGACCCAGTAAGGGACACCTGTCCCTCATTTTAT<br />
+&gt;TFLinkSS09610891;P01100;FOS;hg38;chr16:2148514-2148632<br />
+CCCGCCGAGCGGGGGTGTATTTGCATGTCCCCGCCCCACGCACGGCATTGGCGGCGGCGGCGGGAGGCCGGGCCTGAGTG<br />
+GCTGCGCGCCCGTGGAGCGGCGGGGGCGGGGCGCGAGC<br />
+&gt;TFLinkSS09610920;P01100;FOS;hg38;chr19:49038804-49038881<br />
+CCCAGACAGTGACTGCATCGCACACGGCCAGCTCACCCTGATGACTCACCGGTGAAGTATCGCTCACCCCACGCTGG<br />
+&gt;TFLinkSS09610937;P01100;FOS;hg38;chr4:37954228-37954363<br />
+GGCAGACGTCTTCTAATATCTCATTGGCCAGACGTGGGTCACATGTTGACTTTTTTTTCTCTTTTAACCTTTCCTATGGT<br />
+ACTGAACATGTTGACTTTTAGATGACTCACTTGGGAAGATAAAAGGATTAACATT<br />
+&gt;TFLinkSS09610938;P01100;FOS;hg38;chr4:38325599-38325688<br />
+GTGCGTTTACAATTCTTTAGCTAGACACAGAGCGCTGATTGGTGCATTTTTACAGAGTGCTTATTGGTGCATTTACAATC<br />
+CTTTAGGTA<br />
+&gt;TFLinkSS09610982;P01100;FOS;hg38;chr16:46390635-46390780<br />
+AATGGACTCGGATGTAATCATTATCGAATGGAATCGAATGGAATCATCGAATGGAATTGATCGAAATCATTATCGAATGG<br />
+AATCAAATGAAATCATCAAATGGAATCGAATCCAATCATCATCGAATGGAATCGAATGGAATCAT<br />
+&gt;TFLinkSS09610983;P01100;FOS;hg38;chr16:34582299-34582321<br />
+GAATGAAATCATCAACGAATGG<br />
+&gt;TFLinkSS09610984;P01100;FOS;hg38;chr16:46386194-46386255<br />
+AAAACAAAGCAATCATTAAATGTACTCTAATGGAATCATCGAATGGACTCGAATGGAATCA<br />
+&gt;TFLinkSS09610985;P01100;FOS;hg38;chr16:46394941-46395058<br />
+AATCACCATCGAAGAGAATCGAATAGAATCATCGAATGAACTCAAATGGAATCATCATCGAATGGAATCAAATTGTCAAT<br />
+GAACGGAATGGAATGGAATCATAGAACGGAATCCAAT<br />
+&gt;TFLinkSS09610986;P01100;FOS;hg38;chr16:46381078-46381083<br />
+TTGAT<br />
+&gt;TFLinkSS09610989;P01100;FOS;hg38;chr16:46399226-46399339<br />
+CTCGAATGGAATCATTGGATGTACTCGAATGAAATCATCGAATGGACTCGAATGGAATCATCATCGAATGGAATCAAATG<br />
+GAATCCTCGAATAGAATCAGATGGAATCCTCAA<br />
+&gt;TFLinkSS09610990;P01100;FOS;hg38;chr16:46389296-46389345<br />
+ATCGAATGGAATCATCGAATGGACTCGAATGGAATCATCTAATGCACTC<br />
+&gt;TFLinkSS09610991;P01100;FOS;hg38;chr16:46390617-46390758<br />
+GCTCAAATGGAATCATCGAATGGACTCGGATGTAATCATTATCGAATGGAATCGAATGGAATCATCGAATGGAATTGATC<br />
+GAAATCATTATCGAATGGAATCAAATGAAATCATCAAATGGAATCGAATCCAATCATCATC<br />
+&gt;TFLinkSS09611069;P01100;FOS;hg38;chr7:100614427-100614557<br />
+TGCACTCCAGCCTGGGTGCAACAGAGTGAGACTCCGTCTCAAAAAAAAAAAAAAGTAGATACAGGGTGTGGTGACTCACA<br />
+CCTATAATCCCAGTGCTTTGGGAGGCTGAAGTGGTGGGAGGATTGCAATT<br />
+&gt;TFLinkSS09611205;P01100;FOS;hg38;chr15:44385195-44385278<br />
+TGTGAAACTGCTGAGTCATATGATAGTTCTATGTTTAGCTTTTTGAGGAACTGCCAAACCATTTTCCACAATAGCTGTAC<br />
+CAT<br />
+&gt;TFLinkSS09611249;P01100;FOS;hg38;chr9:128311818-128311828<br />
+CAAGGGCACT<br />
+&gt;TFLinkSS09611313;P01100;FOS;hg38;chr6:31246164-31246230<br />
+TCCGTCAGCTGATCAGGTTTCTTTTCCTGCTTGGGTGACTCATACCTTCATTCCTGAAGGGCATGG<br />
+&gt;TFLinkSS09611586;P01100;FOS;hg38;chr21:42433937-42434068<br />
+AGGTCAGTGTGGCTGCTGGAACCTCCTAATAACCAGGAGGCTTGGGGTCCCTTTGGAGAATGTGAAGGCAAACCAGAGTG<br />
+CACTGGAGGGAGCAGTGTGTCGTGGTGTCCTGTGTGAGGATAATCAGTCAT<br />
+&gt;TFLinkSS09611620;P01100;FOS;hg38;chr5:41444578-41444677<br />
+ATGCCAGTTAAGCTGCAATACATGCTGGAAAGCTAATAATACATGAATTAATAAAAGATGACACATTTTAAGCAGCAGTT<br />
+TCATAATTACAGATAATGA<br />
+&gt;TFLinkSS09611634;P01100;FOS;hg38;chr1:156713426-156713501<br />
+AGAGGCCGCCTAGGTGCGGTGACTCACGCCTGTAATCCCAGCACTTTGGGGGCTGAGGCGGATGAATCACTAGGT<br />
+&gt;TFLinkSS09611662;P01100;FOS;hg38;chr1:61616094-61616238<br />
+TCTCTCCCCCCAGTCCATTTCCCTCTTAATCTATGCTGCCATCAACACACGCTTGGGCCGGGCACAGTGACTCATGCCTG<br />
+TAATCCCAGCACTTTGGGAGGCTGAGGCGAGTGGATCGCTTGAGGTCAGGAGTTCAAGATAAGC<br />
+&gt;TFLinkSS09611692;P01100;FOS;hg38;chr7:108234412-108234488<br />
+AGATGAACCAAAGGGCAATCTAGTGAGTCACAGTGAGAAATATCCAACTGAAAAAGGAAGTGCTCTACATAGTCTG<br />
+&gt;TFLinkSS09611734;P01100;FOS;hg38;chr3:39802557-39802701<br />
+TTCTGTCTAGCTAAAGGATTGTAAATGCACCAATCAGCGCTCTGTGTCTAGCTGAAGGTTTGTAAACAGACCAATCAGCA<br />
+CTTTGTAAAATGGACCAATCAGCACTCTGTAAAATGGACCAATCAGCATTCTGTAAAATGGACC<br />
+&gt;TFLinkSS09611879;P01100;FOS;hg38;chr1:143972672-143972731<br />
+ATCTGCGTAGAAACGGGTGGCGGGGAAGAGAGGGGAGGAGAGCTCTGAGTGGGAAGCGG<br />
+&gt;TFLinkSS09611923;P01100;FOS;hg38;chr14:50065266-50065390<br />
+TATCTGGTAAACAGCACTAATGATGACCACAGCCACGAAGAGATGTAAATCTAGAAATTCATTCAGAAAGAAGCCCTGAT<br />
+ATGCCATAGAGTTGTTCCCAATGGGTTTCACCCCCAACCAAAAC<br />
+&gt;TFLinkSS09611957;P01100;FOS;hg38;chr6:17581402-17581528<br />
+AAGGATTGTAAATGCACCAATCAGCACCCTGTCAAAACGGACCAATCAGCTGTCTGTAAAACAGACCAATCGGCTCTCTG<br />
+TAAAATGGACCAATCAGCAGGATGTGGGCGAGGCCAGATAAGAGAC<br />
+&gt;TFLinkSS09612000;P01100;FOS;hg38;chr9:129475146-129475294<br />
+TCTCCCAGGTTGTAATGAGGCACATGACTGCCAGGCTAAGTATTACCTTTCCCAGCCTCCCTTGCAGCTAGGTGTGGTCA<br />
+TATGATCAGCTCTGGCCAATGAAACACAAGCAATGAGCTATGCACCTTCCTGCCAGCCAGTAAAAGAA<br />
+&gt;TFLinkSS09612091;P01100;FOS;hg38;chr6:42774888-42774939<br />
+TTCCTTGTCTTCCACTCATATTTATGAGTCATCTTTTTCAGAGTGGTTCCT<br />
+&gt;TFLinkSS09612133;P01100;FOS;hg38;chr19:7011366-7011509<br />
+TGGCCACATGACCTCAACATGGCCAATCCGCAGATCCCATCCTCTTTGTCCACAGTGATTGGCTAAGGCCTGCTCATGTG<br />
+ACACACTCAGTGCCAAAGGTCAGGTTGTTGTCTTGGAAACATCCGGGAGAAGATCTATTTCAG<br />
+&gt;TFLinkSS09612172;P01100;FOS;hg38;chr3:182909348-182909461<br />
+GGTCATTCCTGGGAGCAAGTGTGGTGGAAAGTGAGGCTTACCAATCACAACTTCTAGTAAATTAAAAGTTACCTCTTGGT<br />
+ACCACTAGGTGGGGTCTCACTCCCATTACTATG<br />
+&gt;TFLinkSS09612280;P01100;FOS;hg38;chr11:10550612-10550758<br />
+AGGGAACTCAATTTGTTTTTAATTACCCACAGTCCAAAACACACTGCAGTTTAGTTTCTCTATTAAGATAAATATCAGTT<br />
+TGACTTACAGAAGTGAGTCAATGGCCAACTCAGAGAGTAAAGTTCAAGTATAGTAGCCTTTATGCA<br />
+&gt;TFLinkSS09612293;P01100;FOS;hg38;chr5:109487611-109487723<br />
+ATCAGCTAGACACAGAGCAATGATTGGTGCATTCACAAACCTTGAGCTAGACACAGGGTGCTGATTAGTGCATTTACAAA<br />
+CCTCGAGCGAGACACAGAGTGCTGATTGGTGT<br />
+&gt;TFLinkSS09612426;P01100;FOS;hg38;chr15:68928632-68928744<br />
+CCACATCCTGCTGATTGGTTCACTTTACAGAGAGCTGATTGGTCCGTTTTGACAGGGTGCTGATTGGTGCATTTACAATC<br />
+CCTGAGCTAGACACAAAAGTTCTCCAAGTCCC<br />
+&gt;TFLinkSS09612948;P01100;FOS;hg38;chr15:63933654-63933761<br />
+GTGGCATGATCACAGCTCACTGCTGACTCAACCCCCTAGGGTTAAGCGATCCTCTCACCTCAGCCTCCCAAGTAGCTGGG<br />
+ACCACAGGCATGTGCCACTATACCAGG<br />
+&gt;TFLinkSS09613029;P01100;FOS;hg38;chr17:28303784-28303811<br />
+ATACAGAACAAGACACAAACCAGTGAT<br />
+&gt;TFLinkSS09613092;P01100;FOS;hg38;chr12:131559942-131559971<br />
+CACATGACCCCACCACACTCACATGGCCC<br />
+&gt;TFLinkSS09613108;P01100;FOS;hg38;chr2:226648806-226648861<br />
+GAGGGGGAGAACTTTTGTGTCTAGCTCAGGGATTGTAAACACACCTATCAGCACC<br />
+&gt;TFLinkSS09613138;P01100;FOS;hg38;chr6:99268830-99268944<br />
+TAGTCCGTTTTTACAGAGTACTGATTGGTGCATTTACAAACCTTTAGCTAGACACAGAGCACTGATTGGTGCGTTTTTAC<br />
+AGAGTGCTGATTGGTGCATTTACAAACATTTAGC<br />
+&gt;TFLinkSS09613208;P01100;FOS;hg38;chr11:94880313-94880430<br />
+ATCAGGCACCTAATGCAGTTGCTGGCATACCACAGGTGCTTGAGTGTTGACTGAATGAGTCAACCCTTGAGTGTTGACTG<br />
+AATGAGTCAAGGATTTAATGAGAGAAGAGTTGTAATG<br />
+&gt;TFLinkSS09613269;P01100;FOS;hg38;chr2:177566863-177566908<br />
+AGCTCACTGCAACCTCTGACTCACCGGTTCAAGCGATTCTCCTGC<br />
+&gt;TFLinkSS09613449;P01100;FOS;hg38;chr16:1239121-1239214<br />
+CCAGTGTTAGCCAATCAAAGCTCTCGCATCCCCATGGTGCTGATTGGTCCGCCTCCCAGGCCTGACCCAATCGGAGCATT<br />
+CCTAGGAGGAGCG<br />
+&gt;TFLinkSS09613568;P01100;FOS;hg38;chr2:27170715-27170819<br />
+CTCTGTTATAATAACTGGTGTGGTTTTTATGTTCCTAATTGGACCCTGACTCATACAACAGCCCAGATAAGATTCTTTTG<br />
+GCGTCTGACCTGTTTCTGGACTAC<br />
+&gt;TFLinkSS09613569;P01100;FOS;hg38;chr2:27152870-27152968<br />
+TCACACTCGCCCTTTTCTCCTAGACTGTGACTCATGCTTATGGGCCTGGATTTTCTACCAGCCCCCAGATTCTCAGCCAT<br />
+CAGACTTGACTCAGACTC<br />
+&gt;TFLinkSS09613601;P01100;FOS;hg38;chr3:159964472-159964590<br />
+TACCCTATCTCCCCAACAGAGTCATATCACAATTCTACTAGAGACATATTCAGTATTTACATTCTGATGACATCTTAGAC<br />
+ATTAGTCAGAAATGAGTCAGAGGCGATACTAGTATTTA<br />
+&gt;TFLinkSS09613672;P01100;FOS;hg38;chr11:10160541-10160565<br />
+TGTTAACAGTGGTTATCTCTGGTT<br />
+&gt;TFLinkSS09613673;P01100;FOS;hg38;chr11:9792106-9792222<br />
+TTGTGTTTAAGTTTTTCTGATAAAATCTTAAAAATTATGACTCAGCGTGGTGCGGTGGCTCACATCTGTAATCCCAGCAC<br />
+TTTGGGAGGCTGACGTGGGCGGATCACTTGAGGTCA<br />
+&gt;TFLinkSS09613678;P01100;FOS;hg38;chr20:50034028-50034156<br />
+TGATTCATTGCCACGTAGGAAAGCCGGCCCGCTGCTGTGGGAAAACGGGAAGTCAGAATTGTAATAGAATTTTTTTTTTT<br />
+AAAGTGACTGAGTCTTGCTCTGTCACCAGGCTGGAGTACAGTAGTGAG<br />
+&gt;TFLinkSS09613724;P01100;FOS;hg38;chr12:20010173-20010286<br />
+GTGTTTACAGTCCTTTGGCTAGACACAGAGTGCTGATTGGTGTGTTTTTACAGAGTGCTGATTGGTGCATTTACAATCCT<br />
+TTAGCTAGACTCAGAGTGCTGATTGGTGCGTTT<br />
+&gt;TFLinkSS09613742;P01100;FOS;hg38;chr8:51404423-51404563<br />
+AGCTAGACATAAAAGTTCTCCAAGTCCCCACCAGATTAGCCACATACAGAGTGCTGATTGGTGCATTTACAAACCTTGAG<br />
+CTAGACACAGAGTGCTGATTGGTGTGTTTACAATCCCATAGCTAGACATAAAGGTTCTCC<br />
+&gt;TFLinkSS09613856;P01100;FOS;hg38;chr17:48438756-48438856<br />
+CAATCAGAAAGAAGATCATATCCTAGGAGTCTGTAGTCCCTTTAGTCTGGAGAGCTGCCAGCAGGGCTAAGCTCTACAGA<br />
+AGGGCTGGGGTTGTGGCAGA<br />
+&gt;TFLinkSS09613926;P01100;FOS;hg38;chr5:145776229-145776374<br />
+TCTCTTTGTCCAGGATATCCACACTGTAGACACTGCTGGCCTATTAGTCACTCTGTAGCCCTCTGAGCTCTCAGATCAAC<br />
+CGTTGCAGTATCACTGTGCCTGTGTTCAAGTAACTCTTATTTTACTTCATAAGGGCACCAAAGTG<br />
+&gt;TFLinkSS09613927;P01100;FOS;hg38;chr5:145683676-145683787<br />
+CTCTTAAAAGGCCTTATCTCCAAATACAGATACTCTCAGATACTGGAGTTTAGGGCTTCAACACATGAATTGTAGGAGAG<br />
+AGGGAGAACACAGTTCAACCTATAACGACCA<br />
+&gt;TFLinkSS09613959;P01100;FOS;hg38;chr1:27347294-27347429<br />
+ACAGCACAGATCAAGTCTGATTTGCTGTTGGGTCCCTGGCCCCTGGTCCCAAGCCTGTTAACAATGTAGGTGGCGGGAAT<br />
+GTTGCTTGGGTGAGTCATGACAGCCACACCCTCCCCCTTCCTCCAGCAAGCTCCG<br />
+&gt;TFLinkSS09614010;P01100;FOS;hg38;chr3:60579895-60580037<br />
+GGATCTGGCCACTTCTCCATGTATTCCCACCACACTAAATGGAGCATGAGTCATTTGAGTAATGAGTCAGAAAATGTCTA<br />
+GCAGCCTCCGTGCAATAGCAGACGTGATGCTTAAGATAAATTTCAGAGATACTAGGATGGTG<br />
+&gt;TFLinkSS09614118;P01100;FOS;hg38;chr2:73925143-73925248<br />
+CCTATGTAAATGAAGTAGTGGCCAGCGATCAGTCTGATTGGTTGCAGGAGGGGACCAATCAGAGGCTGAAGTAAAGTTAT<br />
+GAAGTTATACCCCATGCAACTAAAG<br />
+&gt;TFLinkSS09614173;P01100;FOS;hg38;chr9:128004353-128004486<br />
+ACTCCTTGGAAGGCAGCTTAGTAAAGTTGACCCCACACCATTGGCTGACTGGGTGCCACCTGACCCAAGATGGGCCAATC<br />
+AGATTCTATCTAGAAATTTGTACTCAGAAGTGGTCTTAGGGTGGGCGCGGTGG<br />
+&gt;TFLinkSS09614394;P01100;FOS;hg38;chr1:194617325-194617407<br />
+TCTAGCTAGACACAGAGCGCTGGTTGGTACGTTTTTATAGAGTGCTGATTGGTGTGTTTACAAACCTTTGGCTAGACAGA<br />
+GA<br />
+&gt;TFLinkSS09614425;P01100;FOS;hg38;chr3:11453589-11453678<br />
+CTTTGTCTTCTATGTGGGGCGACATCATTTAGCTCTCTTATGAGTCATCCTTCCCACAAATAATCTCTCTTGGAGTAGCC<br />
+CTTATGAAA<br />
+&gt;TFLinkSS09614493;P01100;FOS;hg38;chr5:69256056-69256166<br />
+TGATCTGCCTGCCTCAGCCTCCCAAAGTGCTAGGATTACAGGCATGAGTCACCATGCCTAGCAACCTATAAGAATTTAAA<br />
+ATTTATTTCTGGCCAGTGCAGTGACTCACG<br />
+&gt;TFLinkSS09614509;P01100;FOS;hg38;chr3:4898583-4898604<br />
+TACTCCAAGGGCCTGAAGACA<br />
+&gt;TFLinkSS09614652;P01100;FOS;hg38;chr6:148696770-148696867<br />
+TTGGTCCATTTTACAGAGCCGATTGGTCCATTTTGACAGGGAGCTGATTGGTCCCTTTTTACAGGGTGCTGATTGGTGCA<br />
+TTTACAATCCCTGGGCT<br />
+&gt;TFLinkSS09614830;P01100;FOS;hg38;chr8:102906427-102906535<br />
+TCATATTTCAATGGCCAGAATGTGGTCCAATGGCCATACCCAGTTGCAAAAGAATCTGGGAAATGTAGTCTGACTGGAAG<br />
+GTGACTCATACAGCTAAAATTCAGGGAA<br />
+&gt;TFLinkSS09614917;P01100;FOS;hg38;chr6:4414178-4414278<br />
+CCAATCAGGGCTCTGTAGCTAGCAAGAGGATTGTAAAATGCACCAATCAGCATTCTATAAAAAACGTATCAATCAGCACT<br />
+CTGTAGCTATCAAGAAGATT<br />
+&gt;TFLinkSS09614995;P01100;FOS;hg38;chr7:99699279-99699364<br />
+TTGCTCTGGAGATTAATCATTGCAAGGTAAATAGTTCTGTGTATGACAGGGTGGAGGAGTGAGTCATAGGAGGGAGGGGA<br />
+TGTTT<br />
+&gt;TFLinkSS09615021;P01100;FOS;hg38;chr21:33761741-33761779<br />
+CCTCTTTTTCATTGGGGCTTAATTTCCTTTTTACAAAG<br />
+&gt;TFLinkSS09615120;P01100;FOS;hg38;chr13:30054658-30054784<br />
+TCTAGCTAAAAGATTGTAAATGCAGCAATCAGCACTCTGTAAAAACGCACCAATCAGTGCTCTGTGTCTAGCTAAAGAAT<br />
+TGTAAGCGCACCAATCAGCACTCTGTAAAATGGACCAATTAGTACT<br />
+&gt;TFLinkSS09615204;P01100;FOS;hg38;chr10:73714047-73714158<br />
+CTCACGCTGTCCTAAAGTGCTGTATGTAAAGGGTCTGGAGATAACCCACAAGCAGCACTGTGAACCCCTGACAGCAAGCC<br />
+TTTCCAGATAAATACCAGGTCAGTGTCTACA<br />
+&gt;TFLinkSS09615249;P01100;FOS;hg38;chr6:31001096-31001124<br />
+GGTGGGGCCTTGAAGAACCTTCGTGTCC<br />
+&gt;TFLinkSS09615319;P01100;FOS;hg38;chr11:44039610-44039747<br />
+ACTCATGTAACCAAACACAGCCTGTTTCCCAAAAACCTATGGAAATAAAAAATAAATAAAATGCACATTCCTGGGTTCAG<br />
+TTATACACCTACTGAATTGGAATCCTACTGATGTGGAGCCCAGGCACCTGTGTGTTA<br />
+&gt;TFLinkSS09615368;P01100;FOS;hg38;chr7:129144557-129144665<br />
+TTTAACAAGTTATCCCTCACAGAACAGGTGTCTCCCCCGACTCTCGGTGGAGAGGGATGGCTGGATACTTAGTGACATCA<br />
+GCCACGAGCCAATGGGAAGTCGGGCTCC<br />
+&gt;TFLinkSS09615528;P01100;FOS;hg38;chr7:30331491-30331583<br />
+GTAGTTCTGAGGAAATTACACAGAGTGTAACAGAGAGAGAAGCATGGAAAATATGAGAGAGTACCTGGCATGGAGCCTGG<br />
+AATGAGAGCATA<br />
+&gt;TFLinkSS09615548;P01100;FOS;hg38;chr3:48271374-48271493<br />
+ATTGGTCCATTTTACAGAGAGCATATTGGTCCGTTTTGACAGGGTGCTGATTGGTGCATTTACAATCCCTGAGCTAGACA<br />
+CAGAGTGCTGATTGGTGCATTTACAAGCCTCTAGCTAGA<br />
+&gt;TFLinkSS09615552;P01100;FOS;hg38;chr2:38875744-38875890<br />
+CGCACAACGCGCATCACTTGTCCGCAGAAGTGGAAGACGTACCTGGCTCGCAGAGTTGGGTCCCGAGCCGGCTGTCGGGA<br />
+GGTGCTGCCCAAGGGTCAGAGGTCCAAACTGGACTTGGCCACCCTCACGATTCTCACTTGGAGCAG<br />
+&gt;TFLinkSS09615621;P01100;FOS;hg38;chr22:39494871-39495005<br />
+CCCATTTGCACCTTCCATCTCCTTGCATGTGATGCGTGGGTCATGCCTCCTTTCCTGGGTCTGCTTCCCTTAGCCTCTGT<br />
+GACTCATCTGTCTCGTGGCTCTCCTCTTCCTCCTCCCTCTATGACATTTCTTCC<br />
+&gt;TFLinkSS09615740;P01100;FOS;hg38;chr15:83158567-83158695<br />
+TTAAATATTACACCCCTCTGAACAGGTGATAAAATCTCACACCCACTCCATCCTGCCTGGGACATGAATCATCCCTTTGT<br />
+CCAGCATATCCATCATATTTGCACTACCTTCCCACTAGTTACTTAATA<br />
+&gt;TFLinkSS09615766;P01100;FOS;hg38;chr7:16916307-16916390<br />
+CAATGGTATGTCTACAAGAGTGAGTCATCCTTACTTCTGCCAGACCCAGATAGTTGCAAGCTGTCTTTGCTACCATTTCA<br />
+GGT<br />
+&gt;TFLinkSS09615851;P01100;FOS;hg38;chr15:33523075-33523204<br />
+TTTATGTCTGCCTAAAGGATTGTAAATGCACCAATCAGCACTCTGTGTCTAGCTAAAGGATTGTAAACACACCAATCAGC<br />
+ACTCTGTAAAATGGACCAATCAGCACTCTGTAAAATGGACCTATCAGCA<br />
+&gt;TFLinkSS09615901;P01100;FOS;hg38;chr5:10018799-10018895<br />
+AAGATTTGGAAATATAAGATATACTCTTCTTATCTTGTAGTTTAGTCATGGGAAAGGAGTCTCAAGTAGTTGAGTCATTC<br />
+TAATGAGTCACTTACA<br />
+&gt;TFLinkSS09615928;P01100;FOS;hg38;chr1:53760648-53760775<br />
+ATAAACTCCTGTCTTTAAAGCCCTCAGATGTCACGTGACTCATTCACTATCACAAGAACAGCACAGGAAAGACCTGCTCT<br />
+ATGATTCAATTATCTCCCACTGGGTCCCTCCCGTAACACGTGAGAAT<br />
+&gt;TFLinkSS09616005;P01100;FOS;hg38;chr7:128581183-128581312<br />
+TTACTGTGCCATCCTTGCCATATATATATAATTTTTTTTTTTTTTTTTGAGACAGTCTTGCTGTGTCACTCAGGCTAGAG<br />
+TGCAGTGGTACGATCATGACTCACTGCAACCTCTGCCTCCTAGGCTCAA<br />
+&gt;TFLinkSS09616023;P01100;FOS;hg38;chr2:71901518-71901662<br />
+CCCCACAACATGGCAGCCTTTCTTCCTTCAAAAGGGAAGTCCAGGAAGAAGCTGCTATGTCTTTTATGACCTAGCCTTGG<br />
+AAGTCACATGCCATCATTTCTGCCACATGCTATTTGATAGAGGTGACTCATAAAGACGTCCAGT<br />
+&gt;TFLinkSS09616389;P01100;FOS;hg38;chr17:8807158-8807303<br />
+AAGACAGATTTCAGCTCAAGGCAGACCTCTCAGCCAATCAGAACTCTCCTACAGTGGATAGGCTGCCTCAGAAAGCGTCA<br />
+GCTTCCAGTTCCGGCTTGAGATCTAGGATGAGGTGGAAGGTGGATTAGATGACTCAACAAACATC<br />
+&gt;TFLinkSS09616397;P01100;FOS;hg38;chr9:99154195-99154325<br />
+TAAGACAATTTGTTGCCTATGGACGTCTGCCTTACAAGAAATACTAAATCCTTCACACAGAAAATAAATGACACCAGATG<br />
+GTAACCTGAATCCACAGGATGAAATGAAGAGCACCAGAAATGGTGGATAT<br />
+&gt;TFLinkSS09616413;P01100;FOS;hg38;chr5:151407326-151407403<br />
+TTAGCTAAACACAGAGCGCTGATTGGTGCGTTTTTACAGAGTGCTGATTGGTGCGTTTACAAACCTTTAGCTAGACA<br />
+&gt;TFLinkSS09616618;P01100;FOS;hg38;chr16:50165725-50165874<br />
+GGTTATCTGTGTCGTAGCATGTGTCAGTACTTCATTCCTTTTTATGGCTGAATATTTTATTGCATGTATATGCCACATTT<br />
+TGTTTATCCATTCACCTGTAGAAGGACATTTAGGTTGTTTCCATTTTTTGGCTGTTATGAATATTACTG<br />
+&gt;TFLinkSS09616682;P01100;FOS;hg38;chr5:62395305-62395386<br />
+TGAGTCACCACACCCAGCCAAAAGATGTAGACTTTTTATTCAGCAGGCAATGGGGAAGACTTTGTAGGGGTTAACGAACA<br />
+G<br />
+&gt;TFLinkSS09616703;P01100;FOS;hg38;chr5:123948829-123948889<br />
+TCCCCACAGAGCACTGATTGGTGTATTTACAGACCTTGAGCTAGGCACAGGATGCTGATT<br />
+&gt;TFLinkSS09616862;P01100;FOS;hg38;chr10:78602679-78602777<br />
+CTGGAGTTCCCCCAATCCATGATTCATATGGACCTCATCCCCAGCCCAGACACCTGAGCACCCAGAGCGTGGGCGGTGGT<br />
+GACACCACACAGACTCGA<br />
+&gt;TFLinkSS09616907;P01100;FOS;hg38;chr1:58167271-58167387<br />
+AGTGCTCTTTGTCTAGCTAAAGGATTGTAAATGCACCAATCAGCACTCTGTGTCTAGCTAAAGGATTGTAAATGCACCAA<br />
+TCAGCACTCTGTAAAAATGCACCAATCAGTGTTCTG<br />
+&gt;TFLinkSS09616955;P01100;FOS;hg38;chr18:2592752-2592902<br />
+TAAGTTCACTGTGTTGCAAATAGGTTGTAACAAACCAAGATACCAAAATACCAATCCTCTCCACCCTTAGGATGACTCTC<br />
+TTGACCCCTTAGTCATCCTCATCCTTTTGTCCCAGCCTGCTATAAAAATGCTAATCATGTTCAATATAGG<br />
+&gt;TFLinkSS09616980;P01100;FOS;hg38;chr1:12013755-12013883<br />
+ACTGTTCCATCCTGCTTTGCCTTCTGAGAATTTGGTTGCCACTATTCTTTTTTTTTTTTTTCTTTTTTGAGATGGAGTCA<br />
+CGCTCTGTCGCCCAGGCTGGAGTGCAGTGGCACGATCTCGGCTCGCTG<br />
+&gt;TFLinkSS09617020;P01100;FOS;hg38;chr4:137222960-137223043<br />
+AAGGACTGTAAATGCACCAATCATCACTCTGTAAAAACAAACCAATCAGCGCTCTGTGTCTAGCTCAAGGATTGTAAACG<br />
+CAC<br />
+&gt;TFLinkSS09617203;P01100;FOS;hg38;chr3:171028501-171028639<br />
+CGGGGCACCCTGATCAGTTTCCTCAGGTTCAGCCAAGGCCTCTGTGGTTCTGCTCTTTCTCAGAAATGAATGAGTAATCT<br />
+CTGCACCATCTGGGATATGCTAAAACTTTATCTCCGTGCGGGGAGGGGGTGCGATTCA<br />
+&gt;TFLinkSS09617263;P01100;FOS;hg38;chr22:39847568-39847674<br />
+AAAAAAAAAGACAGGGTCTTGCTGTGTTGCTCAGGATGGTCTCAAATTCCTGGGCTCAAGAAATCCTTCCGCCTTGATCT<br />
+CCCAAAGTGCTGAGAGGCATGAGTCA<br />
+&gt;TFLinkSS09617335;P01100;FOS;hg38;chr9:127701932-127701991<br />
+TATGTTTGGTTGGGCATGGTGACTCATGCCTGTAATCTCGACACCTTGAGAGGCCGAAG<br />
+&gt;TFLinkSS09617570;P01100;FOS;hg38;chrX:48107748-48107776<br />
+TGAACTTGGAGTAGCCAATCCCAGGGGA<br />
+&gt;TFLinkSS09617670;P01100;FOS;hg38;chr9:71726561-71726696<br />
+CATAGTCTAATAAGAAAGATAGAGATAATTAAAATATAATATACCTAATAAGTACTTACTAGCTGTAACAAATAGAGTCC<br />
+ATTGGGAGGAGAGATGAGAGAGGAATTATGGAAAACATATATTTATACCTACACA<br />
+&gt;TFLinkSS09617715;P01100;FOS;hg38;chr10:67818401-67818534<br />
+CCTTTTCATTTTAAACAATATTTACACAGTCCACTGTTTCTCTGAACAAGACGCCTTGAGGCAGCCCATACATGAAAACC<br />
+CCCATCACTATGGCAACTAGAAATGGCAATAATTACACAGTGATTCATCATGT<br />
+&gt;TFLinkSS09617720;P01100;FOS;hg38;chr9:127579082-127579222<br />
+CCCCACCACCTCCCTCCCACCTCTTCCATGCTAGACTTTGTTTCCTGCTGGGCTGCAGCTGCCCCTCACCAGCTGGTGAC<br />
+TCAGAGCCTGGGCAGGATGACAGTGCCGATTGGGCCCTCGCAACCCTCTGAGCCTTCTGT<br />
+&gt;TFLinkSS09617828;P01100;FOS;hg38;chr2:190991-191114<br />
+ATTTTACAGAAAGCTGATTGGTCCATTTTACAGAGAGCTAATTGGTCCGTCTTGACAGGGTGCTGATTGGTGCGTTTACA<br />
+AACCTTGAGCTAGACTCAGAGTGCTAATTGGTGCATTTACGAT<br />
+&gt;TFLinkSS09617830;P01100;FOS;hg38;chr22:22123660-22123807<br />
+GGGCACAGAAGAGCTGTGTAGGCAAACAGGAAAGAACCCGGGATGGTCTGACTCCCCCACCTCAGCATACTTTATATGCG<br />
+GAGTTATGCAAATGAGTTCTGGGACTACATGTTCTGATTGGATGAGAGAAAAACCTCTAGGCATACT<br />
+&gt;TFLinkSS09617986;P01100;FOS;hg38;chr8:2127733-2127755<br />
+AGTACCTCGGCGTGACGCGGTG<br />
+&gt;TFLinkSS09618050;P01100;FOS;hg38;chr3:11752416-11752502<br />
+CTGATTGGTCCATTTTACAGAATGCTGATTGGTCCATTTTACAAACCTCTAGCTAGCCACTGAGCGCTGATTGGTGCGTT<br />
+TTACAA<br />
+&gt;TFLinkSS09618104;P01100;FOS;hg38;chrX:48649219-48649358<br />
+TCACCACCCCTAACCAGAGCTGTACAGTTGTTGCAATTGATGAACCTGCAATTGACGCATCATCATCACCCAAAGTCCAT<br />
+AGTTTACATTATGACTCACTCGTGTTGTATATTTTATGGGTTTTGACAAAGATACAAGG<br />
+&gt;TFLinkSS09618119;P01100;FOS;hg38;chr3:177203633-177203769<br />
+CTAGACATAGATCACTGATTGGTGCATTTACAAACCTTGAGCTAGACACAGGGTGCTGATTGGTGTGTTTACAAACCTCG<br />
+AGCTAGACACAGAGTGCTGATTGGTGCATTTACAATCCTCCAGCTAGACATGAAAG<br />
+&gt;TFLinkSS09618126;P01100;FOS;hg38;chr2:27682459-27682516<br />
+TAATGTGAGAAAGGGCTGTGGGCTTGGTATGATCACATCTTTCCCAGAACTTGGTTC<br />
+&gt;TFLinkSS09618244;P01100;FOS;hg38;chr5:135059677-135059796<br />
+ATGGTCCCACCCTGTGGGAGCTCACAGCCTATAGAGGGAGACAGACATCAATCCAGCAATCGCACCAATAGACACAAAAG<br />
+TACTGATACTGCATGGGGACAGCACTCTCTGCTGAGTTT<br />
+&gt;TFLinkSS09618254;P01100;FOS;hg38;chr16:31065160-31065273<br />
+CTGAGCCATTGCTAGCAGCTGGAAGCCTCTTTCTGAGTCATAACTGATGTATCTGATCTAACATGGCCTCCTGGGATACC<br />
+AGCTCTAGCTGAGATCCCTACTTTCTGGTCCAG<br />
+&gt;TFLinkSS09618389;P01100;FOS;hg38;chr9:38075844-38075965<br />
+ACTCTGTATCTAGCTCAAGGTTTCTAAACACACCAATCAGCACCCTGTGTCTAGTTCAGGGTTTGTGAATGCATCAATTG<br />
+ACACTCTGTATCTAGCTACTCTGGTGGGGACTTGGAGAACC<br />
+&gt;TFLinkSS09618423;P01100;FOS;hg38;chr3:14037857-14037940<br />
+GTGTCTAGCTCAGGGATTGTAAATGCACCAATCAGCTCTCTGTCAAAACAGACCAATCAGCTCTCTGTAAAATGGCCCGA<br />
+TCA<br />
+&gt;TFLinkSS09618433;P01100;FOS;hg38;chr7:142833381-142833460<br />
+TAAACTCTGGGACACATATGACCAGATAAAATGTCATCTGAATGTGCCAAACATAGAAAAGAATAAAAAAAGCAAAACA<br />
+&gt;TFLinkSS09618554;P01100;FOS;hg38;chr8:74179082-74179190<br />
+TGATTGGTCCATTTTGACAGGGTGCTTATTGATGTGTTTACAATTCCTGAGCTAGACACAGAGTGCTAATTGGTGCATTT<br />
+ACAATTCTTTAGCTAGACATAAAAGTTC<br />
+&gt;TFLinkSS09618556;P01100;FOS;hg38;chr5:51367771-51367907<br />
+TAAGATTTATAACACTTGCTTGAAAGACTAGAAATGTGAGATACATACATTTTCCAGTGGGAACTTCAGAATAAGCTTGG<br />
+AAGGGGCCTCTTTCTCCAACAGATGAGAAAAAAAGGCTAGCTGCTGGAGTGGAGTG<br />
+&gt;TFLinkSS09618675;P01100;FOS;hg38;chr7:113018042-113018168<br />
+ATCTAGCTCAAGGTTTGTAAACACACCAATCAGCACCCTGTGTCTAGCTCAGGGTTTGTGAATGCACCAATGGACACTCT<br />
+GTATCTAGCTACTCTGGTGGGGACTTAGAGAACCTTTGTGTCAACA<br />
+&gt;TFLinkSS09618882;P01100;FOS;hg38;chr1:43511523-43511639<br />
+CAAAGGTGGGTGTGTGACATGAGCCTGCAAATCAGACTACTCCATTTCCAATCTCTAGCCGTAGTGATTAGTTCACAGAT<br />
+GGGCACATGACCAAGCTGAGCCAATCAGAATCTTCC<br />
+&gt;TFLinkSS09618979;P01100;FOS;hg38;chr6:16869161-16869192<br />
+CCAGCGCTCTGTTGTACCTTCCAGCATCCAC<br />
+&gt;TFLinkSS09618999;P01100;FOS;hg38;chr2:10538608-10538744<br />
+CTAGCATTCAATCTGGTGGCTTCAGCACCCACCACACCTCCTAGAACCCAGTAAGCTCTTGACGCATGTCTGTGGGATGC<br />
+ATGGAAGAATGAGTCACCCTACCTCAAGAAATGTTGATGACTCTGTTTCCTAAGAG<br />
+&gt;TFLinkSS09619005;P01100;FOS;hg38;chr6:26152727-26152867<br />
+ACTAGAGGATTCAAGTAGTCCATAAGCAGCCAAGGTTCAGTCTACCTTCTGTGGTTGGAAAATAATGACTCATTGGATGC<br />
+TTAACTTTAGTTACTCTCCTTTCTCCTTCTTCAGCCCACTATAGTGGCCAGCCAGGTGTG<br />
+&gt;TFLinkSS09619088;P01100;FOS;hg38;chr11:76608388-76608456<br />
+CACATCCTGCTGATTGGTAGAGCCCGAGTGGCCTGTTTTCTCAGCGCGCTGATTGGTGCGTTTACAAT<br />
+&gt;TFLinkSS09619122;P01100;FOS;hg38;chr9:119870130-119870167<br />
+AGGGTGCTGATTGGTGTATTTACACTCCCTGAGCTAG<br />
+&gt;TFLinkSS09619165;P01100;FOS;hg38;chr1:150065581-150065725<br />
+AGTAGGCACTTCATATTCTGGATTTGCTGTCACTTGCCTGCAACAAAACAAGTAACTGGGTTTATCCTGGATGAGTCACA<br />
+AAGCAAGAGCTTGGATTTTATCATTGGTTTCAGTTCTATTTTTAGAGGTATGGGGATACAAAAG<br />
+&gt;TFLinkSS09619181;P01100;FOS;hg38;chr6:28005171-28005287<br />
+GCAGTTGATGGATCAGCTGGCACCACCCAGATGGATAAACTGGCTCATGTGATCTTGTGGCCCCCACCCAGGAACTGACT<br />
+CAGTGCAAGAGGACAACTTCAATTACCTATGATTTC<br />
+&gt;TFLinkSS09619451;P01100;FOS;hg38;chr22:27712300-27712381<br />
+TTTGTATTTTTTAGTAGAGACGAGGTTTCACCATGTTGGCCAGGCTGGTCTGGAACTCGTGACCTCAAGTGATCCTCCTG<br />
+C<br />
+&gt;TFLinkSS09619572;P01100;FOS;hg38;chr7:74850903-74851012<br />
+GGACCATACCCACGGACAAAACCCACAACCTGGGCCTCTAGGCAACGCGTGACGTCAGGGGGCGGATCCGGGGCGCAGTT<br />
+GCCTGGTAACAGCGGCGGCCCCCGCCCCC<br />
+&gt;TFLinkSS09619591;P01100;FOS;hg38;chr5:72234985-72235131<br />
+CCAGTAGAAACACCTGAGGAATTTTTCCAAACTATATCCATATCCCCTTGAGAGATTTTGATACAGTCCTAACCCCCAAC<br />
+TGAATCACCACTGAGCTGACTCACTGTTTCCAGGTGTTATATATAGTAGCCTCAGGTGTGCCGAAA<br />
+&gt;TFLinkSS09619593;P01100;FOS;hg38;chr17:58452937-58453083<br />
+CATCAGAGGATTACTTGAGCCCAGGAGGCTGAGGCTGCAGTGAGTCATAATCACACCACTGTACTTCAGCCTGGGTGACA<br />
+GAGGGAGACCCTGTCTCAAAACAAACAAACAAAAAGTCTCCCAGCAAAGAAAAGCCTAAGGCCTGA<br />
+&gt;TFLinkSS09619700;P01100;FOS;hg38;chr12:50845400-50845543<br />
+CCTCTGCCCTCTGTCATTCTGTACTCTTTCCTAGAGATGTCTAATCTACCTCTGTTTCAGCAATCACCATGTGCTGTCAA<br />
+CTCCTAGGTCTCTCCTGATGAGTCATATTTCCAGCTTTATTGGAGTCACATTTTAAATAAGTC<br />
+&gt;TFLinkSS09619771;P01100;FOS;hg38;chr5:118207674-118207795<br />
+GCGGACCCTGCAGGTTGTCACTGCTGGCTGGCGCAGCCTGCTTGTATTCCCTTATCTGGCCCCACCCACATCCTGCTGAT<br />
+TGGTCCATTTTACAGAGAGCGGATTGGTCTGTTTTAGAGAG<br />
+&gt;TFLinkSS09619816;P01100;FOS;hg38;chrX:115509500-115509630<br />
+TGATTGGTCCGTTTTACAGAGTGCCGATTGGTGCATTTACAATCCTTTAGCTAGACACAGAACGCTGATTGGTGTGTATT<br />
+TACAGAGTGCTGATTGGTGCATTTACAGTCCTTGAACTAGACACAGAGCC<br />
+&gt;TFLinkSS09619888;P01100;FOS;hg38;chr1:174281249-174281368<br />
+CTGCGCCCTGCTGATTGGTCCATTTTACAGAGCACTGATTGGTCCATTTTACAGAGCGCTGATTGGTCCATTTTACAGAG<br />
+TGCTGATTGGCCTGTTTTTACAGAGTGCTGTTTGGTGTG<br />
+&gt;TFLinkSS09620025;P01100;FOS;hg38;chr3:44550780-44550876<br />
+TTTACAATCCTCTAGCTAGATACAGAGTGCTGATTGGTGCAATGTTACAGGGTGCTGACTGGCGCATTTACAATCCTTTA<br />
+GCTAGACACAGAGTGC<br />
+&gt;TFLinkSS09620050;P01100;FOS;hg38;chr7:117596927-117597058<br />
+TAGCTCAGGGATTGTAAACGCACCAATCAGCACCCTGTCAAAACGGACCAATCAGCTCTCTGTAAAACCAATCTGCTGTC<br />
+TGTAAAATGGACCAATCAGCAGGATGTGGGTGGGGCCAGATAAGAGAATAA<br />
+&gt;TFLinkSS09620061;P01100;FOS;hg38;chr7:44549000-44549114<br />
+ATTATAATCAAACAGTTGAAAGGCAAATACTAAGAGAGAATATTGAAAACAAGAGAAAAGTGACTCATCACATACAAGGT<br />
+GTCCTCAATAAGATTATCAGCTGATTATAGCTGA<br />
+&gt;TFLinkSS09620130;P01100;FOS;hg38;chr2:8902958-8903018<br />
+TGGTCCATTTTACAGAGTGCTGATTGGTCCGTTTTATAGAGTGCTGATTGGTGCGTTTAC<br />
+&gt;TFLinkSS09620147;P01100;FOS;hg38;chr1:202037879-202037995<br />
+AGTCTTTTCACTGCACAGATCCTGCCCTAAGTATTATCACTGCTGCTGACTCAGAACCTTCAGATATGGGACATCTAGTC<br />
+ATTGGGTTCTACTTGGTTTCTGGGATGTATATGGAT<br />
+&gt;TFLinkSS09620330;P01100;FOS;hg38;chr1:149708502-149708519<br />
+GGGTTAGTCTCCTGAAT<br />
+&gt;TFLinkSS09620424;P01100;FOS;hg38;chr3:158550059-158550205<br />
+TGGTCCATTTTACAGAGCGCTGGTTGGTCCATTTTACAGAGGGCTGATTGGTGCATTTACAATCCTTTAGCTAGACACAG<br />
+AGCACTGATTGGTGCGTTTTTACAGAGTGCTGATTGGTGCATTTATGATCTTTTAGCTAGACACAG<br />
+&gt;TFLinkSS09620431;P01100;FOS;hg38;chr7:153225343-153225483<br />
+TGTGGACTTGGAGAACTTTTCTGTCTAGCTAGAGGATTGTAAACGCACCAATCAGCACTCTGCATCTAACTAAAGGATTG<br />
+TAAATGCACCAATCAGCACTCTGTAAAATGGACCAATCAGCACTCTGTAAAGTGGAAGAA<br />
+&gt;TFLinkSS09620433;P01100;FOS;hg38;chr17:51125558-51125706<br />
+CAGGTGACCTGCCCACCTCGGCATCCCAGAGTGCTGGGATTACAGGCGTGAGTCACCATACCTAGCTCCCCCCCGCCCCC<br />
+GCCTTTTTTTTTTTTTTTTTTGAGATGGAGTCTCACTCTGTCGCCAGGCTGGAGTGCAGTGGTGCGAT<br />
+&gt;TFLinkSS09620482;P01100;FOS;hg38;chr20:31393020-31393108<br />
+TAGAATATGGACACGTGGGTAGGTTCAGCCAATCAGATGACTCCATACTATTTTTTGAATCAGGTGCTCAAGATTCCAGG<br />
+AAGAAGGA<br />
+&gt;TFLinkSS09620587;P01100;FOS;hg38;chr22:24011078-24011120<br />
+ACACACACACACACACACACACACACACACACACACACACAC<br />
+&gt;TFLinkSS09620624;P01100;FOS;hg38;chr6:27829951-27830069<br />
+TTTAAAGTTTGTACTCACACTTTGGGTGATAAATGAAGGACAAGATCCTTCCCTATCCTTGTGAGGATGACTACAGCATG<br />
+ACTGGATGGGCTTGCTATGATTTTTATCTTTCCCTGTG<br />
+&gt;TFLinkSS09620953;P01100;FOS;hg38;chr10:34036163-34036311<br />
+AGCTCAAGGTTTGTAAACACACCAATCAGTACCCTGTGTCTAGCTCAAGGTTTGTAAATGCACCAATCAGTGCTCTGTAT<br />
+CTAGCTAATCTAGTGGGGACTTGGAGAACTTTTGTGTCTAGCTCAGGGATTGTAAATGCACCAATCAG<br />
+&gt;TFLinkSS09620967;P01100;FOS;hg38;chr22:20131237-20131303<br />
+GCGCCGGGCTTCCCAAAGGGCCCCGCCTCGGGGAGGATGGGGGCTCCAGCCGACCGTCTCTCAAGC<br />
+&gt;TFLinkSS09621050;P01100;FOS;hg38;chr19:4474703-4474847<br />
+CCAGCCTGCTCTCCTAGCCCCAAACGTTTCCAAGCACCTGATTGGAAGTGAAGGGGCTGTTAGTCTCCTGTGGGGAGGTG<br />
+ACTGACAGCTGCCGGAGCCCATGGGCCTGCAGGGAGAGGGTGGGACTTCCTGGATGCTCAGGGC<br />
+&gt;TFLinkSS09621087;P01100;FOS;hg38;chr12:47158947-47159047<br />
+TCTATCTCCATGAACTTTTTTAGCTCTCCCGTATGAGTAAGAACATGCAATATTTGTCTTTCTGAACCTGGTTTATCTCA<br />
+CTTAACATAAGTCCCATTCC<br />
+&gt;TFLinkSS09621169;P01100;FOS;hg38;chr7:22090976-22091103<br />
+TGTAAATGCACCAATCAGCACCCTGTGTCTAGCTCAAGGTTTGTAAATGCACCAATCAGTGCTCTGTGTCTAGCTAATCT<br />
+AGTGGGGACTTGGAGAACTTTTATGTCTGGCTAAAGGATTGTAAATG<br />
+&gt;TFLinkSS09621221;P01100;FOS;hg38;chr21:36382316-36382437<br />
+AATGATTCTTGTATGAGTTTGCTTTTGTTTTCCTGATATATATGCCAAGGAGTGGAATTGCTGAGTCATAGGGTAGGCGT<br />
+ATCATTAACTTTATTAGACAGTGCTGAACAGTTTTCTAAAG<br />
+&gt;TFLinkSS09621233;P01100;FOS;hg38;chr2:43439409-43439544<br />
+TCTCATGCTGTCCCACTCCATTCTGCCCAGGATGTGAATCAGCTCTCTATCCAGCTATCCATGTTGTATATGCCACCAGC<br />
+CATTAGTCATTTAGTAGCCAACTCTTATCAGATCAACTGTCCTGGTGTCACAGGG<br />
+&gt;TFLinkSS09621336;P01100;FOS;hg38;chr5:43315398-43315531<br />
+GTGTCGTTCCCTTATTGGCTAGGGTTAGACTGCACAGGCTAAACTAATTCCGATGGACTAATTTAAAGACAGTGATGGCG<br />
+GGAAAAATGGTTATGAAATGAGTCAGGGTGAAGAATGAATTGGAATGAGTCAA<br />
+&gt;TFLinkSS09621371;P01100;FOS;hg38;chr7:101167537-101167666<br />
+CGTTACCTTCCTGAGGAGGATGAATCAGAGAGAGATGGCTCAGACATCTGGAGAGGGGGAGGGGAAGCCATCCAAGAGAG<br />
+AAGGGAGAGGGGAGGGAGGGAGCCAAGGGGGCTGACTGAGTGGCTGATG<br />
+&gt;TFLinkSS09621442;P01100;FOS;hg38;chr5:180182607-180182756<br />
+GGTGCTTTTACAATCCCTTAGCTAGACACAGAGCACTGATTGGTGCATTTTTACAGAGTGCTGATTGGTGCTTTTACAAT<br />
+CCTTTAGCTAGACACAGAGCACTGATTGATGCGTTTTTACAGAGTGCTGATTGGTGCTTTTACAATCCT<br />
+&gt;TFLinkSS09621450;P01100;FOS;hg38;chr17:75201889-75202016<br />
+CTAGAGGACACTGGGAATATATGCAGATATTTTCAGTTTTCACAATTGTGGGATGTTATTGGCATCTAGTGGGTAAAGGT<br />
+CAGAAGTTGGAGTTCTTGTTCTTGGTGGGGTGTTGTTTTGTTTTGTT<br />
+&gt;TFLinkSS09621530;P01100;FOS;hg38;chr20:26135896-26135941<br />
+TCAGAACATGATCATAAAGCCCAATCAGAGTAAGCCTGGAGGTTT<br />
+&gt;TFLinkSS09621534;P01100;FOS;hg38;chr6:35606251-35606401<br />
+GAAGAAGCAGCCAACGAACATGAAAAAATGCCGAACATCACTAATCATCAGAGAAATGCAAATCAAAACCACAATGAGAT<br />
+ACCATCTCACAACTGAGTCAGAATGACTATTAATAAAAAGTCAAGGCCGGGCGCTGTGACTCATGCCTTT<br />
+&gt;TFLinkSS09621594;P01100;FOS;hg38;chr18:3583553-3583668<br />
+AATTAATCCACATGCTAGCTTATAAATCAGTCTTCGTGGGTTTGGTCTGTATGAGTCACTCCCTAAAGTGTCTTTCTTTA<br />
+GGGCAACTTGGTCAAGTCAAGGGCCTGAATCTGAC<br />
+&gt;TFLinkSS09621628;P01100;FOS;hg38;chr4:186820801-186820891<br />
+AAATGCATTTTTGAGTATGAATGAGTCATCTGTTTCTCTGGGTGCTTCATTTTTAGTTATAAAGTGCGTTGATCATATTT<br />
+CAAAAGCCTG<br />
+&gt;TFLinkSS09621686;P01100;FOS;hg38;chr12:50304400-50304539<br />
+ATCTGAAAATTGCACTATCCTCCAAAGGTCTTTACCTTCCAATGAGTCAGATAATTTTGGATCATTCCCATTAATGAGTC<br />
+ATGCTGACCAAATGTAGTTTTTGTGTATTTCTTGCTACAACTTTTAAATATTCCCTTCC<br />
+&gt;TFLinkSS09621887;P01100;FOS;hg38;chr22:40729029-40729114<br />
+ACTTGAGATAATGGGAGTGATAGAAGCAAGGAGCCTGCAAGTCTAGACACATTCCAGAGGTCACGAGGGTTTTTATGCCC<br />
+TGAGC<br />
+&gt;TFLinkSS09621969;P01100;FOS;hg38;chr17:36921554-36921583<br />
+TTAGGTTTAGGGGCAAAACCAAGTCTCAT<br />
+&gt;TFLinkSS09621971;P01100;FOS;hg38;chr17:36927807-36927925<br />
+GAGTGAATACAGAAGGAAAAAAAGTTTCCTAACATTTGGATTCAAAGTGAGAACGGTGAGTGGCACCCATCATCACTGTG<br />
+CGTGCAACCCCAACAAACACACACGCGCGCGCGCGCGC<br />
+&gt;TFLinkSS09622010;P01100;FOS;hg38;chr1:148264724-148264806<br />
+TGAGTCAAGTGTTGCCCGAATGTCCGAGGCCCAGGTCGCCCTGAGAAGGGGTGGGGACTTCCTGGGTCGCTGGGTCCCTG<br />
+GC<br />
+&gt;TFLinkSS09622029;P01100;FOS;hg38;chr3:157272429-157272552<br />
+TCTTTCTTTCCTTCTCTCTCTCTCTTTCTTCTCCCTTTCTTTTTTTTTTTCAGGGTCTCACTCTGTCACCCAGGCTGGAG<br />
+TGCAGTGACACAATCATGACTCACTGCAGCCTCCAGATCCTGG<br />
+&gt;TFLinkSS09622115;P01100;FOS;hg38;chr11:3324792-3324820<br />
+CAACCAATCAGAAACTGCCAAGCGCCCT<br />
+&gt;TFLinkSS09622116;P01100;FOS;hg38;chr7:107974010-107974073<br />
+AAGCATTCCTCCTGCCTTGGCCACCCAAAGCACTGAGATTACAAGTATGAGTCATCACACCTG<br />
+&gt;TFLinkSS09622367;P01100;FOS;hg38;chr7:74890651-74890801<br />
+TTTGACAGAGCCACTAGGCGAAAAGGAGAGACGGGAAGTATTTTTTCCGCCCCGCCCGGAAAGGGTGGAGCACAACGTCG<br />
+AAAGCAGCCAATGGGAGCCCAGGAGGCGGGGCGCCTGTGGGAGCCGTGGAGGGCACTTTCCCAGTCCCCG<br />
+&gt;TFLinkSS09622427;P01100;FOS;hg38;chr19:10583544-10583638<br />
+AAGAGGCGGGCAAGAGGGATAGACGGATAGACCAGTTAGCCAATGGGAGGCTAGTACCTACCTCTATTGTCTTATACAGG<br />
+AAGGAGTACACCAG<br />
+&gt;TFLinkSS09622492;P01100;FOS;hg38;chr4:2330205-2330307<br />
+ACAATTCTGAATGTACCAAAAACGACTGTGCACTGTAGATGGGTGAGTCATAGGGTAATGAATTTTATCTCAGTAACATG<br />
+GAAAAATAAATAACAGAGTAAG<br />
+&gt;TFLinkSS09622634;P01100;FOS;hg38;chr19:17296378-17296467<br />
+GACCCAAAAGCGGTAAGAATTACTCATCAGCAAGTGGTAGGAAAGCAATCTGATTAAACAAATGCTTCCGGCTGCCCAGG<br />
+GGAGGTCAC<br />
+&gt;TFLinkSS09622663;P01100;FOS;hg38;chr1:23101660-23101740<br />
+AGTAAACAAGGAACTAGACTGAAAATGGGGTTAGGAGGTCACTTATCTCTGACCTTTTGGCCCTAAGTAGCCAGGATAAG<br />
+&gt;TFLinkSS09622686;P01100;FOS;hg38;chr3:12768399-12768502<br />
+TGATTGGTCATTTTACAGAGAGCCGATTGGTCCGTTTTGACAGGGTGCTGATTGGTGCATTTACAATCCCTGAGCTAGAC<br />
+ACAGAGTGCCGATTGGTGTATTC<br />
+&gt;TFLinkSS09622852;P01100;FOS;hg38;chr12:113180472-113180610<br />
+TCCTACCTCTGCCTCCCCAAACGCTAAGATTACAGGCATGAGTCATCGCACCCAGCACTCATCTTGATATTTAAATCCTT<br />
+GCTCCAGCTGCTACTGATTTGTAAAGAGTAACAGAGTCAGGCTTTATTTCTGGCCAGC<br />
+&gt;TFLinkSS09622857;P01100;FOS;hg38;chr1:15588586-15588685<br />
+TTTACAGAAAGCTGATTGGTCTGTTTAGACAGAGTGCTGATTGGTGCGTTTACAAACCTTTAGCTAGACACAGAGTGCTC<br />
+ATTGGTGCATTTACAATCC<br />
+&gt;TFLinkSS09622884;P01100;FOS;hg38;chr12:92598167-92598296<br />
+CAGAAATACCCATCAAGATCATGATAGCTATACAACTTGGCTTAGTCACATAGCTGAGTCACTCGTGATGAAAAGATCCC<br />
+TCAGCTGAAGAATGAGTCTAACTCTTCCCCATATTGATATCTGAAATAC<br />
+&gt;TFLinkSS09622927;P01100;FOS;hg38;chr9:37468868-37468997<br />
+TCCCTTCCTGCAACCAATCAAACTGGTTACTGGCCTACTCTTCATTCTGACTGGTCCCCTCCCGCAACCAATCAGACTGA<br />
+TGGTGGGCCAATGGGAAACCTCTGGAGGTATTTAAACTCCAAAAAATTC<br />
+&gt;TFLinkSS09622958;P01100;FOS;hg38;chr11:9358129-9358245<br />
+TTTGTCTCTTTTAAAAAAGTTCTAAGTCCCTAGCCAATCAGGACAAAGACATAATGTGAGGTCCCGTTTCAGCCAATGGA<br />
+AACTGGACACAGCAGTAAGGTGGATGTGTCAGGTTA<br />
+&gt;TFLinkSS09622972;P01100;FOS;hg38;chr17:82246839-82246907<br />
+GATGAGTCACTGCCCACGGTGACTGTGTCTCCAGCTCACCCGAGCAAACAGGTGAGGCGCTCAGAGCA<br />
+&gt;TFLinkSS09623111;P01100;FOS;hg38;chr10:69101908-69102032<br />
+CGTTGTGACTCATGCTTGTGGTCCCAGCTACAAAGGAAGCTGAGGTGGGAGGATGGCTTGAGTCCGGGAGGGTGAGGCTG<br />
+CAGTGAGCCATGATCACGCCACTGCACTCCAGCCTGCACAACAG<br />
+&gt;TFLinkSS09623116;P01100;FOS;hg38;chr18:35465099-35465192<br />
+ACCCCCATGGACTTATCACTCAGCTTCAACTATAACTGACTCATGGCCAATCTTATTTCAACACGATTCTCATCCACTTC<br />
+CTCTCTCTCATAT<br />
+&gt;TFLinkSS09623147;P01100;FOS;hg38;chr19:7893504-7893551<br />
+TGGGTCTGGGTGAGTCACTGCCTGAGTCAGGGAACCCATGACTTTTT<br />
+&gt;TFLinkSS09623152;P01100;FOS;hg38;chr3:47022184-47022267<br />
+ACAATCTGTCACACACACACACACACACACACACACACACACACACACAAATTTAGCACGTGGGGTTCAGTGACTCATGC<br />
+CTG<br />
+&gt;TFLinkSS09623216;P01100;FOS;hg38;chr9:128175235-128175375<br />
+CGAGCTGGACGGGCTTTTTCATCATCTAACCAGTCCCCTACTTTCGAGTATTTTAGATCATTTCCCGTTAGATTTTTTCA<br />
+TCATGATACTAATAGCAAAGAACGTCTTGGTGAGTCATCATTCTCCTGTGTTTATGATTA<br />
+&gt;TFLinkSS09623249;P01100;FOS;hg38;chr6:7426358-7426386<br />
+GCTACTCTGGTAGGGACTTGGAGAACCT<br />
+&gt;TFLinkSS09623327;P01100;FOS;hg38;chr19:48892005-48892145<br />
+CTCCAGCCATAAGGTGGTTTTCTCCTATCTCAGAATAGAATGTATGGTCGGTTTTACACTGAGTCATTCCATTTCCAGAG<br />
+ACGTGCAGGAGACAGATGCCTCCTTCTTATCTTAACCGCATGGAGGCCTTTCTCTCTCAC<br />
+&gt;TFLinkSS09623345;P01100;FOS;hg38;chr9:89210081-89210181<br />
+AATCAGCACCCTGTGTCCAGCACAGGGTTTGTGAATGCACCAATCGACACTCTGTATCTAGCTATTCTGGTGGAGAGGCG<br />
+GAGAACTTTTGTGTCTAGCT<br />
+&gt;TFLinkSS09623434;P01100;FOS;hg38;chr19:36797312-36797446<br />
+GCCGCGCTCGGCCGGCCCCAAACACTTCTTATTGGCTAATCTGGAGCAAACCTGCATATCCATTGGCTGAAAGCTCCGTC<br />
+TATTTTAGGGTGACTGAGAGCGTCTCTTCCTTCTGTGTTGCCTGGAAACGGACT<br />
+&gt;TFLinkSS09623437;P01100;FOS;hg38;chrX:152640030-152640170<br />
+TTTTTCTGAGGGCTTTCATCTGCCCACTCTTCTTCGTCTCCCCTTCTCCTACCGCCTCCTCTCGTCAACCCCTACAAGTC<br />
+CTGCCTGGTAACAGGGATCCAGTCTCTGAGCCCCACCCTCTGGATTAAAGCTGGGAAGGT<br />
+&gt;TFLinkSS09623442;P01100;FOS;hg38;chr12:121741880-121742002<br />
+AGTCACCCTTTCATCTTCCTAGTGGGTGGGCCAAGGTGACTCACTCACAGCATTCTTGGATGTCTCCTAATTGTCATCTA<br />
+GTTAATTCTTAGCCTTTGCCTCTTCCTTATTTACTGACTTAA<br />
+&gt;TFLinkSS09623468;P01100;FOS;hg38;chr2:171230311-171230365<br />
+GTAGCTCCAGATACTGCCCATTTGCATCCCTGCTGTCCCCAAAGATAAGATCTG<br />
+&gt;TFLinkSS09623627;P01100;FOS;hg38;chr1:38275224-38275368<br />
+GCAGAGGTCAACCTTGGATGTGGGAGGTCTGAGTCACTGAAGCCCCAGCAATGCACCAACAGAGGAACAGAAGCTGGCAG<br />
+TCACCAAGGCTGCCTTCCTTGTCATCATTCAAAGCCGGGCTGGGGGGCAGCCAGGGGCTATGGA<br />
+&gt;TFLinkSS09623713;P01100;FOS;hg38;chr6:31308106-31308222<br />
+GGCCAGGGAGGGGAGGGAGGTCGCCCCGCCCACCCCAGCTCCTTCCTCCCTCTGTCATTGGTCACAGAACAAGTCAGTCA<br />
+TGATCCAGATTGAAGGAGAAACCTGGAGCAAAATGG<br />
+&gt;TFLinkSS09623738;P01100;FOS;hg38;chr6:17745043-17745108<br />
+CTCCAAGGCCCCACCAGAGCAGCTAGATACAGAGTGTCGATTGGTGGATTCACAAACCTCGAGCT<br />
+&gt;TFLinkSS09623755;P01100;FOS;hg38;chr4:86547799-86547903<br />
+ACACACCAATCAGCACCCTGTGTCTAGCTCAGGGTTTGTGAATGCACCAATCGACACTCTGTATTTAGCTACTCTGGTGG<br />
+GGCCTTAGAGAACCTTTATGTCTA<br />
+&gt;TFLinkSS09623773;P01100;FOS;hg38;chr22:18904867-18904914<br />
+GAGTCATCTCCAATGATAGGCAAGGTCACGTGGGTCACGTGTCCACT<br />
+&gt;TFLinkSS09623844;P01100;FOS;hg38;chr12:75585525-75585674<br />
+CTATACATGCCACCAGCCTATGAGTCACTTAGTAGCCATCTCAGTTATTAGATCAACCATTGTACTATCACACTGCTCGT<br />
+GTTCAAGCAACCCTTATTTTATCTAATAATGGCCCCAAAGTGCAAGAGTTGTGATGCTAGCAATTCAGA<br />
+&gt;TFLinkSS09623850;P01100;FOS;hg38;chr1:147245645-147245696<br />
+AGTATTGTTATCTTTGTGGATATAATTACATATTATTTTTGAAAATTCAAC<br />
+&gt;TFLinkSS09623892;P01100;FOS;hg38;chr1:30899368-30899386<br />
+GTCACCAAGCCTGCCTTG<br />
+&gt;TFLinkSS09624051;P01100;FOS;hg38;chr1:149942415-149942497<br />
+GTGCTTTGTGCAAAATGCGAAGGAGCTCCCCCTACTGTGTCCGCATCCCCACTCCCAGCCCCTAGAGAACAGGGAAGGGT<br />
+CA<br />
+&gt;TFLinkSS09624099;P01100;FOS;hg38;chr12:95458094-95458227<br />
+GCCCTTTTTTCAATCCTCCTCGTGATTGGCTACTTTTAGACTCCTGTTGATTGGTGCATTTTACAGAGCGCTGATTGGTG<br />
+CATTTTACAGAGCACTGATTGGTGCGTTTTACAGAACGTTGATTGGTGCATTT<br />
+&gt;TFLinkSS09624123;P01100;FOS;hg38;chr10:11619751-11619873<br />
+TCAGTATGTCTTGCCCCTGATGACTCATTCACGTAAGATTTTGTTGCTGTTATTAAGGTGAAATTCACATAAAATAAAAT<br />
+CAACCGTTTTTCAAGTGAACCCTACGGTAGCATTTAGTACAT<br />
+&gt;TFLinkSS09624195;P01100;FOS;hg38;chr6:147247331-147247464<br />
+GACTAGAACATAGGCATGAAATGATGCCCAATCCTGTTGGGAAGATGGGGGATCTGCTACTCTGGACCTAATTCTGATCT<br />
+ACAAAGACAACTGGTTGGTGATATGGAAATGATGAGTCATCTTGGAAATTGTA<br />
+&gt;TFLinkSS09624199;P01100;FOS;hg38;chr13:111198819-111198962<br />
+GTCCTGCTGATTGGTCCATTTTTACAGAGTGCTGATTGGTGCATTTACAAACCTTTAGCTAGACACAGAGCTCTGATTGG<br />
+TGCATTTTTACAGAGTGCTGATTGGTGTGTTTACAAACCTTTAGCTGGACACGGAGTGCTGAT<br />
+&gt;TFLinkSS09624266;P01100;FOS;hg38;chr12:21615556-21615662<br />
+GCCACCTTTATCTATAACCTATCATCTGTAACCTTATTTATAAGGCAGCCTTAGCCTTCTGACTCATTCTAACTAGACTT<br />
+CCCCCTTTTTCTTAGCTCTCCCTGCC<br />
+&gt;TFLinkSS09624312;P01100;FOS;hg38;chr19:4580472-4580502<br />
+GGCGGAGAGCAGGAGAGGAGGGCACGTGAC<br />
+&gt;TFLinkSS09624400;P01100;FOS;hg38;chr8:144876061-144876114<br />
+CAAAATGGACCAATCAGCTCTCTGTAAAACAGACCAATTGGCTCTCTGTAAAA<br />
+&gt;TFLinkSS09624414;P01100;FOS;hg38;chr2:91657043-91657123<br />
+TTCCCCTCCCCCAGGATATGAGTCATGCGGGCCCCCTCCCCATGACCTCACCGCATCACTATTCCACAGCTGGGCTCCGT<br />
+&gt;TFLinkSS09624420;P01100;FOS;hg38;chr3:170560410-170560458<br />
+AACAATATGGCAGAAAATGGGCAATGGTTAGGAGCAAGCAACTCACAG<br />
+&gt;TFLinkSS09624628;P01100;FOS;hg38;chr2:32858901-32859044<br />
+TTTCCCTTATTTGGCCCCACCCACGTCCTGCTAATTGGTCCATTTTACAGAGTGCTGATTAGTGTATTTACAGTCCTTTA<br />
+GCTAGACACAGAGTGCTGATTGGTGGGTTTTTACAGAGTGCTAATTAGTGGGTTTACAATCCT<br />
+&gt;TFLinkSS09624857;P01100;FOS;hg38;chr15:43473471-43473512<br />
+GCTAGATACAGAGTGTCCATTGGTACATTCACAAACCCTGA<br />
+&gt;TFLinkSS09624887;P01100;FOS;hg38;chr19:39983995-39984084<br />
+CTATAGGAATGAAGAATTCTGCCCAGGACCAATCAGAGGCACCCTGCAAATGAGGGATTCAGAATGAACCAATCACAGGC<br />
+ATTCCCATT<br />
+&gt;TFLinkSS09624957;P01100;FOS;hg38;chr16:29266727-29266856<br />
+CAGTGTGGCCTGACCTTCAGAAGTGAGTCACTTGAGGAGGAGTGGGAGGAAGTCCAGTCATTCCTCTAATAATCGTGTGA<br />
+TGGGGGAAGAGAGAGAGATTTGGAGGGAGGGAAGGAGAGAGGCAGAGAA<br />
+&gt;TFLinkSS09625061;P01100;FOS;hg38;chr19:39068452-39068530<br />
+GCAGAGTGCTGATTGGTCCATTTTATAGAGTGCTGATTGGTGCGTTTACAATCCTTTAGCTAGACACAGAGTGCTGAT<br />
+&gt;TFLinkSS09625136;P01100;FOS;hg38;chr15:92214522-92214597<br />
+CAGCACTCTGTGTCTAGCTACAGGATTGTAATTAAACCAATCAGCACTCTAAAAATGCACCAATCAATGCTCTGT<br />
+&gt;TFLinkSS09625143;P01100;FOS;hg38;chr2:218383963-218384097<br />
+GGACCTGACAAGTCAGGGCTTGAGGGGCAGGCAGTTCAGGTGCAAGCCGGCTGCTGAGCTTAACAGATCCAGAAAAAGAT<br />
+CCTCTGTGACTCATCAGAGCATGCTGCTTCCTCCACCCATGCCCTCCCCATCCC<br />
+&gt;TFLinkSS09625211;P01100;FOS;hg38;chr1:93754560-93754655<br />
+AATGATGACTCACATATATGACAGTGGTCCCATAAGATTATAATGGAGCTGAAAAATTCCTGTTGTCTAGTGATGTCATA<br />
+GCTGTGGTAACATCG<br />
+&gt;TFLinkSS09625316;P01100;FOS;hg38;chr13:110094770-110094917<br />
+AAAAACTCAGCCCCACACAATAGTGACATTTACTGCCCTCATGTTCATTCTCAGAATCTTCCACTGCAGTTGGAACATAT<br />
+TAGTCAGAGTCCTTTGAAAGCTGATGCAACGTGGGCCTGGAACTCTCAGAACAAGGCGTGATTGTGC<br />
+&gt;TFLinkSS09625388;P01100;FOS;hg38;chr1:154877552-154877666<br />
+CCCCTTCTCTGAGGCTTTGGTGTAGGAACTTGTTGTTCTAACCAGATGAGTCAGTCCGGATGGGAACGTTTATTTACTTG<br />
+AGGGAGTCAAAGGTCGAATGGAAGGTGCTGATAC<br />
+&gt;TFLinkSS09625448;P01100;FOS;hg38;chr19:13143275-13143358<br />
+ACAAACAAACCCAAAATAGGCCAGGCACAGTGACTCATGCCTGTAATCCCAGCACTTTGGGAGGCTGAAATAGGCGGATC<br />
+ATT<br />
+&gt;TFLinkSS09625458;P01100;FOS;hg38;chr12:51038457-51038553<br />
+ATGCCTTACAGCATTGTTTTTCAATCCATTAGTGAGTCATAAAATCAATGTAGTGAGTCATGTCCAGCATTTTACAAAAA<br />
+TGAAATAGGACAGAAT<br />
+&gt;TFLinkSS09625490;P01100;FOS;hg38;chr1:156336338-156336419<br />
+GACCCTAAGAAATGACCATTCATTGCTTTGCGTAAGCAGGGAAAGAGTTTGGGGATTCACATTTTTCTGCTTGGATAGGG<br />
+G<br />
+&gt;TFLinkSS09625540;P01100;FOS;hg38;chr21:34008707-34008839<br />
+TCAGCTATGCGGGAGACCAGAGTTTTATTATTACTCAAATCAGTCTCTCCAAGCATTCGTGGAGCAGAGCTTTTAAGGAC<br />
+ATCTTGGTGAGTGGGGGCGTGGGAGGCTAGTGAACCAGGAGTGCTGATTGGT<br />
+&gt;TFLinkSS09625657;P01100;FOS;hg38;chr19:40209833-40209878<br />
+TAGAAAGAGATGTATTGGCTGGGCACGATGACTCATACCTGTAAT<br />
+&gt;TFLinkSS09625723;P01100;FOS;hg38;chr10:96123005-96123121<br />
+ATATGACTCATAACTTTCTTGTCTCTCATTTCCTGCCTTACAGTTTTCTTTTATCTTTAGTTGACTTTTTATAGTGAAAT<br />
+GTTTTAATTCCCTTCTCATTTCTTTTTGTGTATATT<br />
+&gt;TFLinkSS09625769;P01100;FOS;hg38;chr7:99780123-99780195<br />
+ACTTTATAGATATAGGGGTTGATGAGTCATTGACTGAGGAACTGGAATGCTCAAGAGAACGAGGTAACATTA<br />
+&gt;TFLinkSS09626013;P01100;FOS;hg38;chr20:45069344-45069475<br />
+GCTCTAGGGTTGGCCCTTATTTTGTCTTGTCCAGCAGGATGGTGTCTCTTATTCTTTTGATGATCTCATTCTTTCCAAAG<br />
+TGTATTTCTTATAACAGAAGTTCTTTTTTGTTTGAATAAACAGTTTAAATG<br />
+&gt;TFLinkSS09626096;P01100;FOS;hg38;chr13:99487173-99487269<br />
+CTGAAGTGAAGTTACAAAGGTCACACGCCTATGCAAACATCTGATTGGTTGCAGAAAGCAACCAATCAGAGGCTAAGATG<br />
+AAGTTACAAAGTTGCA<br />
+&gt;TFLinkSS09626112;P01100;FOS;hg38;chr9:137135273-137135385<br />
+GTGATCCTATGTTCACAGATTAGAAGATTCAATATTGTGGCCGCGTGTGGTGACTCATGCCTGAAATCCCAGCACTTTGG<br />
+GAGGCCGGGGGCGGGGGGGGGGGTGGATTATG<br />
+&gt;TFLinkSS09626181;P01100;FOS;hg38;chr9:128372944-128373007<br />
+ACTTGCCTTTCATCCTCATGAGTCAGACATGGTCTTTGTTTATCAACAATGTCTCTGCTAGGT<br />
+&gt;TFLinkSS09626247;P01100;FOS;hg38;chr8:61487823-61487963<br />
+AACACTAGCCATCCTTTTCAAACTCATCCTGCAGAGGGAATGAGTCATCAACATTTCGTCAGCCATTGCCAACTTCTGGC<br />
+ATTTTTCTACCTGCTTCAGAACACCACAGTTTGTTCTACCAAAGTAACTGCACTGAGCAT<br />
+&gt;TFLinkSS09626254;P01100;FOS;hg38;chr13:58687898-58688044<br />
+GCTCTGCAGAAACGCACCAATCAGTGCTCTGTACCTAGCAAGATGTTTGTAAAATGGACCAATCAGCACTCTGTAAAATG<br />
+GACCAATCAGCACTCTGTAAATGGACCAATCAGCAGGATTCTAAAAGTAACCAATCGTGGGGAGGA<br />
+&gt;TFLinkSS09626301;P01100;FOS;hg38;chr5:68192369-68192492<br />
+GGTATTACAGGCATGAGTCACCGCGCAGGGCCTGAATGAGTTATCTTAAGAATAATATCACTGAAGATACCATACTGGTT<br />
+AACAATTACTACATAATAAATTACTCCCCCAAACCAGTAGCTT<br />
+&gt;TFLinkSS09626444;P01100;FOS;hg38;chr19:13942281-13942350<br />
+AACTCTGAACTCTACTTGCAGGCTTCTGTATGTGGTGCTAAGACATTCCCAGAACCAATAAGCATTCTT<br />
+&gt;TFLinkSS09626496;P01100;FOS;hg38;chr11:118634024-118634120<br />
+TGGCTTCCCTCCCCTGCCCTCAGCCCATGGCTCCACTCTGGCTTTGGAATCAGTAACCACAGTTTCTCCTCTGCCTGTCC<br />
+TTTGAGGGGTGACTCA<br />
+&gt;TFLinkSS09626545;P01100;FOS;hg38;chr18:104407-104496<br />
+TGTGTCATATATCACCAAATCTGCCTAAGCTTGAGTGAGTCACTACATGACAATTTCAGACTCCAGAAGCAATGTCCCCA<br />
+CTAACCACG<br />
+&gt;TFLinkSS09626610;P01100;FOS;hg38;chr21:39532062-39532204<br />
+AGTGAAATAAGCCCGTTACAACAGGATGAGTGCTGTATGATAAGTGGAATCATACAGTACGTTGTATGAGTCATCAAATG<br />
+GAGACAGCGAGTGGAATGGTTGTTGCAAGGGGTCATTATAGTTTAATGTGTATAGAGTTTTA<br />
+&gt;TFLinkSS09626629;P01100;FOS;hg38;chr22:30947940-30948034<br />
+CAACTTCTGAATTGGTTTCAAGATGATTTTACTGTCTACTCTGAACACTAGATGGCTCCATCTCAATGGGACCTTCACAA<br />
+AAGTCTTCCACTGA<br />
+&gt;TFLinkSS09626706;P01100;FOS;hg38;chr22:17760152-17760231<br />
+GTTTCATATCTGGCCGGGCACAATGACTCATGCCTATACTCCCAGCACTTTGGGAGGCTGATGAGGGCAGATCACTTGA<br />
+&gt;TFLinkSS09626718;P01100;FOS;hg38;chr9:97874035-97874179<br />
+CCTGACTTAGTGCAAAGGGGCCTGGGAAATGGAGTTGCTGGCTGAGCAATTGTTGTGCAGTGATGACTCACCCTGTGGCA<br />
+CCAGATGCACCCATCCTGGTGGACGGCTAGCTGGCCCTGCCTCAAATCACATAAGGTACCACAA<br />
+&gt;TFLinkSS09626956;P01100;FOS;hg38;chr10:73945559-73945602<br />
+AAACAGACCTATCAGTTCTTTGTAAAATGGACCAATCAGCAGG<br />
+&gt;TFLinkSS09761647;P01100;FOS;hg38;chr17:34255193-34255198<br />
+CACTC<br />
+&gt;TFLinkSS09761649;P01100;FOS;hg38;chr17:34255218-34255230<br />
+CTTGACTCCGCC<br />
+&gt;TFLinkSS09761650;P01100;FOS;hg38;chr17:7687525-7687533<br />
+GGGAGGGG<br />
+&gt;TFLinkSS09761687;P01100;FOS;hg38;chr8:56446727-56446734<br />
+GACGCAG<br />
+&gt;TFLinkSS09761704;P01100;FOS;hg38;chr17:44917081-44917091<br />
+AGGTGAGTCA<br />
+&gt;TFLinkSS09761714;P01100;FOS;hg38;chr14:94599405-94599417<br />
+GACTCACACAGT</p>
+
+    </div>
+  </div>
+  
+  <div class="uk-width-1-3@m">
+    <h2>Binding site sequences of FOS based on large-scale evidences</h2>
+    <button
+      onclick="location.href='https://cdn.netbiol.org/tflink/ls_fasta/TFLink_P01100_LS.fasta'"
+      type="button">
+      <span uk-icon="icon: download; ratio: 1.5"></span>
+      <h4 style="display: inline-block; margin: 0">Download</h4>
+    </button>
+  </div>
+  
+</div>
+
+
+
+
+
+
+<script src="/protein.e9931.js"></script>
+
+
+<script src="/network.e9931.js"></script>
+
+
+  </div>
+
+  
+  <footer class="uk-container uk-container-small"></footer>
+
+  
+
+  
+  
+  <script src="/main.e9931.js"></script>
+  
+</body>
+
+</html>

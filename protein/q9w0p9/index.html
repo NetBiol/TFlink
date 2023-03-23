@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<base href="/" />
+<title>TFLink</title>
+<link rel="stylesheet" href="https://cdn.webix.com/edge/webix.css" />
+
+<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-touch-icon.png?v=jwEjQXwyNy">
+<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png?v=jwEjQXwyNy">
+<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png?v=jwEjQXwyNy">
+<link rel="manifest" href="/images/favicon/site.webmanifest?v=jwEjQXwyNy">
+<link rel="mask-icon" href="/images/favicon/safari-pinned-tab.svg?v=jwEjQXwyNy" color="#70adb5">
+<link rel="shortcut icon" href="/images/favicon/favicon.ico?v=jwEjQXwyNy">
+<meta name="msapplication-TileColor" content="#00aba9">
+<meta name="msapplication-config" content="/images/favicon/browserconfig.xml?v=jwEjQXwyNy">
+<meta name="theme-color" content="#ffffff">
+
+
+
+<link href="/main.e9931.css" rel="stylesheet" />
+
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"
+  integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+<script src="https://cdn.webix.com/edge/webix.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.5/js/uikit.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.5/js/uikit-icons.min.js"></script>
+
+<script>
+  $(window).on('load', function () {
+    $('#spinner').fadeOut(300);
+  });
+</script>
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5RNBLSCVTD"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-5RNBLSCVTD');
+</script>
+
+</head>
+
+<body>
+  <div class="net-top-navbar" uk-sticky>
+    <div class="uk-container uk-container-center uk-container-expand">
+        <nav class="uk-navbar uk-navbar-container navbar">
+            <a class="uk-navbar-item uk-logo" href="/"><img src="/images/favicon/favicon-32x32.png">Link</a>
+            <ul class="uk-navbar-nav">
+                <li id="nav_browse">
+                    <a href="/browse/">Browse</a>
+                </li>
+                <li id="nav_download">
+                  <a href="/download/">Download</a>
+              </li>
+              <li id="nav_faq">
+                <a href="/faq/">FAQ</a>
+            </li>
+            </ul>
+        </nav>
+    </div>
+</div>
+
+
+  <div class="uk-container uk-container-expand uk-margin-large-bottom">
+    <div id="spinner"></div>
+    
+<div class="uk-grid" data-uk-grid-margin>
+  <div class="uk-width-medium-1-1">
+    <div class="uk-panel uk-panel-box uk-text-center">
+      <h1 id="protein_name">Kah</h1>
+      <hr class="" />
+    </div>
+  </div>
+</div>
+
+<div class="uk-grid-small" uk-grid uk-text-left>
+  <div class="uk-width-1-2@m">
+    <dl class="dl-horizontal">
+      <dt>Name</dt>
+      <dd>Kah</dd>
+      <dt>Uniprot Accession</dt>
+      <dd>
+        <a id="uniprot-id" href="https://www.uniprot.org/uniprot/Q9W0P9"
+          target="_blank" id="uniprot-ac">
+          Q9W0P9</a>
+      </dd>
+      <dt>NCBI Gene ID</dt>
+      <dd>
+        
+        <a href="https://www.ncbi.nlm.nih.gov/gene/?term=38072"
+          target="_blank">38072</a>
+        
+      </dd>
+      <dt>Organism</dt>
+      <dd>
+        <span>
+          <i id="organism">Drosophila melanogaster</i>
+          <span id="species_siluette" class="siluette-small">
+          </span>
+        </span>
+      </dd>
+      <dt>Function</dt>
+      <dd>transcription factor and target gene</dd>
+      <dt>Number of interactions</dt>
+      
+      <dd>79</dd>
+      
+      
+      
+    </dl>
+  </div>
+
+</div>
+
+
+<div class="uk-grid">
+  <div class="uk-width-2-3@xl">
+    <h2>Targets of Kah</h2>
+    <div>
+      <div id="target_paging"></div>
+      
+      <div style="position:relative;">
+        <span style="font-weight: bold">Please be aware that here we show only the top 100 rows of
+          the data. <br />
+          If you wish to see all the data please click the <i>download all</i> button.</span>
+        <button style="position:absolute; right:0px; bottom:5px"
+          onclick="location.href='https://cdn.netbiol.org/tflink/proteinDownload_targets/TFLink_targets_of_Q9W0P9.tsv'"
+          type="button">
+          <span uk-icon="icon: download; ratio: 1.5"></span>
+          <h4 style="display: inline-block; margin: 0">Download all</h4>
+        </button>
+      </div>
+      
+    </div>
+
+    <div id="target_div"></div>
+    <input id="target_data" type="hidden" name="target_data"
+      value="RluA-1,Q9VKV0,34438,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Dmel\CG4984,E1JGK3,37017,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+-,B4YX56,-,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Rhau,Q8SWT2,35339,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+MED15,Q9Y149,33223,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+mRpL3,Q9VXQ0,32523,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Glo1,A1Z6X6,35656,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Gp150-RC,E4NKH1,-,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+CG4975-RB,Q8MRX2,-,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+ome,A2RVG6,44297,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+cert,Q9Y128,38928,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Dmel\CG1529,B7Z152,33077,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Mob2,Q8IQG1,39293,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Gapdh2,P07487,32545,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Dmel\CG18549,Q9VG64,41538,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Tsp42Ed,Q7JWV7,35613,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+mtm,Q9VMI9,33845,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Vti1b,B7Z0M0,42215,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Dmel\CG4297,Q9VPQ4,33222,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+AnxB11,Q9VXG4,32612,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+-,Q8T0C9,-,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+-,Q8MRT8,-,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+PNPase,Q9V9X7,43710,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+-,Q8SYQ1,-,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Xrp1,Q9VE23,42267,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+MED14,Q9W0P8,38073,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+koko-RF,C6TP30,-,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+sgg,P18431,31248,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+CG13560-RA,F3YDA4,-,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+-,Q9VW14,40132,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+-,Q2XY74,-,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+CG8089,Q4V721,-,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Pex1,Q9VUC7,45460,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+hang,Q9VXG1,32613,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Dmel\CG1635,Q95TK5,43720,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Gp150,Q8MLT4,37549,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Dmel\CG31643,Q960W0,318867,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+AdSL,Q9VEP6,42051,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Dmel\CG14511,Q9VAN9,43445,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Tsp42Ee,Q7KJ73,35614,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+-,B4YX61,-,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Dmel\CG3744,Q9VC19,42972,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Gprk2,P32866,49045,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Dmel\CG8089,Q4V3F5,36679,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+-,B4YX57,-,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+RyR,Q24498,49090,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+CAP,A0A0B4K7L3,36084,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Dmel\CG9117,Q9VMI8,33846,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Vha100-2,Q9VE75,42216,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Echs1,Q7JR58,36536,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Graf,X2JDY8,32522,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+jdp,Q9TVP3,43630,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Dmel\CG13560,Q9W1K3,37758,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+PEK,Q9NIV1,40653,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+DEF8,Q9VTT9,39381,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+jp,Q7JV09,34274,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Dmel\CG7889,Q9VWJ9,32916,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+CG3744-RC,A0A0C4FEI9,-,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+-,B4YX63,-,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+RhoGAP18B,Q9VWL7,32898,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Ugt37D1,Q9VJH8,53511,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+RpS3A,P55830,43768,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+RhoGAP18B-RD,C7LAB7,-,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Dmel\CG10321,A0A0B4KFE8,37464,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+-,A8WHG7,-,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+-,Q8SZ99,-,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Pde1c,B7YZV4,34594,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+-,Q7K3B9,36680,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No" />
+    <p></p>
+  </div>
+  <div class="uk-width-1-3@xl">
+    <div id="target-network-div"
+      style="height: 400px; width: 400px; border-style: solid; border-width: .1em;">
+    </div>
+    <div id="targetControlDiv"></div>
+  </div>
+</div>
+
+
+
+
+<div class=" uk-grid" data-uk-grid-margin>
+  <div class="uk-width-2-3@xl">
+    <h2>Transcription factors of Kah</h2>
+    <div>
+      <div id="tf_paging"></div>
+      
+      <div style="position:relative;">
+        <span style="font-weight: bold">Please be aware that here we show only the top 100 rows of
+          the data. <br />
+          If you wish to see all the data please click the <i>download all</i> button.</span>
+        <button style="position:absolute; right:0px; bottom:5px"
+          onclick="location.href='https://cdn.netbiol.org/tflink/proteinDownload_tfs/TFLink_tfs_of_Q9W0P9.tsv'"
+          type="button">
+          <span uk-icon="icon: download; ratio: 1.5"></span>
+          <h4 style="display: inline-block; margin: 0">Download all</h4>
+        </button>
+      </div>
+      
+    </div>
+    <div id="tf_div"></div>
+    <input id="tf_data" type="hidden" name="tf_data" value="Nipped-B,Q7PLI2,3355136,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Psc,P35820,36431,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Med,O62609,43725,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+ash1,Q9VW15,40133,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Myc,Q9W4S7,31310,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+AGO2,Q9VUQ5,39683,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+pho,Q8ST83,43819,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Cp190,Q24478,41848,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Pc,P26017,40358,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+Trl,Q08605,2768981,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+lark,Q94901,38811,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No" />
+    <p></p>
+  </div>
+  <div class="uk-width-1-3@xl">
+    <div id="tf-network-div"
+      style="height: 400px; width: 400px; border-style: solid; border-width: .1em;">
+    </div>
+    <div id="tfControlDiv"></div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+<script src="/protein.e9931.js"></script>
+
+
+<script src="/network.e9931.js"></script>
+
+
+  </div>
+
+  
+  <footer class="uk-container uk-container-small"></footer>
+
+  
+
+  
+  
+  <script src="/main.e9931.js"></script>
+  
+</body>
+
+</html>

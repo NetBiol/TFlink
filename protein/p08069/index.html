@@ -1,0 +1,2840 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<base href="/" />
+<title>TFLink</title>
+<link rel="stylesheet" href="https://cdn.webix.com/edge/webix.css" />
+
+<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-touch-icon.png?v=jwEjQXwyNy">
+<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png?v=jwEjQXwyNy">
+<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png?v=jwEjQXwyNy">
+<link rel="manifest" href="/images/favicon/site.webmanifest?v=jwEjQXwyNy">
+<link rel="mask-icon" href="/images/favicon/safari-pinned-tab.svg?v=jwEjQXwyNy" color="#70adb5">
+<link rel="shortcut icon" href="/images/favicon/favicon.ico?v=jwEjQXwyNy">
+<meta name="msapplication-TileColor" content="#00aba9">
+<meta name="msapplication-config" content="/images/favicon/browserconfig.xml?v=jwEjQXwyNy">
+<meta name="theme-color" content="#ffffff">
+
+
+
+<link href="/main.e9931.css" rel="stylesheet" />
+
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"
+  integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+<script src="https://cdn.webix.com/edge/webix.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.5/js/uikit.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.5/js/uikit-icons.min.js"></script>
+
+<script>
+  $(window).on('load', function () {
+    $('#spinner').fadeOut(300);
+  });
+</script>
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5RNBLSCVTD"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-5RNBLSCVTD');
+</script>
+
+</head>
+
+<body>
+  <div class="net-top-navbar" uk-sticky>
+    <div class="uk-container uk-container-center uk-container-expand">
+        <nav class="uk-navbar uk-navbar-container navbar">
+            <a class="uk-navbar-item uk-logo" href="/"><img src="/images/favicon/favicon-32x32.png">Link</a>
+            <ul class="uk-navbar-nav">
+                <li id="nav_browse">
+                    <a href="/browse/">Browse</a>
+                </li>
+                <li id="nav_download">
+                  <a href="/download/">Download</a>
+              </li>
+              <li id="nav_faq">
+                <a href="/faq/">FAQ</a>
+            </li>
+            </ul>
+        </nav>
+    </div>
+</div>
+
+
+  <div class="uk-container uk-container-expand uk-margin-large-bottom">
+    <div id="spinner"></div>
+    
+<div class="uk-grid" data-uk-grid-margin>
+  <div class="uk-width-medium-1-1">
+    <div class="uk-panel uk-panel-box uk-text-center">
+      <h1 id="protein_name">IGF1R</h1>
+      <hr class="" />
+    </div>
+  </div>
+</div>
+
+<div class="uk-grid-small" uk-grid uk-text-left>
+  <div class="uk-width-1-2@m">
+    <dl class="dl-horizontal">
+      <dt>Name</dt>
+      <dd>IGF1R</dd>
+      <dt>Uniprot Accession</dt>
+      <dd>
+        <a id="uniprot-id" href="https://www.uniprot.org/uniprot/P08069"
+          target="_blank" id="uniprot-ac">
+          P08069</a>
+      </dd>
+      <dt>NCBI Gene ID</dt>
+      <dd>
+        
+        <a href="https://www.ncbi.nlm.nih.gov/gene/?term=3480"
+          target="_blank">3480</a>
+        
+      </dd>
+      <dt>Organism</dt>
+      <dd>
+        <span>
+          <i id="organism">Homo sapiens</i>
+          <span id="species_siluette" class="siluette-small">
+          </span>
+        </span>
+      </dd>
+      <dt>Function</dt>
+      <dd>transcription factor and target gene</dd>
+      <dt>Number of interactions</dt>
+      
+      <dd>690</dd>
+      
+      
+      <input id="ortholog_data" type="hidden" name="ortholog_data"
+        value="[{&#34;species&#34;: &#34;Caenorhabditis elegans&#34;, &#34;id&#34;: [&#34;A0A0K3AUY1&#34;]}, {&#34;species&#34;: &#34;Mus musculus&#34;, &#34;id&#34;: [&#34;&lt;a href=\&#34;/protein/e9qnx9\&#34;&gt;E9QNX9&lt;/a&gt;&#34;]}, {&#34;species&#34;: &#34;Rattus norvegicus&#34;, &#34;id&#34;: [&#34;&lt;a href=\&#34;/protein/a0a140tab8\&#34;&gt;A0A140TAB8&lt;/a&gt;&#34;]}, {&#34;species&#34;: &#34;Danio rerio&#34;, &#34;id&#34;: [&#34;&lt;a href=\&#34;/protein/b0r0q2\&#34;&gt;B0R0Q2&lt;/a&gt;&#34;]}]" />
+      <dt>Orthologs</dt>
+      <dd>
+        <ul id="ulOrtholog" class="target-blank"></ul>
+      </dd>
+      
+      
+    </dl>
+  </div>
+
+</div>
+
+
+<div class="uk-grid">
+  <div class="uk-width-2-3@xl">
+    <h2>Targets of IGF1R</h2>
+    <div>
+      <div id="target_paging"></div>
+      
+      <div style="position:relative;">
+        <span style="font-weight: bold">Please be aware that here we show only the top 100 rows of
+          the data. <br />
+          If you wish to see all the data please click the <i>download all</i> button.</span>
+        <button style="position:absolute; right:0px; bottom:5px"
+          onclick="location.href='https://cdn.netbiol.org/tflink/proteinDownload_targets/TFLink_targets_of_P08069.tsv'"
+          type="button">
+          <span uk-icon="icon: download; ratio: 1.5"></span>
+          <h4 style="display: inline-block; margin: 0">Download all</h4>
+        </button>
+      </div>
+      
+    </div>
+
+    <div id="target_div"></div>
+    <input id="target_data" type="hidden" name="target_data"
+      value="PMF1,Q6P1K2,100527963;11243,ORegAnno;PAZAR,inferred by curator,18971253%5Buid%5D&#43;OR&#43;26578589%5Buid%5D,No
+GALNT18,Q6P9A2,374378,ORegAnno;PAZAR,inferred by curator,18971253%5Buid%5D&#43;OR&#43;26578589%5Buid%5D,No
+CDC27,P30260,996,ORegAnno;PAZAR,inferred by curator,18971253%5Buid%5D&#43;OR&#43;26578589%5Buid%5D,No
+MUC3A,Q02505,4584,ORegAnno;PAZAR,inferred by curator,18971253%5Buid%5D&#43;OR&#43;26578589%5Buid%5D,No
+FBN1,P35555,2200,ORegAnno;PAZAR,inferred by curator,18971253%5Buid%5D&#43;OR&#43;26578589%5Buid%5D,No
+ZNF716,A6NP11,441234,ORegAnno;PAZAR,inferred by curator,18971253%5Buid%5D&#43;OR&#43;26578589%5Buid%5D,No
+STAG1,Q8WVM7,10274,ORegAnno;PAZAR,inferred by curator,18971253%5Buid%5D&#43;OR&#43;26578589%5Buid%5D,No
+CNTNAP2,Q9UHC6,26047,ORegAnno;PAZAR,inferred by curator,18971253%5Buid%5D&#43;OR&#43;26578589%5Buid%5D,No
+MTRNR2L1,P0CJ68,100462977,ORegAnno;PAZAR,inferred by curator,18971253%5Buid%5D&#43;OR&#43;26578589%5Buid%5D,No
+SNX16,P57768,64089,ORegAnno;PAZAR,inferred by curator,18971253%5Buid%5D&#43;OR&#43;26578589%5Buid%5D,No
+ZNF717,Q9BY31,-,ORegAnno;PAZAR,inferred by curator,18971253%5Buid%5D&#43;OR&#43;26578589%5Buid%5D,No
+CARTPT,Q16568,9607,ORegAnno;PAZAR,inferred by curator,18971253%5Buid%5D&#43;OR&#43;26578589%5Buid%5D,No
+GALC,P54803,2581,ORegAnno;PAZAR,inferred by curator,18971253%5Buid%5D&#43;OR&#43;26578589%5Buid%5D,No
+RAMP3,O60896,10268,ORegAnno;PAZAR,inferred by curator,18971253%5Buid%5D&#43;OR&#43;26578589%5Buid%5D,No
+MTIF3,Q9H2K0,219402,ORegAnno;PAZAR,inferred by curator,18971253%5Buid%5D&#43;OR&#43;26578589%5Buid%5D,No
+OR4C12,Q96R67,283093,ORegAnno;PAZAR,inferred by curator,18971253%5Buid%5D&#43;OR&#43;26578589%5Buid%5D,No
+SLCO5A1,Q9H2Y9,81796,ORegAnno;PAZAR,inferred by curator,18971253%5Buid%5D&#43;OR&#43;26578589%5Buid%5D,No
+HFM1,A2PYH4,164045,ORegAnno;PAZAR,inferred by curator,18971253%5Buid%5D&#43;OR&#43;26578589%5Buid%5D,No
+CHD6,Q8TD26,84181,ORegAnno;PAZAR,inferred by curator,18971253%5Buid%5D&#43;OR&#43;26578589%5Buid%5D,No
+ATP4A,P20648,495,ORegAnno;PAZAR,inferred by curator,18971253%5Buid%5D&#43;OR&#43;26578589%5Buid%5D,No
+EMB,Q6PCB8,133418,ORegAnno;PAZAR,inferred by curator,18971253%5Buid%5D&#43;OR&#43;26578589%5Buid%5D,No
+SENP2,Q9HC62,59343,GTRD;ORegAnno;PAZAR,chromatin immunoprecipitation assay;inferred by curator,18971253%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#43;OR&#43;26578589%5Buid%5D,No
+PRIM2,P49643,5558,ORegAnno;PAZAR,inferred by curator,18971253%5Buid%5D&#43;OR&#43;26578589%5Buid%5D,No
+TRIM48,Q8IWZ4,79097,ORegAnno;PAZAR,inferred by curator,18971253%5Buid%5D&#43;OR&#43;26578589%5Buid%5D,No
+PCBD2,Q9H0N5,84105,ORegAnno;PAZAR,inferred by curator,18971253%5Buid%5D&#43;OR&#43;26578589%5Buid%5D,No
+DEFB115,Q30KQ5,245929,ORegAnno;PAZAR,inferred by curator,18971253%5Buid%5D&#43;OR&#43;26578589%5Buid%5D,No
+EXOC4,Q96A65,60412,ORegAnno;PAZAR,inferred by curator,18971253%5Buid%5D&#43;OR&#43;26578589%5Buid%5D,No
+USP14,P54578,9097,ORegAnno;PAZAR,inferred by curator,18971253%5Buid%5D&#43;OR&#43;26578589%5Buid%5D,No
+TMEM117,Q9H0C3,84216,ORegAnno;PAZAR,inferred by curator,18971253%5Buid%5D&#43;OR&#43;26578589%5Buid%5D,No
+TANK,Q92844,10010,ORegAnno;PAZAR,inferred by curator,18971253%5Buid%5D&#43;OR&#43;26578589%5Buid%5D,No
+DHFR,P00374,1719,ORegAnno;PAZAR,inferred by curator,18971253%5Buid%5D&#43;OR&#43;26578589%5Buid%5D,No
+NOS1,P29475,4842,ORegAnno;PAZAR,inferred by curator,18971253%5Buid%5D&#43;OR&#43;26578589%5Buid%5D,No
+MYO16,Q9Y6X6,23026,ORegAnno;PAZAR,inferred by curator,18971253%5Buid%5D&#43;OR&#43;26578589%5Buid%5D,No
+VPS13B,Q7Z7G8,157680,ORegAnno;PAZAR,inferred by curator,18971253%5Buid%5D&#43;OR&#43;26578589%5Buid%5D,No
+APOB,P04114,338,ORegAnno;PAZAR,inferred by curator,18971253%5Buid%5D&#43;OR&#43;26578589%5Buid%5D,No
+PID1,Q7Z2X4,55022,ORegAnno;PAZAR,inferred by curator,18971253%5Buid%5D&#43;OR&#43;26578589%5Buid%5D,No
+SCN5A,Q14524,6331,ORegAnno;PAZAR,inferred by curator,18971253%5Buid%5D&#43;OR&#43;26578589%5Buid%5D,No
+PDE3A,Q14432,5139,ORegAnno;PAZAR,inferred by curator,18971253%5Buid%5D&#43;OR&#43;26578589%5Buid%5D,No
+DLG2,Q15700,1740,ORegAnno;PAZAR,inferred by curator,18971253%5Buid%5D&#43;OR&#43;26578589%5Buid%5D,No
+CCSER1,Q9C0I3,401145,ORegAnno;PAZAR,inferred by curator,18971253%5Buid%5D&#43;OR&#43;26578589%5Buid%5D,No
+CCDC200,A0A1B0GVQ3,-,ORegAnno;PAZAR,inferred by curator,18971253%5Buid%5D&#43;OR&#43;26578589%5Buid%5D,No
+SHQ1,Q6PI26,55164,ORegAnno;PAZAR,inferred by curator,18971253%5Buid%5D&#43;OR&#43;26578589%5Buid%5D,No
+SPTAN1,Q13813,6709,ORegAnno;PAZAR,inferred by curator,18971253%5Buid%5D&#43;OR&#43;26578589%5Buid%5D,No
+KCNK12,Q9HB15,56660,ORegAnno;PAZAR,inferred by curator,18971253%5Buid%5D&#43;OR&#43;26578589%5Buid%5D,No
+LPAR3,Q9UBY5,23566,ORegAnno;PAZAR,inferred by curator,18971253%5Buid%5D&#43;OR&#43;26578589%5Buid%5D,No
+TRIM64C,A6NLI5,646754,ORegAnno;PAZAR,inferred by curator,18971253%5Buid%5D&#43;OR&#43;26578589%5Buid%5D,No
+MAN1A1,P33908,4121,ORegAnno;PAZAR,inferred by curator,18971253%5Buid%5D&#43;OR&#43;26578589%5Buid%5D,No
+DPP6,P42658,1804,ORegAnno;PAZAR,inferred by curator,18971253%5Buid%5D&#43;OR&#43;26578589%5Buid%5D,No
+SENP5,Q96HI0,205564,ORegAnno;PAZAR,inferred by curator,18971253%5Buid%5D&#43;OR&#43;26578589%5Buid%5D,No
+ROCK1,Q13464,6093,ORegAnno;PAZAR,inferred by curator,18971253%5Buid%5D&#43;OR&#43;26578589%5Buid%5D,No
+HCN1,O60741,348980,ORegAnno;PAZAR,inferred by curator,18971253%5Buid%5D&#43;OR&#43;26578589%5Buid%5D,No
+XYLT1,Q86Y38,64131,ORegAnno;PAZAR,inferred by curator,18971253%5Buid%5D&#43;OR&#43;26578589%5Buid%5D,No
+ZNF664,Q8N3J9,144348,ORegAnno;PAZAR,inferred by curator,18971253%5Buid%5D&#43;OR&#43;26578589%5Buid%5D,No
+IGF1R,P08069,3480,GTRD;ORegAnno;PAZAR,chromatin immunoprecipitation assay;inferred by curator,18971253%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#43;OR&#43;26578589%5Buid%5D,No
+DCC,P43146,1630,ORegAnno;PAZAR,inferred by curator,18971253%5Buid%5D&#43;OR&#43;26578589%5Buid%5D,No
+KIF5C,O60282,3800,ORegAnno;PAZAR,inferred by curator,18971253%5Buid%5D&#43;OR&#43;26578589%5Buid%5D,No
+PDZRN4,Q6ZMN7,29951,ORegAnno;PAZAR,inferred by curator,18971253%5Buid%5D&#43;OR&#43;26578589%5Buid%5D,No
+IGKV2D-40,P01614,-,ORegAnno;PAZAR,inferred by curator,18971253%5Buid%5D&#43;OR&#43;26578589%5Buid%5D,No
+UNC45B,Q8IWX7,146862,ORegAnno;PAZAR,inferred by curator,18971253%5Buid%5D&#43;OR&#43;26578589%5Buid%5D,No
+TMEM106A,Q96A25,113277,ORegAnno;PAZAR,inferred by curator,18971253%5Buid%5D&#43;OR&#43;26578589%5Buid%5D,No
+CWH43,Q9H720,80157,ORegAnno;PAZAR,inferred by curator,18971253%5Buid%5D&#43;OR&#43;26578589%5Buid%5D,No
+PARN,O95453,5073,ORegAnno;PAZAR,inferred by curator,18971253%5Buid%5D&#43;OR&#43;26578589%5Buid%5D,No
+UGT2B4,P06133,7363,ORegAnno;PAZAR,inferred by curator,18971253%5Buid%5D&#43;OR&#43;26578589%5Buid%5D,No
+MTRNR2L8,P0CJ75,100463486,ORegAnno;PAZAR,inferred by curator,18971253%5Buid%5D&#43;OR&#43;26578589%5Buid%5D,No
+PTPRN2,Q92932,5799,ORegAnno;PAZAR,inferred by curator,18971253%5Buid%5D&#43;OR&#43;26578589%5Buid%5D,No
+DGCR6,Q14129,8214,ORegAnno;PAZAR,inferred by curator,18971253%5Buid%5D&#43;OR&#43;26578589%5Buid%5D,No
+PDE4B,Q07343,5142,ORegAnno;PAZAR,inferred by curator,18971253%5Buid%5D&#43;OR&#43;26578589%5Buid%5D,No
+ANKRD30BL,A7E2S9,-,ORegAnno;PAZAR,inferred by curator,18971253%5Buid%5D&#43;OR&#43;26578589%5Buid%5D,No
+ZNF254,O75437,9534,ORegAnno;PAZAR,inferred by curator,18971253%5Buid%5D&#43;OR&#43;26578589%5Buid%5D,No" />
+    <p></p>
+  </div>
+  <div class="uk-width-1-3@xl">
+    <div id="target-network-div"
+      style="height: 400px; width: 400px; border-style: solid; border-width: .1em;">
+    </div>
+    <div id="targetControlDiv"></div>
+  </div>
+</div>
+
+
+
+
+<div class=" uk-grid" data-uk-grid-margin>
+  <div class="uk-width-2-3@xl">
+    <h2>Transcription factors of IGF1R</h2>
+    <div>
+      <div id="tf_paging"></div>
+      
+      <div style="position:relative;">
+        <span style="font-weight: bold">Please be aware that here we show only the top 100 rows of
+          the data. <br />
+          If you wish to see all the data please click the <i>download all</i> button.</span>
+        <button style="position:absolute; right:0px; bottom:5px"
+          onclick="location.href='https://cdn.netbiol.org/tflink/proteinDownload_tfs/TFLink_tfs_of_P08069.tsv'"
+          type="button">
+          <span uk-icon="icon: download; ratio: 1.5"></span>
+          <h4 style="display: inline-block; margin: 0">Download all</h4>
+        </button>
+      </div>
+      
+    </div>
+    <div id="tf_div"></div>
+    <input id="tf_data" type="hidden" name="tf_data" value="TFAP2A,P05549,7020,GTRD;ReMap;TRED,chromatin immunoprecipitation assay;inferred by curator,29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#43;OR&#43;17202159%5Buid%5D,Yes
+KLF6,Q99612,1316,GTRD;ReMap;TRRUST,chromatin immunoprecipitation assay;inferred by curator,29126285%5Buid%5D&#43;OR&#43;29087512%5Buid%5D&#43;OR&#43;15131018%5Buid%5D&#43;OR&#43;27924024%5Buid%5D,Yes
+TP53,P04637,7157,GTRD;ORegAnno;PAZAR;ReMap;TRED;TRRUST,chromatin immunoprecipitation assay;inferred by curator,12444079%5Buid%5D&#43;OR&#43;11001824%5Buid%5D&#43;OR&#43;29126285%5Buid%5D&#43;OR&#43;26578589%5Buid%5D&#43;OR&#43;18971253%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#43;OR&#43;17600529%5Buid%5D&#43;OR&#43;17202159%5Buid%5D&#43;OR&#43;29087512%5Buid%5D&#43;OR&#43;17097318%5Buid%5D,Yes
+SP1,P08047,6667,GTRD;ReMap;TRED;TRRUST,chromatin immunoprecipitation assay;inferred by curator,29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#43;OR&#43;15345673%5Buid%5D&#43;OR&#43;17202159%5Buid%5D&#43;OR&#43;29087512%5Buid%5D,Yes
+NKX3-1,Q99801,4824,GTRD;ReMap;TRRUST,chromatin immunoprecipitation assay;inferred by curator,29087512%5Buid%5D&#43;OR&#43;29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#43;OR&#43;22179513%5Buid%5D,Yes
+BRCA1,P38398,672,GTRD;TRED;TRRUST,chromatin immunoprecipitation assay;inferred by curator,11001824%5Buid%5D&#43;OR&#43;19223505%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#43;OR&#43;17202159%5Buid%5D&#43;OR&#43;29087512%5Buid%5D,Yes
+VHL,P40337,7428,TRRUST,inferred by curator,19509240%5Buid%5D&#43;OR&#43;29087512%5Buid%5D&#43;OR&#43;17486080%5Buid%5D,Yes
+AR,P10275,367,GTRD;HTRI;ReMap;TRRUST,chromatin immunoprecipitation array;chromatin immunoprecipitation assay;inferred by curator,29126285%5Buid%5D&#43;OR&#43;20610535%5Buid%5D&#43;OR&#43;17202144%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#43;OR&#43;15033751%5Buid%5D&#43;OR&#43;29087512%5Buid%5D&#43;OR&#43;22900683%5Buid%5D,Yes
+WT1,P19544,7490,GTRD;HTRI;TRED;TRRUST,chromatin immunoprecipitation assay;electrophoretic mobility shift assay;inferred by curator,12444079%5Buid%5D&#43;OR&#43;11001824%5Buid%5D&#43;OR&#43;10499530%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#43;OR&#43;15345673%5Buid%5D&#43;OR&#43;17202159%5Buid%5D&#43;OR&#43;29087512%5Buid%5D&#43;OR&#43;22900683%5Buid%5D,Yes
+MYB,P10242,4602,GTRD;ReMap;TRED,chromatin immunoprecipitation assay;inferred by curator,29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#43;OR&#43;17202159%5Buid%5D,Yes
+ATM,Q13315,472,TRRUST,inferred by curator,29087512%5Buid%5D&#43;OR&#43;11172010%5Buid%5D,Yes
+DAND5,Q8N907,199699,ReMap;TRRUST,chromatin immunoprecipitation assay;inferred by curator,29087512%5Buid%5D&#43;OR&#43;29126285%5Buid%5D&#43;OR&#43;15345673%5Buid%5D,Yes
+ZNF766,Q5HY98,90321,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+KMT2C,Q8NEZ4,58508,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+MAFF,Q9ULX9,23764,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D,No
+ORC1,Q13415,4998,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+E2F5,Q15329,1875,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D,No
+UBTF,P17480,7343,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D,No
+SFPQ,P23246,6421,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+PDX1,P52945,3651,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+ZBTB26,Q9HCK0,57684,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+TLE3,Q04726,7090,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+TCF7L2,Q9NQB0,6934,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D,No
+GATA1,P15976,2623,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D,No
+ZNF558,Q96NG5,148156,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+TET2,Q6N021,54790,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+TFEB,P19484,7942,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+MBD3,O95983,53615,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+TFAP4,Q01664,7023,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D,No
+SMAD2,Q15796,4087,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+POU5F1,Q01860,5460,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D,No
+ZFP69B,Q9UJL9,65243,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+TCF12,Q99081,6938,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D,No
+ME3,Q16798,10873,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+NCOA1,Q15788,8648,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+PCGF2,P35227,7703,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D,No
+MEIS2,O14770,4212,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+SIRT1,Q96EB6,23411,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+RAD21,O60216,5885,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D,No
+ZNF30,P17039,90075,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+DMC1,Q14565,11144,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+ESR2,Q92731,2100,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+ZNF701,Q9NV72,55762,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+KDM2B,Q8NHM5,84678,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+SMARCE1,Q969G3,6605,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+ZBTB2,Q8N680,57621,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+SP140,Q13342,11262,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+MCM7,P33993,4176,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+ZNF18,P17022,7566,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+SPI1,P17947,6688,GTRD;ORegAnno;PAZAR;ReMap,chromatin immunoprecipitation assay;inferred by curator,29126285%5Buid%5D&#43;OR&#43;18971253%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#43;OR&#43;26578589%5Buid%5D,No
+PMEPA1,Q969W9,56937,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No
+HDAC1,Q13547,3065,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D,No
+CBFA2T2,O43439,9139,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+ZNF584,Q8IVC4,201514,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No
+MITF,O75030,4286,GTRD;ORegAnno;PAZAR;ReMap,chromatin immunoprecipitation assay;inferred by curator,29126285%5Buid%5D&#43;OR&#43;18971253%5Buid%5D&#43;OR&#43;27924024%5Buid%5D&#43;OR&#43;26578589%5Buid%5D,No
+ID3,Q02535,3399,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No
+RFX1,P22670,5989,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+MLLT3,P42568,4300,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+ZHX2,Q9Y6X8,22882,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D,No
+HSF1,Q00613,3297,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D,No
+USF2,Q15853,7392,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D,No
+ZBTB33,Q86T24,10009,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+ZHX1,Q9UKY1,11244,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No
+BCL3,P20749,602,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D,No
+MAFK,O60675,7975,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D,No
+MLLT1,Q03111,4298,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+KAT8,Q9H7Z6,84148,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+AMH,P03971,268,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+ZNF644,Q9H582,84146,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No
+GTF2F1,P35269,2962,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D,No
+ZSCAN9,O15535,7746,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+EBP,Q15125,10682,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+SP2,Q02086,6668,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+INSM2,Q96T92,84684,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+PBX2,P40425,5089,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+RFX5,P48382,5993,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D,No
+TRPS1,Q9UHF7,7227,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+ZBTB17,Q13105,7709,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+ARID2,Q68CP9,196528,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D,No
+ELK1,P19419,2002,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D,No
+ZNF316,A6NFI3,100131017,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+BCL11A,Q9H165,53335,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D,No
+MED26,O95402,9441,ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D,No
+KLF16,Q9BXK1,83855,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+OGG1,O15527,4968,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+MEF2A,Q02078,4205,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+BAP1,Q92560,8314,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+TCF7L1,Q9HCS4,83439,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D,No
+STAT1,P42224,6772,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D,No
+ERCC2,P18074,2068,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+CAT,P04040,847,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+FOSB,P53539,2354,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+SMAD3,P84022,4088,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D,No
+CHD7,Q9P2D1,55636,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+MEN1,O00255,4221,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+NR4A1,P22736,3164,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+ZBTB16,Q05516,7704,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+PHF20,Q9BVI0,51230,GTRD,chromatin immunoprecipitation assay,27924024%5Buid%5D,No
+SMAD1,Q15797,4086,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D,No
+BCL6,P41182,604,GTRD;ReMap,chromatin immunoprecipitation assay,29126285%5Buid%5D&#43;OR&#43;27924024%5Buid%5D,No" />
+    <p></p>
+  </div>
+  <div class="uk-width-1-3@xl">
+    <div id="tf-network-div"
+      style="height: 400px; width: 400px; border-style: solid; border-width: .1em;">
+    </div>
+    <div id="tfControlDiv"></div>
+  </div>
+</div>
+
+
+
+<div class="uk-grid" data-uk-grid-margin>
+  <div style="padding-right: 20px;">
+    <h2>Binding sites of IGF1R</h2>
+    <div>
+      <div id="binding_sites_paging"></div>
+
+      <div style="float: right; padding-bottom: 5px;">
+        
+        <button
+          onclick="location.href='https://cdn.netbiol.org/tflink/proteinDownload_bindingSites/TFLink_P08069_TFBS_annot.tsv'"
+          type="button">
+          <span uk-icon="icon: download; ratio: 1.5"></span>
+          <h4 style="display: inline-block; margin: 0">Download all</h4>
+        </button>
+        
+        
+        <button
+          onclick="location.href='https://cdn.netbiol.org/tflink/proteinDownload_bindingSites/TFLink_P08069_TFBS_annot.gff3'"
+          type="button">
+          <span uk-icon="icon: download; ratio: 1.5"></span>
+          <h4 style="display: inline-block; margin: 0">Download gff3</h4>
+        </button>
+        
+      </div>
+    </div>
+    <div id="binding_sites_div"></div>
+    <input id="binding_sites_data" type="hidden" name="binding_sites_data"
+      value="TFLinkSS09748427,P08069,IGF1R,Homo sapiens,hg38,chr14,87771373,87771473,&#43;,hg38&amp;position=chr14:87771373-87771473,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,1
+TFLinkSS09748487,P08069,IGF1R,Homo sapiens,hg38,chr14,18235024,18235144,&#43;,hg38&amp;position=chr14:18235024-18235144,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,1
+TFLinkSS09748488,P08069,IGF1R,Homo sapiens,hg38,chr14,18237236,18237363,&#43;,hg38&amp;position=chr14:18237236-18237363,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,1
+TFLinkSS09748489,P08069,IGF1R,Homo sapiens,hg38,chr14,18242610,18242670,&#43;,hg38&amp;position=chr14:18242610-18242670,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,1
+TFLinkSS09748490,P08069,IGF1R,Homo sapiens,hg38,chr14,18261907,18261992,&#43;,hg38&amp;position=chr14:18261907-18261992,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,1
+TFLinkSS09748491,P08069,IGF1R,Homo sapiens,hg38,chr14,18262604,18262706,&#43;,hg38&amp;position=chr14:18262604-18262706,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,1
+TFLinkSS09748492,P08069,IGF1R,Homo sapiens,hg38,chr14,18268102,18268154,&#43;,hg38&amp;position=chr14:18268102-18268154,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,1
+TFLinkSS09749032,P08069,IGF1R,Homo sapiens,hg38,chr14,87771373,87771473,&#43;,hg38&amp;position=chr14:87771373-87771473,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,1
+TFLinkSS09749474,P08069,IGF1R,Homo sapiens,hg38,chr14,18235024,18235144,&#43;,hg38&amp;position=chr14:18235024-18235144,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,1
+TFLinkSS09749475,P08069,IGF1R,Homo sapiens,hg38,chr14,18237236,18237363,&#43;,hg38&amp;position=chr14:18237236-18237363,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,1
+TFLinkSS09749476,P08069,IGF1R,Homo sapiens,hg38,chr14,18242610,18242670,&#43;,hg38&amp;position=chr14:18242610-18242670,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,1
+TFLinkSS09749477,P08069,IGF1R,Homo sapiens,hg38,chr14,18261907,18261992,&#43;,hg38&amp;position=chr14:18261907-18261992,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,1
+TFLinkSS09749478,P08069,IGF1R,Homo sapiens,hg38,chr14,18262604,18262706,&#43;,hg38&amp;position=chr14:18262604-18262706,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,1
+TFLinkSS09749479,P08069,IGF1R,Homo sapiens,hg38,chr14,18268102,18268154,&#43;,hg38&amp;position=chr14:18268102-18268154,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,1
+TFLinkSS09748355,P08069,IGF1R,Homo sapiens,hg38,chr16,17327601,17327649,&#43;,hg38&amp;position=chr16:17327601-17327649,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,1
+TFLinkSS09748360,P08069,IGF1R,Homo sapiens,hg38,chr16,46381013,46381083,&#43;,hg38&amp;position=chr16:46381013-46381083,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,1
+TFLinkSS09748362,P08069,IGF1R,Homo sapiens,hg38,chr16,46401541,46401569,&#43;,hg38&amp;position=chr16:46401541-46401569,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,1
+TFLinkSS09748363,P08069,IGF1R,Homo sapiens,hg38,chr16,46399654,46399690,&#43;,hg38&amp;position=chr16:46399654-46399690,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,1
+TFLinkSS09748364,P08069,IGF1R,Homo sapiens,hg38,chr16,46398502,46398542,&#43;,hg38&amp;position=chr16:46398502-46398542,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,1
+TFLinkSS09748365,P08069,IGF1R,Homo sapiens,hg38,chr16,46394941,46395072,&#43;,hg38&amp;position=chr16:46394941-46395072,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,1
+TFLinkSS09748366,P08069,IGF1R,Homo sapiens,hg38,chr16,46394732,46394771,&#43;,hg38&amp;position=chr16:46394732-46394771,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,1
+TFLinkSS09748367,P08069,IGF1R,Homo sapiens,hg38,chr16,46394226,46394266,&#43;,hg38&amp;position=chr16:46394226-46394266,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,1
+TFLinkSS09748368,P08069,IGF1R,Homo sapiens,hg38,chr16,46390635,46390663,&#43;,hg38&amp;position=chr16:46390635-46390663,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,3
+TFLinkSS09748369,P08069,IGF1R,Homo sapiens,hg38,chr16,34583337,34583387,&#43;,hg38&amp;position=chr16:34583337-34583387,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,1
+TFLinkSS09748370,P08069,IGF1R,Homo sapiens,hg38,chr16,34582299,34582338,&#43;,hg38&amp;position=chr16:34582299-34582338,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,3
+TFLinkSS09748371,P08069,IGF1R,Homo sapiens,hg38,chr16,46399450,46399487,&#43;,hg38&amp;position=chr16:46399450-46399487,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,1
+TFLinkSS09748372,P08069,IGF1R,Homo sapiens,hg38,chr16,46399226,46399230,&#43;,hg38&amp;position=chr16:46399226-46399230,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,1
+TFLinkSS09748373,P08069,IGF1R,Homo sapiens,hg38,chr16,46389668,46389685,&#43;,hg38&amp;position=chr16:46389668-46389685,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,1
+TFLinkSS09748374,P08069,IGF1R,Homo sapiens,hg38,chr16,34582299,34582328,&#43;,hg38&amp;position=chr16:34582299-34582328,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,3
+TFLinkSS09748375,P08069,IGF1R,Homo sapiens,hg38,chr16,46400112,46400126,&#43;,hg38&amp;position=chr16:46400112-46400126,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,1
+TFLinkSS09748376,P08069,IGF1R,Homo sapiens,hg38,chr16,34581719,34581749,&#43;,hg38&amp;position=chr16:34581719-34581749,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,1
+TFLinkSS09748377,P08069,IGF1R,Homo sapiens,hg38,chr16,46386214,46386255,&#43;,hg38&amp;position=chr16:46386214-46386255,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,1
+TFLinkSS09748378,P08069,IGF1R,Homo sapiens,hg38,chr16,34593414,34593437,&#43;,hg38&amp;position=chr16:34593414-34593437,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,1
+TFLinkSS09748379,P08069,IGF1R,Homo sapiens,hg38,chr16,46390912,46390921,&#43;,hg38&amp;position=chr16:46390912-46390921,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,1
+TFLinkSS09748380,P08069,IGF1R,Homo sapiens,hg38,chr16,46390617,46390657,&#43;,hg38&amp;position=chr16:46390617-46390657,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,3
+TFLinkSS09748381,P08069,IGF1R,Homo sapiens,hg38,chr16,46389127,46389150,&#43;,hg38&amp;position=chr16:46389127-46389150,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,1
+TFLinkSS09748382,P08069,IGF1R,Homo sapiens,hg38,chr16,46400843,46400896,&#43;,hg38&amp;position=chr16:46400843-46400896,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,1
+TFLinkSS09748383,P08069,IGF1R,Homo sapiens,hg38,chr16,46388088,46388104,&#43;,hg38&amp;position=chr16:46388088-46388104,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,1
+TFLinkSS09748384,P08069,IGF1R,Homo sapiens,hg38,chr16,34588530,34588580,&#43;,hg38&amp;position=chr16:34588530-34588580,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,1
+TFLinkSS09748385,P08069,IGF1R,Homo sapiens,hg38,chr16,46382948,46383064,&#43;,hg38&amp;position=chr16:46382948-46383064,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,1
+TFLinkSS09748387,P08069,IGF1R,Homo sapiens,hg38,chr16,46383302,46383447,&#43;,hg38&amp;position=chr16:46383302-46383447,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,1
+TFLinkSS09748388,P08069,IGF1R,Homo sapiens,hg38,chr16,46386400,46386454,&#43;,hg38&amp;position=chr16:46386400-46386454,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,1
+TFLinkSS09748389,P08069,IGF1R,Homo sapiens,hg38,chr16,46392365,46392450,&#43;,hg38&amp;position=chr16:46392365-46392450,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,1
+TFLinkSS09748393,P08069,IGF1R,Homo sapiens,hg38,chr16,46398805,46398869,&#43;,hg38&amp;position=chr16:46398805-46398869,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,1
+TFLinkSS09748394,P08069,IGF1R,Homo sapiens,hg38,chr16,46401526,46401649,&#43;,hg38&amp;position=chr16:46401526-46401649,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,3
+TFLinkSS09748395,P08069,IGF1R,Homo sapiens,hg38,chr16,46405299,46405442,&#43;,hg38&amp;position=chr16:46405299-46405442,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,1
+TFLinkSS09748396,P08069,IGF1R,Homo sapiens,hg38,chr16,46409849,46409970,&#43;,hg38&amp;position=chr16:46409849-46409970,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,1
+TFLinkSS09748397,P08069,IGF1R,Homo sapiens,hg38,chr16,46415855,46415912,&#43;,hg38&amp;position=chr16:46415855-46415912,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,1
+TFLinkSS09748502,P08069,IGF1R,Homo sapiens,hg38,chr16,34947972,34948078,&#43;,hg38&amp;position=chr16:34947972-34948078,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,1
+TFLinkSS09748504,P08069,IGF1R,Homo sapiens,hg38,chr16,34955769,34955884,&#43;,hg38&amp;position=chr16:34955769-34955884,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,1
+TFLinkSS09748540,P08069,IGF1R,Homo sapiens,hg38,chr16,14487025,14487117,&#43;,hg38&amp;position=chr16:14487025-14487117,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,1
+TFLinkSS09748752,P08069,IGF1R,Homo sapiens,hg38,chr16,73127835,73127969,&#43;,hg38&amp;position=chr16:73127835-73127969,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,1
+TFLinkSS09748757,P08069,IGF1R,Homo sapiens,hg38,chr16,34074279,34074343,&#43;,hg38&amp;position=chr16:34074279-34074343,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,1
+TFLinkSS09748758,P08069,IGF1R,Homo sapiens,hg38,chr16,34077178,34077248,&#43;,hg38&amp;position=chr16:34077178-34077248,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,1
+TFLinkSS09748759,P08069,IGF1R,Homo sapiens,hg38,chr16,34078863,34078933,&#43;,hg38&amp;position=chr16:34078863-34078933,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,1
+TFLinkSS09748760,P08069,IGF1R,Homo sapiens,hg38,chr16,34083390,34083443,&#43;,hg38&amp;position=chr16:34083390-34083443,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,1
+TFLinkSS09748761,P08069,IGF1R,Homo sapiens,hg38,chr16,34089831,34089887,&#43;,hg38&amp;position=chr16:34089831-34089887,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,1
+TFLinkSS09748762,P08069,IGF1R,Homo sapiens,hg38,chr16,34091891,34091949,&#43;,hg38&amp;position=chr16:34091891-34091949,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,1
+TFLinkSS09748764,P08069,IGF1R,Homo sapiens,hg38,chr16,34093464,34093603,&#43;,hg38&amp;position=chr16:34093464-34093603,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,1
+TFLinkSS09748765,P08069,IGF1R,Homo sapiens,hg38,chr16,34143947,34144087,&#43;,hg38&amp;position=chr16:34143947-34144087,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,1
+TFLinkSS09748766,P08069,IGF1R,Homo sapiens,hg38,chr16,34150664,34150788,&#43;,hg38&amp;position=chr16:34150664-34150788,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,1
+TFLinkSS09748767,P08069,IGF1R,Homo sapiens,hg38,chr16,34150883,34150949,&#43;,hg38&amp;position=chr16:34150883-34150949,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,1
+TFLinkSS09748768,P08069,IGF1R,Homo sapiens,hg38,chr16,34156731,34156860,&#43;,hg38&amp;position=chr16:34156731-34156860,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,1
+TFLinkSS09748841,P08069,IGF1R,Homo sapiens,hg38,chr16,36045130,36045198,&#43;,hg38&amp;position=chr16:36045130-36045198,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,1
+TFLinkSS09748842,P08069,IGF1R,Homo sapiens,hg38,chr16,36046977,36047031,&#43;,hg38&amp;position=chr16:36046977-36047031,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,1
+TFLinkSS09748851,P08069,IGF1R,Homo sapiens,hg38,chr16,34069232,34069287,&#43;,hg38&amp;position=chr16:34069232-34069287,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,1
+TFLinkSS09748952,P08069,IGF1R,Homo sapiens,hg38,chr16,17327601,17327649,&#43;,hg38&amp;position=chr16:17327601-17327649,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,1
+TFLinkSS09748960,P08069,IGF1R,Homo sapiens,hg38,chr16,46381013,46381083,&#43;,hg38&amp;position=chr16:46381013-46381083,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,1
+TFLinkSS09748962,P08069,IGF1R,Homo sapiens,hg38,chr16,46401541,46401569,&#43;,hg38&amp;position=chr16:46401541-46401569,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,1
+TFLinkSS09748963,P08069,IGF1R,Homo sapiens,hg38,chr16,46399654,46399690,&#43;,hg38&amp;position=chr16:46399654-46399690,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,1
+TFLinkSS09748964,P08069,IGF1R,Homo sapiens,hg38,chr16,46398502,46398542,&#43;,hg38&amp;position=chr16:46398502-46398542,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,1
+TFLinkSS09748965,P08069,IGF1R,Homo sapiens,hg38,chr16,46394941,46395072,&#43;,hg38&amp;position=chr16:46394941-46395072,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,1
+TFLinkSS09748966,P08069,IGF1R,Homo sapiens,hg38,chr16,46394732,46394771,&#43;,hg38&amp;position=chr16:46394732-46394771,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,1
+TFLinkSS09748967,P08069,IGF1R,Homo sapiens,hg38,chr16,46394226,46394266,&#43;,hg38&amp;position=chr16:46394226-46394266,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,1
+TFLinkSS09748968,P08069,IGF1R,Homo sapiens,hg38,chr16,46390635,46390663,&#43;,hg38&amp;position=chr16:46390635-46390663,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,3
+TFLinkSS09748969,P08069,IGF1R,Homo sapiens,hg38,chr16,34583337,34583387,&#43;,hg38&amp;position=chr16:34583337-34583387,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,1
+TFLinkSS09748970,P08069,IGF1R,Homo sapiens,hg38,chr16,34582299,34582338,&#43;,hg38&amp;position=chr16:34582299-34582338,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,3
+TFLinkSS09748971,P08069,IGF1R,Homo sapiens,hg38,chr16,46399450,46399487,&#43;,hg38&amp;position=chr16:46399450-46399487,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,1
+TFLinkSS09748972,P08069,IGF1R,Homo sapiens,hg38,chr16,46399226,46399230,&#43;,hg38&amp;position=chr16:46399226-46399230,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,1
+TFLinkSS09748973,P08069,IGF1R,Homo sapiens,hg38,chr16,46389668,46389685,&#43;,hg38&amp;position=chr16:46389668-46389685,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,1
+TFLinkSS09748974,P08069,IGF1R,Homo sapiens,hg38,chr16,34582299,34582328,&#43;,hg38&amp;position=chr16:34582299-34582328,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,3
+TFLinkSS09748975,P08069,IGF1R,Homo sapiens,hg38,chr16,46400112,46400126,&#43;,hg38&amp;position=chr16:46400112-46400126,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,1
+TFLinkSS09748976,P08069,IGF1R,Homo sapiens,hg38,chr16,34581719,34581749,&#43;,hg38&amp;position=chr16:34581719-34581749,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,1
+TFLinkSS09748977,P08069,IGF1R,Homo sapiens,hg38,chr16,46386214,46386255,&#43;,hg38&amp;position=chr16:46386214-46386255,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,1
+TFLinkSS09748978,P08069,IGF1R,Homo sapiens,hg38,chr16,34593414,34593437,&#43;,hg38&amp;position=chr16:34593414-34593437,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,1
+TFLinkSS09748979,P08069,IGF1R,Homo sapiens,hg38,chr16,46390912,46390921,&#43;,hg38&amp;position=chr16:46390912-46390921,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,1
+TFLinkSS09748980,P08069,IGF1R,Homo sapiens,hg38,chr16,46390617,46390657,&#43;,hg38&amp;position=chr16:46390617-46390657,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,3
+TFLinkSS09748981,P08069,IGF1R,Homo sapiens,hg38,chr16,46389127,46389150,&#43;,hg38&amp;position=chr16:46389127-46389150,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,1
+TFLinkSS09748982,P08069,IGF1R,Homo sapiens,hg38,chr16,46400843,46400896,&#43;,hg38&amp;position=chr16:46400843-46400896,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,1
+TFLinkSS09748983,P08069,IGF1R,Homo sapiens,hg38,chr16,46388088,46388104,&#43;,hg38&amp;position=chr16:46388088-46388104,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,1
+TFLinkSS09748984,P08069,IGF1R,Homo sapiens,hg38,chr16,34588530,34588580,&#43;,hg38&amp;position=chr16:34588530-34588580,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,1
+TFLinkSS09748985,P08069,IGF1R,Homo sapiens,hg38,chr16,46382948,46383064,&#43;,hg38&amp;position=chr16:46382948-46383064,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,1
+TFLinkSS09748987,P08069,IGF1R,Homo sapiens,hg38,chr16,46383302,46383447,&#43;,hg38&amp;position=chr16:46383302-46383447,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,1
+TFLinkSS09748988,P08069,IGF1R,Homo sapiens,hg38,chr16,46386400,46386454,&#43;,hg38&amp;position=chr16:46386400-46386454,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,1
+TFLinkSS09748989,P08069,IGF1R,Homo sapiens,hg38,chr16,46392365,46392450,&#43;,hg38&amp;position=chr16:46392365-46392450,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,1
+TFLinkSS09748993,P08069,IGF1R,Homo sapiens,hg38,chr16,46398805,46398869,&#43;,hg38&amp;position=chr16:46398805-46398869,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,1
+TFLinkSS09748994,P08069,IGF1R,Homo sapiens,hg38,chr16,46401526,46401649,&#43;,hg38&amp;position=chr16:46401526-46401649,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,3
+TFLinkSS09748995,P08069,IGF1R,Homo sapiens,hg38,chr16,46405299,46405442,&#43;,hg38&amp;position=chr16:46405299-46405442,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,1
+TFLinkSS09748996,P08069,IGF1R,Homo sapiens,hg38,chr16,46409849,46409970,&#43;,hg38&amp;position=chr16:46409849-46409970,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,1
+TFLinkSS09748997,P08069,IGF1R,Homo sapiens,hg38,chr16,46415855,46415912,&#43;,hg38&amp;position=chr16:46415855-46415912,inferred by curator,18971253%5Buid%5D,ORegAnno,Yes,1" />
+    <p></p>
+  </div>
+</div>
+
+<div class="uk-grid" data-uk-grid-margin>
+  <div class="uk-width-1-2@m">
+    <h2>Binding site sequences of IGF1R based on small-scale evidences</h2>
+    <div class="binding-sites">
+      <p>&gt;TFLinkSS09284767;P08069;IGF1R;hg38;chr2_KI270894v1_alt:207715-207784<br />
+ATTCGATGATTCCATTCAATTCCATCAGATGATGATTCCATTCGAGTGAATTCGATGTTTCCAATCAAT<br />
+&gt;TFLinkSS09284769;P08069;IGF1R;hg38;chr4_GL000008v2_random:5142-5194<br />
+GAGTGGAATGGAATGGAATGCAATGGAATGGAGTGGAGTGGAGTAGAGTGGA<br />
+&gt;TFLinkSS09284770;P08069;IGF1R;hg38;chr2_KI270894v1_alt:207715-207784<br />
+ATTCGATGATTCCATTCAATTCCATCAGATGATGATTCCATTCGAGTGAATTCGATGTTTCCAATCAAT<br />
+&gt;TFLinkSS09284774;P08069;IGF1R;hg38;chr4_GL000008v2_random:5142-5194<br />
+GAGTGGAATGGAATGGAATGCAATGGAATGGAGTGGAGTGGAGTAGAGTGGA<br />
+&gt;TFLinkSS09748332;P08069;IGF1R;hg38;chrX:126472543-126472684<br />
+AACCCTGGAGTTAGTATAGCTTAGTTAAACTTTCGTTTATTGCTAAAGGTTTATCACTGCTGTCTCCCATGGGGGTGTGG<br />
+CTAGGCTAAGCGTTTTGAGCTGCATTGCTGCGTGCTTGATACTTGTTCCTTTTGATCGTGG<br />
+&gt;TFLinkSS09748333;P08069;IGF1R;hg38;chr18:41168862-41168993<br />
+TAAAAGAAATGCAACTCTATTCCTGTATATTTTCTTTCTATTCATGCAGCTTATATTCCTCCACAAATCTCTATTATCAC<br />
+TCCACTCATTTGACACACATACACCACACACACAACACACACACACACATC<br />
+&gt;TFLinkSS09748334;P08069;IGF1R;hg38;chr20:26209295-26209415<br />
+CGGACCAGGCGGGCGCCCTTCCCCGCGTGGGAGGGGCGCGTCTCGTCTCACTCAACCGCCTCGAACCCCACACCGACGAG<br />
+CTCCCTCAGGACCCACGCGCGGACACCGAGGCGCCGACCG<br />
+&gt;TFLinkSS09748335;P08069;IGF1R;hg38;chr20:26328395-26328481<br />
+CACTGTTTTTGTAGAATCTGCAGGTGGATATTTGGATAGCTTTGAGGCTTTCATGGGAAACGGGAATATTTTCACATAAA<br />
+AACTAG<br />
+&gt;TFLinkSS09748336;P08069;IGF1R;hg38;chr20:26336499-26336549<br />
+GCCTGTGGTAGTAAAGGAAATATCTTCATAGAAAAACTAGACAGAATTTT<br />
+&gt;TFLinkSS09748337;P08069;IGF1R;hg38;chr20:26337479-26337590<br />
+CGTTTTGTAGAATTTCCAAGTGGATATTTAGATCGGCTTGAGGCCTATGTTAGAAAAGTAAATATCTTCATATAAAAACT<br />
+AGACAGAATGATTCTCAGAGACTACTTTATG<br />
+&gt;TFLinkSS09748338;P08069;IGF1R;hg38;chr20:26337816-26337938<br />
+CACTCTTTTTGTGGAATCTGCAAGTGAATATTTGGACTTTTTTGAGGCCTTCATTGGAAACGGGCTTTCTTCACATAAAA<br />
+CTTGACAGAAGAATTCTCAGAAACTTCTTTGTGATGTGTGCA<br />
+&gt;TFLinkSS09748339;P08069;IGF1R;hg38;chr20:26338753-26338821<br />
+CAGAAGCATTCTCAGAAACTATTTTGTGATGTGTGCCCTCTACTAACAGAGTTGAACATTCCTCTTGA<br />
+&gt;TFLinkSS09748340;P08069;IGF1R;hg38;chr15:85896938-85897040<br />
+TCTGTGTGTGTCTCTCTCTCTGTGTCTCTCTCTGTGTCTCTCTCTGTGTCTCTCTCTGTGTCTCTCTCTCTGTCTCTCTG<br />
+TCTCTCTGTCTCTCTCTCTCTG<br />
+&gt;TFLinkSS09748341;P08069;IGF1R;hg38;chr12:127165920-127166008<br />
+TGGAGATCTGACTTTCAATAGATCGCAGCGAGGGAGCTGCTCTGCTACGTACGAAACCCCGACCCAGAAGCAAGTCGTCT<br />
+ACGAATGG<br />
+&gt;TFLinkSS09748342;P08069;IGF1R;hg38;chr15:48468411-48468558<br />
+CAACACAGCCAACTCGAGTTGGGTTCAGTTCAAAATCAGGTGGGCAGTCACAGATATAGCTGCCTGGAGTGTTGACACAG<br />
+TTCCCACTGATGCACGTGGTTGGATCCAGGCATTCATTCACATCTAAAACCGAACAGTGAGTAGTGG<br />
+&gt;TFLinkSS09748343;P08069;IGF1R;hg38;chr7:62943560-62943621<br />
+TATCTGAGAAACTGCTTTGTGATGATTGCATTCACCTCACAGAGTTCAACCTTTCTGTTCA<br />
+&gt;TFLinkSS09748346;P08069;IGF1R;hg38;chr3:90319651-90319763<br />
+TCAATCAAAAGAAAGGTTCAACTCTGTGAGAGGAATCCACTAGAGGCTGAAAAGTGCTCCAAATATCCACTTGCAGATTC<br />
+TACAAAAAGAGTGTATCAAAACTGCTCAATCA<br />
+&gt;TFLinkSS09748347;P08069;IGF1R;hg38;chr3:90398782-90398846<br />
+AGTTGTGTTCAACTCTGTGTACTGAATGCAAACATCACAAAGATGTTTCTGAGAATGCTTCTGT<br />
+&gt;TFLinkSS09748348;P08069;IGF1R;hg38;chr3:90414961-90415012<br />
+TCTGTCAAAATGAAAGTTCAACTCTGTGAGTTGAATACACACATCAAAAAC<br />
+&gt;TFLinkSS09748349;P08069;IGF1R;hg38;chr3:90416319-90416379<br />
+AACTGCTCTATGAAAAGCAAGGTTCAACTCTGTGAGTTGAATGCAAACATCACAAAGTAG<br />
+&gt;TFLinkSS09748350;P08069;IGF1R;hg38;chr3:90424573-90424629<br />
+CACAGATCACAAACAAGTTTCTGAGAATGCTTCTGTCCAGTTTTTATTTGACGATA<br />
+&gt;TFLinkSS09748351;P08069;IGF1R;hg38;chr3:90428471-90428607<br />
+TCCCCTTGCAGAGTCTACAAAAAGAGTGTTTCAAAACTGCTCTAACAAAAGAAAAGTTCACCTCTGTGAGTTGAATGCAC<br />
+ACATCACAAAGGAGTTTCTGAGAATCCTTCTGTCTAGTTTTTATTTGAAGAAACAC<br />
+&gt;TFLinkSS09748352;P08069;IGF1R;hg38;chr3:90441623-90441736<br />
+TGTTACCACCACAAACCTCAAAGCCCTCCAAATGTCCACTTGCAGATTCCACAAAAAGAAGAGTGTTTCCAAACGGCTCT<br />
+GTCAAAAGGAAGTTTCAACTCTGTTAGTTGAAT<br />
+&gt;TFLinkSS09748353;P08069;IGF1R;hg38;chr3:90449663-90449726<br />
+TGCAGATTCTACACAAAGAGTGTTTCAAAACCGCTCCATTAAAAGGAAGGTTCAATGCTGTGA<br />
+&gt;TFLinkSS09748354;P08069;IGF1R;hg38;chr19:24343360-24343426<br />
+CTTCTCACAGAGTTAAACCTTTCTTTTGATGGAGGAGTTTGGAAACACTGTTTTTGTAGAATCTGC<br />
+&gt;TFLinkSS09748355;P08069;IGF1R;hg38;chr16:17327601-17327649<br />
+TCCCGCCCCCCCCCCCCCCCCCCCCCCGCCTCGGCCTCCCAAAGTGCT<br />
+&gt;TFLinkSS09748356;P08069;IGF1R;hg38;chr2:132262518-132262611<br />
+CACCTCAGATTCAGGCTTTTAATCTACAAAAAGCAGCAGCAGAAGGCTTGATGAGCCTTTTTCGTGAAAGGGGGAAAGGT<br />
+TATTTAGCTTTGT<br />
+&gt;TFLinkSS09748357;P08069;IGF1R;hg38;chr2:132270832-132270908<br />
+AGAGAGAGAGAGAGAGACAGACAGAGAGACACAGAAAAAGAAAGAGAGAGGCAGACAGAGAAAGACACAGACAGAG<br />
+&gt;TFLinkSS09748360;P08069;IGF1R;hg38;chr16:46381013-46381083<br />
+TTGATGATTATTCCATTCGTGTCTATTCAAAGGTTCCATTCTATTCCATTCAATGATGATTGCATTTGAT<br />
+&gt;TFLinkSS09748362;P08069;IGF1R;hg38;chr16:46401541-46401569<br />
+GGAAACATCATTGAATAGAATTGAATGG<br />
+&gt;TFLinkSS09748363;P08069;IGF1R;hg38;chr16:46399654-46399690<br />
+ATCTAAGGGACACAAATAGAATCATCATTGAATGGA<br />
+&gt;TFLinkSS09748364;P08069;IGF1R;hg38;chr16:46398502-46398542<br />
+GGATAATCATTGAATGGAATTGAATGCAATCATTGAATGG<br />
+&gt;TFLinkSS09748365;P08069;IGF1R;hg38;chr16:46394941-46395072<br />
+AATCACCATCGAAGAGAATCGAATAGAATCATCGAATGAACTCAAATGGAATCATCATCGAATGGAATCAAATTGTCAAT<br />
+GAACGGAATGGAATGGAATCATAGAACGGAATCCAATGTAATCATCATTGA<br />
+&gt;TFLinkSS09748366;P08069;IGF1R;hg38;chr16:46394732-46394771<br />
+TGGAATCAAATGGAATCATCGAATGGAATCGAATGGAAT<br />
+&gt;TFLinkSS09748367;P08069;IGF1R;hg38;chr16:46394226-46394266<br />
+GAATTGAATCACCATCGAACGGAATCGAATAGAATCATCG<br />
+&gt;TFLinkSS09748368;P08069;IGF1R;hg38;chr16:46390635-46390663<br />
+AATGGACTCGGATGTAATCATTATCGAA<br />
+&gt;TFLinkSS09748369;P08069;IGF1R;hg38;chr16:34583337-34583387<br />
+CATTGAATGGAATCAAAGGCAATCATGGTCGAATGGAATCAAATGGAAAC<br />
+&gt;TFLinkSS09748370;P08069;IGF1R;hg38;chr16:34582299-34582338<br />
+GAATGAAATCATCAACGAATGGAATCCAATGTAATCATC<br />
+&gt;TFLinkSS09748371;P08069;IGF1R;hg38;chr16:46399450-46399487<br />
+GAATCAATGTCAAGTGGAATCGAGTGGAATCATCGAA<br />
+&gt;TFLinkSS09748372;P08069;IGF1R;hg38;chr16:46399226-46399230<br />
+CTCG<br />
+&gt;TFLinkSS09748373;P08069;IGF1R;hg38;chr16:46389668-46389685<br />
+TGAATTATCGAATGGAT<br />
+&gt;TFLinkSS09748374;P08069;IGF1R;hg38;chr16:34582299-34582328<br />
+GAATGAAATCATCAACGAATGGAATCCAA<br />
+&gt;TFLinkSS09748375;P08069;IGF1R;hg38;chr16:46400112-46400126<br />
+GGAATCACTGAATG<br />
+&gt;TFLinkSS09748376;P08069;IGF1R;hg38;chr16:34581719-34581749<br />
+ATCGATTGGAATCGAATGGAATCATTGAAT<br />
+&gt;TFLinkSS09748377;P08069;IGF1R;hg38;chr16:46386214-46386255<br />
+TGTACTCTAATGGAATCATCGAATGGACTCGAATGGAATCA<br />
+&gt;TFLinkSS09748378;P08069;IGF1R;hg38;chr16:34593414-34593437<br />
+TCCATTCGATGATGATTCCATTC<br />
+&gt;TFLinkSS09748379;P08069;IGF1R;hg38;chr16:46390912-46390921<br />
+AGAATCGAA<br />
+&gt;TFLinkSS09748380;P08069;IGF1R;hg38;chr16:46390617-46390657<br />
+GCTCAAATGGAATCATCGAATGGACTCGGATGTAATCATT<br />
+&gt;TFLinkSS09748381;P08069;IGF1R;hg38;chr16:46389127-46389150<br />
+TCGAATGGAAACATCACTGAATG<br />
+&gt;TFLinkSS09748382;P08069;IGF1R;hg38;chr16:46400843-46400896<br />
+GACTCAAGTGGAATCATCATCGAAAGCAAGCGAATGGAATCATCATCGAATTT<br />
+&gt;TFLinkSS09748383;P08069;IGF1R;hg38;chr16:46388088-46388104<br />
+ATGGGATCATCATCAA<br />
+&gt;TFLinkSS09748384;P08069;IGF1R;hg38;chr16:34588530-34588580<br />
+CGAATGAAATCAAATGGAATGATCATATGGACTCGAATGGAATCATCATC<br />
+&gt;TFLinkSS09748385;P08069;IGF1R;hg38;chr16:46382948-46383064<br />
+AATTGAAAGGAATTATCAAATGGAATACAAGAGAAACATCATCAAATGGAATCGAATGGAATCATCATCGAAAGGAATCC<br />
+AATGGAATAATCATCAAATGGATTCATACGGAATCA<br />
+&gt;TFLinkSS09748387;P08069;IGF1R;hg38;chr16:46383302-46383447<br />
+GAATTGAATGGAATCGAATGGAATGATCGTTTGGACTCCAATGGAATCATCGAATGGACTTGAATGGAATCATCATTGAA<br />
+AGGAATCAAGTGAAATCATCATCAGATGGAATCAAATGGAATCATCACTGAATGGAATGAAATGG<br />
+&gt;TFLinkSS09748388;P08069;IGF1R;hg38;chr16:46386400-46386454<br />
+CATCGAATGGTATTGAATGGAATCGTTGAGTTTACTCTAATGGGATAATCATTG<br />
+&gt;TFLinkSS09748389;P08069;IGF1R;hg38;chr16:46392365-46392450<br />
+AATGGATTCATACGGAATCATAATCGAATGGAATTCAAACGAATCATCATCGAAGGGAATCGAATGCAACAATCGAATGG<br />
+AATCT<br />
+&gt;TFLinkSS09748393;P08069;IGF1R;hg38;chr16:46398805-46398869<br />
+TAATCTTCGAAAGGAATCGAATGGAATCGAATGGAACAATCAAATGGACTCCAATGGAATCATC<br />
+&gt;TFLinkSS09748394;P08069;IGF1R;hg38;chr16:46401526-46401649<br />
+CGAATGGAATCAAATGGAAACATCATTGAATAGAATTGAATGGAATCATCACATGGAATCGAATGGAATCATCGTAAATG<br />
+CAATCAAGTGGAATCATCGAATGGAATCTAAGGGAATCATCAT<br />
+&gt;TFLinkSS09748395;P08069;IGF1R;hg38;chr16:46405299-46405442<br />
+AAGGGAATCGAATGGAATCATCATCAAATGGAATCGAATGGAATCAACAACAAATGGAATCGTATGGAATCATTGAATGA<br />
+AATCCAATGGAATCATTACCAAATAGAAACGAATGGAATCATCGAATGGACTTGAATGGAATC<br />
+&gt;TFLinkSS09748396;P08069;IGF1R;hg38;chr16:46409849-46409970<br />
+AATCATCGAATGGAACTGAATGGAATCATCATCGAATGGAAATGAAAGGAGTCATCATCAAGTGGAATTGCATGGAATCG<br />
+AATGGAATCATCATCAAATGGAATCTGATGGAACCATCGAA<br />
+&gt;TFLinkSS09748397;P08069;IGF1R;hg38;chr16:46415855-46415912<br />
+AATTAATTGAACGGAATCATCGAATGGTCTCGAATGGAATCATTATCAAATGGAATC<br />
+&gt;TFLinkSS09748398;P08069;IGF1R;hg38;chr3:75725124-75725250<br />
+ATCAGCCTGCACTCCTCGACTCAGTGAAACCCTCACTCTCTCTCATCTGAAATATTTCCATTTTCCATCATGTTTCCATC<br />
+AGCCTGCACTCCTCTCACTTCCCGTTATCTTGTTCGCTTCCAGACT<br />
+&gt;TFLinkSS09748399;P08069;IGF1R;hg38;chr4:49635489-49635544<br />
+GAATTGAATGGAATGGAATCAACACGAGTGGAAAGGAATGGAATGGAATGGAATG<br />
+&gt;TFLinkSS09748400;P08069;IGF1R;hg38;chr4:49637749-49637839<br />
+TGGAATCAACTGGAATGGAATGGAATGGAATGGAATGCAATGGAATGGAAAGAATGGAATCAACATGAGTGGAATGGAAA<br />
+GGAATGGAAT<br />
+&gt;TFLinkSS09748401;P08069;IGF1R;hg38;chr4:49639353-49639476<br />
+GAAAGGAATACAACGGAATGGAATGGAATGGAATGCAATGGAATCAACTGGAGTGGAATGGAATGGAATGGAATGGAATG<br />
+GAATGGAATGGAAAGAATGGAATCAACATGAGTGGAATGGAAA<br />
+&gt;TFLinkSS09748403;P08069;IGF1R;hg38;chr4:49650729-49650788<br />
+ATGGAATGGAATGGAATGGAATGGAATGGAATGGATCAACCCGAGTGGAACGGAATGGA<br />
+&gt;TFLinkSS09748406;P08069;IGF1R;hg38;chrY:10627300-10627356<br />
+TCCATTCCATTCCATTCCATTCCATTCCATTCCATTCCGTAACATTCCACTCCACT<br />
+&gt;TFLinkSS09748407;P08069;IGF1R;hg38;chrY:11039306-11039431<br />
+ATTCCACTCCATTGCATTCCATTCCATTCCATTCCACTGCACTCCACTCCACACCACTCAATTCCACTCCACTCTACTCC<br />
+AGTCCATTTCTTTCCATTACATTCCAATCCCTTCTATTCCACTCA<br />
+&gt;TFLinkSS09748408;P08069;IGF1R;hg38;chr5:80651383-80651486<br />
+CCTTGACCTAACATCTTTACGTGGGTACTTGCGCTTACTTTGCAGCCTTCGTCAGGGTTTGCTGAAGATGGCGGTATATA<br />
+GGCTGAGCAAGAGGTGGTGAGGT<br />
+&gt;TFLinkSS09748409;P08069;IGF1R;hg38;chr5:80652286-80652375<br />
+AAATGCATACCGCCAAAAGATGAAATTTGAAATCTGGTTAGGCTGATGTTAGGGCTCTTTGTTTTTGGGGTTTGGCAGAG<br />
+ATCTCCTTT<br />
+&gt;TFLinkSS09748410;P08069;IGF1R;hg38;chr7:57898102-57898232<br />
+GACATTTGGAGCGCTTTGAGTCCTATGGTGGAAAAGGAAATATCTTCATAAGAAAACAAGACAAGAACTCTCGGAAACTT<br />
+CTTTGTGATGTGTGCGTTCAACTCACAGAGTTCAACCTTTCTTATGATTG<br />
+&gt;TFLinkSS09748411;P08069;IGF1R;hg38;chr7:57911428-57911482<br />
+AAATGTCCACTTGCAGATTCCAGAAAAAGAGAGTTTCAAAACTGTTCTATCAAA<br />
+&gt;TFLinkSS09748412;P08069;IGF1R;hg38;chr7:57948909-57948973<br />
+CTACTAATATCCACTTGCAGATTCCAGAAAAAGAGTGTTTCAAAACTGCTCTATCAAAAGAAAA<br />
+&gt;TFLinkSS09748413;P08069;IGF1R;hg38;chr11:10507909-10507977<br />
+GGATTGCGCTGTTATCCCTAGGGTAACTTGTTCCGTTGGTCAAGTTATTGGATCAATTAAACGTGGTA<br />
+&gt;TFLinkSS09748414;P08069;IGF1R;hg38;chr9:85265118-85265214<br />
+AGAGTCAGTCAGTCAGCCAGTCAGCCAGTCAGCCAGTCAGTCAGAGAGTCAGTCAGTCAGCCAGTCAGTCAGCCAGCCAG<br />
+CCAGTCAGTCATATAT<br />
+&gt;TFLinkSS09748415;P08069;IGF1R;hg38;chr9:40847737-40847787<br />
+AGCGCTTTGAGGCCTATGTTGAAAAAGGAAATATCTTCCCATAAAAACTA<br />
+&gt;TFLinkSS09748416;P08069;IGF1R;hg38;chr9:40870443-40870520<br />
+CTTTGAGGCCTATGGTGAAAAAGGAAATATCTTCCCATAACAACTAGACAGAAGAATTCTCAGAAACTTCCTTGTGA<br />
+&gt;TFLinkSS09748417;P08069;IGF1R;hg38;chr9:40880060-40880176<br />
+TTTCGTTGGAAAGGGAATATCTTCATATAAAATCTAGACAGAAGAATTCTCAGAAGCTTCTTTGTGATGTTTGCATTGAA<br />
+GTCACAGAGTTGAACATTCCCTTTCATAGAGCAGGT<br />
+&gt;TFLinkSS09748418;P08069;IGF1R;hg38;chr9:40890760-40890859<br />
+TAAGCAGTTTTGAAACTGTCTTTTTGTAGAATCTGCAAGTGCACATTTGGAGCGCTTTCAGGCCTATTTTGGAAAAGGAA<br />
+ATATCTTCGCATAAAAACT<br />
+&gt;TFLinkSS09748421;P08069;IGF1R;hg38;chr18:109153-109219<br />
+AAATATCTCTGCACTGATCACCCAGGTGATGCAACTCTTGACTAGGATCTGCCTACAGGAGGTATT<br />
+&gt;TFLinkSS09748423;P08069;IGF1R;hg38;chr11:55193565-55193691<br />
+AATGTGAAAAAGGAAATATCTTCAAATAGAAACTAGACAGAAGTTTTCTGAGAAACTTATTTGTGATGTGTGCATTCACC<br />
+TCAAAGAGTTTAACCTTTCTTTTGATTGAGCAGTTTGGAATCAGTC<br />
+&gt;TFLinkSS09748424;P08069;IGF1R;hg38;chr11:55194225-55194286<br />
+GGGATATTTGGAGCCCTTTGAGGCCTACGGTGAAAAAGCAAATATCTTCACGTAAAAACTA<br />
+&gt;TFLinkSS09748425;P08069;IGF1R;hg38;chr11:55258228-55258288<br />
+AAGGAAGGTTCAACTCTGTGAGTTGAATGCACACAAACAAAGAAGTTTCTGAGAATGCTT<br />
+&gt;TFLinkSS09748426;P08069;IGF1R;hg38;chr11:55258919-55258984<br />
+TCAACTCTGTGAGTTGAATGCACACATCAGAAAGAAATTTCTGAGAATGCTTCTGTCTAGTTTTT<br />
+&gt;TFLinkSS09748427;P08069;IGF1R;hg38;chr14:87771373-87771473<br />
+CAGGGGTGGGGTGGGGGGAAGGATGGAGGCCCCCACAGCACAGTGGGTCACCGCGCCCTCCCAGGAGATCCCCACAACTA<br />
+ATCGACCAGGGCCCCTGGGG<br />
+&gt;TFLinkSS09748428;P08069;IGF1R;hg38;chr21:10326177-10326252<br />
+TTTCTAATCCCATCACCATGGCGATAGGGCATAAACATTCCTGGGTGAAGGCACAATCCACATTGTGAGGTCCTA<br />
+&gt;TFLinkSS09748429;P08069;IGF1R;hg38;chr21:10325796-10325878<br />
+TTTGGCCTCCGAAATTGCTGGGATTACAGGCCTGAGCCAAGATCCATATTTTTTAAATGAAGAAAAATTTCAAAGGTACT<br />
+CT<br />
+&gt;TFLinkSS09748430;P08069;IGF1R;hg38;chr12:20551424-20551573<br />
+CGGACAGGATTGACAGATTGATAGCTCTTTCTCGATTCCGTGGGTGGTGGTGCATGGCCGTTCTTAGTTGGTGGAGCGAT<br />
+TTGTCTGGTTAATTCCGATAACGAACGAGACTCTGGCATGCTAACTAGTTACGCGACCCCCGAGCGGGT<br />
+&gt;TFLinkSS09748431;P08069;IGF1R;hg38;chrX:62466149-62466201<br />
+TTATCCAACGAAATCCTCAGAGAGCTCCAAATATCCACCTGCAGATTCTACC<br />
+&gt;TFLinkSS09748432;P08069;IGF1R;hg38;chrX:62475213-62475351<br />
+GGGAAGTTGATCCCGTTTCCAACGAAATCCTCAGAGAGGACCAAATATCCCCTTGCAGATTCTACAAAACGTGTGTTTGG<br />
+AAACTGCTCCATCATAACGAATGTTCAGCTCCCTGAGTTAAACTCCATCGTCACAAAG<br />
+&gt;TFLinkSS09748433;P08069;IGF1R;hg38;chrX:62498314-62498417<br />
+AGAAGTTTCTGAGAGTGCTTCCGTTTAGCTTTTAGGTGAAGATTATCCCGTTTCCAACGAAACCTTCAAAGAGGTCCAAA<br />
+TATCCCCTTGCGGATCCCACAGA<br />
+&gt;TFLinkSS09748434;P08069;IGF1R;hg38;chrX:62501705-62501755<br />
+CAAAAGGATTGTTCAACTCTGTGAGTTGAATGCAGTCATCACAGCAAACT<br />
+&gt;TFLinkSS09748435;P08069;IGF1R;hg38;chrX:62513721-62513842<br />
+GCTTGTGTCTAGTTTTTATGTGAAGATACCCGTTTCCAACGAATTCCTAAAGAGTTCCAAATATCCACAAGCAGATTCTA<br />
+CAAAAGGAGTGTTTCAATACTGCTCTATCAACAGACAGATT<br />
+&gt;TFLinkSS09748436;P08069;IGF1R;hg38;chrX:62514537-62514593<br />
+GGAGTTGAATGCACAGATCACAAAGCAGTTTCTGAGAATGCTTCTGTCTAGTTTGT<br />
+&gt;TFLinkSS09748437;P08069;IGF1R;hg38;chrX:62538875-62538931<br />
+GAAAATTTCTTTTGATAGAGCAGTTTTGAAAAACACTTTTTGTAGAATCTGCAAGT<br />
+&gt;TFLinkSS09748438;P08069;IGF1R;hg38;chrX:62540798-62540852<br />
+TGCAATGGATATTTTGACCTCTTAGAGGCCTTCGTTGGAAACGGGCTATCTTCA<br />
+&gt;TFLinkSS09748439;P08069;IGF1R;hg38;chrX:62552896-62552985<br />
+TGATGTGTGCATTCATCTCACAGATTTGAAGCTTTCTTTTGATCGAGCAGTTTTGAAACACTCTTTTTGTGGAATCTGAA<br />
+AGTGGATAT<br />
+&gt;TFLinkSS09748440;P08069;IGF1R;hg38;chrX:62593608-62593658<br />
+TTCACATAAAAACTAGACAGAAGCCGTCTCAGAAACTTCTTTGTAATGTG<br />
+&gt;TFLinkSS09748441;P08069;IGF1R;hg38;chrX:62595676-62595734<br />
+GCATTCAACTCACAGTGTTGAACCTTCCTTTTGACAGAGCAGTTTTGAAACACTCTTT<br />
+&gt;TFLinkSS09748442;P08069;IGF1R;hg38;chrX:62604557-62604659<br />
+GCATTCAACTCACGGAGTAGAACCTTTCTTTTGATAGAGCAGTTTTGAAACTCTCTATTTGTAAAATCTGCAAGTGGATA<br />
+TTTGGAGCGTTTGAGGCTTTCG<br />
+&gt;TFLinkSS09748443;P08069;IGF1R;hg38;chrX:62607973-62608024<br />
+TCAAGTCACAGTGTTGAACCTTTGTTTTGATAGAGCAGTTTTGAAACACGC<br />
+&gt;TFLinkSS09748444;P08069;IGF1R;hg38;chrX:62609902-62609988<br />
+TTTTGTAGAATCTGGAAGTGGACATTTGGAGCGCTTTGATGCCTGTGGTTGAAAAGGAGATATCTTCATATAAAAACTAT<br />
+ACAGAA<br />
+&gt;TFLinkSS09748445;P08069;IGF1R;hg38;chrX:62619742-62619879<br />
+ACTCACAGAGTTGAACCTTTCTGTTGATAGAGCAGTTTTGAAACACTCTTTTGTAAAATCTGCAAGTGGATATTTGGAGC<br />
+GCTTTGAGGCCTGTGGTGGAAAAGGAAAATCTTCAAATAAAAACTAGATAAAAGCAT<br />
+&gt;TFLinkSS09748446;P08069;IGF1R;hg38;chrX:62622438-62622504<br />
+GCATTCTCAGAAGCTTCTTTGTGATGTGTGTATTCAACTAACAGAGATGAACCTTTCTTTAGAGAG<br />
+&gt;TFLinkSS09748447;P08069;IGF1R;hg38;chrX:62622569-62622688<br />
+GGTTTAAAGGGAAATATCTTCCCATAAAAACTAGACAGAAGCATTCTCCGAAACTTGACTATTATGTGTACATTCAACTC<br />
+ACAGAGTTGAACTTTTCTTTTGATAGAGCGGTTTTGAAA<br />
+&gt;TFLinkSS09748448;P08069;IGF1R;hg38;chrX:62630035-62630090<br />
+GAAACAGAAGCATTCTCAGAAACTGCTCTGTGATGTGTGCATTCAACTCGGAGAG<br />
+&gt;TFLinkSS09748449;P08069;IGF1R;hg38;chrX:62652294-62652349<br />
+CTAGACAGAAGCATTCTGAGAAACTTGTTTGTGATGTGTGTATTCATCTCACTGT<br />
+&gt;TFLinkSS09748450;P08069;IGF1R;hg38;chrX:62661990-62662068<br />
+GGAGTGCTTTGAGGCCTACGTTGGAAAAGGAAATATCTTCCCATAAAAACTAGATAGAAGCATTCTGAGAAACTTCTT<br />
+&gt;TFLinkSS09748451;P08069;IGF1R;hg38;chr6:61336328-61336380<br />
+ATAGCTGAAAGGGAAATATCTTCCCATAAAAACTAGGCAGAAGCATTCTGAG<br />
+&gt;TFLinkSS09748452;P08069;IGF1R;hg38;chr6:61331884-61331997<br />
+GTGCTTTGAGGCCTCTGGTAGAAAAGGAAATTTCTTCATATAAAAACTAGACAGCAGCATTCTCAGAAACTACTTTGTGA<br />
+TGTTTGCATTCAACTCACAGTGTTGAACATTCC<br />
+&gt;TFLinkSS09748453;P08069;IGF1R;hg38;chr6:61323741-61323841<br />
+AATCATTCTCAGAAACTACTTTGTGATGTCTGCGTTCAACTCACAGAGTTTAACCTTTCTTTTCATAGAGCAGTTTTGAA<br />
+ACACTCTGTTTGTAATATCT<br />
+&gt;TFLinkSS09748454;P08069;IGF1R;hg38;chr17:35151133-35151244<br />
+GATTCGGCGCTGGGCTCTTCCCTGTTCACTCGCCATTACTGAGGGAATCCTGGTTAGTTTCTTTTCCTCCGCTGACAAAT<br />
+ATGCTTAAATTCAGCGGGTCGCCACGTCTGA<br />
+&gt;TFLinkSS09748455;P08069;IGF1R;hg38;chr20:41460931-41461047<br />
+GGGGGAGGGAGGCTGTACCCTGCAAAGGCACAGGTGTGGAGCTGCCCAAGACTACCTCTTGCATCAGCATGACCTGAATG<br />
+AGAGACCTGAAGTCAAAGGAGATCATTTTGGAGCCT<br />
+&gt;TFLinkSS09748456;P08069;IGF1R;hg38;chr5:100052896-100052968<br />
+GAATTAATTCTAGGACGATGGGCATAAAACTGTGGTTTGCTCCACAGATTTCTGAGCATTGGCCGTAGTATA<br />
+&gt;TFLinkSS09748457;P08069;IGF1R;hg38;chr18:52792776-52792880<br />
+TCCATTCCATTCCATTCCATTCCATTCCAGTTGATTCAATTCCATTCTATTCCATTCTATTCCATTCCATTCCATTCCAT<br />
+TCGGGTTGATTCAATTCCAATTAA<br />
+&gt;TFLinkSS09748461;P08069;IGF1R;hg38;chr15:98899486-98899628<br />
+TTCAGAGCTGGAGAACTTCATGGGGCTCATCGAGGTGGTGACGGGCTACGTGAAGATCCGCCATTCTCATGCCTTGGTCT<br />
+CCTTGTCCTTCCTAAAAAACCTTCGCCTCATCCTAGGAGAGGAGCAGCTAGAAGGGTAAGTG<br />
+&gt;TFLinkSS09748467;P08069;IGF1R;hg38;chr15:98923870-98924006<br />
+TACAGAAGGAGCAGATGACATTCCTGGGCCAGTGACCTGGGAGCCAAGGCCTGAAAACTCCATCTTTTTAAAGTGGCCGG<br />
+AACCTGAGAATCCCAATGGATTGATTCTAATGTATGAAATAAAATACGGATCACAA<br />
+&gt;TFLinkSS09748469;P08069;IGF1R;hg38;chr15:98929566-98929648<br />
+AAAACTTCATCCATCTGATCATCGCTCTGCCCGTCGCTGTCCTGTTGATCGTGGGAGGGTTGGTGATTATGCTGTACGTC<br />
+TT<br />
+&gt;TFLinkSS09748471;P08069;IGF1R;hg38;chr15:98935326-98935437<br />
+GGGTGTGGTGTCCCAAGGCCAGCCAACACTGGTCATCATGGAACTGATGACACGGGGCGATCTCAAAAGTTATCTCCGGT<br />
+CTCTGAGGCCAGAAATGGAGGTCAGTTTTCA<br />
+&gt;TFLinkSS09748472;P08069;IGF1R;hg38;chr15:98939205-98939330<br />
+TCCAGTCCTAGCACCTCCAAGCCTGAGCAAGATGATTCAGATGGCCGGAGAGATTGCAGACGGCATGGCATACCTCAACG<br />
+CCAATAAGTTCGTCCACAGAGACCTTGCTGCCCGGAATTGCATGG<br />
+&gt;TFLinkSS09748474;P08069;IGF1R;hg38;chr15:98948580-98948691<br />
+GGGGTCGTCCTCTGGGAGATCGCCACACTGGCCGAGCAGCCCTACCAGGGCTTGTCCAACGAGCAAGTCCTTCGCTTCGT<br />
+CATGGAGGGCGGCCTTCTGGACAAGCCAGAC<br />
+&gt;TFLinkSS09748476;P08069;IGF1R;hg38;chrY:10182961-10183067<br />
+AAAGAAAGAGAAAATGAAAGAAAAGACACTGTATTGCTACTGGGCCAGGACCTCTCTTTCTGTGTATTTCTCTCTGTCTC<br />
+TCTGTCCATCTCTGTCTTTCTCTATC<br />
+&gt;TFLinkSS09748478;P08069;IGF1R;hg38;chr1:65945336-65945476<br />
+GATCTCTTGGCCTGAGTAAATATTTTGTAGATTCCAATTTGGTTGTCATATGCTTTGAGTTTTTGGATAGTGAACTGGCT<br />
+GAGACACTGTAGGCAGGAAAGGCAAACCCAGACCAAGAATACACGTTAATTCCGGCTACA<br />
+&gt;TFLinkSS09748479;P08069;IGF1R;hg38;chr11:85483974-85484103<br />
+TCTTCCAGGAGTCGGGTTGCTTGGGAATGCAGCCCAAAGCGGGTGGTAAACTCCATTTAAGGCTAAATACCGGCACGAGA<br />
+CCGATAGTCAACAAGTACCGTAAGGGAAAGTTGAAAAGAACTTTGAAGA<br />
+&gt;TFLinkSS09748480;P08069;IGF1R;hg38;chr4:69430942-69431043<br />
+ACGCTCCAGCGCCATCCATTTTCAGGGCTAGTTGATTCGGCAGGTGAGTTGTTACACACTCCTTAGCGGATTCTGACTTC<br />
+CATGGCCACCGTCTGTTTCTT<br />
+&gt;TFLinkSS09748482;P08069;IGF1R;hg38;chr4:49105594-49105714<br />
+CCATTCCATTCCATTCCATTCCTTTCCATTCCATTCGGGTTGATTCCATTCCATTAAATTCAACTGCATTCCATTCCATT<br />
+CCATTCCACTGCATTCCATTCCATTCCACTCCATACATTC<br />
+&gt;TFLinkSS09748483;P08069;IGF1R;hg38;chr4:49120243-49120368<br />
+TCCATTCCATTCAATTCCACCTGGATTCAATCTATTCTTTCCATTCCATTCCGTTCTGTTCCATTGCAGTCCATTGCATT<br />
+AGATACCATTCCATTCCACTCGGGATGATTCCTTTCAATTCCATT<br />
+&gt;TFLinkSS09748484;P08069;IGF1R;hg38;chr4:49120964-49121059<br />
+CATTCCATTCCAATCCATTCCATTCCATTCAATTCCACTCGCATTCAATCTATTCCATTCCATTTCATTCCGTTCTGTTC<br />
+CATTCCATTCTATTG<br />
+&gt;TFLinkSS09748485;P08069;IGF1R;hg38;chr4:49124718-49124819<br />
+ATTGCATTCCATTCCATTGCATTCCATTCCATTGCATTGCATTCCATTCCATTGTATTCCATTCCACTCGGGTTGTTTCC<br />
+ATTCCTTTCCATTAGTTTCCA<br />
+&gt;TFLinkSS09748486;P08069;IGF1R;hg38;chr4:49126308-49126364<br />
+TTCGACTCGGGTTGATTCCATTCCATTCCATTCCATTCCAATGCATTCCATTCCAG<br />
+&gt;TFLinkSS09748487;P08069;IGF1R;hg38;chr14:18235024-18235144<br />
+CTTGCAGATTCTACAAAAAGAGTGCTTCAAAACTGCTCTGTCAAAAGAAAGGTTTAACTCTGTGAGTTGAGTGCACACAT<br />
+CACAAAGAAGTTTATGAGAATTCTTCTGTCTAGTTTTTAT<br />
+&gt;TFLinkSS09748488;P08069;IGF1R;hg38;chr14:18237236-18237363<br />
+AATGTCCACTTGCAGATACTACAAAAAGATTGTTTCAAGACTTCTCTATCAAAAGATATGTTCAACTCTATGAGTTGAAT<br />
+GCAAACATCACAAAGCAGTTTCTGAGAATGCTCCTGTCTAGTTTTTA<br />
+&gt;TFLinkSS09748489;P08069;IGF1R;hg38;chr14:18242610-18242670<br />
+TGCACACATCACAAAGAAGTTCCTGAGAATGCTTCTCTCTAGTTTTTATATGAAGATACT<br />
+&gt;TFLinkSS09748490;P08069;IGF1R;hg38;chr14:18261907-18261992<br />
+TCTGAGAATGCTTCAGTCTAGTTTTTATGGGAAGATATTTCCTTTTCCACCGTAGGCCTGAAAGCGCTCAAAATGTCCAC<br />
+TTGCA<br />
+&gt;TFLinkSS09748491;P08069;IGF1R;hg38;chr14:18262604-18262706<br />
+CTGTCTAGTTTTTATGTAAAGATATTCCCGTTTCCAACGAAGGCCTCAAAGCGGTCCAAATATCCACTTACAGTTTCTAC<br />
+AAAAAGAGTGTTTCAAAACTGC<br />
+&gt;TFLinkSS09748492;P08069;IGF1R;hg38;chr14:18268102-18268154<br />
+TTTTCCACCGTAGGCCTCAAAGCGCTCCAAATGTCCACTTCCACATTCAACA<br />
+&gt;TFLinkSS09748493;P08069;IGF1R;hg38;chr1:121610406-121610488<br />
+TACAGAAAGAGTGTTTCAAACCTGAACTATCAGAGGAAGGTTCAACACTGTGAGTTGAATGCAAACATCACGAAGAAGGT<br />
+TC<br />
+&gt;TFLinkSS09748494;P08069;IGF1R;hg38;chr1:121612486-121612578<br />
+GTTAAACTCTGTGACTTGAATGCAATCATCACAAAGTAGTTTCTGAGAATGCTTCCATCTAGCTTTTATGAGAAGATATT<br />
+TCCTTTTCCACC<br />
+&gt;TFLinkSS09748495;P08069;IGF1R;hg38;chr1:121613893-121614012<br />
+GATAAGAGAGGTTTATCCCGTTTCCAACGAAATCCTCAGAGAGGTCCAAATATCCACTTGCAGATTCTACAAAAAGTGTG<br />
+TTTCGAAACTGCTCCATCCAAAGGAATGTTCAGCAAGGT<br />
+&gt;TFLinkSS09748496;P08069;IGF1R;hg38;chr1:121614279-121614343<br />
+TCCAAATGTCCACTTGCAGATTCTAGAAAGAGAGGGTTTCAAAGCTGCTCTATCAAAAGGAAAG<br />
+&gt;TFLinkSS09748497;P08069;IGF1R;hg38;chr1:121616195-121616269<br />
+CGTGAACTATCAAAGGAAGGTTCAACTCTGGACTTTGAATGCAAACGTCAGAAAGATGTTTCTGCGAAAGCTTC<br />
+&gt;TFLinkSS09748498;P08069;IGF1R;hg38;chr1:121616367-121616424<br />
+CCACCCAAAGGAATGCTCAGCTCTGTGAGTTAAACTCAATCATCCCAAAGTATTTTC<br />
+&gt;TFLinkSS09748499;P08069;IGF1R;hg38;chr1:121736815-121736907<br />
+TTCTGTTTAGATAGGTGAGTTTTCTCCCGTATCCAACGAAATCCTCAGAGAGGTCCAAATATCCACTTGCAGATTCTACA<br />
+GAAAGTGTGTTT<br />
+&gt;TFLinkSS09748501;P08069;IGF1R;hg38;chr19:35575600-35575739<br />
+ACTCGCTCATCAGACCCCAGAAAAGGTGTTGGTTGATATAGACAGCAGGACGGTGGCCATGGAAGTCAGAATCCACTAAG<br />
+GAGTGTGTAACAACTCACCTGCCGAATCAACTAGCCCTGAAAATGGATGGCACTGGAGC<br />
+&gt;TFLinkSS09748502;P08069;IGF1R;hg38;chr16:34947972-34948078<br />
+GACTTCATTAGATTCCATTTGATAATGATTCCATTCGATTCTAATCAATGATGTTTCTATTTGATTCCATTCGATGATGA<br />
+TTCCATTCATTTCCATTGGATGATTC<br />
+&gt;TFLinkSS09748504;P08069;IGF1R;hg38;chr16:34955769-34955884<br />
+ATTCCATTCGATGATGATTCCTTTCGAGTCCATTCAGTGATTCCATTCAAGTCCATTCGATGATTCCTTTTGATTCCATT<br />
+TGATGATGATTCCAATCGAGACCATTCTATGATTC<br />
+&gt;TFLinkSS09748506;P08069;IGF1R;hg38;chrY:4344792-4344860<br />
+GACCTAACGTCTTTACGTGGGTACTTGCGCTTACTTTGTAGCCTTCATCAGGGTTTGCTTCTATTACT<br />
+&gt;TFLinkSS09748507;P08069;IGF1R;hg38;chr2:92079589-92079648<br />
+CATTCGAGTCCATTTGATGATTCCATTCGATTCCATTCGACGATGATTCCATTAGAGTC<br />
+&gt;TFLinkSS09748508;P08069;IGF1R;hg38;chr2:92081674-92081792<br />
+TCGATAATTCCATTTGATTCCATTTGATGTTGATTCCATTCGAGTCCATTTGATGATTATTCCATTCGATTCTATTTGGT<br />
+GATTCCATTCGATTCCATTTGATAATGATTCCATTTGA<br />
+&gt;TFLinkSS09748509;P08069;IGF1R;hg38;chr2:92084926-92084983<br />
+CAAGAGGATATTTGGATACCTTTGAGGATTTCGTTGGAAACGGGAATATCTTCATAT<br />
+&gt;TFLinkSS09748510;P08069;IGF1R;hg38;chr2:92085037-92085127<br />
+CCCAGAGTTGAACATTCCCTTTCATAGAGCAGGTTTGAAATACTCTTTTTGTAGTATCTGGAACTCACAATTTGATCGCT<br />
+TTATTCTTAT<br />
+&gt;TFLinkSS09748511;P08069;IGF1R;hg38;chr2:92085366-92085428<br />
+TGCATTCAAGTCACAGAGGTGAACATTCCCTTTCATACAGCAGGTTTGAAACACTGATTTTG<br />
+&gt;TFLinkSS09748512;P08069;IGF1R;hg38;chr2:92087884-92087961<br />
+TCGCATAAAAACTAGACAGAAGCATTCTCATAAACTTGTTTGTGATGTGTGAACTCAACAAACAGAGGTGAACTTTC<br />
+&gt;TFLinkSS09748513;P08069;IGF1R;hg38;chr2:92088638-92088720<br />
+ATTTTCCTTTGATAGAGCAGTTTTGAAACACTCTTTTTGTGGAATCTGCAAGTGGATATTTGGATAGCTTTGAGGATTAG<br />
+GT<br />
+&gt;TFLinkSS09748515;P08069;IGF1R;hg38;chr2:92098703-92098768<br />
+TGATCACTCCCTTTCATAGAGCAGCTTTGAAGCACTCTTTTTGTAGTATCTGGAAGTGGACGTTT<br />
+&gt;TFLinkSS09748516;P08069;IGF1R;hg38;chr2:92099693-92099746<br />
+CATCTTTGGGATGTTTGCATTCAAGTCACAGAGTTGAACACTCCCTATCATGG<br />
+&gt;TFLinkSS09748517;P08069;IGF1R;hg38;chr2:92102475-92102560<br />
+GAGCAGGTTGGAAACACGCCTTTTGTCATATCTGGAAGTGTCCATTTGGAGTGCATTCAGGCTTGTGTTGAAAAAGGAAA<br />
+TACCT<br />
+&gt;TFLinkSS09748518;P08069;IGF1R;hg38;chr2:92102910-92102987<br />
+TAGACAGAAGCATTCTCAGAAACTTATTTGTGATGTGTGCCCTCAACTAACAATGTTGAACCTTTCTTTTGATAGAG<br />
+&gt;TFLinkSS09748519;P08069;IGF1R;hg38;chr2:92103099-92103181<br />
+AAATTTCTTTGGGATGTTTCAATTGAAGTCACAGTGTTGAACATTCCCTTTGTTAGAGCAGGTTTGAAACACTCTTCTTG<br />
+TA<br />
+&gt;TFLinkSS09748521;P08069;IGF1R;hg38;chr2:92109930-92109984<br />
+TCAAGTCACAGAGTTGAACATTCCCTTTCATAGAGCAGCTTTGAAACACTCTTT<br />
+&gt;TFLinkSS09748522;P08069;IGF1R;hg38;chr2:92112671-92112735<br />
+AGTGTTGAACATTCCATTTGAGAGAGCAGGTTTGAAACACGCCTTTTGTCATGTCTGGAAGCTG<br />
+&gt;TFLinkSS09748524;P08069;IGF1R;hg38;chr2:92118054-92118137<br />
+TGGAAACGGGATTACATATAAAAAGCAGACAGCAGCATTCTCAGAAACTCCTTTGTGATGTTTGCATTCAAGTCACAGAG<br />
+TTG<br />
+&gt;TFLinkSS09748525;P08069;IGF1R;hg38;chr2:92120016-92120074<br />
+CTTTTGAGAGAGCAGTTTTGAAACACTCTTTTTGTGGAATATGCAAGTGGATATTTGT<br />
+&gt;TFLinkSS09748526;P08069;IGF1R;hg38;chr2:92121139-92121241<br />
+CAGAGAGCAGCATTCTCAGAAACTTCTCTGTGATGTTTGCATTCAAGTCACAGATTTGAATATTCCCTTTCATAGAGCAG<br />
+GTTTGAAACACTCTTTTTGTAG<br />
+&gt;TFLinkSS09748527;P08069;IGF1R;hg38;chr2:92127358-92127496<br />
+TGGAAGTGGACATTTGGAGCGCTTTCAGGCCTATGTTGAAAAAGGAAATATCTTCCCATAAAAACAAGACAGAAGCATTC<br />
+TCTGAAACCGGTTTCTGAGGTGTGTCCTCAACTAACAGAGTTGAACATTTCTTTTGAC<br />
+&gt;TFLinkSS09748528;P08069;IGF1R;hg38;chr2:92127943-92128020<br />
+CCAGAAACTTCTTTGTGATGTTTGCATTCAAGTCACACAGTTGAACATTCCCTTTCATAGAGCAGGTTTGAAACACT<br />
+&gt;TFLinkSS09748529;P08069;IGF1R;hg38;chr2:92128186-92128329<br />
+ACACTCTTTTTGTGGAATCTGCAAGTGGATATTTGTCTAGATTTGAGGATTTCGTTGGAAACGGGATTACATATAAAAAG<br />
+CAGACAGCAGCATTCCCAGAAACTACTTTGTGATGTTTGCATTCAAGTCACAGAGTTGAACAT<br />
+&gt;TFLinkSS09748530;P08069;IGF1R;hg38;chr2:92129691-92129807<br />
+CCTTTCATAGAGCAGGTTTGAAACACTCTTTTTGTAGTATATGGAAGTGGACATTTCGAGCGCTCTCAGGACTGCGGTGA<br />
+AAAAGGAAATATCTTCCAATAAAAGCTAGATAGAAG<br />
+&gt;TFLinkSS09748531;P08069;IGF1R;hg38;chr2:92130629-92130738<br />
+ATTACATATAAAAAGCAGACAGCAGCATTCCCAGAATCTTGTTTGTGATGTTTGCATTCAAGTCACAGAGTTGAACATTC<br />
+CCTTTCAGAGACCAGGTTTGAAACACTCT<br />
+&gt;TFLinkSS09748532;P08069;IGF1R;hg38;chr2:92131072-92131134<br />
+AACACTCTTTTTGTAGTATCTGGAAGTGGACATTTGGAGAGATCTCTGGACTACGGTGAAAA<br />
+&gt;TFLinkSS09748533;P08069;IGF1R;hg38;chr2:92132021-92132158<br />
+AGTAACTTCCTTGTGATGTTTGCATTCAAGTCACAGAGTTGAACATTCCCTTTCATAGAGCAGGTTTGAAACACTCTTTT<br />
+TGTAGTATCTGGATGAGGACATTTGGAGCGCTTTCAGGCCTATGGTGAAAAAGGAAA<br />
+&gt;TFLinkSS09748534;P08069;IGF1R;hg38;chr2:92132376-92132432<br />
+GGATGTTTCAATTGAAGTCACAGTGTTGAACATTCCCTTTCATAGAGCAGGTTTGA<br />
+&gt;TFLinkSS09748535;P08069;IGF1R;hg38;chr2:92132759-92132850<br />
+ATAGAGCAGGTTTGAAACAATCTTTTTGTAGTATCTGGAAGTGGACATTTGGAGCGCTCTCAGGACTGCGGTGAAAAAGG<br />
+AATTATCTTCC<br />
+&gt;TFLinkSS09748536;P08069;IGF1R;hg38;chr2:92133270-92133331<br />
+AGAGCAGTTTTGAAACACACTTTTTGTAAAATCTGCAAGAGGATATTTGGATAGATTTGAG<br />
+&gt;TFLinkSS09748537;P08069;IGF1R;hg38;chr2:92135376-92135444<br />
+GGAAAGGGGATTGTCTTCATATAAAATCTAGACAGAAGCATTCTCAGAAGCTTCATTGGGATGTTTCA<br />
+&gt;TFLinkSS09748538;P08069;IGF1R;hg38;chr2:92135512-92135592<br />
+GAATTGGAAATTTTGAGAGACCTCAGGAATACGGTGATAAAGGAAATATCTTCCAATAAAAGCTAGATAGAAGCAATGTC<br />
+&gt;TFLinkSS09748539;P08069;IGF1R;hg38;chr2:92136150-92136241<br />
+CTTTCATAGAGCAGGTTTGAAACACTCTTTTTGTAGTTTCTGGAAGTGGACATTTGGAGAGATCTCATTAATACGGTGAT<br />
+AAAGGAAATAT<br />
+&gt;TFLinkSS09748540;P08069;IGF1R;hg38;chr16:14487025-14487117<br />
+ACAGCACGGTCCGGGGTGGTCCAGTCTGATCCCAACCGGCCCACCCGGGGCATCCGGTGGAAGTCTTCGCCGGAGGATCC<br />
+GAAGGCAGCATC<br />
+&gt;TFLinkSS09748541;P08069;IGF1R;hg38;chr19:24001287-24001346<br />
+TCCACTTCGGCCTTCAAAGTTCTCATTTGAATATTTGCTACTACCACCAAGATCTGCAC<br />
+&gt;TFLinkSS09748542;P08069;IGF1R;hg38;chr10:38578957-38579071<br />
+GGAATGGAATGGACTGGAATGGAATGGAATGGAATGGAAGGGAATGGAATGGAATGGAATGGAAAGGACTGGAATGGAGT<br />
+GGAATGGAATGGAACGGACTCAAATAGAATGGAA<br />
+&gt;TFLinkSS09748543;P08069;IGF1R;hg38;chr10:38588619-38588730<br />
+GGAATTGATTGGAATAATCATCAAATGGAATCGAATGGTATCATTGAATGGAATCAAATGGAATAATCATCAGATGGAAA<br />
+CGAATGGAATCATCATAGAATGGAATTGAAT<br />
+&gt;TFLinkSS09748545;P08069;IGF1R;hg38;chr10:38589121-38589178<br />
+ATTGAATGGAATGGAATGGTATCATTGAATGGAATCGAATGGAATCATTGAATGGCA<br />
+&gt;TFLinkSS09748546;P08069;IGF1R;hg38;chrY:11297917-11298050<br />
+ATTCAATTCCATTCTATTCCTTTTAATTCCATTCCATTCCATTCCATTCCATTCCATTCCATTCCATTCCATTCCATTCC<br />
+ATTCCATTCTATTCCATTCCATTCCATTCCATTCCTTTCCACTCTGGTTTATT<br />
+&gt;TFLinkSS09748547;P08069;IGF1R;hg38;chrY:11302685-11302821<br />
+ATTCCATTCCATTCCATTCCATTCCATTCCTTTCCATTCCATTCCATTCCATTCCCTTCCATTCCATTCCACTCGGAATG<br />
+ATTCCATTCCATTCCATTCCATTCCATTCCATTCCATTACATTACATTTCATTCCG<br />
+&gt;TFLinkSS09748549;P08069;IGF1R;hg38;chrY:11305475-11305624<br />
+TTACATGACCTAGGTGATCAGTGCAGAGATACATCGCAATGCCCCTGTAGGCAGGGCCTTGACAAGTGGTATATCACCTG<br />
+GGTGATCATTGCAGGGATATGTCACAAAGCACCCAGTAGGCAGATCCTAGAGAAGAGTTATATCACCTG<br />
+&gt;TFLinkSS09748550;P08069;IGF1R;hg38;chrY:11310333-11310426<br />
+AACAAGTGTTACATCTCCTGGGTGATCAGTGCAGAAATATGTCACAAAGCCCCTGTAGGCCGAGCCTAGACAAAAGTTAC<br />
+ATCTCCTGGGTGA<br />
+&gt;TFLinkSS09748551;P08069;IGF1R;hg38;chrY:11312362-11312466<br />
+AAGCTCCTGTAGGCAGAACTTGGATGAGTTATATCACCTGGGTTATCAGTGCAAAGGTATGTCACAAAGCCCCCTGTAGG<br />
+CAAAGCCTAGACAATAGTTACAAC<br />
+&gt;TFLinkSS09748552;P08069;IGF1R;hg38;chrY:11320878-11320940<br />
+ACACTGCAGACTCCCCATGTTGCCGCACACGGGAATCCATCGTCAGGCCATCACTCCGGGGA<br />
+&gt;TFLinkSS09748553;P08069;IGF1R;hg38;chrY:11323637-11323741<br />
+TACCAGTGCAGAGATATATCACAATGTCCCCTGTACAAAAAGCCTGGAAATGATTTACATCACCTAGGTGATCAGTGCAT<br />
+AGGTATGTCAGAAATCCCCAGTAG<br />
+&gt;TFLinkSS09748554;P08069;IGF1R;hg38;chrY:11323872-11324001<br />
+TCTAGGCAGAGTGTAGACAAGTGTTTCCTCCTTGGGGTGATCAGTGCAGAGATATGTCACAAAGCCCCTGTAAGCAGAAC<br />
+CTTGACAAGGGTTACATCACCTGTTTGATCAGTGGAAATGTATATCACA<br />
+&gt;TFLinkSS09748555;P08069;IGF1R;hg38;chrY:11325777-11325905<br />
+CCCACTGTAAGCAAAGCCTAGACAAGTTTTACATCACCTCAGCGATCAGTGCAGTGATAGCTCCCAATGTCCCTCTAGGC<br />
+AGAGCTTAGACAAGAGTCACATCTCCTGGGTGATCAGTGTAGAGATAA<br />
+&gt;TFLinkSS09748556;P08069;IGF1R;hg38;chrY:11326224-11326282<br />
+ACCTTTTTCATCAGTTCAGGGATATGTGAAAACGCCCCTGTAGGCAGATCCTAGACAA<br />
+&gt;TFLinkSS09748557;P08069;IGF1R;hg38;chrY:11329658-11329801<br />
+TATGTCACAAGCCCCTGTAGGCAGAGCCTAGACAAGAGTTATAACACCTGGGTGATCAGTGCAGTGATATGTCACAATGC<br />
+CGTATAGCCAGAGCCTAGACTAAAGTTACAGCACCTGGGAGATAAGTGCAGAGATATGTCACA<br />
+&gt;TFLinkSS09748558;P08069;IGF1R;hg38;chrY:11329877-11329978<br />
+GTGGGCACAGCCTAGACAAGAGTTACATCACCTCGTTTAACAGTGCAGAGATATGTCAAAATGCCCCTGTAGGCAGAGCC<br />
+TACACAAGTGTTACATCACTT<br />
+&gt;TFLinkSS09748559;P08069;IGF1R;hg38;chrY:11494905-11494960<br />
+TGGAATGGAATGGAGAGGAAACGAGTGGAATGGAATGGAATGGAATGGAATGGAA<br />
+&gt;TFLinkSS09748560;P08069;IGF1R;hg38;chrY:11495022-11495071<br />
+GATTGGAATCAAGCGGAATGGAATGGAATGGAATGGAATGCAATGGAAT<br />
+&gt;TFLinkSS09748561;P08069;IGF1R;hg38;chrY:11495319-11495373<br />
+ATGGAAAGGACTCGAATGGAATGGACTGGAATGGAATGGATTCAAAGGGAATGT<br />
+&gt;TFLinkSS09748562;P08069;IGF1R;hg38;chrY:11503551-11503696<br />
+AATGCAATGGAATGGAACGAAGTGGAATCGAATGGAATGGAATCGAATGGAATGTAATAGAATGGAATGGACTGGAAATT<br />
+AATGATGTGGAATGGAATGGACTGGAGAGGAATGGACTCGAATTGAATGGAAACGAATGGAATGA<br />
+&gt;TFLinkSS09748563;P08069;IGF1R;hg38;chrY:11522083-11522143<br />
+AATGGACACGAATGGAATGGACACGAATGGAATGGAATCGAATGGAATGGAATTGAATGG<br />
+&gt;TFLinkSS09748564;P08069;IGF1R;hg38;chrY:11525268-11525331<br />
+CGAATGGAATGGAATGGAATCGAATGGAATGGACTGGAATGGAATGGATTCGAATGGAATGAA<br />
+&gt;TFLinkSS09748565;P08069;IGF1R;hg38;chrY:11539218-11539318<br />
+TGGAGTGGAACGGAATGGAACGGAACCGAATGGAGTGGAATGGACTCAAATGTAATGGACTCGAATGGAATCGACTGAAA<br />
+TATAATAGTCTCGAAAGGAA<br />
+&gt;TFLinkSS09748566;P08069;IGF1R;hg38;chrY:11548638-11548697<br />
+AATGGAATGGAATGGAATGAAATGGAATGGAATGGAATGAAATGGAATGGAATGGAATG<br />
+&gt;TFLinkSS09748568;P08069;IGF1R;hg38;chr10:41879425-41879477<br />
+TGGAATGGAATGCAATGGAATGGAATCAACCCGAATGGAATGGAATGGAATG<br />
+&gt;TFLinkSS09748569;P08069;IGF1R;hg38;chr10:41876787-41876870<br />
+TGGAATGGAATGGAATGGAATGGAATGCAATGGAATCAACTCGAGTGGAATGGATTGGAATGGAGTGGAATGGAATGGAA<br />
+CCG<br />
+&gt;TFLinkSS09748570;P08069;IGF1R;hg38;chr10:41875407-41875547<br />
+ATGGAATGGAATGGAATGGAATGGAATGGAATCAAACCGAATAGAATGGAATGGAATGGAATGGAAATGAATGGAAAGGA<br />
+ATGGAAAGGAATGGAATGGAATGGAATCAACCCGAATGGACTGGAATGGAATGGAACGGA<br />
+&gt;TFLinkSS09748572;P08069;IGF1R;hg38;chr10:41860919-41860982<br />
+GGAATGGAATGGAATGGAATCAACCCGAGTGGAATGCAAGGGAATGGAATGGAATGGAATGGA<br />
+&gt;TFLinkSS09748574;P08069;IGF1R;hg38;chr10:41859913-41860047<br />
+TGGAATGGAATGGAATCAACCCGAGTGCAATGGAATGGAATGGAATGGAATGGAATGGAATGGAATAGAATGGAATCAAT<br />
+TCGAGTGCAATGTAATTGTATAGAATGGAATGGAATGGAATCAACCAGAGTGGA<br />
+&gt;TFLinkSS09748577;P08069;IGF1R;hg38;chr10:41854617-41854683<br />
+GATGACAATTCCATTCAATACCAATTGATGATGGTTATTTTTGATTCCATTTGATGATGATTACAT<br />
+&gt;TFLinkSS09748581;P08069;IGF1R;hg38;chr10:41845681-41845819<br />
+TGATTCCATTCGATTCTATTCGATGATGATTGCATTCGGGTCCATGGATTATTCCATTCCATTCCATTAGATGATTCCAT<br />
+TCGTGGCCATTTGATGATTCTCTTCGATTCCATTCGATAATTCCGTTTGACTCCGTTT<br />
+&gt;TFLinkSS09748582;P08069;IGF1R;hg38;chr10:41844516-41844642<br />
+TCCATTCGATTCCATTTGATGATGATTTCAATCAATTTCATTTGATGATTCCATTCGAATCCATTTGATGATGAGTCCAT<br />
+CCATTTCAATTTCATAATTCCATTCGTTTCAATTCGATGGTGTTTC<br />
+&gt;TFLinkSS09748584;P08069;IGF1R;hg38;chr10:41842289-41842348<br />
+TAAACACAACACAAAGAAGTTACTGAGAAATCTTCTGTCTAGCATTATATGAAAAAATC<br />
+&gt;TFLinkSS09748587;P08069;IGF1R;hg38;chr10:41840224-41840335<br />
+AAGGAATGTTGAACTCTGTGAGTTGAATGCAAACATCACAACTTAGTTTCTGAGAACGCTTCTGTCTAGTATTTATGTAA<br />
+GATATTTCCTTTTCTACCATAGGCCTCAAAG<br />
+&gt;TFLinkSS09748588;P08069;IGF1R;hg38;chr10:41838266-41838392<br />
+TTACATGAAGATATTTCATTGTCTCCCGTAGGCTTCAAAGCACTTTAAGTATGCACTTGGAAGTACTACAAAAAGAGTGT<br />
+TTGAAAACTGCTCTTTCAAAAGTAAGGTTCAACTCTGTGACTTGAA<br />
+&gt;TFLinkSS09748589;P08069;IGF1R;hg38;chr10:41837007-41837107<br />
+AAATAAAGGTTAAACTATGTGAGTTGAATGCACACATCACAAAATAGATTCTGAGAATGATTCTTTGTAGTTTTTACATG<br />
+AAGATATTCCTTTCCTCATA<br />
+&gt;TFLinkSS09748590;P08069;IGF1R;hg38;chr10:41835192-41835302<br />
+TTTCTCAGAATTCTTCTGTCTAGTTTTATATGAAGAAACCCCGTTTCCAATGAAGGCCTCAAAGAAGTCCAAATATCCAC<br />
+TTGCAGACTTTACACACACAGTGTTTCAAA<br />
+&gt;TFLinkSS09748591;P08069;IGF1R;hg38;chr10:41832529-41832648<br />
+AACGAAGTCCTCAAAGAGGTCCATATATCCACTTGCAGACTTTACAAACAGGGTTTCAAAGCGGCTATATCAAAAGAAAG<br />
+GTTAAACTCCGTGAGTTGAACACACACAGCACAAATTAG<br />
+&gt;TFLinkSS09748592;P08069;IGF1R;hg38;chr10:41831824-41831936<br />
+CTAGCTGTATAGGAACAAATCCCGTTTCCAAAGAAGGCCTCAAAGAGGTCCAAATATCCACTTGCAGATTCTGCAAAAAG<br />
+AGTGTTTCAAAACCGCTCTATCAAAAGGAATG<br />
+&gt;TFLinkSS09748594;P08069;IGF1R;hg38;chr10:41710545-41710667<br />
+TTGAAACTTCCTTTACACAGAGCAGATTTGAAACACTCTTTTTGTGGAATTTGCAAGTGCAGATTTCAAGCGCTTCTAGG<br />
+CCAATTGTAGAAAAGGAAGTATCTTCGTATAAAAACTAGACA<br />
+&gt;TFLinkSS09748596;P08069;IGF1R;hg38;chr10:41709948-41710087<br />
+ATGGTAGAAAAGGAAATATCTTCGTATAAAAACTAGACAGTATCATTCTCAGAAACTACTTTGTGTTGTGTGCTTTCAAC<br />
+TCACAGAGTTTAACCTTTCTTTTCATAGAGCAGTTTGGAAACACTCTGTTTGGAATATC<br />
+&gt;TFLinkSS09748597;P08069;IGF1R;hg38;chr10:41709105-41709167<br />
+GGAAAAGGGATTTCTTCATATACTGCTAGACAGAAGAATTCTCAGTAACTTCTTTCAGTTGT<br />
+&gt;TFLinkSS09748598;P08069;IGF1R;hg38;chr10:41708233-41708366<br />
+ATTTGAAGCGATTTGAGGCCAATCATTGAAATGGAAATATCTTCGTGTAAAAATTAGACAGAATCATTCTCTGCAACTAC<br />
+TTTGTGATGTGTGCGTTCAACTCACAGAGTTTAACTTTTCTTTTCCTAGAACA<br />
+&gt;TFLinkSS09748599;P08069;IGF1R;hg38;chr10:41705432-41705497<br />
+TTGTGTGCATTCAACTCACAGAGTTGAACCTTCCTTTATTCAGAGCAGTTTTGAAACACTCTTTT<br />
+&gt;TFLinkSS09748600;P08069;IGF1R;hg38;chr10:41704684-41704738<br />
+AGGCCTTCGTTGGAAACGGGATTTCTTCATATAATGTTAGATAGAAGAATTCTC<br />
+&gt;TFLinkSS09748601;P08069;IGF1R;hg38;chr10:41700373-41700498<br />
+TTTAGAGAGAGCACATTTGAAACACTCTTTCTGTGTAATTTGCTAGTGCAGATTTCAAGCTCTTCGAGGACAATGGTAGA<br />
+AAAGGATATATCTTCGTATGAAAACTAGACAAAATCATTCTCAGA<br />
+&gt;TFLinkSS09748602;P08069;IGF1R;hg38;chr10:41697995-41698050<br />
+TTATTCAGAGCAGTTTTGAAACACTCTTTTTGTGGCATTTGCAAGTGGAGATTTC<br />
+&gt;TFLinkSS09748603;P08069;IGF1R;hg38;chr10:41695523-41695611<br />
+TGGAAACGGGATTTCTTCATATACTGCTAGACCGAAGAATTCTCAGTAACTTCTTTGGGTTGTGTGTATTCAATTCACAG<br />
+AGTTGAAC<br />
+&gt;TFLinkSS09748607;P08069;IGF1R;hg38;chr12:34219682-34219756<br />
+ATACACAAAATGTCTGAACCTGCGGTTCCTCTCGTACTGAGCAGGATTACCATGGTAGCAACACATGGGCAACA<br />
+&gt;TFLinkSS09748608;P08069;IGF1R;hg38;chr3:136490903-136491022<br />
+TCTTTTACCATTACTGAAATAACAATCTTTCTGGTTGCTTTTATAACTGTCTTCATCTTTGATGTTTTTCATTTTCACTA<br />
+CGGTATGTCTAGATGTAGAATATATTCCCTAACCTACTC<br />
+&gt;TFLinkSS09748610;P08069;IGF1R;hg38;chr5:100048318-100048406<br />
+CTAATGAGTAAGAAGGATATAATCCCTACGCCCTCTCAGCCGATGAAGAGTTGGAATAGGTTGTTAGCTGTAACTAGGAT<br />
+TAGTATGG<br />
+&gt;TFLinkSS09748611;P08069;IGF1R;hg38;chr5:100048509-100048639<br />
+TACAGGGATTAATATTATGGAGAAATAGTCTAGTTTAAAGCTTAGCGAGAGTTGTATTGTTTGGGTTGTTGCTCAGTGTC<br />
+AGTTTGAGATAATAACTTCTTGGTCTAGGCATATGAATATTGTTGTGGGG<br />
+&gt;TFLinkSS09748612;P08069;IGF1R;hg38;chr3:72867789-72867903<br />
+CCAGGGCTGGTATTGACCTCTTTGCCAAGTGGTCCTCCTGAAGGCAAACTGTGCCTCTGGTGTACAGCAGTTGTCTGCAA<br />
+AGGCACGGATGAAGCTTGGACATGTGGACAGGGG<br />
+&gt;TFLinkSS09748614;P08069;IGF1R;hg38;chr21:10705250-10705376<br />
+CACTCCGTTCCATTCCATTCCATTCCGTTCCATTCCGTTCCATTCCATTCCACTCCATTCCACTCCATTCCATTCCATTC<br />
+CATTCCACTCCACTTCACTCCATTCCACTCCATTCCACTCCATTCC<br />
+&gt;TFLinkSS09748615;P08069;IGF1R;hg38;chr7:158595225-158595345<br />
+GGTGACGCTGGTGGTGGTGGAGGTGGTGGTAGAGGTGGTGATGGTGGTTATGGTGATGGTGGCGAAGTTGTAACAGAGGT<br />
+GGAGCTGGTGGTGATGGAAGTGTCAGTGGTGGTGATGCTT<br />
+&gt;TFLinkSS09748617;P08069;IGF1R;hg38;chrY:26643295-26643370<br />
+ATGTGGTGAAGTGGAGTGGAGAGGAGTGGAATGGAGTAGAATGGAGTGGAATGGAGTGGAATGGAGTGGAGTGGA<br />
+&gt;TFLinkSS09748618;P08069;IGF1R;hg38;chr6:119237394-119237536<br />
+TGGACCACACGGAACTCCCTCTCCTACATTTTTTTCAGCCCCACTGCGAGTTTGCGTCCGTGGTACTTTTAAGAGGGAGT<br />
+CACTGCTGCCGTCAGTCAGTAATACTTCCTCCTTTTTTGCTTTTTGGTTTTGTCTTGCGTTT<br />
+&gt;TFLinkSS09748619;P08069;IGF1R;hg38;chr3:96617914-96617969<br />
+TCGCCTCTACCTATAAATCTTCCCACTATTTTGCTACATAGACGGGTGTGCTCTT<br />
+&gt;TFLinkSS09748620;P08069;IGF1R;hg38;chr12:34679267-34679318<br />
+AGAATCATTCTCAGAAACTTCCTTGTGATATGTGCATTCAACTCTCAGAGT<br />
+&gt;TFLinkSS09748621;P08069;IGF1R;hg38;chr12:34680518-34680624<br />
+ACAGAGCAGTTTGGAAACACTCTGTAAAGTCTGCAAGTGGATATTTGGAGGGCTTTGAGGCCATCTTTGGAAACGGGAGT<br />
+ATCTTCACATAAGAAGTAGACAGAAG<br />
+&gt;TFLinkSS09748622;P08069;IGF1R;hg38;chr12:34684703-34684761<br />
+AAAAACTAGACAGAATCATTCTCAGAAACTGCTTTGTGATGTGTGCGTTCAAGTCAAA<br />
+&gt;TFLinkSS09748623;P08069;IGF1R;hg38;chr12:34686007-34686132<br />
+GTGTCTATTTAGAGGGCTTTGAGGCCTACGGTAGAAAAGGAAATATCTTCACATAAAAACTAGACAGAAGGATTCTCAGA<br />
+AACTTCTTTATGATGTTTGCATTCAACTCACAGAGTTCAACATTC<br />
+&gt;TFLinkSS09748625;P08069;IGF1R;hg38;chr12:34693363-34693431<br />
+CATAGAGCGGTTTTGAAACACTCTGTTTGTAAAGTCTGCACGTGGATATTTGGACCTCTTTGTGGCCC<br />
+&gt;TFLinkSS09748626;P08069;IGF1R;hg38;chr12:34693976-34694038<br />
+AGAATCATTCTCAGAAACTACTTTGTGATGTTTGCGTTCAACTCACAGAGTTTAACCTTTCT<br />
+&gt;TFLinkSS09748627;P08069;IGF1R;hg38;chr12:34694529-34694583<br />
+ACCGAGTTGAACCATCCTTTTGACAGAGCAGTTTTGAAACACTCTTTCTGAAGA<br />
+&gt;TFLinkSS09748628;P08069;IGF1R;hg38;chr12:34694660-34694725<br />
+TCAATCTCAGAAACTACTTTGTGATGTGTGGGTTCAACTCACGGAGTTTAACCTTTCTTTTCATA<br />
+&gt;TFLinkSS09748630;P08069;IGF1R;hg38;chr12:34695461-34695541<br />
+TTTGAAGCCCTCGTTGGAAACTGGATTTCTTCATATACAACTAGACAGAAGAATTCTCAGAAACTTCTTTGTGATGTGTG<br />
+&gt;TFLinkSS09748631;P08069;IGF1R;hg38;chr12:34697943-34698028<br />
+GATACAGCAGTTTTGAAACACTCTGTTTGTAAAATCTGCAACTGGATATTTGGACCTCTTTGAGGAATTCGTTGGAAACG<br />
+GGATT<br />
+&gt;TFLinkSS09748633;P08069;IGF1R;hg38;chrY:10200204-10200279<br />
+AGCTGTGAGAATTAATGTGAATTGCAGGACACATTGATCATCGACACTTCGAACGCACTTGCGGCCCGGGTTCCT<br />
+&gt;TFLinkSS09748636;P08069;IGF1R;hg38;chr2:132229472-132229529<br />
+CTTTCTCAGAAACTTCTTTGTGATGTTTGCATTCAACTCATAGAGTTGAACATACCT<br />
+&gt;TFLinkSS09748637;P08069;IGF1R;hg38;chr2:132238728-132238835<br />
+TAAAAATCTGCAAGTGGATATGTGGATAGCTTTGAAGATTTCATTGGAAACGGGAATATTTTCATATAAAAACTAGACAG<br />
+AAGCATTCTCAGAAATTTCTTTGTGAT<br />
+&gt;TFLinkSS09748638;P08069;IGF1R;hg38;chr2:132239034-132239095<br />
+GATTTTCATAGAGCAGTTTTGAAACACTCCTTTTGTAGTATCTGGAAGTGGACATTTGGAG<br />
+&gt;TFLinkSS09748639;P08069;IGF1R;hg38;chr2:132245728-132245784<br />
+AGAATCTGCAAGTGGATATTTGGATAGCTTTGAAGATTTCGTTGGAAAGGGGAATA<br />
+&gt;TFLinkSS09748640;P08069;IGF1R;hg38;chr2:132254973-132255041<br />
+GCTCCACTCCTGGTGGTGCCCTTCTGTCAATTCCTTTAAGTTTCAGCTTTGCAACCATACTCCCCTCG<br />
+&gt;TFLinkSS09748642;P08069;IGF1R;hg38;chr2:132259283-132259359<br />
+AGACACCAGCACCCGACCTGAGTTAATACATCTGGTCTCACTACGTCTTAACCACACACCCATGAAGAACTCAAGT<br />
+&gt;TFLinkSS09748643;P08069;IGF1R;hg38;chr10:38789203-38789265<br />
+GAGTCTATTCCTTTCCTTTCCTTTCCATTCCATTTGATGCCATTCCATTCGATTCCATTTCA<br />
+&gt;TFLinkSS09748644;P08069;IGF1R;hg38;chr10:38794438-38794572<br />
+ATTCCATTTGACTCCATTACATTCCACTCCATTCCATCCTATTCCATTCCATTCTGTTCCTTTCCATTCCATTCCATTCC<br />
+ATTCTATTCGTTTCCATTTCTTTCGAGTCCATTCCACTCCAGTCCATTCCATAA<br />
+&gt;TFLinkSS09748645;P08069;IGF1R;hg38;chr10:38801178-38801254<br />
+CATTTGATTACATTTTGTTCCAGTCCATTCCTTTCGAGTCCATTCCATTTCAGTCCATTCCATTCGATTCCATTCC<br />
+&gt;TFLinkSS09748647;P08069;IGF1R;hg38;chr10:38814149-38814298<br />
+TTCCATTCGAATCAATTACTTTGCAATCCATTACATTCGAGTCTGTTCTATTCCATTCCATTCCATTCCAATCCATTCTA<br />
+TTCGATTCCATTCCATTCGATTCCATTCCATACTATTGCATTCCAATCCATTCCATTCGATTGGAATAA<br />
+&gt;TFLinkSS09748648;P08069;IGF1R;hg38;chr10:38827332-38827415<br />
+GGAATGAAATGTAAGGGAATGGAATGGACCCAAATGTAATGGACTGGAATGGAATGGAATCAAATAGAATGGACTCAAAA<br />
+GTA<br />
+&gt;TFLinkSS09748649;P08069;IGF1R;hg38;chr10:38828285-38828351<br />
+TGAATGGAATCGAATGGAATGGAATCAAATGGAATGGACCAGAATGGAATGGACTGGAATAGAGTG<br />
+&gt;TFLinkSS09748650;P08069;IGF1R;hg38;chr10:38844961-38845081<br />
+TGGAATGATATCGAATGGAATGGAATGGGCTCGAATTCAATGGACTGGGATGGAATGGACTCGAATGGAATGGACTGGAG<br />
+TGGAATGGACACGAATGGAATGGAAACGTATGGAATGGAA<br />
+&gt;TFLinkSS09748651;P08069;IGF1R;hg38;chr10:38848039-38848131<br />
+TGGAATCGAATGGAATGAAATCCAATGGAATGGAAAGGAATGCAATGGAACGCAATAGAATGGAATGCAATGGAATGGAA<br />
+CGAAGTGGAATT<br />
+&gt;TFLinkSS09748652;P08069;IGF1R;hg38;chrY:11682377-11682441<br />
+AATGGTATCGAATGGAATGGAATGGAATGGAATGGAATTGACCCAAATGTAATGGACTCGAAAG<br />
+&gt;TFLinkSS09748654;P08069;IGF1R;hg38;chrY:11685463-11685529<br />
+AATGAAAGGAAAAGAATGTAATGAAATCGGATGGAATGGAATGGAATGGAATGTAGTCGAATGGAA<br />
+&gt;TFLinkSS09748655;P08069;IGF1R;hg38;chrY:11689489-11689595<br />
+CTCGAATGGATTGGACTCGAATGGAATAGATTAGAATTGAATGACATCAAATGGAATGGAATGGAACCAAATGTAATGGA<br />
+CTCGAATGGAATGGATTCAAATTGAA<br />
+&gt;TFLinkSS09748656;P08069;IGF1R;hg38;chrY:11692736-11692809<br />
+AATGGAATCGAATGGAATGGAATCGAATGGAATGGATTCGAATGGAATGGAATGGAACAAAATGGAATCATAC<br />
+&gt;TFLinkSS09748657;P08069;IGF1R;hg38;chrY:11721986-11722048<br />
+GAATGGAATGGAATCAACCCGAGTGGAATGGAATGGAGTGGAATGGAATGGAATGGAATGGA<br />
+&gt;TFLinkSS09748658;P08069;IGF1R;hg38;chrY:11730945-11730996<br />
+GAAAGGAATGGAATCAAATAGAATGGACTCAAAAGCAATGGTCACAAATGG<br />
+&gt;TFLinkSS09748659;P08069;IGF1R;hg38;chrY:11734849-11734905<br />
+GAATGGAATGGAATGGAATGGAATGCAATGGAATGGAATCTAAAGGAAAGAACCGC<br />
+&gt;TFLinkSS09748660;P08069;IGF1R;hg38;chrY:11736699-11736781<br />
+GATTTGACTCGAATGGAAAGGAAATGAATGGAATGGAATGGAAGGGAATGGAATGGAATAGAATGGAATGGAATCGGATG<br />
+GA<br />
+&gt;TFLinkSS09748661;P08069;IGF1R;hg38;chrY:11741882-11741939<br />
+GGAACCAAATGTAATGGAATCAAATGGAATGGACTCAAATAGAATTGACTCGAAAGG<br />
+&gt;TFLinkSS09748662;P08069;IGF1R;hg38;chrY:11742388-11742517<br />
+AATTGAATGGAATCGAAAAGAATAGAATGGAATGGAACGTTATGGAAAGATATTGAATGGAATGGCATGGACGCGAATGG<br />
+AATGGACTGGAATGGAGTGAACTCGAATGGAATGGACTGGAATGGATTA<br />
+&gt;TFLinkSS09748663;P08069;IGF1R;hg38;chrY:11748730-11748787<br />
+ATGGAATGGAATGGAATTGACTCGAATGGAATGGACTGGAATGGAATGGACTATAAT<br />
+&gt;TFLinkSS09748664;P08069;IGF1R;hg38;chrY:11749083-11749148<br />
+CAATAAATGCAAAGGAGTGGAATCAAGTGGAATGGAATGGAATGGAATGGAATGGAATGGAATGG<br />
+&gt;TFLinkSS09748666;P08069;IGF1R;hg38;chrX:58531885-58531991<br />
+CTTTTGATACAGCAGTTTTGAAACACTCTTTCTGTAGAATCTGCAAGTGGACATTGGGAGCGCTTTGAGGTCTATGGTGA<br />
+GAAAGGAAATATCTTCACAACGAAAC<br />
+&gt;TFLinkSS09748667;P08069;IGF1R;hg38;chrX:58534061-58534111<br />
+GTGAATGCAAACATCCCAAAGAAGTTTCTGAGAATGCTTCTGTTTAGCTT<br />
+&gt;TFLinkSS09748668;P08069;IGF1R;hg38;chrX:58534742-58534868<br />
+AGTTGAATACAAACATCACGAACAAGTTTCTGAGAATGTTTCTTAGTTATGTGAAGTATATCCCGTTTCCAAAGAAATCC<br />
+TCAGAGAGGTCCAAATATCCACTTGTAGATTCTACCAAAAGTGTGT<br />
+&gt;TFLinkSS09748669;P08069;IGF1R;hg38;chrX:58534935-58535021<br />
+TCTGACCATGCTTCCGTTTGGTTTTTATATGAAGTTATTTCCTTTACTACCGTAGGCCTCAAAGCAGTCCAAATCTCCAT<br />
+TTGCAG<br />
+&gt;TFLinkSS09748670;P08069;IGF1R;hg38;chr9:64951883-64951936<br />
+AAATCTAGACAGCAGCATCCTCAGAAACTTCTTTGTGATGTGTACATTCAACT<br />
+&gt;TFLinkSS09748671;P08069;IGF1R;hg38;chr9:64970393-64970447<br />
+GCAGGTTTGAAACACTCTTTTTCCAGAATCTGCAAGTGGACATTTGGAGTGCTT<br />
+&gt;TFLinkSS09748672;P08069;IGF1R;hg38;chr5:46336194-46336256<br />
+AGTGTTTCAAAACTGCTCTATGAAAAGAAAGGTTGAACTCTGTGAGTTGAATGCCCACATCA<br />
+&gt;TFLinkSS09748673;P08069;IGF1R;hg38;chr5:46359421-46359476<br />
+TTCTGAGAATGCTTCTGTCTAGTTTTTCTATGAAGATATTCCCTTTCCCACCATC<br />
+&gt;TFLinkSS09748674;P08069;IGF1R;hg38;chr5:46359854-46359966<br />
+TCAAAAAGAGTGTTTCAAAACTGTTCTATGAAAAGAAAGGTTCACCTCTGTGAGTTGAATGCACACATCCCAAAGAAGAT<br />
+TCTGAGAATGCTTCTGTCTAGTTTTCAACTGA<br />
+&gt;TFLinkSS09748675;P08069;IGF1R;hg38;chr5:46364062-46364125<br />
+AACCGGTCCAAATAGCCACTTGCAGATTCCACAAAAAGAGTGTTTCAAAACAGCACTGTCAAA<br />
+&gt;TFLinkSS09748676;P08069;IGF1R;hg38;chr5:46377584-46377638<br />
+AGAAGCATTCTGAGAAACTCCTTTGTGATGTGTGCGTTCAACTCACAGAGTAGA<br />
+&gt;TFLinkSS09748677;P08069;IGF1R;hg38;chr5:46380155-46380230<br />
+AAAAGTAAACAGAAGCATTCTCAGAAACTTCTTTGTGATGCTTGCATTCAACTCACAGAGTTGAACTTGCCATTT<br />
+&gt;TFLinkSS09748678;P08069;IGF1R;hg38;chr9:42900325-42900399<br />
+ACCAGAAAAGGATAGGGCTGAAGAACAGAGGTCGCTGCATTTAGAAAGGAGGCGGGGTCAGAGGAATAGAAAGG<br />
+&gt;TFLinkSS09748679;P08069;IGF1R;hg38;chr20:31227787-31227837<br />
+AATAGACTCGATTGGAATGGAATGGAATGGAATGGAATGGAATGTACTAT<br />
+&gt;TFLinkSS09748680;P08069;IGF1R;hg38;chr20:31242189-31242247<br />
+GAATGGAATGGAATGAAATAGAATGGAATGGAATCAAAAGGAATAAAAGGGCATGCAA<br />
+&gt;TFLinkSS09748681;P08069;IGF1R;hg38;chr20:31245000-31245095<br />
+AATCAAATGGAACAAATTCGAATGGAATGGAATTGAATGGAATGGACTGGAATGCAATGGACTCGAATGGAATGGACTGG<br />
+AATGGAATGGTCTCG<br />
+&gt;TFLinkSS09748682;P08069;IGF1R;hg38;chr22:16370101-16370209<br />
+TAATCATCATCAAATGGAAACAAATGGAATCATTGAATGGACTCGAATGGAATCATTGAATGGACTCGAATGGAATCATG<br />
+GAATGGACTCAAATGGAATCATCATCGA<br />
+&gt;TFLinkSS09748683;P08069;IGF1R;hg38;chr3:185586405-185586525<br />
+GGCCTGGTATGTACAGATGGCTGGTTAGGATTCTCGGCACCATTTTCCGTTTCTGCGACCGGTCGGTGCCCCCTGCCCGG<br />
+GCCCTCCTGAAGAGGCGGCGCTCAGACAGGTGAGACGAGA<br />
+&gt;TFLinkSS09748684;P08069;IGF1R;hg38;chr3:185590107-185590172<br />
+TTTCAGCACTCTGTTTTCTACAGTGGACACTGATGAAATACCAGCCAAAAGACCAAGATTAGGTA<br />
+&gt;TFLinkSS09748686;P08069;IGF1R;hg38;chr3:185598941-185599035<br />
+TCTGTTTGATTTTAAGGTATTTTCGAACTCTTCATCTTGTGAACTGACAGGTTCTGGATCCTGGAACAACATGCTGAAAC<br />
+TGGGTGAGGTGGTC<br />
+&gt;TFLinkSS09748690;P08069;IGF1R;hg38;chr3:185611641-185611756<br />
+GTTTCTAAGTTCTCAAAGAAGTCAGATGGACACATTAAAGACCAAAGGCTGGGGGGAAGAGCAAAATCACGGAGTCAAAA<br />
+CAACTCAGTTTGTTCCAAAACAATGTGAGTTCCCA<br />
+&gt;TFLinkSS09748691;P08069;IGF1R;hg38;chr3:185613336-185613417<br />
+TTCCTTAGGTGTTCAAAGGGGAAAATTACTGATACAGAGACGATGGTCGGAATCAGATTTGAAAATGAAAGTGTAAGTAA<br />
+A<br />
+&gt;TFLinkSS09748693;P08069;IGF1R;hg38;chr3:185617470-185617612<br />
+CTAATTCAGGACATGGAAAAGGAAATCAGTAATGCCCTAGGCCATGGCCCACAGGATGAAATCCTAAGTAGTGCTTTCAA<br />
+ATTGCGAATTACTCGAGGAGATATTCAGACATTAAAGAACTATCACTGGCTCAATGATGAAG<br />
+&gt;TFLinkSS09748695;P08069;IGF1R;hg38;chr3:185621821-185621937<br />
+ATAGGTGATTGACCTAAGAAAAAAGTGTCTTAAATATCTGGATTCTATGGGACAAAAGGGCCACAGGATCTGTGAGATTC<br />
+TCCTGTAAGTAAAGGTTGAAAACCTCACTACCCCCT<br />
+&gt;TFLinkSS09748696;P08069;IGF1R;hg38;chr3:185623999-185624092<br />
+AGTATTTACAGGATGAAAGTAAGACCAAAAGAAATAGTGATCTGAATCTTTTAGAGTGGACCCATCACAGCATGAAACCA<br />
+CACGTGAGTGACG<br />
+&gt;TFLinkSS09748697;P08069;IGF1R;hg38;chr3:185626289-185626394<br />
+AATTTTAGGAGATTCCTCAACAGCTGAATGGGAGTGATTGTGGAATGTTTACTTGTAAATATGCAGATTATATTTCTAGG<br />
+GACAAACCTATCACATTTACTCAGG<br />
+&gt;TFLinkSS09748698;P08069;IGF1R;hg38;chr3:185629773-185629847<br />
+CTTTGCAGCACCAGATGCCTCTCTTCCGGAAGAAGATGGTGTGGGAAATCCTTCATCAGCAGTTGCTGTGAGAA<br />
+&gt;TFLinkSS09748700;P08069;IGF1R;hg38;chr8:69690330-69690385<br />
+TTCAGAGCACTGGGCAGAAATCACATCGCGTCAACACCCGCCGCGGGCCTTTGTG<br />
+&gt;TFLinkSS09748701;P08069;IGF1R;hg38;chr17:22752283-22752343<br />
+GTGAGGTTTGTGGTGGAAAAGGAAATATCTCCACATAAATACTAGATAGAAGGCTTCTCA<br />
+&gt;TFLinkSS09748702;P08069;IGF1R;hg38;chr17:22752850-22752911<br />
+AGAAACTTCTCTGTGATGATTGCATTCAACTCAAAGCGTTGAACCCTCCTATGGATAGAGC<br />
+&gt;TFLinkSS09748703;P08069;IGF1R;hg38;chr17:22753450-22753519<br />
+TCTGCAAGTGGATATTTGGAGGGCTTTGAGGCCTGAGGTGGAAAAGGAATTATCTTCCCGTAAGAACTA<br />
+&gt;TFLinkSS09748704;P08069;IGF1R;hg38;chr17:22753849-22753925<br />
+ACAGAACTAAACAGAAGCATTCTCAGAACCTTCTTCGTGATGTTTGCATTCAACCCACAGTGTTGAACCTTTCTTT<br />
+&gt;TFLinkSS09748705;P08069;IGF1R;hg38;chr17:22759015-22759139<br />
+TTTGAAAGTTCAGGTTTGAAACACTCTTTTTGCAGGATCTACAAGTGGATATTCGGACCACTCTGTGGACTTCGATCGAA<br />
+ACGGGTATATCTTCACGTAACATCTAGACAGAAGCATTCTCAGA<br />
+&gt;TFLinkSS09748706;P08069;IGF1R;hg38;chr17:22760721-22760785<br />
+TTCAGAGAGCACTTTGGAAACTCTCTTTGTGTAGAATCTGCAAGTGGAGATATGGACCGCTTTG<br />
+&gt;TFLinkSS09748707;P08069;IGF1R;hg38;chr17:22761831-22761886<br />
+CGTAAATACTAGATAGAAGCCTTCTCAGAAACTACTTTGTGATGATTGCATTCAC<br />
+&gt;TFLinkSS09748708;P08069;IGF1R;hg38;chr17:22762219-22762299<br />
+TTCAAATCCCAGAGTTGAACCTTCCTTTGATAGTTCAGGTTTGAAACACTCTTTTTGTAGGATCTGCAAGTGGATATTTG<br />
+&gt;TFLinkSS09748710;P08069;IGF1R;hg38;chr2:148881718-148881858<br />
+CTAAATCATCGTGGTGATTTAGAGGGTGAACTCACTGGAATGGGGATGCTTGCATGTGTAATCTTACTAAGAGCTAATAG<br />
+AAAGGCTAGGACCAAACCTATTTGTTTATGGGGTGATGTGAGCCCGTCTAAACAGTTTCC<br />
+&gt;TFLinkSS09748711;P08069;IGF1R;hg38;chrY:56763493-56763558<br />
+ATGGAAAGGAATTGAATGGAGTAGATTGGATTGGATGGGATTGGAATGAAATGTACTGGAAAGGA<br />
+&gt;TFLinkSS09748712;P08069;IGF1R;hg38;chrY:56734759-56734828<br />
+TGGACTCGAATAGAATGGACACGAATGCTCAAATTGAATGGACTCGAATGGAATGGAAACGAAAGGAAT<br />
+&gt;TFLinkSS09748713;P08069;IGF1R;hg38;chrY:56728102-56728183<br />
+GAATGTCCGCTAATGGAATGGATTCGAGTGGAATGGAATCGAATATAATGGAGTCGAATGAAATGGAATTGAAAGGAATG<br />
+G<br />
+&gt;TFLinkSS09748714;P08069;IGF1R;hg38;chrY:56826893-56826952<br />
+CTCCATTCGATTCCATTCCATTCGATTACATTCCATTCGATTCCATTCCATTGCATTCC<br />
+&gt;TFLinkSS09748715;P08069;IGF1R;hg38;chrY:56828676-56828726<br />
+TCCATTCCATTCAATTCCATTCCTTTCGATTCCATTCCATTTGAGTCCAT<br />
+&gt;TFLinkSS09748716;P08069;IGF1R;hg38;chrY:56832347-56832399<br />
+TCCTTTCCACTCCACTCCATTCCATTCCACTCCATTCCATTCCTTTGTTTTG<br />
+&gt;TFLinkSS09748717;P08069;IGF1R;hg38;chrY:56837537-56837634<br />
+GATGGGACTCTTCTCTAGGTTCTGCCTATTGGGGGCATTGTCACATATTTCTGCACTGATCACCCAGGTGACGGACTCTT<br />
+GTCTTGGATCTGCCTAT<br />
+&gt;TFLinkSS09748719;P08069;IGF1R;hg38;chrY:56843648-56843782<br />
+ATCTCTGCACTGATAACCCAAGTGATGCAACTCTTGTCTAGGATCTGCCTACAGGGGGTATTGTGAAATATCTCTGCACC<br />
+GATCAACTAGGTGATGTAACTCTTTTCTAGGCTCTGCCTACAGGGGCGTTTTGA<br />
+&gt;TFLinkSS09748720;P08069;IGF1R;hg38;chrY:56847786-56847842<br />
+GAAACTTTTGTCTAGGCTCTGGCTACACGGCATTGTGACATATCACTGCACTTATC<br />
+&gt;TFLinkSS09748721;P08069;IGF1R;hg38;chrY:56850880-56851003<br />
+CTACAGTGGCATTGTGACATATCTCTGCCCTGATCAACCAGGTGATGTAACACTTGTCTAGGATCTGCCTAAAGGGACTT<br />
+TGTGACATAACTCTGCACTGATTATCCAGGTGATGTGGCTTTT<br />
+&gt;TFLinkSS09748722;P08069;IGF1R;hg38;chr8:43237729-43237826<br />
+TTTTTGATATTTTATGTACAGTATATAATATGTATTTTGGGTACTTTGATATTTTATGTACAGTATATAATAAGTATTTG<br />
+GTGTACTTTGATATTTT<br />
+&gt;TFLinkSS09748723;P08069;IGF1R;hg38;chr8:43237937-43238013<br />
+GTATTTTGATATTTTGTGTACAGTATATAATATATATTTTGTGTACTTTGATATTTTATGTACAGTATATTATATG<br />
+&gt;TFLinkSS09748724;P08069;IGF1R;hg38;chr8:43238099-43238156<br />
+TTTGGTGTACTTTGATATTATATGTACAGTATATAATATATATTTGGTGTACTTTTT<br />
+&gt;TFLinkSS09748725;P08069;IGF1R;hg38;chr8:43239615-43239684<br />
+GTACTTAAAATACCAAAGTACACAAAATATATATTATATACTGTACATAAAATATCAAAGTACACCAAA<br />
+&gt;TFLinkSS09748726;P08069;IGF1R;hg38;chr8:43240758-43240840<br />
+ATAAAATATCAAAGTACACAAAATATGTATTGTATACTGTACATAAAATATCAAAGTACACCAAATATATATTATTTACT<br />
+GT<br />
+&gt;TFLinkSS09748727;P08069;IGF1R;hg38;chr8:45930041-45930102<br />
+ATTCTGAGAAACTTATTTGTGATGTGTGTCCTCAACAAACGGACTTCAACCTTTCGTTTCA<br />
+&gt;TFLinkSS09748728;P08069;IGF1R;hg38;chr8:45933778-45933839<br />
+TTCTGAGAAACTTATTTGTGATGTGTGTCCTCAACTAAAGGACTTGAACCTTTCGTTTCAT<br />
+&gt;TFLinkSS09748729;P08069;IGF1R;hg38;chr8:45940831-45940902<br />
+TAGTATCTGGAAGTGGACATTTGGAGCGCTTTCAGGCCTACGGTGAAAAAGGAAATATCTTCCCATAAAAA<br />
+&gt;TFLinkSS09748730;P08069;IGF1R;hg38;chr8:45941136-45941196<br />
+CATTCATAAAGCAGGTTGGAAACACTCCTTTTGTAGTATCTGGAAGTGGACATTTGGAGC<br />
+&gt;TFLinkSS09748731;P08069;IGF1R;hg38;chr8:45991530-45991585<br />
+AGAAACTTCTTTGTGGTGTGTGTATTCAACTCACAGAGTTGAACCTTTTTTTGAT<br />
+&gt;TFLinkSS09748737;P08069;IGF1R;hg38;chr3:38552801-38552948<br />
+GCAGTGCCTGCCTTAGCCCCTGCATTATCCTTTACATTTACCAGAGGCAGAGGTTGTATATGGCAGAAAGATGAAAGTCA<br />
+CAGTCACCGCAAGGCAGAGCCCCTTGGGGGTAGAGTTAAAGAGTTTGGGCTCCGAGCACAAGTGACA<br />
+&gt;TFLinkSS09748738;P08069;IGF1R;hg38;chr21:12986859-12986914<br />
+TCTACCATAGGCCTCAAAGCGCTCCAAATATCCACTTGCACATTCTACAAAAAGA<br />
+&gt;TFLinkSS09748739;P08069;IGF1R;hg38;chr21:12992970-12993028<br />
+TACACATCACAAAGAAGTTTCTGAGAATGCTGCTGTCTAGATTTTATATGAAGATATT<br />
+&gt;TFLinkSS09748740;P08069;IGF1R;hg38;chr3:86346627-86346748<br />
+ACTCAGAAGCCTCAGTGAGAAAATGCCACTGCTAAAAGAGAAATGACCTTTATGGATTTTGCTCTTCATACTTTGTTAAC<br />
+TGCCTTAGGAGTTAAATTTTGAAAAGAATAGCATGAATGTT<br />
+&gt;TFLinkSS09748741;P08069;IGF1R;hg38;chr8:99495862-99495950<br />
+TAAAATTGATTGATGAAAAGGCGGTTGAGGCGTCTGGTGAGTAGTGCATGGCTAGGAATAGCCCTGTGGTGATTTGGAGG<br />
+ATCAGGCA<br />
+&gt;TFLinkSS09748742;P08069;IGF1R;hg38;chr11:48823972-48824027<br />
+CTTTGAGGCCTATGTTGGAAAAGGAAATATCTTCACATAACAACTAGAGAGAAGC<br />
+&gt;TFLinkSS09748743;P08069;IGF1R;hg38;chr11:48837800-48837853<br />
+CAAGACACAGAGTAGAACCTTCCTTTTGACAGAGCAGTTTTGAAACACTCTTT<br />
+&gt;TFLinkSS09748744;P08069;IGF1R;hg38;chr11:48837995-48838051<br />
+TTGGTAGAGCAGTTTTGAAACACTCTTTCTGTGGAATCTGCAAGTGGATATTTGGT<br />
+&gt;TFLinkSS09748745;P08069;IGF1R;hg38;chr11:48839305-48839359<br />
+TCTCTGTGATGTGTGTATTCAACTCACAGAGTTGAACTTTCCTTTTGATAGAGC<br />
+&gt;TFLinkSS09748746;P08069;IGF1R;hg38;chr11:48846235-48846363<br />
+TTTGATAGAGCAGTTTTGAAATACTCTTTTTGTGGAATCTGCAAGTGGATATTTGTGCTGCTCTGAGGCCTTCGTTGGAA<br />
+ACGGGGATATCTTCACATAAAAACTAGAATGAATCTTTCTCAGAAACT<br />
+&gt;TFLinkSS09748747;P08069;IGF1R;hg38;chr11:48858983-48859038<br />
+ATATAAAAACTAGGCAGAAGCATTCTCAGAAACTAATTTGAGATGTGTGCATTCA<br />
+&gt;TFLinkSS09748748;P08069;IGF1R;hg38;chr11:48871500-48871559<br />
+GGAATATCTTCACATAAAAACCAGAAAAAAGCATTCTCAGAAACTTCTTTGTGATGATT<br />
+&gt;TFLinkSS09748749;P08069;IGF1R;hg38;chr17:22524415-22524521<br />
+TCGATGTTGGATCAGGACATCCCAATGGTGCAGCCGCTATTAAAGGTTCGTTTGTTCAACGATTAGAGTCCTATGTGATC<br />
+TGAGTTCAGACCGGAGTAATCCAGGT<br />
+&gt;TFLinkSS09748751;P08069;IGF1R;hg38;chr9:64997805-64997863<br />
+GTGCATTCAACTCACAGAGTTGAACCTTTGTTTTGATACAGCAGATTTGAAAAACTCT<br />
+&gt;TFLinkSS09748752;P08069;IGF1R;hg38;chr16:73127835-73127969<br />
+TGCCCTCGGAAGGATTGTAATTCTTTTTCTTGAATTAGATGTGAACATGTAACTTGTTTGGCCAATGAAATGTGAATAGA<br />
+AGTGATGCATGTCCCTGCTGGGTAGAAGCATTTAATTACTGGTGTACAACCTTC<br />
+&gt;TFLinkSS09748754;P08069;IGF1R;hg38;chr10:42304205-42304333<br />
+GGGTCCATTTGATTCCATTCCATTCAAGTACATTCCATTTCATTCCATTCTTTTCCATTCCATTCCATTCCATTCATTTC<br />
+AATTCCATTGTATTCCTTTCCATTCCATTCCATTCCATTCCATTCCAC<br />
+&gt;TFLinkSS09748755;P08069;IGF1R;hg38;chr10:42304529-42304587<br />
+CCACTTCATTCCATTTGAATCCATTCCATTGCATTCCATTCCATTCGAGTCCATTCCA<br />
+&gt;TFLinkSS09748757;P08069;IGF1R;hg38;chr16:34074279-34074343<br />
+AATCATTGAATAGAATCGAATGGAATTATCATCGAATGGAATCAAATGGAATCATCATCGATTG<br />
+&gt;TFLinkSS09748758;P08069;IGF1R;hg38;chr16:34077178-34077248<br />
+GGAAGCATCATCGAATGGAATCGAATTGTATCATTGAATGGAATCGAATGGAATCATCATTGAATGGAAT<br />
+&gt;TFLinkSS09748759;P08069;IGF1R;hg38;chr16:34078863-34078933<br />
+TTCGAATGGAATCATCATCCAATGGAATCGAATGGTATCATTGAATGGAATCAAATGGTATTGTCATCGA<br />
+&gt;TFLinkSS09748760;P08069;IGF1R;hg38;chr16:34083390-34083443<br />
+ATCGAATGGAATCGAATGGGGTCATTGAATGGAATCGAATGGAATCATCGAAT<br />
+&gt;TFLinkSS09748761;P08069;IGF1R;hg38;chr16:34089831-34089887<br />
+TTCGATGATGATTCCATTCGAGTCCATTCGATGATAATTCCATTCGAGTCCATTTG<br />
+&gt;TFLinkSS09748762;P08069;IGF1R;hg38;chr16:34091891-34091949<br />
+TCTATTCTCTCCATTTGATGATGATACCATTCGATTCCATTCGATGATTATTCCATTC<br />
+&gt;TFLinkSS09748764;P08069;IGF1R;hg38;chr16:34093464-34093603<br />
+TCCATTTGAAGATTCCATTCGAATCTATTCGATGATGATTCCATTTGAGTCCATTCAGTGATGATTCCATTCGGGTCCAT<br />
+TCGATGATGATTCCATTCGTGTCCATTGGATGATGATTCCGTTCGGGTCCATTCGATGG<br />
+&gt;TFLinkSS09748765;P08069;IGF1R;hg38;chr16:34143947-34144087<br />
+CAGCATCACATGCTACAGGGAAATGTTTTGTGAAAGGAACAAACTTCATTGTTTTAAGAAATTGACACAGGCACCCAACC<br />
+TTCAGCAGCCCCCACACTGATCAGTCAGCAGCCATCAACATAGCGGCAAGACCCTCACTG<br />
+&gt;TFLinkSS09748766;P08069;IGF1R;hg38;chr16:34150664-34150788<br />
+TCTCGCTCTTTCACCCAGGCTGCGGTGCAGTGGCGCTCTCTCGGCTCACTGAAACCTCTGCTTCCCGGGTTCCAGTGATT<br />
+CTTCTTCGGTAGCTGGGATTACAGGCGCGCATGACGATAGCCGG<br />
+&gt;TFLinkSS09748767;P08069;IGF1R;hg38;chr16:34150883-34150949<br />
+CAAGTGCTGGGACGACAGGCCTGAGCCGCGGGGATTTCAGCCTTTAAAAGCGCGGGCCCTGACACT<br />
+&gt;TFLinkSS09748768;P08069;IGF1R;hg38;chr16:34156731-34156860<br />
+AAAATTGCCTCTGCTGGGAGCTGGGATCCTCGGGACCATGCTTGCTAGCGCTGGATGAATCTCTGGAAGGACGCACGGAA<br />
+CTCCGCAAAGCTGACCTGTCCCACCGAGGTCAAATGGATACCTCTGATT<br />
+&gt;TFLinkSS09748770;P08069;IGF1R;hg38;chr9:10290-10345<br />
+TCTAACCCTAAACCCTAAACCCTAAACCCTAAACCCTAAACCCTAACCCTACCCT<br />
+&gt;TFLinkSS09748771;P08069;IGF1R;hg38;chr7:45251920-45252034<br />
+GGCTTCAGGGTTAGAGAGTGGCTGGTTTTAGACAAACCGGTGCTACCCATACTGTTAACCCAACACAGGCATGCTTATAA<br />
+GGAAAGGTTAAAAAAAGTAAAAGGAACTCGGCAA<br />
+&gt;TFLinkSS09748772;P08069;IGF1R;hg38;chr2:161037267-161037399<br />
+AGGATGCATCATGGTCAAATTTCCTTTCCTACTGACCAGATTGAGCTCAAGGAAGAAGGGAAAACAGTCTATCTGAATCC<br />
+CAAACATCCCTAGATTGTCATGGCTACTGTAGTTAAAAAGAAAAAAAAAAAG<br />
+&gt;TFLinkSS09748773;P08069;IGF1R;hg38;chr7:61096317-61096380<br />
+TCCCATAAAAACTAGACAGAAGCATTCTCAGAAACTTGTTCATGATGTGTGTACTCAACTAAC<br />
+&gt;TFLinkSS09748774;P08069;IGF1R;hg38;chr7:61098307-61098426<br />
+AGGGTCTGAAAGTGGATATTTGGATAGCTTTGAGGATTTCGTTGGAATCGGGAATATCTTCACATAAAAACTAGAGAGAA<br />
+TCATTGTCAGAAACTTCTTTGTGATGTTTTCATTCAACA<br />
+&gt;TFLinkSS09748775;P08069;IGF1R;hg38;chr7:61102541-61102669<br />
+GAGCAGTTTTGAAACACTCTTTTTGTAGTATCTGGAAGTGAACATTTGGAGCGCTTTGAGGCCTGTGGTGAAAAAGGAAA<br />
+TATCTTCCCATAAAAACTAGGCAGAATCATTCTCAGAAACTTCTTTGT<br />
+&gt;TFLinkSS09748776;P08069;IGF1R;hg38;chr7:62143806-62143862<br />
+CAAAAAGACTGTTTCCAAAATGTTCTATCAAAAGAAAGGTTCAACTTTGTGAGATG<br />
+&gt;TFLinkSS09748778;P08069;IGF1R;hg38;chr7:62302660-62302764<br />
+ATTATAGAATGGAATCAAATGGAATCATCGAATGGAATTGAAAGGAATCATTGAATGGACTCGAATGGAATAATCATTGA<br />
+ATGGAATCGAATGGAAACATCATG<br />
+&gt;TFLinkSS09748779;P08069;IGF1R;hg38;chr7:62313247-62313298<br />
+TCCCATGGAATCATCATCAAATGGAACCGAATGGAATCATTGAATGGACTT<br />
+&gt;TFLinkSS09748781;P08069;IGF1R;hg38;chr7:62350480-62350534<br />
+AATGAAATTGAATGGAATCATCAATTGGACTCGAATGGAATCATCAAAGGGAAT<br />
+&gt;TFLinkSS09748782;P08069;IGF1R;hg38;chr7:62353571-62353620<br />
+AATGGAATCAAATGAAATCATCATCAGATGGAATCAAATGGAATCATCA<br />
+&gt;TFLinkSS09748785;P08069;IGF1R;hg38;chr7:62514652-62514729<br />
+TTTTCATAGAGCAGTTTGGAAACACTCTGTTTGTAATGTCTGCAAGTGGATATTTGGACCTCTTGGAGGATATCGTT<br />
+&gt;TFLinkSS09748786;P08069;IGF1R;hg38;chr7:62522574-62522672<br />
+GAATCATTCTCAGAAACTACTTTGTGATGTGTGCGTTCAATTCACAGAGTTTACGCTTTCTTTTGATGGAGCAGTTTTGA<br />
+AACACTCTGTTTGTTGAT<br />
+&gt;TFLinkSS09748787;P08069;IGF1R;hg38;chr7:62525822-62525935<br />
+CTTTGTGATGTTTGTATTCAAGTCACAGAGTTGAACCTTCCTTTAGACAGAGCAGTTTTGAAACACTCTTCTTGTAGAAT<br />
+TTCCAAGTGGATATTTAAGGCGCTTTGAAGCCT<br />
+&gt;TFLinkSS09748788;P08069;IGF1R;hg38;chr7:62530476-62530575<br />
+GTTTTGAAACCCTCTGTTTGTAAAGTCTGCAAGTGGATATTTTAAACTCTTTGAGGCCTTCGTTGGAAACGGGATTTCTT<br />
+CATATAAAACTGGACTGAA<br />
+&gt;TFLinkSS09748789;P08069;IGF1R;hg38;chr7:62534626-62534679<br />
+AGCCTATGGTAGAAAAGGAAATATCTTCCTATAAAAAGTAGACAGAAGCATTC<br />
+&gt;TFLinkSS09748790;P08069;IGF1R;hg38;chr7:62561418-62561474<br />
+CAAAAAAGTTTCTGAGAATGCTTCTGTCCAGTTTTTATGGGAAGATATTTCCTTTT<br />
+&gt;TFLinkSS09748791;P08069;IGF1R;hg38;chr7:62579715-62579808<br />
+TAAAAGAAGTGTTCAACTCTATGAGATGAATGCAAACATCACAAAGAAGTTTCTCAGAAAGCTTCTGTCTAGTTATTAGA<br />
+TGAGGATATTTCC<br />
+&gt;TFLinkSS09748792;P08069;IGF1R;hg38;chr11:54551930-54552001<br />
+TCTTTTAGTAGAATCTGCAAGTGGATATTTGGACCACTTTGTGTCCTTCGTTCGAAGCGGGTATATCTTCA<br />
+&gt;TFLinkSS09748793;P08069;IGF1R;hg38;chr11:54550833-54550884<br />
+CTCAGAAACTTCTGTGTGATGATTGCATTCAAGTCACAGAATTGAACCCTC<br />
+&gt;TFLinkSS09748794;P08069;IGF1R;hg38;chr11:54549547-54549610<br />
+TCTATTTGTAGAATCTGCAAGTGGATATTTGGACCACTTTGTGGCCTTCATTCGAAATGGGTA<br />
+&gt;TFLinkSS09748795;P08069;IGF1R;hg38;chr11:54549131-54549203<br />
+TCTCAGAAACTACTTTGTGATGACTGCATTCACCTCACAGAGTTGAACATTCCTATTGATAGAGGACTTTGG<br />
+&gt;TFLinkSS09748796;P08069;IGF1R;hg38;chr11:54547101-54547239<br />
+TGTCATGTTTGCATTCAACTCACAGAGTTGAACCTTGCTTTCATAGTTCATGTTTGCAACACTCTTTTTGTAGAATCTGC<br />
+AAGTGGATATTTGGACGACTTTGTGGCCTTCATTCGAAACGGGTATATCTTCACATGA<br />
+&gt;TFLinkSS09748797;P08069;IGF1R;hg38;chr11:54546086-54546169<br />
+ATGATTGAGTTTAACTCACAGAGCTGAACATTCCTTTGGATGGAGCAGTTTCAAAACACACTTTTTGTAAAATCTGCAAG<br />
+TGG<br />
+&gt;TFLinkSS09748798;P08069;IGF1R;hg38;chr11:54545812-54545935<br />
+GTAGAATCTGTAAGTGGATATTTGGACCACTTTGTGGCCTTCGTTCGAAACGGGTATATCCTCACATAAAAACTAGACAG<br />
+AAGCATTCTCAGAAGCTTCTCTGTGATGATTGCATTCATCTCA<br />
+&gt;TFLinkSS09748799;P08069;IGF1R;hg38;chr11:54543475-54543618<br />
+CATTTGGAGCGCTGTGAGGCCTGTGGTGGAAAAGGAAATATCTTCATATAAAAACTAGACAGAAGCGTTCACAGAAACTA<br />
+CTCTGTGATGATTGCATTCGACTCACAGAGTTGAACATTCCTATTGATAGAGCAGTTTTGAAA<br />
+&gt;TFLinkSS09748800;P08069;IGF1R;hg38;chr11:54541510-54541566<br />
+ACTTCTTTGTGATGATTGCATTCAACTCACAGAGTTGAAGGTTCCTTTTGACAGAG<br />
+&gt;TFLinkSS09748801;P08069;IGF1R;hg38;chr11:54539710-54539831<br />
+TTTTGTACAATCTGCAATTGGAGATTTGGACTGCTTTGTGGCCTACGGTATTAAAGGAAATAACTTCACATAAAAACCAA<br />
+ACGGAAGCATTCACAGAAAATTCTTTGTGATGATTGTATTT<br />
+&gt;TFLinkSS09748802;P08069;IGF1R;hg38;chr11:54539633-54539694<br />
+AGAAACTACTTTGTGATGATTGCATTCGACTCACAGAGTTGAACATTCCTATGGATAGTGC<br />
+&gt;TFLinkSS09748804;P08069;IGF1R;hg38;chr11:54536258-54536315<br />
+ACTCACAGGCTGAACCTTCCTTTCATAGTTCAGCTTTCAAACACTCTTTCTGTAGAA<br />
+&gt;TFLinkSS09748805;P08069;IGF1R;hg38;chr11:54527919-54528018<br />
+ATTCGTTTTGATGGAGCAGTTTCCAAACACACTTTCTGTAGAATCTGCAAGTGTAAATTTGGACTTCTCTGAGGATTTCG<br />
+TTGGAAAGGGGATAAACTT<br />
+&gt;TFLinkSS09748807;P08069;IGF1R;hg38;chr7:57493969-57494112<br />
+CAAGAGAAAAGAATGGAAAGGAATGCAGTGGAATGGAATGGAATGGAGTGGAGTGGAGTGGACTGGAGAGGAGTGGAGAG<br />
+GAGTGGAGTGGAGTGGAATGGAATGGAATTGAATGGAATGGAATGGACTCAAATTGAATGGAA<br />
+&gt;TFLinkSS09748808;P08069;IGF1R;hg38;chr3:75325453-75325585<br />
+GGGAAACTGTCTGATGGCTGAGACATAGCTGCTTTAGTGACAAGCTCATGGGTTATATTTCCAATGTTATTCAAGCTAAT<br />
+TTGTCCTGCCTCAACATAACATAACAGAGGTAAAGGGGCCAAGCACAGTGGC<br />
+&gt;TFLinkSS09748809;P08069;IGF1R;hg38;chr5:50110033-50110113<br />
+CCGAAGCAGTTTCTGAGAATGCTTCTGTCTAGTTTTTAGGGGCAGATATTTCCATTGGCACAATAGCCCTCAAAGCGCTC<br />
+&gt;TFLinkSS09748810;P08069;IGF1R;hg38;chr5:50144218-50144296<br />
+TCTATGGAAAGGTATGTTCAACTCTGTGAGTTTACTGCAAACATCCTAAAGAAGTTTCTGAGAATGCTGCTGTCTAGT<br />
+&gt;TFLinkSS09748811;P08069;IGF1R;hg38;chr5:50154764-50154828<br />
+GAGTGTTTCCAAACTGCTCAATTAAAGAAAGGTTAAACTCTGTGAGTTGAATGCACACATCACA<br />
+&gt;TFLinkSS09748812;P08069;IGF1R;hg38;chr11:54868921-54868984<br />
+AATAGTGTTTCCAAACTGCTGTATCCAAAGAAAGGTTCAACTCTGTAAGGTGAATGCACACAT<br />
+&gt;TFLinkSS09748813;P08069;IGF1R;hg38;chr10:96801686-96801774<br />
+GAGACAGACAGAGAAAGAGACAGACAGAGAAAGACAGAGACAGACAGAGAGAGAAGGAGAGAAACAGGCAGAGAGAGAGA<br />
+GAGCGAGA<br />
+&gt;TFLinkSS09748814;P08069;IGF1R;hg38;chr8:43916225-43916349<br />
+GTCTTTCTGTAGAATCTGCAAGTGGACATTTGGAGCGCTTTGATGCCTGTGGTGAAAAAGGAAATATCTTCACATGAAAA<br />
+CTAGACAGAATCATTCTCAGAAACTACTTTGGGATGTGTGGATA<br />
+&gt;TFLinkSS09748815;P08069;IGF1R;hg38;chr8:43920575-43920626<br />
+AAACGCTAGACAGAAGCATTCTCAGAAACTTATTCGTGATGTTTGCATTCA<br />
+&gt;TFLinkSS09748816;P08069;IGF1R;hg38;chr8:43938039-43938095<br />
+ATATTTGGATAGCTTTGAGGATTTCGTTGGAAACGGGAATGTCTTCATAGAAAATT<br />
+&gt;TFLinkSS09748817;P08069;IGF1R;hg38;chr8:43939455-43939515<br />
+ATAGAAGCAATCTCAGAAACTTGTTTATGCTGTATCTACTCAACTAACTGTGCTGAACCT<br />
+&gt;TFLinkSS09748818;P08069;IGF1R;hg38;chr8:43939579-43939645<br />
+ATTTGAGGATTTCGTTGGAAACGGGATTACATATAAAAAGTAGACAGCAGTATTCTCAGAAACTTC<br />
+&gt;TFLinkSS09748819;P08069;IGF1R;hg38;chr8:43966885-43966994<br />
+TTTCGTTTCATGCAGTACCTCTGGAACACTCTTTTTGAAGATTCTGCATGTGGATATTTGGATAGCTTTGAGGATTTCGT<br />
+TGGAAGCGGGCTTACATATAAAAATTAGA<br />
+&gt;TFLinkSS09748820;P08069;IGF1R;hg38;chr8:43969244-43969336<br />
+AGCTCTCAGAGTTGAATATTCCCTTTCATAGAGTAGGTTTGAAACCCCCTTTTTGTAGTGTCTGGAAGCGGGCATTTGGA<br />
+GCGCTTTCAGGC<br />
+&gt;TFLinkSS09748821;P08069;IGF1R;hg38;chr8:43970680-43970762<br />
+ATTTGGATAGCTTTGAGGATTTCGTTGGAAACGGGCTTACGTATAAAAATTAGACAGCAGCATTCTCAGAAACTTCTTTG<br />
+TG<br />
+&gt;TFLinkSS09748822;P08069;IGF1R;hg38;chr8:43976400-43976483<br />
+TCACATAGAGCAGTTGTGCAGCACTCTATTTGTAGTATCTGGAAGTGGACATTTGGAGGGCTTTGTAGCCTATCTGGAAA<br />
+AAG<br />
+&gt;TFLinkSS09748823;P08069;IGF1R;hg38;chr8:43983529-43983594<br />
+ATTCCCATTCATAGAGCAGGTTGGAAACACTCTTTTTGGAGTATCTGGAAGTGGACATTTGGAGC<br />
+&gt;TFLinkSS09748824;P08069;IGF1R;hg38;chr13:27459582-27459641<br />
+CTACGGTCCTGTGATAGACAGACCAGGGGACTCCTCAGCTCAGAGTCCATGAGGCCAGA<br />
+&gt;TFLinkSS09748825;P08069;IGF1R;hg38;chr2:89814357-89814457<br />
+ATTCCATTCTATTCCATTCCATTGTTTTCCATTCCATTCCATTTGATTACATTCCATTCGATTCCATTCCATTCGAATCA<br />
+ATTACATTGCAATCCATTAC<br />
+&gt;TFLinkSS09748826;P08069;IGF1R;hg38;chr2:89826391-89826471<br />
+GTCTATTCCATTCCATTCCATTCCACTCGGGTTGATTCCAATCCATTCCATTCCATTGCATTCCATTCCATTCCTTTCCA<br />
+&gt;TFLinkSS09748827;P08069;IGF1R;hg38;chr2:89826584-89826720<br />
+GGGTTGATTGAATTCGATTCCATTTCATTTTATTCCATTCCATTCCATTCCATTCCATTCCATTCCATTCCATTCCACTC<br />
+TTGTTGATTCCATTCCATTCCATTCAATTGCATTGCATTCCATTCGATTCCATTCC<br />
+&gt;TFLinkSS09748828;P08069;IGF1R;hg38;chr2:89828572-89828698<br />
+GCATTGCATTCCATTCCATTCCATTCCAGTTGATTCCATTCCATTCCATTCCATTCCATTCCATTCCATTCCATTCCATT<br />
+CCACTAGGTTTGATTCCATTCCATTCCATTCCATTCCATTCCATTC<br />
+&gt;TFLinkSS09748830;P08069;IGF1R;hg38;chr2:89833682-89833755<br />
+GATTCCATTCCATTCCATTCCATTCCATTCAGATTGATTCTATTCCATTCCCTTCAATTCCACTCGGGTTAAT<br />
+&gt;TFLinkSS09748831;P08069;IGF1R;hg38;chr2:89836821-89836887<br />
+CCTAGTGGAAAGGAATGATATGGAATGGAATGGAATGGAACGAAATGGAATGGAATGAAATAAATC<br />
+&gt;TFLinkSS09748833;P08069;IGF1R;hg38;chr2:89840280-89840386<br />
+AAATGGAATGGAACGAAATGGAATGGAATGGAATGGAATGGAATGGAACGGAACGGAATGGAATGGAATGGAATGGAATG<br />
+CAATCAACCCGAGTGGAATGGAATGG<br />
+&gt;TFLinkSS09748834;P08069;IGF1R;hg38;chr10:133763351-133763462<br />
+CCTAGACAAGAGTTACATCACCTGGGTGATCAGTACAGAAATATGTCACAAAGCCCCTGTAGGCAGAGCCTAGACAAGAG<br />
+TTACATCACCTGGGTTATCAGTGCAGAAATA<br />
+&gt;TFLinkSS09748837;P08069;IGF1R;hg38;chr7:154649460-154649587<br />
+CTTCCAAAGTGGCTGCACCATTAAGAACTCTGCCTTTTTCTTAACTCACTACCCCAGGACTGACTTTTTTGACCCCCTGC<br />
+CCTCCGCCCGGTCACTGTGTATGGCAGGTGGAATCCACCATGCCCTG<br />
+&gt;TFLinkSS09748838;P08069;IGF1R;hg38;chr17:47136553-47136644<br />
+AGAAATAGGACCAAACTTTTTCATATCTTATTCAGTTGATAACAATATGACCTAGGTAGTAATTTCCTATGTGTCTACTT<br />
+ATACACAAGTA<br />
+&gt;TFLinkSS09748839;P08069;IGF1R;hg38;chr17:47156924-47157033<br />
+GGACTAAGAGCTGCTGGTCCTCCTAATAAACTTCGACCAGTTTTTGGTTTATTTTGAACCTGTTTAGATAATATGGAAGT<br />
+TCCTGTTCCCAGTGGGACAGTATCAGGTG<br />
+&gt;TFLinkSS09748840;P08069;IGF1R;hg38;chr17:47171937-47172006<br />
+TTTGCAAGCAGGTATTTGCATTGCGGTGTAGTACAACTGTGTCCTTTCAAGAGTCTATATGCTTTATAT<br />
+&gt;TFLinkSS09748841;P08069;IGF1R;hg38;chr16:36045130-36045198<br />
+AGTTGAACCTTTCTTTTGATACAGTTGTTTTGAAACACTCTTTTTCTAGAATCTGCAAGTGGATATTT<br />
+&gt;TFLinkSS09748842;P08069;IGF1R;hg38;chr16:36046977-36047031<br />
+TCTTTGTGATGTCTGCATTCAACTCACAGTGTTGAACCTTTCTTTTCATAGAGC<br />
+&gt;TFLinkSS09748843;P08069;IGF1R;hg38;chr10:38487528-38487615<br />
+TGGAATAGAATGGAACGGAATGGAATGGGATGGAATGGAATGGAAGGGAATGGAATGGAATGAAATAGAATGGAATGGAA<br />
+TCAAAAG<br />
+&gt;TFLinkSS09748845;P08069;IGF1R;hg38;chr4:90058784-90058929<br />
+CCAGGAGACCAGCCTGGCCAACCAAGTGAGACCCCTATCTCTACAAATAATTAAAAATATAGCCTGGTGTGGTGGCACAT<br />
+GTCTGTATTCCCATCTACTCTGGAGGCTGAGGCAGAAGGATTGTCTGAGCTCAGGAGGTCGAGGC<br />
+&gt;TFLinkSS09748846;P08069;IGF1R;hg38;chr11:10509378-10509441<br />
+TGTACGCGCTTCAGGGCCCTGTTCAACTAAGCACTCTACTCTTAGTTTACTGCTAAATCCACC<br />
+&gt;TFLinkSS09748847;P08069;IGF1R;hg38;chr12:124093069-124093128<br />
+GATGGTGATGGTGATGGTGTGATGATGGTGATGGTGTGGTGATGATGGTGATGGTGATC<br />
+&gt;TFLinkSS09748849;P08069;IGF1R;hg38;chr7:133293873-133293968<br />
+GTAGCTTTGTGATATGTACGGTTTAAATTAGACCTTTGCAGTCATTGTGCTGGGTTGATGCAAGCACATTAATGACATAA<br />
+TTTCTGGTTGCAGCA<br />
+&gt;TFLinkSS09748850;P08069;IGF1R;hg38;chr7:133723341-133723468<br />
+TCATTCAATCTTAGATGGAATTGGTTAGAGAGGAGAAATAGAACACTATTTAAAACAAGAGAAATGGTATATCCCCCTCT<br />
+GGCAGAGAACACAGGTAAGACATTACCTCTTGTACTTGATGGGAGAA<br />
+&gt;TFLinkSS09748851;P08069;IGF1R;hg38;chr16:34069232-34069287<br />
+TGGAGTCATCATCGAATGGAATCGAATGGAATCAACATCAAATGGTCTCGAATGT<br />
+&gt;TFLinkSS09748852;P08069;IGF1R;hg38;chr12:37854805-37854863<br />
+AAAACTTCTGTCTGGTTTTTATGAGAAGATATTTCCTTTTTCACCATAGGCCTCAAAC<br />
+&gt;TFLinkSS09748853;P08069;IGF1R;hg38;chr12:117236053-117236176<br />
+CCAAAAAACAAACAAACCCCATATCTGTATTTCAGTACAGATATACTGCATTTCACCCAACACCTGCAAACTCGAGGATC<br />
+GATTACACTTTGAGAAATCAAATCCTTTGCACCCTTTGAGCTA<br />
+&gt;TFLinkSS09748859;P08069;IGF1R;hg38;chr19:27243825-27243974<br />
+GGCCTTCGTTGGAAACGGGATTTCTTCATATAATGCTAGAGGGAAGAATTCTTAGTAACTTCTTCGTGTTGTGTGTATTC<br />
+AACTGTCAGAGTTGAACCATCATTTAGACAGAGCAGATTTCAAACACTCTTTTTGTGGAATTTGCAAAT<br />
+&gt;TFLinkSS09748860;P08069;IGF1R;hg38;chr19:27246987-27247085<br />
+TAGACAGAGCAGATTTCAAACACACTTTTTGTGGAATTTGCAAGTGGAGATTTCAAGCGCTTTGAGGCCAATTGTAGAAA<br />
+AGGAAATATCTTCGTATA<br />
+&gt;TFLinkSS09748862;P08069;IGF1R;hg38;chr19:27247954-27248051<br />
+TCAGTAACTTCCTTGTGTTGTGTGTATTCAACTCACAGAGTTGAACGTTCCTTTAGACAGAGCAGATTTGAAACACGCTT<br />
+TTTGTGGAATTTGCAAG<br />
+&gt;TFLinkSS09748864;P08069;IGF1R;hg38;chr19:27248845-27248911<br />
+ACGTTTGTTTTCATAGAGCAGTTGGGAAACACTCTGTTTGTAAAGTCTTCAAGTGGATATTTTTAC<br />
+&gt;TFLinkSS09748865;P08069;IGF1R;hg38;chr19:27252748-27252800<br />
+TGGAAACAGGAATATCTTCACATAAAAACTAGATGGAAGCATTCTCCAAAAC<br />
+&gt;TFLinkSS09748866;P08069;IGF1R;hg38;chr19:27259392-27259445<br />
+CTTTGTGATGTTTGCATTCAACTCACAGTGTTGAACCTTTCTTTTCATAGAGC<br />
+&gt;TFLinkSS09748867;P08069;IGF1R;hg38;chr19:27266330-27266386<br />
+TAGAGAGAAGCATTCTCAGAAACTTCTTTGTGATGTTGCATTCAACTCAGAGAGTT<br />
+&gt;TFLinkSS09748868;P08069;IGF1R;hg38;chr19:27273704-27273808<br />
+AGTGTTGAACCTTTATTTTTACAGAGCAGCTTTGAAACACACTTTTTGTAGAATCTACAAGTGGATATTTGGACTGCTTG<br />
+GAGGCCTTCATTGGAAACGGGAAT<br />
+&gt;TFLinkSS09748869;P08069;IGF1R;hg38;chr19:27360433-27360509<br />
+ACTACAAATATCCATTTGTAGAGTCTACAAAAGAGTTTTTCCAAACTGCTCCATCAAAAGAAAGGTTGAACTGTGA<br />
+&gt;TFLinkSS09748870;P08069;IGF1R;hg38;chr19:27476207-27476263<br />
+TGAATGCACACATCACAAACAAGTTTCTCAGAATGCTTCTTTCTAGTTTTTATGTG<br />
+&gt;TFLinkSS09748871;P08069;IGF1R;hg38;chr2:132272062-132272150<br />
+TGGCGAGGCTGGTCTCCAACTCCTGACCTCGGGATGACAGACGTGAGCCACTGCGTTCAGTGTACAGTGCCATTTCTTAG<br />
+ACATCACT<br />
+&gt;TFLinkSS09748873;P08069;IGF1R;hg38;chr22:18891088-18891195<br />
+ACATGTACAGGAAGGTCATTGAAGGCTCAGTGTTTTGTTTCAAAAACTGAATCCCAAGACCAAACATTGTTATGCTGTGC<br />
+TTCTTAAAATAAGTTATGAGATGGGAA<br />
+&gt;TFLinkSS09748874;P08069;IGF1R;hg38;chr22:18892468-18892521<br />
+AGCCTCCCAGGTAGCTGGGACTACACCACACTGGGACTACACCAGCTGCCACC<br />
+&gt;TFLinkSS09748875;P08069;IGF1R;hg38;chr10:42318096-42318222<br />
+GCATTTCATTCCATTCCAGTTCTTTCCATTCCATTCTATTCCATTTGTGTCCATTCTATTCCATTCCACTCGAGTCCATT<br />
+CCATTCCAAAACATTTCATTCGAGTACATTCCATTCCATTCCGTTC<br />
+&gt;TFLinkSS09748876;P08069;IGF1R;hg38;chr10:42321747-42321842<br />
+TCTTCGTGTAAAAACCAGACAGAATCATTCTCAGAAACTGCTTTGTGCTGTGTGTGTTCAACTCACAGAGTTTAACCTTT<br />
+CTTTTGATATAGCCA<br />
+&gt;TFLinkSS09748877;P08069;IGF1R;hg38;chr10:42322255-42322325<br />
+ATCTTCATATAAAAACTAGACGGATTCATTCTCAGAAACTACTTTGTGATGTGGACGTTCAACTCACAGA<br />
+&gt;TFLinkSS09748878;P08069;IGF1R;hg38;chr21:10713659-10713712<br />
+ACATTCCATTCCATTCGTGTCCATTCCATTCCAGTCCATTCCATTCGAGTCCA<br />
+&gt;TFLinkSS09748879;P08069;IGF1R;hg38;chr21:10670686-10670775<br />
+CATTCCACTTGAGTCTGTTCCATTCCATTCCATTCCATTCCATTCCATTCCATTCCGTTTCATTCCATTTCATTCCATTC<br />
+CATTCGAGT<br />
+&gt;TFLinkSS09748881;P08069;IGF1R;hg38;chr8:81842427-81842569<br />
+GACAGAGAGAAAGAGAGAGAGAGAGGGCAAGAGCGAGAGACAGAGAGAGAGAGAGAGAGAGAGAGAGAGAGAGAGAGAGA<br />
+GAGAGAGAGAGAGAGAGAAAGAGAAAGAAAACGAGCGAGGGAGAGAGCGAGAGCGAGAGAGA<br />
+&gt;TFLinkSS09748882;P08069;IGF1R;hg38;chr12:37597828-37597879<br />
+TATCTTCAAATAAAAAGTAGACAGAAGCATTCTCAGAAATTTCTTTGAGAT<br />
+&gt;TFLinkSS09748883;P08069;IGF1R;hg38;chr12:37623380-37623437<br />
+GAGAGTTGAACCTTTCTATTGATAGAGCAGTTTTGAAACAGTCTTTTTGTAGAATCA<br />
+&gt;TFLinkSS09748884;P08069;IGF1R;hg38;chr12:37630563-37630645<br />
+GCACACATCACTAAAAAGTTTCTGAGAATGCATCTGTGTAGTTTTTAGGTGAAGATATTTCCCTTTCCACAATAGGCCTC<br />
+AA<br />
+&gt;TFLinkSS09748885;P08069;IGF1R;hg38;chr12:37633817-37633927<br />
+AGAACTTTCTGAGAATGCTTCTATCTAGTATTTATGTGAAGATATTTCGTTTTTCACCATAGACCTGAAAGTACTCCAAA<br />
+TATCCACTTGCAGATTCCACAAAAGGAAAG<br />
+&gt;TFLinkSS09748886;P08069;IGF1R;hg38;chr12:37635288-37635351<br />
+TTTCAAAACTGCTGTATCAAAAGAAAGGTTCAACTCTGTTAGTTGAATACACACCTCATGAGG<br />
+&gt;TFLinkSS09748887;P08069;IGF1R;hg38;chr12:37644292-37644349<br />
+AAATATCCACTTGCAGATTCAACAAAAAGAGTTTTTCAAAACTGCTCTATCAAAAGA<br />
+&gt;TFLinkSS09748889;P08069;IGF1R;hg38;chr12:37770978-37771040<br />
+GGGATACTTGGAGCGCTTTCAGGCGTATGGTGAAAAAGGAAATATCTTCACATAAAAACTAG<br />
+&gt;TFLinkSS09748893;P08069;IGF1R;hg38;chr4:67400610-67400666<br />
+AAGTTACTGAGAATTCTTCTGTCTAGCATTACATGAAGAAATCCCTTTTCTAAGGA<br />
+&gt;TFLinkSS09748894;P08069;IGF1R;hg38;chr4:67400855-67400914<br />
+ATCTCCACGTGCAAATATCACAAAAAGAGTATTTCACATCTGCTCTGTCTAAAGGAAGT<br />
+&gt;TFLinkSS09748896;P08069;IGF1R;hg38;chr4:49153882-49153935<br />
+CAATCCATTCCATTCCGTTCCATTCCATTCCATTCCATTCTATTCCACTCGAG<br />
+&gt;TFLinkSS09748897;P08069;IGF1R;hg38;chr4:49154351-49154463<br />
+ATACCATTCCACTCGGGTGGATTCCATAACATTCCATTCTATTCCATTGCATTCCTTTCCATTCCATTCCACTTGTGTTG<br />
+ATTCCATTCCATTCCATTCCATTCCATTCCAT<br />
+&gt;TFLinkSS09748903;P08069;IGF1R;hg38;chr18:20936589-20936658<br />
+TCTCAGAAACTTCTTTGTGATGTGTGTCCTCAACTAACAGAGTTGAACCTTTCTTTTGACAGAGCAGTT<br />
+&gt;TFLinkSS09748907;P08069;IGF1R;hg38;chr11:50563278-50563330<br />
+TTTCAAGTTTTTATTTGAAGATATTTCCTTTCTCACCATAGGTCTCAATGCA<br />
+&gt;TFLinkSS09748908;P08069;IGF1R;hg38;chr11:50805711-50805803<br />
+TCTTCACAGAAAATCTAGACAGAAGCATTCTCAGAAACTTCTTTGTGATGTGTGCATTAAATACACAGATTTGAACCTTC<br />
+CTTTTGATAGAG<br />
+&gt;TFLinkSS09748909;P08069;IGF1R;hg38;chr1:143540693-143540817<br />
+CGATGATCATTCCATTCGAGTCCATTCAATGATTCCATTCCAGTCCATTTGATGATTCCATTTGATTCCATTCGATGATG<br />
+ATTCCATTTCATTCCATTCAATGATTCCATTCGATTCCATTCGA<br />
+&gt;TFLinkSS09748910;P08069;IGF1R;hg38;chr1:143541021-143541135<br />
+TTTAATTCCATTCGATGTTGATTCCATTCGATTCCATTCGATGATGATTCCTTTCGATTCCATTCAATGATGATTCCATT<br />
+CTATTCCATTCGATGATTCCACTCAATTGCATTC<br />
+&gt;TFLinkSS09748911;P08069;IGF1R;hg38;chr11:2001464-2001579<br />
+CTGATGAGGTCCTTGAGTCTGATTCCAGCAGCACAGAGCCTCCAGGGCAGAGCCGAGGTGAGGCTCTGGAAAATGCACTG<br />
+TCAGGCTCACACAAGCACATGTTGGCCAGATGTAC<br />
+&gt;TFLinkSS09748912;P08069;IGF1R;hg38;chr5:46336194-46336256<br />
+AGTGTTTCAAAACTGCTCTATGAAAAGAAAGGTTGAACTCTGTGAGTTGAATGCCCACATCA<br />
+&gt;TFLinkSS09748913;P08069;IGF1R;hg38;chr5:46359421-46359476<br />
+TTCTGAGAATGCTTCTGTCTAGTTTTTCTATGAAGATATTCCCTTTCCCACCATC<br />
+&gt;TFLinkSS09748914;P08069;IGF1R;hg38;chr5:46359854-46359966<br />
+TCAAAAAGAGTGTTTCAAAACTGTTCTATGAAAAGAAAGGTTCACCTCTGTGAGTTGAATGCACACATCCCAAAGAAGAT<br />
+TCTGAGAATGCTTCTGTCTAGTTTTCAACTGA<br />
+&gt;TFLinkSS09748915;P08069;IGF1R;hg38;chr5:46364062-46364125<br />
+AACCGGTCCAAATAGCCACTTGCAGATTCCACAAAAAGAGTGTTTCAAAACAGCACTGTCAAA<br />
+&gt;TFLinkSS09748916;P08069;IGF1R;hg38;chr5:46377584-46377638<br />
+AGAAGCATTCTGAGAAACTCCTTTGTGATGTGTGCGTTCAACTCACAGAGTAGA<br />
+&gt;TFLinkSS09748917;P08069;IGF1R;hg38;chr5:46380155-46380230<br />
+AAAAGTAAACAGAAGCATTCTCAGAAACTTCTTTGTGATGCTTGCATTCAACTCACAGAGTTGAACTTGCCATTT<br />
+&gt;TFLinkSS09748918;P08069;IGF1R;hg38;chrX:126472543-126472684<br />
+AACCCTGGAGTTAGTATAGCTTAGTTAAACTTTCGTTTATTGCTAAAGGTTTATCACTGCTGTCTCCCATGGGGGTGTGG<br />
+CTAGGCTAAGCGTTTTGAGCTGCATTGCTGCGTGCTTGATACTTGTTCCTTTTGATCGTGG<br />
+&gt;TFLinkSS09748919;P08069;IGF1R;hg38;chr15:85896938-85897040<br />
+TCTGTGTGTGTCTCTCTCTCTGTGTCTCTCTCTGTGTCTCTCTCTGTGTCTCTCTCTGTGTCTCTCTCTCTGTCTCTCTG<br />
+TCTCTCTGTCTCTCTCTCTCTG<br />
+&gt;TFLinkSS09748920;P08069;IGF1R;hg38;chr15:48468411-48468558<br />
+CAACACAGCCAACTCGAGTTGGGTTCAGTTCAAAATCAGGTGGGCAGTCACAGATATAGCTGCCTGGAGTGTTGACACAG<br />
+TTCCCACTGATGCACGTGGTTGGATCCAGGCATTCATTCACATCTAAAACCGAACAGTGAGTAGTGG<br />
+&gt;TFLinkSS09748921;P08069;IGF1R;hg38;chr7:61096317-61096380<br />
+TCCCATAAAAACTAGACAGAAGCATTCTCAGAAACTTGTTCATGATGTGTGTACTCAACTAAC<br />
+&gt;TFLinkSS09748922;P08069;IGF1R;hg38;chr7:61098307-61098426<br />
+AGGGTCTGAAAGTGGATATTTGGATAGCTTTGAGGATTTCGTTGGAATCGGGAATATCTTCACATAAAAACTAGAGAGAA<br />
+TCATTGTCAGAAACTTCTTTGTGATGTTTTCATTCAACA<br />
+&gt;TFLinkSS09748923;P08069;IGF1R;hg38;chr7:61102541-61102669<br />
+GAGCAGTTTTGAAACACTCTTTTTGTAGTATCTGGAAGTGAACATTTGGAGCGCTTTGAGGCCTGTGGTGAAAAAGGAAA<br />
+TATCTTCCCATAAAAACTAGGCAGAATCATTCTCAGAAACTTCTTTGT<br />
+&gt;TFLinkSS09748924;P08069;IGF1R;hg38;chr7:62143806-62143862<br />
+CAAAAAGACTGTTTCCAAAATGTTCTATCAAAAGAAAGGTTCAACTTTGTGAGATG<br />
+&gt;TFLinkSS09748926;P08069;IGF1R;hg38;chr7:62302660-62302764<br />
+ATTATAGAATGGAATCAAATGGAATCATCGAATGGAATTGAAAGGAATCATTGAATGGACTCGAATGGAATAATCATTGA<br />
+ATGGAATCGAATGGAAACATCATG<br />
+&gt;TFLinkSS09748927;P08069;IGF1R;hg38;chr7:62313247-62313298<br />
+TCCCATGGAATCATCATCAAATGGAACCGAATGGAATCATTGAATGGACTT<br />
+&gt;TFLinkSS09748929;P08069;IGF1R;hg38;chr7:62350480-62350534<br />
+AATGAAATTGAATGGAATCATCAATTGGACTCGAATGGAATCATCAAAGGGAAT<br />
+&gt;TFLinkSS09748930;P08069;IGF1R;hg38;chr7:62353571-62353620<br />
+AATGGAATCAAATGAAATCATCATCAGATGGAATCAAATGGAATCATCA<br />
+&gt;TFLinkSS09748933;P08069;IGF1R;hg38;chr7:62514652-62514729<br />
+TTTTCATAGAGCAGTTTGGAAACACTCTGTTTGTAATGTCTGCAAGTGGATATTTGGACCTCTTGGAGGATATCGTT<br />
+&gt;TFLinkSS09748934;P08069;IGF1R;hg38;chr7:62522574-62522672<br />
+GAATCATTCTCAGAAACTACTTTGTGATGTGTGCGTTCAATTCACAGAGTTTACGCTTTCTTTTGATGGAGCAGTTTTGA<br />
+AACACTCTGTTTGTTGAT<br />
+&gt;TFLinkSS09748935;P08069;IGF1R;hg38;chr7:62525822-62525935<br />
+CTTTGTGATGTTTGTATTCAAGTCACAGAGTTGAACCTTCCTTTAGACAGAGCAGTTTTGAAACACTCTTCTTGTAGAAT<br />
+TTCCAAGTGGATATTTAAGGCGCTTTGAAGCCT<br />
+&gt;TFLinkSS09748936;P08069;IGF1R;hg38;chr7:62530476-62530575<br />
+GTTTTGAAACCCTCTGTTTGTAAAGTCTGCAAGTGGATATTTTAAACTCTTTGAGGCCTTCGTTGGAAACGGGATTTCTT<br />
+CATATAAAACTGGACTGAA<br />
+&gt;TFLinkSS09748937;P08069;IGF1R;hg38;chr7:62534626-62534679<br />
+AGCCTATGGTAGAAAAGGAAATATCTTCCTATAAAAAGTAGACAGAAGCATTC<br />
+&gt;TFLinkSS09748938;P08069;IGF1R;hg38;chr7:62561418-62561474<br />
+CAAAAAAGTTTCTGAGAATGCTTCTGTCCAGTTTTTATGGGAAGATATTTCCTTTT<br />
+&gt;TFLinkSS09748939;P08069;IGF1R;hg38;chr7:62579715-62579808<br />
+TAAAAGAAGTGTTCAACTCTATGAGATGAATGCAAACATCACAAAGAAGTTTCTCAGAAAGCTTCTGTCTAGTTATTAGA<br />
+TGAGGATATTTCC<br />
+&gt;TFLinkSS09748940;P08069;IGF1R;hg38;chr7:62943560-62943621<br />
+TATCTGAGAAACTGCTTTGTGATGATTGCATTCACCTCACAGAGTTCAACCTTTCTGTTCA<br />
+&gt;TFLinkSS09748943;P08069;IGF1R;hg38;chr3:90319651-90319763<br />
+TCAATCAAAAGAAAGGTTCAACTCTGTGAGAGGAATCCACTAGAGGCTGAAAAGTGCTCCAAATATCCACTTGCAGATTC<br />
+TACAAAAAGAGTGTATCAAAACTGCTCAATCA<br />
+&gt;TFLinkSS09748944;P08069;IGF1R;hg38;chr3:90398782-90398846<br />
+AGTTGTGTTCAACTCTGTGTACTGAATGCAAACATCACAAAGATGTTTCTGAGAATGCTTCTGT<br />
+&gt;TFLinkSS09748945;P08069;IGF1R;hg38;chr3:90414961-90415012<br />
+TCTGTCAAAATGAAAGTTCAACTCTGTGAGTTGAATACACACATCAAAAAC<br />
+&gt;TFLinkSS09748946;P08069;IGF1R;hg38;chr3:90416319-90416379<br />
+AACTGCTCTATGAAAAGCAAGGTTCAACTCTGTGAGTTGAATGCAAACATCACAAAGTAG<br />
+&gt;TFLinkSS09748947;P08069;IGF1R;hg38;chr3:90424573-90424629<br />
+CACAGATCACAAACAAGTTTCTGAGAATGCTTCTGTCCAGTTTTTATTTGACGATA<br />
+&gt;TFLinkSS09748948;P08069;IGF1R;hg38;chr3:90428471-90428607<br />
+TCCCCTTGCAGAGTCTACAAAAAGAGTGTTTCAAAACTGCTCTAACAAAAGAAAAGTTCACCTCTGTGAGTTGAATGCAC<br />
+ACATCACAAAGGAGTTTCTGAGAATCCTTCTGTCTAGTTTTTATTTGAAGAAACAC<br />
+&gt;TFLinkSS09748949;P08069;IGF1R;hg38;chr3:90441623-90441736<br />
+TGTTACCACCACAAACCTCAAAGCCCTCCAAATGTCCACTTGCAGATTCCACAAAAAGAAGAGTGTTTCCAAACGGCTCT<br />
+GTCAAAAGGAAGTTTCAACTCTGTTAGTTGAAT<br />
+&gt;TFLinkSS09748950;P08069;IGF1R;hg38;chr3:90449663-90449726<br />
+TGCAGATTCTACACAAAGAGTGTTTCAAAACCGCTCCATTAAAAGGAAGGTTCAATGCTGTGA<br />
+&gt;TFLinkSS09748951;P08069;IGF1R;hg38;chr19:24343360-24343426<br />
+CTTCTCACAGAGTTAAACCTTTCTTTTGATGGAGGAGTTTGGAAACACTGTTTTTGTAGAATCTGC<br />
+&gt;TFLinkSS09748952;P08069;IGF1R;hg38;chr16:17327601-17327649<br />
+TCCCGCCCCCCCCCCCCCCCCCCCCCCGCCTCGGCCTCCCAAAGTGCT<br />
+&gt;TFLinkSS09748953;P08069;IGF1R;hg38;chr18:41168862-41168993<br />
+TAAAAGAAATGCAACTCTATTCCTGTATATTTTCTTTCTATTCATGCAGCTTATATTCCTCCACAAATCTCTATTATCAC<br />
+TCCACTCATTTGACACACATACACCACACACACAACACACACACACACATC<br />
+&gt;TFLinkSS09748954;P08069;IGF1R;hg38;chr2:132259283-132259359<br />
+AGACACCAGCACCCGACCTGAGTTAATACATCTGGTCTCACTACGTCTTAACCACACACCCATGAAGAACTCAAGT<br />
+&gt;TFLinkSS09748955;P08069;IGF1R;hg38;chr2:132262518-132262611<br />
+CACCTCAGATTCAGGCTTTTAATCTACAAAAAGCAGCAGCAGAAGGCTTGATGAGCCTTTTTCGTGAAAGGGGGAAAGGT<br />
+TATTTAGCTTTGT<br />
+&gt;TFLinkSS09748956;P08069;IGF1R;hg38;chr2:132270832-132270908<br />
+AGAGAGAGAGAGAGAGACAGACAGAGAGACACAGAAAAAGAAAGAGAGAGGCAGACAGAGAAAGACACAGACAGAG<br />
+&gt;TFLinkSS09748958;P08069;IGF1R;hg38;chr2:132272062-132272150<br />
+TGGCGAGGCTGGTCTCCAACTCCTGACCTCGGGATGACAGACGTGAGCCACTGCGTTCAGTGTACAGTGCCATTTCTTAG<br />
+ACATCACT<br />
+&gt;TFLinkSS09748960;P08069;IGF1R;hg38;chr16:46381013-46381083<br />
+TTGATGATTATTCCATTCGTGTCTATTCAAAGGTTCCATTCTATTCCATTCAATGATGATTGCATTTGAT<br />
+&gt;TFLinkSS09748962;P08069;IGF1R;hg38;chr16:46401541-46401569<br />
+GGAAACATCATTGAATAGAATTGAATGG<br />
+&gt;TFLinkSS09748963;P08069;IGF1R;hg38;chr16:46399654-46399690<br />
+ATCTAAGGGACACAAATAGAATCATCATTGAATGGA<br />
+&gt;TFLinkSS09748964;P08069;IGF1R;hg38;chr16:46398502-46398542<br />
+GGATAATCATTGAATGGAATTGAATGCAATCATTGAATGG<br />
+&gt;TFLinkSS09748965;P08069;IGF1R;hg38;chr16:46394941-46395072<br />
+AATCACCATCGAAGAGAATCGAATAGAATCATCGAATGAACTCAAATGGAATCATCATCGAATGGAATCAAATTGTCAAT<br />
+GAACGGAATGGAATGGAATCATAGAACGGAATCCAATGTAATCATCATTGA<br />
+&gt;TFLinkSS09748966;P08069;IGF1R;hg38;chr16:46394732-46394771<br />
+TGGAATCAAATGGAATCATCGAATGGAATCGAATGGAAT<br />
+&gt;TFLinkSS09748967;P08069;IGF1R;hg38;chr16:46394226-46394266<br />
+GAATTGAATCACCATCGAACGGAATCGAATAGAATCATCG<br />
+&gt;TFLinkSS09748968;P08069;IGF1R;hg38;chr16:46390635-46390663<br />
+AATGGACTCGGATGTAATCATTATCGAA<br />
+&gt;TFLinkSS09748969;P08069;IGF1R;hg38;chr16:34583337-34583387<br />
+CATTGAATGGAATCAAAGGCAATCATGGTCGAATGGAATCAAATGGAAAC<br />
+&gt;TFLinkSS09748970;P08069;IGF1R;hg38;chr16:34582299-34582338<br />
+GAATGAAATCATCAACGAATGGAATCCAATGTAATCATC<br />
+&gt;TFLinkSS09748971;P08069;IGF1R;hg38;chr16:46399450-46399487<br />
+GAATCAATGTCAAGTGGAATCGAGTGGAATCATCGAA<br />
+&gt;TFLinkSS09748972;P08069;IGF1R;hg38;chr16:46399226-46399230<br />
+CTCG<br />
+&gt;TFLinkSS09748973;P08069;IGF1R;hg38;chr16:46389668-46389685<br />
+TGAATTATCGAATGGAT<br />
+&gt;TFLinkSS09748974;P08069;IGF1R;hg38;chr16:34582299-34582328<br />
+GAATGAAATCATCAACGAATGGAATCCAA<br />
+&gt;TFLinkSS09748975;P08069;IGF1R;hg38;chr16:46400112-46400126<br />
+GGAATCACTGAATG<br />
+&gt;TFLinkSS09748976;P08069;IGF1R;hg38;chr16:34581719-34581749<br />
+ATCGATTGGAATCGAATGGAATCATTGAAT<br />
+&gt;TFLinkSS09748977;P08069;IGF1R;hg38;chr16:46386214-46386255<br />
+TGTACTCTAATGGAATCATCGAATGGACTCGAATGGAATCA<br />
+&gt;TFLinkSS09748978;P08069;IGF1R;hg38;chr16:34593414-34593437<br />
+TCCATTCGATGATGATTCCATTC<br />
+&gt;TFLinkSS09748979;P08069;IGF1R;hg38;chr16:46390912-46390921<br />
+AGAATCGAA<br />
+&gt;TFLinkSS09748980;P08069;IGF1R;hg38;chr16:46390617-46390657<br />
+GCTCAAATGGAATCATCGAATGGACTCGGATGTAATCATT<br />
+&gt;TFLinkSS09748981;P08069;IGF1R;hg38;chr16:46389127-46389150<br />
+TCGAATGGAAACATCACTGAATG<br />
+&gt;TFLinkSS09748982;P08069;IGF1R;hg38;chr16:46400843-46400896<br />
+GACTCAAGTGGAATCATCATCGAAAGCAAGCGAATGGAATCATCATCGAATTT<br />
+&gt;TFLinkSS09748983;P08069;IGF1R;hg38;chr16:46388088-46388104<br />
+ATGGGATCATCATCAA<br />
+&gt;TFLinkSS09748984;P08069;IGF1R;hg38;chr16:34588530-34588580<br />
+CGAATGAAATCAAATGGAATGATCATATGGACTCGAATGGAATCATCATC<br />
+&gt;TFLinkSS09748985;P08069;IGF1R;hg38;chr16:46382948-46383064<br />
+AATTGAAAGGAATTATCAAATGGAATACAAGAGAAACATCATCAAATGGAATCGAATGGAATCATCATCGAAAGGAATCC<br />
+AATGGAATAATCATCAAATGGATTCATACGGAATCA<br />
+&gt;TFLinkSS09748987;P08069;IGF1R;hg38;chr16:46383302-46383447<br />
+GAATTGAATGGAATCGAATGGAATGATCGTTTGGACTCCAATGGAATCATCGAATGGACTTGAATGGAATCATCATTGAA<br />
+AGGAATCAAGTGAAATCATCATCAGATGGAATCAAATGGAATCATCACTGAATGGAATGAAATGG<br />
+&gt;TFLinkSS09748988;P08069;IGF1R;hg38;chr16:46386400-46386454<br />
+CATCGAATGGTATTGAATGGAATCGTTGAGTTTACTCTAATGGGATAATCATTG<br />
+&gt;TFLinkSS09748989;P08069;IGF1R;hg38;chr16:46392365-46392450<br />
+AATGGATTCATACGGAATCATAATCGAATGGAATTCAAACGAATCATCATCGAAGGGAATCGAATGCAACAATCGAATGG<br />
+AATCT<br />
+&gt;TFLinkSS09748993;P08069;IGF1R;hg38;chr16:46398805-46398869<br />
+TAATCTTCGAAAGGAATCGAATGGAATCGAATGGAACAATCAAATGGACTCCAATGGAATCATC<br />
+&gt;TFLinkSS09748994;P08069;IGF1R;hg38;chr16:46401526-46401649<br />
+CGAATGGAATCAAATGGAAACATCATTGAATAGAATTGAATGGAATCATCACATGGAATCGAATGGAATCATCGTAAATG<br />
+CAATCAAGTGGAATCATCGAATGGAATCTAAGGGAATCATCAT<br />
+&gt;TFLinkSS09748995;P08069;IGF1R;hg38;chr16:46405299-46405442<br />
+AAGGGAATCGAATGGAATCATCATCAAATGGAATCGAATGGAATCAACAACAAATGGAATCGTATGGAATCATTGAATGA<br />
+AATCCAATGGAATCATTACCAAATAGAAACGAATGGAATCATCGAATGGACTTGAATGGAATC<br />
+&gt;TFLinkSS09748996;P08069;IGF1R;hg38;chr16:46409849-46409970<br />
+AATCATCGAATGGAACTGAATGGAATCATCATCGAATGGAAATGAAAGGAGTCATCATCAAGTGGAATTGCATGGAATCG<br />
+AATGGAATCATCATCAAATGGAATCTGATGGAACCATCGAA<br />
+&gt;TFLinkSS09748997;P08069;IGF1R;hg38;chr16:46415855-46415912<br />
+AATTAATTGAACGGAATCATCGAATGGTCTCGAATGGAATCATTATCAAATGGAATC<br />
+&gt;TFLinkSS09748998;P08069;IGF1R;hg38;chr11:50563278-50563330<br />
+TTTCAAGTTTTTATTTGAAGATATTTCCTTTCTCACCATAGGTCTCAATGCA<br />
+&gt;TFLinkSS09748999;P08069;IGF1R;hg38;chr3:75725124-75725250<br />
+ATCAGCCTGCACTCCTCGACTCAGTGAAACCCTCACTCTCTCTCATCTGAAATATTTCCATTTTCCATCATGTTTCCATC<br />
+AGCCTGCACTCCTCTCACTTCCCGTTATCTTGTTCGCTTCCAGACT<br />
+&gt;TFLinkSS09749000;P08069;IGF1R;hg38;chr16:34947972-34948078<br />
+GACTTCATTAGATTCCATTTGATAATGATTCCATTCGATTCTAATCAATGATGTTTCTATTTGATTCCATTCGATGATGA<br />
+TTCCATTCATTTCCATTGGATGATTC<br />
+&gt;TFLinkSS09749002;P08069;IGF1R;hg38;chr16:34955769-34955884<br />
+ATTCCATTCGATGATGATTCCTTTCGAGTCCATTCAGTGATTCCATTCAAGTCCATTCGATGATTCCTTTTGATTCCATT<br />
+TGATGATGATTCCAATCGAGACCATTCTATGATTC<br />
+&gt;TFLinkSS09749003;P08069;IGF1R;hg38;chr11:48846235-48846363<br />
+TTTGATAGAGCAGTTTTGAAATACTCTTTTTGTGGAATCTGCAAGTGGATATTTGTGCTGCTCTGAGGCCTTCGTTGGAA<br />
+ACGGGGATATCTTCACATAAAAACTAGAATGAATCTTTCTCAGAAACT<br />
+&gt;TFLinkSS09749004;P08069;IGF1R;hg38;chr11:48858983-48859038<br />
+ATATAAAAACTAGGCAGAAGCATTCTCAGAAACTAATTTGAGATGTGTGCATTCA<br />
+&gt;TFLinkSS09749005;P08069;IGF1R;hg38;chr11:48871500-48871559<br />
+GGAATATCTTCACATAAAAACCAGAAAAAAGCATTCTCAGAAACTTCTTTGTGATGATT<br />
+&gt;TFLinkSS09749006;P08069;IGF1R;hg38;chr20:26209295-26209415<br />
+CGGACCAGGCGGGCGCCCTTCCCCGCGTGGGAGGGGCGCGTCTCGTCTCACTCAACCGCCTCGAACCCCACACCGACGAG<br />
+CTCCCTCAGGACCCACGCGCGGACACCGAGGCGCCGACCG<br />
+&gt;TFLinkSS09749007;P08069;IGF1R;hg38;chr20:26328395-26328481<br />
+CACTGTTTTTGTAGAATCTGCAGGTGGATATTTGGATAGCTTTGAGGCTTTCATGGGAAACGGGAATATTTTCACATAAA<br />
+AACTAG<br />
+&gt;TFLinkSS09749008;P08069;IGF1R;hg38;chr20:26336499-26336549<br />
+GCCTGTGGTAGTAAAGGAAATATCTTCATAGAAAAACTAGACAGAATTTT<br />
+&gt;TFLinkSS09749009;P08069;IGF1R;hg38;chr20:26337479-26337590<br />
+CGTTTTGTAGAATTTCCAAGTGGATATTTAGATCGGCTTGAGGCCTATGTTAGAAAAGTAAATATCTTCATATAAAAACT<br />
+AGACAGAATGATTCTCAGAGACTACTTTATG<br />
+&gt;TFLinkSS09749010;P08069;IGF1R;hg38;chr20:26337816-26337938<br />
+CACTCTTTTTGTGGAATCTGCAAGTGAATATTTGGACTTTTTTGAGGCCTTCATTGGAAACGGGCTTTCTTCACATAAAA<br />
+CTTGACAGAAGAATTCTCAGAAACTTCTTTGTGATGTGTGCA<br />
+&gt;TFLinkSS09749011;P08069;IGF1R;hg38;chr20:26338753-26338821<br />
+CAGAAGCATTCTCAGAAACTATTTTGTGATGTGTGCCCTCTACTAACAGAGTTGAACATTCCTCTTGA<br />
+&gt;TFLinkSS09749012;P08069;IGF1R;hg38;chr5:80651383-80651486<br />
+CCTTGACCTAACATCTTTACGTGGGTACTTGCGCTTACTTTGCAGCCTTCGTCAGGGTTTGCTGAAGATGGCGGTATATA<br />
+GGCTGAGCAAGAGGTGGTGAGGT<br />
+&gt;TFLinkSS09749013;P08069;IGF1R;hg38;chr5:80652286-80652375<br />
+AAATGCATACCGCCAAAAGATGAAATTTGAAATCTGGTTAGGCTGATGTTAGGGCTCTTTGTTTTTGGGGTTTGGCAGAG<br />
+ATCTCCTTT<br />
+&gt;TFLinkSS09749014;P08069;IGF1R;hg38;chr5:100048318-100048406<br />
+CTAATGAGTAAGAAGGATATAATCCCTACGCCCTCTCAGCCGATGAAGAGTTGGAATAGGTTGTTAGCTGTAACTAGGAT<br />
+TAGTATGG<br />
+&gt;TFLinkSS09749015;P08069;IGF1R;hg38;chr5:100048509-100048639<br />
+TACAGGGATTAATATTATGGAGAAATAGTCTAGTTTAAAGCTTAGCGAGAGTTGTATTGTTTGGGTTGTTGCTCAGTGTC<br />
+AGTTTGAGATAATAACTTCTTGGTCTAGGCATATGAATATTGTTGTGGGG<br />
+&gt;TFLinkSS09749016;P08069;IGF1R;hg38;chr5:100052896-100052968<br />
+GAATTAATTCTAGGACGATGGGCATAAAACTGTGGTTTGCTCCACAGATTTCTGAGCATTGGCCGTAGTATA<br />
+&gt;TFLinkSS09749017;P08069;IGF1R;hg38;chr11:10507909-10507977<br />
+GGATTGCGCTGTTATCCCTAGGGTAACTTGTTCCGTTGGTCAAGTTATTGGATCAATTAAACGTGGTA<br />
+&gt;TFLinkSS09749018;P08069;IGF1R;hg38;chr11:10509378-10509441<br />
+TGTACGCGCTTCAGGGCCCTGTTCAACTAAGCACTCTACTCTTAGTTTACTGCTAAATCCACC<br />
+&gt;TFLinkSS09749021;P08069;IGF1R;hg38;chr18:109153-109219<br />
+AAATATCTCTGCACTGATCACCCAGGTGATGCAACTCTTGACTAGGATCTGCCTACAGGAGGTATT<br />
+&gt;TFLinkSS09749023;P08069;IGF1R;hg38;chr11:55193565-55193691<br />
+AATGTGAAAAAGGAAATATCTTCAAATAGAAACTAGACAGAAGTTTTCTGAGAAACTTATTTGTGATGTGTGCATTCACC<br />
+TCAAAGAGTTTAACCTTTCTTTTGATTGAGCAGTTTGGAATCAGTC<br />
+&gt;TFLinkSS09749024;P08069;IGF1R;hg38;chr11:55194225-55194286<br />
+GGGATATTTGGAGCCCTTTGAGGCCTACGGTGAAAAAGCAAATATCTTCACGTAAAAACTA<br />
+&gt;TFLinkSS09749025;P08069;IGF1R;hg38;chr11:55258228-55258288<br />
+AAGGAAGGTTCAACTCTGTGAGTTGAATGCACACAAACAAAGAAGTTTCTGAGAATGCTT<br />
+&gt;TFLinkSS09749026;P08069;IGF1R;hg38;chr11:55258919-55258984<br />
+TCAACTCTGTGAGTTGAATGCACACATCAGAAAGAAATTTCTGAGAATGCTTCTGTCTAGTTTTT<br />
+&gt;TFLinkSS09749030;P08069;IGF1R;hg38;chr4:67400610-67400666<br />
+AAGTTACTGAGAATTCTTCTGTCTAGCATTACATGAAGAAATCCCTTTTCTAAGGA<br />
+&gt;TFLinkSS09749031;P08069;IGF1R;hg38;chr4:67400855-67400914<br />
+ATCTCCACGTGCAAATATCACAAAAAGAGTATTTCACATCTGCTCTGTCTAAAGGAAGT<br />
+&gt;TFLinkSS09749032;P08069;IGF1R;hg38;chr14:87771373-87771473<br />
+CAGGGGTGGGGTGGGGGGAAGGATGGAGGCCCCCACAGCACAGTGGGTCACCGCGCCCTCCCAGGAGATCCCCACAACTA<br />
+ATCGACCAGGGCCCCTGGGG<br />
+&gt;TFLinkSS09749033;P08069;IGF1R;hg38;chr21:10326177-10326252<br />
+TTTCTAATCCCATCACCATGGCGATAGGGCATAAACATTCCTGGGTGAAGGCACAATCCACATTGTGAGGTCCTA<br />
+&gt;TFLinkSS09749034;P08069;IGF1R;hg38;chr21:10325796-10325878<br />
+TTTGGCCTCCGAAATTGCTGGGATTACAGGCCTGAGCCAAGATCCATATTTTTTAAATGAAGAAAAATTTCAAAGGTACT<br />
+CT<br />
+&gt;TFLinkSS09749035;P08069;IGF1R;hg38;chr12:20551424-20551573<br />
+CGGACAGGATTGACAGATTGATAGCTCTTTCTCGATTCCGTGGGTGGTGGTGCATGGCCGTTCTTAGTTGGTGGAGCGAT<br />
+TTGTCTGGTTAATTCCGATAACGAACGAGACTCTGGCATGCTAACTAGTTACGCGACCCCCGAGCGGGT<br />
+&gt;TFLinkSS09749036;P08069;IGF1R;hg38;chr12:34219682-34219756<br />
+ATACACAAAATGTCTGAACCTGCGGTTCCTCTCGTACTGAGCAGGATTACCATGGTAGCAACACATGGGCAACA<br />
+&gt;TFLinkSS09749037;P08069;IGF1R;hg38;chr12:34679267-34679318<br />
+AGAATCATTCTCAGAAACTTCCTTGTGATATGTGCATTCAACTCTCAGAGT<br />
+&gt;TFLinkSS09749038;P08069;IGF1R;hg38;chr12:34680518-34680624<br />
+ACAGAGCAGTTTGGAAACACTCTGTAAAGTCTGCAAGTGGATATTTGGAGGGCTTTGAGGCCATCTTTGGAAACGGGAGT<br />
+ATCTTCACATAAGAAGTAGACAGAAG<br />
+&gt;TFLinkSS09749039;P08069;IGF1R;hg38;chr12:34684703-34684761<br />
+AAAAACTAGACAGAATCATTCTCAGAAACTGCTTTGTGATGTGTGCGTTCAAGTCAAA<br />
+&gt;TFLinkSS09749040;P08069;IGF1R;hg38;chr12:34686007-34686132<br />
+GTGTCTATTTAGAGGGCTTTGAGGCCTACGGTAGAAAAGGAAATATCTTCACATAAAAACTAGACAGAAGGATTCTCAGA<br />
+AACTTCTTTATGATGTTTGCATTCAACTCACAGAGTTCAACATTC<br />
+&gt;TFLinkSS09749042;P08069;IGF1R;hg38;chr12:34693363-34693431<br />
+CATAGAGCGGTTTTGAAACACTCTGTTTGTAAAGTCTGCACGTGGATATTTGGACCTCTTTGTGGCCC<br />
+&gt;TFLinkSS09749043;P08069;IGF1R;hg38;chr12:34693976-34694038<br />
+AGAATCATTCTCAGAAACTACTTTGTGATGTTTGCGTTCAACTCACAGAGTTTAACCTTTCT<br />
+&gt;TFLinkSS09749044;P08069;IGF1R;hg38;chr12:34694529-34694583<br />
+ACCGAGTTGAACCATCCTTTTGACAGAGCAGTTTTGAAACACTCTTTCTGAAGA<br />
+&gt;TFLinkSS09749045;P08069;IGF1R;hg38;chr12:34694660-34694725<br />
+TCAATCTCAGAAACTACTTTGTGATGTGTGGGTTCAACTCACGGAGTTTAACCTTTCTTTTCATA<br />
+&gt;TFLinkSS09749047;P08069;IGF1R;hg38;chr12:34695461-34695541<br />
+TTTGAAGCCCTCGTTGGAAACTGGATTTCTTCATATACAACTAGACAGAAGAATTCTCAGAAACTTCTTTGTGATGTGTG<br />
+&gt;TFLinkSS09749048;P08069;IGF1R;hg38;chr12:34697943-34698028<br />
+GATACAGCAGTTTTGAAACACTCTGTTTGTAAAATCTGCAACTGGATATTTGGACCTCTTTGAGGAATTCGTTGGAAACG<br />
+GGATT<br />
+&gt;TFLinkSS09749050;P08069;IGF1R;hg38;chr17:35151133-35151244<br />
+GATTCGGCGCTGGGCTCTTCCCTGTTCACTCGCCATTACTGAGGGAATCCTGGTTAGTTTCTTTTCCTCCGCTGACAAAT<br />
+ATGCTTAAATTCAGCGGGTCGCCACGTCTGA<br />
+&gt;TFLinkSS09749051;P08069;IGF1R;hg38;chr9:85265118-85265214<br />
+AGAGTCAGTCAGTCAGCCAGTCAGCCAGTCAGCCAGTCAGTCAGAGAGTCAGTCAGTCAGCCAGTCAGTCAGCCAGCCAG<br />
+CCAGTCAGTCATATAT<br />
+&gt;TFLinkSS09749052;P08069;IGF1R;hg38;chr7:158595225-158595345<br />
+GGTGACGCTGGTGGTGGTGGAGGTGGTGGTAGAGGTGGTGATGGTGGTTATGGTGATGGTGGCGAAGTTGTAACAGAGGT<br />
+GGAGCTGGTGGTGATGGAAGTGTCAGTGGTGGTGATGCTT<br />
+&gt;TFLinkSS09749054;P08069;IGF1R;hg38;chr4:49153882-49153935<br />
+CAATCCATTCCATTCCGTTCCATTCCATTCCATTCCATTCTATTCCACTCGAG<br />
+&gt;TFLinkSS09749055;P08069;IGF1R;hg38;chr4:49154351-49154463<br />
+ATACCATTCCACTCGGGTGGATTCCATAACATTCCATTCTATTCCATTGCATTCCTTTCCATTCCATTCCACTTGTGTTG<br />
+ATTCCATTCCATTCCATTCCATTCCATTCCAT<br />
+&gt;TFLinkSS09749056;P08069;IGF1R;hg38;chr1:143540693-143540817<br />
+CGATGATCATTCCATTCGAGTCCATTCAATGATTCCATTCCAGTCCATTTGATGATTCCATTTGATTCCATTCGATGATG<br />
+ATTCCATTTCATTCCATTCAATGATTCCATTCGATTCCATTCGA<br />
+&gt;TFLinkSS09749057;P08069;IGF1R;hg38;chr1:143541021-143541135<br />
+TTTAATTCCATTCGATGTTGATTCCATTCGATTCCATTCGATGATGATTCCTTTCGATTCCATTCAATGATGATTCCATT<br />
+CTATTCCATTCGATGATTCCACTCAATTGCATTC<br />
+&gt;TFLinkSS09749058;P08069;IGF1R;hg38;chr20:41460931-41461047<br />
+GGGGGAGGGAGGCTGTACCCTGCAAAGGCACAGGTGTGGAGCTGCCCAAGACTACCTCTTGCATCAGCATGACCTGAATG<br />
+AGAGACCTGAAGTCAAAGGAGATCATTTTGGAGCCT<br />
+&gt;TFLinkSS09749060;P08069;IGF1R;hg38;chr12:37597828-37597879<br />
+TATCTTCAAATAAAAAGTAGACAGAAGCATTCTCAGAAATTTCTTTGAGAT<br />
+&gt;TFLinkSS09749061;P08069;IGF1R;hg38;chr12:37623380-37623437<br />
+GAGAGTTGAACCTTTCTATTGATAGAGCAGTTTTGAAACAGTCTTTTTGTAGAATCA<br />
+&gt;TFLinkSS09749062;P08069;IGF1R;hg38;chr12:37630563-37630645<br />
+GCACACATCACTAAAAAGTTTCTGAGAATGCATCTGTGTAGTTTTTAGGTGAAGATATTTCCCTTTCCACAATAGGCCTC<br />
+AA<br />
+&gt;TFLinkSS09749063;P08069;IGF1R;hg38;chr12:37633817-37633927<br />
+AGAACTTTCTGAGAATGCTTCTATCTAGTATTTATGTGAAGATATTTCGTTTTTCACCATAGACCTGAAAGTACTCCAAA<br />
+TATCCACTTGCAGATTCCACAAAAGGAAAG<br />
+&gt;TFLinkSS09749064;P08069;IGF1R;hg38;chr12:37635288-37635351<br />
+TTTCAAAACTGCTGTATCAAAAGAAAGGTTCAACTCTGTTAGTTGAATACACACCTCATGAGG<br />
+&gt;TFLinkSS09749065;P08069;IGF1R;hg38;chr12:37644292-37644349<br />
+AAATATCCACTTGCAGATTCAACAAAAAGAGTTTTTCAAAACTGCTCTATCAAAAGA<br />
+&gt;TFLinkSS09749067;P08069;IGF1R;hg38;chr12:37770978-37771040<br />
+GGGATACTTGGAGCGCTTTCAGGCGTATGGTGAAAAAGGAAATATCTTCACATAAAAACTAG<br />
+&gt;TFLinkSS09749068;P08069;IGF1R;hg38;chr12:37854805-37854863<br />
+AAAACTTCTGTCTGGTTTTTATGAGAAGATATTTCCTTTTTCACCATAGGCCTCAAAC<br />
+&gt;TFLinkSS09749069;P08069;IGF1R;hg38;chr21:12986859-12986914<br />
+TCTACCATAGGCCTCAAAGCGCTCCAAATATCCACTTGCACATTCTACAAAAAGA<br />
+&gt;TFLinkSS09749070;P08069;IGF1R;hg38;chr21:12992970-12993028<br />
+TACACATCACAAAGAAGTTTCTGAGAATGCTGCTGTCTAGATTTTATATGAAGATATT<br />
+&gt;TFLinkSS09749071;P08069;IGF1R;hg38;chr18:52792776-52792880<br />
+TCCATTCCATTCCATTCCATTCCATTCCAGTTGATTCAATTCCATTCTATTCCATTCTATTCCATTCCATTCCATTCCAT<br />
+TCGGGTTGATTCAATTCCAATTAA<br />
+&gt;TFLinkSS09749075;P08069;IGF1R;hg38;chr15:98899486-98899628<br />
+TTCAGAGCTGGAGAACTTCATGGGGCTCATCGAGGTGGTGACGGGCTACGTGAAGATCCGCCATTCTCATGCCTTGGTCT<br />
+CCTTGTCCTTCCTAAAAAACCTTCGCCTCATCCTAGGAGAGGAGCAGCTAGAAGGGTAAGTG<br />
+&gt;TFLinkSS09749081;P08069;IGF1R;hg38;chr15:98923870-98924006<br />
+TACAGAAGGAGCAGATGACATTCCTGGGCCAGTGACCTGGGAGCCAAGGCCTGAAAACTCCATCTTTTTAAAGTGGCCGG<br />
+AACCTGAGAATCCCAATGGATTGATTCTAATGTATGAAATAAAATACGGATCACAA<br />
+&gt;TFLinkSS09749083;P08069;IGF1R;hg38;chr15:98929566-98929648<br />
+AAAACTTCATCCATCTGATCATCGCTCTGCCCGTCGCTGTCCTGTTGATCGTGGGAGGGTTGGTGATTATGCTGTACGTC<br />
+TT<br />
+&gt;TFLinkSS09749085;P08069;IGF1R;hg38;chr15:98935326-98935437<br />
+GGGTGTGGTGTCCCAAGGCCAGCCAACACTGGTCATCATGGAACTGATGACACGGGGCGATCTCAAAAGTTATCTCCGGT<br />
+CTCTGAGGCCAGAAATGGAGGTCAGTTTTCA<br />
+&gt;TFLinkSS09749086;P08069;IGF1R;hg38;chr15:98939205-98939330<br />
+TCCAGTCCTAGCACCTCCAAGCCTGAGCAAGATGATTCAGATGGCCGGAGAGATTGCAGACGGCATGGCATACCTCAACG<br />
+CCAATAAGTTCGTCCACAGAGACCTTGCTGCCCGGAATTGCATGG<br />
+&gt;TFLinkSS09749088;P08069;IGF1R;hg38;chr15:98948580-98948691<br />
+GGGGTCGTCCTCTGGGAGATCGCCACACTGGCCGAGCAGCCCTACCAGGGCTTGTCCAACGAGCAAGTCCTTCGCTTCGT<br />
+CATGGAGGGCGGCCTTCTGGACAAGCCAGAC<br />
+&gt;TFLinkSS09749090;P08069;IGF1R;hg38;chrY:10182961-10183067<br />
+AAAGAAAGAGAAAATGAAAGAAAAGACACTGTATTGCTACTGGGCCAGGACCTCTCTTTCTGTGTATTTCTCTCTGTCTC<br />
+TCTGTCCATCTCTGTCTTTCTCTATC<br />
+&gt;TFLinkSS09749093;P08069;IGF1R;hg38;chr10:38487528-38487615<br />
+TGGAATAGAATGGAACGGAATGGAATGGGATGGAATGGAATGGAAGGGAATGGAATGGAATGAAATAGAATGGAATGGAA<br />
+TCAAAAG<br />
+&gt;TFLinkSS09749095;P08069;IGF1R;hg38;chr1:65945336-65945476<br />
+GATCTCTTGGCCTGAGTAAATATTTTGTAGATTCCAATTTGGTTGTCATATGCTTTGAGTTTTTGGATAGTGAACTGGCT<br />
+GAGACACTGTAGGCAGGAAAGGCAAACCCAGACCAAGAATACACGTTAATTCCGGCTACA<br />
+&gt;TFLinkSS09749096;P08069;IGF1R;hg38;chr8:43237729-43237826<br />
+TTTTTGATATTTTATGTACAGTATATAATATGTATTTTGGGTACTTTGATATTTTATGTACAGTATATAATAAGTATTTG<br />
+GTGTACTTTGATATTTT<br />
+&gt;TFLinkSS09749097;P08069;IGF1R;hg38;chr8:43237937-43238013<br />
+GTATTTTGATATTTTGTGTACAGTATATAATATATATTTTGTGTACTTTGATATTTTATGTACAGTATATTATATG<br />
+&gt;TFLinkSS09749098;P08069;IGF1R;hg38;chr8:43238099-43238156<br />
+TTTGGTGTACTTTGATATTATATGTACAGTATATAATATATATTTGGTGTACTTTTT<br />
+&gt;TFLinkSS09749099;P08069;IGF1R;hg38;chr8:43239615-43239684<br />
+GTACTTAAAATACCAAAGTACACAAAATATATATTATATACTGTACATAAAATATCAAAGTACACCAAA<br />
+&gt;TFLinkSS09749100;P08069;IGF1R;hg38;chr8:43240758-43240840<br />
+ATAAAATATCAAAGTACACAAAATATGTATTGTATACTGTACATAAAATATCAAAGTACACCAAATATATATTATTTACT<br />
+GT<br />
+&gt;TFLinkSS09749101;P08069;IGF1R;hg38;chr11:85483974-85484103<br />
+TCTTCCAGGAGTCGGGTTGCTTGGGAATGCAGCCCAAAGCGGGTGGTAAACTCCATTTAAGGCTAAATACCGGCACGAGA<br />
+CCGATAGTCAACAAGTACCGTAAGGGAAAGTTGAAAAGAACTTTGAAGA<br />
+&gt;TFLinkSS09749103;P08069;IGF1R;hg38;chr4:49105594-49105714<br />
+CCATTCCATTCCATTCCATTCCTTTCCATTCCATTCGGGTTGATTCCATTCCATTAAATTCAACTGCATTCCATTCCATT<br />
+CCATTCCACTGCATTCCATTCCATTCCACTCCATACATTC<br />
+&gt;TFLinkSS09749104;P08069;IGF1R;hg38;chr4:49120243-49120368<br />
+TCCATTCCATTCAATTCCACCTGGATTCAATCTATTCTTTCCATTCCATTCCGTTCTGTTCCATTGCAGTCCATTGCATT<br />
+AGATACCATTCCATTCCACTCGGGATGATTCCTTTCAATTCCATT<br />
+&gt;TFLinkSS09749105;P08069;IGF1R;hg38;chr4:49120964-49121059<br />
+CATTCCATTCCAATCCATTCCATTCCATTCAATTCCACTCGCATTCAATCTATTCCATTCCATTTCATTCCGTTCTGTTC<br />
+CATTCCATTCTATTG<br />
+&gt;TFLinkSS09749106;P08069;IGF1R;hg38;chr4:49124718-49124819<br />
+ATTGCATTCCATTCCATTGCATTCCATTCCATTGCATTGCATTCCATTCCATTGTATTCCATTCCACTCGGGTTGTTTCC<br />
+ATTCCTTTCCATTAGTTTCCA<br />
+&gt;TFLinkSS09749107;P08069;IGF1R;hg38;chr4:49126308-49126364<br />
+TTCGACTCGGGTTGATTCCATTCCATTCCATTCCATTCCAATGCATTCCATTCCAG<br />
+&gt;TFLinkSS09749108;P08069;IGF1R;hg38;chr3:96617914-96617969<br />
+TCGCCTCTACCTATAAATCTTCCCACTATTTTGCTACATAGACGGGTGTGCTCTT<br />
+&gt;TFLinkSS09749109;P08069;IGF1R;hg38;chr19:35575600-35575739<br />
+ACTCGCTCATCAGACCCCAGAAAAGGTGTTGGTTGATATAGACAGCAGGACGGTGGCCATGGAAGTCAGAATCCACTAAG<br />
+GAGTGTGTAACAACTCACCTGCCGAATCAACTAGCCCTGAAAATGGATGGCACTGGAGC<br />
+&gt;TFLinkSS09749110;P08069;IGF1R;hg38;chrY:4344792-4344860<br />
+GACCTAACGTCTTTACGTGGGTACTTGCGCTTACTTTGTAGCCTTCATCAGGGTTTGCTTCTATTACT<br />
+&gt;TFLinkSS09749111;P08069;IGF1R;hg38;chr16:14487025-14487117<br />
+ACAGCACGGTCCGGGGTGGTCCAGTCTGATCCCAACCGGCCCACCCGGGGCATCCGGTGGAAGTCTTCGCCGGAGGATCC<br />
+GAAGGCAGCATC<br />
+&gt;TFLinkSS09749112;P08069;IGF1R;hg38;chr19:24001287-24001346<br />
+TCCACTTCGGCCTTCAAAGTTCTCATTTGAATATTTGCTACTACCACCAAGATCTGCAC<br />
+&gt;TFLinkSS09749113;P08069;IGF1R;hg38;chr1:121610406-121610488<br />
+TACAGAAAGAGTGTTTCAAACCTGAACTATCAGAGGAAGGTTCAACACTGTGAGTTGAATGCAAACATCACGAAGAAGGT<br />
+TC<br />
+&gt;TFLinkSS09749114;P08069;IGF1R;hg38;chr1:121612486-121612578<br />
+GTTAAACTCTGTGACTTGAATGCAATCATCACAAAGTAGTTTCTGAGAATGCTTCCATCTAGCTTTTATGAGAAGATATT<br />
+TCCTTTTCCACC<br />
+&gt;TFLinkSS09749115;P08069;IGF1R;hg38;chr1:121613893-121614012<br />
+GATAAGAGAGGTTTATCCCGTTTCCAACGAAATCCTCAGAGAGGTCCAAATATCCACTTGCAGATTCTACAAAAAGTGTG<br />
+TTTCGAAACTGCTCCATCCAAAGGAATGTTCAGCAAGGT<br />
+&gt;TFLinkSS09749116;P08069;IGF1R;hg38;chr1:121614279-121614343<br />
+TCCAAATGTCCACTTGCAGATTCTAGAAAGAGAGGGTTTCAAAGCTGCTCTATCAAAAGGAAAG<br />
+&gt;TFLinkSS09749117;P08069;IGF1R;hg38;chr1:121616195-121616269<br />
+CGTGAACTATCAAAGGAAGGTTCAACTCTGGACTTTGAATGCAAACGTCAGAAAGATGTTTCTGCGAAAGCTTC<br />
+&gt;TFLinkSS09749118;P08069;IGF1R;hg38;chr1:121616367-121616424<br />
+CCACCCAAAGGAATGCTCAGCTCTGTGAGTTAAACTCAATCATCCCAAAGTATTTTC<br />
+&gt;TFLinkSS09749119;P08069;IGF1R;hg38;chr1:121736815-121736907<br />
+TTCTGTTTAGATAGGTGAGTTTTCTCCCGTATCCAACGAAATCCTCAGAGAGGTCCAAATATCCACTTGCAGATTCTACA<br />
+GAAAGTGTGTTT<br />
+&gt;TFLinkSS09749121;P08069;IGF1R;hg38;chr10:38578957-38579071<br />
+GGAATGGAATGGACTGGAATGGAATGGAATGGAATGGAAGGGAATGGAATGGAATGGAATGGAAAGGACTGGAATGGAGT<br />
+GGAATGGAATGGAACGGACTCAAATAGAATGGAA<br />
+&gt;TFLinkSS09749122;P08069;IGF1R;hg38;chr10:38588619-38588730<br />
+GGAATTGATTGGAATAATCATCAAATGGAATCGAATGGTATCATTGAATGGAATCAAATGGAATAATCATCAGATGGAAA<br />
+CGAATGGAATCATCATAGAATGGAATTGAAT<br />
+&gt;TFLinkSS09749124;P08069;IGF1R;hg38;chr10:38589121-38589178<br />
+ATTGAATGGAATGGAATGGTATCATTGAATGGAATCGAATGGAATCATTGAATGGCA<br />
+&gt;TFLinkSS09749125;P08069;IGF1R;hg38;chr9:42900325-42900399<br />
+ACCAGAAAAGGATAGGGCTGAAGAACAGAGGTCGCTGCATTTAGAAAGGAGGCGGGGTCAGAGGAATAGAAAGG<br />
+&gt;TFLinkSS09749126;P08069;IGF1R;hg38;chr3:136490903-136491022<br />
+TCTTTTACCATTACTGAAATAACAATCTTTCTGGTTGCTTTTATAACTGTCTTCATCTTTGATGTTTTTCATTTTCACTA<br />
+CGGTATGTCTAGATGTAGAATATATTCCCTAACCTACTC<br />
+&gt;TFLinkSS09749128;P08069;IGF1R;hg38;chr3:72867789-72867903<br />
+CCAGGGCTGGTATTGACCTCTTTGCCAAGTGGTCCTCCTGAAGGCAAACTGTGCCTCTGGTGTACAGCAGTTGTCTGCAA<br />
+AGGCACGGATGAAGCTTGGACATGTGGACAGGGG<br />
+&gt;TFLinkSS09749129;P08069;IGF1R;hg38;chr21:10713659-10713712<br />
+ACATTCCATTCCATTCGTGTCCATTCCATTCCAGTCCATTCCATTCGAGTCCA<br />
+&gt;TFLinkSS09749130;P08069;IGF1R;hg38;chr21:10705250-10705376<br />
+CACTCCGTTCCATTCCATTCCATTCCGTTCCATTCCGTTCCATTCCATTCCACTCCATTCCACTCCATTCCATTCCATTC<br />
+CATTCCACTCCACTTCACTCCATTCCACTCCATTCCACTCCATTCC<br />
+&gt;TFLinkSS09749131;P08069;IGF1R;hg38;chr21:10670686-10670775<br />
+CATTCCACTTGAGTCTGTTCCATTCCATTCCATTCCATTCCATTCCATTCCATTCCGTTTCATTCCATTTCATTCCATTC<br />
+CATTCGAGT<br />
+&gt;TFLinkSS09749132;P08069;IGF1R;hg38;chrX:62466149-62466201<br />
+TTATCCAACGAAATCCTCAGAGAGCTCCAAATATCCACCTGCAGATTCTACC<br />
+&gt;TFLinkSS09749133;P08069;IGF1R;hg38;chrX:62475213-62475351<br />
+GGGAAGTTGATCCCGTTTCCAACGAAATCCTCAGAGAGGACCAAATATCCCCTTGCAGATTCTACAAAACGTGTGTTTGG<br />
+AAACTGCTCCATCATAACGAATGTTCAGCTCCCTGAGTTAAACTCCATCGTCACAAAG<br />
+&gt;TFLinkSS09749134;P08069;IGF1R;hg38;chrX:62498314-62498417<br />
+AGAAGTTTCTGAGAGTGCTTCCGTTTAGCTTTTAGGTGAAGATTATCCCGTTTCCAACGAAACCTTCAAAGAGGTCCAAA<br />
+TATCCCCTTGCGGATCCCACAGA<br />
+&gt;TFLinkSS09749135;P08069;IGF1R;hg38;chrX:62501705-62501755<br />
+CAAAAGGATTGTTCAACTCTGTGAGTTGAATGCAGTCATCACAGCAAACT<br />
+&gt;TFLinkSS09749136;P08069;IGF1R;hg38;chrX:62513721-62513842<br />
+GCTTGTGTCTAGTTTTTATGTGAAGATACCCGTTTCCAACGAATTCCTAAAGAGTTCCAAATATCCACAAGCAGATTCTA<br />
+CAAAAGGAGTGTTTCAATACTGCTCTATCAACAGACAGATT<br />
+&gt;TFLinkSS09749137;P08069;IGF1R;hg38;chrX:62514537-62514593<br />
+GGAGTTGAATGCACAGATCACAAAGCAGTTTCTGAGAATGCTTCTGTCTAGTTTGT<br />
+&gt;TFLinkSS09749138;P08069;IGF1R;hg38;chrX:62538875-62538931<br />
+GAAAATTTCTTTTGATAGAGCAGTTTTGAAAAACACTTTTTGTAGAATCTGCAAGT<br />
+&gt;TFLinkSS09749139;P08069;IGF1R;hg38;chrX:62540798-62540852<br />
+TGCAATGGATATTTTGACCTCTTAGAGGCCTTCGTTGGAAACGGGCTATCTTCA<br />
+&gt;TFLinkSS09749140;P08069;IGF1R;hg38;chrX:62552896-62552985<br />
+TGATGTGTGCATTCATCTCACAGATTTGAAGCTTTCTTTTGATCGAGCAGTTTTGAAACACTCTTTTTGTGGAATCTGAA<br />
+AGTGGATAT<br />
+&gt;TFLinkSS09749141;P08069;IGF1R;hg38;chrX:62593608-62593658<br />
+TTCACATAAAAACTAGACAGAAGCCGTCTCAGAAACTTCTTTGTAATGTG<br />
+&gt;TFLinkSS09749142;P08069;IGF1R;hg38;chrX:62595676-62595734<br />
+GCATTCAACTCACAGTGTTGAACCTTCCTTTTGACAGAGCAGTTTTGAAACACTCTTT<br />
+&gt;TFLinkSS09749143;P08069;IGF1R;hg38;chrX:62604557-62604659<br />
+GCATTCAACTCACGGAGTAGAACCTTTCTTTTGATAGAGCAGTTTTGAAACTCTCTATTTGTAAAATCTGCAAGTGGATA<br />
+TTTGGAGCGTTTGAGGCTTTCG<br />
+&gt;TFLinkSS09749144;P08069;IGF1R;hg38;chrX:62607973-62608024<br />
+TCAAGTCACAGTGTTGAACCTTTGTTTTGATAGAGCAGTTTTGAAACACGC<br />
+&gt;TFLinkSS09749145;P08069;IGF1R;hg38;chrX:62609902-62609988<br />
+TTTTGTAGAATCTGGAAGTGGACATTTGGAGCGCTTTGATGCCTGTGGTTGAAAAGGAGATATCTTCATATAAAAACTAT<br />
+ACAGAA<br />
+&gt;TFLinkSS09749146;P08069;IGF1R;hg38;chrX:62619742-62619879<br />
+ACTCACAGAGTTGAACCTTTCTGTTGATAGAGCAGTTTTGAAACACTCTTTTGTAAAATCTGCAAGTGGATATTTGGAGC<br />
+GCTTTGAGGCCTGTGGTGGAAAAGGAAAATCTTCAAATAAAAACTAGATAAAAGCAT<br />
+&gt;TFLinkSS09749147;P08069;IGF1R;hg38;chrX:62622438-62622504<br />
+GCATTCTCAGAAGCTTCTTTGTGATGTGTGTATTCAACTAACAGAGATGAACCTTTCTTTAGAGAG<br />
+&gt;TFLinkSS09749148;P08069;IGF1R;hg38;chrX:62622569-62622688<br />
+GGTTTAAAGGGAAATATCTTCCCATAAAAACTAGACAGAAGCATTCTCCGAAACTTGACTATTATGTGTACATTCAACTC<br />
+ACAGAGTTGAACTTTTCTTTTGATAGAGCGGTTTTGAAA<br />
+&gt;TFLinkSS09749149;P08069;IGF1R;hg38;chrX:62630035-62630090<br />
+GAAACAGAAGCATTCTCAGAAACTGCTCTGTGATGTGTGCATTCAACTCGGAGAG<br />
+&gt;TFLinkSS09749150;P08069;IGF1R;hg38;chrX:62652294-62652349<br />
+CTAGACAGAAGCATTCTGAGAAACTTGTTTGTGATGTGTGTATTCATCTCACTGT<br />
+&gt;TFLinkSS09749151;P08069;IGF1R;hg38;chrX:62661990-62662068<br />
+GGAGTGCTTTGAGGCCTACGTTGGAAAAGGAAATATCTTCCCATAAAAACTAGATAGAAGCATTCTGAGAAACTTCTT<br />
+&gt;TFLinkSS09749152;P08069;IGF1R;hg38;chr11:48823972-48824027<br />
+CTTTGAGGCCTATGTTGGAAAAGGAAATATCTTCACATAACAACTAGAGAGAAGC<br />
+&gt;TFLinkSS09749153;P08069;IGF1R;hg38;chr11:48837800-48837853<br />
+CAAGACACAGAGTAGAACCTTCCTTTTGACAGAGCAGTTTTGAAACACTCTTT<br />
+&gt;TFLinkSS09749154;P08069;IGF1R;hg38;chr11:48837995-48838051<br />
+TTGGTAGAGCAGTTTTGAAACACTCTTTCTGTGGAATCTGCAAGTGGATATTTGGT<br />
+&gt;TFLinkSS09749155;P08069;IGF1R;hg38;chr11:48839305-48839359<br />
+TCTCTGTGATGTGTGTATTCAACTCACAGAGTTGAACTTTCCTTTTGATAGAGC<br />
+&gt;TFLinkSS09749156;P08069;IGF1R;hg38;chrY:26643295-26643370<br />
+ATGTGGTGAAGTGGAGTGGAGAGGAGTGGAATGGAGTAGAATGGAGTGGAATGGAGTGGAATGGAGTGGAGTGGA<br />
+&gt;TFLinkSS09749157;P08069;IGF1R;hg38;chr6:119237394-119237536<br />
+TGGACCACACGGAACTCCCTCTCCTACATTTTTTTCAGCCCCACTGCGAGTTTGCGTCCGTGGTACTTTTAAGAGGGAGT<br />
+CACTGCTGCCGTCAGTCAGTAATACTTCCTCCTTTTTTGCTTTTTGGTTTTGTCTTGCGTTT<br />
+&gt;TFLinkSS09749158;P08069;IGF1R;hg38;chrY:10200204-10200279<br />
+AGCTGTGAGAATTAATGTGAATTGCAGGACACATTGATCATCGACACTTCGAACGCACTTGCGGCCCGGGTTCCT<br />
+&gt;TFLinkSS09749159;P08069;IGF1R;hg38;chr2:132229472-132229529<br />
+CTTTCTCAGAAACTTCTTTGTGATGTTTGCATTCAACTCATAGAGTTGAACATACCT<br />
+&gt;TFLinkSS09749160;P08069;IGF1R;hg38;chr2:132238728-132238835<br />
+TAAAAATCTGCAAGTGGATATGTGGATAGCTTTGAAGATTTCATTGGAAACGGGAATATTTTCATATAAAAACTAGACAG<br />
+AAGCATTCTCAGAAATTTCTTTGTGAT<br />
+&gt;TFLinkSS09749161;P08069;IGF1R;hg38;chr2:132239034-132239095<br />
+GATTTTCATAGAGCAGTTTTGAAACACTCCTTTTGTAGTATCTGGAAGTGGACATTTGGAG<br />
+&gt;TFLinkSS09749162;P08069;IGF1R;hg38;chr2:132245728-132245784<br />
+AGAATCTGCAAGTGGATATTTGGATAGCTTTGAAGATTTCGTTGGAAAGGGGAATA<br />
+&gt;TFLinkSS09749163;P08069;IGF1R;hg38;chr2:132254973-132255041<br />
+GCTCCACTCCTGGTGGTGCCCTTCTGTCAATTCCTTTAAGTTTCAGCTTTGCAACCATACTCCCCTCG<br />
+&gt;TFLinkSS09749165;P08069;IGF1R;hg38;chrY:10627300-10627356<br />
+TCCATTCCATTCCATTCCATTCCATTCCATTCCATTCCGTAACATTCCACTCCACT<br />
+&gt;TFLinkSS09749166;P08069;IGF1R;hg38;chrY:11039306-11039431<br />
+ATTCCACTCCATTGCATTCCATTCCATTCCATTCCACTGCACTCCACTCCACACCACTCAATTCCACTCCACTCTACTCC<br />
+AGTCCATTTCTTTCCATTACATTCCAATCCCTTCTATTCCACTCA<br />
+&gt;TFLinkSS09749167;P08069;IGF1R;hg38;chrY:11297917-11298050<br />
+ATTCAATTCCATTCTATTCCTTTTAATTCCATTCCATTCCATTCCATTCCATTCCATTCCATTCCATTCCATTCCATTCC<br />
+ATTCCATTCTATTCCATTCCATTCCATTCCATTCCTTTCCACTCTGGTTTATT<br />
+&gt;TFLinkSS09749168;P08069;IGF1R;hg38;chrY:11302685-11302821<br />
+ATTCCATTCCATTCCATTCCATTCCATTCCTTTCCATTCCATTCCATTCCATTCCCTTCCATTCCATTCCACTCGGAATG<br />
+ATTCCATTCCATTCCATTCCATTCCATTCCATTCCATTACATTACATTTCATTCCG<br />
+&gt;TFLinkSS09749170;P08069;IGF1R;hg38;chrY:11305475-11305624<br />
+TTACATGACCTAGGTGATCAGTGCAGAGATACATCGCAATGCCCCTGTAGGCAGGGCCTTGACAAGTGGTATATCACCTG<br />
+GGTGATCATTGCAGGGATATGTCACAAAGCACCCAGTAGGCAGATCCTAGAGAAGAGTTATATCACCTG<br />
+&gt;TFLinkSS09749171;P08069;IGF1R;hg38;chrY:11310333-11310426<br />
+AACAAGTGTTACATCTCCTGGGTGATCAGTGCAGAAATATGTCACAAAGCCCCTGTAGGCCGAGCCTAGACAAAAGTTAC<br />
+ATCTCCTGGGTGA<br />
+&gt;TFLinkSS09749172;P08069;IGF1R;hg38;chrY:11312362-11312466<br />
+AAGCTCCTGTAGGCAGAACTTGGATGAGTTATATCACCTGGGTTATCAGTGCAAAGGTATGTCACAAAGCCCCCTGTAGG<br />
+CAAAGCCTAGACAATAGTTACAAC<br />
+&gt;TFLinkSS09749173;P08069;IGF1R;hg38;chrY:11320878-11320940<br />
+ACACTGCAGACTCCCCATGTTGCCGCACACGGGAATCCATCGTCAGGCCATCACTCCGGGGA<br />
+&gt;TFLinkSS09749174;P08069;IGF1R;hg38;chrY:11323637-11323741<br />
+TACCAGTGCAGAGATATATCACAATGTCCCCTGTACAAAAAGCCTGGAAATGATTTACATCACCTAGGTGATCAGTGCAT<br />
+AGGTATGTCAGAAATCCCCAGTAG<br />
+&gt;TFLinkSS09749175;P08069;IGF1R;hg38;chrY:11323872-11324001<br />
+TCTAGGCAGAGTGTAGACAAGTGTTTCCTCCTTGGGGTGATCAGTGCAGAGATATGTCACAAAGCCCCTGTAAGCAGAAC<br />
+CTTGACAAGGGTTACATCACCTGTTTGATCAGTGGAAATGTATATCACA<br />
+&gt;TFLinkSS09749176;P08069;IGF1R;hg38;chrY:11325777-11325905<br />
+CCCACTGTAAGCAAAGCCTAGACAAGTTTTACATCACCTCAGCGATCAGTGCAGTGATAGCTCCCAATGTCCCTCTAGGC<br />
+AGAGCTTAGACAAGAGTCACATCTCCTGGGTGATCAGTGTAGAGATAA<br />
+&gt;TFLinkSS09749177;P08069;IGF1R;hg38;chrY:11326224-11326282<br />
+ACCTTTTTCATCAGTTCAGGGATATGTGAAAACGCCCCTGTAGGCAGATCCTAGACAA<br />
+&gt;TFLinkSS09749178;P08069;IGF1R;hg38;chrY:11329658-11329801<br />
+TATGTCACAAGCCCCTGTAGGCAGAGCCTAGACAAGAGTTATAACACCTGGGTGATCAGTGCAGTGATATGTCACAATGC<br />
+CGTATAGCCAGAGCCTAGACTAAAGTTACAGCACCTGGGAGATAAGTGCAGAGATATGTCACA<br />
+&gt;TFLinkSS09749179;P08069;IGF1R;hg38;chrY:11329877-11329978<br />
+GTGGGCACAGCCTAGACAAGAGTTACATCACCTCGTTTAACAGTGCAGAGATATGTCAAAATGCCCCTGTAGGCAGAGCC<br />
+TACACAAGTGTTACATCACTT<br />
+&gt;TFLinkSS09749180;P08069;IGF1R;hg38;chrY:11494905-11494960<br />
+TGGAATGGAATGGAGAGGAAACGAGTGGAATGGAATGGAATGGAATGGAATGGAA<br />
+&gt;TFLinkSS09749181;P08069;IGF1R;hg38;chrY:11495022-11495071<br />
+GATTGGAATCAAGCGGAATGGAATGGAATGGAATGGAATGCAATGGAAT<br />
+&gt;TFLinkSS09749182;P08069;IGF1R;hg38;chrY:11495319-11495373<br />
+ATGGAAAGGACTCGAATGGAATGGACTGGAATGGAATGGATTCAAAGGGAATGT<br />
+&gt;TFLinkSS09749183;P08069;IGF1R;hg38;chrY:11503551-11503696<br />
+AATGCAATGGAATGGAACGAAGTGGAATCGAATGGAATGGAATCGAATGGAATGTAATAGAATGGAATGGACTGGAAATT<br />
+AATGATGTGGAATGGAATGGACTGGAGAGGAATGGACTCGAATTGAATGGAAACGAATGGAATGA<br />
+&gt;TFLinkSS09749184;P08069;IGF1R;hg38;chrY:11522083-11522143<br />
+AATGGACACGAATGGAATGGACACGAATGGAATGGAATCGAATGGAATGGAATTGAATGG<br />
+&gt;TFLinkSS09749185;P08069;IGF1R;hg38;chrY:11525268-11525331<br />
+CGAATGGAATGGAATGGAATCGAATGGAATGGACTGGAATGGAATGGATTCGAATGGAATGAA<br />
+&gt;TFLinkSS09749186;P08069;IGF1R;hg38;chrY:11539218-11539318<br />
+TGGAGTGGAACGGAATGGAACGGAACCGAATGGAGTGGAATGGACTCAAATGTAATGGACTCGAATGGAATCGACTGAAA<br />
+TATAATAGTCTCGAAAGGAA<br />
+&gt;TFLinkSS09749187;P08069;IGF1R;hg38;chrY:11548638-11548697<br />
+AATGGAATGGAATGGAATGAAATGGAATGGAATGGAATGAAATGGAATGGAATGGAATG<br />
+&gt;TFLinkSS09749188;P08069;IGF1R;hg38;chrY:11682377-11682441<br />
+AATGGTATCGAATGGAATGGAATGGAATGGAATGGAATTGACCCAAATGTAATGGACTCGAAAG<br />
+&gt;TFLinkSS09749190;P08069;IGF1R;hg38;chrY:11685463-11685529<br />
+AATGAAAGGAAAAGAATGTAATGAAATCGGATGGAATGGAATGGAATGGAATGTAGTCGAATGGAA<br />
+&gt;TFLinkSS09749191;P08069;IGF1R;hg38;chrY:11689489-11689595<br />
+CTCGAATGGATTGGACTCGAATGGAATAGATTAGAATTGAATGACATCAAATGGAATGGAATGGAACCAAATGTAATGGA<br />
+CTCGAATGGAATGGATTCAAATTGAA<br />
+&gt;TFLinkSS09749192;P08069;IGF1R;hg38;chrY:11692736-11692809<br />
+AATGGAATCGAATGGAATGGAATCGAATGGAATGGATTCGAATGGAATGGAATGGAACAAAATGGAATCATAC<br />
+&gt;TFLinkSS09749193;P08069;IGF1R;hg38;chrY:11721986-11722048<br />
+GAATGGAATGGAATCAACCCGAGTGGAATGGAATGGAGTGGAATGGAATGGAATGGAATGGA<br />
+&gt;TFLinkSS09749194;P08069;IGF1R;hg38;chrY:11730945-11730996<br />
+GAAAGGAATGGAATCAAATAGAATGGACTCAAAAGCAATGGTCACAAATGG<br />
+&gt;TFLinkSS09749195;P08069;IGF1R;hg38;chrY:11734849-11734905<br />
+GAATGGAATGGAATGGAATGGAATGCAATGGAATGGAATCTAAAGGAAAGAACCGC<br />
+&gt;TFLinkSS09749196;P08069;IGF1R;hg38;chrY:11736699-11736781<br />
+GATTTGACTCGAATGGAAAGGAAATGAATGGAATGGAATGGAAGGGAATGGAATGGAATAGAATGGAATGGAATCGGATG<br />
+GA<br />
+&gt;TFLinkSS09749197;P08069;IGF1R;hg38;chrY:11741882-11741939<br />
+GGAACCAAATGTAATGGAATCAAATGGAATGGACTCAAATAGAATTGACTCGAAAGG<br />
+&gt;TFLinkSS09749198;P08069;IGF1R;hg38;chrY:11742388-11742517<br />
+AATTGAATGGAATCGAAAAGAATAGAATGGAATGGAACGTTATGGAAAGATATTGAATGGAATGGCATGGACGCGAATGG<br />
+AATGGACTGGAATGGAGTGAACTCGAATGGAATGGACTGGAATGGATTA<br />
+&gt;TFLinkSS09749199;P08069;IGF1R;hg38;chrY:11748730-11748787<br />
+ATGGAATGGAATGGAATTGACTCGAATGGAATGGACTGGAATGGAATGGACTATAAT<br />
+&gt;TFLinkSS09749200;P08069;IGF1R;hg38;chrY:11749083-11749148<br />
+CAATAAATGCAAAGGAGTGGAATCAAGTGGAATGGAATGGAATGGAATGGAATGGAATGGAATGG<br />
+&gt;TFLinkSS09749201;P08069;IGF1R;hg38;chrX:58531885-58531991<br />
+CTTTTGATACAGCAGTTTTGAAACACTCTTTCTGTAGAATCTGCAAGTGGACATTGGGAGCGCTTTGAGGTCTATGGTGA<br />
+GAAAGGAAATATCTTCACAACGAAAC<br />
+&gt;TFLinkSS09749202;P08069;IGF1R;hg38;chrX:58534061-58534111<br />
+GTGAATGCAAACATCCCAAAGAAGTTTCTGAGAATGCTTCTGTTTAGCTT<br />
+&gt;TFLinkSS09749203;P08069;IGF1R;hg38;chrX:58534742-58534868<br />
+AGTTGAATACAAACATCACGAACAAGTTTCTGAGAATGTTTCTTAGTTATGTGAAGTATATCCCGTTTCCAAAGAAATCC<br />
+TCAGAGAGGTCCAAATATCCACTTGTAGATTCTACCAAAAGTGTGT<br />
+&gt;TFLinkSS09749204;P08069;IGF1R;hg38;chrX:58534935-58535021<br />
+TCTGACCATGCTTCCGTTTGGTTTTTATATGAAGTTATTTCCTTTACTACCGTAGGCCTCAAAGCAGTCCAAATCTCCAT<br />
+TTGCAG<br />
+&gt;TFLinkSS09749205;P08069;IGF1R;hg38;chr20:31227787-31227837<br />
+AATAGACTCGATTGGAATGGAATGGAATGGAATGGAATGGAATGTACTAT<br />
+&gt;TFLinkSS09749206;P08069;IGF1R;hg38;chr20:31242189-31242247<br />
+GAATGGAATGGAATGAAATAGAATGGAATGGAATCAAAAGGAATAAAAGGGCATGCAA<br />
+&gt;TFLinkSS09749207;P08069;IGF1R;hg38;chr20:31245000-31245095<br />
+AATCAAATGGAACAAATTCGAATGGAATGGAATTGAATGGAATGGACTGGAATGCAATGGACTCGAATGGAATGGACTGG<br />
+AATGGAATGGTCTCG<br />
+&gt;TFLinkSS09749208;P08069;IGF1R;hg38;chr22:16370101-16370209<br />
+TAATCATCATCAAATGGAAACAAATGGAATCATTGAATGGACTCGAATGGAATCATTGAATGGACTCGAATGGAATCATG<br />
+GAATGGACTCAAATGGAATCATCATCGA<br />
+&gt;TFLinkSS09749209;P08069;IGF1R;hg38;chr3:185586405-185586525<br />
+GGCCTGGTATGTACAGATGGCTGGTTAGGATTCTCGGCACCATTTTCCGTTTCTGCGACCGGTCGGTGCCCCCTGCCCGG<br />
+GCCCTCCTGAAGAGGCGGCGCTCAGACAGGTGAGACGAGA<br />
+&gt;TFLinkSS09749210;P08069;IGF1R;hg38;chr3:185590107-185590172<br />
+TTTCAGCACTCTGTTTTCTACAGTGGACACTGATGAAATACCAGCCAAAAGACCAAGATTAGGTA<br />
+&gt;TFLinkSS09749212;P08069;IGF1R;hg38;chr3:185598941-185599035<br />
+TCTGTTTGATTTTAAGGTATTTTCGAACTCTTCATCTTGTGAACTGACAGGTTCTGGATCCTGGAACAACATGCTGAAAC<br />
+TGGGTGAGGTGGTC<br />
+&gt;TFLinkSS09749216;P08069;IGF1R;hg38;chr3:185611641-185611756<br />
+GTTTCTAAGTTCTCAAAGAAGTCAGATGGACACATTAAAGACCAAAGGCTGGGGGGAAGAGCAAAATCACGGAGTCAAAA<br />
+CAACTCAGTTTGTTCCAAAACAATGTGAGTTCCCA<br />
+&gt;TFLinkSS09749217;P08069;IGF1R;hg38;chr3:185613336-185613417<br />
+TTCCTTAGGTGTTCAAAGGGGAAAATTACTGATACAGAGACGATGGTCGGAATCAGATTTGAAAATGAAAGTGTAAGTAA<br />
+A<br />
+&gt;TFLinkSS09749219;P08069;IGF1R;hg38;chr3:185617470-185617612<br />
+CTAATTCAGGACATGGAAAAGGAAATCAGTAATGCCCTAGGCCATGGCCCACAGGATGAAATCCTAAGTAGTGCTTTCAA<br />
+ATTGCGAATTACTCGAGGAGATATTCAGACATTAAAGAACTATCACTGGCTCAATGATGAAG<br />
+&gt;TFLinkSS09749221;P08069;IGF1R;hg38;chr3:185621821-185621937<br />
+ATAGGTGATTGACCTAAGAAAAAAGTGTCTTAAATATCTGGATTCTATGGGACAAAAGGGCCACAGGATCTGTGAGATTC<br />
+TCCTGTAAGTAAAGGTTGAAAACCTCACTACCCCCT<br />
+&gt;TFLinkSS09749222;P08069;IGF1R;hg38;chr3:185623999-185624092<br />
+AGTATTTACAGGATGAAAGTAAGACCAAAAGAAATAGTGATCTGAATCTTTTAGAGTGGACCCATCACAGCATGAAACCA<br />
+CACGTGAGTGACG<br />
+&gt;TFLinkSS09749223;P08069;IGF1R;hg38;chr3:185626289-185626394<br />
+AATTTTAGGAGATTCCTCAACAGCTGAATGGGAGTGATTGTGGAATGTTTACTTGTAAATATGCAGATTATATTTCTAGG<br />
+GACAAACCTATCACATTTACTCAGG<br />
+&gt;TFLinkSS09749224;P08069;IGF1R;hg38;chr3:185629773-185629847<br />
+CTTTGCAGCACCAGATGCCTCTCTTCCGGAAGAAGATGGTGTGGGAAATCCTTCATCAGCAGTTGCTGTGAGAA<br />
+&gt;TFLinkSS09749226;P08069;IGF1R;hg38;chr8:69690330-69690385<br />
+TTCAGAGCACTGGGCAGAAATCACATCGCGTCAACACCCGCCGCGGGCCTTTGTG<br />
+&gt;TFLinkSS09749227;P08069;IGF1R;hg38;chr16:36045130-36045198<br />
+AGTTGAACCTTTCTTTTGATACAGTTGTTTTGAAACACTCTTTTTCTAGAATCTGCAAGTGGATATTT<br />
+&gt;TFLinkSS09749228;P08069;IGF1R;hg38;chr16:36046977-36047031<br />
+TCTTTGTGATGTCTGCATTCAACTCACAGTGTTGAACCTTTCTTTTCATAGAGC<br />
+&gt;TFLinkSS09749229;P08069;IGF1R;hg38;chr2:148881718-148881858<br />
+CTAAATCATCGTGGTGATTTAGAGGGTGAACTCACTGGAATGGGGATGCTTGCATGTGTAATCTTACTAAGAGCTAATAG<br />
+AAAGGCTAGGACCAAACCTATTTGTTTATGGGGTGATGTGAGCCCGTCTAAACAGTTTCC<br />
+&gt;TFLinkSS09749230;P08069;IGF1R;hg38;chrY:56763493-56763558<br />
+ATGGAAAGGAATTGAATGGAGTAGATTGGATTGGATGGGATTGGAATGAAATGTACTGGAAAGGA<br />
+&gt;TFLinkSS09749231;P08069;IGF1R;hg38;chrY:56734759-56734828<br />
+TGGACTCGAATAGAATGGACACGAATGCTCAAATTGAATGGACTCGAATGGAATGGAAACGAAAGGAAT<br />
+&gt;TFLinkSS09749232;P08069;IGF1R;hg38;chrY:56728102-56728183<br />
+GAATGTCCGCTAATGGAATGGATTCGAGTGGAATGGAATCGAATATAATGGAGTCGAATGAAATGGAATTGAAAGGAATG<br />
+G<br />
+&gt;TFLinkSS09749233;P08069;IGF1R;hg38;chrY:56826893-56826952<br />
+CTCCATTCGATTCCATTCCATTCGATTACATTCCATTCGATTCCATTCCATTGCATTCC<br />
+&gt;TFLinkSS09749234;P08069;IGF1R;hg38;chrY:56828676-56828726<br />
+TCCATTCCATTCAATTCCATTCCTTTCGATTCCATTCCATTTGAGTCCAT<br />
+&gt;TFLinkSS09749235;P08069;IGF1R;hg38;chrY:56832347-56832399<br />
+TCCTTTCCACTCCACTCCATTCCATTCCACTCCATTCCATTCCTTTGTTTTG<br />
+&gt;TFLinkSS09749236;P08069;IGF1R;hg38;chrY:56837537-56837634<br />
+GATGGGACTCTTCTCTAGGTTCTGCCTATTGGGGGCATTGTCACATATTTCTGCACTGATCACCCAGGTGACGGACTCTT<br />
+GTCTTGGATCTGCCTAT<br />
+&gt;TFLinkSS09749238;P08069;IGF1R;hg38;chrY:56843648-56843782<br />
+ATCTCTGCACTGATAACCCAAGTGATGCAACTCTTGTCTAGGATCTGCCTACAGGGGGTATTGTGAAATATCTCTGCACC<br />
+GATCAACTAGGTGATGTAACTCTTTTCTAGGCTCTGCCTACAGGGGCGTTTTGA<br />
+&gt;TFLinkSS09749239;P08069;IGF1R;hg38;chrY:56847786-56847842<br />
+GAAACTTTTGTCTAGGCTCTGGCTACACGGCATTGTGACATATCACTGCACTTATC<br />
+&gt;TFLinkSS09749240;P08069;IGF1R;hg38;chrY:56850880-56851003<br />
+CTACAGTGGCATTGTGACATATCTCTGCCCTGATCAACCAGGTGATGTAACACTTGTCTAGGATCTGCCTAAAGGGACTT<br />
+TGTGACATAACTCTGCACTGATTATCCAGGTGATGTGGCTTTT<br />
+&gt;TFLinkSS09749246;P08069;IGF1R;hg38;chr3:38552801-38552948<br />
+GCAGTGCCTGCCTTAGCCCCTGCATTATCCTTTACATTTACCAGAGGCAGAGGTTGTATATGGCAGAAAGATGAAAGTCA<br />
+CAGTCACCGCAAGGCAGAGCCCCTTGGGGGTAGAGTTAAAGAGTTTGGGCTCCGAGCACAAGTGACA<br />
+&gt;TFLinkSS09749247;P08069;IGF1R;hg38;chr8:43916225-43916349<br />
+GTCTTTCTGTAGAATCTGCAAGTGGACATTTGGAGCGCTTTGATGCCTGTGGTGAAAAAGGAAATATCTTCACATGAAAA<br />
+CTAGACAGAATCATTCTCAGAAACTACTTTGGGATGTGTGGATA<br />
+&gt;TFLinkSS09749248;P08069;IGF1R;hg38;chr8:43920575-43920626<br />
+AAACGCTAGACAGAAGCATTCTCAGAAACTTATTCGTGATGTTTGCATTCA<br />
+&gt;TFLinkSS09749249;P08069;IGF1R;hg38;chr8:43938039-43938095<br />
+ATATTTGGATAGCTTTGAGGATTTCGTTGGAAACGGGAATGTCTTCATAGAAAATT<br />
+&gt;TFLinkSS09749250;P08069;IGF1R;hg38;chr8:43939455-43939515<br />
+ATAGAAGCAATCTCAGAAACTTGTTTATGCTGTATCTACTCAACTAACTGTGCTGAACCT<br />
+&gt;TFLinkSS09749251;P08069;IGF1R;hg38;chr8:43939579-43939645<br />
+ATTTGAGGATTTCGTTGGAAACGGGATTACATATAAAAAGTAGACAGCAGTATTCTCAGAAACTTC<br />
+&gt;TFLinkSS09749252;P08069;IGF1R;hg38;chr8:43966885-43966994<br />
+TTTCGTTTCATGCAGTACCTCTGGAACACTCTTTTTGAAGATTCTGCATGTGGATATTTGGATAGCTTTGAGGATTTCGT<br />
+TGGAAGCGGGCTTACATATAAAAATTAGA<br />
+&gt;TFLinkSS09749253;P08069;IGF1R;hg38;chr8:43969244-43969336<br />
+AGCTCTCAGAGTTGAATATTCCCTTTCATAGAGTAGGTTTGAAACCCCCTTTTTGTAGTGTCTGGAAGCGGGCATTTGGA<br />
+GCGCTTTCAGGC<br />
+&gt;TFLinkSS09749254;P08069;IGF1R;hg38;chr8:43970680-43970762<br />
+ATTTGGATAGCTTTGAGGATTTCGTTGGAAACGGGCTTACGTATAAAAATTAGACAGCAGCATTCTCAGAAACTTCTTTG<br />
+TG<br />
+&gt;TFLinkSS09749255;P08069;IGF1R;hg38;chr8:43976400-43976483<br />
+TCACATAGAGCAGTTGTGCAGCACTCTATTTGTAGTATCTGGAAGTGGACATTTGGAGGGCTTTGTAGCCTATCTGGAAA<br />
+AAG<br />
+&gt;TFLinkSS09749256;P08069;IGF1R;hg38;chr8:43983529-43983594<br />
+ATTCCCATTCATAGAGCAGGTTGGAAACACTCTTTTTGGAGTATCTGGAAGTGGACATTTGGAGC<br />
+&gt;TFLinkSS09749257;P08069;IGF1R;hg38;chr3:86346627-86346748<br />
+ACTCAGAAGCCTCAGTGAGAAAATGCCACTGCTAAAAGAGAAATGACCTTTATGGATTTTGCTCTTCATACTTTGTTAAC<br />
+TGCCTTAGGAGTTAAATTTTGAAAAGAATAGCATGAATGTT<br />
+&gt;TFLinkSS09749258;P08069;IGF1R;hg38;chr9:40847737-40847787<br />
+AGCGCTTTGAGGCCTATGTTGAAAAAGGAAATATCTTCCCATAAAAACTA<br />
+&gt;TFLinkSS09749259;P08069;IGF1R;hg38;chr9:40870443-40870520<br />
+CTTTGAGGCCTATGGTGAAAAAGGAAATATCTTCCCATAACAACTAGACAGAAGAATTCTCAGAAACTTCCTTGTGA<br />
+&gt;TFLinkSS09749260;P08069;IGF1R;hg38;chr9:40880060-40880176<br />
+TTTCGTTGGAAAGGGAATATCTTCATATAAAATCTAGACAGAAGAATTCTCAGAAGCTTCTTTGTGATGTTTGCATTGAA<br />
+GTCACAGAGTTGAACATTCCCTTTCATAGAGCAGGT<br />
+&gt;TFLinkSS09749261;P08069;IGF1R;hg38;chr9:40890760-40890859<br />
+TAAGCAGTTTTGAAACTGTCTTTTTGTAGAATCTGCAAGTGCACATTTGGAGCGCTTTCAGGCCTATTTTGGAAAAGGAA<br />
+ATATCTTCGCATAAAAACT<br />
+&gt;TFLinkSS09749264;P08069;IGF1R;hg38;chr17:22524415-22524521<br />
+TCGATGTTGGATCAGGACATCCCAATGGTGCAGCCGCTATTAAAGGTTCGTTTGTTCAACGATTAGAGTCCTATGTGATC<br />
+TGAGTTCAGACCGGAGTAATCCAGGT<br />
+&gt;TFLinkSS09749265;P08069;IGF1R;hg38;chr17:22752283-22752343<br />
+GTGAGGTTTGTGGTGGAAAAGGAAATATCTCCACATAAATACTAGATAGAAGGCTTCTCA<br />
+&gt;TFLinkSS09749266;P08069;IGF1R;hg38;chr17:22752850-22752911<br />
+AGAAACTTCTCTGTGATGATTGCATTCAACTCAAAGCGTTGAACCCTCCTATGGATAGAGC<br />
+&gt;TFLinkSS09749267;P08069;IGF1R;hg38;chr17:22753450-22753519<br />
+TCTGCAAGTGGATATTTGGAGGGCTTTGAGGCCTGAGGTGGAAAAGGAATTATCTTCCCGTAAGAACTA<br />
+&gt;TFLinkSS09749268;P08069;IGF1R;hg38;chr17:22753849-22753925<br />
+ACAGAACTAAACAGAAGCATTCTCAGAACCTTCTTCGTGATGTTTGCATTCAACCCACAGTGTTGAACCTTTCTTT<br />
+&gt;TFLinkSS09749269;P08069;IGF1R;hg38;chr17:22759015-22759139<br />
+TTTGAAAGTTCAGGTTTGAAACACTCTTTTTGCAGGATCTACAAGTGGATATTCGGACCACTCTGTGGACTTCGATCGAA<br />
+ACGGGTATATCTTCACGTAACATCTAGACAGAAGCATTCTCAGA<br />
+&gt;TFLinkSS09749270;P08069;IGF1R;hg38;chr17:22760721-22760785<br />
+TTCAGAGAGCACTTTGGAAACTCTCTTTGTGTAGAATCTGCAAGTGGAGATATGGACCGCTTTG<br />
+&gt;TFLinkSS09749271;P08069;IGF1R;hg38;chr17:22761831-22761886<br />
+CGTAAATACTAGATAGAAGCCTTCTCAGAAACTACTTTGTGATGATTGCATTCAC<br />
+&gt;TFLinkSS09749272;P08069;IGF1R;hg38;chr17:22762219-22762299<br />
+TTCAAATCCCAGAGTTGAACCTTCCTTTGATAGTTCAGGTTTGAAACACTCTTTTTGTAGGATCTGCAAGTGGATATTTG<br />
+&gt;TFLinkSS09749274;P08069;IGF1R;hg38;chr8:99495862-99495950<br />
+TAAAATTGATTGATGAAAAGGCGGTTGAGGCGTCTGGTGAGTAGTGCATGGCTAGGAATAGCCCTGTGGTGATTTGGAGG<br />
+ATCAGGCA<br />
+&gt;TFLinkSS09749275;P08069;IGF1R;hg38;chr4:49635489-49635544<br />
+GAATTGAATGGAATGGAATCAACACGAGTGGAAAGGAATGGAATGGAATGGAATG<br />
+&gt;TFLinkSS09749276;P08069;IGF1R;hg38;chr4:49637749-49637839<br />
+TGGAATCAACTGGAATGGAATGGAATGGAATGGAATGCAATGGAATGGAAAGAATGGAATCAACATGAGTGGAATGGAAA<br />
+GGAATGGAAT<br />
+&gt;TFLinkSS09749277;P08069;IGF1R;hg38;chr4:49639353-49639476<br />
+GAAAGGAATACAACGGAATGGAATGGAATGGAATGCAATGGAATCAACTGGAGTGGAATGGAATGGAATGGAATGGAATG<br />
+GAATGGAATGGAAAGAATGGAATCAACATGAGTGGAATGGAAA<br />
+&gt;TFLinkSS09749279;P08069;IGF1R;hg38;chr4:49650729-49650788<br />
+ATGGAATGGAATGGAATGGAATGGAATGGAATGGATCAACCCGAGTGGAACGGAATGGA<br />
+&gt;TFLinkSS09749282;P08069;IGF1R;hg38;chr16:73127835-73127969<br />
+TGCCCTCGGAAGGATTGTAATTCTTTTTCTTGAATTAGATGTGAACATGTAACTTGTTTGGCCAATGAAATGTGAATAGA<br />
+AGTGATGCATGTCCCTGCTGGGTAGAAGCATTTAATTACTGGTGTACAACCTTC<br />
+&gt;TFLinkSS09749284;P08069;IGF1R;hg38;chr10:41879425-41879477<br />
+TGGAATGGAATGCAATGGAATGGAATCAACCCGAATGGAATGGAATGGAATG<br />
+&gt;TFLinkSS09749285;P08069;IGF1R;hg38;chr10:41876787-41876870<br />
+TGGAATGGAATGGAATGGAATGGAATGCAATGGAATCAACTCGAGTGGAATGGATTGGAATGGAGTGGAATGGAATGGAA<br />
+CCG<br />
+&gt;TFLinkSS09749286;P08069;IGF1R;hg38;chr10:41875407-41875547<br />
+ATGGAATGGAATGGAATGGAATGGAATGGAATCAAACCGAATAGAATGGAATGGAATGGAATGGAAATGAATGGAAAGGA<br />
+ATGGAAAGGAATGGAATGGAATGGAATCAACCCGAATGGACTGGAATGGAATGGAACGGA<br />
+&gt;TFLinkSS09749288;P08069;IGF1R;hg38;chr10:41860919-41860982<br />
+GGAATGGAATGGAATGGAATCAACCCGAGTGGAATGCAAGGGAATGGAATGGAATGGAATGGA<br />
+&gt;TFLinkSS09749290;P08069;IGF1R;hg38;chr10:41859913-41860047<br />
+TGGAATGGAATGGAATCAACCCGAGTGCAATGGAATGGAATGGAATGGAATGGAATGGAATGGAATAGAATGGAATCAAT<br />
+TCGAGTGCAATGTAATTGTATAGAATGGAATGGAATGGAATCAACCAGAGTGGA<br />
+&gt;TFLinkSS09749293;P08069;IGF1R;hg38;chr10:41854617-41854683<br />
+GATGACAATTCCATTCAATACCAATTGATGATGGTTATTTTTGATTCCATTTGATGATGATTACAT<br />
+&gt;TFLinkSS09749297;P08069;IGF1R;hg38;chr10:41845681-41845819<br />
+TGATTCCATTCGATTCTATTCGATGATGATTGCATTCGGGTCCATGGATTATTCCATTCCATTCCATTAGATGATTCCAT<br />
+TCGTGGCCATTTGATGATTCTCTTCGATTCCATTCGATAATTCCGTTTGACTCCGTTT<br />
+&gt;TFLinkSS09749298;P08069;IGF1R;hg38;chr10:41844516-41844642<br />
+TCCATTCGATTCCATTTGATGATGATTTCAATCAATTTCATTTGATGATTCCATTCGAATCCATTTGATGATGAGTCCAT<br />
+CCATTTCAATTTCATAATTCCATTCGTTTCAATTCGATGGTGTTTC<br />
+&gt;TFLinkSS09749300;P08069;IGF1R;hg38;chr10:41842289-41842348<br />
+TAAACACAACACAAAGAAGTTACTGAGAAATCTTCTGTCTAGCATTATATGAAAAAATC<br />
+&gt;TFLinkSS09749303;P08069;IGF1R;hg38;chr10:41840224-41840335<br />
+AAGGAATGTTGAACTCTGTGAGTTGAATGCAAACATCACAACTTAGTTTCTGAGAACGCTTCTGTCTAGTATTTATGTAA<br />
+GATATTTCCTTTTCTACCATAGGCCTCAAAG<br />
+&gt;TFLinkSS09749304;P08069;IGF1R;hg38;chr10:41838266-41838392<br />
+TTACATGAAGATATTTCATTGTCTCCCGTAGGCTTCAAAGCACTTTAAGTATGCACTTGGAAGTACTACAAAAAGAGTGT<br />
+TTGAAAACTGCTCTTTCAAAAGTAAGGTTCAACTCTGTGACTTGAA<br />
+&gt;TFLinkSS09749305;P08069;IGF1R;hg38;chr10:41837007-41837107<br />
+AAATAAAGGTTAAACTATGTGAGTTGAATGCACACATCACAAAATAGATTCTGAGAATGATTCTTTGTAGTTTTTACATG<br />
+AAGATATTCCTTTCCTCATA<br />
+&gt;TFLinkSS09749306;P08069;IGF1R;hg38;chr10:41835192-41835302<br />
+TTTCTCAGAATTCTTCTGTCTAGTTTTATATGAAGAAACCCCGTTTCCAATGAAGGCCTCAAAGAAGTCCAAATATCCAC<br />
+TTGCAGACTTTACACACACAGTGTTTCAAA<br />
+&gt;TFLinkSS09749307;P08069;IGF1R;hg38;chr10:41832529-41832648<br />
+AACGAAGTCCTCAAAGAGGTCCATATATCCACTTGCAGACTTTACAAACAGGGTTTCAAAGCGGCTATATCAAAAGAAAG<br />
+GTTAAACTCCGTGAGTTGAACACACACAGCACAAATTAG<br />
+&gt;TFLinkSS09749308;P08069;IGF1R;hg38;chr10:41831824-41831936<br />
+CTAGCTGTATAGGAACAAATCCCGTTTCCAAAGAAGGCCTCAAAGAGGTCCAAATATCCACTTGCAGATTCTGCAAAAAG<br />
+AGTGTTTCAAAACCGCTCTATCAAAAGGAATG<br />
+&gt;TFLinkSS09749310;P08069;IGF1R;hg38;chr10:41710545-41710667<br />
+TTGAAACTTCCTTTACACAGAGCAGATTTGAAACACTCTTTTTGTGGAATTTGCAAGTGCAGATTTCAAGCGCTTCTAGG<br />
+CCAATTGTAGAAAAGGAAGTATCTTCGTATAAAAACTAGACA<br />
+&gt;TFLinkSS09749312;P08069;IGF1R;hg38;chr10:41709948-41710087<br />
+ATGGTAGAAAAGGAAATATCTTCGTATAAAAACTAGACAGTATCATTCTCAGAAACTACTTTGTGTTGTGTGCTTTCAAC<br />
+TCACAGAGTTTAACCTTTCTTTTCATAGAGCAGTTTGGAAACACTCTGTTTGGAATATC<br />
+&gt;TFLinkSS09749313;P08069;IGF1R;hg38;chr10:41709105-41709167<br />
+GGAAAAGGGATTTCTTCATATACTGCTAGACAGAAGAATTCTCAGTAACTTCTTTCAGTTGT<br />
+&gt;TFLinkSS09749314;P08069;IGF1R;hg38;chr10:41708233-41708366<br />
+ATTTGAAGCGATTTGAGGCCAATCATTGAAATGGAAATATCTTCGTGTAAAAATTAGACAGAATCATTCTCTGCAACTAC<br />
+TTTGTGATGTGTGCGTTCAACTCACAGAGTTTAACTTTTCTTTTCCTAGAACA<br />
+&gt;TFLinkSS09749315;P08069;IGF1R;hg38;chr10:41705432-41705497<br />
+TTGTGTGCATTCAACTCACAGAGTTGAACCTTCCTTTATTCAGAGCAGTTTTGAAACACTCTTTT<br />
+&gt;TFLinkSS09749316;P08069;IGF1R;hg38;chr10:41704684-41704738<br />
+AGGCCTTCGTTGGAAACGGGATTTCTTCATATAATGTTAGATAGAAGAATTCTC<br />
+&gt;TFLinkSS09749317;P08069;IGF1R;hg38;chr10:41700373-41700498<br />
+TTTAGAGAGAGCACATTTGAAACACTCTTTCTGTGTAATTTGCTAGTGCAGATTTCAAGCTCTTCGAGGACAATGGTAGA<br />
+AAAGGATATATCTTCGTATGAAAACTAGACAAAATCATTCTCAGA<br />
+&gt;TFLinkSS09749318;P08069;IGF1R;hg38;chr10:41697995-41698050<br />
+TTATTCAGAGCAGTTTTGAAACACTCTTTTTGTGGCATTTGCAAGTGGAGATTTC<br />
+&gt;TFLinkSS09749319;P08069;IGF1R;hg38;chr10:41695523-41695611<br />
+TGGAAACGGGATTTCTTCATATACTGCTAGACCGAAGAATTCTCAGTAACTTCTTTGGGTTGTGTGTATTCAATTCACAG<br />
+AGTTGAAC<br />
+&gt;TFLinkSS09749324;P08069;IGF1R;hg38;chr10:42304205-42304333<br />
+GGGTCCATTTGATTCCATTCCATTCAAGTACATTCCATTTCATTCCATTCTTTTCCATTCCATTCCATTCCATTCATTTC<br />
+AATTCCATTGTATTCCTTTCCATTCCATTCCATTCCATTCCATTCCAC<br />
+&gt;TFLinkSS09749325;P08069;IGF1R;hg38;chr10:42304529-42304587<br />
+CCACTTCATTCCATTTGAATCCATTCCATTGCATTCCATTCCATTCGAGTCCATTCCA<br />
+&gt;TFLinkSS09749326;P08069;IGF1R;hg38;chr10:42318096-42318222<br />
+GCATTTCATTCCATTCCAGTTCTTTCCATTCCATTCTATTCCATTTGTGTCCATTCTATTCCATTCCACTCGAGTCCATT<br />
+CCATTCCAAAACATTTCATTCGAGTACATTCCATTCCATTCCGTTC<br />
+&gt;TFLinkSS09749327;P08069;IGF1R;hg38;chr10:42321747-42321842<br />
+TCTTCGTGTAAAAACCAGACAGAATCATTCTCAGAAACTGCTTTGTGCTGTGTGTGTTCAACTCACAGAGTTTAACCTTT<br />
+CTTTTGATATAGCCA<br />
+&gt;TFLinkSS09749328;P08069;IGF1R;hg38;chr10:42322255-42322325<br />
+ATCTTCATATAAAAACTAGACGGATTCATTCTCAGAAACTACTTTGTGATGTGGACGTTCAACTCACAGA<br />
+&gt;TFLinkSS09749329;P08069;IGF1R;hg38;chr16:34069232-34069287<br />
+TGGAGTCATCATCGAATGGAATCGAATGGAATCAACATCAAATGGTCTCGAATGT<br />
+&gt;TFLinkSS09749331;P08069;IGF1R;hg38;chr16:34074279-34074343<br />
+AATCATTGAATAGAATCGAATGGAATTATCATCGAATGGAATCAAATGGAATCATCATCGATTG<br />
+&gt;TFLinkSS09749332;P08069;IGF1R;hg38;chr16:34077178-34077248<br />
+GGAAGCATCATCGAATGGAATCGAATTGTATCATTGAATGGAATCGAATGGAATCATCATTGAATGGAAT<br />
+&gt;TFLinkSS09749333;P08069;IGF1R;hg38;chr16:34078863-34078933<br />
+TTCGAATGGAATCATCATCCAATGGAATCGAATGGTATCATTGAATGGAATCAAATGGTATTGTCATCGA<br />
+&gt;TFLinkSS09749334;P08069;IGF1R;hg38;chr16:34083390-34083443<br />
+ATCGAATGGAATCGAATGGGGTCATTGAATGGAATCGAATGGAATCATCGAAT<br />
+&gt;TFLinkSS09749335;P08069;IGF1R;hg38;chr16:34089831-34089887<br />
+TTCGATGATGATTCCATTCGAGTCCATTCGATGATAATTCCATTCGAGTCCATTTG<br />
+&gt;TFLinkSS09749336;P08069;IGF1R;hg38;chr16:34091891-34091949<br />
+TCTATTCTCTCCATTTGATGATGATACCATTCGATTCCATTCGATGATTATTCCATTC<br />
+&gt;TFLinkSS09749338;P08069;IGF1R;hg38;chr16:34093464-34093603<br />
+TCCATTTGAAGATTCCATTCGAATCTATTCGATGATGATTCCATTTGAGTCCATTCAGTGATGATTCCATTCGGGTCCAT<br />
+TCGATGATGATTCCATTCGTGTCCATTGGATGATGATTCCGTTCGGGTCCATTCGATGG<br />
+&gt;TFLinkSS09749339;P08069;IGF1R;hg38;chr16:34143947-34144087<br />
+CAGCATCACATGCTACAGGGAAATGTTTTGTGAAAGGAACAAACTTCATTGTTTTAAGAAATTGACACAGGCACCCAACC<br />
+TTCAGCAGCCCCCACACTGATCAGTCAGCAGCCATCAACATAGCGGCAAGACCCTCACTG<br />
+&gt;TFLinkSS09749340;P08069;IGF1R;hg38;chr16:34150664-34150788<br />
+TCTCGCTCTTTCACCCAGGCTGCGGTGCAGTGGCGCTCTCTCGGCTCACTGAAACCTCTGCTTCCCGGGTTCCAGTGATT<br />
+CTTCTTCGGTAGCTGGGATTACAGGCGCGCATGACGATAGCCGG<br />
+&gt;TFLinkSS09749341;P08069;IGF1R;hg38;chr16:34150883-34150949<br />
+CAAGTGCTGGGACGACAGGCCTGAGCCGCGGGGATTTCAGCCTTTAAAAGCGCGGGCCCTGACACT<br />
+&gt;TFLinkSS09749342;P08069;IGF1R;hg38;chr16:34156731-34156860<br />
+AAAATTGCCTCTGCTGGGAGCTGGGATCCTCGGGACCATGCTTGCTAGCGCTGGATGAATCTCTGGAAGGACGCACGGAA<br />
+CTCCGCAAAGCTGACCTGTCCCACCGAGGTCAAATGGATACCTCTGATT<br />
+&gt;TFLinkSS09749345;P08069;IGF1R;hg38;chr9:64951883-64951936<br />
+AAATCTAGACAGCAGCATCCTCAGAAACTTCTTTGTGATGTGTACATTCAACT<br />
+&gt;TFLinkSS09749346;P08069;IGF1R;hg38;chr9:64970393-64970447<br />
+GCAGGTTTGAAACACTCTTTTTCCAGAATCTGCAAGTGGACATTTGGAGTGCTT<br />
+&gt;TFLinkSS09749347;P08069;IGF1R;hg38;chr9:64997805-64997863<br />
+GTGCATTCAACTCACAGAGTTGAACCTTTGTTTTGATACAGCAGATTTGAAAAACTCT<br />
+&gt;TFLinkSS09749348;P08069;IGF1R;hg38;chr7:45251920-45252034<br />
+GGCTTCAGGGTTAGAGAGTGGCTGGTTTTAGACAAACCGGTGCTACCCATACTGTTAACCCAACACAGGCATGCTTATAA<br />
+GGAAAGGTTAAAAAAAGTAAAAGGAACTCGGCAA<br />
+&gt;TFLinkSS09749349;P08069;IGF1R;hg38;chr11:54551930-54552001<br />
+TCTTTTAGTAGAATCTGCAAGTGGATATTTGGACCACTTTGTGTCCTTCGTTCGAAGCGGGTATATCTTCA<br />
+&gt;TFLinkSS09749350;P08069;IGF1R;hg38;chr11:54550833-54550884<br />
+CTCAGAAACTTCTGTGTGATGATTGCATTCAAGTCACAGAATTGAACCCTC<br />
+&gt;TFLinkSS09749351;P08069;IGF1R;hg38;chr11:54549547-54549610<br />
+TCTATTTGTAGAATCTGCAAGTGGATATTTGGACCACTTTGTGGCCTTCATTCGAAATGGGTA<br />
+&gt;TFLinkSS09749352;P08069;IGF1R;hg38;chr11:54549131-54549203<br />
+TCTCAGAAACTACTTTGTGATGACTGCATTCACCTCACAGAGTTGAACATTCCTATTGATAGAGGACTTTGG<br />
+&gt;TFLinkSS09749353;P08069;IGF1R;hg38;chr11:54547101-54547239<br />
+TGTCATGTTTGCATTCAACTCACAGAGTTGAACCTTGCTTTCATAGTTCATGTTTGCAACACTCTTTTTGTAGAATCTGC<br />
+AAGTGGATATTTGGACGACTTTGTGGCCTTCATTCGAAACGGGTATATCTTCACATGA<br />
+&gt;TFLinkSS09749354;P08069;IGF1R;hg38;chr11:54546086-54546169<br />
+ATGATTGAGTTTAACTCACAGAGCTGAACATTCCTTTGGATGGAGCAGTTTCAAAACACACTTTTTGTAAAATCTGCAAG<br />
+TGG<br />
+&gt;TFLinkSS09749355;P08069;IGF1R;hg38;chr11:54545812-54545935<br />
+GTAGAATCTGTAAGTGGATATTTGGACCACTTTGTGGCCTTCGTTCGAAACGGGTATATCCTCACATAAAAACTAGACAG<br />
+AAGCATTCTCAGAAGCTTCTCTGTGATGATTGCATTCATCTCA<br />
+&gt;TFLinkSS09749356;P08069;IGF1R;hg38;chr11:54543475-54543618<br />
+CATTTGGAGCGCTGTGAGGCCTGTGGTGGAAAAGGAAATATCTTCATATAAAAACTAGACAGAAGCGTTCACAGAAACTA<br />
+CTCTGTGATGATTGCATTCGACTCACAGAGTTGAACATTCCTATTGATAGAGCAGTTTTGAAA<br />
+&gt;TFLinkSS09749357;P08069;IGF1R;hg38;chr11:54541510-54541566<br />
+ACTTCTTTGTGATGATTGCATTCAACTCACAGAGTTGAAGGTTCCTTTTGACAGAG<br />
+&gt;TFLinkSS09749358;P08069;IGF1R;hg38;chr11:54539710-54539831<br />
+TTTTGTACAATCTGCAATTGGAGATTTGGACTGCTTTGTGGCCTACGGTATTAAAGGAAATAACTTCACATAAAAACCAA<br />
+ACGGAAGCATTCACAGAAAATTCTTTGTGATGATTGTATTT<br />
+&gt;TFLinkSS09749359;P08069;IGF1R;hg38;chr11:54539633-54539694<br />
+AGAAACTACTTTGTGATGATTGCATTCGACTCACAGAGTTGAACATTCCTATGGATAGTGC<br />
+&gt;TFLinkSS09749361;P08069;IGF1R;hg38;chr11:54536258-54536315<br />
+ACTCACAGGCTGAACCTTCCTTTCATAGTTCAGCTTTCAAACACTCTTTCTGTAGAA<br />
+&gt;TFLinkSS09749362;P08069;IGF1R;hg38;chr11:54527919-54528018<br />
+ATTCGTTTTGATGGAGCAGTTTCCAAACACACTTTCTGTAGAATCTGCAAGTGTAAATTTGGACTTCTCTGAGGATTTCG<br />
+TTGGAAAGGGGATAAACTT<br />
+&gt;TFLinkSS09749363;P08069;IGF1R;hg38;chr22:18891088-18891195<br />
+ACATGTACAGGAAGGTCATTGAAGGCTCAGTGTTTTGTTTCAAAAACTGAATCCCAAGACCAAACATTGTTATGCTGTGC<br />
+TTCTTAAAATAAGTTATGAGATGGGAA<br />
+&gt;TFLinkSS09749364;P08069;IGF1R;hg38;chr22:18892468-18892521<br />
+AGCCTCCCAGGTAGCTGGGACTACACCACACTGGGACTACACCAGCTGCCACC<br />
+&gt;TFLinkSS09749365;P08069;IGF1R;hg38;chr7:57493969-57494112<br />
+CAAGAGAAAAGAATGGAAAGGAATGCAGTGGAATGGAATGGAATGGAGTGGAGTGGAGTGGACTGGAGAGGAGTGGAGAG<br />
+GAGTGGAGTGGAGTGGAATGGAATGGAATTGAATGGAATGGAATGGACTCAAATTGAATGGAA<br />
+&gt;TFLinkSS09749366;P08069;IGF1R;hg38;chr7:57898102-57898232<br />
+GACATTTGGAGCGCTTTGAGTCCTATGGTGGAAAAGGAAATATCTTCATAAGAAAACAAGACAAGAACTCTCGGAAACTT<br />
+CTTTGTGATGTGTGCGTTCAACTCACAGAGTTCAACCTTTCTTATGATTG<br />
+&gt;TFLinkSS09749367;P08069;IGF1R;hg38;chr7:57911428-57911482<br />
+AAATGTCCACTTGCAGATTCCAGAAAAAGAGAGTTTCAAAACTGTTCTATCAAA<br />
+&gt;TFLinkSS09749368;P08069;IGF1R;hg38;chr7:57948909-57948973<br />
+CTACTAATATCCACTTGCAGATTCCAGAAAAAGAGTGTTTCAAAACTGCTCTATCAAAAGAAAA<br />
+&gt;TFLinkSS09749369;P08069;IGF1R;hg38;chr3:75325453-75325585<br />
+GGGAAACTGTCTGATGGCTGAGACATAGCTGCTTTAGTGACAAGCTCATGGGTTATATTTCCAATGTTATTCAAGCTAAT<br />
+TTGTCCTGCCTCAACATAACATAACAGAGGTAAAGGGGCCAAGCACAGTGGC<br />
+&gt;TFLinkSS09749370;P08069;IGF1R;hg38;chr5:50110033-50110113<br />
+CCGAAGCAGTTTCTGAGAATGCTTCTGTCTAGTTTTTAGGGGCAGATATTTCCATTGGCACAATAGCCCTCAAAGCGCTC<br />
+&gt;TFLinkSS09749371;P08069;IGF1R;hg38;chr5:50144218-50144296<br />
+TCTATGGAAAGGTATGTTCAACTCTGTGAGTTTACTGCAAACATCCTAAAGAAGTTTCTGAGAATGCTGCTGTCTAGT<br />
+&gt;TFLinkSS09749372;P08069;IGF1R;hg38;chr5:50154764-50154828<br />
+GAGTGTTTCCAAACTGCTCAATTAAAGAAAGGTTAAACTCTGTGAGTTGAATGCACACATCACA<br />
+&gt;TFLinkSS09749373;P08069;IGF1R;hg38;chr11:50805711-50805803<br />
+TCTTCACAGAAAATCTAGACAGAAGCATTCTCAGAAACTTCTTTGTGATGTGTGCATTAAATACACAGATTTGAACCTTC<br />
+CTTTTGATAGAG<br />
+&gt;TFLinkSS09749374;P08069;IGF1R;hg38;chr11:54868921-54868984<br />
+AATAGTGTTTCCAAACTGCTGTATCCAAAGAAAGGTTCAACTCTGTAAGGTGAATGCACACAT<br />
+&gt;TFLinkSS09749375;P08069;IGF1R;hg38;chr10:96801686-96801774<br />
+GAGACAGACAGAGAAAGAGACAGACAGAGAAAGACAGAGACAGACAGAGAGAGAAGGAGAGAAACAGGCAGAGAGAGAGA<br />
+GAGCGAGA<br />
+&gt;TFLinkSS09749376;P08069;IGF1R;hg38;chr2:161037267-161037399<br />
+AGGATGCATCATGGTCAAATTTCCTTTCCTACTGACCAGATTGAGCTCAAGGAAGAAGGGAAAACAGTCTATCTGAATCC<br />
+CAAACATCCCTAGATTGTCATGGCTACTGTAGTTAAAAAGAAAAAAAAAAAG<br />
+&gt;TFLinkSS09749377;P08069;IGF1R;hg38;chr13:27459582-27459641<br />
+CTACGGTCCTGTGATAGACAGACCAGGGGACTCCTCAGCTCAGAGTCCATGAGGCCAGA<br />
+&gt;TFLinkSS09749378;P08069;IGF1R;hg38;chr2:89814357-89814457<br />
+ATTCCATTCTATTCCATTCCATTGTTTTCCATTCCATTCCATTTGATTACATTCCATTCGATTCCATTCCATTCGAATCA<br />
+ATTACATTGCAATCCATTAC<br />
+&gt;TFLinkSS09749379;P08069;IGF1R;hg38;chr2:89826391-89826471<br />
+GTCTATTCCATTCCATTCCATTCCACTCGGGTTGATTCCAATCCATTCCATTCCATTGCATTCCATTCCATTCCTTTCCA<br />
+&gt;TFLinkSS09749380;P08069;IGF1R;hg38;chr2:89826584-89826720<br />
+GGGTTGATTGAATTCGATTCCATTTCATTTTATTCCATTCCATTCCATTCCATTCCATTCCATTCCATTCCATTCCACTC<br />
+TTGTTGATTCCATTCCATTCCATTCAATTGCATTGCATTCCATTCGATTCCATTCC<br />
+&gt;TFLinkSS09749381;P08069;IGF1R;hg38;chr2:89828572-89828698<br />
+GCATTGCATTCCATTCCATTCCATTCCAGTTGATTCCATTCCATTCCATTCCATTCCATTCCATTCCATTCCATTCCATT<br />
+CCACTAGGTTTGATTCCATTCCATTCCATTCCATTCCATTCCATTC<br />
+&gt;TFLinkSS09749383;P08069;IGF1R;hg38;chr2:89833682-89833755<br />
+GATTCCATTCCATTCCATTCCATTCCATTCAGATTGATTCTATTCCATTCCCTTCAATTCCACTCGGGTTAAT<br />
+&gt;TFLinkSS09749384;P08069;IGF1R;hg38;chr2:89836821-89836887<br />
+CCTAGTGGAAAGGAATGATATGGAATGGAATGGAATGGAACGAAATGGAATGGAATGAAATAAATC<br />
+&gt;TFLinkSS09749386;P08069;IGF1R;hg38;chr2:89840280-89840386<br />
+AAATGGAATGGAACGAAATGGAATGGAATGGAATGGAATGGAATGGAACGGAACGGAATGGAATGGAATGGAATGGAATG<br />
+CAATCAACCCGAGTGGAATGGAATGG<br />
+&gt;TFLinkSS09749387;P08069;IGF1R;hg38;chr10:133763351-133763462<br />
+CCTAGACAAGAGTTACATCACCTGGGTGATCAGTACAGAAATATGTCACAAAGCCCCTGTAGGCAGAGCCTAGACAAGAG<br />
+TTACATCACCTGGGTTATCAGTGCAGAAATA<br />
+&gt;TFLinkSS09749390;P08069;IGF1R;hg38;chr7:154649460-154649587<br />
+CTTCCAAAGTGGCTGCACCATTAAGAACTCTGCCTTTTTCTTAACTCACTACCCCAGGACTGACTTTTTTGACCCCCTGC<br />
+CCTCCGCCCGGTCACTGTGTATGGCAGGTGGAATCCACCATGCCCTG<br />
+&gt;TFLinkSS09749391;P08069;IGF1R;hg38;chr12:127165920-127166008<br />
+TGGAGATCTGACTTTCAATAGATCGCAGCGAGGGAGCTGCTCTGCTACGTACGAAACCCCGACCCAGAAGCAAGTCGTCT<br />
+ACGAATGG<br />
+&gt;TFLinkSS09749392;P08069;IGF1R;hg38;chr17:47136553-47136644<br />
+AGAAATAGGACCAAACTTTTTCATATCTTATTCAGTTGATAACAATATGACCTAGGTAGTAATTTCCTATGTGTCTACTT<br />
+ATACACAAGTA<br />
+&gt;TFLinkSS09749393;P08069;IGF1R;hg38;chr17:47156924-47157033<br />
+GGACTAAGAGCTGCTGGTCCTCCTAATAAACTTCGACCAGTTTTTGGTTTATTTTGAACCTGTTTAGATAATATGGAAGT<br />
+TCCTGTTCCCAGTGGGACAGTATCAGGTG<br />
+&gt;TFLinkSS09749394;P08069;IGF1R;hg38;chr17:47171937-47172006<br />
+TTTGCAAGCAGGTATTTGCATTGCGGTGTAGTACAACTGTGTCCTTTCAAGAGTCTATATGCTTTATAT<br />
+&gt;TFLinkSS09749395;P08069;IGF1R;hg38;chr4:69430942-69431043<br />
+ACGCTCCAGCGCCATCCATTTTCAGGGCTAGTTGATTCGGCAGGTGAGTTGTTACACACTCCTTAGCGGATTCTGACTTC<br />
+CATGGCCACCGTCTGTTTCTT<br />
+&gt;TFLinkSS09749396;P08069;IGF1R;hg38;chr4:90058784-90058929<br />
+CCAGGAGACCAGCCTGGCCAACCAAGTGAGACCCCTATCTCTACAAATAATTAAAAATATAGCCTGGTGTGGTGGCACAT<br />
+GTCTGTATTCCCATCTACTCTGGAGGCTGAGGCAGAAGGATTGTCTGAGCTCAGGAGGTCGAGGC<br />
+&gt;TFLinkSS09749397;P08069;IGF1R;hg38;chr9:10290-10345<br />
+TCTAACCCTAAACCCTAAACCCTAAACCCTAAACCCTAAACCCTAACCCTACCCT<br />
+&gt;TFLinkSS09749398;P08069;IGF1R;hg38;chr2:92079589-92079648<br />
+CATTCGAGTCCATTTGATGATTCCATTCGATTCCATTCGACGATGATTCCATTAGAGTC<br />
+&gt;TFLinkSS09749399;P08069;IGF1R;hg38;chr2:92081674-92081792<br />
+TCGATAATTCCATTTGATTCCATTTGATGTTGATTCCATTCGAGTCCATTTGATGATTATTCCATTCGATTCTATTTGGT<br />
+GATTCCATTCGATTCCATTTGATAATGATTCCATTTGA<br />
+&gt;TFLinkSS09749400;P08069;IGF1R;hg38;chr2:92084926-92084983<br />
+CAAGAGGATATTTGGATACCTTTGAGGATTTCGTTGGAAACGGGAATATCTTCATAT<br />
+&gt;TFLinkSS09749401;P08069;IGF1R;hg38;chr2:92085037-92085127<br />
+CCCAGAGTTGAACATTCCCTTTCATAGAGCAGGTTTGAAATACTCTTTTTGTAGTATCTGGAACTCACAATTTGATCGCT<br />
+TTATTCTTAT<br />
+&gt;TFLinkSS09749402;P08069;IGF1R;hg38;chr2:92085366-92085428<br />
+TGCATTCAAGTCACAGAGGTGAACATTCCCTTTCATACAGCAGGTTTGAAACACTGATTTTG<br />
+&gt;TFLinkSS09749403;P08069;IGF1R;hg38;chr2:92087884-92087961<br />
+TCGCATAAAAACTAGACAGAAGCATTCTCATAAACTTGTTTGTGATGTGTGAACTCAACAAACAGAGGTGAACTTTC<br />
+&gt;TFLinkSS09749404;P08069;IGF1R;hg38;chr2:92088638-92088720<br />
+ATTTTCCTTTGATAGAGCAGTTTTGAAACACTCTTTTTGTGGAATCTGCAAGTGGATATTTGGATAGCTTTGAGGATTAG<br />
+GT<br />
+&gt;TFLinkSS09749406;P08069;IGF1R;hg38;chr2:92098703-92098768<br />
+TGATCACTCCCTTTCATAGAGCAGCTTTGAAGCACTCTTTTTGTAGTATCTGGAAGTGGACGTTT<br />
+&gt;TFLinkSS09749407;P08069;IGF1R;hg38;chr2:92099693-92099746<br />
+CATCTTTGGGATGTTTGCATTCAAGTCACAGAGTTGAACACTCCCTATCATGG<br />
+&gt;TFLinkSS09749408;P08069;IGF1R;hg38;chr2:92102475-92102560<br />
+GAGCAGGTTGGAAACACGCCTTTTGTCATATCTGGAAGTGTCCATTTGGAGTGCATTCAGGCTTGTGTTGAAAAAGGAAA<br />
+TACCT<br />
+&gt;TFLinkSS09749409;P08069;IGF1R;hg38;chr2:92102910-92102987<br />
+TAGACAGAAGCATTCTCAGAAACTTATTTGTGATGTGTGCCCTCAACTAACAATGTTGAACCTTTCTTTTGATAGAG<br />
+&gt;TFLinkSS09749410;P08069;IGF1R;hg38;chr2:92103099-92103181<br />
+AAATTTCTTTGGGATGTTTCAATTGAAGTCACAGTGTTGAACATTCCCTTTGTTAGAGCAGGTTTGAAACACTCTTCTTG<br />
+TA<br />
+&gt;TFLinkSS09749412;P08069;IGF1R;hg38;chr2:92109930-92109984<br />
+TCAAGTCACAGAGTTGAACATTCCCTTTCATAGAGCAGCTTTGAAACACTCTTT<br />
+&gt;TFLinkSS09749413;P08069;IGF1R;hg38;chr2:92112671-92112735<br />
+AGTGTTGAACATTCCATTTGAGAGAGCAGGTTTGAAACACGCCTTTTGTCATGTCTGGAAGCTG<br />
+&gt;TFLinkSS09749415;P08069;IGF1R;hg38;chr2:92118054-92118137<br />
+TGGAAACGGGATTACATATAAAAAGCAGACAGCAGCATTCTCAGAAACTCCTTTGTGATGTTTGCATTCAAGTCACAGAG<br />
+TTG<br />
+&gt;TFLinkSS09749416;P08069;IGF1R;hg38;chr2:92120016-92120074<br />
+CTTTTGAGAGAGCAGTTTTGAAACACTCTTTTTGTGGAATATGCAAGTGGATATTTGT<br />
+&gt;TFLinkSS09749417;P08069;IGF1R;hg38;chr2:92121139-92121241<br />
+CAGAGAGCAGCATTCTCAGAAACTTCTCTGTGATGTTTGCATTCAAGTCACAGATTTGAATATTCCCTTTCATAGAGCAG<br />
+GTTTGAAACACTCTTTTTGTAG<br />
+&gt;TFLinkSS09749418;P08069;IGF1R;hg38;chr2:92127358-92127496<br />
+TGGAAGTGGACATTTGGAGCGCTTTCAGGCCTATGTTGAAAAAGGAAATATCTTCCCATAAAAACAAGACAGAAGCATTC<br />
+TCTGAAACCGGTTTCTGAGGTGTGTCCTCAACTAACAGAGTTGAACATTTCTTTTGAC<br />
+&gt;TFLinkSS09749419;P08069;IGF1R;hg38;chr2:92127943-92128020<br />
+CCAGAAACTTCTTTGTGATGTTTGCATTCAAGTCACACAGTTGAACATTCCCTTTCATAGAGCAGGTTTGAAACACT<br />
+&gt;TFLinkSS09749420;P08069;IGF1R;hg38;chr2:92128186-92128329<br />
+ACACTCTTTTTGTGGAATCTGCAAGTGGATATTTGTCTAGATTTGAGGATTTCGTTGGAAACGGGATTACATATAAAAAG<br />
+CAGACAGCAGCATTCCCAGAAACTACTTTGTGATGTTTGCATTCAAGTCACAGAGTTGAACAT<br />
+&gt;TFLinkSS09749421;P08069;IGF1R;hg38;chr2:92129691-92129807<br />
+CCTTTCATAGAGCAGGTTTGAAACACTCTTTTTGTAGTATATGGAAGTGGACATTTCGAGCGCTCTCAGGACTGCGGTGA<br />
+AAAAGGAAATATCTTCCAATAAAAGCTAGATAGAAG<br />
+&gt;TFLinkSS09749422;P08069;IGF1R;hg38;chr2:92130629-92130738<br />
+ATTACATATAAAAAGCAGACAGCAGCATTCCCAGAATCTTGTTTGTGATGTTTGCATTCAAGTCACAGAGTTGAACATTC<br />
+CCTTTCAGAGACCAGGTTTGAAACACTCT<br />
+&gt;TFLinkSS09749423;P08069;IGF1R;hg38;chr2:92131072-92131134<br />
+AACACTCTTTTTGTAGTATCTGGAAGTGGACATTTGGAGAGATCTCTGGACTACGGTGAAAA<br />
+&gt;TFLinkSS09749424;P08069;IGF1R;hg38;chr2:92132021-92132158<br />
+AGTAACTTCCTTGTGATGTTTGCATTCAAGTCACAGAGTTGAACATTCCCTTTCATAGAGCAGGTTTGAAACACTCTTTT<br />
+TGTAGTATCTGGATGAGGACATTTGGAGCGCTTTCAGGCCTATGGTGAAAAAGGAAA<br />
+&gt;TFLinkSS09749425;P08069;IGF1R;hg38;chr2:92132376-92132432<br />
+GGATGTTTCAATTGAAGTCACAGTGTTGAACATTCCCTTTCATAGAGCAGGTTTGA<br />
+&gt;TFLinkSS09749426;P08069;IGF1R;hg38;chr2:92132759-92132850<br />
+ATAGAGCAGGTTTGAAACAATCTTTTTGTAGTATCTGGAAGTGGACATTTGGAGCGCTCTCAGGACTGCGGTGAAAAAGG<br />
+AATTATCTTCC<br />
+&gt;TFLinkSS09749427;P08069;IGF1R;hg38;chr2:92133270-92133331<br />
+AGAGCAGTTTTGAAACACACTTTTTGTAAAATCTGCAAGAGGATATTTGGATAGATTTGAG<br />
+&gt;TFLinkSS09749428;P08069;IGF1R;hg38;chr2:92135376-92135444<br />
+GGAAAGGGGATTGTCTTCATATAAAATCTAGACAGAAGCATTCTCAGAAGCTTCATTGGGATGTTTCA<br />
+&gt;TFLinkSS09749429;P08069;IGF1R;hg38;chr2:92135512-92135592<br />
+GAATTGGAAATTTTGAGAGACCTCAGGAATACGGTGATAAAGGAAATATCTTCCAATAAAAGCTAGATAGAAGCAATGTC<br />
+&gt;TFLinkSS09749430;P08069;IGF1R;hg38;chr2:92136150-92136241<br />
+CTTTCATAGAGCAGGTTTGAAACACTCTTTTTGTAGTTTCTGGAAGTGGACATTTGGAGAGATCTCATTAATACGGTGAT<br />
+AAAGGAAATAT<br />
+&gt;TFLinkSS09749432;P08069;IGF1R;hg38;chr12:124093069-124093128<br />
+GATGGTGATGGTGATGGTGTGATGATGGTGATGGTGTGGTGATGATGGTGATGGTGATC<br />
+&gt;TFLinkSS09749433;P08069;IGF1R;hg38;chr8:45930041-45930102<br />
+ATTCTGAGAAACTTATTTGTGATGTGTGTCCTCAACAAACGGACTTCAACCTTTCGTTTCA<br />
+&gt;TFLinkSS09749434;P08069;IGF1R;hg38;chr8:45933778-45933839<br />
+TTCTGAGAAACTTATTTGTGATGTGTGTCCTCAACTAAAGGACTTGAACCTTTCGTTTCAT<br />
+&gt;TFLinkSS09749435;P08069;IGF1R;hg38;chr8:45940831-45940902<br />
+TAGTATCTGGAAGTGGACATTTGGAGCGCTTTCAGGCCTACGGTGAAAAAGGAAATATCTTCCCATAAAAA<br />
+&gt;TFLinkSS09749436;P08069;IGF1R;hg38;chr8:45941136-45941196<br />
+CATTCATAAAGCAGGTTGGAAACACTCCTTTTGTAGTATCTGGAAGTGGACATTTGGAGC<br />
+&gt;TFLinkSS09749437;P08069;IGF1R;hg38;chr8:45991530-45991585<br />
+AGAAACTTCTTTGTGGTGTGTGTATTCAACTCACAGAGTTGAACCTTTTTTTGAT<br />
+&gt;TFLinkSS09749438;P08069;IGF1R;hg38;chr10:38789203-38789265<br />
+GAGTCTATTCCTTTCCTTTCCTTTCCATTCCATTTGATGCCATTCCATTCGATTCCATTTCA<br />
+&gt;TFLinkSS09749439;P08069;IGF1R;hg38;chr10:38794438-38794572<br />
+ATTCCATTTGACTCCATTACATTCCACTCCATTCCATCCTATTCCATTCCATTCTGTTCCTTTCCATTCCATTCCATTCC<br />
+ATTCTATTCGTTTCCATTTCTTTCGAGTCCATTCCACTCCAGTCCATTCCATAA<br />
+&gt;TFLinkSS09749440;P08069;IGF1R;hg38;chr10:38801178-38801254<br />
+CATTTGATTACATTTTGTTCCAGTCCATTCCTTTCGAGTCCATTCCATTTCAGTCCATTCCATTCGATTCCATTCC<br />
+&gt;TFLinkSS09749442;P08069;IGF1R;hg38;chr10:38814149-38814298<br />
+TTCCATTCGAATCAATTACTTTGCAATCCATTACATTCGAGTCTGTTCTATTCCATTCCATTCCATTCCAATCCATTCTA<br />
+TTCGATTCCATTCCATTCGATTCCATTCCATACTATTGCATTCCAATCCATTCCATTCGATTGGAATAA<br />
+&gt;TFLinkSS09749443;P08069;IGF1R;hg38;chr10:38827332-38827415<br />
+GGAATGAAATGTAAGGGAATGGAATGGACCCAAATGTAATGGACTGGAATGGAATGGAATCAAATAGAATGGACTCAAAA<br />
+GTA<br />
+&gt;TFLinkSS09749444;P08069;IGF1R;hg38;chr10:38828285-38828351<br />
+TGAATGGAATCGAATGGAATGGAATCAAATGGAATGGACCAGAATGGAATGGACTGGAATAGAGTG<br />
+&gt;TFLinkSS09749445;P08069;IGF1R;hg38;chr10:38844961-38845081<br />
+TGGAATGATATCGAATGGAATGGAATGGGCTCGAATTCAATGGACTGGGATGGAATGGACTCGAATGGAATGGACTGGAG<br />
+TGGAATGGACACGAATGGAATGGAAACGTATGGAATGGAA<br />
+&gt;TFLinkSS09749446;P08069;IGF1R;hg38;chr10:38848039-38848131<br />
+TGGAATCGAATGGAATGAAATCCAATGGAATGGAAAGGAATGCAATGGAACGCAATAGAATGGAATGCAATGGAATGGAA<br />
+CGAAGTGGAATT<br />
+&gt;TFLinkSS09749447;P08069;IGF1R;hg38;chr7:133293873-133293968<br />
+GTAGCTTTGTGATATGTACGGTTTAAATTAGACCTTTGCAGTCATTGTGCTGGGTTGATGCAAGCACATTAATGACATAA<br />
+TTTCTGGTTGCAGCA<br />
+&gt;TFLinkSS09749448;P08069;IGF1R;hg38;chr7:133723341-133723468<br />
+TCATTCAATCTTAGATGGAATTGGTTAGAGAGGAGAAATAGAACACTATTTAAAACAAGAGAAATGGTATATCCCCCTCT<br />
+GGCAGAGAACACAGGTAAGACATTACCTCTTGTACTTGATGGGAGAA<br />
+&gt;TFLinkSS09749451;P08069;IGF1R;hg38;chr12:117236053-117236176<br />
+CCAAAAAACAAACAAACCCCATATCTGTATTTCAGTACAGATATACTGCATTTCACCCAACACCTGCAAACTCGAGGATC<br />
+GATTACACTTTGAGAAATCAAATCCTTTGCACCCTTTGAGCTA<br />
+&gt;TFLinkSS09749452;P08069;IGF1R;hg38;chr6:61336328-61336380<br />
+ATAGCTGAAAGGGAAATATCTTCCCATAAAAACTAGGCAGAAGCATTCTGAG<br />
+&gt;TFLinkSS09749453;P08069;IGF1R;hg38;chr6:61331884-61331997<br />
+GTGCTTTGAGGCCTCTGGTAGAAAAGGAAATTTCTTCATATAAAAACTAGACAGCAGCATTCTCAGAAACTACTTTGTGA<br />
+TGTTTGCATTCAACTCACAGTGTTGAACATTCC<br />
+&gt;TFLinkSS09749454;P08069;IGF1R;hg38;chr6:61323741-61323841<br />
+AATCATTCTCAGAAACTACTTTGTGATGTCTGCGTTCAACTCACAGAGTTTAACCTTTCTTTTCATAGAGCAGTTTTGAA<br />
+ACACTCTGTTTGTAATATCT<br />
+&gt;TFLinkSS09749460;P08069;IGF1R;hg38;chr19:27243825-27243974<br />
+GGCCTTCGTTGGAAACGGGATTTCTTCATATAATGCTAGAGGGAAGAATTCTTAGTAACTTCTTCGTGTTGTGTGTATTC<br />
+AACTGTCAGAGTTGAACCATCATTTAGACAGAGCAGATTTCAAACACTCTTTTTGTGGAATTTGCAAAT<br />
+&gt;TFLinkSS09749461;P08069;IGF1R;hg38;chr19:27246987-27247085<br />
+TAGACAGAGCAGATTTCAAACACACTTTTTGTGGAATTTGCAAGTGGAGATTTCAAGCGCTTTGAGGCCAATTGTAGAAA<br />
+AGGAAATATCTTCGTATA<br />
+&gt;TFLinkSS09749463;P08069;IGF1R;hg38;chr19:27247954-27248051<br />
+TCAGTAACTTCCTTGTGTTGTGTGTATTCAACTCACAGAGTTGAACGTTCCTTTAGACAGAGCAGATTTGAAACACGCTT<br />
+TTTGTGGAATTTGCAAG<br />
+&gt;TFLinkSS09749465;P08069;IGF1R;hg38;chr19:27248845-27248911<br />
+ACGTTTGTTTTCATAGAGCAGTTGGGAAACACTCTGTTTGTAAAGTCTTCAAGTGGATATTTTTAC<br />
+&gt;TFLinkSS09749466;P08069;IGF1R;hg38;chr19:27252748-27252800<br />
+TGGAAACAGGAATATCTTCACATAAAAACTAGATGGAAGCATTCTCCAAAAC<br />
+&gt;TFLinkSS09749467;P08069;IGF1R;hg38;chr19:27259392-27259445<br />
+CTTTGTGATGTTTGCATTCAACTCACAGTGTTGAACCTTTCTTTTCATAGAGC<br />
+&gt;TFLinkSS09749468;P08069;IGF1R;hg38;chr19:27266330-27266386<br />
+TAGAGAGAAGCATTCTCAGAAACTTCTTTGTGATGTTGCATTCAACTCAGAGAGTT<br />
+&gt;TFLinkSS09749469;P08069;IGF1R;hg38;chr19:27273704-27273808<br />
+AGTGTTGAACCTTTATTTTTACAGAGCAGCTTTGAAACACACTTTTTGTAGAATCTACAAGTGGATATTTGGACTGCTTG<br />
+GAGGCCTTCATTGGAAACGGGAAT<br />
+&gt;TFLinkSS09749470;P08069;IGF1R;hg38;chr19:27360433-27360509<br />
+ACTACAAATATCCATTTGTAGAGTCTACAAAAGAGTTTTTCCAAACTGCTCCATCAAAAGAAAGGTTGAACTGTGA<br />
+&gt;TFLinkSS09749471;P08069;IGF1R;hg38;chr19:27476207-27476263<br />
+TGAATGCACACATCACAAACAAGTTTCTCAGAATGCTTCTTTCTAGTTTTTATGTG<br />
+&gt;TFLinkSS09749474;P08069;IGF1R;hg38;chr14:18235024-18235144<br />
+CTTGCAGATTCTACAAAAAGAGTGCTTCAAAACTGCTCTGTCAAAAGAAAGGTTTAACTCTGTGAGTTGAGTGCACACAT<br />
+CACAAAGAAGTTTATGAGAATTCTTCTGTCTAGTTTTTAT<br />
+&gt;TFLinkSS09749475;P08069;IGF1R;hg38;chr14:18237236-18237363<br />
+AATGTCCACTTGCAGATACTACAAAAAGATTGTTTCAAGACTTCTCTATCAAAAGATATGTTCAACTCTATGAGTTGAAT<br />
+GCAAACATCACAAAGCAGTTTCTGAGAATGCTCCTGTCTAGTTTTTA<br />
+&gt;TFLinkSS09749476;P08069;IGF1R;hg38;chr14:18242610-18242670<br />
+TGCACACATCACAAAGAAGTTCCTGAGAATGCTTCTCTCTAGTTTTTATATGAAGATACT<br />
+&gt;TFLinkSS09749477;P08069;IGF1R;hg38;chr14:18261907-18261992<br />
+TCTGAGAATGCTTCAGTCTAGTTTTTATGGGAAGATATTTCCTTTTCCACCGTAGGCCTGAAAGCGCTCAAAATGTCCAC<br />
+TTGCA<br />
+&gt;TFLinkSS09749478;P08069;IGF1R;hg38;chr14:18262604-18262706<br />
+CTGTCTAGTTTTTATGTAAAGATATTCCCGTTTCCAACGAAGGCCTCAAAGCGGTCCAAATATCCACTTACAGTTTCTAC<br />
+AAAAAGAGTGTTTCAAAACTGC<br />
+&gt;TFLinkSS09749479;P08069;IGF1R;hg38;chr14:18268102-18268154<br />
+TTTTCCACCGTAGGCCTCAAAGCGCTCCAAATGTCCACTTCCACATTCAACA<br />
+&gt;TFLinkSS09749481;P08069;IGF1R;hg38;chr8:81842427-81842569<br />
+GACAGAGAGAAAGAGAGAGAGAGAGGGCAAGAGCGAGAGACAGAGAGAGAGAGAGAGAGAGAGAGAGAGAGAGAGAGAGA<br />
+GAGAGAGAGAGAGAGAGAAAGAGAAAGAAAACGAGCGAGGGAGAGAGCGAGAGCGAGAGAGA<br />
+&gt;TFLinkSS09749487;P08069;IGF1R;hg38;chr18:20936589-20936658<br />
+TCTCAGAAACTTCTTTGTGATGTGTGTCCTCAACTAACAGAGTTGAACCTTTCTTTTGACAGAGCAGTT<br />
+&gt;TFLinkSS09749491;P08069;IGF1R;hg38;chr11:2001464-2001579<br />
+CTGATGAGGTCCTTGAGTCTGATTCCAGCAGCACAGAGCCTCCAGGGCAGAGCCGAGGTGAGGCTCTGGAAAATGCACTG<br />
+TCAGGCTCACACAAGCACATGTTGGCCAGATGTAC</p>
+
+    </div>
+  </div>
+  
+  <div class="uk-width-1-3@m">
+    <h2>Binding site sequences of IGF1R based on large-scale evidences</h2>
+    <button
+      onclick="location.href='https://cdn.netbiol.org/tflink/ls_fasta/TFLink_P08069_LS.fasta'"
+      type="button">
+      <span uk-icon="icon: download; ratio: 1.5"></span>
+      <h4 style="display: inline-block; margin: 0">Download</h4>
+    </button>
+  </div>
+  
+</div>
+
+
+
+
+
+
+<script src="/protein.e9931.js"></script>
+
+
+<script src="/network.e9931.js"></script>
+
+
+  </div>
+
+  
+  <footer class="uk-container uk-container-small"></footer>
+
+  
+
+  
+  
+  <script src="/main.e9931.js"></script>
+  
+</body>
+
+</html>
